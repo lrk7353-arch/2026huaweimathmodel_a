@@ -1,0 +1,10 @@
+﻿case,method,stage,makespan_cycles,semantics
+case_071,forced_observed_reencoding,0,8190,candidate value; forced continuation after regression
+case_071,forced_observed_reencoding,1,8234,candidate value; forced continuation after regression
+case_071,forced_observed_reencoding,2,8246,candidate value; forced continuation after regression
+case_071,strict_retention_control,0,8190,incumbent; second step derived from identical evaluated plan hash
+case_071,strict_retention_control,1,8190,incumbent; second step derived from identical evaluated plan hash
+case_071,strict_retention_control,2,8190,incumbent; second step derived from identical evaluated plan hash
+case_071,old_full_cache_probe,0,8190,retained incumbent; final winner is reencoding control
+case_071,old_full_cache_probe,1,8189,retained incumbent; final winner is reencoding control
+case_071,old_full_cache_probe,2,7952,retained incumbent; final winner is reencoding control

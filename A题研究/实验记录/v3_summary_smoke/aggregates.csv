@@ -1,0 +1,4 @@
+﻿batch,problem,num_cores,seed,reported_verified,planned,all_100,mean_official_speedup,mean_logical_calls
+batch_smoke_v1,1,2,17,1,1,False,,
+batch_smoke_v1,2,2,17,1,1,False,,
+batch_smoke_v1,3,2,17,1,1,False,,

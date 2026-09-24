@@ -1,0 +1,13 @@
+﻿batch,problem,num_cores,seed,planned,verified_complete,all100,status_counts,mean_speedup,median_speedup,minimum_speedup
+full_p1_seed17,1,2,17,100,15,False,"{""completed_feasible"": 15, ""pending"": 85}",,,
+full_p1_seed17,1,3,17,100,14,False,"{""completed_feasible"": 14, ""pending"": 86}",,,
+full_p1_seed17,1,4,17,100,14,False,"{""completed_feasible"": 14, ""pending"": 86}",,,
+full_p1_seed17,1,5,17,100,13,False,"{""completed_feasible"": 13, ""pending"": 87}",,,
+full_p2_seed17,2,2,17,100,19,False,"{""completed_feasible"": 19, ""pending"": 81}",,,
+full_p2_seed17,2,3,17,100,19,False,"{""completed_feasible"": 19, ""pending"": 81}",,,
+full_p2_seed17,2,4,17,100,18,False,"{""completed_feasible"": 18, ""pending"": 82}",,,
+full_p2_seed17,2,5,17,100,18,False,"{""completed_feasible"": 18, ""pending"": 82}",,,
+full_p3_seed17,3,2,17,100,6,False,"{""completed_feasible"": 6, ""pending"": 94}",,,
+full_p3_seed17,3,3,17,100,5,False,"{""completed_feasible"": 5, ""pending"": 95}",,,
+full_p3_seed17,3,4,17,100,5,False,"{""completed_feasible"": 5, ""pending"": 95}",,,
+full_p3_seed17,3,5,17,100,5,False,"{""completed_feasible"": 5, ""pending"": 95}",,,

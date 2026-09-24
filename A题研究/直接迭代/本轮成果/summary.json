@@ -1,0 +1,36 @@
+{
+  "coverage": 1227,
+  "strict_time_improved": 98,
+  "objective_improved": 100,
+  "five_core": [
+    {
+      "problem": 1,
+      "cases": 100,
+      "before_mean_speedup": 3.4151217613682117,
+      "after_mean_speedup": 3.4979171183483646,
+      "improved_cases": 29
+    },
+    {
+      "problem": 2,
+      "cases": 100,
+      "before_mean_speedup": 4.256442388813812,
+      "after_mean_speedup": 4.323887617140977,
+      "improved_cases": 54
+    },
+    {
+      "problem": 3,
+      "cases": 100,
+      "before_mean_speedup": 4.388201340269968,
+      "after_mean_speedup": 4.410142030312306,
+      "improved_cases": 15
+    }
+  ],
+  "fair_P2_N5": {
+    "coverage": 100,
+    "wins": 62,
+    "ties": 24,
+    "losses": 14,
+    "component_mean_speedup": 3.4097418543847726,
+    "full_mean_speedup": 4.205800286751564
+  }
+}

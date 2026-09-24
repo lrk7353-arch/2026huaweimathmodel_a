@@ -1,0 +1,40 @@
+# Track source, documentation and selected deliverables by default.
+*
+!*/
+!*.py
+!*.md
+!*.csv
+!*.command
+!*.sh
+!requirements*.txt
+!/.gitignore
+
+# This repository covers problem A only.
+/A题/
+/B题/
+/C题/
+/D题/
+/E题/
+/F题/
+/E题研究/
+/交接包/
+/选题分析/*
+!/选题分析/A题附件/
+!/选题分析/A题附件/data/*.json
+!/选题分析/A题附件/data/config.txt
+!/选题分析/A题附件/docs/*.pdf
+
+# Regenerable evaluations and duplicate source/result snapshots.
+**/runs/
+**/evaluations/
+**/source_snapshot/
+**/__pycache__/
+**/.venv/
+**/.DS_Store
+/A题研究/当前最佳方案*/
+/A题研究/计算交付*/
+/A题研究/实验记录/队友交接构建*/
+/A题研究/直接迭代/运行结果/
+
+# Selected official-evaluated plans and aggregate result metadata.
+!/A题研究/直接迭代/本轮成果/**/*.json

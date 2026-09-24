@@ -1,0 +1,4 @@
+﻿method,official_arithmetic_mean_B_over_T,n_graphs,wins_against_control,ties_against_control,losses_against_control
+WCC_control,3.337082579713175,100,0,100,0
+bare_operation,3.2854405621282066,100,44,5,51
+retained_portfolio,3.9462379957232776,100,44,56,0
