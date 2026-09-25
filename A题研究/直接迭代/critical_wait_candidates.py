@@ -202,7 +202,7 @@ def p23_candidates(ir,plan,raw,obs,cores,round_index,deadline):
                 relevant=next((p for p in proposals if p['target_tensor'] in target),None)
                 if relevant:
                     owners=assignment.copy();owners.update(relevant['changes'])
-                    emit(f'wait_fifo_move_{i}',owners,readorder,dict(c['metadata'],family='wait_fifo_placement',
+                    emit(f'wait_fifo_move_{i}',owners,readorder,dict(c['metadata'],family='wait_fifo_placement',fixed_assignment=False,
                         changes=[dict(op=o,from_core=assignment[o],to_core=v) for o,v in sorted(relevant['changes'].items())],
                         partition_copy_bytes=partition_copy_bytes(ir,owners,views)))
         cache_diag=dict(categories=dict(cv['counts']),candidate_diagnostics=diag)

@@ -32,8 +32,12 @@ def archive(records,best,width=4):
 def run(case,problem,cores,initial,out,policy,budget=12,seconds=180,timeout=45):
     if policy not in ('mature','proxy','wait_joint'):raise ValueError('invalid policy')
     if type(budget) is not int or budget<1 or not all(math.isfinite(x) and x>0 for x in (seconds,timeout)):raise ValueError('invalid budgets')
-    out=Path(out);out.mkdir(parents=True,exist_ok=False);started=time.monotonic();deadline=started+seconds
+    if type(problem) is not int or problem not in (1,2,3):raise ValueError('problem must be 1, 2 or 3')
+    if type(cores) is not int or cores not in range(1,6):raise ValueError('cores must be 1 through 5')
+    if len(initial.get('core_schedules',[]))!=cores:raise ValueError('wrong target core count')
+    started=time.monotonic();deadline=started+seconds
     ir=GraphIR.from_path(DATA/(case+'.json'));validate_plan(ir,initial)
+    out=Path(out);out.mkdir(parents=True,exist_ok=False)
     calls=[];generations=[];best=None;records=[];expanded=set();seen=set();pending=deque();gen_seconds=0
     atomic_json(out/'input.json',dict(case=case,problem=problem,cores=cores,policy=policy,budget=budget,seconds=seconds,timeout=timeout))
     def checkpoint(done=False):
@@ -86,3 +90,28 @@ def run(case,problem,cores,initial,out,policy,budget=12,seconds=180,timeout=45):
         if time.monotonic()>=deadline:break
         evaluate_one(c,c['parent_record']);since_generation+=1
     return checkpoint(True)
+
+
+def main():
+    import argparse
+    import json
+    parser=argparse.ArgumentParser(description='Charged warm refinement of an explicit plan; no historical cache required.')
+    parser.add_argument('--case',required=True,help='Graph name, for example case_023')
+    parser.add_argument('--problem',type=int,choices=(1,2,3),required=True)
+    parser.add_argument('--cores',type=int,choices=range(1,6),required=True)
+    parser.add_argument('--incumbent-plan',type=Path,required=True)
+    parser.add_argument('--out',type=Path,required=True,help='New output directory; must not already exist')
+    parser.add_argument('--policy',choices=('mature','proxy','wait_joint'),default='wait_joint')
+    parser.add_argument('--budget',type=int,default=12,help='Total official calls, including initial plan and failures')
+    parser.add_argument('--seconds',type=float,default=180)
+    parser.add_argument('--timeout',type=float,default=45)
+    args=parser.parse_args()
+    result=run(args.case,args.problem,args.cores,read_json(args.incumbent_plan),args.out,args.policy,
+               args.budget,args.seconds,args.timeout)
+    best=result['best_record']
+    print(json.dumps(dict(output=str(args.out.resolve()),logical_calls=result['logical_calls'],failures=result['failures'],
+                          generation_failures=result['generation_failures'],best_score=score(best) if best else None,
+                          elapsed_seconds=result['elapsed_seconds']),ensure_ascii=False))
+
+
+if __name__=='__main__':main()

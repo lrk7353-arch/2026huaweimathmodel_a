@@ -36,5 +36,14 @@ class BudgetContract(unittest.TestCase):
             with self.assertRaises(ValueError):wait_search.run('case_001',2,2,{},out,'wait_joint',budget=0)
             self.assertFalse(out.exists())
 
+    def test_wrong_scenario_or_core_count_rejected_before_any_evaluation(self):
+        plan=dict(node_to_subgraph={'0':0},core_schedules=[[0],[]])
+        for problem,cores in ((0,2),(True,2),(2,0),(2,6),(2,3)):
+            with self.subTest(problem=problem,cores=cores),tempfile.TemporaryDirectory() as tmp:
+                out=Path(tmp)/'no_output'
+                with patch.object(wait_search,'evaluate') as evaluator:
+                    with self.assertRaises(ValueError):wait_search.run('case_001',problem,cores,plan,out,'wait_joint')
+                evaluator.assert_not_called();self.assertFalse(out.exists())
+
 
 if __name__=='__main__':unittest.main()
