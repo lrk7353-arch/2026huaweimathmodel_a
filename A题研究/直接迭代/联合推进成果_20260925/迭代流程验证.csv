@@ -1,0 +1,3 @@
+﻿case,before,after,logical_calls,new_calls,elapsed_seconds,stop_reason
+case_062,942950,789139,8,8,72.70053509599529,call_budget
+case_063,286820,252654,4,4,12.154882116999943,neighbourhood_exhausted

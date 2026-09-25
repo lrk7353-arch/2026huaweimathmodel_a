@@ -1,0 +1,5 @@
+﻿case,problem,cores,before,after,before_copy,after_copy,reduction_pct,source,plan,replay_status,official_result
+case_016,1,5,3304638,3223183,119557168,119555952,2.464869071892295,my_runs/region_panel_v1/case_016/tasks/summary.json,方案/case_016_p1_n5.json,success,官方复评/case_016/official_result.json.gz
+case_062,1,5,942950,789139,23235072,23235072,16.311681425314173,my_runs/iterative_case62_v1/summary.json,方案/case_062_p1_n5.json,success,官方复评/case_062/official_result.json.gz
+case_063,1,5,286820,252654,8812032,8812032,11.912000557841152,my_runs/region_panel_v1/case_063/tasks/summary.json,方案/case_063_p1_n5.json,success,官方复评/case_063/official_result.json.gz
+case_100,1,5,57811,57811,55296,0,0.0,my_runs/region_panel_v1/case_100/tasks/summary.json,方案/case_100_p1_n5.json,success,官方复评/case_100/official_result.json.gz

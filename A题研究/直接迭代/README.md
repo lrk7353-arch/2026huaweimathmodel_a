@@ -74,6 +74,34 @@ python3 -B A题研究/直接迭代/solve.py --case 62 --problem 1 --cores 5 \
 
 任务精修的“合并上限”仅限制新合并任务；原方案中超过上限的大任务会单独保留，不会在合并阶段自动拆分。拆分由独立候选处理。全部候选生成自同一个输入方案，本次搜索内不递归扩展新优解。
 
+## 联合推进实验：在接受改进后重新生成候选
+
+基于上游 `18e0957` 的独立补充实验见[审阅与推进结果](联合推进成果_20260925/审阅与推进结果.md)。这些改动尚未进入默认算法或从头 portfolio；下面两个模式都是从给定方案继续精修。
+
+`task_iterative` 复用现有 Task 候选生成器；每次接受官方成绩更好的方案后，读取新方案的官方轨迹，再生成合并、拆分、分核排程候选。整个过程共享一次调用和时间预算，精确重复方案不重评，失败消耗一次调用并保留原可行方案。这里的 `local_duration` 和 `observed_duration` 会重新分配 Task 所属核心，不能仅理解为同核重排。
+
+```sh
+python3 -B A题研究/直接迭代/solve.py --case 62 --problem 1 --cores 5 \
+  --p1-refinement task_iterative \
+  --incumbent-plan A题研究/直接迭代/第六轮成果/方案/p1/n5/case_062_multicore_res.json \
+  --budget 8 --seconds 180 --out my_runs/p1_case62_iterative_new
+```
+
+本次得到942950→793705→789139周期，包含起点复评共8次新调用。第一步来自队友原有 `local_duration`，新控制流程的额外改善是793705→789139；它用了更多实际调用，不能把整体16.31%降时归功于新流程。case_063同样入口得到252654周期，但没有超过原单轮Task精修。四张定向开发图尚不足以证明普遍优势。
+
+`region_joint` 是局部区域迁移加安全合并的实验入口，包含必要时先拆大Task再迁移的候选；在本次4图对照中没有超过现有Task路线，暂不作为推荐默认值：
+
+```sh
+python3 -B A题研究/直接迭代/solve.py --case 100 --problem 1 --cores 5 \
+  --p1-refinement region_joint \
+  --incumbent-plan A题研究/直接迭代/第六轮成果/方案/p1/n5/case_100_multicore_res.json \
+  --budget 2 --seconds 60 --out my_runs/p1_case100_region_new
+```
+
+完整定向对照可在仓库根目录运行 `python3 -B A题研究/直接迭代/run_region_panel.py --cases 16,62,63,100 --budget 8 --seconds 180 --workers 2 --out my_runs/region_comparison_new`。每个方法均从相同第六轮方案开始，起点复评计入每个方法的逻辑预算；物理上同图共用一次起点评测，候选评测缓存分别为空。运行时间包含并发干扰，不用来报告单进程加速倍数。
+
+复评交付方案时使用 `solve.py --case 62 --problem 1 --cores 5 --incumbent-plan A题研究/直接迭代/联合推进成果_20260925/方案/case_062_p1_n5.json --budget 1 --seconds 180 --out my_runs/replay_selected62_new`。替换图号和方案文件即可复评其余三份。复评不依赖历史记录中的本机绝对路径。
+
 ## 按张量边界切分，再合并小任务
 
 第四轮新增 `tensor` 精修：保留大张量计算链，合并相连低成本计算，对商图作强连通分量收缩防止环，再分配核心。候选的必要Task/DDR下界用于剪枝，官方实测才决定是否保留。第五轮已将其加入portfolio及portfolio_diverse的统一预算流程；hybrid本身仍保持原有方法。

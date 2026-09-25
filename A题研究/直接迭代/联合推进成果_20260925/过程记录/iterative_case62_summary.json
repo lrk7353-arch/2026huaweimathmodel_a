@@ -1,0 +1,1064 @@
+{
+  "case": "case_062",
+  "problem": 1,
+  "num_cores": 5,
+  "method": "iterative_tasks",
+  "before": 942950,
+  "after": 789139,
+  "best_record": {
+    "schema_version": 1,
+    "attempt_id": "20260925T141209-85fb6b20663d417eb89666b1ea61a283",
+    "problem": 1,
+    "status": "success",
+    "metrics": {
+      "makespan": 789139,
+      "num_cores": 5,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 13401600,
+        "scheduled_copy_bytes": 36636672,
+        "added_copy_bytes": 23235072,
+        "partition_added_copy_bytes": 23235072,
+        "spill_added_copy_bytes": 0
+      },
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 12288,
+          "UB": 12288
+        },
+        "1": {
+          "L1": 12288,
+          "UB": 16896
+        },
+        "2": {
+          "L1": 12288,
+          "UB": 13824
+        },
+        "3": {
+          "L1": 12288,
+          "UB": 18432
+        },
+        "4": {
+          "L1": 12288,
+          "UB": 15360
+        }
+      },
+      "cross_task_traffic": 6661632,
+      "capacity_bytes": {
+        "L1": 524288,
+        "UB": 131072
+      },
+      "bandwidth_bytes_per_cycle": 60,
+      "active_cores": 5,
+      "peak_memory_bytes": 254816256
+    },
+    "elapsed_seconds": 7.74297936099174,
+    "evaluation_elapsed_seconds": 7.074104015002376,
+    "cache_hit": false,
+    "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/official_result.json.gz",
+    "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/plan.json",
+    "hashes": {
+      "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+      "plan_sha256": "33eb8db9bd52a27bb5a8482b5cce09b96e905cdcdb6119c6dd639934ccc29c6c",
+      "problem": 1,
+      "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+      "official_py_sha256": {
+        "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+        "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+        "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+        "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+        "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+        "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+        "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+        "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+        "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+        "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+      },
+      "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+      "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3.12",
+      "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+    },
+    "error": null,
+    "peak_memory_bytes": 254816256,
+    "returncode": 0,
+    "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283",
+    "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/record.json",
+    "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/stdout.log",
+    "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/stderr.log",
+    "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+    "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+    "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+    "timeout_seconds": 60.0,
+    "cache_key": "cd7d0bf6b7537f99e842a466af893f423f167e8534e9fc00b7794876364e678f",
+    "worker_elapsed_seconds": 7.637592930987012,
+    "error_type": null,
+    "error_stage": null,
+    "rss_measurement": "worker_ru_maxrss",
+    "result_sha256": "0d715139be4249f909fb718a73a3f3cc950a5f60c6b735902f3059735c829f9b"
+  },
+  "evaluations": [
+    {
+      "name": "local_duration",
+      "generation": 1,
+      "parent_score": [
+        942950,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 793705,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 36636672,
+            "added_copy_bytes": 23235072,
+            "partition_added_copy_bytes": 23235072,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 15360
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 12288
+            }
+          },
+          "cross_task_traffic": 6661632,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 256172032
+        },
+        "elapsed_seconds": 9.650579802997527,
+        "evaluation_elapsed_seconds": 8.945876844998566,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "ef9f9f58a40931a471254bf496f04cc5f643e10a1247fb96e6abd7f21cf6fbe2",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 256172032,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "06ddc10df4be356e1a96e2274b24cad053edd47c5ab7c39272ef8d6e1c14db97",
+        "worker_elapsed_seconds": 9.541589116997784,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "db34d4972a9fbd63604ff607273d8b4dead9a657c1b2b16178f7f9036ea65415"
+      },
+      "metadata": {
+        "task_bound": 728068,
+        "ddr_bound": 615820,
+        "lower_bound": 728068,
+        "task_count": 86,
+        "max_task_ops": 2047,
+        "mandatory_boundary_bytes": 36636672,
+        "core_ownership_preserved": false
+      },
+      "accepted": true
+    },
+    {
+      "name": "merge256",
+      "generation": 2,
+      "parent_score": [
+        793705,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 832980,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 36542976,
+            "added_copy_bytes": 23141376,
+            "partition_added_copy_bytes": 23141376,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 15360
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 12288
+            }
+          },
+          "cross_task_traffic": 6635520,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 255401984
+        },
+        "elapsed_seconds": 8.552553957997588,
+        "evaluation_elapsed_seconds": 7.880858403004822,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "47b6113c81a4a83df0e1503d7b12a2d4bc5f96ae234b8a0a5ed575848f0208ce",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 255401984,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141200-ba6f6cc396b1440785204cfb34b2bc9c/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "508e26a3b2da4f9e647d85bfac106962987b06fc23e6a90d3d8690edc86a4623",
+        "worker_elapsed_seconds": 8.448938217989053,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "f44b3c00a253d3cb6212f34b8527bdd498046cb466df37198893c86009fdb58b"
+      },
+      "metadata": {
+        "task_bound": 765956,
+        "ddr_bound": 614243,
+        "lower_bound": 765956,
+        "task_count": 75,
+        "max_task_ops": 2047,
+        "mandatory_boundary_bytes": 36542976,
+        "core_ownership_preserved": true
+      },
+      "accepted": false
+    },
+    {
+      "name": "observed_duration",
+      "generation": 2,
+      "parent_score": [
+        793705,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141209-85fb6b20663d417eb89666b1ea61a283",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 789139,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 36636672,
+            "added_copy_bytes": 23235072,
+            "partition_added_copy_bytes": 23235072,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 12288
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 15360
+            }
+          },
+          "cross_task_traffic": 6661632,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 254816256
+        },
+        "elapsed_seconds": 7.74297936099174,
+        "evaluation_elapsed_seconds": 7.074104015002376,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "33eb8db9bd52a27bb5a8482b5cce09b96e905cdcdb6119c6dd639934ccc29c6c",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 254816256,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "cd7d0bf6b7537f99e842a466af893f423f167e8534e9fc00b7794876364e678f",
+        "worker_elapsed_seconds": 7.637592930987012,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "0d715139be4249f909fb718a73a3f3cc950a5f60c6b735902f3059735c829f9b"
+      },
+      "metadata": {
+        "task_bound": 725412,
+        "ddr_bound": 615820,
+        "lower_bound": 725412,
+        "task_count": 86,
+        "max_task_ops": 2047,
+        "mandatory_boundary_bytes": 36636672,
+        "core_ownership_preserved": false
+      },
+      "accepted": true
+    },
+    {
+      "name": "merge256",
+      "generation": 3,
+      "parent_score": [
+        789139,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141218-946e78a67a6c453194214e772dea618b",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 816751,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 36542976,
+            "added_copy_bytes": 23141376,
+            "partition_added_copy_bytes": 23141376,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 12288
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 15360
+            }
+          },
+          "cross_task_traffic": 6635520,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 254578688
+        },
+        "elapsed_seconds": 8.093841681999038,
+        "evaluation_elapsed_seconds": 7.415471103988239,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "39d110cf87a7d8bfad17b590e1513b1f475f17f545f591428342bf795ba6bcdb",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 254578688,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141218-946e78a67a6c453194214e772dea618b/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "e9b2cef9d5d4476d53435ccc85b4dc3bda475b04e0cbcdedca6ad5b0a5d8d93b",
+        "worker_elapsed_seconds": 7.991731243993854,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "5b88f006ae72a02f1041209716ddfd2cbc02c86b71b2b7022ff892cb7f22dfbb"
+      },
+      "metadata": {
+        "task_bound": 753356,
+        "ddr_bound": 614243,
+        "lower_bound": 753356,
+        "task_count": 76,
+        "max_task_ops": 2047,
+        "mandatory_boundary_bytes": 36542976,
+        "core_ownership_preserved": true
+      },
+      "accepted": false
+    },
+    {
+      "name": "observed_duration",
+      "generation": 3,
+      "parent_score": [
+        789139,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 789720,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 36636672,
+            "added_copy_bytes": 23235072,
+            "partition_added_copy_bytes": 23235072,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 12288
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 13824
+            }
+          },
+          "cross_task_traffic": 6661632,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 255418368
+        },
+        "elapsed_seconds": 7.793178912994335,
+        "evaluation_elapsed_seconds": 7.117794045014307,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "0b5be91c3b373aa25176b672cee7beced388d3382b07b9a4c30f492025310f64",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 255418368,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141226-74341dc60c4c441da5d0cdd2ae8055eb/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "1e543dcab98b5175874c1c64806e3432cf073ba0e1c3f84902c757e961400145",
+        "worker_elapsed_seconds": 7.688528746002703,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "6d504cc5ec1c02301bf8951cce0cb2accab3545daa12e609336a09d4abee6193"
+      },
+      "metadata": {
+        "task_bound": 725412,
+        "ddr_bound": 615820,
+        "lower_bound": 725412,
+        "task_count": 86,
+        "max_task_ops": 2047,
+        "mandatory_boundary_bytes": 36636672,
+        "core_ownership_preserved": false
+      },
+      "accepted": false
+    },
+    {
+      "name": "split1024",
+      "generation": 3,
+      "parent_score": [
+        789139,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141234-4df743cd82db4ba89ece913a6f887646",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 829451,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 39782400,
+            "added_copy_bytes": 26380800,
+            "partition_added_copy_bytes": 26380800,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 12288
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 16896
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 19968
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 15360
+            }
+          },
+          "cross_task_traffic": 8234496,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 269901824
+        },
+        "elapsed_seconds": 9.247128162998706,
+        "evaluation_elapsed_seconds": 8.547500949003734,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "b3535dd14cc7875bc374118fcabc0b1d4547f16661b4908832b630f80abba1eb",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 269901824,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141234-4df743cd82db4ba89ece913a6f887646/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "e67e5a3246ac4db9df6ff54700275e0a67a449941093c7dfa09e512ce7162270",
+        "worker_elapsed_seconds": 9.170100240997272,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "2292ab0adddd7e06304c4e4f4492a85bc8b76162236e850f8e3bdd6ad7d4a611"
+      },
+      "metadata": {
+        "task_bound": 725412,
+        "ddr_bound": 669068,
+        "lower_bound": 725412,
+        "task_count": 87,
+        "max_task_ops": 1024,
+        "mandatory_boundary_bytes": 39782400,
+        "core_ownership_preserved": true
+      },
+      "accepted": false
+    },
+    {
+      "name": "split512",
+      "generation": 3,
+      "parent_score": [
+        789139,
+        23235072
+      ],
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 883462,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 13401600,
+            "scheduled_copy_bytes": 42928128,
+            "added_copy_bytes": 29526528,
+            "partition_added_copy_bytes": 29526528,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12288,
+              "UB": 12288
+            },
+            "1": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 13824
+            },
+            "3": {
+              "L1": 12288,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 12288,
+              "UB": 15360
+            }
+          },
+          "cross_task_traffic": 9807360,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 283770880
+        },
+        "elapsed_seconds": 9.046703082000022,
+        "evaluation_elapsed_seconds": 8.280707104990142,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5/plan.json",
+        "hashes": {
+          "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+          "plan_sha256": "e8a833d26ede0e644f43441c8d5db25b2970d07e195a1d70de1122e1c3ff5bec",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 283770880,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141243-713a70dfd16a489f8c2f89a2af6d9eb5/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "2ecf4c7aa90c8be41db65354984024f5a5e4d120ef4ab26ae74a52f82f067815",
+        "worker_elapsed_seconds": 8.976040472000022,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "1c234e28da506f3a9edd01d72ce8be998d61bc165f38fab796398b29adafb32c"
+      },
+      "metadata": {
+        "task_bound": 725412,
+        "ddr_bound": 722316,
+        "lower_bound": 725412,
+        "task_count": 90,
+        "max_task_ops": 512,
+        "mandatory_boundary_bytes": 42928128,
+        "core_ownership_preserved": true
+      },
+      "accepted": false
+    }
+  ],
+  "skipped": [
+    {
+      "name": "merge256",
+      "reason": "exact_duplicate",
+      "generation": 1
+    },
+    {
+      "name": "local_duration",
+      "reason": "exact_duplicate",
+      "generation": 2
+    },
+    {
+      "name": "merge512",
+      "reason": "necessary_bound",
+      "bound": 1047092,
+      "generation": 2
+    },
+    {
+      "name": "local_duration",
+      "reason": "exact_duplicate",
+      "generation": 3
+    },
+    {
+      "name": "merge512",
+      "reason": "necessary_bound",
+      "bound": 1142048,
+      "generation": 3
+    },
+    {
+      "name": "merge1024",
+      "reason": "necessary_bound",
+      "bound": 1559348,
+      "generation": 3
+    },
+    {
+      "name": "merge2048",
+      "reason": "necessary_bound",
+      "bound": 1801640,
+      "generation": 3
+    }
+  ],
+  "generations": [
+    {
+      "parent": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/plan.json",
+      "score": [
+        942950,
+        23235072
+      ],
+      "candidates": [
+        "merge256",
+        "local_duration",
+        "merge512",
+        "observed_duration",
+        "merge1024",
+        "split1024",
+        "merge2048",
+        "split512"
+      ]
+    },
+    {
+      "parent": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141149-d505ba79ac6d439e9dadb2e7fa84f861/plan.json",
+      "score": [
+        793705,
+        23235072
+      ],
+      "candidates": [
+        "merge256",
+        "local_duration",
+        "merge512",
+        "observed_duration",
+        "merge1024",
+        "split1024",
+        "merge2048",
+        "split512"
+      ]
+    },
+    {
+      "parent": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/search/evaluations/attempts/20260925T141209-85fb6b20663d417eb89666b1ea61a283/plan.json",
+      "score": [
+        789139,
+        23235072
+      ],
+      "candidates": [
+        "merge256",
+        "local_duration",
+        "merge512",
+        "observed_duration",
+        "merge1024",
+        "split1024",
+        "merge2048",
+        "split512"
+      ]
+    }
+  ],
+  "logical_calls": 8,
+  "new_calls": 8,
+  "budget": 7,
+  "elapsed_seconds": 72.70053509599529,
+  "stop_reason": "call_budget",
+  "scope": "extra-budget warm refinement; existing Task generator, accepted-parent refresh",
+  "initial_record": {
+    "schema_version": 1,
+    "attempt_id": "20260925T141140-81396787dad04d9481bfc016027dd32f",
+    "problem": 1,
+    "status": "success",
+    "metrics": {
+      "makespan": 942950,
+      "num_cores": 5,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 13401600,
+        "scheduled_copy_bytes": 36636672,
+        "added_copy_bytes": 23235072,
+        "partition_added_copy_bytes": 23235072,
+        "spill_added_copy_bytes": 0
+      },
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 12288,
+          "UB": 15360
+        },
+        "1": {
+          "L1": 12288,
+          "UB": 13824
+        },
+        "2": {
+          "L1": 12288,
+          "UB": 13824
+        },
+        "3": {
+          "L1": 12288,
+          "UB": 18432
+        },
+        "4": {
+          "L1": 12288,
+          "UB": 10752
+        }
+      },
+      "cross_task_traffic": 6661632,
+      "capacity_bytes": {
+        "L1": 524288,
+        "UB": 131072
+      },
+      "bandwidth_bytes_per_cycle": 60,
+      "active_cores": 5,
+      "peak_memory_bytes": 257961984
+    },
+    "elapsed_seconds": 7.244305859989254,
+    "evaluation_elapsed_seconds": 6.494601943006273,
+    "cache_hit": false,
+    "result_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/official_result.json.gz",
+    "plan_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/plan.json",
+    "hashes": {
+      "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4",
+      "plan_sha256": "a429fb36f3fe44ead77bec8e9188b4ccab34812221d5cc766b74c67ff001dc3f",
+      "problem": 1,
+      "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+      "official_py_sha256": {
+        "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+        "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+        "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+        "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+        "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+        "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+        "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+        "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+        "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+        "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+      },
+      "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+      "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3.12",
+      "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+    },
+    "error": null,
+    "peak_memory_bytes": 257961984,
+    "returncode": 0,
+    "attempt_dir": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f",
+    "record_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/record.json",
+    "stdout_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/stdout.log",
+    "stderr_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/iterative_case62_v1/initial_evaluation/attempts/20260925T141140-81396787dad04d9481bfc016027dd32f/stderr.log",
+    "graph_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/case_062.json",
+    "config_path": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/data/config.txt",
+    "official_code": "/home/konglingrui/.mathmodel/questionA/联合优化工作区/选题分析/A题附件/code",
+    "timeout_seconds": 180.0,
+    "cache_key": "869df0dc397ce90b97528e94e619e6f79ac38ceb57cf0079ad99e8c44bdc9fa6",
+    "worker_elapsed_seconds": 7.167539918998955,
+    "error_type": null,
+    "error_stage": null,
+    "rss_measurement": "worker_ru_maxrss",
+    "result_sha256": "6dd68308fdcc67a2004b561f8e9b906e50280a593120617bbd61b9103b5ee6aa"
+  }
+}

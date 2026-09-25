@@ -1,0 +1,89 @@
+{
+  "upstream_commit": "18e0957475b20e9a3af52ab335dccb2611beefc9",
+  "upstream_url": "https://github.com/lrk7353-arch/2026huaweimathmodel_a",
+  "source_mode": "GitHub commit archive; local import commit is not upstream Git history",
+  "verification": "SELECTED_RESULTS_VERIFIED; full 1500 structure and score tables analyzed, not officially rerun",
+  "selected_results": [
+    {
+      "case": "case_016",
+      "problem": 1,
+      "cores": 5,
+      "before": 3304638,
+      "after": 3223183,
+      "before_copy": 119557168,
+      "after_copy": 119555952,
+      "reduction_pct": 2.464869071892295,
+      "source": "my_runs/region_panel_v1/case_016/tasks/summary.json",
+      "plan": "方案/case_016_p1_n5.json",
+      "replay_status": "success",
+      "official_result": "官方复评/case_016/official_result.json.gz"
+    },
+    {
+      "case": "case_062",
+      "problem": 1,
+      "cores": 5,
+      "before": 942950,
+      "after": 789139,
+      "before_copy": 23235072,
+      "after_copy": 23235072,
+      "reduction_pct": 16.311681425314173,
+      "source": "my_runs/iterative_case62_v1/summary.json",
+      "plan": "方案/case_062_p1_n5.json",
+      "replay_status": "success",
+      "official_result": "官方复评/case_062/official_result.json.gz"
+    },
+    {
+      "case": "case_063",
+      "problem": 1,
+      "cores": 5,
+      "before": 286820,
+      "after": 252654,
+      "before_copy": 8812032,
+      "after_copy": 8812032,
+      "reduction_pct": 11.912000557841152,
+      "source": "my_runs/region_panel_v1/case_063/tasks/summary.json",
+      "plan": "方案/case_063_p1_n5.json",
+      "replay_status": "success",
+      "official_result": "官方复评/case_063/official_result.json.gz"
+    },
+    {
+      "case": "case_100",
+      "problem": 1,
+      "cores": 5,
+      "before": 57811,
+      "after": 57811,
+      "before_copy": 55296,
+      "after_copy": 0,
+      "reduction_pct": 0.0,
+      "source": "my_runs/region_panel_v1/case_100/tasks/summary.json",
+      "plan": "方案/case_100_p1_n5.json",
+      "replay_status": "success",
+      "official_result": "官方复评/case_100/official_result.json.gz"
+    }
+  ],
+  "new_official_calls_so_far": 85,
+  "tests_passed": 20,
+  "scope": "targeted warm-start development, not a full benchmark or unified from-scratch ranking",
+  "official_call_breakdown": {
+    "region_comparison": 66,
+    "iterative_cli": 12,
+    "region_cli": 2,
+    "selected_replay": 4,
+    "upstream_p3_replay": 1
+  },
+  "all_new_official_calls_successful": true,
+  "test_command": "python3 -B -m unittest discover -s A题研究/直接迭代 -p 'test*.py'",
+  "cli_validation": {
+    "task_iterative": [
+      "case_062",
+      "case_063"
+    ],
+    "region_joint": [
+      "case_100"
+    ]
+  },
+  "default_algorithms_changed": false,
+  "patch_sha256": "76383ff3a44c4c36f3f46fd58f6b7d462c2b42b3ca179189ebc601177b1a3479",
+  "patch_verified_against_baseline": true,
+  "local_branch": "experiment/joint-region-refinement"
+}
