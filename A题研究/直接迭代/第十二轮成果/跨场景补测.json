@@ -1,0 +1,91 @@
+{
+  "complete": true,
+  "all_success": true,
+  "completed": 6,
+  "expected": 6,
+  "rows": [
+    {
+      "case": "case_031",
+      "problem": 2,
+      "num_cores": 5,
+      "status": "success",
+      "before": 273240,
+      "after": 273240,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 0.8200877909548581
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "num_cores": 5,
+      "status": "success",
+      "before": 273059,
+      "after": 273059,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 0.8218675409443676
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "num_cores": 5,
+      "status": "success",
+      "before": 1250099,
+      "after": 1250099,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.05021541693713516
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "num_cores": 5,
+      "status": "success",
+      "before": 197737,
+      "after": 197737,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 0.34432291705161333
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "num_cores": 5,
+      "status": "success",
+      "before": 1249311,
+      "after": 1249311,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 0.5639938330277801
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "num_cores": 5,
+      "status": "success",
+      "before": 196701,
+      "after": 196701,
+      "accepted": false,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 0.3281061250017956
+    }
+  ],
+  "wall_seconds": 6.071743790991604,
+  "this_invocation_logical_calls": 6,
+  "this_invocation_new_calls": 5,
+  "remaining": [],
+  "failures": []
+}

@@ -1,0 +1,13 @@
+﻿case,problem,cores,method,control,method_status,control_status,method_time,control_time,reduction_pct
+case_067,1,5,integrated,baseline,success,success,14756232,15233731,3.134484913774571
+case_019,1,5,integrated,baseline,success,success,19414,18981,-2.28122859701807
+case_096,1,5,integrated,baseline,success,success,24966,27019,7.598356711943444
+case_072,1,5,integrated,baseline,success,success,4767943,4767943,0.0
+case_073,1,5,integrated,baseline,success,success,3218828,3517515,8.49142078996109
+case_032,1,5,integrated,baseline,success,success,10415,10415,0.0
+case_023,1,5,integrated,baseline,success,success,23846,23846,0.0
+case_031,1,5,integrated,baseline,success,success,296108,306213,3.2999905294680554
+case_040,1,5,integrated,baseline,success,success,87145,110105,20.852822305980656
+case_027,1,5,integrated,baseline,success,success,473151,558753,15.320186200342544
+case_035,1,5,integrated,baseline,success,success,90079,90079,0.0
+case_092,1,5,integrated,baseline,success,success,1618214,1618214,0.0

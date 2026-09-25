@@ -1,0 +1,7 @@
+﻿case,problem,cores,method,status,makespan,logical_calls,new_calls,elapsed_seconds,stop_reason,failed_calls,generation_errors,summary_path
+case_046,3,5,integrated,success,69084,24,24,4.926312500028871,call_budget,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_046/p3_n5/integrated/summary.json
+case_066,1,5,baseline,success,199671,24,24,35.40134420897812,budget_or_pool_exhausted,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_066/p1_n5/baseline/summary.json
+case_046,2,5,baseline,success,77846,20,20,3.1657797909574583,candidate_pools_exhausted,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_046/p2_n5/baseline/summary.json
+case_046,2,5,integrated,success,77846,24,24,4.579368915990926,call_budget,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_046/p2_n5/integrated/summary.json
+case_046,3,5,baseline,success,77846,20,20,3.201428166939877,candidate_pools_exhausted,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_046/p3_n5/baseline/summary.json
+case_066,1,5,integrated,success,189401,24,24,58.556775207980536,call_budget,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮预算24_v3/slots/case_066/p1_n5/integrated/summary.json

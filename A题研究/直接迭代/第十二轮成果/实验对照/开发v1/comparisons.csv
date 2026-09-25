@@ -1,0 +1,10 @@
+﻿problem,method,control,pairs,successful_pairs,method_failures,control_failures,wins,ties,losses,mean_paired_reduction_pct,median_paired_reduction_pct
+1,integrated,baseline,4,4,0,0,3,0,1,14.816345157924628,10.663923726306813
+1,integrated,local_legacy,4,4,0,0,3,0,1,16.21492734831305,12.599368570369851
+1,local_legacy,baseline,4,4,0,0,2,1,1,-1.4138157261429918,0.5329867072895844
+2,integrated,baseline,4,4,0,0,2,0,2,-18.431311713805766,-9.73357920323767
+2,integrated,local_legacy,4,4,0,0,2,1,1,-14.044737854760458,0.008090246701958348
+2,local_legacy,baseline,4,4,0,0,1,1,2,-4.322065485435935,-0.04794305340368732
+3,integrated,baseline,4,4,0,0,1,1,2,-11.261582606989332,-9.3421627315469
+3,integrated,local_legacy,4,4,0,0,1,2,1,-6.708208285857785,0.0
+3,local_legacy,baseline,4,4,0,0,1,1,2,-4.523492100722307,-0.06744531241535956

@@ -1,0 +1,5 @@
+﻿case,problem,cores,method,status,effective_method,makespan,logical_calls,new_calls,elapsed_seconds,stop_reason,failed_calls,timeout_calls,generation_errors,summary_path,error
+case_083,2,3,trace_routed,success,component_wcc,336990,12,8,4.876982291927561,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹三核_v1/case_083/p2_n3/trace_routed/summary.json,
+case_091,2,3,trace_routed,success,staged,3025509,12,6,88.42370462499093,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹三核_v1/case_091/p2_n3/trace_routed/summary.json,
+case_083,3,3,trace_routed,success,component_wcc,320951,12,8,5.01312074996531,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹三核_v1/case_083/p3_n3/trace_routed/summary.json,
+case_091,3,3,trace_routed,success,staged,3014454,12,7,106.93763958301861,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹三核_v1/case_091/p3_n3/trace_routed/summary.json,

@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "case": 27,
+      "before": {
+        "makespan": 558753,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 5529600,
+        "spill_bytes": 0,
+        "longest_task_duration": 558753
+      },
+      "after": {
+        "makespan": 473151,
+        "tasks": 28,
+        "active_cores": 5,
+        "added_copy_bytes": 8085504,
+        "spill_bytes": 0,
+        "longest_task_duration": 420123
+      },
+      "winning_phase": "legacy",
+      "winning_candidate": "local_duration"
+    },
+    {
+      "case": 31,
+      "before": {
+        "makespan": 306213,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 8059392,
+        "spill_bytes": 1810944,
+        "longest_task_duration": 306213
+      },
+      "after": {
+        "makespan": 296108,
+        "tasks": 17,
+        "active_cores": 5,
+        "added_copy_bytes": 8707608,
+        "spill_bytes": 1810944,
+        "longest_task_duration": 282136
+      },
+      "winning_phase": "legacy",
+      "winning_candidate": "merge256"
+    },
+    {
+      "case": 40,
+      "before": {
+        "makespan": 110105,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 0,
+        "spill_bytes": 0,
+        "longest_task_duration": 110105
+      },
+      "after": {
+        "makespan": 87145,
+        "tasks": 115,
+        "active_cores": 5,
+        "added_copy_bytes": 1855276,
+        "spill_bytes": 0,
+        "longest_task_duration": 30698
+      },
+      "winning_phase": "joint",
+      "winning_candidate": "p1_joint_r0_tensor_cap0.25_eft_merge8"
+    },
+    {
+      "case": 67,
+      "before": {
+        "makespan": 15233731,
+        "tasks": 10,
+        "active_cores": 5,
+        "added_copy_bytes": 260625920,
+        "spill_bytes": 227131520,
+        "longest_task_duration": 8572755
+      },
+      "after": {
+        "makespan": 14756232,
+        "tasks": 113,
+        "active_cores": 5,
+        "added_copy_bytes": 263006336,
+        "spill_bytes": 156343936,
+        "longest_task_duration": 7535370
+      },
+      "winning_phase": "joint",
+      "winning_candidate": "p1_joint_r0_phase4_eft_raw"
+    },
+    {
+      "case": 73,
+      "before": {
+        "makespan": 3517515,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 139772800,
+        "spill_bytes": 124886400,
+        "longest_task_duration": 3517515
+      },
+      "after": {
+        "makespan": 3218828,
+        "tasks": 45,
+        "active_cores": 5,
+        "added_copy_bytes": 138985984,
+        "spill_bytes": 84221056,
+        "longest_task_duration": 2810005
+      },
+      "winning_phase": "joint",
+      "winning_candidate": "p1_joint_r0_phase4_eft_raw"
+    },
+    {
+      "case": 96,
+      "before": {
+        "makespan": 26984,
+        "tasks": 4,
+        "active_cores": 4,
+        "added_copy_bytes": 78336,
+        "spill_bytes": 0,
+        "longest_task_duration": 26984
+      },
+      "after": {
+        "makespan": 24966,
+        "tasks": 55,
+        "active_cores": 5,
+        "added_copy_bytes": 798822,
+        "spill_bytes": 0,
+        "longest_task_duration": 12824
+      },
+      "winning_phase": "joint",
+      "winning_candidate": "p1_joint_r0_tensor_cap0.25_eft_merge8"
+    }
+  ],
+  "scope": "selected improved cases; observed correlations, not exclusive causal attribution"
+}

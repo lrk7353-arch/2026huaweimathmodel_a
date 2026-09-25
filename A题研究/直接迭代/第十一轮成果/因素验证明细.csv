@@ -1,0 +1,13 @@
+﻿case,problem,cores,assignment,order,makespan,scheduled_copy_bytes,spill_bytes,cache_hits,cache_hit_bytes,record
+case_046,3,5,0,0,73405,3643776,0,22,164032,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_046/p3_n5/evaluations/assignment0_order0/attempts/20260925T180103-d33a7ec73be24dea9a9e056c5080447f/record.json
+case_046,3,5,0,1,73627,3643776,0,22,164032,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_046/p3_n5/evaluations/assignment0_order1/attempts/20260925T180104-692ebd3e721b4429b87e566bbec35511/record.json
+case_046,3,5,1,0,63068,3504512,0,71,1170048,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_046/p3_n5/evaluations/assignment1_order0/attempts/20260925T180104-b628ad695a364b8b8652447b6ec4d745/record.json
+case_046,3,5,1,1,62046,3504512,0,72,1243776,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_046/p3_n5/evaluations/assignment1_order1/attempts/20260925T180104-4ff3ac42c69f485aa99771c1d05d0fe3/record.json
+case_018,2,5,0,0,204654,6917648,643072,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_018/p2_n5/evaluations/assignment0_order0/attempts/20260925T180104-0436fc983790406ba40eadd522f32b16/record.json
+case_018,2,5,0,1,201864,6721040,446464,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_018/p2_n5/evaluations/assignment0_order1/attempts/20260925T180104-c38c46baeeb64fccbd21e5b254f750b2/record.json
+case_018,2,5,1,0,205690,6909456,643072,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_018/p2_n5/evaluations/assignment1_order0/attempts/20260925T180104-7b48d18344fe45cc9de9141e7ca68e23/record.json
+case_018,2,5,1,1,201731,6712848,446464,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_018/p2_n5/evaluations/assignment1_order1/attempts/20260925T180104-736ee0b3748e450081ef91168a8146c2/record.json
+case_090,2,5,0,0,260978,10822272,0,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_090/p2_n5/evaluations/assignment0_order0/attempts/20260925T180104-50ee36ead770476494f19c23195c8696/record.json
+case_090,2,5,0,1,261044,10822272,0,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_090/p2_n5/evaluations/assignment0_order1/attempts/20260925T180104-ec1df3cfa48f477f9a501dabecf98e36/record.json
+case_090,2,5,1,0,249730,9671808,0,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_090/p2_n5/evaluations/assignment1_order0/attempts/20260925T180105-c08935cebffb4e1ea060d13bbd64e603/record.json
+case_090,2,5,1,1,240698,9671808,0,,,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/推广第十一轮因素验证_v1/slots/case_090/p2_n5/evaluations/assignment1_order1/attempts/20260925T180105-15271799d3db426b807a84c0f951d53d/record.json

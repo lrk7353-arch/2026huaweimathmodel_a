@@ -1,0 +1,4 @@
+﻿case,problem,num_cores,status,before,after,accepted,new_coverage,logical_calls,new_calls,elapsed_seconds
+case_043,2,4,success,255399,230366,True,False,1,1,1.1906180420191959
+case_053,2,4,success,432146,421712,True,False,1,1,1.955095832934603
+case_043,3,4,success,255399,230321,True,False,1,1,1.0576014160178602

@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 2.2303492325126184,
+      "before": {
+        "makespan": 19414,
+        "tasks": 37,
+        "active_cores": 5,
+        "added_copy_bytes": 289924,
+        "spill_bytes": 0,
+        "longest_task_duration": 11149
+      },
+      "after": {
+        "makespan": 18981,
+        "tasks": 37,
+        "active_cores": 5,
+        "added_copy_bytes": 289924,
+        "spill_bytes": 0,
+        "longest_task_duration": 11149
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_019/p1_n5/baseline/evaluations/attempts/20260925T191927-eaf9035f2ee94b1a877ef183da87c98d/record.json"
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 15.320186200342544,
+      "before": {
+        "makespan": 558753,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 5529600,
+        "spill_bytes": 0,
+        "longest_task_duration": 558753
+      },
+      "after": {
+        "makespan": 473151,
+        "tasks": 28,
+        "active_cores": 5,
+        "added_copy_bytes": 8085504,
+        "spill_bytes": 0,
+        "longest_task_duration": 420123
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_027/p1_n5/integrated/evaluations/attempts/20260925T192039-fb0ea988fc024810bf8ce83482fb3c5c/record.json"
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 3.2999905294680554,
+      "before": {
+        "makespan": 306213,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 8059392,
+        "spill_bytes": 1810944,
+        "longest_task_duration": 306213
+      },
+      "after": {
+        "makespan": 296108,
+        "tasks": 17,
+        "active_cores": 5,
+        "added_copy_bytes": 8707608,
+        "spill_bytes": 1810944,
+        "longest_task_duration": 282136
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_031/p1_n5/integrated/evaluations/attempts/20260925T192015-de00ffd448944a1492a8c2fb9d77cfd6/record.json"
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 20.852822305980656,
+      "before": {
+        "makespan": 110105,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 0,
+        "spill_bytes": 0,
+        "longest_task_duration": 110105
+      },
+      "after": {
+        "makespan": 87145,
+        "tasks": 115,
+        "active_cores": 5,
+        "added_copy_bytes": 1855276,
+        "spill_bytes": 0,
+        "longest_task_duration": 30698
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_040/p1_n5/integrated/evaluations/attempts/20260925T192034-78130bc7577b450e9e660541bcefceed/record.json"
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 3.134484913774571,
+      "before": {
+        "makespan": 15233731,
+        "tasks": 10,
+        "active_cores": 5,
+        "added_copy_bytes": 260625920,
+        "spill_bytes": 227131520,
+        "longest_task_duration": 8572755
+      },
+      "after": {
+        "makespan": 14756232,
+        "tasks": 113,
+        "active_cores": 5,
+        "added_copy_bytes": 263006336,
+        "spill_bytes": 156343936,
+        "longest_task_duration": 7535370
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_067/p1_n5/integrated/evaluations/attempts/20260925T191711-e8d9199c86eb4d33b4ccb4d1b65cda53/record.json"
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 8.49142078996109,
+      "before": {
+        "makespan": 3517515,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 139772800,
+        "spill_bytes": 124886400,
+        "longest_task_duration": 3517515
+      },
+      "after": {
+        "makespan": 3218828,
+        "tasks": 45,
+        "active_cores": 5,
+        "added_copy_bytes": 138985984,
+        "spill_bytes": 84221056,
+        "longest_task_duration": 2810005
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_073/p1_n5/integrated/evaluations/attempts/20260925T191940-3478d2fbc3cf4675a7b75c1baf78872a/record.json"
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 7.4785057812036815,
+      "before": {
+        "makespan": 26984,
+        "tasks": 4,
+        "active_cores": 4,
+        "added_copy_bytes": 78336,
+        "spill_bytes": 0,
+        "longest_task_duration": 26984
+      },
+      "after": {
+        "makespan": 24966,
+        "tasks": 55,
+        "active_cores": 5,
+        "added_copy_bytes": 798822,
+        "spill_bytes": 0,
+        "longest_task_duration": 12824
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十三轮P1扩展_v1/slots/case_096/p1_n5/integrated/evaluations/attempts/20260925T191737-44946e147d4141fc8c39a67ad1a7a350/record.json"
+    }
+  ],
+  "scope": "observed before/after features, not exclusive causal attribution; improved cases are selected"
+}

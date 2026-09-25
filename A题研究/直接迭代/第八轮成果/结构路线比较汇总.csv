@@ -1,0 +1,9 @@
+﻿group,problem,method,control,selected,valid_pairs,excluded,wins,ties,losses,mean_paired_reduction_pct,median_paired_reduction_pct,max_loss_pct,max_loss_case
+regression,2,routed,component_wcc,4,4,0,2,2,0,27.195267671693113,18.21956505856854,0,
+regression,2,routed,staged,4,4,0,2,2,0,8.676038363763203,8.153161386042813,0,
+regression,3,routed,component_wcc,4,4,0,2,2,0,20.615731814103743,5.631590482916494,0,
+regression,3,routed,staged,4,4,0,2,2,0,8.608022357977996,7.014908890115956,0,
+validation,2,routed,component_wcc,12,12,0,6,6,0,22.576215305797326,1.6055662188099784,0,
+validation,2,routed,staged,12,12,0,4,7,1,0.4762418236498441,0.0,4.257385822153803,case_078
+validation,3,routed,component_wcc,12,12,0,6,6,0,20.763240090997034,5.122321222828175,0,
+validation,3,routed,staged,12,12,0,3,6,3,-0.09848062590998856,0.0,9.395973154362425,case_078

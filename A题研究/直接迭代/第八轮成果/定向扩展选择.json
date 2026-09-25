@@ -1,0 +1,97 @@
+{
+  "cases": [
+    "case_052",
+    "case_061",
+    "case_060",
+    "case_077",
+    "case_032",
+    "case_057",
+    "case_034",
+    "case_007"
+  ],
+  "features": [
+    {
+      "case": "case_052",
+      "ops": 1008,
+      "components": 52,
+      "heavy": 0.03365617789274114,
+      "pipe_ratio": 0.2166355774122435,
+      "mv_ratio": 0.44227997286755977,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_061",
+      "ops": 1115,
+      "components": 40,
+      "heavy": 0.22254311911782526,
+      "pipe_ratio": 1.3933049708911778,
+      "mv_ratio": 0.38585982982534706,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_060",
+      "ops": 5281,
+      "components": 89,
+      "heavy": 0.02762507660215482,
+      "pipe_ratio": 0.16494685045929644,
+      "mv_ratio": 0.37979290006553446,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_077",
+      "ops": 4486,
+      "components": 41,
+      "heavy": 0.24435677567300274,
+      "pipe_ratio": 0.992498904686018,
+      "mv_ratio": 0.32900824735319184,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_032",
+      "ops": 827,
+      "components": 25,
+      "heavy": 0.21542643560992183,
+      "pipe_ratio": 1.398735108104133,
+      "mv_ratio": 0.2985733196058244,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_057",
+      "ops": 865,
+      "components": 21,
+      "heavy": 0.21011894137309944,
+      "pipe_ratio": 1.361189950593924,
+      "mv_ratio": 0.29563754861768105,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_034",
+      "ops": 3745,
+      "components": 155,
+      "heavy": 0.0186756712098937,
+      "pipe_ratio": 0.07675262961183192,
+      "mv_ratio": 0.2602327940626835,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_007",
+      "ops": 3885,
+      "components": 555,
+      "heavy": 0.0018018018018018018,
+      "pipe_ratio": 0.009009009009009009,
+      "mv_ratio": 0.2585034013605442,
+      "route": "component_wcc",
+      "size": "small_medium"
+    }
+  ],
+  "rule": "Next eight by the unchanged graph-only MV balance ranking after five independent replays confirmed first-batch gains; targeted development extension, not held-out validation.",
+  "budget": 12,
+  "seconds": 120
+}

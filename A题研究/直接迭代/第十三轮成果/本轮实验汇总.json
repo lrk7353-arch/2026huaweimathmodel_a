@@ -1,0 +1,6 @@
+{
+  "panel_runs": 176,
+  "panel_fresh_calls": 2062,
+  "panel_failed_calls": 6,
+  "scope": "development revisions and validation counted separately; failures consume calls; not independent graph count"
+}

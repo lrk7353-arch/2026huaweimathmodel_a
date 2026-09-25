@@ -1,0 +1,122 @@
+"""Write round-13 conclusions with separate algorithm and portfolio metrics."""
+import csv
+from common_run import *
+from summarize_twelfth import table
+
+
+def main():
+    out=Path('第十三轮成果')
+    export=read_json(out/'summary.json');checks=read_json(out/'检查结果.json')
+    def rows(name):
+        with (out/name).open(encoding='utf-8-sig') as f:return list(csv.DictReader(f))
+    p1=read_json(out/'实验对照/P1扩展/analysis.json')
+    validation=read_json(out/'实验对照/P23验证v2/analysis.json')
+    improved=rows('改善清单.csv');costs=rows('实验成本.csv')
+    counts={p:sum(int(r['problem'])==p and int(r['after'])<int(r['before']) for r in improved) for p in (1,2,3)}
+    assert checks['dag_validated_plans']==1500 and export['regressions']==0
+    def find(analysis,p,method,control):
+        return next(r for r in analysis['comparisons'] if (r['problem'],r['method'],r['control'])==(p,method,control))
+    def wtl(r):return f"{r['wins']}/{r['ties']}/{r['losses']}"
+    def pct(x):return f'{x:.8f}%' if 0<abs(x)<.0001 else f'{x:.4f}%'
+    comparison_rows=[]
+    for p in (2,3):
+        times={r['method']:r['median_run_seconds'] for r in validation['costs'] if r['problem']==p}
+        for method in ('wide_legacy','budget_greedy','budget_beam'):
+            r=find(validation,p,method,'baseline')
+            comparison_rows.append([f'P{p}',method,wtl(r),f"{r['mean_paired_reduction_pct']:.4f}%",
+                f"{r['median_paired_reduction_pct']:.4f}%",f"{times['baseline']:.2f} → {times[method]:.2f}"])
+    ablations=[]
+    for p in (2,3):
+        for m,c in [('wide_legacy','local_legacy'),('budget_greedy','wide_legacy'),('budget_beam','budget_greedy')]:
+            r=find(validation,p,m,c)
+            ablations.append([f'P{p}',m+' / '+c,wtl(r),pct(r['mean_paired_reduction_pct'])])
+    gain_rows=[]
+    for r in improved:
+        source=next((m for m in ('baseline','integrated','local_legacy','wide_legacy','budget_greedy','budget_beam')
+                     if m in Path(r['official_record']).parts),'其他组合')
+        gain_rows.append([r['case'][-3:],'P'+r['problem'],r['cores'],r['before'],r['after'],
+            f"{float(r['reduction_pct']):.4f}%",source])
+    totals=[]
+    for p in (1,2,3):
+        g=next(g for g in export['groups'] if g['problem']==p and g['cores']==5)
+        totals.append([f'P{p}',g['strict_time_improved'],f"{g['mean_paired_time_reduction_pct']:.4f}%",
+                       f"{g['after_mean_speedup']:.4f}"])
+    p1r=p1['comparisons'][0];p1c=p1['matched_call_comparisons'][0]
+    portable=read_json(out/'隔离复现.json')
+    replay=read_json(out/'独立复评.json')
+    text=f'''# 第十三轮结果：P1扩大验证，P2/P3拆开起点与搜索策略的作用
+
+完整1500份方案已更新。相对第十二轮，新增{export['strict_time_improved']}个严格降时配置：P1 {counts[1]}个、P2 {counts[2]}个、P3 {counts[3]}个；按当前“周期优先，同周期比较COPY”的目标共{export['objective_improved']}项改善，无退步。新增目标改善{replay['completed']}项全部独立官方复评一致，1500份方案全部通过依赖合法性、核心数、输入顺序和成绩记录一致性检查。
+
+采用结论：P1联合流程值得继续推进，已有实际累计成绩提升；P2/P3的按收益/耗时分配和多起点搜索未达到统一采用标准，默认仍为原trace_routed。budget_greedy在8图验证中相对强基线P2平均慢5.58%、P3平均快0.44%，两者都增加耗时，且相对同框架wide_legacy的平均结果更差。保留完整实验代码与负例，不把复杂度增加当成算法进步。
+
+## P1：从4张验证图扩展到12张规模分层图
+
+保持第十二轮integrated算法不变，对照portfolio_diverse。排除上轮P1开发及验证8图后，只按原始计算算子数量排序，取12个等分区间的中点；具体规则与图特征在“选样规则.json”和“P1扩展图特征.csv”。本轮没有按新结果挑图。
+
+图号019/032/023/096/027/040/035/073/031/067/092/072，计算算子规模从647到29666。都是五核、seed17，每法最多12次官方评测、90秒软上限、单次25秒。24个实验臂最终均获得可行方案。
+
+|比较口径|胜/平/负|平均配对周期下降|
+|---|---|---|
+|相同调用与时间上限|{wtl(p1r)}|{p1r['mean_paired_reduction_pct']:.4f}%|
+|双方共同实际调用数处|{wtl(p1c)}|{p1c['mean_paired_reduction_pct']:.4f}%|
+
+基线实际102次，新方法136次。部分基线候选池提前耗尽；072两法达到时间上限，092新方法也达到时间上限。共6次候选失败均保留并计费（基线2、新方法4），不代表6张图无可行方案。共同调用数比较进一步排除了多用调用次数造成的部分优势，但仍不等于相同CPU秒数实验。
+
+040从110105到87145，027从558753到473151，073从3517515到3218828；019从基线18981变为19414，是明确负例。扩大范围后平均收益低于上轮4图的16.57%，这更能反映该方法的适用范围。两轮样本都不是历史上从未见过的数据，不能外推为全部100图或任意核数保证。
+
+从官方轨迹看，040由3个Task、3个活跃核心变为115个Task、5个活跃核心，最长Task由110105缩至30698周期；073的溢出搬运由124886400降至84221056字节。拆分改善了可并行性或内存压力，但也增加Task切换和边界搬运，不能按最长Task的缩短比例直接预测最终周期。027/031的最终一步分别来自旧排程和合并邻域，说明联合流程中的旧邻域仍有价值，不能把全部收益独归于新拆分算子。详见“P1机制观察.json”，这些是选中改善案例的前后观察，不是单因素因果证明。
+
+## P2/P3：实现了哪些变化
+
+search_budget.py负责保留当前运行内的近优方案及分配局部搜索调用。budget_greedy只保留一个当前最好方案；budget_beam保留至多三个结构不同、周期不超过当前最好105%的已计费成功方案。评测去重保留JSON插入顺序；结构归一化只用于挑选不同的搜索起点。最终输出始终是本次官方目标最好值，允许探索较差父方案不会降低交付成绩。
+
+两法每三个后段调用位置预留一个结构搜索位置，先尝试便宜旧邻域，各局部族先探测一次，再根据实际全局周期改善与生成、评测成本分配。优先公式、5%范围和3个起点均是工程启发式；实测用时参与选择，因此不同机器负载可能改变搜索路径。
+
+开发v1仍在031落后。逐次调用审计发现：初始调用上限缩到6次，也把Component/WCC/Operation候选生成范围缩到了6项，漏掉强基线12次流程会考虑的WCC候选。v2把初始生成范围按总预算12设置，初始实际评测仍最多6次，生成用时仍计入总软上限。P3/031由276203恢复至273059，与强基线一致；P2的273263仍略差于基线273240。
+
+新增wide_legacy消融：仅扩展初始候选范围，后段保持local_legacy。这使“更好的起点”“新的调用分配”“额外保留两个父方案”可以分别比较。原trace_routed、integrated和local_legacy默认行为保留。
+
+## P2/P3预留验证结果
+
+开发图018/031/046/083，预留验证图009/021/029/040/058/060/074/094。031已用于开发，未重复计入验证。每个场景8图、五法，共80臂；均使用独立新评测目录，预算同上。验证只跑最终v2，没有根据验证结果再次调参。
+
+80个验证实验臂全部获得可行方案，每臂实际12次新评测，没有候选评测失败或生成错误。
+
+{table(['场景','方法','对强基线：胜/平/负','平均降时','中位降时','基线→方法运行秒数中位数'], comparison_rows)}
+
+{table(['场景','消融比较：前者相对后者','胜/平/负','平均降时'], ablations)}
+
+这些比较的分母是各8张验证图，不能当作累计作品的百分比。“平均降时”逐图计算100×(1−新周期/对照周期)后取算术平均；失败与实际调用另见完整表。时间是本机两个工作进程运行的观测值，不是跨机器保证。上述表完整保留负例；判断新方法时应同时看胜平负、幅度及成本。
+
+父方案审计逐条检查每个引用的父方案都来自本次更早的已计费成功评测。详细的替代父方案调用数、全局周期改善次数和生成时间在“邻域收益与成本.csv”；中途改善次数受路径影响，不等于最终方法优势。具体采用结论另见README及本轮最终说明，实验性新方法均需显式选择。
+
+重要负例是P2/009：基线在第12次评测才试到cross_release_dependency_tail，把周期降至52200；wide_legacy只得到77091，budget_beam得到75349。这里两法与基线的前6次起点相同，问题发生在后段：小幅改善后反复从新起点生成候选，结构/数据族轮换又占用调用，旧候选队列中较深但很有价值的方案没有被评测。保留多个父方案本身不足以保证这些候选获得机会。
+
+本轮不把多起点或按秒收益调度提升为默认。下一步P2/P3应优先研究未试候选的保留和刷新时机：区分值得立即重新生成的大幅改善与只需更新成绩的小幅改善，并保留强轨迹候选序列的深入搜索机会。这个修正尚未实现；后续必须用新的预留组验证，不能在本轮验证结果上反复调参后继续声称独立验证。
+
+## 累计作品改进
+
+{table(['图','场景','核数','上轮周期','本轮周期','降时','入库记录来源'], gain_rows)}
+
+入库来源不一定是唯一同分方法。强基线找到的改善也保留，但不归功于新增算法。1500份方案仍覆盖100图×3场景×5核数，不是本轮重复跑了1500次搜索。
+
+{table(['场景','五核新降时配置','全部100图平均配对降时','五核平均加速比'], totals)}
+
+成绩表还完整列出COPY变化。部分P1改进增加了搬运量，例如040从0新增COPY增到1855276字节，换取周期降低；027也由5529600增到8085504字节。不能宣称所有指标同时改善。旧方案保留在上轮成果目录，当前组合按周期优先的既有规则选择。
+
+## 实验成本与可复现性
+
+{table(['批次','实验臂','新评测','候选失败','生成错误','墙钟秒'], [[r['panel'],r['runs'],r['fresh_calls'],r['failed_calls'],r['generation_errors'],f"{float(r['wall_seconds']):.2f}"] for r in costs])}
+
+开发v1与v2负例均保留，各版本单列，不能把所有调用数当成独立样本量。70项相关单元测试通过，覆盖共同预算、失败计费、近优筛选、结构去重、较差父方案跨越局部障碍、生成范围与调用上限分离及CLI参数传递。
+
+隔离目录仅复制五个求解源码目录、官方评测器和选定原图/config，不含历史运行、方案库或缓存。公开入口复现记录包含{len(portable['runs'])}个运行，全部有本次官方可行结果，详情见“隔离复现.json”。每次输出目录都独立，在线成本策略不承诺跨机器搜索终值完全一致；同一份导出方案的官方周期和COPY已另外独立复评。
+
+本轮实验已结束，旧长队列仍暂停。源码入口为solve.py，新调度位于search_budget.py，完整运行例子见README。最终1500份JSON在“方案”目录，负例、逐次改善曲线、父方案来源和成本数据在“实验对照”目录。
+'''
+    (out/'第十三轮结果.md').write_text(text,encoding='utf-8')
+    print(dict(strict_improvements=counts,objective_improved=export['objective_improved']))
+
+
+if __name__=='__main__':main()

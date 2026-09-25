@@ -1,0 +1,84 @@
+{
+  "jobs": [
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5,
+      "method": "integrated"
+    }
+  ],
+  "budget": 24,
+  "seconds": 120,
+  "evaluation_timeout": 25,
+  "seed": 17,
+  "selection": "development-case budget illustration; not extra validation",
+  "execution_order": [
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    }
+  ],
+  "fresh_evaluations": true
+}

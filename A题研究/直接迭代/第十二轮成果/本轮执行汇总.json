@@ -1,0 +1,8 @@
+{
+  "panel_runs": 138,
+  "panel_fresh_calls": 1720,
+  "all_logical_calls": 1757,
+  "all_fresh_calls": 1756,
+  "export_changed": 7,
+  "scope": "includes development revisions, validation, budget probes, isolated CLI runs, cross-scene probes and independent replay; not an equal-budget algorithm score"
+}

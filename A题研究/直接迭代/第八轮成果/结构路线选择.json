@@ -1,0 +1,1049 @@
+{
+  "development": [
+    "case_009",
+    "case_046",
+    "case_085",
+    "case_094"
+  ],
+  "validation": [
+    "case_004",
+    "case_008",
+    "case_040",
+    "case_053",
+    "case_054",
+    "case_062",
+    "case_063",
+    "case_066",
+    "case_078",
+    "case_079",
+    "case_087",
+    "case_098"
+  ],
+  "screening": [
+    "case_065",
+    "case_095",
+    "case_015",
+    "case_023",
+    "case_012",
+    "case_055",
+    "case_017",
+    "case_070"
+  ],
+  "validation_seed": 20260930,
+  "rule": "3 per size<=6000/>6000 x structural route, uniformly sampled before new results; exclude four round7 from-scratch graphs",
+  "routing": "component_wcc if components>1 and largest-component pipe load / ideal per-core pipe load <=1.5; otherwise staged; fixed graph-only rule",
+  "screening_rule": "remaining small/medium component-route graphs ranked by min(total M,total V)/max(total M,total V); eight largest; targeted, not random",
+  "features": [
+    {
+      "case": "case_001",
+      "ops": 600,
+      "components": 200,
+      "heavy": 0.005,
+      "pipe_ratio": 0.025,
+      "mv_ratio": 0.13058419243986255,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_002",
+      "ops": 1798,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.1497,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_003",
+      "ops": 13455,
+      "components": 10,
+      "heavy": 0.8997252549474398,
+      "pipe_ratio": 4.366214516217251,
+      "mv_ratio": 0.741100567011249,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_004",
+      "ops": 777,
+      "components": 111,
+      "heavy": 0.009009009009009009,
+      "pipe_ratio": 0.04504504504504504,
+      "mv_ratio": 0.12435233160621761,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_005",
+      "ops": 4113,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.9537897999436461,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_006",
+      "ops": 678,
+      "components": 27,
+      "heavy": 0.3459730778005932,
+      "pipe_ratio": 2.19768115942029,
+      "mv_ratio": 0.27043478260869563,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_007",
+      "ops": 3885,
+      "components": 555,
+      "heavy": 0.0018018018018018018,
+      "pipe_ratio": 0.009009009009009009,
+      "mv_ratio": 0.2585034013605442,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_008",
+      "ops": 864,
+      "components": 108,
+      "heavy": 0.009259259259259259,
+      "pipe_ratio": 0.046296296296296294,
+      "mv_ratio": 0.9481865284974094,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_009",
+      "ops": 5671,
+      "components": 25,
+      "heavy": 0.6151054268924991,
+      "pipe_ratio": 3.325555037002467,
+      "mv_ratio": 0.5430362024134943,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_010",
+      "ops": 667,
+      "components": 36,
+      "heavy": 0.2872854773939624,
+      "pipe_ratio": 2.591087645956465,
+      "mv_ratio": 0.8038417183220412,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_011",
+      "ops": 688,
+      "components": 16,
+      "heavy": 0.0625,
+      "pipe_ratio": 0.3125,
+      "mv_ratio": 0.13844552394170714,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_012",
+      "ops": 972,
+      "components": 50,
+      "heavy": 0.17357577902638294,
+      "pipe_ratio": 1.473068705723603,
+      "mv_ratio": 0.906246486000225,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_013",
+      "ops": 1968,
+      "components": 246,
+      "heavy": 0.0040650406504065045,
+      "pipe_ratio": 0.02032520325203252,
+      "mv_ratio": 0.16417910447761194,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_014",
+      "ops": 35705,
+      "components": 1340,
+      "heavy": 0.0020250384962323805,
+      "pipe_ratio": 0.010135989450211392,
+      "mv_ratio": 0.09586950883061798,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_015",
+      "ops": 1013,
+      "components": 46,
+      "heavy": 0.14846521475796148,
+      "pipe_ratio": 1.4369882853680405,
+      "mv_ratio": 0.9357912056513986,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_016",
+      "ops": 17995,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.0,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_017",
+      "ops": 1373,
+      "components": 60,
+      "heavy": 0.04665864275992396,
+      "pipe_ratio": 0.31410488245931284,
+      "mv_ratio": 0.6076130198915008,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_018",
+      "ops": 2727,
+      "components": 126,
+      "heavy": 0.026754276320948,
+      "pipe_ratio": 0.13865667339290863,
+      "mv_ratio": 0.11605958901288968,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_019",
+      "ops": 647,
+      "components": 31,
+      "heavy": 0.27186851835151954,
+      "pipe_ratio": 2.105871665703196,
+      "mv_ratio": 0.8315302667437443,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_020",
+      "ops": 7008,
+      "components": 288,
+      "heavy": 0.003995433789954338,
+      "pipe_ratio": 0.01997716894977169,
+      "mv_ratio": 0.0,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_021",
+      "ops": 3920,
+      "components": 80,
+      "heavy": 0.0125,
+      "pipe_ratio": 0.0625,
+      "mv_ratio": 0.12651162790697673,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_022",
+      "ops": 1356,
+      "components": 32,
+      "heavy": 0.12212528384354032,
+      "pipe_ratio": 0.6612494684489804,
+      "mv_ratio": 0.08290347033483092,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_023",
+      "ops": 1011,
+      "components": 43,
+      "heavy": 0.07332520948985272,
+      "pipe_ratio": 0.48276258661836163,
+      "mv_ratio": 0.9112395411023894,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_024",
+      "ops": 5959,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.0,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_025",
+      "ops": 18662,
+      "components": 2666,
+      "heavy": 0.00037509377344336085,
+      "pipe_ratio": 0.0018754688672168042,
+      "mv_ratio": 0.2585034013605442,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_026",
+      "ops": 636,
+      "components": 31,
+      "heavy": 0.3652827487473157,
+      "pipe_ratio": 2.8843545105132264,
+      "mv_ratio": 0.5792448564322857,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_027",
+      "ops": 1424,
+      "components": 16,
+      "heavy": 0.0625,
+      "pipe_ratio": 0.3125,
+      "mv_ratio": 0.12885443583118003,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_028",
+      "ops": 19584,
+      "components": 153,
+      "heavy": 0.006535947712418301,
+      "pipe_ratio": 0.032679738562091505,
+      "mv_ratio": 0.05068777086866403,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_029",
+      "ops": 861,
+      "components": 21,
+      "heavy": 0.047619047619047616,
+      "pipe_ratio": 0.23809523809523808,
+      "mv_ratio": 0.0,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_030",
+      "ops": 10070,
+      "components": 486,
+      "heavy": 0.007273893585968281,
+      "pipe_ratio": 0.036521062640465625,
+      "mv_ratio": 0.1465243761885553,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_031",
+      "ops": 6135,
+      "components": 107,
+      "heavy": 0.07235922204643215,
+      "pipe_ratio": 0.215752511067882,
+      "mv_ratio": 0.16562482202965623,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_032",
+      "ops": 827,
+      "components": 25,
+      "heavy": 0.21542643560992183,
+      "pipe_ratio": 1.398735108104133,
+      "mv_ratio": 0.2985733196058244,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_033",
+      "ops": 3465,
+      "components": 95,
+      "heavy": 0.02141759758352212,
+      "pipe_ratio": 0.10881264365421606,
+      "mv_ratio": 0.11112847113722059,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_034",
+      "ops": 3745,
+      "components": 155,
+      "heavy": 0.0186756712098937,
+      "pipe_ratio": 0.07675262961183192,
+      "mv_ratio": 0.2602327940626835,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_035",
+      "ops": 3857,
+      "components": 16,
+      "heavy": 0.5982794843304982,
+      "pipe_ratio": 2.7042783981543894,
+      "mv_ratio": 0.4321619912583647,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_036",
+      "ops": 2400,
+      "components": 800,
+      "heavy": 0.00125,
+      "pipe_ratio": 0.00625,
+      "mv_ratio": 0.13058419243986255,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_037",
+      "ops": 780,
+      "components": 20,
+      "heavy": 0.05,
+      "pipe_ratio": 0.25,
+      "mv_ratio": 0.13778625954198473,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_038",
+      "ops": 5907,
+      "components": 130,
+      "heavy": 0.019798013901616854,
+      "pipe_ratio": 0.10084528301886793,
+      "mv_ratio": 0.1266233962264151,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_039",
+      "ops": 5250,
+      "components": 70,
+      "heavy": 0.014285714285714285,
+      "pipe_ratio": 0.07142857142857142,
+      "mv_ratio": 0.07142857142857142,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_040",
+      "ops": 3083,
+      "components": 28,
+      "heavy": 0.47310419416706134,
+      "pipe_ratio": 2.531803328111289,
+      "mv_ratio": 0.6028069835424843,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_041",
+      "ops": 16594,
+      "components": 494,
+      "heavy": 0.0048825232700650005,
+      "pipe_ratio": 0.024477374966922465,
+      "mv_ratio": 0.10309164682014642,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_042",
+      "ops": 4733,
+      "components": 104,
+      "heavy": 0.030899094954692945,
+      "pipe_ratio": 0.17633308235506004,
+      "mv_ratio": 0.14134787839977586,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_043",
+      "ops": 9309,
+      "components": 38,
+      "heavy": 0.39007861020226486,
+      "pipe_ratio": 2.0069067816251795,
+      "mv_ratio": 0.6641036635300298,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_044",
+      "ops": 1364,
+      "components": 11,
+      "heavy": 0.09090909090909091,
+      "pipe_ratio": 0.45454545454545453,
+      "mv_ratio": 0.1342400946185689,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_045",
+      "ops": 1651,
+      "components": 68,
+      "heavy": 0.016959418534221685,
+      "pipe_ratio": 0.08479709267110842,
+      "mv_ratio": 0.0,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_046",
+      "ops": 992,
+      "components": 8,
+      "heavy": 0.125,
+      "pipe_ratio": 0.625,
+      "mv_ratio": 0.08793393485242391,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_047",
+      "ops": 13710,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.5928210664301963,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_048",
+      "ops": 1728,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.8604231166150671,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_049",
+      "ops": 4303,
+      "components": 11,
+      "heavy": 0.8563322472327408,
+      "pipe_ratio": 4.28180913013306,
+      "mv_ratio": 0.5760733789940561,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_050",
+      "ops": 4555,
+      "components": 23,
+      "heavy": 0.761310612313153,
+      "pipe_ratio": 3.5881224186911123,
+      "mv_ratio": 0.3895330969710144,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_051",
+      "ops": 1416,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.0,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_052",
+      "ops": 1008,
+      "components": 52,
+      "heavy": 0.03365617789274114,
+      "pipe_ratio": 0.2166355774122435,
+      "mv_ratio": 0.44227997286755977,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_053",
+      "ops": 11670,
+      "components": 39,
+      "heavy": 0.3958929908877301,
+      "pipe_ratio": 1.440844840466849,
+      "mv_ratio": 0.28372113733852494,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_054",
+      "ops": 15751,
+      "components": 24,
+      "heavy": 0.6838853154239679,
+      "pipe_ratio": 3.6266056675536733,
+      "mv_ratio": 0.7674324644384691,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_055",
+      "ops": 1236,
+      "components": 24,
+      "heavy": 0.10907562382972219,
+      "pipe_ratio": 0.9106576489159872,
+      "mv_ratio": 0.8949586525510869,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_056",
+      "ops": 7678,
+      "components": 19,
+      "heavy": 0.9658088596144511,
+      "pipe_ratio": 4.8438522807203,
+      "mv_ratio": 0.5326871394128146,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_057",
+      "ops": 865,
+      "components": 21,
+      "heavy": 0.21011894137309944,
+      "pipe_ratio": 1.361189950593924,
+      "mv_ratio": 0.29563754861768105,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_058",
+      "ops": 16575,
+      "components": 255,
+      "heavy": 0.00392156862745098,
+      "pipe_ratio": 0.0196078431372549,
+      "mv_ratio": 0.07113607113607114,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_059",
+      "ops": 2752,
+      "components": 64,
+      "heavy": 0.015625,
+      "pipe_ratio": 0.078125,
+      "mv_ratio": 0.13844552394170714,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_060",
+      "ops": 5281,
+      "components": 89,
+      "heavy": 0.02762507660215482,
+      "pipe_ratio": 0.16494685045929644,
+      "mv_ratio": 0.37979290006553446,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_061",
+      "ops": 1115,
+      "components": 40,
+      "heavy": 0.22254311911782526,
+      "pipe_ratio": 1.3933049708911778,
+      "mv_ratio": 0.38585982982534706,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_062",
+      "ops": 19636,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.1499725022914757,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_063",
+      "ops": 7360,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.14992665036674815,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_064",
+      "ops": 906,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.4641768292682927,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_065",
+      "ops": 704,
+      "components": 42,
+      "heavy": 0.06687666585897746,
+      "pipe_ratio": 0.4925807981570567,
+      "mv_ratio": 0.9573819364455587,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_066",
+      "ops": 5962,
+      "components": 28,
+      "heavy": 0.6655501990340095,
+      "pipe_ratio": 3.76159647600614,
+      "mv_ratio": 0.6328765193144823,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_067",
+      "ops": 8804,
+      "components": 71,
+      "heavy": 0.014084507042253521,
+      "pipe_ratio": 0.07042253521126761,
+      "mv_ratio": 0.040067872430681425,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_068",
+      "ops": 5351,
+      "components": 32,
+      "heavy": 0.8442658068286788,
+      "pipe_ratio": 4.7315747427750185,
+      "mv_ratio": 0.6210171777712654,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_069",
+      "ops": 1032,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.9168765743073047,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_070",
+      "ops": 1191,
+      "components": 38,
+      "heavy": 0.08020367360441868,
+      "pipe_ratio": 0.5899359700322327,
+      "mv_ratio": 0.5141345064901124,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_071",
+      "ops": 741,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.8739428753789692,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_072",
+      "ops": 29666,
+      "components": 476,
+      "heavy": 0.011688040891541596,
+      "pipe_ratio": 0.03140470376647967,
+      "mv_ratio": 0.07450244228761449,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_073",
+      "ops": 4836,
+      "components": 39,
+      "heavy": 0.02564102564102564,
+      "pipe_ratio": 0.1282051282051282,
+      "mv_ratio": 0.052454503746750265,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_074",
+      "ops": 3609,
+      "components": 73,
+      "heavy": 0.032547850092584055,
+      "pipe_ratio": 0.1705431853637782,
+      "mv_ratio": 0.1256280770711348,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_075",
+      "ops": 7410,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.5820752672637965,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_076",
+      "ops": 32528,
+      "components": 809,
+      "heavy": 0.003784906373218477,
+      "pipe_ratio": 0.01894535541843104,
+      "mv_ratio": 0.15626915734411326,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_077",
+      "ops": 4486,
+      "components": 41,
+      "heavy": 0.24435677567300274,
+      "pipe_ratio": 0.992498904686018,
+      "mv_ratio": 0.32900824735319184,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_078",
+      "ops": 1024,
+      "components": 8,
+      "heavy": 0.125,
+      "pipe_ratio": 0.625,
+      "mv_ratio": 0.05068777086866403,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_079",
+      "ops": 18720,
+      "components": 288,
+      "heavy": 0.003472222222222222,
+      "pipe_ratio": 0.017361111111111112,
+      "mv_ratio": 0.12778952313836034,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_080",
+      "ops": 1098,
+      "components": 18,
+      "heavy": 0.05555555555555555,
+      "pipe_ratio": 0.2777777777777778,
+      "mv_ratio": 0.07099265163781293,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_081",
+      "ops": 3485,
+      "components": 85,
+      "heavy": 0.011764705882352941,
+      "pipe_ratio": 0.058823529411764705,
+      "mv_ratio": 0.0,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_082",
+      "ops": 4113,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.6334622210953347,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_083",
+      "ops": 3844,
+      "components": 31,
+      "heavy": 0.03225806451612903,
+      "pipe_ratio": 0.16129032258064516,
+      "mv_ratio": 0.08793393485242391,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_084",
+      "ops": 8616,
+      "components": 1077,
+      "heavy": 0.0009285051067780873,
+      "pipe_ratio": 0.004642525533890436,
+      "mv_ratio": 0.9795918367346939,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_085",
+      "ops": 19737,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.6723433816099696,
+      "route": "staged",
+      "size": "large"
+    },
+    {
+      "case": "case_086",
+      "ops": 5274,
+      "components": 1,
+      "heavy": 1.0,
+      "pipe_ratio": 5.0,
+      "mv_ratio": 0.985830112904448,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_087",
+      "ops": 27556,
+      "components": 196,
+      "heavy": 0.1988568528063942,
+      "pipe_ratio": 0.7550761421319797,
+      "mv_ratio": 0.245676373675305,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_088",
+      "ops": 3309,
+      "components": 31,
+      "heavy": 0.8329809183763061,
+      "pipe_ratio": 4.52859315238929,
+      "mv_ratio": 0.5745357356803834,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_089",
+      "ops": 5120,
+      "components": 40,
+      "heavy": 0.025,
+      "pipe_ratio": 0.125,
+      "mv_ratio": 0.18631178707224336,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_090",
+      "ops": 1664,
+      "components": 13,
+      "heavy": 0.07692307692307693,
+      "pipe_ratio": 0.38461538461538464,
+      "mv_ratio": 0.07052709725315516,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_091",
+      "ops": 31554,
+      "components": 513,
+      "heavy": 0.0062107904009555065,
+      "pipe_ratio": 0.03171457329402229,
+      "mv_ratio": 0.10373818664433894,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_092",
+      "ops": 17608,
+      "components": 142,
+      "heavy": 0.007042253521126761,
+      "pipe_ratio": 0.035211267605633804,
+      "mv_ratio": 0.08793393485242391,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_093",
+      "ops": 552,
+      "components": 69,
+      "heavy": 0.014492753623188406,
+      "pipe_ratio": 0.07246376811594203,
+      "mv_ratio": 0.16417910447761194,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_094",
+      "ops": 647,
+      "components": 40,
+      "heavy": 0.0637504648568241,
+      "pipe_ratio": 0.4321718538565629,
+      "mv_ratio": 0.5161253946774921,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_095",
+      "ops": 3696,
+      "components": 462,
+      "heavy": 0.0021645021645021645,
+      "pipe_ratio": 0.010822510822510822,
+      "mv_ratio": 0.9481865284974094,
+      "route": "component_wcc",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_096",
+      "ops": 1198,
+      "components": 50,
+      "heavy": 0.28632845165855436,
+      "pipe_ratio": 2.5133634481460567,
+      "mv_ratio": 0.7555806512328251,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_097",
+      "ops": 6592,
+      "components": 64,
+      "heavy": 0.015625,
+      "pipe_ratio": 0.078125,
+      "mv_ratio": 0.12924865831842575,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_098",
+      "ops": 1365,
+      "components": 27,
+      "heavy": 0.49560270448951926,
+      "pipe_ratio": 2.741439819054585,
+      "mv_ratio": 0.10630543143557815,
+      "route": "staged",
+      "size": "small_medium"
+    },
+    {
+      "case": "case_099",
+      "ops": 6296,
+      "components": 202,
+      "heavy": 0.009829307368561387,
+      "pipe_ratio": 0.0492640477748445,
+      "mv_ratio": 0.0907060177350572,
+      "route": "component_wcc",
+      "size": "large"
+    },
+    {
+      "case": "case_100",
+      "ops": 1394,
+      "components": 43,
+      "heavy": 0.34713149371365376,
+      "pipe_ratio": 2.800052937543502,
+      "mv_ratio": 0.6132520317233131,
+      "route": "staged",
+      "size": "small_medium"
+    }
+  ],
+  "limitation": "These graphs may have appeared in older work; only excluded from round7 four-graph pipeline development. No claim of historically unseen data.",
+  "budget": 12,
+  "seconds": 120,
+  "per_call_timeout": 60,
+  "cores": 5,
+  "methods": [
+    "component_wcc",
+    "staged",
+    "routed"
+  ],
+  "seed": 17
+}

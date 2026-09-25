@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "logical_calls": 8,
+  "new_calls": 8,
+  "rows": [
+    {
+      "name": "input",
+      "problem": 2,
+      "makespan": 10472,
+      "cache_stats": null
+    },
+    {
+      "name": "input",
+      "problem": 3,
+      "makespan": 9183,
+      "cache_stats": {
+        "copy_in_hits": 91,
+        "copy_in_misses": 158,
+        "hit_bytes": 150160,
+        "miss_bytes": 246678,
+        "hits": 91,
+        "accesses": 249,
+        "hit_rate": 0.3783911822960503
+      }
+    },
+    {
+      "name": "first_joint",
+      "problem": 2,
+      "makespan": 10493,
+      "cache_stats": null
+    },
+    {
+      "name": "first_joint",
+      "problem": 3,
+      "makespan": 9114,
+      "cache_stats": {
+        "copy_in_hits": 84,
+        "copy_in_misses": 165,
+        "hit_bytes": 142480,
+        "miss_bytes": 254358,
+        "hits": 84,
+        "accesses": 249,
+        "hit_rate": 0.35903819694686495
+      }
+    },
+    {
+      "name": "second_joint",
+      "problem": 2,
+      "makespan": 10490,
+      "cache_stats": null
+    },
+    {
+      "name": "second_joint",
+      "problem": 3,
+      "makespan": 9109,
+      "cache_stats": {
+        "copy_in_hits": 84,
+        "copy_in_misses": 165,
+        "hit_bytes": 142864,
+        "miss_bytes": 253974,
+        "hits": 84,
+        "accesses": 249,
+        "hit_rate": 0.36000584621432424
+      }
+    },
+    {
+      "name": "final_reencoding",
+      "problem": 2,
+      "makespan": 10493,
+      "cache_stats": null
+    },
+    {
+      "name": "final_reencoding",
+      "problem": 3,
+      "makespan": 9107,
+      "cache_stats": {
+        "copy_in_hits": 86,
+        "copy_in_misses": 163,
+        "hit_bytes": 144784,
+        "miss_bytes": 252054,
+        "hits": 86,
+        "accesses": 249,
+        "hit_rate": 0.36484409255162054
+      }
+    }
+  ],
+  "elapsed_seconds": 1.2018686248920858
+}
