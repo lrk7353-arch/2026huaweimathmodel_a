@@ -1,0 +1,5 @@
+case,problem,cores,status,expected_time,actual_time,expected_copy,actual_copy,matches,cache_hit,elapsed_seconds,record_path
+case_085,1,5,success,873645,873645,23398256,23398256,True,False,13.623017749981955,/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/队友成果对比_20260925/复评运行/case_085_p1/attempts/20260925T234231-3866b95a882941afab27e4b2b106d929/record.json
+case_095,3,5,success,220188,220188,0,0,True,False,0.8243493419722654,/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/队友成果对比_20260925/复评运行/case_095_p3/attempts/20260925T234244-ee236ec3411e47f79386d5dca109d0e3/record.json
+case_046,3,5,success,58678,58678,2582304,2582304,True,False,0.22096403798786923,/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/队友成果对比_20260925/复评运行/case_046_p3/attempts/20260925T234245-c31def9b0e414bf0873ce36129b617e2/record.json
+case_040,1,5,success,87145,87145,1855276,1855276,True,False,0.6728896999848075,/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/队友成果对比_20260925/复评运行/case_040_p1/attempts/20260925T234245-ca02e76e477e4b51bb05154c93430ad4/record.json
