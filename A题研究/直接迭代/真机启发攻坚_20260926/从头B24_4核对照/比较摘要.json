@@ -1,0 +1,52 @@
+{
+  "2": {
+    "pairs": 8,
+    "wins": 4,
+    "ties": 4,
+    "losses": 0,
+    "geometric_speed_ratio": 1.071670362177907,
+    "metrics": {
+      "mature": {
+        "mean_speedup": 3.7093660258388175,
+        "calls": 183,
+        "failures": 0,
+        "sum_seconds": 269.66675966398907,
+        "added_copy_bytes": 12759888,
+        "median_generation_seconds": 0.0
+      },
+      "frontier": {
+        "mean_speedup": 3.9346194709170295,
+        "calls": 184,
+        "failures": 0,
+        "sum_seconds": 246.05006807800964,
+        "added_copy_bytes": 12737704,
+        "median_generation_seconds": 0.09409929749381263
+      }
+    }
+  },
+  "3": {
+    "pairs": 8,
+    "wins": 6,
+    "ties": 2,
+    "losses": 0,
+    "geometric_speed_ratio": 1.1424515154677213,
+    "metrics": {
+      "mature": {
+        "mean_speedup": 3.6322392238553705,
+        "calls": 183,
+        "failures": 0,
+        "sum_seconds": 264.49758059807937,
+        "added_copy_bytes": 12747592,
+        "median_generation_seconds": 0.0
+      },
+      "frontier": {
+        "mean_speedup": 4.012200071869378,
+        "calls": 184,
+        "failures": 0,
+        "sum_seconds": 332.2572110319452,
+        "added_copy_bytes": 12725408,
+        "median_generation_seconds": 0.12454877050186042
+      }
+    }
+  }
+}
