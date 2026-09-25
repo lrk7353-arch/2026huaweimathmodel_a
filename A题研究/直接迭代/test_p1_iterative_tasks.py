@@ -17,6 +17,20 @@ def candidate(i, bound=0):
 
 
 class IterativeTests(unittest.TestCase):
+    def test_single_pass_can_beat_greedy_refresh_by_retaining_parent_tail(self):
+        def make(p, r):
+            return [candidate(1), candidate(2)] if p == plan(0) else []
+        def run(p, _):
+            return record({1:99, 2:70}[next(iter(p['node_to_subgraph'].values()))])
+        static = search(plan(0), record(100), make, run, 3,
+                        time.monotonic()+10, refresh_after_accept=False)
+        refreshed = search(plan(0), record(100), make, run, 3,
+                           time.monotonic()+10, refresh_after_accept=True)
+        self.assertEqual(static[1]['metrics']['makespan'], 70)
+        self.assertEqual(refreshed[1]['metrics']['makespan'], 99)
+        self.assertEqual(len(static[2]), 2)
+        self.assertEqual(static[4], 1)
+
     def test_regenerates_from_new_parent_and_respects_total_budget(self):
         parents = []
         def make(p, r):

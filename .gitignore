@@ -54,3 +54,7 @@
 # Selected, independently re-evaluated results from the joint research pass.
 !/A题研究/直接迭代/联合推进成果_20260925/**/*.json
 !/A题研究/直接迭代/联合推进成果_20260925/**/*.json.gz
+
+# Frozen protocol and compact evidence for the paired iterative validation.
+!/A题研究/直接迭代/闭环验证_20260925/**/*.json
+!/A题研究/直接迭代/闭环验证_20260925/**/*.json.gz

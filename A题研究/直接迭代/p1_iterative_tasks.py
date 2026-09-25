@@ -12,7 +12,7 @@ from p1_portfolio import refinement_caps
 
 
 def search(initial_plan, initial_record, candidate_factory, evaluator, budget,
-           deadline, on_progress=None):
+           deadline, on_progress=None, refresh_after_accept=True):
     """Budgeted accept-and-regenerate loop, independently testable."""
     best_plan, best = initial_plan, initial_record
     seen = {exact_key(initial_plan)}
@@ -47,14 +47,15 @@ def search(initial_plan, initial_record, candidate_factory, evaluator, budget,
                 best_plan, best = candidate['plan'], record
             if on_progress:
                 on_progress(best_plan, best, len(trials), generations)
-            if accepted:
+            if accepted and refresh_after_accept:
                 break
-        if not accepted:
+        if not accepted or not refresh_after_accept:
             break
     return best_plan, best, trials, skipped, generations
 
 
-def run(case, old, out, budget=7, seconds=180, cores=5, seed=17):
+def run(case, old, out, budget=7, seconds=180, cores=5, seed=17,
+        refresh_after_accept=True):
     if key(old) != (case, 1, cores) or old['status'] != 'success':
         raise ValueError('successful matching incumbent required')
     if budget < 1 or seconds <= 0:
@@ -89,15 +90,17 @@ def run(case, old, out, budget=7, seconds=180, cores=5, seed=17):
 
     plan, best, trials, skipped, generations = search(
         read_json(old['plan_path']), old, candidates, evaluate_candidate,
-        budget, deadline, progress)
+        budget, deadline, progress, refresh_after_accept=refresh_after_accept)
     atomic_json(out/'best.plan.json', plan)
-    result = dict(case=case, problem=1, num_cores=cores, method='iterative_tasks',
+    result = dict(case=case, problem=1, num_cores=cores,
+                  method='iterative_tasks' if refresh_after_accept else 'single_pass_tasks',
+                  refresh_after_accept=refresh_after_accept,
                   before=score(old)[0], after=score(best)[0], best_record=best,
                   evaluations=trials, skipped=skipped, generations=generation_log,
                   logical_calls=len(trials), new_calls=sum(not t['record']['cache_hit'] for t in trials),
                   budget=budget, elapsed_seconds=time.monotonic()-start,
                   stop_reason='time_budget' if time.monotonic() >= deadline else
                               'call_budget' if len(trials) >= budget else 'neighbourhood_exhausted',
-                  scope='extra-budget warm refinement; existing Task generator, accepted-parent refresh')
+                  scope='extra-budget warm refinement; common Task generator and budget accounting')
     atomic_json(out/'summary.json', result)
     return result
