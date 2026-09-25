@@ -96,3 +96,8 @@
 !/tools/ascend910b/mechanisms/CMakeLists.txt
 !/A题研究/真机机制研究_20260926/机制实验/**/*.json
 /tools/ascend910b/mechanisms/build/
+!/A题研究/真机机制研究_20260926/机制实验/figures_final/*.png
+!/A题研究/真机机制研究_20260926/机制实验/figures_final/*.svg
+!/A题研究/真机机制研究_20260926/机制实验/source_snapshots/*.tar.gz
+!/A题研究/真机机制研究_20260926/机制实验/**/*.log
+!/A题研究/真机机制研究_20260926/机制实验/**/*.txt

@@ -58,9 +58,10 @@ def main():
                    'launches':launches, 'programmed_gm_bytes':gm_bytes,
                    'logical_GBps':gm_bytes/st.median(dev)/1000,
                    'queue_buffer_bytes_per_block':int(c['buffers'])*int(c['tile'])*12,
-                   'read_workset_bytes':n*groups*8, 'all_outputs_correct':True}
+                   'read_workset_bytes':n*4+(n//int(c['blocks']))*4 if mode=='shared' else n*groups*8,
+                   'all_outputs_correct':True}
             stats[key]=row; all_stats.append(row)
-        if suite not in ['pipe','barrier','reuse','cache']:
+        if suite not in ['pipe','barrier','reuse','cache','sharing']:
             continue
         paired = {}
         for key,c in configs.items():
@@ -71,7 +72,7 @@ def main():
             if len(ids)!=2 or not all(k in stats for k in ids):
                 continue
             base = next(k for k in ids if configs[k]['buffers']=='1') if suite=='pipe' else next(
-                k for k in ids if configs[k]['mode'] in ['barrier','materialize','cache_roundrobin'])
+                k for k in ids if configs[k]['mode'] in ['barrier','materialize','cache_roundrobin','private'])
             new = next(k for k in ids if k!=base)
             reps = sorted(set(raw[base]) & set(raw[new]))
             ratios = [float(raw[base][r]['device_envelope_us'])/float(raw[new][r]['device_envelope_us']) for r in reps]

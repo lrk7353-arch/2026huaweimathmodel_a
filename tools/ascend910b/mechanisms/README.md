@@ -29,6 +29,18 @@ python3 analyze.py full_01
 
 共336配置、每配置10次预热、30次计时；每轮随机打乱配置顺序，种子20260926。每次计时后检查全部输出，检查不计入时间。全部输入是精确可表示的二进制分数，CPU参考为`x + rounds*y`。失败立即终止当前批次，保留已写日志。
 
+## 扩展与证据入口
+
+随后增加`--suites sharing`的64配置：相同数值输入与计算量，比较各块读取独立副本和真正共享同一GM地址；输入长度对齐31元素周期，使两布局的完整输出也相同。`mixed_resources.py`另测矩阵/向量串行及并发，可加`--graph`减少逐个Python提交造成的空隙。
+
+- `profile_selected.py`：普通整应用msprof采集，保持原先kernel顺序，不采用逐kernel重放；保留命令、返回码和原始CSV。
+- `extract_profiles.py`：从最后一次测量序列提取A/B重叠、kernel间隙及按请求数加权的L2读命中率。
+- `confirm_selected.py`：对探索阶段最好、最差配对，在新进程中复测原规模和双倍规模；属于确认性复测，不是未见图泛化。
+- `extract_mixed_profiles.py`：确认MatMulV2实际为AI_CORE、Add为AI_VECTOR_CORE，并量化两类kernel时间区间的交集。
+- `plot_results.py`与`plot_evidence.py`：生成独立PNG/SVG图。
+
+最初336配置及32配置复测采用提交`c5abcba`的C++测量器。扩展版将完整数值验证改为周期参考填充与逐字节比较，差异时再逐元素诊断；仍比较全部输出，仍在计时外进行。旧二进制保留在远端`build`，扩展版用`build_v2`。各批次记录二进制与源文件哈希，精确源码包保留在结果目录的`source_snapshots`。不将不同测量器版本当作同一配对的两边。
+
 `device_envelope_us`是ACL事件间隔，包含设备等待和可能的host提交空隙，不冒充纯kernel时间；另列host总时间。profiler采集与正常计时分别执行。`programmed_gm_bytes`根据程序的两次读、一次写计数；`logical_GBps`不是实测HBM带宽，L2可能服务这些访问。
 
 缓存组不主动清空L2。每次验证的D2H读取可能影响下一轮状态；参数较小的配置尤其可能受提交开销影响。缓存结论需要独立PMU计数和复测，不能仅凭时间判断。首轮缓存组改变的是整个输入池的复用间隔，尚未隔离跨核共享同一输入的效应。

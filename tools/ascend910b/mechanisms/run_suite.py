@@ -55,6 +55,13 @@ def matrix(suite):
                     for rounds in [1, 8]:
                         for mode in ['fused', 'materialize']:
                             add(mode, n, blocks, tile=512, rounds=rounds, repeats=stages)
+    elif suite == 'sharing':
+        for n in [31 << 18, 31 << 20]:
+            for blocks in [1, 4, 16, 32]:
+                for tile in [1024, 4096]:
+                    for rounds in [1, 16]:
+                        for mode in ['private', 'shared']:
+                            add(mode, n, blocks, tile, rounds=rounds, repeats=4)
     elif suite == 'cache':
         for n in [1 << 16, 1 << 20, 1 << 22]:
             for blocks in [8, 32]:

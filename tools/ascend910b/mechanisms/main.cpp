@@ -1,8 +1,10 @@
 #include "acl/acl.h"
 #include "aclrtlaunch_vector_probe.h"
+#include "aclrtlaunch_sharing_probe.h"
 #include <algorithm>
 #include <chrono>
 #include <cmath>
+#include <cstring>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -63,6 +65,11 @@ public:
         aclrtDestroyStream(control); aclrtResetDevice(0); aclFinalize();
     }
     void launch(const Config& c, aclrtStream s, size_t off, uint32_t rounds, bool inplace=false) {
+        if(c.mode=="shared" || c.mode=="private") {
+            ACL(ACLRT_LAUNCH_KERNEL(sharing_probe)(c.blocks,s,x+off,y+off,z+off,
+                c.n/c.blocks,c.tile,rounds,uint32_t(c.mode=="shared")));
+            return;
+        }
         ACL(ACLRT_LAUNCH_KERNEL(vector_probe)(c.blocks,s,
             inplace?z+off:x+off,y+off,z+off,c.n/c.blocks,c.tile,rounds,c.buffers));
     }
@@ -90,7 +97,7 @@ public:
             for(uint32_t r=0;r<c.repeats;r++) launch(c,control,0,c.rounds,r!=0);
         } else if(c.mode=="fused") {
             launch(c,control,0,c.rounds*c.repeats);
-        } else if(c.mode=="pipe") {
+        } else if(c.mode=="pipe" || c.mode=="shared" || c.mode=="private") {
             for(uint32_t r=0;r<c.repeats;r++) launch(c,control,0,c.rounds);
         } else throw std::runtime_error("Unknown mode: "+c.mode);
     }
@@ -107,10 +114,24 @@ public:
         uint32_t adds=c.rounds;
         if(c.mode=="materialize"||c.mode=="fused") adds*=c.repeats;
         if(c.mode=="barrier"||c.mode=="branch") adds++;
-        std::vector<float> h(1<<20); double error=0;
+        std::vector<float> h(1<<20), expected(1<<20), period(251*31); double error=0;
+        for(size_t j=0;j<period.size();j++) {
+            float a=float(int(j%251)-125)*0.25f;
+            float b=float(int(j%31)-15)*0.125f;
+            period[j]=a+adds*b;
+        }
         for(size_t off=0;off<size_t(c.n)*groups;off+=h.size()) {
             size_t m=std::min(h.size(),size_t(c.n)*groups-off);
             ACL(aclrtMemcpy(h.data(),m*4,z+off,m*4,ACL_MEMCPY_DEVICE_TO_HOST));
+            for(size_t written=0;written<m;) {
+                size_t phase=(off+written)%period.size();
+                size_t count=std::min(period.size()-phase,m-written);
+                std::memcpy(expected.data()+written,period.data()+phase,count*4);
+                written+=count;
+            }
+            // Full bytewise comparison against finite CPU golden values. This avoids
+            // recomputing integer remainders for every value of every large sample.
+            if(std::memcmp(h.data(),expected.data(),m*4)==0) continue;
             for(size_t j=0;j<m;j++) {
                 float a=float(int((off+j)%251)-125)*0.25f;
                 float b=float(int((off+j)%31)-15)*0.125f;
@@ -139,6 +160,10 @@ int main(int argc,char** argv) {
                (c.n/c.blocks)%c.tile||(c.buffers!=1&&c.buffers!=2)||!c.rounds||!c.groups||!c.repeats)
                 throw std::runtime_error("Invalid tile/config: "+c.id);
             if((c.mode=="barrier"||c.mode=="branch") && c.groups>8) throw std::runtime_error("Too many streams");
+            // Inputs repeat every 31 floats: this guarantees identical values and
+            // outputs in shared/private layouts, while their GM addresses differ.
+            if((c.mode=="shared"||c.mode=="private") && ((c.n/c.blocks)%31 || c.buffers!=2))
+                throw std::runtime_error("Sharing requires period-aligned lengths and depth 2");
             capacity=std::max(capacity,size_t(c.n)*c.groups); configs.push_back(c);
         }
         if(configs.empty() || capacity>size_t(1)<<29) throw std::runtime_error("Empty/oversized batch");
