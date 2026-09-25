@@ -86,3 +86,7 @@
 !/A题研究/直接迭代/联合整合_20260926/**/*.json.gz
 /A题研究/直接迭代/联合整合_20260926/**/复评运行/
 /A题研究/直接迭代/联合整合_20260926/同预算对照/slots/
+
+# Compact observations from the assigned Ascend instance; never SSH configuration or credentials.
+!/A题研究/真机机制研究_20260926/接入实测/stage0.json
+!/A题研究/真机机制研究_20260926/接入实测/torch_smoke.json
