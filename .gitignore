@@ -113,3 +113,7 @@
 !/A题研究/真机机制研究_20260926/机制实验/source_snapshots/*.tar.gz
 !/A题研究/真机机制研究_20260926/机制实验/**/*.log
 !/A题研究/真机机制研究_20260926/机制实验/**/*.txt
+
+# Compact hardware-guided algorithm evidence and verified selected plans.
+!/A题研究/直接迭代/真机启发攻坚_20260926/**/*.json
+!/A题研究/直接迭代/真机启发攻坚_20260926/**/*.json.gz

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "improved_configurations": 89,
+  "five_core_mean_speedups": {
+    "1": 3.8199034695538234,
+    "2": 4.663883716501937,
+    "3": 4.799341946215213
+  },
+  "exploratory_official_calls": 595,
+  "independent_official_calls": 89,
+  "scope": "cumulative selected library; not cold solver scores; unchanged entries inherited with relative paths"
+}

@@ -15,7 +15,7 @@ LEDGER = HERE/'三指标联合推进_20260926/累计1500配置成绩.csv'
 
 
 def run_one(task):
-    row, out, budget, seconds, timeout = task
+    row, out, budget, seconds, timeout, generator = task
     out = Path(out); out.mkdir(parents=True, exist_ok=False)
     started = time.monotonic(); deadline = started + seconds
     case, problem, cores = row['case'], int(row['problem']), int(row['cores'])
@@ -45,7 +45,10 @@ def run_one(task):
     apply(dict(name='charged_library_start',plan=parent))
     if best is not None and score(best)[0]!=int(row['makespan']):
         raise ValueError(f'Frozen library baseline mismatch: {case}/P{problem}')
-    stream=candidates(ir,problem,cores,parent,deadline)
+    if generator=='backward':
+        from backward_frontier import candidates as build
+    else:build=candidates
+    stream=build(ir,problem,cores,parent,deadline)
     while len(calls)<budget and time.monotonic()<deadline:
         t=time.monotonic()
         try:
@@ -64,6 +67,7 @@ def main():
     p.add_argument('--problems',default='1');p.add_argument('--cores',type=int,default=5)
     p.add_argument('--budget',type=int,default=29);p.add_argument('--seconds',type=float,default=240)
     p.add_argument('--timeout',type=float,default=45);p.add_argument('--workers',type=int,default=4)
+    p.add_argument('--generator',choices=('forward','backward'),default='forward')
     p.add_argument('--out',type=Path,required=True);args=p.parse_args()
     cases={f'case_{int(c):03d}' for c in args.cases.split(',')}
     problems={int(v) for v in args.problems.split(',')}
@@ -72,10 +76,10 @@ def main():
     args.out.mkdir(parents=True,exist_ok=False)
     atomic_json(args.out/'manifest.json',dict(scope='development; historical library is a charged warm start, not a free cold seed',
         cases=sorted(cases),problems=sorted(problems),cores=args.cores,budget=args.budget,seconds=args.seconds,
-        workers=args.workers,timeout=args.timeout,ledger_sha256=hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
+        workers=args.workers,timeout=args.timeout,generator=args.generator,ledger_sha256=hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
         source_sha256={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest()
-                       for name in ['event_frontier.py','run_frontier_probe.py']}))
-    tasks=[(r,str(args.out/r['case']/('p'+r['problem'])),args.budget,args.seconds,args.timeout) for r in rows]
+                       for name in ['event_frontier.py','run_frontier_probe.py']+(['backward_frontier.py'] if args.generator=='backward' else [])}))
+    tasks=[(r,str(args.out/r['case']/('p'+r['problem'])),args.budget,args.seconds,args.timeout,args.generator) for r in rows]
     results=[]
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:
         for result in pool.map(run_one,tasks):
