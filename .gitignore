@@ -58,3 +58,6 @@
 # Frozen protocol and compact evidence for the paired iterative validation.
 !/A题研究/直接迭代/闭环验证_20260925/**/*.json
 !/A题研究/直接迭代/闭环验证_20260925/**/*.json.gz
+
+# Read-only whole-pool profile for the unified scenario architecture plan.
+!/A题研究/直接迭代/全场景架构研究_20260925/图池概览.json

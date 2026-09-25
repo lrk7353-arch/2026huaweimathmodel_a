@@ -1,0 +1,39 @@
+{
+  "graph_count": 100,
+  "official_evaluations": 0,
+  "source_ledger": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+  "ledger_sha256": "73163206f09e696bcab5258ac47a73f12edb50f20a8f6d5714308b17cdb21c73",
+  "script_sha256": "37d3eee7c95248bd5e0f6bb6db2de9a47a126c52ba007b3528d0f17d6740d26e",
+  "thresholds_scope": "Exploratory overlapping descriptive labels; not validated routing rules.",
+  "compute_floor_scope": "max(total PIPE_M work, total PIPE_V work)/5 is necessary, not achievable.",
+  "cache_scope": "Reconstructed logical COPY_IN reuse potential; ignores timing, eviction, spills and criticality. Not actual hits.",
+  "label_counts": {
+    "many_independent_components": 69,
+    "p1_heavy_task": 63,
+    "dominant_connected_region": 25,
+    "fork_join_parallel_potential": 47,
+    "fine_grained_compute": 30,
+    "repeated_logical_reads": 68,
+    "mixed_m_v_work": 49
+  },
+  "scene_summary": {
+    "1": {
+      "mean_speedup": 3.618253968426477,
+      "below2": 21,
+      "compute_floor_at_least90pct": 28,
+      "compute_floor_at_least80pct": 33
+    },
+    "2": {
+      "mean_speedup": 4.334517565184253,
+      "below2": 0,
+      "compute_floor_at_least90pct": 37,
+      "compute_floor_at_least80pct": 44
+    },
+    "3": {
+      "mean_speedup": 4.428465906111759,
+      "below2": 0,
+      "compute_floor_at_least90pct": 38,
+      "compute_floor_at_least80pct": 44
+    }
+  }
+}
