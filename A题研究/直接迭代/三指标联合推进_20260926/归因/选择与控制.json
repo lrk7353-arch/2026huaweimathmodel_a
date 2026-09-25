@@ -1,0 +1,1404 @@
+{
+  "selection": [
+    {
+      "label": "case_051_p1_best",
+      "role": "best",
+      "case": "case_051",
+      "problem": 1,
+      "candidate_name": "wait_p1_r0_1_branch_4_1_raw",
+      "metadata": {
+        "family": "wait_p1_branch",
+        "old_tasks": [
+          14,
+          24,
+          40,
+          56,
+          72,
+          88
+        ],
+        "region_ops": 48,
+        "scale": 4,
+        "width": 1,
+        "merge": "raw",
+        "proxy_finish": 224274.40000000005,
+        "partition_copy_bytes": 10290686,
+        "changed_old_boundaries": 0,
+        "observed_region_copy_pressure": 50418.416487647686,
+        "assignment_changes": 24
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023905-e9f09b2f366f4295a3c615accd0582d3",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 259576,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 393218,
+            "scheduled_copy_bytes": 9504242,
+            "added_copy_bytes": 9111024,
+            "partition_added_copy_bytes": 9111024,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "1": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "2": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "3": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "4": {
+              "L1": 32768,
+              "UB": 65538
+            }
+          },
+          "cross_task_traffic": 33666,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 35860480
+        },
+        "elapsed_seconds": 0.576729554013582,
+        "evaluation_elapsed_seconds": 0.39299304300220683,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3/plan.json",
+        "hashes": {
+          "graph_sha256": "884e8b12ac1f7a9b569958909680e8c2f6055966a59c9f929ffd5cee48aae43b",
+          "plan_sha256": "f276716f9195a534c26de2e842d8deafd464756f9a8736624af53ebb7fc1ddec",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 35860480,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023905-e9f09b2f366f4295a3c615accd0582d3/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_051.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "eba9ae6e47dca9a16f6093f9bbbba177d8fe5a7a05c6b934b0d2cc6c6efef9c9",
+        "worker_elapsed_seconds": 0.4959716190060135,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "77e3e07c477c5f820553e12c4ded3c70b0e45b0b45a9687360e4f46d77ff4554"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 269716,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 393218,
+            "scheduled_copy_bytes": 10290686,
+            "added_copy_bytes": 9897468,
+            "partition_added_copy_bytes": 9897468,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "1": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "2": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "3": {
+              "L1": 32768,
+              "UB": 65538
+            },
+            "4": {
+              "L1": 32768,
+              "UB": 65538
+            }
+          },
+          "cross_task_traffic": 426894,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 35663872
+        },
+        "elapsed_seconds": 0.5710207389784046,
+        "evaluation_elapsed_seconds": 0.4293911890126765,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2/plan.json",
+        "hashes": {
+          "graph_sha256": "884e8b12ac1f7a9b569958909680e8c2f6055966a59c9f929ffd5cee48aae43b",
+          "plan_sha256": "52bd0b8ddc51306111d2440df71259693006ac60c3e716363d14cd4de8d66c3e",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 35663872,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_051_p1/wait_joint/evaluations/attempts/20260926T023910-b23c57a2b8c24c4fac7e8e1955f97ca2/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_051.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "3cceab8edf93340ae535f9d5a93edbf3cd7a13f0fce8bf2b96094fa6d5cabb21",
+        "worker_elapsed_seconds": 0.48913177198846824,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "fa0b436a98371b46975556b4977421fbb674a0d8b22d054304324d560edc1699"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    },
+    {
+      "label": "case_047_p1_counterexample",
+      "role": "counterexample",
+      "case": "case_047",
+      "problem": 1,
+      "candidate_name": "wait_p1_r0_0_branch_1_4_raw",
+      "metadata": {
+        "family": "wait_p1_branch",
+        "old_tasks": [
+          447,
+          453,
+          461,
+          465,
+          472,
+          478
+        ],
+        "region_ops": 549,
+        "scale": 1,
+        "width": 4,
+        "merge": "raw",
+        "proxy_finish": 196212.10000000006,
+        "partition_copy_bytes": 3948016,
+        "changed_old_boundaries": 35,
+        "observed_region_copy_pressure": 5775.551270121945,
+        "assignment_changes": 467
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023920-af383465884e4aabb89627aef61498f5",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 190683,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 463942,
+            "scheduled_copy_bytes": 3695024,
+            "added_copy_bytes": 3231082,
+            "partition_added_copy_bytes": 3231082,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12416,
+              "UB": 21664
+            },
+            "1": {
+              "L1": 11264,
+              "UB": 21664
+            },
+            "2": {
+              "L1": 15488,
+              "UB": 28194
+            },
+            "3": {
+              "L1": 19008,
+              "UB": 13344
+            },
+            "4": {
+              "L1": 0,
+              "UB": 0
+            }
+          },
+          "cross_task_traffic": 1721072,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 4,
+          "peak_memory_bytes": 148430848
+        },
+        "elapsed_seconds": 7.548192704998655,
+        "evaluation_elapsed_seconds": 6.9934295899875,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5/plan.json",
+        "hashes": {
+          "graph_sha256": "7c6328650b8e50e4d15a0ddf1ad0715a40d64d51f3c86c2c3b9c22e4cbb6a83f",
+          "plan_sha256": "18a5418c9e5c70b6606a9e42ca6b943ec3a9ad0a8bddbf7eae5f038b75b4da98",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 148430848,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023920-af383465884e4aabb89627aef61498f5/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_047.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "30589e0c290b05161957da5ab704558b2a9c9891e7c2b51d1601967af2a58f89",
+        "worker_elapsed_seconds": 7.468498185015051,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "475c60092325432121c746f26823d171e92825239ae2eee0db975a69424edc05"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023954-b700738680fa479e8a566afe75db246c",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 205283,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 463942,
+            "scheduled_copy_bytes": 3948016,
+            "added_copy_bytes": 3484074,
+            "partition_added_copy_bytes": 3484074,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 12416,
+              "UB": 21664
+            },
+            "1": {
+              "L1": 11264,
+              "UB": 21664
+            },
+            "2": {
+              "L1": 15488,
+              "UB": 28194
+            },
+            "3": {
+              "L1": 19008,
+              "UB": 13344
+            },
+            "4": {
+              "L1": 3072,
+              "UB": 2112
+            }
+          },
+          "cross_task_traffic": 1889344,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 155082752
+        },
+        "elapsed_seconds": 9.85112642700551,
+        "evaluation_elapsed_seconds": 9.320095039001899,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c/plan.json",
+        "hashes": {
+          "graph_sha256": "7c6328650b8e50e4d15a0ddf1ad0715a40d64d51f3c86c2c3b9c22e4cbb6a83f",
+          "plan_sha256": "819beadd18fc246efe50e6022df6cbf7663eb01bb703d3efa88156cf9d79daab",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 155082752,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_047_p1/wait_joint/evaluations/attempts/20260926T023954-b700738680fa479e8a566afe75db246c/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_047.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "f18236084fbdebc8c164433006e79218bae4dbd389f111b58e8ca16a09354d61",
+        "worker_elapsed_seconds": 9.762673513003392,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "c068029305c70c9a8088a86aabc408eef567e8dba4ed30ffbc91373fa832bb6d"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    },
+    {
+      "label": "case_009_p2_best",
+      "role": "best",
+      "case": "case_009",
+      "problem": 2,
+      "candidate_name": "wait_joint_3",
+      "metadata": {
+        "family": "wait_reader_region",
+        "target_tensor": 1000005961,
+        "moved_ops": 8,
+        "changes": [
+          {
+            "op": 5711,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5713,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5714,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5715,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5716,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5717,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5750,
+            "from_core": 4,
+            "to_core": 0
+          },
+          {
+            "op": 5751,
+            "from_core": 4,
+            "to_core": 0
+          }
+        ],
+        "partition_copy_bytes": 1723506,
+        "fixed_work_bound": 25797,
+        "wait_pressure": 5460.2155660556455,
+        "ordering": "pipeline_lifetime",
+        "estimated_finish": 41565.06666666667,
+        "surrogate_peak": {
+          "3:L1": 17664,
+          "3:UB": 28746,
+          "0:L1": 35840,
+          "0:UB": 50188,
+          "4:L1": 18208,
+          "4:UB": 31776,
+          "1:L1": 22016,
+          "1:UB": 42534,
+          "2:L1": 64512,
+          "2:UB": 48670
+        }
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024304-c8da3f503f23475885b7aa706f0106a9",
+        "problem": 2,
+        "status": "success",
+        "metrics": {
+          "makespan": 45226,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 495332,
+            "scheduled_copy_bytes": 1739890,
+            "added_copy_bytes": 1244558,
+            "partition_added_copy_bytes": 1244558,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 37888,
+              "UB": 52228
+            },
+            "1": {
+              "L1": 24064,
+              "UB": 49674
+            },
+            "2": {
+              "L1": 68608,
+              "UB": 53770
+            },
+            "3": {
+              "L1": 19200,
+              "UB": 28492
+            },
+            "4": {
+              "L1": 30496,
+              "UB": 34848
+            }
+          },
+          "cross_task_traffic": 446072,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 100814848
+        },
+        "elapsed_seconds": 1.5781286020064726,
+        "evaluation_elapsed_seconds": 1.2921535250206944,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9/plan.json",
+        "hashes": {
+          "graph_sha256": "06b73d07c450878db8f6dace8ed08e362b45f5dd6e06fb80b098f165190f222a",
+          "plan_sha256": "ec978e54bea2d4a6c34345d4bd09d39d5ec9d4a82953eb17bea89db0f59c21f2",
+          "problem": 2,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 100814848,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024304-c8da3f503f23475885b7aa706f0106a9/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_009.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "0b27ba5a10f3660bf6146377eba94ddfe2edd38e1871ee86cd5d287934420a0b",
+        "worker_elapsed_seconds": 1.486472121992847,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "42abf9fc883d58c3616be9e31884d4fe9cb7057b91f555cb7136bde2af2c7f1d"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024326-e951843a87f14b06ae84e637ff5f402e",
+        "problem": 2,
+        "status": "success",
+        "metrics": {
+          "makespan": 44374,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 495332,
+            "scheduled_copy_bytes": 1723506,
+            "added_copy_bytes": 1228174,
+            "partition_added_copy_bytes": 1228174,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 46080,
+              "UB": 50696
+            },
+            "1": {
+              "L1": 24064,
+              "UB": 42534
+            },
+            "2": {
+              "L1": 68608,
+              "UB": 51722
+            },
+            "3": {
+              "L1": 17664,
+              "UB": 28748
+            },
+            "4": {
+              "L1": 22816,
+              "UB": 35872
+            }
+          },
+          "cross_task_traffic": 446072,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 100814848
+        },
+        "elapsed_seconds": 1.979189364996273,
+        "evaluation_elapsed_seconds": 1.6673903510090895,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e/plan.json",
+        "hashes": {
+          "graph_sha256": "06b73d07c450878db8f6dace8ed08e362b45f5dd6e06fb80b098f165190f222a",
+          "plan_sha256": "cbf29ba725a1b617ff3bdb1d7a01beded9cfb5ba1a6c503108cb22f2eecc0cda",
+          "problem": 2,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 100814848,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_009_p2/wait_joint/evaluations/attempts/20260926T024326-e951843a87f14b06ae84e637ff5f402e/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_009.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "9afe0160dcef6ff871f4312f7caf48e78a8764a4cf1e9cb066d8259780a53fe7",
+        "worker_elapsed_seconds": 1.8951697209849954,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "c33869e54a1af3d9f0f8b655aa683feeb43f8eacc8d773509b9ccf5166f12f56"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    },
+    {
+      "label": "case_090_p2_counterexample",
+      "role": "counterexample",
+      "case": "case_090",
+      "problem": 2,
+      "candidate_name": "wait_joint_7",
+      "metadata": {
+        "family": "wait_readers",
+        "target_tensor": 1000000057,
+        "moved_ops": 3,
+        "changes": [
+          {
+            "op": 252,
+            "from_core": 1,
+            "to_core": 4
+          },
+          {
+            "op": 897,
+            "from_core": 1,
+            "to_core": 4
+          },
+          {
+            "op": 1542,
+            "from_core": 1,
+            "to_core": 4
+          }
+        ],
+        "partition_copy_bytes": 9181056,
+        "fixed_work_bound": 190008,
+        "wait_pressure": 54912.30202183003,
+        "ordering": "pipeline_lifetime",
+        "estimated_finish": 224622.80000000005,
+        "surrogate_peak": {
+          "1:L1": 184512,
+          "1:UB": 0,
+          "0:L1": 184512,
+          "0:UB": 0,
+          "2:L1": 184512,
+          "2:UB": 0,
+          "4:L1": 344448,
+          "4:UB": 0,
+          "3:L1": 178368,
+          "3:UB": 0
+        }
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024021-395c58a1f8864cbf852eea8d5d31fd80",
+        "problem": 2,
+        "status": "success",
+        "metrics": {
+          "makespan": 241954,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 2228352,
+            "scheduled_copy_bytes": 9344640,
+            "added_copy_bytes": 7116288,
+            "partition_added_copy_bytes": 7116288,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 226176,
+              "UB": 0
+            },
+            "1": {
+              "L1": 225600,
+              "UB": 0
+            },
+            "2": {
+              "L1": 184704,
+              "UB": 0
+            },
+            "3": {
+              "L1": 344448,
+              "UB": 0
+            },
+            "4": {
+              "L1": 344832,
+              "UB": 0
+            }
+          },
+          "cross_task_traffic": 7680,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 39796736
+        },
+        "elapsed_seconds": 0.42384234501514584,
+        "evaluation_elapsed_seconds": 0.27706812098040245,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80/plan.json",
+        "hashes": {
+          "graph_sha256": "a91d3ad4c40e53d5731b81b3eb72bcf922f5ef06094e860b5c5729619cb2d312",
+          "plan_sha256": "76798e4dbd7dd3565fed917768391bf6f29ab6b3fb6d065a2a4c74f1f8861ada",
+          "problem": 2,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 39796736,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024021-395c58a1f8864cbf852eea8d5d31fd80/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_090.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "de47315bded7ebf90f1dac48081e1849f97f9349079374d908ff922d6aa5122f",
+        "worker_elapsed_seconds": 0.3296372969925869,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "396468c0d8f075addcf56da2b9da79796a9351d3732ec18547420e4aac9887ce"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024029-4b32524d020041b785fa197ca225958d",
+        "problem": 2,
+        "status": "success",
+        "metrics": {
+          "makespan": 237104,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 2228352,
+            "scheduled_copy_bytes": 9181056,
+            "added_copy_bytes": 6952704,
+            "partition_added_copy_bytes": 6952704,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 226368,
+              "UB": 0
+            },
+            "1": {
+              "L1": 225984,
+              "UB": 0
+            },
+            "2": {
+              "L1": 184704,
+              "UB": 0
+            },
+            "3": {
+              "L1": 344448,
+              "UB": 0
+            },
+            "4": {
+              "L1": 344832,
+              "UB": 0
+            }
+          },
+          "cross_task_traffic": 8832,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 39735296
+        },
+        "elapsed_seconds": 0.3227380980097223,
+        "evaluation_elapsed_seconds": 0.21769301302265376,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d/plan.json",
+        "hashes": {
+          "graph_sha256": "a91d3ad4c40e53d5731b81b3eb72bcf922f5ef06094e860b5c5729619cb2d312",
+          "plan_sha256": "9f524bb940744c50a2e7f9974073f8f345148b06345b1e7326e2661864fb5fc4",
+          "problem": 2,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 39735296,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_090_p2/wait_joint/evaluations/attempts/20260926T024029-4b32524d020041b785fa197ca225958d/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_090.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "360eed2d881a52014943672a2fc72b24453757ba5682438603d50badd8c9a7f4",
+        "worker_elapsed_seconds": 0.25940619900939055,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "a457df08495fb3ec3c7d229d5956979682437442e825433f38d2f84da1236fc1"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    },
+    {
+      "label": "case_023_p3_best",
+      "role": "best",
+      "case": "case_023",
+      "problem": 3,
+      "candidate_name": "wait_lifetime_0.25",
+      "metadata": {
+        "family": "wait_lifetime",
+        "weight": 0.25,
+        "partition_copy_bytes": 723412,
+        "moved_ops": 0,
+        "estimated_finish": 16522.533333333333,
+        "surrogate_peak": {
+          "2:L1": 84480,
+          "2:UB": 29440,
+          "4:L1": 62464,
+          "4:UB": 53248,
+          "1:L1": 35328,
+          "1:UB": 35340,
+          "0:L1": 41984,
+          "0:UB": 24832,
+          "3:L1": 81664,
+          "3:UB": 41220
+        }
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024008-99fa02cb47984898ade76ae192145a3d",
+        "problem": 3,
+        "status": "success",
+        "metrics": {
+          "makespan": 18080,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 443444,
+            "scheduled_copy_bytes": 723412,
+            "added_copy_bytes": 279968,
+            "partition_added_copy_bytes": 279968,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 11,
+            "copy_in_misses": 140,
+            "hit_bytes": 144800,
+            "miss_bytes": 563146,
+            "hits": 11,
+            "accesses": 151,
+            "hit_rate": 0.20453537416695625
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 44032,
+              "UB": 30848
+            },
+            "1": {
+              "L1": 35328,
+              "UB": 39942
+            },
+            "2": {
+              "L1": 86016,
+              "UB": 29440
+            },
+            "3": {
+              "L1": 81664,
+              "UB": 41236
+            },
+            "4": {
+              "L1": 78848,
+              "UB": 53248
+            }
+          },
+          "cross_task_traffic": 6144,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 48099328
+        },
+        "elapsed_seconds": 0.32167699999990873,
+        "evaluation_elapsed_seconds": 0.2120390269847121,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d/plan.json",
+        "hashes": {
+          "graph_sha256": "73e1a5d3abe5f7b36fb7a386d586e8ed492f7fae5e7a736c475b629ab6e12739",
+          "plan_sha256": "478179a88852e823268232f0db5a41ce18d7fa67a5d0efdd478c8b8e16e034cd",
+          "problem": 3,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 48099328,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024008-99fa02cb47984898ade76ae192145a3d/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_023.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "47e77bc7c365f5dc2790b1e6e92f3dc5fb1274c819166fcbf88e1a0aa4d52690",
+        "worker_elapsed_seconds": 0.2582521779986564,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "90f4e3fe1658205028238f6b21323cccb887374a2e3adf0eb12fd406ead026f0"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T024013-01453db0c07c436c892c958b232ab917",
+        "problem": 3,
+        "status": "success",
+        "metrics": {
+          "makespan": 18049,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 443444,
+            "scheduled_copy_bytes": 723412,
+            "added_copy_bytes": 279968,
+            "partition_added_copy_bytes": 279968,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 11,
+            "copy_in_misses": 140,
+            "hit_bytes": 144800,
+            "miss_bytes": 563146,
+            "hits": 11,
+            "accesses": 151,
+            "hit_rate": 0.20453537416695625
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 41984,
+              "UB": 30848
+            },
+            "1": {
+              "L1": 35328,
+              "UB": 39942
+            },
+            "2": {
+              "L1": 86016,
+              "UB": 29440
+            },
+            "3": {
+              "L1": 81664,
+              "UB": 41222
+            },
+            "4": {
+              "L1": 62976,
+              "UB": 53248
+            }
+          },
+          "cross_task_traffic": 6144,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 48099328
+        },
+        "elapsed_seconds": 0.22415221901610494,
+        "evaluation_elapsed_seconds": 0.1256983269995544,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917/plan.json",
+        "hashes": {
+          "graph_sha256": "73e1a5d3abe5f7b36fb7a386d586e8ed492f7fae5e7a736c475b629ab6e12739",
+          "plan_sha256": "0ff852de810a5e4b491052ba6d41a49455a6f6a37ce8bab6988186f66bc06cf2",
+          "problem": 3,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 48099328,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_023_p3/wait_joint/evaluations/attempts/20260926T024013-01453db0c07c436c892c958b232ab917/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_023.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "5d986fdb21069c12e28dcc614dd636d230b211189260cd13eed6605bdcd004c2",
+        "worker_elapsed_seconds": 0.16189788401243277,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "0cebe6902ebd115a625d2fd49875e3cda00837e684cd3728a13ed02685952735"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    },
+    {
+      "label": "case_044_p3_counterexample",
+      "role": "counterexample",
+      "case": "case_044",
+      "problem": 3,
+      "candidate_name": "wait_joint_read_r0_bundle3_w2",
+      "metadata": {
+        "family": "wait_fifo",
+        "mechanism": "multiple_read_targets",
+        "width": 2,
+        "targets": [
+          1000000053,
+          1000000051,
+          1000000049
+        ],
+        "fixed_assignment": true,
+        "changed_positions": 62,
+        "wait_pressure": 15131.459968484518,
+        "reusable_bytes": 221184,
+        "partition_copy_bytes": 1996736,
+        "ordering": "fifo_window"
+      },
+      "parent_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023913-be6e5460a363437c90ad3bab8939baab",
+        "problem": 3,
+        "status": "success",
+        "metrics": {
+          "makespan": 43210,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 975456,
+            "scheduled_copy_bytes": 1996736,
+            "added_copy_bytes": 1021280,
+            "partition_added_copy_bytes": 1021280,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 25,
+            "copy_in_misses": 155,
+            "hit_bytes": 301120,
+            "miss_bytes": 1627648,
+            "hits": 25,
+            "accesses": 180,
+            "hit_rate": 0.15612038358164382
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 75520,
+              "UB": 0
+            },
+            "1": {
+              "L1": 75264,
+              "UB": 0
+            },
+            "2": {
+              "L1": 0,
+              "UB": 0
+            },
+            "3": {
+              "L1": 0,
+              "UB": 0
+            },
+            "4": {
+              "L1": 0,
+              "UB": 0
+            }
+          },
+          "cross_task_traffic": 45440,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 2,
+          "peak_memory_bytes": 40333312
+        },
+        "elapsed_seconds": 0.37397349800448865,
+        "evaluation_elapsed_seconds": 0.2094917069771327,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab/plan.json",
+        "hashes": {
+          "graph_sha256": "9abd4468a4be365e384de47431ac914ee44fd6e7b6221dffc584561f388cd57e",
+          "plan_sha256": "e997b80bc15e95db58b1d933663ff3f529b56f8e6e152d7c25243a63b84d8254",
+          "problem": 3,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 40333312,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023913-be6e5460a363437c90ad3bab8939baab/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_044.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "9fc2b5b4779b2dd94d530b892b51aa592ed1f5e9ad879b1ee5c5df813511bbf9",
+        "worker_elapsed_seconds": 0.26636837399564683,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "9227e44cf006cf39ee5489590dc3ccd50aa176f56195315e27e560e15e503d66"
+      },
+      "new_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T023916-03c805672be6484ebe79cd184eca52ed",
+        "problem": 3,
+        "status": "success",
+        "metrics": {
+          "makespan": 43213,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 975456,
+            "scheduled_copy_bytes": 1996736,
+            "added_copy_bytes": 1021280,
+            "partition_added_copy_bytes": 1021280,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 25,
+            "copy_in_misses": 155,
+            "hit_bytes": 301120,
+            "miss_bytes": 1627648,
+            "hits": 25,
+            "accesses": 180,
+            "hit_rate": 0.15612038358164382
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 75520,
+              "UB": 0
+            },
+            "1": {
+              "L1": 148736,
+              "UB": 0
+            },
+            "2": {
+              "L1": 0,
+              "UB": 0
+            },
+            "3": {
+              "L1": 0,
+              "UB": 0
+            },
+            "4": {
+              "L1": 0,
+              "UB": 0
+            }
+          },
+          "cross_task_traffic": 45440,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 2,
+          "peak_memory_bytes": 39944192
+        },
+        "elapsed_seconds": 0.3203810800041538,
+        "evaluation_elapsed_seconds": 0.19198924500960857,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed/plan.json",
+        "hashes": {
+          "graph_sha256": "9abd4468a4be365e384de47431ac914ee44fd6e7b6221dffc584561f388cd57e",
+          "plan_sha256": "3d6fbd89f2f19ef04a72bc2ea37eecb30242cab16c276aab69b1320fdf9f8876",
+          "problem": 3,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 39944192,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/三指标联合推进_20260926/集中对照/slots/case_044_p3/wait_joint/evaluations/attempts/20260926T023916-03c805672be6484ebe79cd184eca52ed/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_044.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+        "timeout_seconds": 45.0,
+        "cache_key": "10effdcaa1cf580bc3c49eb98a4a435dd9e27c12d3c6930a5f62e861ef8156dc",
+        "worker_elapsed_seconds": 0.22717446301248856,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "53983537a40c629aa9aee9a6c4d01f04cb588aa5264a9c0054631f1707905174"
+      },
+      "note": "P23 four-cell plans use identical singleton encoding; exact endpoints are independent encoding controls."
+    }
+  ],
+  "skipped": [
+    {
+      "label": "case_051_p1_best",
+      "cell": "migration_only",
+      "reason": "Cannot express this single-factor control: Task spans multiple desired cores."
+    },
+    {
+      "label": "case_047_p1_counterexample",
+      "cell": "migration_only",
+      "reason": "Cannot express this single-factor control: Task spans multiple desired cores."
+    },
+    {
+      "label": "case_047_p1_counterexample",
+      "cell": "partition_only",
+      "reason": "Cannot express this single-factor control: Task spans multiple desired cores."
+    }
+  ],
+  "jobs": 41
+}

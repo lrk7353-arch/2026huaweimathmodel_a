@@ -1,0 +1,169 @@
+{
+  "costs": {
+    "missing_P3_replays": 64,
+    "warm_calls": 570,
+    "four_cell_controls": 41,
+    "warm_selection_replays": 11,
+    "cold_calls": 1341,
+    "whole_gain_controls": 8,
+    "cold_selection_replays": 9
+  },
+  "total_official_calls": 2044,
+  "synthetic_test_calls_excluded": true,
+  "cold_failure_status": {
+    "success": 1334,
+    "timeout": 7
+  },
+  "cold_arm_calls": {
+    "strong": 743,
+    "wait_integrated": 598
+  },
+  "cold_044_P3_accepts": [
+    {
+      "variant": "strong",
+      "call": 1,
+      "name": "wcc_start0_simple_a5_per_core_lpt_mv",
+      "phase": "component",
+      "accepted": true,
+      "time": 102921
+    },
+    {
+      "variant": "strong",
+      "call": 4,
+      "name": "wcc_protected_interleave_v2_w2_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 88344
+    },
+    {
+      "variant": "strong",
+      "call": 8,
+      "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 82008
+    },
+    {
+      "variant": "strong",
+      "call": 12,
+      "name": "wcc_protected_interleave_v2_w4_complement_memory_tie",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 81970
+    },
+    {
+      "variant": "strong",
+      "call": 16,
+      "name": "wcc_protected_interleave_v2_w2_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 68361
+    },
+    {
+      "variant": "strong",
+      "call": 20,
+      "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 57325
+    },
+    {
+      "variant": "strong",
+      "call": 24,
+      "name": "wcc_protected_interleave_v2_w8_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 43958
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 1,
+      "name": "wcc_start0_simple_a5_per_core_lpt_mv",
+      "phase": "component",
+      "accepted": true,
+      "time": 102921
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 4,
+      "name": "wcc_protected_interleave_v2_w2_base_earliest_start",
+      "phase": "wcc",
+      "accepted": true,
+      "time": 88344
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 8,
+      "name": "wait_fifo_move_1",
+      "phase": "joint",
+      "accepted": true,
+      "time": 87972
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 9,
+      "name": "trace_r00_00_hot_pipe_single_move",
+      "phase": "mature",
+      "accepted": true,
+      "time": 85652
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 15,
+      "name": "trace_r00_00_producer_single",
+      "phase": "mature",
+      "accepted": true,
+      "time": 85632
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 16,
+      "name": "wait_joint_10",
+      "phase": "joint",
+      "accepted": true,
+      "time": 84147
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 17,
+      "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+      "phase": "intact_wcc",
+      "accepted": true,
+      "time": 82008
+    },
+    {
+      "variant": "wait_integrated",
+      "call": 20,
+      "name": "wait_fifo_move_3",
+      "phase": "joint",
+      "accepted": true,
+      "time": 77497
+    }
+  ],
+  "fivecore": {
+    "1": {
+      "before": 3.8155220688497162,
+      "after": 3.8184831385991824,
+      "delta": 0.002961069749466194,
+      "relative_pct": 0.07760588711149818,
+      "extra_copy_before": 1825651516,
+      "extra_copy_after": 1825915300
+    },
+    "2": {
+      "before": 4.546369268637808,
+      "after": 4.561517169426836,
+      "delta": 0.015147900789028057,
+      "relative_pct": 0.3331867671533484,
+      "extra_copy_before": 984346586,
+      "extra_copy_after": 983967056
+    },
+    "3": {
+      "before": 4.666246856079605,
+      "after": 4.679333604516417,
+      "delta": 0.013086748436812456,
+      "relative_pct": 0.28045555326250415,
+      "extra_copy_before": 965314024,
+      "extra_copy_after": 962154344
+    }
+  }
+}

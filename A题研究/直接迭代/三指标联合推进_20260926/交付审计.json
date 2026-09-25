@@ -1,0 +1,288 @@
+{
+  "plans": 1500,
+  "unique_configurations": 1500,
+  "valid_plans": 1500,
+  "exact_ordered_hashes": 1500,
+  "regressions": 0,
+  "improvements": [
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        50086,
+        1290894
+      ],
+      "after": [
+        44374,
+        1228174
+      ],
+      "source": "three_metric_proxy"
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        28045,
+        340992
+      ],
+      "after": [
+        26934,
+        339840
+      ],
+      "source": "three_metric_wait_joint"
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        197737,
+        4825088
+      ],
+      "after": [
+        196951,
+        4816896
+      ],
+      "source": "three_metric_proxy"
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        19711,
+        280992
+      ],
+      "after": [
+        18049,
+        279968
+      ],
+      "source": "three_metric_wait_joint"
+    },
+    {
+      "case": "case_028",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        13786498,
+        56899416
+      ],
+      "after": [
+        13730603,
+        145554288
+      ],
+      "source": "three_metric_cold_strong"
+    },
+    {
+      "case": "case_028",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        13769194,
+        56899416
+      ],
+      "after": [
+        13647648,
+        145554288
+      ],
+      "source": "three_metric_cold_strong"
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        58678,
+        2582304
+      ],
+      "after": [
+        56568,
+        2582304
+      ],
+      "source": "three_metric_wait_joint"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        190683,
+        3231082
+      ],
+      "after": [
+        162570,
+        3494866
+      ],
+      "source": "three_metric_mature"
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        418489,
+        5518068
+      ],
+      "after": [
+        391495,
+        5603690
+      ],
+      "source": "three_metric_proxy"
+    },
+    {
+      "case": "case_055",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        20296,
+        198656
+      ],
+      "after": [
+        18793,
+        157184
+      ],
+      "source": "three_metric_cold_wait_integrated"
+    },
+    {
+      "case": "case_055",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        20015,
+        198656
+      ],
+      "after": [
+        19462,
+        198656
+      ],
+      "source": "three_metric_cold_strong"
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        10697,
+        133732
+      ],
+      "after": [
+        9551,
+        149190
+      ],
+      "source": "three_metric_cold_wait_integrated"
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        9715,
+        272428
+      ],
+      "after": [
+        8728,
+        274828
+      ],
+      "source": "three_metric_cold_wait_integrated"
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        10679,
+        133732
+      ],
+      "after": [
+        9732,
+        149190
+      ],
+      "source": "three_metric_cold_wait_integrated"
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        9177,
+        272428
+      ],
+      "after": [
+        8718,
+        277132
+      ],
+      "source": "three_metric_cold_wait_integrated"
+    },
+    {
+      "case": "case_080",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        79721,
+        2109440
+      ],
+      "after": [
+        73895,
+        1921024
+      ],
+      "source": "three_metric_wait_joint"
+    },
+    {
+      "case": "case_080",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        74411,
+        4255744
+      ],
+      "after": [
+        71695,
+        1904640
+      ],
+      "source": "three_metric_cold_strong"
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        240698,
+        7443456
+      ],
+      "after": [
+        235842,
+        7279104
+      ],
+      "source": "three_metric_mature"
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        194679,
+        7936512
+      ],
+      "after": [
+        194575,
+        7130112
+      ],
+      "source": "three_metric_wait_joint"
+    }
+  ],
+  "source_counts": {
+    "team13": 1324,
+    "ours": 106,
+    "joint_panel_strong": 28,
+    "joint_panel_joint": 23,
+    "three_metric_proxy": 3,
+    "three_metric_wait_joint": 5,
+    "three_metric_cold_strong": 4,
+    "three_metric_mature": 2,
+    "three_metric_cold_wait_integrated": 5
+  },
+  "official_calls": 0,
+  "scope": "Structural and ledger audit; official replay records separately verify newly accepted plans."
+}

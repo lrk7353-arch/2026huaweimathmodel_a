@@ -1,0 +1,76 @@
+{
+  "scenes": [
+    {
+      "problem": 2,
+      "groups": {
+        "development": {
+          "geomean_speed_gain": -0.0009818935413127283,
+          "wins": 3,
+          "ties": 0,
+          "losses": 3,
+          "regress_over2pct": 2
+        },
+        "decision": {
+          "geomean_speed_gain": -0.02282157961248088,
+          "wins": 3,
+          "ties": 0,
+          "losses": 3,
+          "regress_over2pct": 2
+        },
+        "lowcore": {
+          "geomean_speed_gain": 0.005728950090238216,
+          "wins": 2,
+          "ties": 1,
+          "losses": 1,
+          "regress_over2pct": 1
+        }
+      },
+      "failure_rate": 0.0,
+      "generation_failures": 6,
+      "median_seconds": 53.580702290011686,
+      "strong_median_seconds": 16.800949031996424,
+      "cost_scope": "all16 configs in scene",
+      "passed": false
+    },
+    {
+      "problem": 3,
+      "groups": {
+        "development": {
+          "geomean_speed_gain": -0.09536956560223875,
+          "wins": 1,
+          "ties": 1,
+          "losses": 4,
+          "regress_over2pct": 2
+        },
+        "decision": {
+          "geomean_speed_gain": -0.043378621688700325,
+          "wins": 1,
+          "ties": 1,
+          "losses": 4,
+          "regress_over2pct": 2
+        },
+        "lowcore": {
+          "geomean_speed_gain": 0.0706198498151922,
+          "wins": 2,
+          "ties": 0,
+          "losses": 2,
+          "regress_over2pct": 1
+        }
+      },
+      "failure_rate": 0.0,
+      "generation_failures": 4,
+      "median_seconds": 28.309030283489847,
+      "strong_median_seconds": 8.534664107501158,
+      "cost_scope": "all16 configs in scene",
+      "passed": false
+    }
+  ],
+  "calls": 1341,
+  "failures": 7,
+  "execution": {
+    "complete": true,
+    "errors": [],
+    "calls": 1341,
+    "seconds": 900.5632021590136
+  }
+}

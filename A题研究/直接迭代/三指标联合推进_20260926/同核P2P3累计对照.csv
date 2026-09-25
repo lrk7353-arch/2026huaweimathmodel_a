@@ -1,0 +1,6 @@
+﻿cores,mean_optimized_P2_over_P3,scope
+1,1.0086752318398495,Separately optimized P2/P3 selected plans; not same-plan cache-only attribution.
+2,1.0028141422298527,Separately optimized P2/P3 selected plans; not same-plan cache-only attribution.
+3,1.005056430188052,Separately optimized P2/P3 selected plans; not same-plan cache-only attribution.
+4,1.0139308624573147,Separately optimized P2/P3 selected plans; not same-plan cache-only attribution.
+5,1.0300220119349144,Separately optimized P2/P3 selected plans; not same-plan cache-only attribution.

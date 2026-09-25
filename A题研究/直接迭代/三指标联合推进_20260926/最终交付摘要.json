@@ -1,0 +1,113 @@
+{
+  "cold_confirmed": 9,
+  "curves": [
+    {
+      "problem": 1,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0021867095309935,
+      "optimized_singlecore_normalized_speedup": 1.0
+    },
+    {
+      "problem": 1,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 1.806035547067042,
+      "optimized_singlecore_normalized_speedup": 1.8013574832816734
+    },
+    {
+      "problem": 1,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.4805474394493383,
+      "optimized_singlecore_normalized_speedup": 2.472768753549778
+    },
+    {
+      "problem": 1,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.104131476067908,
+      "optimized_singlecore_normalized_speedup": 3.0932659111658865
+    },
+    {
+      "problem": 1,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 3.8184831385991824,
+      "optimized_singlecore_normalized_speedup": 3.8053403055577717
+    },
+    {
+      "problem": 2,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0024460533585284,
+      "optimized_singlecore_normalized_speedup": 1.0
+    },
+    {
+      "problem": 2,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 2.0644875840586234,
+      "optimized_singlecore_normalized_speedup": 2.059783922591203
+    },
+    {
+      "problem": 2,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.9547246681800017,
+      "optimized_singlecore_normalized_speedup": 2.9487411552017253
+    },
+    {
+      "problem": 2,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.6494460099026917,
+      "optimized_singlecore_normalized_speedup": 3.642830247597623
+    },
+    {
+      "problem": 2,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 4.561517169426836,
+      "optimized_singlecore_normalized_speedup": 4.553297784594163
+    },
+    {
+      "problem": 3,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0111209089977997,
+      "optimized_singlecore_normalized_speedup": 1.0
+    },
+    {
+      "problem": 3,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 2.0705721413756235,
+      "optimized_singlecore_normalized_speedup": 2.0456932878165484
+    },
+    {
+      "problem": 3,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.968846056156794,
+      "optimized_singlecore_normalized_speedup": 2.93846762229083
+    },
+    {
+      "problem": 3,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.6933264954016,
+      "optimized_singlecore_normalized_speedup": 3.658847128510106
+    },
+    {
+      "problem": 3,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 4.679333604516417,
+      "optimized_singlecore_normalized_speedup": 4.638061823106182
+    }
+  ],
+  "p3_mean_hit_rate": 0.2661329403301617,
+  "p3_pooled_hit_rate": 0.2905459000083617,
+  "scope": "Cumulative selected library. Two curve denominators explicitly distinguished."
+}

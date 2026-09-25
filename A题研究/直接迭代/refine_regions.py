@@ -25,6 +25,9 @@ def structure(plan):
 
 
 def candidates(ir, plan, raw, problem, cores, policy, round_index, limit):
+    if policy in ('wait_joint','proxy'):
+        from critical_wait_candidates import generate
+        return generate(ir,plan,raw,cores,limit,round_index,policy)
     if policy == 'data':
         if problem not in (2,3): raise ValueError('data policy requires P2/P3')
         from p23_data_refine import generate

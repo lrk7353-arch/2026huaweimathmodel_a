@@ -1,0 +1,54 @@
+{
+  "registered_rule": "执行协议.md",
+  "scenes": [
+    {
+      "problem": 1,
+      "geomean_speed_gain": -0.02623370486324017,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "regress_over1pct": 1,
+      "evaluation_failure_rate": 0.0,
+      "generation_failures": 0,
+      "median_seconds": 11.96413123900129,
+      "mature_median_seconds": 7.764194603005308,
+      "passed": false
+    },
+    {
+      "problem": 2,
+      "geomean_speed_gain": 0.03534667762362087,
+      "wins": 4,
+      "losses": 1,
+      "ties": 1,
+      "regress_over1pct": 0,
+      "evaluation_failure_rate": 0.0,
+      "generation_failures": 1,
+      "median_seconds": 40.562159117500414,
+      "mature_median_seconds": 24.988860913494136,
+      "passed": true
+    },
+    {
+      "problem": 3,
+      "geomean_speed_gain": 0.021467693150118317,
+      "wins": 5,
+      "losses": 0,
+      "ties": 1,
+      "regress_over1pct": 0,
+      "evaluation_failure_rate": 0.0,
+      "generation_failures": 0,
+      "median_seconds": 18.387333227990894,
+      "mature_median_seconds": 10.102339309989475,
+      "passed": true
+    }
+  ],
+  "logical_calls": 570,
+  "new_calls": 570,
+  "failures": 0,
+  "execution": {
+    "complete": true,
+    "completed": 54,
+    "errors": [],
+    "elapsed_seconds": 469.84004439099226,
+    "calls": 570
+  }
+}

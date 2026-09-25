@@ -90,3 +90,12 @@
 # Read-only metric research summaries; no new evaluator cache.
 !/A题研究/直接迭代/三指标协同研究_20260926/指标审计摘要.json
 !/A题研究/直接迭代/三指标协同研究_20260926/当前图池摘要.json
+
+# Frozen protocol, compact metrics and selected plans for joint wait search.
+!/A题研究/直接迭代/三指标联合推进_20260926/**/*.json
+!/A题研究/直接迭代/三指标联合推进_20260926/**/*.json.gz
+/A题研究/直接迭代/三指标联合推进_20260926/观测复评/
+/A题研究/直接迭代/三指标联合推进_20260926/**/slots/
+/A题研究/直接迭代/三指标联合推进_20260926/**/evaluations/
+!/A题研究/直接迭代/三指标联合推进_20260926/累计加速比曲线.png
+!/A题研究/直接迭代/三指标联合推进_20260926/累计加速比曲线.pdf

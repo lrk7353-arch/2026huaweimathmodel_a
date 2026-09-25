@@ -1,0 +1,96 @@
+{
+  "confirmed": 11,
+  "curves": [
+    {
+      "problem": 1,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0021867095309935
+    },
+    {
+      "problem": 1,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 1.806035547067042
+    },
+    {
+      "problem": 1,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.4805474394493383
+    },
+    {
+      "problem": 1,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.104131476067908
+    },
+    {
+      "problem": 1,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 3.8184831385991824
+    },
+    {
+      "problem": 2,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0024460533585284
+    },
+    {
+      "problem": 2,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 2.0623654542098473
+    },
+    {
+      "problem": 2,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.9523930252871593
+    },
+    {
+      "problem": 2,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.6494460099026917
+    },
+    {
+      "problem": 2,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 4.556834464598612
+    },
+    {
+      "problem": 3,
+      "cores": 1,
+      "graphs": 100,
+      "mean_speedup": 1.0111209089977997
+    },
+    {
+      "problem": 3,
+      "cores": 2,
+      "graphs": 100,
+      "mean_speedup": 2.0688482278804115
+    },
+    {
+      "problem": 3,
+      "cores": 3,
+      "graphs": 100,
+      "mean_speedup": 2.967477113204194
+    },
+    {
+      "problem": 3,
+      "cores": 4,
+      "graphs": 100,
+      "mean_speedup": 3.6933264954016
+    },
+    {
+      "problem": 3,
+      "cores": 5,
+      "graphs": 100,
+      "mean_speedup": 4.676749994580213
+    }
+  ],
+  "scope": "Cumulative selected-plan overlay, not cold-start algorithm score; plan paths relative to this directory."
+}
