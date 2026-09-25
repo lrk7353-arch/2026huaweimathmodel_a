@@ -1,0 +1,1097 @@
+{
+  "cases": [
+    {
+      "case": "case_078",
+      "problem": 3,
+      "old_routed": 511983,
+      "new_trace_routed": 468009,
+      "routing": {
+        "structural": {
+          "route": "component_wcc",
+          "components": 8,
+          "ideal_pipe_load": 407577.6,
+          "largest_component_pipe_load": 254736,
+          "component_to_ideal_ratio": 0.625,
+          "threshold": 1.5,
+          "basis": "original graph only; fixed rule; no case ID, prior score or result lookup"
+        },
+        "threshold": 0.1,
+        "probe": true,
+        "basis": "Current-run initial official trials only; no case ID or historical score",
+        "route": "staged",
+        "reason": "little_fixed_assignment_headroom",
+        "features": {
+          "makespan": 511983,
+          "largest_core_pipe_busy": 509472,
+          "fixed_assignment_headroom": 0.004904459718389043,
+          "per_core": [
+            {
+              "core": 0,
+              "m_busy": 509472,
+              "v_busy": 25824,
+              "mv_overlap": 25008,
+              "non_mv_fraction": 0.0033106567991515456
+            },
+            {
+              "core": 1,
+              "m_busy": 509472,
+              "v_busy": 25824,
+              "mv_overlap": 25008,
+              "non_mv_fraction": 0.0033106567991515456
+            },
+            {
+              "core": 2,
+              "m_busy": 509472,
+              "v_busy": 25824,
+              "mv_overlap": 25008,
+              "non_mv_fraction": 0.0033106567991515456
+            },
+            {
+              "core": 3,
+              "m_busy": 254736,
+              "v_busy": 12912,
+              "mv_overlap": 0,
+              "non_mv_fraction": 0.4772326424900827
+            },
+            {
+              "core": 4,
+              "m_busy": 254736,
+              "v_busy": 12912,
+              "mv_overlap": 0,
+              "non_mv_fraction": 0.4772326424900827
+            }
+          ],
+          "spill_added_copy_bytes": 0,
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 216576,
+              "UB": 0
+            },
+            "1": {
+              "L1": 216576,
+              "UB": 0
+            },
+            "2": {
+              "L1": 216576,
+              "UB": 0
+            },
+            "3": {
+              "L1": 191232,
+              "UB": 0
+            },
+            "4": {
+              "L1": 191232,
+              "UB": 0
+            }
+          },
+          "cache_stats": {
+            "copy_in_hits": 54,
+            "copy_in_misses": 224,
+            "hit_bytes": 944784,
+            "miss_bytes": 9895920,
+            "hits": 54,
+            "accesses": 278,
+            "hit_rate": 0.08715153554603096
+          },
+          "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162834-a2f6664f13e646afa5db45ef900fb1db/record.json",
+          "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+        },
+        "decision_after_calls": 4,
+        "probe_selection": {
+          "name": "wcc_unrestricted_interleave_w2_base_earliest_start",
+          "memory_proxy_ratio": 0.41162109375,
+          "compute_proxy": 510288,
+          "scope": "one charged probe; proxy ranking is not official performance"
+        }
+      },
+      "prefix": {
+        "makespan": 511983,
+        "largest_core_pipe_busy": 509472,
+        "fixed_assignment_headroom": 0.004904459718389043,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 509472,
+            "v_busy": 25824,
+            "mv_overlap": 25008,
+            "non_mv_fraction": 0.0033106567991515456
+          },
+          {
+            "core": 1,
+            "m_busy": 509472,
+            "v_busy": 25824,
+            "mv_overlap": 25008,
+            "non_mv_fraction": 0.0033106567991515456
+          },
+          {
+            "core": 2,
+            "m_busy": 509472,
+            "v_busy": 25824,
+            "mv_overlap": 25008,
+            "non_mv_fraction": 0.0033106567991515456
+          },
+          {
+            "core": 3,
+            "m_busy": 254736,
+            "v_busy": 12912,
+            "mv_overlap": 0,
+            "non_mv_fraction": 0.4772326424900827
+          },
+          {
+            "core": 4,
+            "m_busy": 254736,
+            "v_busy": 12912,
+            "mv_overlap": 0,
+            "non_mv_fraction": 0.4772326424900827
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 216576,
+            "UB": 0
+          },
+          "1": {
+            "L1": 216576,
+            "UB": 0
+          },
+          "2": {
+            "L1": 216576,
+            "UB": 0
+          },
+          "3": {
+            "L1": 191232,
+            "UB": 0
+          },
+          "4": {
+            "L1": 191232,
+            "UB": 0
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 54,
+          "copy_in_misses": 224,
+          "hit_bytes": 944784,
+          "miss_bytes": 9895920,
+          "hits": 54,
+          "accesses": 278,
+          "hit_rate": 0.08715153554603096
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162834-a2f6664f13e646afa5db45ef900fb1db/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "after": {
+        "makespan": 468009,
+        "largest_core_pipe_busy": 408408,
+        "fixed_assignment_headroom": 0.12735011506188987,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 408408,
+            "v_busy": 20280,
+            "mv_overlap": 13509,
+            "non_mv_fraction": 0.11288244456837371
+          },
+          {
+            "core": 1,
+            "m_busy": 407904,
+            "v_busy": 21216,
+            "mv_overlap": 14445,
+            "non_mv_fraction": 0.11395934693563581
+          },
+          {
+            "core": 2,
+            "m_busy": 406992,
+            "v_busy": 20544,
+            "mv_overlap": 13438,
+            "non_mv_fraction": 0.1151922292092673
+          },
+          {
+            "core": 3,
+            "m_busy": 407880,
+            "v_busy": 20184,
+            "mv_overlap": 14194,
+            "non_mv_fraction": 0.1156793993277907
+          },
+          {
+            "core": 4,
+            "m_busy": 406704,
+            "v_busy": 21072,
+            "mv_overlap": 14803,
+            "non_mv_fraction": 0.11759602913619183
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 348672,
+            "UB": 0
+          },
+          "1": {
+            "L1": 185088,
+            "UB": 0
+          },
+          "2": {
+            "L1": 189696,
+            "UB": 0
+          },
+          "3": {
+            "L1": 174336,
+            "UB": 0
+          },
+          "4": {
+            "L1": 182016,
+            "UB": 0
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 267,
+          "copy_in_misses": 576,
+          "hit_bytes": 3265848,
+          "miss_bytes": 10219848,
+          "hits": 267,
+          "accesses": 843,
+          "hit_rate": 0.24217126057120078
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162834-fcbab24d00394a8aa057f5b5c382ed0e/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "changed_compute_core_count": 837,
+      "prefix_movement": {
+        "original_graph_copy_bytes": 2345088,
+        "scheduled_copy_bytes": 10939008,
+        "added_copy_bytes": 8593920,
+        "partition_added_copy_bytes": 8593920,
+        "spill_added_copy_bytes": 0
+      },
+      "after_movement": {
+        "original_graph_copy_bytes": 2345088,
+        "scheduled_copy_bytes": 16228992,
+        "added_copy_bytes": 13883904,
+        "partition_added_copy_bytes": 13883904,
+        "spill_added_copy_bytes": 0
+      },
+      "winning_calls": [
+        {
+          "call": 11,
+          "name": "cache_r00_t000_advance_leader",
+          "phase": "p3_cache"
+        }
+      ]
+    },
+    {
+      "case": "case_095",
+      "problem": 3,
+      "old_routed": 220188,
+      "new_trace_routed": 220188,
+      "routing": {
+        "structural": {
+          "route": "component_wcc",
+          "components": 462,
+          "ideal_pipe_load": 213998.4,
+          "largest_component_pipe_load": 2316,
+          "component_to_ideal_ratio": 0.010822510822510822,
+          "threshold": 1.5,
+          "basis": "original graph only; fixed rule; no case ID, prior score or result lookup"
+        },
+        "threshold": 0.1,
+        "probe": true,
+        "basis": "Current-run initial official trials only; no case ID or historical score",
+        "route": "staged",
+        "reason": "little_fixed_assignment_headroom",
+        "features": {
+          "makespan": 220314,
+          "largest_core_pipe_busy": 215388,
+          "fixed_assignment_headroom": 0.022358996704703316,
+          "per_core": [
+            {
+              "core": 0,
+              "m_busy": 215388,
+              "v_busy": 204228,
+              "mv_overlap": 200538,
+              "non_mv_fraction": 0.00561017456902424
+            },
+            {
+              "core": 1,
+              "m_busy": 215388,
+              "v_busy": 204228,
+              "mv_overlap": 200538,
+              "non_mv_fraction": 0.00561017456902424
+            },
+            {
+              "core": 2,
+              "m_busy": 213072,
+              "v_busy": 202032,
+              "mv_overlap": 198342,
+              "non_mv_fraction": 0.016122443421661803
+            },
+            {
+              "core": 3,
+              "m_busy": 213072,
+              "v_busy": 202032,
+              "mv_overlap": 198342,
+              "non_mv_fraction": 0.016122443421661803
+            },
+            {
+              "core": 4,
+              "m_busy": 213072,
+              "v_busy": 202032,
+              "mv_overlap": 198342,
+              "non_mv_fraction": 0.016122443421661803
+            }
+          ],
+          "spill_added_copy_bytes": 0,
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 49152,
+              "UB": 55680
+            },
+            "1": {
+              "L1": 49152,
+              "UB": 55680
+            },
+            "2": {
+              "L1": 49152,
+              "UB": 55680
+            },
+            "3": {
+              "L1": 49152,
+              "UB": 55680
+            },
+            "4": {
+              "L1": 49152,
+              "UB": 55680
+            }
+          },
+          "cache_stats": {
+            "copy_in_hits": 0,
+            "copy_in_misses": 1848,
+            "hit_bytes": 0,
+            "miss_bytes": 8516508,
+            "hits": 0,
+            "accesses": 1848,
+            "hit_rate": 0.0
+          },
+          "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162833-23fe3d2dde9547bea2e3065a07f0e641/record.json",
+          "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+        },
+        "decision_after_calls": 4,
+        "probe_selection": {
+          "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+          "memory_proxy_ratio": 0.708984375,
+          "compute_proxy": 218952,
+          "scope": "one charged probe; proxy ranking is not official performance"
+        }
+      },
+      "prefix": {
+        "makespan": 220314,
+        "largest_core_pipe_busy": 215388,
+        "fixed_assignment_headroom": 0.022358996704703316,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 215388,
+            "v_busy": 204228,
+            "mv_overlap": 200538,
+            "non_mv_fraction": 0.00561017456902424
+          },
+          {
+            "core": 1,
+            "m_busy": 215388,
+            "v_busy": 204228,
+            "mv_overlap": 200538,
+            "non_mv_fraction": 0.00561017456902424
+          },
+          {
+            "core": 2,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198342,
+            "non_mv_fraction": 0.016122443421661803
+          },
+          {
+            "core": 3,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198342,
+            "non_mv_fraction": 0.016122443421661803
+          },
+          {
+            "core": 4,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198342,
+            "non_mv_fraction": 0.016122443421661803
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 49152,
+            "UB": 55680
+          },
+          "1": {
+            "L1": 49152,
+            "UB": 55680
+          },
+          "2": {
+            "L1": 49152,
+            "UB": 55680
+          },
+          "3": {
+            "L1": 49152,
+            "UB": 55680
+          },
+          "4": {
+            "L1": 49152,
+            "UB": 55680
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 0,
+          "copy_in_misses": 1848,
+          "hit_bytes": 0,
+          "miss_bytes": 8516508,
+          "hits": 0,
+          "accesses": 1848,
+          "hit_rate": 0.0
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162833-23fe3d2dde9547bea2e3065a07f0e641/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "after": {
+        "makespan": 220188,
+        "largest_core_pipe_busy": 215388,
+        "fixed_assignment_headroom": 0.021799553109161263,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 215388,
+            "v_busy": 204228,
+            "mv_overlap": 200664,
+            "non_mv_fraction": 0.005613384925609033
+          },
+          {
+            "core": 1,
+            "m_busy": 215388,
+            "v_busy": 204228,
+            "mv_overlap": 200664,
+            "non_mv_fraction": 0.005613384925609033
+          },
+          {
+            "core": 2,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198468,
+            "non_mv_fraction": 0.01613166930077936
+          },
+          {
+            "core": 3,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198468,
+            "non_mv_fraction": 0.01613166930077936
+          },
+          {
+            "core": 4,
+            "m_busy": 213072,
+            "v_busy": 202032,
+            "mv_overlap": 198468,
+            "non_mv_fraction": 0.01613166930077936
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 49152,
+            "UB": 92928
+          },
+          "1": {
+            "L1": 49152,
+            "UB": 92928
+          },
+          "2": {
+            "L1": 49152,
+            "UB": 92928
+          },
+          "3": {
+            "L1": 49152,
+            "UB": 92928
+          },
+          "4": {
+            "L1": 49152,
+            "UB": 92928
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 0,
+          "copy_in_misses": 1848,
+          "hit_bytes": 0,
+          "miss_bytes": 8516508,
+          "hits": 0,
+          "accesses": 1848,
+          "hit_rate": 0.0
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162833-786cee28ab87463faa3747c4b5e27afb/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "changed_compute_core_count": 0,
+      "prefix_movement": {
+        "original_graph_copy_bytes": 11355036,
+        "scheduled_copy_bytes": 11355036,
+        "added_copy_bytes": 0,
+        "partition_added_copy_bytes": 0,
+        "spill_added_copy_bytes": 0
+      },
+      "after_movement": {
+        "original_graph_copy_bytes": 11355036,
+        "scheduled_copy_bytes": 11355036,
+        "added_copy_bytes": 0,
+        "partition_added_copy_bytes": 0,
+        "spill_added_copy_bytes": 0
+      },
+      "winning_calls": [
+        {
+          "call": 5,
+          "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+          "phase": "wcc_probe"
+        }
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 2,
+      "old_routed": 83319,
+      "new_trace_routed": 83567,
+      "routing": {
+        "structural": {
+          "route": "component_wcc",
+          "components": 111,
+          "ideal_pipe_load": 77122.8,
+          "largest_component_pipe_load": 3474,
+          "component_to_ideal_ratio": 0.04504504504504504,
+          "threshold": 1.5,
+          "basis": "original graph only; fixed rule; no case ID, prior score or result lookup"
+        },
+        "threshold": 0.1,
+        "probe": true,
+        "basis": "Current-run initial official trials only; no case ID or historical score",
+        "route": "staged",
+        "reason": "little_fixed_assignment_headroom",
+        "features": {
+          "makespan": 85097,
+          "largest_core_pipe_busy": 79902,
+          "fixed_assignment_headroom": 0.061047980539854496,
+          "per_core": [
+            {
+              "core": 0,
+              "m_busy": 79902,
+              "v_busy": 9936,
+              "mv_overlap": 9504,
+              "non_mv_fraction": 0.055971420849148634
+            },
+            {
+              "core": 1,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 2,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 3,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 4,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            }
+          ],
+          "spill_added_copy_bytes": 0,
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "1": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "2": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "3": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 129024,
+              "UB": 18432
+            }
+          },
+          "cache_stats": null,
+          "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162832-7923ede425354e658d250a8778bf5af1/record.json",
+          "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+        },
+        "decision_after_calls": 4,
+        "probe_selection": {
+          "name": "wcc_unrestricted_interleave_w2_complement_earliest_start",
+          "memory_proxy_ratio": 0.24609375,
+          "compute_proxy": 79932,
+          "scope": "one charged probe; proxy ranking is not official performance"
+        }
+      },
+      "prefix": {
+        "makespan": 85097,
+        "largest_core_pipe_busy": 79902,
+        "fixed_assignment_headroom": 0.061047980539854496,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 79902,
+            "v_busy": 9936,
+            "mv_overlap": 9504,
+            "non_mv_fraction": 0.055971420849148634
+          },
+          {
+            "core": 1,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 2,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 3,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 4,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "1": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "2": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "3": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "4": {
+            "L1": 129024,
+            "UB": 18432
+          }
+        },
+        "cache_stats": null,
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162832-7923ede425354e658d250a8778bf5af1/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "after": {
+        "makespan": 83567,
+        "largest_core_pipe_busy": 79902,
+        "fixed_assignment_headroom": 0.04385702490217436,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 79902,
+            "v_busy": 9936,
+            "mv_overlap": 9906,
+            "non_mv_fraction": 0.04349803151961895
+          },
+          {
+            "core": 1,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9420,
+            "non_mv_fraction": 0.0844232771309249
+          },
+          {
+            "core": 2,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9420,
+            "non_mv_fraction": 0.0844232771309249
+          },
+          {
+            "core": 3,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9420,
+            "non_mv_fraction": 0.0844232771309249
+          },
+          {
+            "core": 4,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9420,
+            "non_mv_fraction": 0.0844232771309249
+          }
+        ],
+        "spill_added_copy_bytes": 393216,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 390144,
+            "UB": 129024
+          },
+          "1": {
+            "L1": 374784,
+            "UB": 129024
+          },
+          "2": {
+            "L1": 374784,
+            "UB": 129024
+          },
+          "3": {
+            "L1": 374784,
+            "UB": 129024
+          },
+          "4": {
+            "L1": 374784,
+            "UB": 129024
+          }
+        },
+        "cache_stats": null,
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162832-356f9bbf97574974b51a11e3bfdc006f/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "changed_compute_core_count": 0,
+      "prefix_movement": {
+        "original_graph_copy_bytes": 792576,
+        "scheduled_copy_bytes": 1234944,
+        "added_copy_bytes": 442368,
+        "partition_added_copy_bytes": 442368,
+        "spill_added_copy_bytes": 0
+      },
+      "after_movement": {
+        "original_graph_copy_bytes": 792576,
+        "scheduled_copy_bytes": 1628160,
+        "added_copy_bytes": 835584,
+        "partition_added_copy_bytes": 442368,
+        "spill_added_copy_bytes": 393216
+      },
+      "winning_calls": [
+        {
+          "call": 9,
+          "name": "trace_r00_01_compute_dependency_tail",
+          "phase": "trace"
+        }
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 3,
+      "old_routed": 83319,
+      "new_trace_routed": 82161,
+      "routing": {
+        "structural": {
+          "route": "component_wcc",
+          "components": 111,
+          "ideal_pipe_load": 77122.8,
+          "largest_component_pipe_load": 3474,
+          "component_to_ideal_ratio": 0.04504504504504504,
+          "threshold": 1.5,
+          "basis": "original graph only; fixed rule; no case ID, prior score or result lookup"
+        },
+        "threshold": 0.1,
+        "probe": true,
+        "basis": "Current-run initial official trials only; no case ID or historical score",
+        "route": "staged",
+        "reason": "little_fixed_assignment_headroom",
+        "features": {
+          "makespan": 85097,
+          "largest_core_pipe_busy": 79902,
+          "fixed_assignment_headroom": 0.061047980539854496,
+          "per_core": [
+            {
+              "core": 0,
+              "m_busy": 79902,
+              "v_busy": 9936,
+              "mv_overlap": 9504,
+              "non_mv_fraction": 0.055971420849148634
+            },
+            {
+              "core": 1,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 2,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 3,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            },
+            {
+              "core": 4,
+              "m_busy": 76428,
+              "v_busy": 9504,
+              "mv_overlap": 9072,
+              "non_mv_fraction": 0.09679542169524191
+            }
+          ],
+          "spill_added_copy_bytes": 0,
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "1": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "2": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "3": {
+              "L1": 129024,
+              "UB": 18432
+            },
+            "4": {
+              "L1": 129024,
+              "UB": 18432
+            }
+          },
+          "cache_stats": {
+            "copy_in_hits": 0,
+            "copy_in_misses": 126,
+            "hit_bytes": 0,
+            "miss_bytes": 893952,
+            "hits": 0,
+            "accesses": 126,
+            "hit_rate": 0.0
+          },
+          "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162828-cffd11a47f5a43639deb25c4281c864c/record.json",
+          "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+        },
+        "decision_after_calls": 4,
+        "probe_selection": {
+          "name": "wcc_unrestricted_interleave_w2_complement_earliest_start",
+          "memory_proxy_ratio": 0.24609375,
+          "compute_proxy": 79932,
+          "scope": "one charged probe; proxy ranking is not official performance"
+        }
+      },
+      "prefix": {
+        "makespan": 85097,
+        "largest_core_pipe_busy": 79902,
+        "fixed_assignment_headroom": 0.061047980539854496,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 79902,
+            "v_busy": 9936,
+            "mv_overlap": 9504,
+            "non_mv_fraction": 0.055971420849148634
+          },
+          {
+            "core": 1,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 2,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 3,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          },
+          {
+            "core": 4,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9072,
+            "non_mv_fraction": 0.09679542169524191
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "1": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "2": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "3": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "4": {
+            "L1": 129024,
+            "UB": 18432
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 0,
+          "copy_in_misses": 126,
+          "hit_bytes": 0,
+          "miss_bytes": 893952,
+          "hits": 0,
+          "accesses": 126,
+          "hit_rate": 0.0
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162828-cffd11a47f5a43639deb25c4281c864c/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "after": {
+        "makespan": 82161,
+        "largest_core_pipe_busy": 78744,
+        "fixed_assignment_headroom": 0.04158907510862819,
+        "per_core": [
+          {
+            "core": 0,
+            "m_busy": 78744,
+            "v_busy": 9936,
+            "mv_overlap": 9906,
+            "non_mv_fraction": 0.04122393836491767
+          },
+          {
+            "core": 1,
+            "m_busy": 77586,
+            "v_busy": 9504,
+            "mv_overlap": 9474,
+            "non_mv_fraction": 0.05531821667214376
+          },
+          {
+            "core": 2,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9474,
+            "non_mv_fraction": 0.06941249497936974
+          },
+          {
+            "core": 3,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9474,
+            "non_mv_fraction": 0.06941249497936974
+          },
+          {
+            "core": 4,
+            "m_busy": 76428,
+            "v_busy": 9504,
+            "mv_overlap": 9474,
+            "non_mv_fraction": 0.06941249497936974
+          }
+        ],
+        "spill_added_copy_bytes": 0,
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "1": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "2": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "3": {
+            "L1": 129024,
+            "UB": 18432
+          },
+          "4": {
+            "L1": 129024,
+            "UB": 18432
+          }
+        },
+        "cache_stats": {
+          "copy_in_hits": 6,
+          "copy_in_misses": 122,
+          "hit_bytes": 187392,
+          "miss_bytes": 715776,
+          "hits": 6,
+          "accesses": 128,
+          "hit_rate": 0.20748299319727892
+        },
+        "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162828-51e0ae77a8274863a3ae4b677131f671/record.json",
+        "scope": "Observed original M/V compute only; non-M/V time is not necessarily memory wait; headroom is a route heuristic, not a universal lower bound or achievable gain."
+      },
+      "changed_compute_core_count": 1,
+      "prefix_movement": {
+        "original_graph_copy_bytes": 792576,
+        "scheduled_copy_bytes": 1234944,
+        "added_copy_bytes": 442368,
+        "partition_added_copy_bytes": 442368,
+        "spill_added_copy_bytes": 0
+      },
+      "after_movement": {
+        "original_graph_copy_bytes": 792576,
+        "scheduled_copy_bytes": 1250304,
+        "added_copy_bytes": 457728,
+        "partition_added_copy_bytes": 457728,
+        "spill_added_copy_bytes": 0
+      },
+      "winning_calls": [
+        {
+          "call": 8,
+          "name": "trace_r00_00_hot_pipe_single_move",
+          "phase": "trace"
+        }
+      ]
+    }
+  ],
+  "scope": "Current-prefix-to-final observed differences; route examples are known development cases, not independent generalization evidence."
+}

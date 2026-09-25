@@ -10,6 +10,10 @@ def plan_key(plan):
  return json.dumps(plan,ensure_ascii=False,separators=(',',':'))
 
 def run(case,cores,variant,out,budget=8,time_budget=180,seed=17,evaluation_timeout=None,evaluation_dir=None):
+ if variant in ('integrated','local_legacy'):
+  if seed!=17:raise ValueError('integrated cold search currently requires seed 17')
+  from cold_portfolio import run as integrated_run
+  return integrated_run(case,1,cores,variant,out,budget,time_budget,evaluation_timeout or 25,evaluation_dir)
  if variant in ('portfolio','portfolio_diverse'):
   from p1_portfolio import run as portfolio_run
   return portfolio_run(case,cores,out,budget,time_budget,seed,evaluation_timeout,structural_diversity=variant=='portfolio_diverse',evaluation_dir=evaluation_dir)

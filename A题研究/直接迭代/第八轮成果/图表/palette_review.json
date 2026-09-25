@@ -1,0 +1,60 @@
+{
+  "background": "#FFFFFF",
+  "contrast_screen": {
+    "basis": "WCAG 2.2 contrast mathematics. Applicability depends on use; for example, SC 1.4.11 covers graphical objects required to understand web content.",
+    "review_count": 0,
+    "role": "graphical",
+    "threshold": 3.0
+  },
+  "grayscale_screen": {
+    "basis": "Heuristic CIE L* separation after removing hue. It does not predict all viewing, printing, or color-vision conditions.",
+    "minimum_delta_lstar": 10.0,
+    "pair_count": 1,
+    "review_count": 1
+  },
+  "notice": "No palette can establish accessibility by itself. Preserve labels and add redundant encodings such as markers, line styles, direct labels, or patterns; evaluate the rendered figure in context.",
+  "pairs": [
+    {
+      "contrast_ratio": 1.341,
+      "first_hex": "#0072B2",
+      "first_index": 0,
+      "grayscale_delta_lstar": 8.214,
+      "grayscale_screen": "review",
+      "second_hex": "#D55E00",
+      "second_index": 1
+    }
+  ],
+  "palette": {
+    "color_count": 2,
+    "colors": [
+      {
+        "background_screen": "pass",
+        "cie_lstar": 45.973,
+        "contrast_against_background": 5.185,
+        "hex": "#0072B2",
+        "index": 0,
+        "relative_luminance": 0.15249,
+        "rgb": [
+          0,
+          114,
+          178
+        ]
+      },
+      {
+        "background_screen": "pass",
+        "cie_lstar": 54.187,
+        "contrast_against_background": 3.867,
+        "hex": "#D55E00",
+        "index": 1,
+        "relative_luminance": 0.221515,
+        "rgb": [
+          213,
+          94,
+          0
+        ]
+      }
+    ],
+    "name": "custom"
+  },
+  "schema_version": "1.0"
+}

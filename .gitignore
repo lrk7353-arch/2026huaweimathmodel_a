@@ -44,6 +44,15 @@
 !/A题研究/直接迭代/第四轮成果/**/*.json
 !/A题研究/直接迭代/第五轮成果/**/*.json
 !/A题研究/直接迭代/第六轮成果/**/*.json
+!/A题研究/直接迭代/第七轮成果/**/*.json
+!/A题研究/直接迭代/第八轮成果/**/*.json
+!/A题研究/直接迭代/第八轮成果/图表/*.png
+!/A题研究/直接迭代/第八轮成果/图表/*.svg
+!/A题研究/直接迭代/第九轮成果/**/*.json
+!/A题研究/直接迭代/第十轮成果/**/*.json
+!/A题研究/直接迭代/第十一轮成果/**/*.json
+!/A题研究/直接迭代/第十二轮成果/**/*.json
+!/A题研究/直接迭代/第十三轮成果/**/*.json
 
 # Small saved official observations required by portable mechanism tests.
 !/A题研究/方案审阅/cache_microtests/*.json

@@ -1,0 +1,5 @@
+﻿panel,runs,successful_runs,logical_calls,fresh_calls,failed_calls,generation_errors,wall_seconds
+P1扩展,24,24,238,238,6,0,273.1783404999878
+P23开发v1,32,32,384,384,0,0,134.36577770800795
+P23开发v2,40,40,480,480,0,0,165.16836462495849
+P23验证v2,80,80,960,960,0,0,663.4002232499188

@@ -1,0 +1,235 @@
+{
+  "coverage": 1500,
+  "official_success_records": 1500,
+  "exact_ordered_plan_matches": 1500,
+  "objective_nonregressions": 1500,
+  "dag_validated_plans": 45,
+  "changed_configurations": [
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_016",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 2
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 3
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 4
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 3
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 4
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 3
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 2
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 3
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 4
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 2
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 3
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 4
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 3
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 5
+    }
+  ],
+  "dag_scope": "changed configurations; unchanged exports match existing official success records"
+}

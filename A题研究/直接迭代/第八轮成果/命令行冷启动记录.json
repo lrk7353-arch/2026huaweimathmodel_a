@@ -1,0 +1,13 @@
+{
+  "case": "case_095",
+  "problem": 3,
+  "cores": 5,
+  "method": "routed",
+  "effective_method": "component_wcc",
+  "makespan": 220188,
+  "logical_calls": 12,
+  "new_calls": 12,
+  "elapsed_seconds": 5.584896583925001,
+  "stop_reason": "call_budget",
+  "source": "运行结果/结构命令行冷启动_v1/summary.json"
+}

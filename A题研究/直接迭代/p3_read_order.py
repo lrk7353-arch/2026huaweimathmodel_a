@@ -81,10 +81,12 @@ def generate(ir,plan,raw,cores,limit=12):
     return candidates,diag
 
 
-def run(case,old,out,budget=12,seconds=120,cores=5):
+def run(case,old,out,budget=12,seconds=120,cores=5,evaluation_dir=None,per_call_timeout=None):
     if key(old)!=(case,3,cores):raise ValueError('incumbent case/problem/core mismatch')
     if budget<1 or seconds<=0:raise ValueError('positive budget/time required')
+    if per_call_timeout is not None and per_call_timeout<=0:raise ValueError('per_call_timeout must be positive')
     out=Path(out);out.mkdir(parents=True,exist_ok=False);start=time.monotonic();deadline=start+seconds
+    evdir=Path(evaluation_dir) if evaluation_dir is not None else R/'advanced_solver/runs/formal_v2/evaluations'
     ir=GraphIR.from_path(DATA/(case+'.json'));input_plan=read_json(old['plan_path'])
     with gzip.open(old['result_path'],'rt') as f:raw=json.load(f)
     candidates,diag=generate(ir,input_plan,raw,cores,limit=budget)
@@ -94,8 +96,8 @@ def run(case,old,out,budget=12,seconds=120,cores=5):
         if len(trials)>=budget or time.monotonic()>=deadline:break
         # Even an identical control is evaluated/reused and charged: mechanism
         # attribution needs its own official record, not an implicit baseline.
-        rec=evaluate(DATA/(case+'.json'),c['plan'],3,R/'advanced_solver/runs/formal_v2/evaluations',
-                     timeout=min(60,max(.1,deadline-time.monotonic())),config_path=DATA/'config.txt')
+        rec=evaluate(DATA/(case+'.json'),c['plan'],3,evdir,
+                     timeout=min(per_call_timeout if per_call_timeout is not None else 60,max(.1,deadline-time.monotonic())),config_path=DATA/'config.txt')
         accepted=rec['status']=='success' and score(rec)<score(best)
         trials.append(dict(name=c['name'],metadata=c['metadata'],record=rec,accepted=accepted))
         if accepted:best=rec

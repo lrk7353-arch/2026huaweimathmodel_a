@@ -1,0 +1,882 @@
+{
+  "case": "case_094",
+  "source_summary_p3": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/summary.json",
+  "source_summary_p2": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p2_n5/component_wcc/summary.json",
+  "previous_export_scores": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/第六轮成果/全部成绩.csv",
+  "source_method": "component_wcc",
+  "p3_phase_call_counts": {
+    "component": 6,
+    "wcc": 6
+  },
+  "winner_p3": {
+    "call_index": 6,
+    "phase": "wcc",
+    "name": "wcc_unrestricted_interleave_w2_complement_earliest_start",
+    "window": 2,
+    "admission": "complement",
+    "dispatch": "earliest_start",
+    "variant_origins": [
+      {
+        "variant": "protected",
+        "name": "interleave_v2_w2_complement_earliest_start"
+      },
+      {
+        "variant": "unrestricted",
+        "name": "interleave_w2_complement_earliest_start"
+      }
+    ]
+  },
+  "winner_p2": {
+    "call_index": 6,
+    "phase": "wcc",
+    "name": "wcc_unrestricted_interleave_w2_complement_earliest_start"
+  },
+  "p3_logical_calls": 12,
+  "p3_new_calls": 12,
+  "p3_elapsed_seconds": 1.4483611249597743,
+  "records": {
+    "sixth_p3": {
+      "problem": 3,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112218-02dccf15dd294f36b816b6b1305af3a2/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112218-02dccf15dd294f36b816b6b1305af3a2/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112218-02dccf15dd294f36b816b6b1305af3a2/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 20156,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 810468,
+        "added_copy_bytes": 283776,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 24576
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 91136,
+          "UB": 131072
+        },
+        "1": {
+          "L1": 100864,
+          "UB": 130048
+        },
+        "2": {
+          "L1": 100864,
+          "UB": 40960
+        },
+        "3": {
+          "L1": 100864,
+          "UB": 40960
+        },
+        "4": {
+          "L1": 99328,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 131072,
+      "cache_stats": {
+        "copy_in_hits": 28,
+        "copy_in_misses": 126,
+        "hit_bytes": 156000,
+        "miss_bytes": 586816,
+        "accesses": 154,
+        "official_byte_hit_rate": 0.21001163141343213,
+        "count_hit_rate": 0.18181818181818182
+      },
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 20156,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 8582,
+          "mv_union_cycles": 19541
+        },
+        {
+          "core": 1,
+          "end": 19884,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 8585,
+          "mv_union_cycles": 18196
+        },
+        {
+          "core": 2,
+          "end": 17262,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 1190,
+          "mv_union_cycles": 16915
+        },
+        {
+          "core": 3,
+          "end": 17250,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 1190,
+          "mv_union_cycles": 16902
+        },
+        {
+          "core": 4,
+          "end": 16258,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 972,
+          "mv_union_cycles": 15487
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "component_anchor_p3": {
+      "problem": 3,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ff6996b55d546bfa6373d065c772385/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ff6996b55d546bfa6373d065c772385/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ff6996b55d546bfa6373d065c772385/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 24943,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 785892,
+        "added_copy_bytes": 259200,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 0
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 82944,
+          "UB": 40960
+        },
+        "1": {
+          "L1": 101376,
+          "UB": 40960
+        },
+        "2": {
+          "L1": 55296,
+          "UB": 28672
+        },
+        "3": {
+          "L1": 55296,
+          "UB": 28672
+        },
+        "4": {
+          "L1": 55296,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 40960,
+      "cache_stats": {
+        "copy_in_hits": 24,
+        "copy_in_misses": 127,
+        "hit_bytes": 102528,
+        "miss_bytes": 628000,
+        "accesses": 151,
+        "official_byte_hit_rate": 0.1403478032327303,
+        "count_hit_rate": 0.15894039735099338
+      },
+      "compute_op_count": 647,
+      "subgraph_count": 5,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 24943,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 3679,
+          "mv_union_cycles": 24444
+        },
+        {
+          "core": 1,
+          "end": 23616,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 3664,
+          "mv_union_cycles": 23117
+        },
+        {
+          "core": 2,
+          "end": 16641,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 2117,
+          "mv_union_cycles": 15988
+        },
+        {
+          "core": 3,
+          "end": 16641,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 2104,
+          "mv_union_cycles": 15988
+        },
+        {
+          "core": 4,
+          "end": 15334,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 1822,
+          "mv_union_cycles": 14637
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "wcc_reencoding_control_p3": {
+      "problem": 3,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-23b1c1f1d1dc40e79256f29ccf3f5d4b/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-23b1c1f1d1dc40e79256f29ccf3f5d4b/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-23b1c1f1d1dc40e79256f29ccf3f5d4b/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 25370,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 785892,
+        "added_copy_bytes": 259200,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 0
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 80640,
+          "UB": 40960
+        },
+        "1": {
+          "L1": 77568,
+          "UB": 40960
+        },
+        "2": {
+          "L1": 73728,
+          "UB": 28672
+        },
+        "3": {
+          "L1": 73728,
+          "UB": 28672
+        },
+        "4": {
+          "L1": 73728,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 40960,
+      "cache_stats": {
+        "copy_in_hits": 30,
+        "copy_in_misses": 121,
+        "hit_bytes": 139392,
+        "miss_bytes": 591136,
+        "accesses": 151,
+        "official_byte_hit_rate": 0.19080993473213895,
+        "count_hit_rate": 0.1986754966887417
+      },
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 25370,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 3252,
+          "mv_union_cycles": 24871
+        },
+        {
+          "core": 1,
+          "end": 20528,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 6752,
+          "mv_union_cycles": 20029
+        },
+        {
+          "core": 2,
+          "end": 15935,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 2823,
+          "mv_union_cycles": 15282
+        },
+        {
+          "core": 3,
+          "end": 15935,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 2810,
+          "mv_union_cycles": 15282
+        },
+        {
+          "core": 4,
+          "end": 15505,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 1793,
+          "mv_union_cycles": 14666
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "wcc_base_window2_p3": {
+      "problem": 3,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-487f132ea85c43ea8c7e1495718fcaf6/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-487f132ea85c43ea8c7e1495718fcaf6/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-487f132ea85c43ea8c7e1495718fcaf6/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 21651,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 785892,
+        "added_copy_bytes": 259200,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 0
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 81408,
+          "UB": 77824
+        },
+        "1": {
+          "L1": 64256,
+          "UB": 69632
+        },
+        "2": {
+          "L1": 59904,
+          "UB": 28672
+        },
+        "3": {
+          "L1": 59904,
+          "UB": 28672
+        },
+        "4": {
+          "L1": 59904,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 77824,
+      "cache_stats": {
+        "copy_in_hits": 30,
+        "copy_in_misses": 121,
+        "hit_bytes": 139392,
+        "miss_bytes": 591136,
+        "accesses": 151,
+        "official_byte_hit_rate": 0.19080993473213895,
+        "count_hit_rate": 0.1986754966887417
+      },
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 21651,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 7188,
+          "mv_union_cycles": 20935
+        },
+        {
+          "core": 1,
+          "end": 20694,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 6927,
+          "mv_union_cycles": 19854
+        },
+        {
+          "core": 2,
+          "end": 15798,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 2960,
+          "mv_union_cycles": 15145
+        },
+        {
+          "core": 3,
+          "end": 15798,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 2947,
+          "mv_union_cycles": 15145
+        },
+        {
+          "core": 4,
+          "end": 15368,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 1999,
+          "mv_union_cycles": 14460
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "new_p3": {
+      "problem": 3,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ede500300044998a7e24f41ad78abbc/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ede500300044998a7e24f41ad78abbc/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p3_n5/component_wcc/evaluations/attempts/20260925T152855-6ede500300044998a7e24f41ad78abbc/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 16819,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 785892,
+        "added_copy_bytes": 259200,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 0
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 63744,
+          "UB": 40960
+        },
+        "1": {
+          "L1": 82176,
+          "UB": 40960
+        },
+        "2": {
+          "L1": 59904,
+          "UB": 28672
+        },
+        "3": {
+          "L1": 55296,
+          "UB": 28672
+        },
+        "4": {
+          "L1": 59904,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 40960,
+      "cache_stats": {
+        "copy_in_hits": 26,
+        "copy_in_misses": 125,
+        "hit_bytes": 120960,
+        "miss_bytes": 609568,
+        "accesses": 151,
+        "official_byte_hit_rate": 0.16557886898243462,
+        "count_hit_rate": 0.17218543046357615
+      },
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 16819,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 11650,
+          "mv_union_cycles": 16473
+        },
+        {
+          "core": 1,
+          "end": 16252,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 10875,
+          "mv_union_cycles": 15906
+        },
+        {
+          "core": 2,
+          "end": 15319,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 3134,
+          "mv_union_cycles": 14971
+        },
+        {
+          "core": 3,
+          "end": 15319,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 3121,
+          "mv_union_cycles": 14971
+        },
+        {
+          "core": 4,
+          "end": 14985,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 2245,
+          "mv_union_cycles": 14214
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "sixth_p2": {
+      "problem": 2,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112014-b820bd37604d4c089e3dd2138534f649/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112014-b820bd37604d4c089e3dd2138534f649/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112014-b820bd37604d4c089e3dd2138534f649/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 20970,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 810468,
+        "added_copy_bytes": 283776,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 24576
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 86528,
+          "UB": 129536
+        },
+        "1": {
+          "L1": 102400,
+          "UB": 130048
+        },
+        "2": {
+          "L1": 100864,
+          "UB": 40960
+        },
+        "3": {
+          "L1": 100864,
+          "UB": 40960
+        },
+        "4": {
+          "L1": 99328,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 130048,
+      "cache_stats": null,
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 20308,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 8430,
+          "mv_union_cycles": 19693
+        },
+        {
+          "core": 1,
+          "end": 20970,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 6239,
+          "mv_union_cycles": 20542
+        },
+        {
+          "core": 2,
+          "end": 17261,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 1190,
+          "mv_union_cycles": 16915
+        },
+        {
+          "core": 3,
+          "end": 17249,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 1190,
+          "mv_union_cycles": 16902
+        },
+        {
+          "core": 4,
+          "end": 16258,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 972,
+          "mv_union_cycles": 15487
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    },
+    "new_p2": {
+      "problem": 2,
+      "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p2_n5/component_wcc/evaluations/attempts/20260925T153027-bcc1b1abdc72497583dc003e54c86104/record.json",
+      "result_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p2_n5/component_wcc/evaluations/attempts/20260925T153027-bcc1b1abdc72497583dc003e54c86104/official_result.json.gz",
+      "plan_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23从头验证_v1/case_094/p2_n5/component_wcc/evaluations/attempts/20260925T153027-bcc1b1abdc72497583dc003e54c86104/plan.json",
+      "status": "success",
+      "cache_hit": false,
+      "num_cores": 5,
+      "active_cores": 5,
+      "makespan": 17755,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 526692,
+        "scheduled_copy_bytes": 785892,
+        "added_copy_bytes": 259200,
+        "partition_added_copy_bytes": 259200,
+        "spill_added_copy_bytes": 0
+      },
+      "cross_task_traffic": 0,
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 63744,
+          "UB": 40960
+        },
+        "1": {
+          "L1": 82176,
+          "UB": 40960
+        },
+        "2": {
+          "L1": 59904,
+          "UB": 28672
+        },
+        "3": {
+          "L1": 55296,
+          "UB": 28672
+        },
+        "4": {
+          "L1": 59904,
+          "UB": 18432
+        }
+      },
+      "max_ub_peak_bytes": 40960,
+      "cache_stats": null,
+      "compute_op_count": 647,
+      "subgraph_count": 647,
+      "compute_ops_by_core": [
+        223,
+        211,
+        78,
+        77,
+        58
+      ],
+      "wcc_count": 40,
+      "wcc_count_by_core": [
+        12,
+        11,
+        6,
+        6,
+        5
+      ],
+      "split_wcc_ids": [],
+      "core_timing": [
+        {
+          "core": 0,
+          "end": 17679,
+          "m_busy_cycles": 14532,
+          "v_busy_cycles": 13591,
+          "mv_overlap_cycles": 10845,
+          "mv_union_cycles": 17278
+        },
+        {
+          "core": 1,
+          "end": 17755,
+          "m_busy_cycles": 13968,
+          "v_busy_cycles": 12813,
+          "mv_overlap_cycles": 9727,
+          "mv_union_cycles": 17054
+        },
+        {
+          "core": 2,
+          "end": 15318,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3957,
+          "mv_overlap_cycles": 3134,
+          "mv_union_cycles": 14971
+        },
+        {
+          "core": 3,
+          "end": 15318,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 3944,
+          "mv_overlap_cycles": 3121,
+          "mv_union_cycles": 14971
+        },
+        {
+          "core": 4,
+          "end": 14985,
+          "m_busy_cycles": 14148,
+          "v_busy_cycles": 2311,
+          "mv_overlap_cycles": 2245,
+          "mv_union_cycles": 14214
+        }
+      ],
+      "checks": {
+        "plan_validation_passed": true,
+        "raw_makespan_matches_record": true,
+        "raw_problem_scene_matches_record": true
+      }
+    }
+  },
+  "plan_comparisons": [
+    {
+      "left": "sixth_p3",
+      "right": "new_p3",
+      "changed_core_assignments": 0,
+      "same_ordered_plan_json": false
+    },
+    {
+      "left": "component_anchor_p3",
+      "right": "new_p3",
+      "changed_core_assignments": 0,
+      "same_ordered_plan_json": false
+    },
+    {
+      "left": "sixth_p2",
+      "right": "sixth_p3",
+      "changed_core_assignments": 0,
+      "same_ordered_plan_json": false
+    },
+    {
+      "left": "new_p2",
+      "right": "new_p3",
+      "changed_core_assignments": 0,
+      "same_ordered_plan_json": true
+    }
+  ],
+  "observed_changes": {
+    "p3_cycles_saved": 3337,
+    "p3_reduction_pct": 16.555864258781504,
+    "p2_cycles_saved": 3215,
+    "p2_reduction_pct": 15.33142584644731,
+    "p3_core0_mv_overlap_increase": 3068,
+    "p3_core1_mv_overlap_increase": 2290
+  },
+  "definitions": {
+    "mv_overlap_cycles": "Length of the intersection of the unions of official PIPE_M and PIPE_V execution intervals on one core; derived from saved official per_core_timeline.",
+    "official_byte_hit_rate": "Official cache_stats.hit_rate is hit_bytes / (hit_bytes + miss_bytes), not access-count hit rate.",
+    "wcc": "Compute dependency components, with COPY chains contracted and co-consumers of a shared root not joined.",
+    "window": "Candidate admission window of two WCCs, not a proven hardware-residency or memory bound."
+  },
+  "interpretation_limits": [
+    "No feedback-phase evaluations occurred in this component_wcc run; the gain cannot be attributed to the new feedback controller.",
+    "Old/new P3 and the new component anchor have identical operation-to-core assignments. Differences are task encoding and within-core ordering, with measured overlap and spill changes.",
+    "The new P3 result has a lower byte-hit rate than the sixth-round P3 result. Higher hit rate is not the explanation for the makespan improvement.",
+    "The new P2 and P3 winning plans are exactly the same ordered JSON. Previous P2/P3 plan equality is reported explicitly; no cache-only causal decomposition is asserted here.",
+    "This file reads existing official records and timelines only; it contains no new official reevaluation."
+  ]
+}

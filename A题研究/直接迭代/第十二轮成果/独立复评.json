@@ -1,0 +1,141 @@
+{
+  "complete": true,
+  "completed": 7,
+  "expected": 7,
+  "rows": [
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        197737,
+        4825088
+      ],
+      "actual": [
+        197737,
+        4825088
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.38324483297765255,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮开发_v3/slots/case_018/p2_n5/integrated/evaluations/attempts/20260925T183605-a010281c40b44f95990025757e278615/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_018_p2_n5/attempts/20260925T184713-e39f55a1bf0d4adf84b77ae886456283/record.json"
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        196701,
+        4825088
+      ],
+      "actual": [
+        196701,
+        4825088
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.3844648340018466,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮开发_v3/slots/case_018/p3_n5/baseline/evaluations/attempts/20260925T183554-e3861f79a5124f8ea8a8ec25352df364/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_018_p3_n5/attempts/20260925T184713-292cc7ebe82545fda23130f01dd9b0ad/record.json"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        1250099,
+        11431936
+      ],
+      "actual": [
+        1250099,
+        11431936
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.5645489159505814,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮验证_v3/slots/case_021/p2_n5/integrated/evaluations/attempts/20260925T183716-4d3faa9a999d42859b4a6428b6953c61/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_021_p2_n5/attempts/20260925T184713-7e109f3fd0474047aa795e39c3299758/record.json"
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        273240,
+        7215360
+      ],
+      "actual": [
+        273240,
+        7215360
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.8043542919913307,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮验证_v3/slots/case_031/p2_n5/baseline/evaluations/attempts/20260925T183929-58f73335183c4721906c65621250a126/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_031_p2_n5/attempts/20260925T184713-a4e357b3699f4e4088c9375944047120/record.json"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        17465,
+        259200
+      ],
+      "actual": [
+        17465,
+        259200
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.09826087497640401,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮验证_v3/slots/case_094/p2_n5/local_legacy/evaluations/attempts/20260925T183738-40d0ade283bf4f47b327be509b982290/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_094_p2_n5/attempts/20260925T184714-18c3f030a4174dbb9a75fc53f2f54ebd/record.json"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        16243,
+        259200
+      ],
+      "actual": [
+        16243,
+        259200
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.09303949994500726,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮验证_v3/slots/case_094/p3_n5/local_legacy/evaluations/attempts/20260925T183914-b263f3229e4645aab32d771bd890fabf/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_094_p3_n5/attempts/20260925T184714-553d94ddc907426db0a557f9113a678a/record.json"
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        273059,
+        7215360
+      ],
+      "actual": [
+        273059,
+        7215360
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.7821504579624161,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮验证_v3/slots/case_031/p3_n5/baseline/evaluations/attempts/20260925T184033-ca575f743c68417ab41b54871f965259/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/端到端第十二轮独立复评_v1/case_031_p3_n5/attempts/20260925T184714-3ca2695d48c145b5bcf33f97ced19cda/record.json"
+    }
+  ],
+  "wall_seconds": 1.7310147089883685
+}

@@ -1,0 +1,4 @@
+﻿problem,method,family,calls,accepted,time_improvements,alternative_parent_calls,alternative_parent_time_improvements,strictly_worse_parent_calls,generation_seconds
+1,integrated,joint,36,13,12,0,0,0,8.227680751821026
+1,integrated,legacy,11,5,4,0,0,0,1.7820136261871085
+1,integrated,structure,19,2,2,0,0,0,0.0

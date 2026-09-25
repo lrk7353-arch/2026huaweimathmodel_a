@@ -6,7 +6,7 @@ evaluator are unchanged. A failed candidate does not trigger a retry.
 import gzip
 import time
 from common_run import *
-from p1_joint_regions import exact_key
+from p1_local_regions import exact_key
 from p1_task_refine import generate
 from p1_portfolio import refinement_caps
 

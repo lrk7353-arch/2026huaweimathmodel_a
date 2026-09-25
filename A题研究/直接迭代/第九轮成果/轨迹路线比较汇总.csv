@@ -1,0 +1,13 @@
+﻿group,problem,method,control,selected,valid_pairs,excluded,wins,ties,losses,mean_paired_reduction_pct,median_paired_reduction_pct,max_loss_pct,max_loss_case
+development,2,trace_routed,staged,8,8,0,3,5,0,4.574010887070179,0.0,0,
+development,2,trace_routed,routed,8,8,0,1,6,1,0.47323535344811485,0.0,0.29765119600571044,case_004
+development,3,trace_routed,staged,8,8,0,4,4,0,4.816446490402444,0.028595549987742164,0,
+development,3,trace_routed,routed,8,8,0,3,5,0,1.2503144696099102,0.0,0,
+validation,2,trace_routed,staged,12,12,0,3,9,0,4.354537850532828,0.0,0,
+validation,2,trace_routed,routed,12,12,0,2,8,2,0.12193575177505134,0.0,0.07122533923420438,case_091
+validation,3,trace_routed,staged,12,12,0,3,9,0,2.800590730455139,0.0,0,
+validation,3,trace_routed,routed,12,12,0,3,8,1,0.03991278328503064,0.0,0.11449247923955852,case_076
+prior_validation_regression,2,trace_routed,staged,3,3,0,3,0,0,3.3499265813617396,0.4665773433036202,0,
+prior_validation_regression,2,trace_routed,routed,3,3,0,1,2,0,0.12486857582394428,0.0,0,
+prior_validation_regression,3,trace_routed,staged,3,3,0,3,0,0,3.3751288196869083,0.5421840582791271,0,
+prior_validation_regression,3,trace_routed,routed,3,3,0,1,2,0,0.15944486333686983,0.0,0,

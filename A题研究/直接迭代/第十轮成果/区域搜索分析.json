@@ -1,0 +1,182 @@
+{
+  "comparisons": [
+    {
+      "group": "development_v2",
+      "problem": 1,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 4,
+      "ties": 0,
+      "losses": 0,
+      "mean_paired_reduction_pct": 49.942859436993075,
+      "median_paired_reduction_pct": 49.578089269878234,
+      "mean_gain_over_input_pct": 50.46809184865138
+    },
+    {
+      "group": "development_v2",
+      "problem": 2,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 3,
+      "ties": 1,
+      "losses": 0,
+      "mean_paired_reduction_pct": 2.929834269461984,
+      "median_paired_reduction_pct": 1.6515799713686108,
+      "mean_gain_over_input_pct": 2.937033834594788
+    },
+    {
+      "group": "development_v2",
+      "problem": 3,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 2,
+      "ties": 1,
+      "losses": 1,
+      "mean_paired_reduction_pct": 0.6919671811787098,
+      "median_paired_reduction_pct": 0.18639626781415952,
+      "mean_gain_over_input_pct": 0.8149373061032278
+    },
+    {
+      "group": "p3_ablation_development_v3",
+      "problem": 3,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 2,
+      "ties": 2,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.7729428219235918,
+      "median_paired_reduction_pct": 0.13740067741729312,
+      "mean_gain_over_input_pct": 0.7904567202721646
+    },
+    {
+      "group": "p3_ablation_development_v3",
+      "problem": 3,
+      "method": "region",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 3,
+      "ties": 1,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.8029668411389634,
+      "median_paired_reduction_pct": 0.19744871584803647,
+      "mean_gain_over_input_pct": 0.8204807394875363
+    },
+    {
+      "group": "p3_ablation_development_v3",
+      "problem": 3,
+      "method": "reads",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 0,
+      "ties": 3,
+      "losses": 1,
+      "mean_paired_reduction_pct": -0.004793046886647501,
+      "median_paired_reduction_pct": 0.0,
+      "mean_gain_over_input_pct": 0.012772479564032713
+    },
+    {
+      "group": "validation_v3",
+      "problem": 1,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 4,
+      "ties": 0,
+      "losses": 0,
+      "mean_paired_reduction_pct": 18.82779628919087,
+      "median_paired_reduction_pct": 17.553801298693728,
+      "mean_gain_over_input_pct": 20.123326044649396
+    },
+    {
+      "group": "validation_v3",
+      "problem": 2,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 3,
+      "ties": 1,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.6795885141346103,
+      "median_paired_reduction_pct": 0.2664177839400206,
+      "mean_gain_over_input_pct": 0.7276444676382415
+    },
+    {
+      "group": "validation_v3",
+      "problem": 3,
+      "method": "joint",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 4,
+      "wins": 0,
+      "ties": 3,
+      "losses": 1,
+      "mean_paired_reduction_pct": -0.6934233807660672,
+      "median_paired_reduction_pct": 0.0,
+      "mean_gain_over_input_pct": 0.9460594465960537
+    },
+    {
+      "group": "p3_reads_validation_v3",
+      "problem": 3,
+      "method": "reads",
+      "control": "legacy_neighborhood_same_loop",
+      "pairs": 2,
+      "wins": 1,
+      "ties": 1,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.18052516411378727,
+      "median_paired_reduction_pct": 0.18052516411378727,
+      "mean_gain_over_input_pct": 0.41380812370684916
+    }
+  ],
+  "costs": [
+    {
+      "group": "development_v2",
+      "wall_seconds": 253.52431799995247,
+      "configs": 24,
+      "logical_calls": 537,
+      "new_calls": 288,
+      "failed_calls": 0,
+      "exceptions": 0
+    },
+    {
+      "group": "p3_ablation_development_v3",
+      "wall_seconds": 42.31794908293523,
+      "configs": 16,
+      "logical_calls": 384,
+      "new_calls": 184,
+      "failed_calls": 0,
+      "exceptions": 0
+    },
+    {
+      "group": "validation_v3",
+      "wall_seconds": 258.7033231660025,
+      "configs": 24,
+      "logical_calls": 527,
+      "new_calls": 522,
+      "failed_calls": 1,
+      "exceptions": 0
+    },
+    {
+      "group": "p3_reads_validation_v3",
+      "wall_seconds": 10.292801000061445,
+      "configs": 4,
+      "logical_calls": 52,
+      "new_calls": 46,
+      "failed_calls": 0,
+      "exceptions": 0
+    },
+    {
+      "group": "extension_v3",
+      "wall_seconds": 383.0212858750019,
+      "configs": 26,
+      "logical_calls": 299,
+      "new_calls": 296,
+      "failed_calls": 2,
+      "exceptions": 0
+    }
+  ],
+  "scope": "fixed recorded incumbents; extra-budget search, not from-scratch generalization; failures retained"
+}

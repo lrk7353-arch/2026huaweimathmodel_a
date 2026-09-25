@@ -1,0 +1,4 @@
+﻿problem,method,control,pairs,successful_pairs,method_failures,control_failures,wins,ties,losses,mean_paired_reduction_pct,median_paired_reduction_pct
+1,integrated,baseline,1,1,0,0,1,0,0,5.1434609933340365,5.1434609933340365
+2,integrated,baseline,1,1,0,0,0,1,0,0.0,0.0
+3,integrated,baseline,1,1,0,0,1,0,0,11.255555841019449,11.255555841019449

@@ -1,0 +1,299 @@
+{
+  "budget": 12,
+  "seconds": 90,
+  "evaluation_timeout": 25,
+  "jobs": [
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_072",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_072",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    }
+  ],
+  "scope": "unchanged round12 integrated vs portfolio_diverse on a preselected size-stratified extension",
+  "execution_order": [
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_072",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_072",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 5,
+      "method": "integrated"
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5,
+      "method": "baseline"
+    }
+  ],
+  "fresh_evaluations": true
+}

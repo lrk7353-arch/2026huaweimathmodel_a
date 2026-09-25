@@ -1,0 +1,12 @@
+﻿batch,source,configurations,logical_calls,new_official_calls,wall_seconds,scope
+开发组,P23轨迹开发_v2,48,576,0,35.92870008305181,complete recorded batch
+新验证组,P23轨迹验证_v2,72,864,221,521.6569529580884,complete recorded batch
+旧组补充回归,P23轨迹旧组回归_v1,18,216,9,64.23468608304393,complete recorded batch
+完整冷启动,P23轨迹冷启动_v1,6,72,72,30.535467875073664,complete recorded batch
+三核扩展,P23轨迹三核_v1,4,48,29,205.48756074998528,complete recorded batch
+场景互用,推广轨迹场景互用_v1,10,10,1,11.45327025000006,complete recorded batch
+独立复评,轨迹改善独立复评_v1,15,15,15,36.429480500053614,complete recorded batch
+显式CLI冷启动,轨迹命令行冷启动_v1,1,12,12,3.8515643749851733,single full graph-to-plan solve
+默认CLI冷启动,轨迹默认入口冷启动_v1,1,12,12,2.180632915929891,single full graph-to-plan solve
+P23轨迹开发_v1,P23轨迹开发_v1,48,576,11,29.08535645902157,"superseded schema-debug run; returned slots only, interrupted work may add overhead"
+P23轨迹验证_v1,P23轨迹验证_v1,5,60,37,62.36284462502226,"superseded schema-debug run; returned slots only, interrupted work may add overhead"

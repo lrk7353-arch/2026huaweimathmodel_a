@@ -1,0 +1,971 @@
+{
+  "budget": 12,
+  "seconds": 90,
+  "evaluation_timeout": 25,
+  "jobs": [
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    }
+  ],
+  "scope": "same upper caps, new independent evaluation stores; beam vs greedy differs only in retained parents; v2 adds full-budget proposal pool during six-call prefix; wide_legacy isolates that change",
+  "execution_order": [
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_029",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "baseline"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_beam"
+    },
+    {
+      "case": "case_029",
+      "problem": 2,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "wide_legacy"
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5,
+      "method": "budget_greedy"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "method": "local_legacy"
+    }
+  ],
+  "fresh_evaluations": true
+}

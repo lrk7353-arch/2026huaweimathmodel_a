@@ -1,0 +1,7 @@
+﻿case,problem,cores,method,status,effective_method,makespan,logical_calls,new_calls,elapsed_seconds,stop_reason,failed_calls,timeout_calls,generation_errors,summary_path,error
+case_004,2,5,trace_routed,success,staged,83567,12,12,1.9950655000284314,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_004/p2_n5/trace_routed/summary.json,
+case_095,3,5,trace_routed,success,staged,220188,12,12,10.622224665945396,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_095/p3_n5/trace_routed/summary.json,
+case_004,3,5,trace_routed,success,staged,82161,12,12,2.0256335829617456,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_004/p3_n5/trace_routed/summary.json,
+case_078,2,5,trace_routed,success,staged,491076,12,12,2.683775083045475,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_078/p2_n5/trace_routed/summary.json,
+case_078,3,5,trace_routed,success,staged,468009,12,12,3.1655310000060126,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_078/p3_n5/trace_routed/summary.json,
+case_095,2,5,trace_routed,success,staged,220188,12,12,9.912637041998096,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23轨迹冷启动_v1/case_095/p2_n5/trace_routed/summary.json,

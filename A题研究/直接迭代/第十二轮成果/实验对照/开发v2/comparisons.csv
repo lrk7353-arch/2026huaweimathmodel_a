@@ -1,0 +1,7 @@
+﻿problem,method,control,pairs,successful_pairs,method_failures,control_failures,wins,ties,losses,mean_paired_reduction_pct,median_paired_reduction_pct
+2,integrated,baseline,4,4,0,0,2,1,1,-13.560476988835953,0.008090246701958348
+2,integrated,local_legacy,4,4,0,0,2,1,1,-14.044737854760458,0.008090246701958348
+2,local_legacy,baseline,4,4,0,0,1,2,1,0.5487692395338778,0.0
+3,integrated,baseline,4,4,0,0,1,2,1,-6.5905012412158825,0.0
+3,integrated,local_legacy,4,4,0,0,1,2,1,-6.708208285857785,0.0
+3,local_legacy,baseline,4,4,0,0,1,2,1,0.1475892650511429,0.0

@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "problem": 1,
+      "method": "integrated",
+      "family": "joint",
+      "calls": 36,
+      "accepted": 13,
+      "time_improvements": 12,
+      "alternative_parent_calls": 0,
+      "alternative_parent_time_improvements": 0,
+      "strictly_worse_parent_calls": 0,
+      "generation_seconds": 8.227680751821026
+    },
+    {
+      "problem": 1,
+      "method": "integrated",
+      "family": "legacy",
+      "calls": 11,
+      "accepted": 5,
+      "time_improvements": 4,
+      "alternative_parent_calls": 0,
+      "alternative_parent_time_improvements": 0,
+      "strictly_worse_parent_calls": 0,
+      "generation_seconds": 1.7820136261871085
+    },
+    {
+      "problem": 1,
+      "method": "integrated",
+      "family": "structure",
+      "calls": 19,
+      "accepted": 2,
+      "time_improvements": 2,
+      "alternative_parent_calls": 0,
+      "alternative_parent_time_improvements": 0,
+      "strictly_worse_parent_calls": 0,
+      "generation_seconds": 0.0
+    }
+  ],
+  "continuation_events": 66,
+  "scope": "all referenced parents come from earlier charged successes in the same run; counts are path-dependent, not isolated causal effects"
+}

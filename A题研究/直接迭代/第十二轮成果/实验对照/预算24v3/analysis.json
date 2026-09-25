@@ -1,0 +1,124 @@
+{
+  "comparisons": [
+    {
+      "problem": 1,
+      "method": "integrated",
+      "control": "baseline",
+      "pairs": 1,
+      "successful_pairs": 1,
+      "method_failures": 0,
+      "control_failures": 0,
+      "wins": 1,
+      "ties": 0,
+      "losses": 0,
+      "mean_paired_reduction_pct": 5.1434609933340365,
+      "median_paired_reduction_pct": 5.1434609933340365
+    },
+    {
+      "problem": 2,
+      "method": "integrated",
+      "control": "baseline",
+      "pairs": 1,
+      "successful_pairs": 1,
+      "method_failures": 0,
+      "control_failures": 0,
+      "wins": 0,
+      "ties": 1,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.0,
+      "median_paired_reduction_pct": 0.0
+    },
+    {
+      "problem": 3,
+      "method": "integrated",
+      "control": "baseline",
+      "pairs": 1,
+      "successful_pairs": 1,
+      "method_failures": 0,
+      "control_failures": 0,
+      "wins": 1,
+      "ties": 0,
+      "losses": 0,
+      "mean_paired_reduction_pct": 11.255555841019449,
+      "median_paired_reduction_pct": 11.255555841019449
+    }
+  ],
+  "costs": [
+    {
+      "problem": 1,
+      "method": "baseline",
+      "runs": 1,
+      "successes": 1,
+      "calls": 24,
+      "fresh": 24,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 35.40134420897812,
+      "median_run_seconds": 35.40134420897812
+    },
+    {
+      "problem": 1,
+      "method": "integrated",
+      "runs": 1,
+      "successes": 1,
+      "calls": 24,
+      "fresh": 24,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 58.556775207980536,
+      "median_run_seconds": 58.556775207980536
+    },
+    {
+      "problem": 2,
+      "method": "baseline",
+      "runs": 1,
+      "successes": 1,
+      "calls": 20,
+      "fresh": 20,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 3.1657797909574583,
+      "median_run_seconds": 3.1657797909574583
+    },
+    {
+      "problem": 2,
+      "method": "integrated",
+      "runs": 1,
+      "successes": 1,
+      "calls": 24,
+      "fresh": 24,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 4.579368915990926,
+      "median_run_seconds": 4.579368915990926
+    },
+    {
+      "problem": 3,
+      "method": "baseline",
+      "runs": 1,
+      "successes": 1,
+      "calls": 20,
+      "fresh": 20,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 3.201428166939877,
+      "median_run_seconds": 3.201428166939877
+    },
+    {
+      "problem": 3,
+      "method": "integrated",
+      "runs": 1,
+      "successes": 1,
+      "calls": 24,
+      "fresh": 24,
+      "failed_calls": 0,
+      "generation_errors": 0,
+      "total_run_seconds": 4.926312500028871,
+      "median_run_seconds": 4.926312500028871
+    }
+  ],
+  "wall_seconds": 63.57475220807828,
+  "budget": 24,
+  "seconds": 120,
+  "scope": "fresh from-original-graph evaluations; same upper caps, actual calls reported; no historical incumbents; mean excludes failed pairs explicitly counted"
+}

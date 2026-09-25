@@ -1,0 +1,13 @@
+﻿group,method,slots,successful_slots,failed_slots,wall_seconds,sum_slot_elapsed_seconds,total_logical_calls,observed_logical_calls,logical_calls_unknown_slots,total_new_calls,observed_new_calls,new_calls_unknown_slots,total_eval_failed_calls,observed_eval_failed_calls,eval_failed_calls_unknown_slots,total_eval_timeout_calls,observed_eval_timeout_calls,eval_timeout_calls_unknown_slots
+regression,all,90,90,0,9.032827833900228,17.68380242108833,981,981,0,6,6,0,0,0,0,0,0,0
+regression,legacy,18,18,0,,2.086237627081573,199,199,0,0,0,0,0,0,0,0,0,0
+regression,read_order,18,18,0,,2.555654712021351,187,187,0,0,0,0,0,0,0,0,0,0
+regression,joint,18,18,0,,3.496207709889859,197,197,0,0,0,0,0,0,0,0,0,0
+regression,interleave,18,18,0,,4.437471288838424,199,199,0,2,2,0,0,0,0,0,0,0
+regression,feedback,18,18,0,,5.108231083257124,199,199,0,4,4,0,0,0,0,0,0,0
+validation,all,60,60,0,370.8412442089757,713.1479946316686,599,599,0,264,264,0,0,0,0,0,0,0
+validation,legacy,12,12,0,,204.51180591911543,122,122,0,86,86,0,0,0,0,0,0,0
+validation,read_order,12,12,0,,151.81226241937838,112,112,0,72,72,0,0,0,0,0,0,0
+validation,joint,12,12,0,,103.67970566905569,121,121,0,36,36,0,0,0,0,0,0,0
+validation,interleave,12,12,0,,171.29492533416487,122,122,0,43,43,0,0,0,0,0,0,0
+validation,feedback,12,12,0,,81.84929528995417,122,122,0,27,27,0,0,0,0,0,0,0
