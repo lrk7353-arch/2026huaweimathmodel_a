@@ -1,0 +1,47 @@
+{
+  "official_calls": 0,
+  "graphs": 100,
+  "plans": 300,
+  "model_checked_current_records": 85,
+  "actual_current_p3_cache_records": 35,
+  "summary": [
+    {
+      "problem": 1,
+      "graphs": 100,
+      "mean_speedup": 3.8155220688497162,
+      "inferred_spill_graphs": 25,
+      "root_replication_over25pct": 59,
+      "fixed_core_compute_over80pct": 51,
+      "global_compute_floor_over90pct": 31,
+      "heaviest_subgraph_compute_over40pct": 58,
+      "logical_volume_over60pct": 42,
+      "actual_cache_records": 0
+    },
+    {
+      "problem": 2,
+      "graphs": 100,
+      "mean_speedup": 4.546369268637808,
+      "inferred_spill_graphs": 26,
+      "root_replication_over25pct": 47,
+      "fixed_core_compute_over80pct": 64,
+      "global_compute_floor_over90pct": 43,
+      "heaviest_subgraph_compute_over40pct": 12,
+      "logical_volume_over60pct": 48,
+      "actual_cache_records": 0
+    },
+    {
+      "problem": 3,
+      "graphs": 100,
+      "mean_speedup": 4.666246856079605,
+      "inferred_spill_graphs": 23,
+      "root_replication_over25pct": 47,
+      "fixed_core_compute_over80pct": 65,
+      "global_compute_floor_over90pct": 45,
+      "heaviest_subgraph_compute_over40pct": 13,
+      "logical_volume_over60pct": null,
+      "actual_cache_records": 35
+    }
+  ],
+  "scope": "Static structural volume from official-compatible models; spill inferred from saved total volume. Cache missing is unknown, never zero. Thresholds descriptive and not validated routing rules.",
+  "ledger_sha256": "d992ad2bc689e89467120ee30718244212c5d5c907fd479088ec2bf96a5477b1"
+}

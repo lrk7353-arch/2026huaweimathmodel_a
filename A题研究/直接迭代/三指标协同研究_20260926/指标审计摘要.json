@@ -1,0 +1,43 @@
+{
+  "scope": "Retrospective selected 24-graph/108-config B16 panel; not all 100 graphs, not causal evidence.",
+  "source_sha256": "bc8a21898814724c7636de7472cdff8fb5060450980da8f6ac94eef99a61bf2d",
+  "total_calls": 3376,
+  "successful_calls": 3360,
+  "unique_successful_candidates": 2042,
+  "official_calls": 0,
+  "summary": [
+    {
+      "problem": 1,
+      "configs": 36,
+      "unique_candidates": 649,
+      "configs_min_copy_slower": 30,
+      "configs_min_copy_slower_over5pct": 25,
+      "configs_with_lower_copy_within2pct": 7,
+      "configs_fastest_has_spill": 6,
+      "configs_observed_frontier_multiple": 30
+    },
+    {
+      "problem": 2,
+      "configs": 36,
+      "unique_candidates": 694,
+      "configs_min_copy_slower": 25,
+      "configs_min_copy_slower_over5pct": 25,
+      "configs_with_lower_copy_within2pct": 6,
+      "configs_fastest_has_spill": 3,
+      "configs_observed_frontier_multiple": 25
+    },
+    {
+      "problem": 3,
+      "configs": 36,
+      "unique_candidates": 699,
+      "configs_min_copy_slower": 26,
+      "configs_min_copy_slower_over5pct": 24,
+      "configs_with_lower_copy_within2pct": 7,
+      "configs_fastest_has_spill": 4,
+      "configs_observed_frontier_multiple": 26,
+      "configs_max_hit_slower": 35,
+      "configs_max_hit_slower_over5pct": 26,
+      "configs_max_hit_increases_logical_copy": 26
+    }
+  ]
+}
