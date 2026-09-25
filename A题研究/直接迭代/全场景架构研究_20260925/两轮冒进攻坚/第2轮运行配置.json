@@ -1,0 +1,11 @@
+{
+  "panel": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/全场景架构研究_20260925/两轮冒进攻坚/第二轮面板.json",
+  "panel_sha256": "1b8217e0159c9531def36551a0e071fdcf73cda2927dc38102c0221e739ae832",
+  "code_commit": "a00406b36deca273be2ce4e30bc2089f988e83b4",
+  "round": 2,
+  "seconds": 150.0,
+  "timeout": 35.0,
+  "calls_per_slot": 9,
+  "workers": 6,
+  "criterion": "Retained mean time reduction >= 3% across all 30 cells and >= 3 distinct graphs with >= 5% reduction. Development evidence only."
+}

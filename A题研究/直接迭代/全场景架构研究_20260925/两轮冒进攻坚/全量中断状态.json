@@ -1,0 +1,10 @@
+{
+  "workers_drained": true,
+  "reason": "User requested exactly two further aggressive rounds and termination absent substantial improvement; preserve completed full-run cells.",
+  "completed_slots": 104,
+  "valid_slots": 99,
+  "official_calls": 558,
+  "all_segments_elapsed_seconds": 3080.3621237277985,
+  "recorded_at_utc": "2026-09-25T14:47:35Z",
+  "elapsed_includes_graceful_drain_and_interruption_bookkeeping": true
+}

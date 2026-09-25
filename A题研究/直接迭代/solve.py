@@ -8,6 +8,7 @@ def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--case',type=int,required=True,choices=range(1,101));p.add_argument('--problem',type=int,required=True,choices=(1,2,3));p.add_argument('--out',type=Path,required=True)
  p.add_argument('--cores',type=int,choices=range(1,6),default=5)
+ p.add_argument('--engine',choices=('legacy','v2'),default='legacy',help='v2: unified cold/warm structural search for P1/P2/P3')
  p.add_argument('--p1-refinement',choices=('partition','tasks','tensor','region_joint','task_iterative'),default='partition',help='P1 warm search: partition/tasks/tensor, experimental region_joint, or accepted-parent task_iterative')
  p.add_argument('--p1-method',choices=('component','adaptive','hybrid','portfolio','portfolio_diverse'),default='adaptive',help='P1 from-scratch method; portfolio integrates tensor regions and task refinement in one budget')
  p.add_argument('--p3-refinement',choices=('legacy','read_order','joint'),default='legacy',help='P3 warm search: original cache neighbourhood, fixed-core read ordering, or a one-budget combination')
@@ -22,6 +23,13 @@ def main():
  if out.exists():p.error('Use a new output directory.')
  if a.budget<1 or a.seconds<=0:p.error('Budget and seconds must be positive.')
  if a.from_scratch and a.incumbent_plan:p.error('Choose from-scratch or incumbent-plan.')
+ if a.engine=='v2':
+  from unified_solver import solve_unified
+  s=solve_unified(DATA/(case+'.json'),a.problem,a.cores,out,seconds=a.seconds,call_budget=a.budget,
+      seed=a.seed,incumbent=a.incumbent_plan,evaluation_timeout=a.evaluation_timeout or 60)
+  print(json.dumps({'output':str(out),'makespan':score(s['best_record'])[0] if s['best_record'] else None,
+      'logical_calls':s['logical_calls'],'new_calls':s['new_calls'],'elapsed_seconds':s['elapsed_seconds']},ensure_ascii=False))
+  return
  if a.p1_refinement!='partition' and (a.problem!=1 or a.from_scratch):p.error('Task/tensor refinement requires P1 with an incumbent.')
  if a.p1_method!='adaptive' and (a.problem!=1 or not a.from_scratch):p.error('p1-method requires P1 from-scratch mode.')
  if a.p3_refinement!='legacy' and (a.problem!=3 or a.from_scratch):p.error('p3-refinement requires P3 with an incumbent.')

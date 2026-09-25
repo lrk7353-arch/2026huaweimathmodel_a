@@ -1,0 +1,40 @@
+{
+  "expected": 54,
+  "completed": 54,
+  "missing": [],
+  "problems": {
+    "1": {
+      "pairs": 9,
+      "wins": 5,
+      "ties": 4,
+      "losses": 0,
+      "invalid": 0,
+      "mean_time_reduction_valid_pairs": 0.1553687005460225,
+      "archive_wins": 3
+    },
+    "2": {
+      "pairs": 9,
+      "wins": 2,
+      "ties": 5,
+      "losses": 2,
+      "invalid": 0,
+      "mean_time_reduction_valid_pairs": -0.007880626502163837,
+      "archive_wins": 1
+    },
+    "3": {
+      "pairs": 9,
+      "wins": 4,
+      "ties": 4,
+      "losses": 1,
+      "invalid": 0,
+      "mean_time_reduction_valid_pairs": 0.008952665491025148,
+      "archive_wins": 1
+    }
+  },
+  "official_calls": 574,
+  "source_manifest_sha256": "7438cdb841d8b1d8530dfd8b7a41fa12ea0a64e92e668beb989aeae7f3833f91",
+  "baseline_reference": null,
+  "new_run_official_calls": 574,
+  "failed_calls": 8,
+  "scope": "Paired cold search uses identical maximum calls/time. Historical archive comparison has different accumulated solve cost."
+}

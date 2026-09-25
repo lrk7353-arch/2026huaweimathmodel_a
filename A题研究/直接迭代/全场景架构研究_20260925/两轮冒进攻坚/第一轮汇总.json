@@ -1,0 +1,31 @@
+{
+  "completed": 30,
+  "total": 30,
+  "errors": [],
+  "groups": [
+    {
+      "problem": 1,
+      "cells": 10,
+      "mean_reduction": 0.0,
+      "wins": 0
+    },
+    {
+      "problem": 2,
+      "cells": 10,
+      "mean_reduction": 0.0,
+      "wins": 0
+    },
+    {
+      "problem": 3,
+      "cells": 10,
+      "mean_reduction": 0.0,
+      "wins": 0
+    }
+  ],
+  "mean_reduction": 0.0,
+  "graphs_over_five_percent": [],
+  "obvious_improvement": false,
+  "new_calls": 250,
+  "failures": 14,
+  "elapsed_seconds": 326.4408739579958
+}

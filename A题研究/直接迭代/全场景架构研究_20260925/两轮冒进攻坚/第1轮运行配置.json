@@ -1,0 +1,11 @@
+{
+  "panel": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/全场景架构研究_20260925/两轮冒进攻坚/冻结攻坚面板.json",
+  "panel_sha256": "a4a45f0ec07d245c123a34295461fb38a48c8e15e852899b9b84e60ebb2c51bb",
+  "code_commit": "5430f5afca66a4c2272ce773870f743c371c9c27",
+  "round": 1,
+  "seconds": 150.0,
+  "timeout": 35.0,
+  "calls_per_slot": 9,
+  "workers": 6,
+  "criterion": "Retained mean time reduction >= 3% across all 30 cells and >= 3 distinct graphs with >= 5% reduction. Development evidence only."
+}

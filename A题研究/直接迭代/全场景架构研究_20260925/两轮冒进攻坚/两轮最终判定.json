@@ -1,0 +1,93 @@
+{
+  "cells_per_round": 30,
+  "rounds": [
+    {
+      "completed": 30,
+      "total": 30,
+      "errors": [],
+      "groups": [
+        {
+          "problem": 1,
+          "cells": 10,
+          "mean_reduction": 0.0,
+          "wins": 0
+        },
+        {
+          "problem": 2,
+          "cells": 10,
+          "mean_reduction": 0.0,
+          "wins": 0
+        },
+        {
+          "problem": 3,
+          "cells": 10,
+          "mean_reduction": 0.0,
+          "wins": 0
+        }
+      ],
+      "mean_reduction": 0.0,
+      "graphs_over_five_percent": [],
+      "obvious_improvement": false,
+      "new_calls": 250,
+      "failures": 14,
+      "elapsed_seconds": 326.4408739579958
+    },
+    {
+      "completed": 30,
+      "total": 30,
+      "errors": [],
+      "groups": [
+        {
+          "problem": 1,
+          "cells": 10,
+          "mean_reduction": 0.00018739467475564764,
+          "wins": 1
+        },
+        {
+          "problem": 2,
+          "cells": 10,
+          "mean_reduction": 0.002995290030263986,
+          "wins": 6
+        },
+        {
+          "problem": 3,
+          "cells": 10,
+          "mean_reduction": 0.0025043916743992646,
+          "wins": 6
+        }
+      ],
+      "mean_reduction": 0.001895692126472966,
+      "graphs_over_five_percent": [],
+      "obvious_improvement": false,
+      "new_calls": 212,
+      "failures": 6,
+      "elapsed_seconds": 273.2454544279899
+    }
+  ],
+  "cumulative_mean_reduction": 0.001895692126472966,
+  "graphs_over_five_percent": [],
+  "threshold_mean": 0.03,
+  "threshold_graphs": 3,
+  "obvious_improvement": false,
+  "two_round_official_calls": 462,
+  "two_round_failures": 20,
+  "groups": [
+    {
+      "problem": 1,
+      "mean_reduction": 0.00018739467475564764,
+      "wins": 1
+    },
+    {
+      "problem": 2,
+      "mean_reduction": 0.002995290030263986,
+      "wins": 6
+    },
+    {
+      "problem": 3,
+      "mean_reduction": 0.0025043916743992646,
+      "wins": 6
+    }
+  ],
+  "goal_action": "terminate as requested after archiving",
+  "scope": "Warm development panel; never a full-pool cold algorithm score. Retaining old best prevents returned regressions; negative candidates are explicitly recorded."
+}
