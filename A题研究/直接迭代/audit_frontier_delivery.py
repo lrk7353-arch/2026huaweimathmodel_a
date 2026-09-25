@@ -11,9 +11,12 @@ HERE=Path(__file__).resolve().parent
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('directory',type=Path);args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('directory',type=Path)
+    p.add_argument('--baseline',type=Path,default=HERE/'三指标联合推进_20260926/累计1500配置成绩.csv')
+    p.add_argument('--cache-baseline',type=Path,default=HERE/'三指标联合推进_20260926/交付100图P3五核三指标.csv')
+    args=p.parse_args()
     out=args.directory
-    oldrows=list(csv.DictReader((HERE/'三指标联合推进_20260926/累计1500配置成绩.csv').open(encoding='utf-8-sig')))
+    oldrows=list(csv.DictReader(args.baseline.open(encoding='utf-8-sig')))
     rows=list(csv.DictReader((out/'累计1500配置成绩.csv').open(encoding='utf-8-sig')))
     key=lambda r:(r['case'],int(r['problem']),int(r['cores']))
     old={key(r):r for r in oldrows};graphs={};improved=[]
@@ -35,7 +38,7 @@ def main():
         record=v['record'];k=(v['case'],v['problem'],v['cores'])
         row=next(r for r in rows if key(r)==k)
         assert record['status']=='success' and record['hashes']['plan_sha256']==row['plan_sha256']
-    cache=list(csv.DictReader((HERE/'三指标联合推进_20260926/交付100图P3五核三指标.csv').open(encoding='utf-8-sig')))
+    cache=list(csv.DictReader(args.cache_baseline.open(encoding='utf-8-sig')))
     updated={(v['case'],v['problem'],v['cores']):v['record'] for v in verification}
     for row in cache:
         r=updated.get((row['case'],3,5))

@@ -47,6 +47,10 @@ def run_one(task):
         raise ValueError(f'Frozen library baseline mismatch: {case}/P{problem}')
     if generator=='backward':
         from backward_frontier import candidates as build
+    elif generator=='barrier':
+        from barrier_bands import candidates as build
+    elif generator=='residency':
+        from residency_frontier import candidates as build
     else:build=candidates
     stream=build(ir,problem,cores,parent,deadline)
     while len(calls)<budget and time.monotonic()<deadline:
@@ -67,7 +71,7 @@ def main():
     p.add_argument('--problems',default='1');p.add_argument('--cores',type=int,default=5)
     p.add_argument('--budget',type=int,default=29);p.add_argument('--seconds',type=float,default=240)
     p.add_argument('--timeout',type=float,default=45);p.add_argument('--workers',type=int,default=4)
-    p.add_argument('--generator',choices=('forward','backward'),default='forward')
+    p.add_argument('--generator',choices=('forward','backward','barrier','residency'),default='forward')
     p.add_argument('--out',type=Path,required=True);args=p.parse_args()
     cases={f'case_{int(c):03d}' for c in args.cases.split(',')}
     problems={int(v) for v in args.problems.split(',')}
@@ -78,7 +82,8 @@ def main():
         cases=sorted(cases),problems=sorted(problems),cores=args.cores,budget=args.budget,seconds=args.seconds,
         workers=args.workers,timeout=args.timeout,generator=args.generator,ledger_sha256=hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
         source_sha256={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest()
-                       for name in ['event_frontier.py','run_frontier_probe.py']+(['backward_frontier.py'] if args.generator=='backward' else [])}))
+                       for name in ['event_frontier.py','run_frontier_probe.py']+({'backward':['backward_frontier.py'],
+                           'barrier':['barrier_bands.py'],'residency':['residency_frontier.py','p23_data_refine.py']}.get(args.generator,[]))}))
     tasks=[(r,str(args.out/r['case']/('p'+r['problem'])),args.budget,args.seconds,args.timeout,args.generator) for r in rows]
     results=[]
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:

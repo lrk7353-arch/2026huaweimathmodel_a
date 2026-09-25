@@ -1,4 +1,5 @@
 import unittest
+import copy
 
 from common_run import GraphIR, validate_plan
 from event_frontier import Calendar, sealed_tasks, insertion_schedule, operation_plan
@@ -38,6 +39,21 @@ class FrontierContracts(unittest.TestCase):
         self.assertEqual(owners,fixed)
         self.assertEqual(set(order),set(ir.compute_ids))
         validate_plan(ir,operation_plan(ir,order,owners,2))
+
+    def test_coarse_contraction_repairs_return_cycle(self):
+        from barrier_bands import contract_cycles
+        ir=self.graph();before=copy.deepcopy(ir.graph)
+        # 0 -> 2 -> 3 forms a quotient cycle if 0 and 3 are grouped.
+        blocks=contract_cycles(ir,[[0,3],[2],[1,4]],[0,1,2,3,4])
+        self.assertIn({0,2,3},[set(b) for b in blocks])
+        self.assertIn({1,4},[set(b) for b in blocks])
+        self.assertEqual(ir.graph,before)
+
+    def test_reverse_proxy_leaves_official_graph_unchanged(self):
+        from backward_frontier import reverse_view
+        ir=self.graph();before=copy.deepcopy(ir.graph);reverse=reverse_view(ir)
+        self.assertEqual(reverse.predecessors[2],ir.successors[2])
+        self.assertEqual(ir.graph,before)
 
 
 if __name__=='__main__':unittest.main()

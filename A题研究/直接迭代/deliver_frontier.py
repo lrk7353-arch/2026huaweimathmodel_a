@@ -33,21 +33,26 @@ def verify(item):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True)
     p.add_argument('--roots',nargs='+',required=True);p.add_argument('--workers',type=int,default=4)
+    p.add_argument('--ledger',type=Path,default=LEDGER)
+    p.add_argument('--source-commit',default='2da035b')
+    p.add_argument('--include-cold',action='store_true')
     args=p.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=False)
-    rows=list(csv.DictReader(LEDGER.open(encoding='utf-8-sig')))
+    ledger=args.ledger.resolve()
+    rows=list(csv.DictReader(ledger.open(encoding='utf-8-sig')))
     baseline={(r['case'],int(r['problem']),int(r['cores'])):r for r in rows}
     selected={};calls=[];summaries=[]
     for directory in args.roots:
         for file in sorted(Path(directory).rglob('summary.json')):
             s=read_json(file)
-            if not s.get('complete') or 'ledger_baseline' not in s:continue
+            if not s.get('complete') or not all(k in s for k in ('case','problem','cores','calls','best_record')):continue
+            if not args.include_cold and 'ledger_baseline' not in s:continue
             key=(s['case'],s['problem'],s['cores']);best=s.get('best_record')
             for call in s['calls']:calls.append(dict(case=key[0],problem=key[1],cores=key[2],batch=directory,**call))
             summaries.append(dict(path=str(file),generation_seconds=s['generation_seconds'],
                 elapsed_seconds=s['elapsed_seconds'],generation_errors=s['generation_errors'],calls=len(s['calls'])))
             if best and score(best)<(int(baseline[key]['makespan']),int(baseline[key]['added_copy'])):
                 if key not in selected or score(best)<score(selected[key]):selected[key]=best
-    atomic_json(out/'接收清单.json',dict(input_ledger_sha256=hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
+    atomic_json(out/'接收清单.json',dict(input_ledger_sha256=hashlib.sha256(ledger.read_bytes()).hexdigest(),
         selected=[dict(case=k[0],problem=k[1],cores=k[2],source=v) for k,v in sorted(selected.items())]))
     verified={}
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:
@@ -61,11 +66,11 @@ def main():
             v=verified[key];record=v['record']
             row.update(makespan=score(record)[0],added_copy=score(record)[1],
                 speedup=float(row['original_singlecore'])/score(record)[0],
-                source='hardware_frontier_v1',source_commit='2da035b',source_plan=v['source']['plan_path'],
+                source='hardware_frontier',source_commit=args.source_commit,source_plan=v['source']['plan_path'],
                 plan=os.path.relpath(v['path'],out),plan_sha256=record['hashes']['plan_sha256'],
                 verification='independent_official_time_copy_cache_and_input_hash_match')
         else:
-            row['plan']=os.path.relpath((LEDGER.parent/row['plan']).resolve(),out)
+            row['plan']=os.path.relpath((ledger.parent/row['plan']).resolve(),out)
         if not (out/row['plan']).is_file():raise FileNotFoundError(row['plan'])
     with (out/'累计1500配置成绩.csv').open('w',newline='',encoding='utf-8-sig') as f:
         w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
