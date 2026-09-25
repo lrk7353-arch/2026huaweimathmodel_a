@@ -1,0 +1,333 @@
+{
+  "cases": [
+    25,
+    43,
+    47,
+    48,
+    51,
+    64,
+    68,
+    71,
+    75,
+    85
+  ],
+  "items": [
+    {
+      "case": "case_025",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 975282,
+      "added_copy": 110592,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p1/n5/case_025_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7"
+    },
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 974390,
+      "added_copy": 20585472,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p2_n5/v2/evaluations/attempts/20260925T211526-35519c81327b49dd9a5da7c0c70cf3d2/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p2_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p2_n5/v2/evaluations/attempts/20260925T211526-35519c81327b49dd9a5da7c0c70cf3d2/record.json",
+      "plan_sha256": "50b5ca26c685baafba0c585cbbf786f9ff90b7a753379dd44fb7a927877c3b69"
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 974390,
+      "added_copy": 20585472,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p3_n5/v2/evaluations/attempts/20260925T211522-2203c075f9bf497895597a1f8fb30470/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p3_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_025/p3_n5/v2/evaluations/attempts/20260925T211522-2203c075f9bf497895597a1f8fb30470/record.json",
+      "plan_sha256": "9b0e841c1a299aea872dda718127ccaae2eaf00a86456c3a66892d0ca35c6a58"
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 222525,
+      "added_copy": 6077368,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p1/n5/case_043_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "3058a73686828131ac088d7fe3776021cabd7e9a65dcd7088ac508612ce1491b"
+    },
+    {
+      "case": "case_043",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 169830,
+      "added_copy": 6691004,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_043_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "3f529002436ed5be59614284c78ecfdd9867997a6701cb7a20257a9039088c98"
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 158368,
+      "added_copy": 6691004,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_043_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "3f529002436ed5be59614284c78ecfdd9867997a6701cb7a20257a9039088c98"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 208139,
+      "added_copy": 3590396,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_047/p1_n5/v2/evaluations/attempts/20260925T211743-f4ee9e1efa5b4ba6953914a7a2912aaf/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_047/p1_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_047/p1_n5/v2/evaluations/attempts/20260925T211743-f4ee9e1efa5b4ba6953914a7a2912aaf/record.json",
+      "plan_sha256": "dddebbb7ea55c06abaa0c00a5cf50768db83de139f31b1374668fdf78695c3e3"
+    },
+    {
+      "case": "case_047",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 95504,
+      "added_copy": 2651832,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_047_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "ba942616f0594f7a5f230241fb5837ea2dfa0b3f5e5879b746771c85ede3e17c"
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 93047,
+      "added_copy": 2651832,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_047_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "ba942616f0594f7a5f230241fb5837ea2dfa0b3f5e5879b746771c85ede3e17c"
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 136675,
+      "added_copy": 1154096,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_048/p1_n5/v2/evaluations/attempts/20260925T212126-ee86140edd6943ab97138d5d6dde9678/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_048/p1_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_048/p1_n5/v2/evaluations/attempts/20260925T212126-ee86140edd6943ab97138d5d6dde9678/record.json",
+      "plan_sha256": "78f2c9e850659c17b0d3008f5761fbe74e9efffab8db39b9a32498e5b496137e"
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 98926,
+      "added_copy": 1236696,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p2_n5/v2/evaluations/attempts/20260925T214813-f621e29c93fe4f2d9dce8dea6b90ad91/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p2_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p2_n5/v2/evaluations/attempts/20260925T214813-f621e29c93fe4f2d9dce8dea6b90ad91/record.json",
+      "plan_sha256": "4b6b08d4eebc9c87adbe23cf3e6a5035f4aa5f6babfade4dd5e112a84e4954ef"
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 98781,
+      "added_copy": 1236696,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p3_n5/v2/evaluations/attempts/20260925T214819-78a1978c67cb480491dba968f66b8f9c/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p3_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_048/p3_n5/v2/evaluations/attempts/20260925T214819-78a1978c67cb480491dba968f66b8f9c/record.json",
+      "plan_sha256": "172a7262506895a6ca871e9e1ba1c8ecad7b4a50a0fb2c1b754b3e96e55f87d0"
+    },
+    {
+      "case": "case_051",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 290405,
+      "added_copy": 9046256,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_051/p1_n5/v2/evaluations/attempts/20260925T214737-d99d55a9b4104cacb3ee844e91e731d7/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_051/p1_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_051/p1_n5/v2/evaluations/attempts/20260925T214737-d99d55a9b4104cacb3ee844e91e731d7/record.json",
+      "plan_sha256": "0bc4a2928ac9849480ad1b4782345049817f9b0e4a1ee40e155a2fc02f0f5097"
+    },
+    {
+      "case": "case_051",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 162296,
+      "added_copy": 3507604,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_051_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "66be6762f6a74731bf33b9d4a4ef2cb0394a49a1f31c0455971678bfd7ef1ae3"
+    },
+    {
+      "case": "case_051",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 159635,
+      "added_copy": 3507604,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_051_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "66be6762f6a74731bf33b9d4a4ef2cb0394a49a1f31c0455971678bfd7ef1ae3"
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 16370,
+      "added_copy": 134330,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p1/n5/case_064_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "cd1a6bd35f3ac4bf7ef09ce3fa4d4716fd655192f987cbc6ea8c0a6bfa3d003c"
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 8558,
+      "added_copy": 130610,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p2_n5/v2/evaluations/attempts/20260925T214839-8b5028d182ad426fbe4b620431c3c1ef/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p2_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p2_n5/v2/evaluations/attempts/20260925T214839-8b5028d182ad426fbe4b620431c3c1ef/record.json",
+      "plan_sha256": "a0e5d8abd33f58520c233c1d6e02d0523dd227eaffa17ce777bd0c28f9307169"
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 8516,
+      "added_copy": 130610,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p3_n5/v2/evaluations/attempts/20260925T214839-9a36b31d31c24a2b8bd1a301599c62af/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p3_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一V2最终工作区/A题研究/直接迭代/运行结果/统一V2_C批_显式累计精修接口_20260925/slots/case_064/p3_n5/v2/evaluations/attempts/20260925T214839-9a36b31d31c24a2b8bd1a301599c62af/record.json",
+      "plan_sha256": "a0e5d8abd33f58520c233c1d6e02d0523dd227eaffa17ce777bd0c28f9307169"
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 210185,
+      "added_copy": 3327518,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_068/p1_n5/v2/evaluations/attempts/20260925T213852-637e120bccd340c2838a14f07ae669ca/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_068/p1_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_C批_100图宽筛_20260925_v1/slots/case_068/p1_n5/v2/evaluations/attempts/20260925T213852-637e120bccd340c2838a14f07ae669ca/record.json",
+      "plan_sha256": "1bb1177e81360bd857a609a932fd76da9e841f1c06abad548d41e8e500effbf6"
+    },
+    {
+      "case": "case_068",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 134477,
+      "added_copy": 4188824,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_068_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "fe337773b476efa7ade70aa8295363efd6a75314e283cda2d5f920e5a4225007"
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 123937,
+      "added_copy": 4188824,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_068_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "fe337773b476efa7ade70aa8295363efd6a75314e283cda2d5f920e5a4225007"
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 11491,
+      "added_copy": 230346,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p1/n5/case_071_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "82fbc1bba321d6ba3d3a0b5e1ae0de8702afef1ff945a3afc7f76881e3ab1548"
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 8852,
+      "added_copy": 302060,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_071_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "78382b8fcb08a5145e2f4424d3a7af0d1acad40f5ad2b09ffb2423a4b14e3f74"
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 7494,
+      "added_copy": 361586,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_071_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "e5959ba745b4bc68a22f32a2538d97a26a601e86213555027fc42103a6efeac4"
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 720755,
+      "added_copy": 20569380,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_075_p1_n5.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "7b70b4cbd92a27ca5e17d6b207ab33a2b20d5775017da5fb3fb646675f478cdf"
+    },
+    {
+      "case": "case_075",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 392249,
+      "added_copy": 12764184,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_075_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "d6eb9edd3a82d3ecd7a7ea152ab7d9879d5f9bc3c554ab7af8233faeefba20e2"
+    },
+    {
+      "case": "case_075",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 379091,
+      "added_copy": 12764184,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_075_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "d6eb9edd3a82d3ecd7a7ea152ab7d9879d5f9bc3c554ab7af8233faeefba20e2"
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 5,
+      "makespan": 2568855,
+      "added_copy": 14201940,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_085/p1_n5/v2/evaluations/attempts/20260925T211605-e032a0ab065d42cbb9f48a6a1ee4ae49/plan.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_085/p1_n5/v2/summary.json",
+      "record": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/运行结果/统一V2_B批_20260925_v1/slots/case_085/p1_n5/v2/evaluations/attempts/20260925T211605-e032a0ab065d42cbb9f48a6a1ee4ae49/record.json",
+      "plan_sha256": "99672b1bd76c253cfd86cb88f63d06ea41ace9a4577a0cadc2224db1434736cd"
+    },
+    {
+      "case": "case_085",
+      "problem": 2,
+      "cores": 5,
+      "makespan": 869620,
+      "added_copy": 38726264,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p2/n5/case_085_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "30df831607b64b3760e4df20189947f7f020c046deea03b71c391f42d6c8d282"
+    },
+    {
+      "case": "case_085",
+      "problem": 3,
+      "cores": 5,
+      "makespan": 816858,
+      "added_copy": 38726264,
+      "plan": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/第六轮成果/方案/p3/n5/case_085_multicore_res.json",
+      "source": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/累计1500配置成绩.csv",
+      "plan_sha256": "30df831607b64b3760e4df20189947f7f020c046deea03b71c391f42d6c8d282"
+    }
+  ],
+  "source_archive_sha256": "73163206f09e696bcab5258ac47a73f12edb50f20a8f6d5714308b17cdb21c73",
+  "criterion": {
+    "mean_reduction": 0.03,
+    "minimum_distinct_graphs_over_five_percent": 3
+  },
+  "semantics": "30 five-core warm configurations. Source plans are strongest known at freeze; incumbent replay charged in each round. Not full-pool cold score."
+}
