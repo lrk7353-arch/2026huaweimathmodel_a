@@ -92,7 +92,7 @@ class BudgetTests(unittest.TestCase):
                 return dict(status=status, metrics={'makespan': t, 'data_movement_bytes': {'added_copy_bytes': 0}},
                             elapsed_seconds=.01, cache_hit=False)
             with patch('unified_solver.seeds', return_value=iter([old])), patch('unified_solver.candidate_stream', return_value=iter([new])), patch('unified_solver.evaluate', side_effect=evaluation):
-                result = solve_unified(path, 3, 2, root / 'out', incumbent=warm, call_budget=3)
+                result = solve_unified(path, 3, 2, root / 'out', incumbent=warm, call_budget=3, stage='A')
             self.assertEqual([x['name'] for x in result['evaluations']], ['explicit_incumbent', 'new', 'old'])
             self.assertEqual(result['logical_calls'], 3)
             self.assertEqual(result['new_calls'], 3)

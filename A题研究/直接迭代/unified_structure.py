@@ -98,6 +98,8 @@ class Structure:
             root = heapq.heappop(queue)[1]
             options, inside, block, work = {root}, set(), [], [0, 0]
             minimum = min(target, max(1000, sum(self.tensors[t].size for t in self.inputs[root]) / 30))
+            if family == 'branch_strict':
+                minimum = 0
             while options:
                 def priority(o):
                     shared = sum(self.affinity[p, o] for p in ir.predecessors[o] if p in inside)
@@ -120,7 +122,7 @@ class Structure:
                         ready.add(child)
                         heapq.heappush(queue, (-self.tail[child], child))
                         newly_ready.append(child)
-                if family == 'branch' and max(work) >= minimum:
+                if family in ('branch', 'branch_strict') and max(work) >= minimum:
                     if len(ir.successors[op]) == 1:
                         options.update(c for c in newly_ready if len(ir.predecessors[c]) == 1)
                 else:
@@ -199,6 +201,7 @@ class Structure:
         readers, routes = {}, {}
         resident = [set() for _ in range(cores)]
         counts = {t: len(v.consumers) for t, v in self.tensors.items()}
+        live_bytes = [defaultdict(int) for _ in range(cores)]
         byte_total, shared_reads = 0, defaultdict(set)
         task_count = [0] * cores
         for b in order:
@@ -246,9 +249,10 @@ class Structure:
                         local_ends[o] = ready + max(1, ir.ops[o]['cycles'])
                         ptime[pipe] = local_ends[o]
                     end = max(ptime)
-                    live = resident[core] | view['inputs'][b] | view['outputs'][b]
-                    live_sizes = defaultdict(int)
-                    for tid in live:
+                    # Incremental lifetime accounting: do not rescan every
+                    # earlier live tensor for every region/core alternative.
+                    live_sizes = live_bytes[core].copy()
+                    for tid in (view['inputs'][b] | view['outputs'][b]) - resident[core]:
                         if counts[tid] > 0:
                             t = self.tensors[tid]
                             live_sizes['L1' if t.pos == 'L1' else 'UB'] += t.size
@@ -269,12 +273,23 @@ class Structure:
             task_count[core] += 1
             for tid in new_reads:
                 shared_reads[tid].add(core)
-            resident[core].update(view['outputs'][b] | view['inputs'][b])
+            for tid in (view['outputs'][b] | view['inputs'][b]) - resident[core]:
+                if counts[tid] > 0:
+                    resident[core].add(tid)
+                    t = self.tensors[tid]
+                    live_bytes[core]['L1' if t.pos == 'L1' else 'UB'] += t.size
+            retired = set()
             for o in blocks[b]:
                 for tid in self.inputs[o]:
                     counts[tid] -= 1
-            for c in range(cores):
-                resident[c].difference_update(t for t in tuple(resident[c]) if counts[t] <= 0)
+                    if counts[tid] == 0:
+                        retired.add(tid)
+            for tid in retired:
+                t = self.tensors[tid]
+                for c in range(cores):
+                    if tid in resident[c]:
+                        resident[c].remove(tid)
+                        live_bytes[c]['L1' if t.pos == 'L1' else 'UB'] -= t.size
         schedules = [[] for _ in range(cores)]
         for b in order:
             schedules[assignment[blocks[b][0]]].append(b)
@@ -296,6 +311,20 @@ def candidate_stream(structure, scene, cores, deadline=float('inf')):
     families = ['branch', 'affinity', 'wavefront']
     if s.profile['mean_cycles'] <= 100:
         families = ['affinity', 'wavefront', 'branch']
+    elif scene == 1 and s.profile['dominant_fraction'] >= .6:
+        families = ['branch_strict', 'branch', 'affinity', 'wavefront']
+    # Whole connected components are the coarse level. They preserve
+    # independent compute while changing placement and local priorities.
+    # Heavy connected graphs still enter branch/wavefront/affinity first.
+    if s.profile['dominant_fraction'] < .35 and s.profile['components'] >= cores:
+        grouped = defaultdict(list)
+        for o in s.topo:
+            grouped[s.ir.component_by_op[o]].append(o)
+        blocks = list(grouped.values())
+        for ordering in (('critical', 'residency') if scene < 3 else ('cache_window', 'residency')):
+            plan, meta = s.assign(blocks, scene, cores, ordering, 1., .25 if scene > 1 else 0., deadline=deadline)
+            yield dict(name=f'v2_p{scene}_component_{ordering}', plan=plan,
+                metadata=dict(family=f'p{scene}_component', ordering=ordering, new_strategy=True, **meta))
     scales = (2, 4, 1)
     for scale in scales:
         for family in families:
@@ -311,3 +340,11 @@ def candidate_stream(structure, scene, cores, deadline=float('inf')):
                 yield dict(name=f'v2_p{scene}_{family}_s{scale}_{ordering}', plan=plan,
                     metadata=dict(family=f'p{scene}_{family}', scale=scale, ordering=ordering,
                         communication=communication, residency=residency, new_strategy=True, **meta))
+                if scene == 1 and family == 'branch_strict':
+                    from p1_bottleneck_repartition import merge_region
+                    target = max(1000, s.profile['compute_floor_work'] / max(1, cores * scale) * 2)
+                    merged = merge_region(s.ir, plan, set(), target,
+                        time.perf_counter()+min(3., max(0., deadline-time.monotonic())))
+                    yield dict(name=f'v2_p1_{family}_s{scale}_merge', plan=merged,
+                        metadata=dict(family='p1_branch_strict_merge', scale=scale,
+                            new_strategy=True, complete_split_assign_merge=True))

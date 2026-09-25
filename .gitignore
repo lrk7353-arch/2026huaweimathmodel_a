@@ -61,3 +61,7 @@
 
 # Read-only whole-pool profile for the unified scenario architecture plan.
 !/A题研究/直接迭代/全场景架构研究_20260925/图池概览.json
+
+# Compact, reproducible batch evidence and selected V2 plans.
+!/A题研究/直接迭代/全场景架构研究_20260925/批次*/**/*.json
+!/A题研究/直接迭代/全场景架构研究_20260925/批次*/**/*.json.gz
