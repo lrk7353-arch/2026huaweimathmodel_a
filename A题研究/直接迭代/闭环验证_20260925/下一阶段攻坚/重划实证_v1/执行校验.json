@@ -1,0 +1,22 @@
+{
+  "unit_tests": {
+    "total": 30,
+    "passed": 30,
+    "command": "python3 -B -m unittest discover -s A题研究/直接迭代 -p test*.py"
+  },
+  "outside_region_checks": {
+    "evaluated_development_candidates": 23,
+    "passed": 23
+  },
+  "independent_replays": {
+    "selected_plans": 7,
+    "exact_matches": 7
+  },
+  "ledger": {
+    "rows": 1500,
+    "unique_keys": 1500,
+    "all_plan_paths_exist": true
+  },
+  "official_sources_and_input_hashes": "checked across all development and transfer calls",
+  "unchanged_upstream_main": "18e0957475b20e9a3af52ab335dccb2611beefc9"
+}
