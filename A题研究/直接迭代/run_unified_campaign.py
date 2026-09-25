@@ -79,6 +79,7 @@ def run(args):
         budget=args.budget, seconds=args.seconds, timeout=args.timeout, seed=args.seed, workers=args.workers,
         stage=args.stage, experience_sha256=hashlib.sha256(args.experience.read_bytes()).hexdigest() if args.experience else None,
         adaptive_workers=args.adaptive_workers, heavy_slots=args.heavy_slots,
+        concurrency_policy=args.concurrency_policy,
         singlecore_baselines=args.singlecore_baselines,
         mode='warm_explicit_charged' if incumbents else 'cold',
         incumbent_ledger_sha256=hashlib.sha256(args.incumbent_ledger.read_bytes()).hexdigest() if args.incumbent_ledger else None,
@@ -88,6 +89,33 @@ def run(args):
         sources={str(p.relative_to(R)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(source_files))},
         inputs={c: hashlib.sha256((DATA / (c + '.json')).read_bytes()).hexdigest() for c in cases},
         config=hashlib.sha256((DATA / 'config.txt').read_bytes()).hexdigest())
+    upstream_elapsed = 0.
+    if args.resume_from:
+        previous = args.resume_from.resolve()
+        prior = read_json(previous/'manifest.json')
+        for key in ('cases','problems','cores','variants','budget','seconds','timeout','seed','stage',
+                    'experience_sha256','singlecore_baselines','mode','incumbent_ledger_sha256',
+                    'incumbents','inputs','config'):
+            assert prior[key] == manifest[key], ('resume changes solver experiment', key)
+        # Only orchestration may change; every candidate/search/evaluator source
+        # remains byte-identical. The prior source manifest is retained in full.
+        orchestration = '直接迭代/run_unified_campaign.py'
+        assert {k:v for k,v in prior['sources'].items() if k != orchestration} == {
+            k:v for k,v in manifest['sources'].items() if k != orchestration}, 'solver sources changed'
+        checkpoint = read_json(previous/'segment_interruption.json')
+        assert checkpoint['workers_drained'], 'finish in-flight slots before resuming'
+        upstream_elapsed = checkpoint['all_segments_elapsed_seconds']
+        reused = {}
+        for directory in (previous/'slots').glob('case_*/p*_n*/*'):
+            assert (directory/'summary.json').is_file(), ('unfinished slot', str(directory))
+            relative = directory.relative_to(previous)
+            reused[str(relative)] = hashlib.sha256((directory/'summary.json').read_bytes()).hexdigest()
+            target = out/relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if not target.exists():
+                target.symlink_to(directory, target_is_directory=True)
+        manifest['resumed_segment'] = dict(path=str(previous), manifest=prior,
+            summary_sha256=reused, interruption=checkpoint)
     if (out / 'manifest.json').exists() and read_json(out / 'manifest.json') != manifest:
         raise ValueError('manifest changed; use a new output directory')
     atomic_json(out / 'manifest.json', manifest)
@@ -169,6 +197,10 @@ def run(args):
                 next_capacity = capacity
                 if memory_cap < capacity:
                     next_capacity = memory_cap
+                elif args.concurrency_policy == 'memory':
+                    # Heterogeneous graphs/core counts invalidate a causal
+                    # throughput comparison between consecutive windows.
+                    next_capacity = min(args.workers, memory_cap, max(4, capacity*2))
                 elif not capacity_frozen:
                     if prior_rate is not None and rate < .8*prior_rate:
                         next_capacity = max(2, capacity//2)
@@ -188,6 +220,7 @@ def run(args):
             atomic_json(out / 'progress.json', dict(completed=len(rows), total=len(jobs), errors=errors,
                 elapsed_seconds=time.monotonic() - start))
     result = dict(completed=len(rows), total=len(jobs), errors=errors, elapsed_seconds=time.monotonic() - start,
+        all_segments_elapsed_seconds=upstream_elapsed+time.monotonic()-start,
         official_calls=sum(r['new_calls'] for r in rows), valid_slots=sum(r['valid'] for r in rows),
         interpretation='Improvement vs evaluated seeds is mechanism evidence, not equal-budget baseline dominance.')
     atomic_json(out / 'completion.json', result)
@@ -206,6 +239,8 @@ def main():
     p.add_argument('--timeout', type=float, default=60)
     p.add_argument('--workers', type=int, default=4)
     p.add_argument('--adaptive-workers', action='store_true')
+    p.add_argument('--concurrency-policy', choices=('memory','throughput'), default='memory')
+    p.add_argument('--resume-from', type=Path, help='drained segment; identical solver, inputs and budgets required')
     p.add_argument('--heavy-slots', type=int, default=2)
     p.add_argument('--singlecore-baselines', action='store_true')
     p.add_argument('--incumbent-ledger', type=Path, help='explicit warm input index; first evaluation is charged')
