@@ -1,0 +1,594 @@
+{
+  "passed": true,
+  "plans": 1500,
+  "exact_ordered_hashes": 1500,
+  "regressions": 0,
+  "improved_configurations": 43,
+  "independent_replays": 43,
+  "five_core": {
+    "1": {
+      "before": 3.8199034695538234,
+      "after": 3.827519367976939,
+      "copy_before": 1828145316,
+      "copy_after": 1826430554
+    },
+    "2": {
+      "before": 4.663883716501937,
+      "after": 4.668134535941024,
+      "copy_before": 1136460852,
+      "copy_after": 1136266784
+    },
+    "3": {
+      "before": 4.799341946215213,
+      "after": 4.804428555229012,
+      "copy_before": 1098405654,
+      "copy_after": 1099026750
+    }
+  },
+  "p3_cache": {
+    "mean_graph_byte_hit_rate": 0.2732832771116374,
+    "weighted_byte_hit_rate": 0.3073428790377524
+  },
+  "improvements": [
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        51854,
+        2089762
+      ],
+      "after": [
+        49343,
+        2085056
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        80734,
+        0
+      ],
+      "after": [
+        79930,
+        493568
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        81783,
+        268072
+      ],
+      "after": [
+        80002,
+        74240
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        58230,
+        1094910
+      ],
+      "after": [
+        44749,
+        1352596
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        40149,
+        1228174
+      ],
+      "after": [
+        39975,
+        1207674
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        80734,
+        0
+      ],
+      "after": [
+        79930,
+        493568
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        82017,
+        268072
+      ],
+      "after": [
+        79991,
+        95232
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        56944,
+        1094910
+      ],
+      "after": [
+        42444,
+        1340300
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        38441,
+        1290894
+      ],
+      "after": [
+        37274,
+        1327286
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        49177,
+        1908610
+      ],
+      "after": [
+        37454,
+        74016
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        33592,
+        196896
+      ],
+      "after": [
+        25878,
+        225568
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        24223,
+        278208
+      ],
+      "after": [
+        19331,
+        281280
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        17694,
+        280992
+      ],
+      "after": [
+        17020,
+        267168
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        47920,
+        1908610
+      ],
+      "after": [
+        37454,
+        74016
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        33592,
+        196896
+      ],
+      "after": [
+        25878,
+        225568
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        24223,
+        278208
+      ],
+      "after": [
+        19279,
+        281280
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        17041,
+        279968
+      ],
+      "after": [
+        16725,
+        280992
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        92625,
+        0
+      ],
+      "after": [
+        80127,
+        588832
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        89161,
+        0
+      ],
+      "after": [
+        80191,
+        102400
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        92625,
+        0
+      ],
+      "after": [
+        80127,
+        588832
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        89161,
+        0
+      ],
+      "after": [
+        80191,
+        102400
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        88505,
+        2452224
+      ],
+      "after": [
+        67192,
+        762496
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        44704,
+        1020512
+      ],
+      "after": [
+        43839,
+        930400
+      ]
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        75648,
+        2512672
+      ],
+      "after": [
+        74332,
+        2443040
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        162570,
+        3494866
+      ],
+      "after": [
+        162013,
+        3494802
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        709198,
+        10834526
+      ],
+      "after": [
+        609413,
+        1165808
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        421712,
+        1219468
+      ],
+      "after": [
+        420703,
+        1313356
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        421712,
+        1219468
+      ],
+      "after": [
+        372834,
+        2212940
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        707962,
+        10834526
+      ],
+      "after": [
+        609949,
+        1167856
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        421712,
+        1219468
+      ],
+      "after": [
+        420703,
+        1313356
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        402244,
+        17995940
+      ],
+      "after": [
+        372834,
+        2212940
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        193251,
+        1315736
+      ],
+      "after": [
+        180684,
+        4024796
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        193085,
+        1315736
+      ],
+      "after": [
+        179280,
+        4024796
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        81153,
+        3267848
+      ],
+      "after": [
+        79793,
+        3261704
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        15434,
+        554768
+      ],
+      "after": [
+        15209,
+        549196
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        9628,
+        301972
+      ],
+      "after": [
+        9487,
+        288052
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        8728,
+        274828
+      ],
+      "after": [
+        8596,
+        281740
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        9732,
+        149190
+      ],
+      "after": [
+        9550,
+        149190
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        8718,
+        277132
+      ],
+      "after": [
+        7601,
+        257388
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        8463,
+        302060
+      ],
+      "after": [
+        8316,
+        318862
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        58819,
+        2614486
+      ],
+      "after": [
+        57278,
+        2613714
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        777503,
+        3950976
+      ],
+      "after": [
+        777353,
+        3950976
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        772532,
+        3950976
+      ],
+      "after": [
+        751732,
+        4540800
+      ]
+    }
+  ],
+  "scope": "portable plan legality, unchanged denominator, selected replay evidence; not cold performance"
+}
