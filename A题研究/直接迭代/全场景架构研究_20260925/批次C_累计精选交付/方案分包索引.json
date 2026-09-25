@@ -1,0 +1,77 @@
+[
+  {
+    "path": "方案分包/p1_n1.json.gz",
+    "plans": 7,
+    "sha256": "a6b88db9824c8747808312f163caed8f8051f613ee2e105d1825b7a6cf36d8c4"
+  },
+  {
+    "path": "方案分包/p1_n2.json.gz",
+    "plans": 6,
+    "sha256": "9fd0d4bfaf9229521f336c8951e2f5f3dd7a4f093a4fe07ecb3777a68127de0f"
+  },
+  {
+    "path": "方案分包/p1_n3.json.gz",
+    "plans": 3,
+    "sha256": "636f9b78e53b54417d7f02d10f0748faed783c0d98d6e05c233b7fddede1cce9"
+  },
+  {
+    "path": "方案分包/p1_n4.json.gz",
+    "plans": 3,
+    "sha256": "ca42564f4c4453148b371bff0c5b03caf94969bf9c543e2dcb4dc2e70d28a94b"
+  },
+  {
+    "path": "方案分包/p1_n5.json.gz",
+    "plans": 23,
+    "sha256": "0b40b39d050ffaa83c9d674a9b669c42fb3752c74d606c69f005bf82fcaf6004"
+  },
+  {
+    "path": "方案分包/p2_n1.json.gz",
+    "plans": 6,
+    "sha256": "4b726aa056725ff059e1ed8ad76653d7a2b211c3bb92444e6a1f4f3be46929e3"
+  },
+  {
+    "path": "方案分包/p2_n2.json.gz",
+    "plans": 1,
+    "sha256": "8cdd6feee1a71858f17375fb630ec4c836e6cb9c74e47b4c9fd6950a7e396cae"
+  },
+  {
+    "path": "方案分包/p2_n3.json.gz",
+    "plans": 3,
+    "sha256": "ba4f15b092fdf9d32bd03af5c78f2eb53ad304a2ee3420f4b7733ecddacb1468"
+  },
+  {
+    "path": "方案分包/p2_n4.json.gz",
+    "plans": 1,
+    "sha256": "11ae8c001deeef9f909979f78f2142544f75e903a23cb2392b8314480193f055"
+  },
+  {
+    "path": "方案分包/p2_n5.json.gz",
+    "plans": 32,
+    "sha256": "8f6a2753a592bd24d05d2165eb059e89cc1da54a7846f17ea1548270854ed132"
+  },
+  {
+    "path": "方案分包/p3_n1.json.gz",
+    "plans": 7,
+    "sha256": "a644516c9e7366f46335f8b3f02dc481497310c7f8ac06231edd145e2511e5a7"
+  },
+  {
+    "path": "方案分包/p3_n2.json.gz",
+    "plans": 2,
+    "sha256": "dc21084ee13c6e15ee1d563a6c84571f5777ebd039de087af8e46e569228cb5c"
+  },
+  {
+    "path": "方案分包/p3_n3.json.gz",
+    "plans": 3,
+    "sha256": "eeec3020e66380cdb99e1ff25eb6bfa2361d3af211bf2538f3ad08929f3a9492"
+  },
+  {
+    "path": "方案分包/p3_n4.json.gz",
+    "plans": 1,
+    "sha256": "207235549ffbbd6165be0c84ac52df26751db20fd67f98db44c7a5a2941589bc"
+  },
+  {
+    "path": "方案分包/p3_n5.json.gz",
+    "plans": 35,
+    "sha256": "3a8c96e74cb43a001c18cf76bccfe8dc57c5747b232afe9bdbb1e2f2f9ede32d"
+  }
+]

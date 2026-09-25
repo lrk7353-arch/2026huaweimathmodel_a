@@ -32,7 +32,7 @@ def run_slot(item, out, round_index, seconds, timeout):
         generator = round_one(s, item['problem'], item['cores'], original, started+seconds)
     else:
         from aggressive_search import round_two
-        generator = round_two(s, item['problem'], item['cores'], original, rec, started+seconds)
+        generator = round_two(s, item['problem'], item['cores'], original, rec, started+seconds,item.get('donors',()))
     while True:
         if time.monotonic() >= started+seconds or len(calls) >= 9:
             break

@@ -1,0 +1,13 @@
+{
+  "total_official_calls": 4721,
+  "search_calls": 4583,
+  "replay_calls": 138,
+  "status_counts": {
+    "success": 4633,
+    "timeout": 88
+  },
+  "original_archive_cost": "not included; historical construction cost not reconstructed",
+  "frozen_1500_status": "stopped by latest user instruction; 98 target configurations valid, 6 baseline attempts, 558 calls",
+  "all_selected_plan_roundtrip_hashes_match": true,
+  "selected_plans": 133
+}
