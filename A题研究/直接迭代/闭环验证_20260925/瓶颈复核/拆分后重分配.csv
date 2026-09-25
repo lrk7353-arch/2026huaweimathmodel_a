@@ -1,0 +1,5 @@
+﻿case,cores,candidate,original_parent,split_intermediate,after,added_copy,status,fresh_call,previous_cold_best,beats_parent,beats_cold_best,record
+case_043,4,split1024_local,266766,266793,266793,2972686,success,True,243378,False,False,my_runs/split_reassign_diagnostic_v1/split1024_local/attempts/20260925T163330-fbf377521bab40b39abf19f014467085/record.json
+case_043,4,split1024_observed,266766,266793,266793,2972686,success,True,243378,False,False,my_runs/split_reassign_diagnostic_v1/split1024_observed/attempts/20260925T163330-7bb8ecd141984674931f955b4d57cdf7/record.json
+case_043,4,split512_local,266766,266954,266954,3607906,success,True,243378,False,False,my_runs/split_reassign_diagnostic_v1/split512_local/attempts/20260925T163333-370089980a454a258ba23ba0c4c05097/record.json
+case_043,4,split512_observed,266766,266954,266953,3607906,success,True,243378,False,False,my_runs/split_reassign_diagnostic_v1/split512_observed/attempts/20260925T163333-a840a1c1be18449891ca837ac3f4ba52/record.json
