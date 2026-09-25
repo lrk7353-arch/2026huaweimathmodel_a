@@ -210,9 +210,9 @@ def p23_candidates(ir,plan,raw,obs,cores,round_index,deadline):
     return candidates,dict(placement_proposals=len(proposals),cache=cache_diag)
 
 
-def generate(ir,plan,raw,cores,limit=24,round_index=0,policy='wait_joint'):
+def generate(ir,plan,raw,cores,limit=24,round_index=0,policy='wait_joint',seconds=17):
     if policy not in ('wait_joint','proxy'):raise ValueError('unknown joint policy')
-    deadline=time.monotonic()+17
+    deadline=time.monotonic()+seconds
     problem=raw.get('problem',1 if raw['scene']=='A' else 2);obs=observe(ir,plan,raw,problem)
     candidates,diag=(p1_candidates(ir,plan,raw,obs,cores,round_index,deadline) if problem==1 else
                      p23_candidates(ir,plan,raw,obs,cores,round_index,deadline))
