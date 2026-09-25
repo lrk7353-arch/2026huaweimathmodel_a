@@ -4,16 +4,19 @@ from common_run import *
 from advanced_solver.cache_refine import generate_cache_candidates
 
 def exact(p):return json.dumps(p,ensure_ascii=False,separators=(',',':'))
-def run(case,old,p2,out,budget=8,seconds=180,cores=5):
+def run(case,old,p2,out,budget=8,seconds=180,cores=5,evaluation_dir=None,per_call_timeout=None,seen_signatures=None):
  if key(old)!=(case,3,cores) or (p2 is not None and key(p2)!=(case,2,cores)):raise ValueError('Incumbent case/problem/core mismatch')
+ if per_call_timeout is not None and per_call_timeout<=0:raise ValueError('per_call_timeout must be positive')
  out=Path(out);out.mkdir(exist_ok=False,parents=True);start=time.monotonic();deadline=start+seconds
- ir=GraphIR.from_path(DATA/(case+'.json'));best=old;plan=read_json(old['plan_path']);seen={exact(plan)};calls=[];phases=[]
+ evdir=Path(evaluation_dir) if evaluation_dir is not None else R/'advanced_solver/runs/formal_v2/evaluations'
+ ir=GraphIR.from_path(DATA/(case+'.json'));best=old;plan=read_json(old['plan_path']);seen=set(seen_signatures or ())|{exact(plan)};calls=[];phases=[]
  def apply(c,phase):
   nonlocal best,plan
   sig=exact(c['plan'])
   if sig in seen or len(calls)>=budget or time.monotonic()>=deadline:return
   seen.add(sig);validate_plan(ir,c['plan'])
-  rec=evaluate(DATA/(case+'.json'),c['plan'],3,R/'advanced_solver/runs/formal_v2/evaluations',timeout=min(180 if len(ir.compute_ids)>10000 else 60,max(.1,deadline-time.monotonic())),config_path=DATA/'config.txt')
+  call_timeout=per_call_timeout if per_call_timeout is not None else (180 if len(ir.compute_ids)>10000 else 60)
+  rec=evaluate(DATA/(case+'.json'),c['plan'],3,evdir,timeout=min(call_timeout,max(.1,deadline-time.monotonic())),config_path=DATA/'config.txt')
   ok=rec['status']=='success' and score(rec)<score(best)
   calls.append({'name':c['name'],'phase':phase,'record':rec,'accepted':ok})
   if ok:best=rec;plan=c['plan'];atomic_json(out/'best.plan.json',plan)

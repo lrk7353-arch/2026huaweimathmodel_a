@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "coverage": 1500,
+  "imported": 111,
+  "fresh_calls": 111,
+  "matched": 111,
+  "failures": 0,
+  "workers": 6,
+  "elapsed_seconds": 167.91515911201714,
+  "scope": "union of historical evaluated plans; 111 imported objectives replayed; remaining 1389 inherited"
+}

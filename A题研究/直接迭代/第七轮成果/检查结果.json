@@ -1,0 +1,79 @@
+{
+  "coverage": 1500,
+  "official_success_records": 1500,
+  "exact_ordered_plan_matches": 1500,
+  "objective_nonregressions": 1500,
+  "dag_validated_plans": 13,
+  "changed_configurations": [
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_056",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_056",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_067",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_067",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_079",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_079",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_085",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5
+    }
+  ],
+  "dag_scope": "changed configurations; unchanged exports match existing official success records",
+  "unit_tests_passed": 26,
+  "independent_replays_matched": 4,
+  "from_scratch_configs_successful": 16,
+  "portable_cli_configs_successful": 9
+}

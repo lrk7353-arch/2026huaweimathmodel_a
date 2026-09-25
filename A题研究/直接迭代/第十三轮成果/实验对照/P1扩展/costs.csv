@@ -1,0 +1,3 @@
+﻿problem,method,runs,successes,calls,fresh,failed_calls,generation_errors,total_run_seconds,median_run_seconds
+1,baseline,12,12,102,102,2,0,235.51121795817744,8.900406958535314
+1,integrated,12,12,136,136,4,0,304.9887880021706,12.036284207948484

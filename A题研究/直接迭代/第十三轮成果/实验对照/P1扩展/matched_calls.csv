@@ -1,0 +1,13 @@
+﻿case,problem,cores,method,control,common_calls,method_time,control_time,reduction_pct
+case_067,1,5,integrated,baseline,8,15152310,15233731,0.5344783887807902
+case_019,1,5,integrated,baseline,12,19414,18981,-2.28122859701807
+case_096,1,5,integrated,baseline,10,24966,27019,7.598356711943444
+case_072,1,5,integrated,baseline,5,4767943,4767943,0.0
+case_073,1,5,integrated,baseline,9,3305951,3517515,6.014587002471917
+case_032,1,5,integrated,baseline,6,10415,10415,0.0
+case_023,1,5,integrated,baseline,5,23846,23846,0.0
+case_031,1,5,integrated,baseline,9,298142,306213,2.635747012700307
+case_040,1,5,integrated,baseline,12,87145,110105,20.852822305980656
+case_027,1,5,integrated,baseline,7,474514,558753,15.076250149887338
+case_035,1,5,integrated,baseline,12,90079,90079,0.0
+case_092,1,5,integrated,baseline,7,1618214,1618214,0.0

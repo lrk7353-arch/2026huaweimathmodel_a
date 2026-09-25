@@ -1,0 +1,61 @@
+{
+  "comparisons": [
+    {
+      "problem": 1,
+      "method": "integrated",
+      "control": "baseline",
+      "pairs": 12,
+      "successful_pairs": 12,
+      "method_failures": 0,
+      "control_failures": 0,
+      "wins": 6,
+      "ties": 5,
+      "losses": 1,
+      "mean_paired_reduction_pct": 4.7013360712043575,
+      "median_paired_reduction_pct": 1.5672424568872856
+    }
+  ],
+  "matched_call_comparisons": [
+    {
+      "problem": 1,
+      "method": "integrated",
+      "control": "baseline",
+      "pairs": 12,
+      "successful_pairs": 12,
+      "wins": 6,
+      "ties": 5,
+      "losses": 1,
+      "mean_paired_reduction_pct": 4.202584414562199
+    }
+  ],
+  "costs": [
+    {
+      "problem": 1,
+      "method": "baseline",
+      "runs": 12,
+      "successes": 12,
+      "calls": 102,
+      "fresh": 102,
+      "failed_calls": 2,
+      "generation_errors": 0,
+      "total_run_seconds": 235.51121795817744,
+      "median_run_seconds": 8.900406958535314
+    },
+    {
+      "problem": 1,
+      "method": "integrated",
+      "runs": 12,
+      "successes": 12,
+      "calls": 136,
+      "fresh": 136,
+      "failed_calls": 4,
+      "generation_errors": 0,
+      "total_run_seconds": 304.9887880021706,
+      "median_run_seconds": 12.036284207948484
+    }
+  ],
+  "wall_seconds": 273.1783404999878,
+  "budget": 12,
+  "seconds": 90,
+  "scope": "fresh from-original-graph evaluations; same upper caps, actual calls reported; no historical incumbents; mean excludes failed pairs explicitly counted"
+}

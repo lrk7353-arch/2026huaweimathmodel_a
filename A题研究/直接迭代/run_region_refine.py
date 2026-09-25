@@ -2,7 +2,7 @@
 import gzip
 import time
 from common_run import *
-from p1_joint_regions import generate, exact_key
+from p1_local_regions import generate, exact_key
 
 
 def run(case, old, out, budget=7, seconds=180, cores=5, seed=17,

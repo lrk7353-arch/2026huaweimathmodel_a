@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "case": "case_094",
+      "problem": 2,
+      "method": "component_wcc",
+      "p3_refinement": "legacy",
+      "makespan": 17755,
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 1.1944966659648344,
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23命令WCCp2_v1/evaluations/attempts/20260925T153739-d0165c4baa02452b9a3286ae0bfec5a2/record.json"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "method": "component_wcc",
+      "p3_refinement": "legacy",
+      "makespan": 16819,
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 1.5107488750945777,
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23命令WCCp3_v1/evaluations/attempts/20260925T153739-4fad3498160f4077bbbbb917580ff7ac/record.json"
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "method": "staged",
+      "p3_refinement": "feedback",
+      "makespan": 21130,
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 1.5461593749932945,
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23命令反馈_v1/evaluations/attempts/20260925T153101-1a2a21b15bbf4b849b69b1a3631ec158/record.json"
+    }
+  ]
+}

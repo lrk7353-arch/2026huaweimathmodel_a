@@ -1,0 +1,1238 @@
+{
+  "rows": [
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 43.13827930265886,
+      "before": {
+        "makespan": 409613,
+        "tasks": 93,
+        "active_cores": 5,
+        "added_copy_bytes": 3818476,
+        "spill_bytes": 0,
+        "longest_task_duration": 45986
+      },
+      "after": {
+        "makespan": 232913,
+        "tasks": 709,
+        "active_cores": 5,
+        "added_copy_bytes": 8482342,
+        "spill_bytes": 0,
+        "longest_task_duration": 24508
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173416-0afecaa3b9474bfe825feae3cac97e07/record.json"
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 26.689475767686478,
+      "before": {
+        "makespan": 70732,
+        "tasks": 55,
+        "active_cores": 4,
+        "added_copy_bytes": 1362706,
+        "spill_bytes": 0,
+        "longest_task_duration": 22851
+      },
+      "after": {
+        "makespan": 51854,
+        "tasks": 98,
+        "active_cores": 5,
+        "added_copy_bytes": 2089762,
+        "spill_bytes": 0,
+        "longest_task_duration": 4588
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172648-5756bbcb33ec41a186ca918783f5131e/record.json"
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 0.4913872239321826,
+      "before": {
+        "makespan": 37038,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1555314,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 17052,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 36856,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1546098,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 17052,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172937-40f43391694d4f848493746c2c7ca222/record.json"
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 1.0734760734760762,
+      "before": {
+        "makespan": 34188,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1555314,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 17052,
+        "cache_stats": {
+          "copy_in_hits": 284,
+          "copy_in_misses": 599,
+          "hit_bytes": 506896,
+          "miss_bytes": 779432,
+          "hits": 284,
+          "accesses": 883,
+          "hit_rate": 0.3940643443973854
+        }
+      },
+      "after": {
+        "makespan": 33821,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1546098,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 17052,
+        "cache_stats": {
+          "copy_in_hits": 281,
+          "copy_in_misses": 599,
+          "hit_bytes": 537904,
+          "miss_bytes": 743816,
+          "hits": 281,
+          "accesses": 880,
+          "hit_rate": 0.41967356364884684
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173918-5e3320aa63024d19983ccb1837925471/record.json"
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 2.7191857980810363,
+      "before": {
+        "makespan": 51486,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1328826,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 26880,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 50086,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1290894,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 26735,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172250-4d3ebdbffa1d49e1a1b5cee8d7f16bc0/record.json"
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 0.7024863760217936,
+      "before": {
+        "makespan": 46976,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1328826,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 26880,
+        "cache_stats": {
+          "copy_in_hits": 614,
+          "copy_in_misses": 1013,
+          "hit_bytes": 522686,
+          "miss_bytes": 840522,
+          "hits": 614,
+          "accesses": 1627,
+          "hit_rate": 0.3834235127728124
+        }
+      },
+      "after": {
+        "makespan": 46646,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1290894,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 26735,
+        "cache_stats": {
+          "copy_in_hits": 601,
+          "copy_in_misses": 1006,
+          "hit_bytes": 496726,
+          "miss_bytes": 837274,
+          "hits": 601,
+          "accesses": 1607,
+          "hit_rate": 0.3723583208395802
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173917-5bb1e488e52844b2bb446bb6447bb9b6/record.json"
+    },
+    {
+      "case": "case_016",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 0.019578543852605268,
+      "before": {
+        "makespan": 3304638,
+        "tasks": 2440,
+        "active_cores": 5,
+        "added_copy_bytes": 119557168,
+        "spill_bytes": 0,
+        "longest_task_duration": 7576
+      },
+      "after": {
+        "makespan": 3303991,
+        "tasks": 2443,
+        "active_cores": 5,
+        "added_copy_bytes": 119557168,
+        "spill_bytes": 0,
+        "longest_task_duration": 6929
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172914-0a3c64ca422f4933847b6f24b29c515d/record.json"
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 9.769239411302099,
+      "before": {
+        "makespan": 222525,
+        "tasks": 168,
+        "active_cores": 5,
+        "added_copy_bytes": 6077368,
+        "spill_bytes": 0,
+        "longest_task_duration": 37153
+      },
+      "after": {
+        "makespan": 200786,
+        "tasks": 301,
+        "active_cores": 5,
+        "added_copy_bytes": 7616098,
+        "spill_bytes": 0,
+        "longest_task_duration": 23047
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172830-abff4a4325c94d80a8a875b47fdae0a8/record.json"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 2,
+      "reduction_pct": 1.3122807451725227,
+      "before": {
+        "makespan": 323254,
+        "tasks": 14,
+        "active_cores": 1,
+        "added_copy_bytes": 501350,
+        "spill_bytes": 0,
+        "longest_task_duration": 26410
+      },
+      "after": {
+        "makespan": 319012,
+        "tasks": 130,
+        "active_cores": 2,
+        "added_copy_bytes": 1051490,
+        "spill_bytes": 0,
+        "longest_task_duration": 26258
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173344-668c21306dd44a2a9f3e57926646ece3/record.json"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 3,
+      "reduction_pct": 32.197900103324315,
+      "before": {
+        "makespan": 323254,
+        "tasks": 14,
+        "active_cores": 1,
+        "added_copy_bytes": 501350,
+        "spill_bytes": 0,
+        "longest_task_duration": 26410
+      },
+      "after": {
+        "makespan": 219173,
+        "tasks": 698,
+        "active_cores": 3,
+        "added_copy_bytes": 3421374,
+        "spill_bytes": 0,
+        "longest_task_duration": 19707
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173450-b5de26da05df4ff2987fb943a78a0cdc/record.json"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 4,
+      "reduction_pct": 41.01140279779987,
+      "before": {
+        "makespan": 323254,
+        "tasks": 14,
+        "active_cores": 1,
+        "added_copy_bytes": 501350,
+        "spill_bytes": 0,
+        "longest_task_duration": 26410
+      },
+      "after": {
+        "makespan": 190683,
+        "tasks": 533,
+        "active_cores": 4,
+        "added_copy_bytes": 3231082,
+        "spill_bytes": 0,
+        "longest_task_duration": 19707
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173518-3a269d9c442d41cb8872f7a02e3c5ba6/record.json"
+    },
+    {
+      "case": "case_047",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 40.60626259542936,
+      "before": {
+        "makespan": 321049,
+        "tasks": 20,
+        "active_cores": 1,
+        "added_copy_bytes": 1331486,
+        "spill_bytes": 0,
+        "longest_task_duration": 16013
+      },
+      "after": {
+        "makespan": 190683,
+        "tasks": 533,
+        "active_cores": 4,
+        "added_copy_bytes": 3231082,
+        "spill_bytes": 0,
+        "longest_task_duration": 19707
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173910-3f942ab7688c49b2bb045cc60c8ae622/record.json"
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 3,
+      "reduction_pct": 45.08190081900819,
+      "before": {
+        "makespan": 222220,
+        "tasks": 1,
+        "active_cores": 1,
+        "added_copy_bytes": 0,
+        "spill_bytes": 0,
+        "longest_task_duration": 222220
+      },
+      "after": {
+        "makespan": 122039,
+        "tasks": 183,
+        "active_cores": 3,
+        "added_copy_bytes": 1391956,
+        "spill_bytes": 0,
+        "longest_task_duration": 6380
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173142-38f9b7ac9ed842399389a323c5b8a068/record.json"
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 4,
+      "reduction_pct": 45.999909999099984,
+      "before": {
+        "makespan": 222220,
+        "tasks": 1,
+        "active_cores": 1,
+        "added_copy_bytes": 0,
+        "spill_bytes": 0,
+        "longest_task_duration": 222220
+      },
+      "after": {
+        "makespan": 119999,
+        "tasks": 183,
+        "active_cores": 4,
+        "added_copy_bytes": 1391956,
+        "spill_bytes": 0,
+        "longest_task_duration": 6379
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173145-0f8bcbb4c0a04be29b5bd3346a0d11e1/record.json"
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 43.30604126409684,
+      "before": {
+        "makespan": 211661,
+        "tasks": 19,
+        "active_cores": 3,
+        "added_copy_bytes": 289112,
+        "spill_bytes": 0,
+        "longest_task_duration": 25556
+      },
+      "after": {
+        "makespan": 119999,
+        "tasks": 183,
+        "active_cores": 4,
+        "added_copy_bytes": 1391956,
+        "spill_bytes": 0,
+        "longest_task_duration": 6379
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173910-8f898e665e874214bf37d6fbbe7569d4/record.json"
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 0.33560439116107066,
+      "before": {
+        "makespan": 98926,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1236824,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 31328,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 98594,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1236440,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 31328,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173919-695f40fb663246fcb8388dbd51ba34e9/record.json"
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 0.42012127838348956,
+      "before": {
+        "makespan": 98781,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1236824,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 31328,
+        "cache_stats": {
+          "copy_in_hits": 191,
+          "copy_in_misses": 659,
+          "hit_bytes": 273448,
+          "miss_bytes": 831318,
+          "hits": 191,
+          "accesses": 850,
+          "hit_rate": 0.2475166686882109
+        }
+      },
+      "after": {
+        "makespan": 98366,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1236440,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 31328,
+        "cache_stats": {
+          "copy_in_hits": 188,
+          "copy_in_misses": 659,
+          "hit_bytes": 269288,
+          "miss_bytes": 835286,
+          "hits": 188,
+          "accesses": 847,
+          "hit_rate": 0.2437935348831314
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172333-94e74fe261fb4a2bb9ce3d62a159c31f/record.json"
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 30.43662636720782,
+      "before": {
+        "makespan": 124981,
+        "tasks": 83,
+        "active_cores": 5,
+        "added_copy_bytes": 1462062,
+        "spill_bytes": 0,
+        "longest_task_duration": 28485
+      },
+      "after": {
+        "makespan": 86941,
+        "tasks": 361,
+        "active_cores": 5,
+        "added_copy_bytes": 2643504,
+        "spill_bytes": 0,
+        "longest_task_duration": 10497
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173159-d142157339c24c10aa9141ab19497a29/record.json"
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 34.1458438119822,
+      "before": {
+        "makespan": 210746,
+        "tasks": 86,
+        "active_cores": 5,
+        "added_copy_bytes": 1429882,
+        "spill_bytes": 0,
+        "longest_task_duration": 37235
+      },
+      "after": {
+        "makespan": 138785,
+        "tasks": 388,
+        "active_cores": 5,
+        "added_copy_bytes": 4461966,
+        "spill_bytes": 0,
+        "longest_task_duration": 11400
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173311-89dc995ed6594ba5bdd7b032a3ae4abe/record.json"
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 7.287721441661576,
+      "before": {
+        "makespan": 16370,
+        "tasks": 46,
+        "active_cores": 5,
+        "added_copy_bytes": 134330,
+        "spill_bytes": 0,
+        "longest_task_duration": 2981
+      },
+      "after": {
+        "makespan": 15177,
+        "tasks": 120,
+        "active_cores": 5,
+        "added_copy_bytes": 207694,
+        "spill_bytes": 0,
+        "longest_task_duration": 1283
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173137-3c5f5bf3cd794569b1a8a2aa03abb3c9/record.json"
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 0.2336721579623835,
+      "before": {
+        "makespan": 8559,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 130674,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4108,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 8539,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 127474,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4108,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173008-4aea3480ea2f4f16a86e187ac275210e/record.json"
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 0.07045561296383784,
+      "before": {
+        "makespan": 8516,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 130674,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4108,
+        "cache_stats": {
+          "copy_in_hits": 68,
+          "copy_in_misses": 228,
+          "hit_bytes": 24114,
+          "miss_bytes": 89846,
+          "hits": 68,
+          "accesses": 296,
+          "hit_rate": 0.2116005616005616
+        }
+      },
+      "after": {
+        "makespan": 8510,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 127474,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4108,
+        "cache_stats": {
+          "copy_in_hits": 70,
+          "copy_in_misses": 220,
+          "hit_bytes": 25618,
+          "miss_bytes": 86742,
+          "hits": 70,
+          "accesses": 290,
+          "hit_rate": 0.227999288002848
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173919-4632222cbff444e3b036739eaa7c9e86/record.json"
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 46.71004146412274,
+      "before": {
+        "makespan": 268666,
+        "tasks": 83,
+        "active_cores": 5,
+        "added_copy_bytes": 1045280,
+        "spill_bytes": 0,
+        "longest_task_duration": 43951
+      },
+      "after": {
+        "makespan": 143172,
+        "tasks": 233,
+        "active_cores": 5,
+        "added_copy_bytes": 3694350,
+        "spill_bytes": 0,
+        "longest_task_duration": 9179
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173213-9d8f2c9513774aafa54526ba2dbc241b/record.json"
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 8.404305654128219,
+      "before": {
+        "makespan": 16908,
+        "tasks": 60,
+        "active_cores": 5,
+        "added_copy_bytes": 622330,
+        "spill_bytes": 0,
+        "longest_task_duration": 3796
+      },
+      "after": {
+        "makespan": 15487,
+        "tasks": 52,
+        "active_cores": 5,
+        "added_copy_bytes": 554768,
+        "spill_bytes": 0,
+        "longest_task_duration": 3663
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173136-de3afb24088242798b1f6ae2e3a65d15/record.json"
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 0.8276162474136983,
+      "before": {
+        "makespan": 9183,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 426832,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 5082,
+        "cache_stats": {
+          "copy_in_hits": 91,
+          "copy_in_misses": 158,
+          "hit_bytes": 150160,
+          "miss_bytes": 246678,
+          "hits": 91,
+          "accesses": 249,
+          "hit_rate": 0.3783911822960503
+        }
+      },
+      "after": {
+        "makespan": 9107,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 426832,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 5082,
+        "cache_stats": {
+          "copy_in_hits": 86,
+          "copy_in_misses": 163,
+          "hit_bytes": 144784,
+          "miss_bytes": 252054,
+          "hits": 86,
+          "accesses": 249,
+          "hit_rate": 0.36484409255162054
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3读序归因第十轮_v1/case_069/evaluations/attempts/20260925T174002-3cd525cb980644d2a219eee3511da332/record.json"
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 3,
+      "reduction_pct": 0.10282776349614942,
+      "before": {
+        "makespan": 9725,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 257388,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 5442,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 9715,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 272428,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4266,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173134-6d9b644d45be4012b19ccc385adb2570/record.json"
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 8.416177135110715,
+      "before": {
+        "makespan": 8852,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 302060,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4278,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 8107,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 304174,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 3291,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172343-ae2af555e8fb41fd8dfcfc576d151a7b/record.json"
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 3,
+      "reduction_pct": 3.6130658544270555,
+      "before": {
+        "makespan": 9521,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 257388,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 5442,
+        "cache_stats": {
+          "copy_in_hits": 53,
+          "copy_in_misses": 101,
+          "hit_bytes": 121740,
+          "miss_bytes": 168438,
+          "hits": 53,
+          "accesses": 154,
+          "hit_rate": 0.4195355953931725
+        }
+      },
+      "after": {
+        "makespan": 9177,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 272428,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 4266,
+        "cache_stats": {
+          "copy_in_hits": 48,
+          "copy_in_misses": 133,
+          "hit_bytes": 86124,
+          "miss_bytes": 210806,
+          "hits": 48,
+          "accesses": 181,
+          "hit_rate": 0.2900481594988718
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173920-5cd178fff14142eb99da398c34ac83ae/record.json"
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 0.12009607686148671,
+      "before": {
+        "makespan": 7494,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 361586,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 3468,
+        "cache_stats": {
+          "copy_in_hits": 82,
+          "copy_in_misses": 145,
+          "hit_bytes": 96978,
+          "miss_bytes": 248086,
+          "hits": 82,
+          "accesses": 227,
+          "hit_rate": 0.281043516565043
+        }
+      },
+      "after": {
+        "makespan": 7485,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 344498,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 3468,
+        "cache_stats": {
+          "copy_in_hits": 84,
+          "copy_in_misses": 134,
+          "hit_bytes": 146418,
+          "miss_bytes": 190822,
+          "hits": 84,
+          "accesses": 218,
+          "hit_rate": 0.4341655794093227
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172555-6abaa4448d2f4f409367e5f7bdb9bf90/record.json"
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 2,
+      "reduction_pct": 39.51742455669489,
+      "before": {
+        "makespan": 1436708,
+        "tasks": 8,
+        "active_cores": 1,
+        "added_copy_bytes": 875304,
+        "spill_bytes": 0,
+        "longest_task_duration": 233839
+      },
+      "after": {
+        "makespan": 868958,
+        "tasks": 349,
+        "active_cores": 2,
+        "added_copy_bytes": 8082280,
+        "spill_bytes": 0,
+        "longest_task_duration": 36148
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173240-48eb704089bc4227924ce606f69adff9/record.json"
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 3,
+      "reduction_pct": 53.54616247699602,
+      "before": {
+        "makespan": 1436708,
+        "tasks": 8,
+        "active_cores": 1,
+        "added_copy_bytes": 875304,
+        "spill_bytes": 0,
+        "longest_task_duration": 233839
+      },
+      "after": {
+        "makespan": 667406,
+        "tasks": 485,
+        "active_cores": 3,
+        "added_copy_bytes": 8839578,
+        "spill_bytes": 0,
+        "longest_task_duration": 36148
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173246-530891d61bca4d4b8f41a65f1346f384/record.json"
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 4,
+      "reduction_pct": 62.82696275095565,
+      "before": {
+        "makespan": 1436708,
+        "tasks": 8,
+        "active_cores": 1,
+        "added_copy_bytes": 875304,
+        "spill_bytes": 0,
+        "longest_task_duration": 233839
+      },
+      "after": {
+        "makespan": 534068,
+        "tasks": 677,
+        "active_cores": 4,
+        "added_copy_bytes": 10475926,
+        "spill_bytes": 0,
+        "longest_task_duration": 18965
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173315-1a587eb7ee68490587be245bb80221d3/record.json"
+    },
+    {
+      "case": "case_075",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 63.78110822508203,
+      "before": {
+        "makespan": 1322078,
+        "tasks": 1148,
+        "active_cores": 5,
+        "added_copy_bytes": 5641288,
+        "spill_bytes": 0,
+        "longest_task_duration": 1142930
+      },
+      "after": {
+        "makespan": 478842,
+        "tasks": 1581,
+        "active_cores": 5,
+        "added_copy_bytes": 12535518,
+        "spill_bytes": 0,
+        "longest_task_duration": 20496
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172134-3dee6c3dad504b61800a42848d69069c/record.json"
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 2,
+      "reduction_pct": 29.663288714444814,
+      "before": {
+        "makespan": 3155166,
+        "tasks": 20,
+        "active_cores": 1,
+        "added_copy_bytes": 3497710,
+        "spill_bytes": 0,
+        "longest_task_duration": 223309
+      },
+      "after": {
+        "makespan": 2219240,
+        "tasks": 724,
+        "active_cores": 2,
+        "added_copy_bytes": 15481456,
+        "spill_bytes": 24576,
+        "longest_task_duration": 122993
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173613-4cdd748112c744b0bd2c05cd8747c3b5/record.json"
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 3,
+      "reduction_pct": 44.15072730445265,
+      "before": {
+        "makespan": 3152050,
+        "tasks": 6,
+        "active_cores": 1,
+        "added_copy_bytes": 2399134,
+        "spill_bytes": 0,
+        "longest_task_duration": 558842
+      },
+      "after": {
+        "makespan": 1760397,
+        "tasks": 1099,
+        "active_cores": 3,
+        "added_copy_bytes": 23425634,
+        "spill_bytes": 0,
+        "longest_task_duration": 123283
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173634-0fdc11827dac400eb93abbdebb8ed76a/record.json"
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 4,
+      "reduction_pct": 55.46825082089434,
+      "before": {
+        "makespan": 3152050,
+        "tasks": 6,
+        "active_cores": 1,
+        "added_copy_bytes": 2399134,
+        "spill_bytes": 0,
+        "longest_task_duration": 558842
+      },
+      "after": {
+        "makespan": 1403663,
+        "tasks": 1537,
+        "active_cores": 4,
+        "added_copy_bytes": 26256478,
+        "spill_bytes": 0,
+        "longest_task_duration": 105376
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173746-0798627264c74615a48b5a99e37bcc07/record.json"
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 68.35689239833056,
+      "before": {
+        "makespan": 2760933,
+        "tasks": 72,
+        "active_cores": 5,
+        "added_copy_bytes": 4246258,
+        "spill_bytes": 347136,
+        "longest_task_duration": 355516
+      },
+      "after": {
+        "makespan": 873645,
+        "tasks": 1095,
+        "active_cores": 5,
+        "added_copy_bytes": 23398256,
+        "spill_bytes": 0,
+        "longest_task_duration": 35394
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172412-a0ae9a3e6a9945e2a4c639369d11c0b2/record.json"
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 31.65826226384403,
+      "before": {
+        "makespan": 86066,
+        "tasks": 61,
+        "active_cores": 4,
+        "added_copy_bytes": 1676764,
+        "spill_bytes": 0,
+        "longest_task_duration": 29000
+      },
+      "after": {
+        "makespan": 58819,
+        "tasks": 116,
+        "active_cores": 5,
+        "added_copy_bytes": 2614486,
+        "spill_bytes": 0,
+        "longest_task_duration": 5537
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173159-26d4aaddca22419f87c668786630145f/record.json"
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 2.1855184886584,
+      "before": {
+        "makespan": 45893,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1780850,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 22422,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 44890,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 1797234,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 22266,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173031-33c5209b283a490b9346cadf4d0522b1/record.json"
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 6.38094349307079,
+      "before": {
+        "makespan": 42862,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2118390,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 18728,
+        "cache_stats": {
+          "copy_in_hits": 401,
+          "copy_in_misses": 786,
+          "hit_bytes": 663858,
+          "miss_bytes": 928634,
+          "hits": 401,
+          "accesses": 1187,
+          "hit_rate": 0.41686740027579416
+        }
+      },
+      "after": {
+        "makespan": 40127,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2115702,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 18728,
+        "cache_stats": {
+          "copy_in_hits": 412,
+          "copy_in_misses": 771,
+          "hit_bytes": 668562,
+          "miss_bytes": 921434,
+          "hits": 412,
+          "accesses": 1183,
+          "hit_rate": 0.42048030309510215
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173055-fad1c87cb59043a2a41b57fd8b956854/record.json"
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 5,
+      "reduction_pct": 44.015010455756396,
+      "before": {
+        "makespan": 174545,
+        "tasks": 76,
+        "active_cores": 5,
+        "added_copy_bytes": 1222870,
+        "spill_bytes": 0,
+        "longest_task_duration": 41224
+      },
+      "after": {
+        "makespan": 97719,
+        "tasks": 155,
+        "active_cores": 5,
+        "added_copy_bytes": 2707564,
+        "spill_bytes": 0,
+        "longest_task_duration": 8205
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172859-82458d6f1f32417d9cb1c35e532e8ff6/record.json"
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 3,
+      "reduction_pct": 3.3694927580146694,
+      "before": {
+        "makespan": 99006,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 2078542,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 59012,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 95670,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 2093894,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 59012,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173918-d63d242b65e341718440a9804006ce14/record.json"
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 5,
+      "reduction_pct": 0.6127724051874006,
+      "before": {
+        "makespan": 89756,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2468882,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 44748,
+        "cache_stats": null
+      },
+      "after": {
+        "makespan": 89206,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2475026,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 44652,
+        "cache_stats": null
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172356-2c6bc29cd5d64147acaecc0148c359c7/record.json"
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 3,
+      "reduction_pct": 2.487405210403981,
+      "before": {
+        "makespan": 95079,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 2078542,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 59012,
+        "cache_stats": {
+          "copy_in_hits": 170,
+          "copy_in_misses": 658,
+          "hit_bytes": 968522,
+          "miss_bytes": 2362724,
+          "hits": 170,
+          "accesses": 828,
+          "hit_rate": 0.2907386605492359
+        }
+      },
+      "after": {
+        "makespan": 92714,
+        "tasks": 3,
+        "active_cores": 3,
+        "added_copy_bytes": 2093894,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 59012,
+        "cache_stats": {
+          "copy_in_hits": 164,
+          "copy_in_misses": 660,
+          "hit_bytes": 890698,
+          "miss_bytes": 2460000,
+          "hits": 164,
+          "accesses": 824,
+          "hit_rate": 0.265824613259685
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T173152-f45b88da773b4bfe87f040474f6db605/record.json"
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 5,
+      "reduction_pct": 2.816969932859781,
+      "before": {
+        "makespan": 82216,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2468882,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 44748,
+        "cache_stats": {
+          "copy_in_hits": 297,
+          "copy_in_misses": 695,
+          "hit_bytes": 1150674,
+          "miss_bytes": 2534050,
+          "hits": 297,
+          "accesses": 992,
+          "hit_rate": 0.3122822767729686
+        }
+      },
+      "after": {
+        "makespan": 79900,
+        "tasks": 5,
+        "active_cores": 5,
+        "added_copy_bytes": 2468858,
+        "spill_bytes": 0,
+        "max_core_original_pipe_busy": 44696,
+        "cache_stats": {
+          "copy_in_hits": 294,
+          "copy_in_misses": 692,
+          "hit_bytes": 1180368,
+          "miss_bytes": 2504344,
+          "hits": 294,
+          "accesses": 986,
+          "hit_rate": 0.32034199687791065
+        }
+      },
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T172416-fd73d40b39684a2089e08b78b6b65c1f/record.json"
+    }
+  ],
+  "scope": "observed before/after features, not exclusive causal attribution; improved cases are selected"
+}

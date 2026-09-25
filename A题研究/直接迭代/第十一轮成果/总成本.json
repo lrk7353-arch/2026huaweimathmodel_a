@@ -1,0 +1,106 @@
+{
+  "search": [
+    {
+      "group": "开发",
+      "wall_seconds": 42.18146875000093,
+      "arms": 16,
+      "logical_calls": 192,
+      "new_calls": 183,
+      "failed_calls": 0,
+      "generation_seconds": 30.31220070843119
+    },
+    {
+      "group": "验证",
+      "wall_seconds": 105.48658925003838,
+      "arms": 24,
+      "logical_calls": 288,
+      "new_calls": 271,
+      "failed_calls": 0,
+      "generation_seconds": 68.69372962776106
+    },
+    {
+      "group": "P1扩展",
+      "wall_seconds": 32.55300579208415,
+      "arms": 4,
+      "logical_calls": 36,
+      "new_calls": 36,
+      "failed_calls": 0,
+      "generation_seconds": 7.007249292801134
+    },
+    {
+      "group": "定向续搜",
+      "wall_seconds": 41.4480002920609,
+      "arms": 12,
+      "logical_calls": 144,
+      "new_calls": 129,
+      "failed_calls": 0,
+      "generation_seconds": 41.902273414540105
+    },
+    {
+      "group": "低核P1",
+      "wall_seconds": 14.009994874941185,
+      "arms": 2,
+      "logical_calls": 24,
+      "new_calls": 24,
+      "failed_calls": 0,
+      "generation_seconds": 5.9894653329392895
+    },
+    {
+      "group": "低核数据",
+      "wall_seconds": 34.433266125037335,
+      "arms": 6,
+      "logical_calls": 72,
+      "new_calls": 71,
+      "failed_calls": 0,
+      "generation_seconds": 36.92274120799266
+    }
+  ],
+  "additional": [
+    {
+      "batch": "推广第十一轮跨场景_v1",
+      "logical_calls": 16,
+      "new_calls": 15,
+      "wall_seconds": 6.95526058296673
+    },
+    {
+      "batch": "推广第十一轮低核跨场景_v1",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "wall_seconds": 5.848107457975857
+    },
+    {
+      "batch": "推广第十一轮继承_v1",
+      "logical_calls": 1,
+      "new_calls": 1,
+      "wall_seconds": 2.9731546660186723
+    },
+    {
+      "batch": "推广第十一轮继承后跨场景_v1",
+      "logical_calls": 2,
+      "new_calls": 1,
+      "wall_seconds": 3.271136207971722
+    },
+    {
+      "batch": "因素四格",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "wall_seconds": 1.4481861250242218
+    },
+    {
+      "batch": "便携入口",
+      "logical_calls": 13,
+      "new_calls": 13,
+      "wall_seconds": 2.189963374985382
+    },
+    {
+      "batch": "独立复评",
+      "logical_calls": 31,
+      "new_calls": 31,
+      "wall_seconds": 7.556880666990764
+    }
+  ],
+  "total_logical_calls": 843,
+  "total_new_calls": 794,
+  "failed_calls": 0,
+  "scope": "measured experiment stages; excludes coding/analysis/export; overlapping batches and cache reuse prevent cold-runtime comparisons"
+}

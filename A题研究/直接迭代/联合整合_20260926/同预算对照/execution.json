@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "expected": 216,
+  "completed": 216,
+  "errors": [],
+  "elapsed_seconds": 1321.639237047988,
+  "new_calls": 3376,
+  "failures": 16,
+  "workers": 6
+}

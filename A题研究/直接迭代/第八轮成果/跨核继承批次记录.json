@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "all_success": true,
+  "completed": 3,
+  "expected": 3,
+  "rows": [
+    {
+      "case": "case_043",
+      "problem": 2,
+      "num_cores": 4,
+      "status": "success",
+      "before": 255399,
+      "after": 230366,
+      "accepted": true,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 1.1906180420191959
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "num_cores": 4,
+      "status": "success",
+      "before": 432146,
+      "after": 421712,
+      "accepted": true,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 1.955095832934603
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "num_cores": 4,
+      "status": "success",
+      "before": 255399,
+      "after": 230321,
+      "accepted": true,
+      "new_coverage": false,
+      "logical_calls": 1,
+      "new_calls": 1,
+      "elapsed_seconds": 1.0576014160178602
+    }
+  ],
+  "wall_seconds": 4.769039791077375,
+  "this_invocation_logical_calls": 3,
+  "this_invocation_new_calls": 3,
+  "remaining": [],
+  "failures": []
+}

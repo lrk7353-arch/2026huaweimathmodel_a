@@ -1,0 +1,4 @@
+﻿case,problem,cores,method,control,method_status,control_status,method_time,control_time,reduction_pct
+case_066,1,5,integrated,baseline,success,success,189401,199671,5.1434609933340365
+case_046,2,5,integrated,baseline,success,success,77846,77846,0.0
+case_046,3,5,integrated,baseline,success,success,69084,77846,11.255555841019449

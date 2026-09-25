@@ -1,0 +1,94 @@
+{
+  "development": [
+    "case_004",
+    "case_009",
+    "case_046",
+    "case_070",
+    "case_078",
+    "case_079",
+    "case_094",
+    "case_095"
+  ],
+  "validation": [
+    "case_003",
+    "case_016",
+    "case_025",
+    "case_035",
+    "case_074",
+    "case_075",
+    "case_076",
+    "case_083",
+    "case_088",
+    "case_090",
+    "case_091",
+    "case_096"
+  ],
+  "validation_seed": 20260925,
+  "excluded": [
+    "case_004",
+    "case_007",
+    "case_008",
+    "case_009",
+    "case_012",
+    "case_015",
+    "case_017",
+    "case_023",
+    "case_032",
+    "case_034",
+    "case_040",
+    "case_043",
+    "case_046",
+    "case_052",
+    "case_053",
+    "case_054",
+    "case_055",
+    "case_057",
+    "case_060",
+    "case_061",
+    "case_062",
+    "case_063",
+    "case_065",
+    "case_066",
+    "case_070",
+    "case_077",
+    "case_078",
+    "case_079",
+    "case_085",
+    "case_087",
+    "case_094",
+    "case_095",
+    "case_098"
+  ],
+  "strata": [
+    {
+      "size": "large",
+      "route": "component_wcc",
+      "eligible": 16
+    },
+    {
+      "size": "large",
+      "route": "staged",
+      "eligible": 5
+    },
+    {
+      "size": "small_medium",
+      "route": "component_wcc",
+      "eligible": 25
+    },
+    {
+      "size": "small_medium",
+      "route": "staged",
+      "eligible": 21
+    }
+  ],
+  "rule": "Original structural eligibility then after charged prefix: fixed-assignment M/V headroom <0.10 selects staged with at most one pending WCC proxy-ranked probe; otherwise complete WCC. No tuning after validation.",
+  "methods": [
+    "staged",
+    "routed",
+    "trace_routed"
+  ],
+  "budget": 12,
+  "seconds": 120,
+  "per_call_seconds": 60,
+  "scope": "New panel excludes round8 route/targeted panels and case043; not wholly unseen from all historical work."
+}

@@ -1,0 +1,94 @@
+{
+  "p1": [
+    {
+      "case": 19,
+      "compute_ops": 647,
+      "components": 31,
+      "max_component_ops": 170
+    },
+    {
+      "case": 32,
+      "compute_ops": 827,
+      "components": 25,
+      "max_component_ops": 189
+    },
+    {
+      "case": 23,
+      "compute_ops": 1011,
+      "components": 43,
+      "max_component_ops": 127
+    },
+    {
+      "case": 96,
+      "compute_ops": 1198,
+      "components": 50,
+      "max_component_ops": 397
+    },
+    {
+      "case": 27,
+      "compute_ops": 1424,
+      "components": 16,
+      "max_component_ops": 89
+    },
+    {
+      "case": 40,
+      "compute_ops": 3083,
+      "components": 28,
+      "max_component_ops": 2194
+    },
+    {
+      "case": 35,
+      "compute_ops": 3857,
+      "components": 16,
+      "max_component_ops": 2430
+    },
+    {
+      "case": 73,
+      "compute_ops": 4836,
+      "components": 39,
+      "max_component_ops": 124
+    },
+    {
+      "case": 31,
+      "compute_ops": 6135,
+      "components": 107,
+      "max_component_ops": 2147
+    },
+    {
+      "case": 67,
+      "compute_ops": 8804,
+      "components": 71,
+      "max_component_ops": 124
+    },
+    {
+      "case": 92,
+      "compute_ops": 17608,
+      "components": 142,
+      "max_component_ops": 124
+    },
+    {
+      "case": 72,
+      "compute_ops": 29666,
+      "components": 476,
+      "max_component_ops": 6140
+    }
+  ],
+  "selection_rule": "12 equal-size quantile midpoints by compute-op count, excluding round12 P1 development/validation; original graph features only",
+  "p23_development": [
+    18,
+    31,
+    46,
+    83
+  ],
+  "p23_validation": [
+    9,
+    21,
+    29,
+    40,
+    58,
+    60,
+    74,
+    94
+  ],
+  "scope": "reserved for round13, historically seen data; no unseen-data generalization claim"
+}

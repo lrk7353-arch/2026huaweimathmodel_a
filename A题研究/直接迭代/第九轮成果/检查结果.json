@@ -1,0 +1,101 @@
+{
+  "coverage": 1500,
+  "official_success_records": 1500,
+  "exact_ordered_plan_matches": 1500,
+  "objective_nonregressions": 1500,
+  "dag_validated_plans": 15,
+  "changed_configurations": [
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_076",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_076",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 3
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 5
+    }
+  ],
+  "dag_scope": "changed configurations; unchanged exports match existing official success records",
+  "unit_tests_passed": 40,
+  "unit_test_modules": [
+    "test_solve_defaults",
+    "test_p23_pipeline",
+    "test_p23_observed",
+    "test_p3_feedback",
+    "test_p1_portfolio",
+    "test_p1_task_refine",
+    "test_p1_tensor_regions",
+    "test_p3_read_order"
+  ],
+  "independent_replay_all_changed": true,
+  "independent_replays": 15,
+  "independent_replays_all_match": true,
+  "cold_panel_configs": 6,
+  "cold_cli_configs": 2
+}

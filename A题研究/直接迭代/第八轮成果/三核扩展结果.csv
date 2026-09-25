@@ -1,0 +1,7 @@
+﻿case,problem,cores,method,status,effective_method,makespan,logical_calls,new_calls,elapsed_seconds,stop_reason,failed_calls,timeout_calls,generation_errors,summary_path,error
+case_094,3,3,routed,success,component_wcc,25046,12,8,1.342401250032708,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_094/p3_n3/routed/summary.json,
+case_043,2,3,routed,success,component_wcc,230366,12,8,13.080297791981138,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_043/p2_n3/routed/summary.json,
+case_043,3,3,routed,success,component_wcc,230321,12,8,13.236971458070911,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_043/p3_n3/routed/summary.json,
+case_053,2,3,routed,success,component_wcc,421712,12,8,22.577146749943495,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_053/p2_n3/routed/summary.json,
+case_094,2,3,routed,success,component_wcc,25046,12,8,1.357167417067103,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_094/p2_n3/routed/summary.json,
+case_053,3,3,routed,success,component_wcc,421712,12,8,22.76051454199478,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构三核_v1/case_053/p3_n3/routed/summary.json,

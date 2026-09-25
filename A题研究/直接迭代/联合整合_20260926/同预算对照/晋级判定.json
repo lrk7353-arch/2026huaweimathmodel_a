@@ -1,0 +1,51 @@
+{
+  "scenes": [
+    {
+      "problem": 1,
+      "passed": false,
+      "checks": {
+        "validation_mean": false,
+        "validation_wins": false,
+        "validation_worst": true,
+        "lowcore_mean": false,
+        "valid": true
+      }
+    },
+    {
+      "problem": 2,
+      "passed": true,
+      "checks": {
+        "validation_mean": true,
+        "validation_wins": true,
+        "validation_worst": true,
+        "lowcore_mean": true,
+        "valid": true
+      }
+    },
+    {
+      "problem": 3,
+      "passed": true,
+      "checks": {
+        "validation_mean": true,
+        "validation_wins": true,
+        "validation_worst": true,
+        "lowcore_mean": true,
+        "valid": true
+      }
+    }
+  ],
+  "run_final1500": false,
+  "criteria": {
+    "per_problem_validation_mean_time_reduction_pct_at_least": 0.5,
+    "per_problem_validation_strict_wins_at_least": 3,
+    "per_problem_validation_worst_regression_pct_at_most": 3,
+    "per_problem_lowcore_mean_time_reduction_pct_at_least": 0,
+    "no_new_invalid_slots": true,
+    "combined_validated_scenes_required_for_full1500": [
+      1,
+      2,
+      3
+    ]
+  },
+  "note": "Criteria registered before outcomes. Failure retains strong default; no post-hoc threshold changes."
+}

@@ -1,0 +1,45 @@
+{
+  "coverage": 1500,
+  "official_success_records": 1500,
+  "exact_ordered_plan_matches": 1500,
+  "objective_nonregressions": 1500,
+  "dag_validated_plans": 1500,
+  "changed_configurations": [
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 5
+    }
+  ],
+  "dag_scope": "all"
+}

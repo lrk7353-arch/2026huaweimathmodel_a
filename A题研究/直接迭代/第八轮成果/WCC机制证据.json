@@ -1,0 +1,179 @@
+{
+  "case": "case_095",
+  "problem": 3,
+  "cores": 5,
+  "before": {
+    "record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260924T183330-0618079a40c5474eb5dfd397d3e33eb8/record.json",
+    "result": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260924T183330-0618079a40c5474eb5dfd397d3e33eb8/official_result.json.gz",
+    "plan": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260924T183330-0618079a40c5474eb5dfd397d3e33eb8/plan.json",
+    "makespan": 420852,
+    "data_movement_bytes": {
+      "original_graph_copy_bytes": 11355036,
+      "scheduled_copy_bytes": 11355036,
+      "added_copy_bytes": 0,
+      "partition_added_copy_bytes": 0,
+      "spill_added_copy_bytes": 0
+    },
+    "cache_stats": {
+      "copy_in_hits": 0,
+      "copy_in_misses": 1848,
+      "hit_bytes": 0,
+      "miss_bytes": 8516508,
+      "hits": 0,
+      "accesses": 1848,
+      "hit_rate": 0.0
+    },
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 36864,
+        "UB": 37056
+      },
+      "1": {
+        "L1": 36864,
+        "UB": 37056
+      },
+      "2": {
+        "L1": 36864,
+        "UB": 37056
+      },
+      "3": {
+        "L1": 36864,
+        "UB": 37056
+      },
+      "4": {
+        "L1": 36864,
+        "UB": 37056
+      }
+    },
+    "core_timing": [
+      {
+        "core": 0,
+        "end": 420852,
+        "m_busy": 215388,
+        "v_busy": 204228,
+        "mv_overlap": 0
+      },
+      {
+        "core": 1,
+        "end": 420852,
+        "m_busy": 215388,
+        "v_busy": 204228,
+        "mv_overlap": 0
+      },
+      {
+        "core": 2,
+        "end": 416649,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 0
+      },
+      {
+        "core": 3,
+        "end": 416649,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 0
+      },
+      {
+        "core": 4,
+        "end": 416649,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 0
+      }
+    ]
+  },
+  "after": {
+    "record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T155402-489249f1b13b438e8725713cbd3c8a0b/record.json",
+    "result": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T155402-489249f1b13b438e8725713cbd3c8a0b/official_result.json.gz",
+    "plan": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T155402-489249f1b13b438e8725713cbd3c8a0b/plan.json",
+    "makespan": 220188,
+    "data_movement_bytes": {
+      "original_graph_copy_bytes": 11355036,
+      "scheduled_copy_bytes": 11355036,
+      "added_copy_bytes": 0,
+      "partition_added_copy_bytes": 0,
+      "spill_added_copy_bytes": 0
+    },
+    "cache_stats": {
+      "copy_in_hits": 0,
+      "copy_in_misses": 1848,
+      "hit_bytes": 0,
+      "miss_bytes": 8516508,
+      "hits": 0,
+      "accesses": 1848,
+      "hit_rate": 0.0
+    },
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 49152,
+        "UB": 92928
+      },
+      "1": {
+        "L1": 49152,
+        "UB": 92928
+      },
+      "2": {
+        "L1": 49152,
+        "UB": 92928
+      },
+      "3": {
+        "L1": 49152,
+        "UB": 92928
+      },
+      "4": {
+        "L1": 49152,
+        "UB": 92928
+      }
+    },
+    "core_timing": [
+      {
+        "core": 0,
+        "end": 220188,
+        "m_busy": 215388,
+        "v_busy": 204228,
+        "mv_overlap": 200664
+      },
+      {
+        "core": 1,
+        "end": 220188,
+        "m_busy": 215388,
+        "v_busy": 204228,
+        "mv_overlap": 200664
+      },
+      {
+        "core": 2,
+        "end": 218181,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 198468
+      },
+      {
+        "core": 3,
+        "end": 218181,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 198468
+      },
+      {
+        "core": 4,
+        "end": 218181,
+        "m_busy": 213072,
+        "v_busy": 202032,
+        "mv_overlap": 198468
+      }
+    ]
+  },
+  "same_core_assignment": true,
+  "changed_compute_core_count": 0,
+  "component_count": 462,
+  "winning_calls": [
+    {
+      "call": 8,
+      "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+      "phase": "wcc"
+    }
+  ],
+  "reduction_pct": 47.68041971999658,
+  "scope": "Observed paired timeline differences, not a causal attribution of each delay; original compute operations only for M/V overlap."
+}

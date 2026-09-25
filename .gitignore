@@ -44,6 +44,15 @@
 !/A题研究/直接迭代/第四轮成果/**/*.json
 !/A题研究/直接迭代/第五轮成果/**/*.json
 !/A题研究/直接迭代/第六轮成果/**/*.json
+!/A题研究/直接迭代/第七轮成果/**/*.json
+!/A题研究/直接迭代/第八轮成果/**/*.json
+!/A题研究/直接迭代/第八轮成果/图表/*.png
+!/A题研究/直接迭代/第八轮成果/图表/*.svg
+!/A题研究/直接迭代/第九轮成果/**/*.json
+!/A题研究/直接迭代/第十轮成果/**/*.json
+!/A题研究/直接迭代/第十一轮成果/**/*.json
+!/A题研究/直接迭代/第十二轮成果/**/*.json
+!/A题研究/直接迭代/第十三轮成果/**/*.json
 
 # Small saved official observations required by portable mechanism tests.
 !/A题研究/方案审阅/cache_microtests/*.json
@@ -71,3 +80,9 @@
 # Pinned teammate review inputs; raw evaluator runs stay local.
 !/A题研究/直接迭代/队友成果对比_20260925/来源快照/**/*.json
 /A题研究/直接迭代/队友成果对比_20260925/复评运行/
+
+# Joint integration deliverables and bounded experiment evidence.
+!/A题研究/直接迭代/联合整合_20260926/**/*.json
+!/A题研究/直接迭代/联合整合_20260926/**/*.json.gz
+/A题研究/直接迭代/联合整合_20260926/**/复评运行/
+/A题研究/直接迭代/联合整合_20260926/同预算对照/slots/

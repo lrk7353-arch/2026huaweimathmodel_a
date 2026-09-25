@@ -1,0 +1,293 @@
+{
+  "complete": true,
+  "completed": 15,
+  "expected": 15,
+  "rows": [
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        942350,
+        118272
+      ],
+      "actual": [
+        942350,
+        118272
+      ],
+      "matches": true,
+      "elapsed_seconds": 3.171971542062238,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163618-7c4c93d7bc8b4890bf1f62e6d7ed2235/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_025_p2_n5/attempts/20260925T164044-f826ccea7b86454d95ad8d4fbd277c19/record.json"
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        942350,
+        118272
+      ],
+      "actual": [
+        942350,
+        118272
+      ],
+      "matches": true,
+      "elapsed_seconds": 3.2269442500546575,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162836-ad2358b9d7604bb7a2f4d1b0883d8e71/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_025_p3_n5/attempts/20260925T164044-0e01d944c27b40e3864b1c449807da01/record.json"
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        326680,
+        7634944
+      ],
+      "actual": [
+        326680,
+        7634944
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.48290395794901997,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162954-6ab4391072fd4b7e88359dadd712a2af/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_074_p3_n5/attempts/20260925T164047-24cd4006f881481497537f781f3c5490/record.json"
+    },
+    {
+      "case": "case_076",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        1231756,
+        35959808
+      ],
+      "actual": [
+        1231756,
+        35959808
+      ],
+      "matches": true,
+      "elapsed_seconds": 7.690825333003886,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163656-d3398f270972423e827ec5fd3eb75cd6/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_076_p2_n5/attempts/20260925T164047-cbb058e25e184b95aa24ea1c7380e2d6/record.json"
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        184594,
+        3721600
+      ],
+      "actual": [
+        184594,
+        3721600
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.37255545903462917,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162930-d059b7cc42b44a1a854c209a24c6006d/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_083_p2_n5/attempts/20260925T164055-9e27f99d339546228dd470514199e985/record.json"
+    },
+    {
+      "case": "case_076",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        1225408,
+        38180864
+      ],
+      "actual": [
+        1225408,
+        38180864
+      ],
+      "matches": true,
+      "elapsed_seconds": 8.000981875113212,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163613-5f09c1bd25764e7ea86f1bb7a8c63a31/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_076_p3_n5/attempts/20260925T164048-d6de967313514d0d96036f7b6e344698/record.json"
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        184594,
+        3721600
+      ],
+      "actual": [
+        184594,
+        3721600
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.5365740839624777,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163548-e38b4641a1844e83ae8c3503c953bf44/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_083_p3_n5/attempts/20260925T164055-ff1aee689a8b49fea5852e9cb7f5f55c/record.json"
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        797842,
+        13390484
+      ],
+      "actual": [
+        797842,
+        13390484
+      ],
+      "matches": true,
+      "elapsed_seconds": 6.071013916982338,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163934-a1e45a05728a4327a787f6dfd1ef17e0/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_087_p2_n5/attempts/20260925T164056-e6d2b3e6e78c40ea837832cc07ad6b71/record.json"
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        790623,
+        13385876
+      ],
+      "actual": [
+        790623,
+        13385876
+      ],
+      "matches": true,
+      "elapsed_seconds": 5.9556888329098,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163959-28c324d89c784a84ab49f6a4db4b5d12/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_087_p3_n5/attempts/20260925T164056-c82628110faa45c8985d2883b994114e/record.json"
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        260978,
+        8593920
+      ],
+      "actual": [
+        260978,
+        8593920
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.21392995899077505,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163237-608c6198368c4acd9682e0d4b855849f/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_090_p2_n5/attempts/20260925T164102-527c465714db43bcb347539ed01c9919/record.json"
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        194679,
+        8593920
+      ],
+      "actual": [
+        194679,
+        8593920
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.3646950830006972,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163316-19e4e62f174746a7931ddb337d329e97/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_090_p3_n5/attempts/20260925T164102-0301e0a55d154cdebeed6406134976fc/record.json"
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        1860293,
+        75841024
+      ],
+      "actual": [
+        1860293,
+        75841024
+      ],
+      "matches": true,
+      "elapsed_seconds": 8.120498750009574,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T162945-aa196c10a78e4cc7999bf8ef5e1dc3fb/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_091_p2_n5/attempts/20260925T164102-b34da0a9b24841da9848add809846a1e/record.json"
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 3,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        3025509,
+        61863936
+      ],
+      "actual": [
+        3025509,
+        61863936
+      ],
+      "matches": true,
+      "elapsed_seconds": 9.950836625066586,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163345-b3815c992387426b83155c51d16ef8f6/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_091_p2_n3/attempts/20260925T164102-0ad1d299f3bd4bfda88ddb9d4f64335c/record.json"
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        1818751,
+        74685440
+      ],
+      "actual": [
+        1818751,
+        74685440
+      ],
+      "matches": true,
+      "elapsed_seconds": 8.48422495892737,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163437-a8c7fa0e77154f06841ac323df6329d5/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_091_p3_n5/attempts/20260925T164112-c63ac264370a4229ace30b2a1563a638/record.json"
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 3,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        3014454,
+        61863936
+      ],
+      "actual": [
+        3014454,
+        61863936
+      ],
+      "matches": true,
+      "elapsed_seconds": 10.159989917068742,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T163520-dae5e35c88c44530ac2bea325732839e/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/轨迹改善独立复评_v1/case_091_p3_n3/attempts/20260925T164110-f251038d7d8e4f7fb6e19d3214af07f4/record.json"
+    }
+  ],
+  "wall_seconds": 36.429480500053614
+}

@@ -1,0 +1,5 @@
+﻿case,problem,cores,method,status,effective_method,makespan,logical_calls,new_calls,elapsed_seconds,stop_reason,failed_calls,timeout_calls,generation_errors,summary_path,error
+case_095,2,5,routed,success,component_wcc,220188,12,12,5.4902109580580145,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构冷启动_v1/case_095/p2_n5/routed/summary.json,
+case_054,2,5,routed,success,staged,318908,12,12,45.306689999997616,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构冷启动_v1/case_054/p2_n5/routed/summary.json,
+case_095,3,5,routed,success,component_wcc,220188,12,12,6.3997518750838935,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构冷启动_v1/case_095/p3_n5/routed/summary.json,
+case_054,3,5,routed,success,staged,356338,12,12,47.96563804196194,call_budget,0,0,0,/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P23结构冷启动_v1/case_054/p3_n5/routed/summary.json,

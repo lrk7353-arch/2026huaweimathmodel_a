@@ -1,0 +1,11 @@
+﻿case,problem,num_cores,status,before,after,accepted,new_coverage,logical_calls,new_calls,elapsed_seconds
+case_076,2,5,success,1231756,1231756,False,False,1,0,0.5140195839339867
+case_076,3,5,success,1225408,1225408,False,False,1,0,0.5302502500126138
+case_091,3,5,success,1818751,1818751,False,False,1,0,0.49637349997647107
+case_074,2,5,success,331744,331744,False,False,1,0,0.03113391704391688
+case_074,3,5,success,326680,326680,False,False,1,0,0.021835666964761913
+case_083,2,3,success,315399,315399,False,False,1,0,0.027723583043552935
+case_083,3,3,success,305255,305255,False,False,1,0,0.020462249987758696
+case_090,2,3,success,320550,320550,False,False,1,0,0.01784895802848041
+case_090,3,3,success,309744,309744,False,False,1,0,0.010090833995491266
+case_091,2,5,success,1860293,1860293,False,False,1,1,7.3139646670315415

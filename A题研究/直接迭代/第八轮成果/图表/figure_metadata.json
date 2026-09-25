@@ -1,0 +1,26 @@
+{
+  "source": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/结构路由计划_v1/case095_evidence.json",
+  "core": 0,
+  "case": "case_095",
+  "simulation_runs": 2,
+  "included": "All original M/V compute intervals on core 0; COPY intervals not displayed; no smoothing, binning or interpolation.",
+  "axes": "shared linear x-axis from zero; cycles divided by 1000 only for display",
+  "uncertainty": "Deterministic official simulator observations, not a sample estimate; no error bars.",
+  "audience": "Project mechanism verification; no journal formatting claim",
+  "packages": {
+    "matplotlib": "3.11.2"
+  },
+  "image": {
+    "pixels": [
+      2544,
+      1224
+    ],
+    "mode": "RGBA",
+    "dpi": [
+      240.00459999999998,
+      240.00459999999998
+    ],
+    "opaque": true
+  },
+  "alt_text": "case095核0的原始M/V时间线。优化前两类计算交替且不重叠；WCC交织后出现大量重叠，总周期从420852降至220188。M/V计算量、分核、搬运和缓存统计未改变。"
+}

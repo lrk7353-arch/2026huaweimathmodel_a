@@ -1,0 +1,165 @@
+{
+  "coverage": 1500,
+  "official_success_records": 1500,
+  "exact_ordered_plan_matches": 1500,
+  "objective_nonregressions": 1500,
+  "dag_validated_plans": 1500,
+  "changed_configurations": [
+    {
+      "case": "case_009",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_011",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_011",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 3
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 4
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 4
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 3
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 4
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 3
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 4
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 5
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 5
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 3
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 4
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 5
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 4
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 5
+    }
+  ],
+  "dag_scope": "all"
+}

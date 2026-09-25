@@ -4,7 +4,7 @@ import unittest
 
 from common_run import validate_plan, GraphIR
 from test_p1_task_refine import graph
-from p1_joint_regions import generate, relocate, task_order, exact_key
+from p1_local_regions import generate, relocate, task_order, exact_key
 
 
 class JointRegionTests(unittest.TestCase):

@@ -1,0 +1,4895 @@
+{
+  "schema_version": 1,
+  "panels": [
+    {
+      "group": "regression",
+      "source": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2",
+      "plan": {
+        "before": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/缓存计划_v1/before.json",
+        "cases": [
+          "case_001",
+          "case_003",
+          "case_004",
+          "case_008",
+          "case_010",
+          "case_015",
+          "case_017",
+          "case_023",
+          "case_026",
+          "case_044",
+          "case_046",
+          "case_052",
+          "case_070",
+          "case_071",
+          "case_078",
+          "case_090",
+          "case_094",
+          "case_098"
+        ],
+        "methods": [
+          "legacy",
+          "read_order",
+          "joint",
+          "interleave",
+          "feedback"
+        ],
+        "cores": 5,
+        "budget": 12,
+        "seconds": 120.0,
+        "workers": 2,
+        "per_call_timeout": 60,
+        "seed": 17,
+        "fresh_evaluations": false,
+        "jobs": [
+          [
+            "case_008",
+            "read_order"
+          ],
+          [
+            "case_017",
+            "feedback"
+          ],
+          [
+            "case_090",
+            "interleave"
+          ],
+          [
+            "case_090",
+            "feedback"
+          ],
+          [
+            "case_094",
+            "joint"
+          ],
+          [
+            "case_015",
+            "feedback"
+          ],
+          [
+            "case_046",
+            "joint"
+          ],
+          [
+            "case_010",
+            "feedback"
+          ],
+          [
+            "case_052",
+            "legacy"
+          ],
+          [
+            "case_094",
+            "read_order"
+          ],
+          [
+            "case_010",
+            "legacy"
+          ],
+          [
+            "case_004",
+            "joint"
+          ],
+          [
+            "case_008",
+            "interleave"
+          ],
+          [
+            "case_044",
+            "interleave"
+          ],
+          [
+            "case_017",
+            "interleave"
+          ],
+          [
+            "case_070",
+            "legacy"
+          ],
+          [
+            "case_004",
+            "legacy"
+          ],
+          [
+            "case_004",
+            "read_order"
+          ],
+          [
+            "case_052",
+            "interleave"
+          ],
+          [
+            "case_044",
+            "joint"
+          ],
+          [
+            "case_001",
+            "feedback"
+          ],
+          [
+            "case_090",
+            "joint"
+          ],
+          [
+            "case_015",
+            "interleave"
+          ],
+          [
+            "case_094",
+            "interleave"
+          ],
+          [
+            "case_070",
+            "joint"
+          ],
+          [
+            "case_046",
+            "legacy"
+          ],
+          [
+            "case_003",
+            "read_order"
+          ],
+          [
+            "case_026",
+            "read_order"
+          ],
+          [
+            "case_023",
+            "feedback"
+          ],
+          [
+            "case_001",
+            "joint"
+          ],
+          [
+            "case_070",
+            "interleave"
+          ],
+          [
+            "case_071",
+            "legacy"
+          ],
+          [
+            "case_052",
+            "read_order"
+          ],
+          [
+            "case_044",
+            "legacy"
+          ],
+          [
+            "case_004",
+            "interleave"
+          ],
+          [
+            "case_078",
+            "read_order"
+          ],
+          [
+            "case_090",
+            "legacy"
+          ],
+          [
+            "case_071",
+            "interleave"
+          ],
+          [
+            "case_001",
+            "legacy"
+          ],
+          [
+            "case_098",
+            "legacy"
+          ],
+          [
+            "case_098",
+            "read_order"
+          ],
+          [
+            "case_052",
+            "joint"
+          ],
+          [
+            "case_026",
+            "feedback"
+          ],
+          [
+            "case_094",
+            "feedback"
+          ],
+          [
+            "case_094",
+            "legacy"
+          ],
+          [
+            "case_023",
+            "read_order"
+          ],
+          [
+            "case_010",
+            "interleave"
+          ],
+          [
+            "case_015",
+            "joint"
+          ],
+          [
+            "case_001",
+            "read_order"
+          ],
+          [
+            "case_010",
+            "read_order"
+          ],
+          [
+            "case_052",
+            "feedback"
+          ],
+          [
+            "case_070",
+            "read_order"
+          ],
+          [
+            "case_078",
+            "interleave"
+          ],
+          [
+            "case_026",
+            "interleave"
+          ],
+          [
+            "case_003",
+            "feedback"
+          ],
+          [
+            "case_098",
+            "joint"
+          ],
+          [
+            "case_078",
+            "feedback"
+          ],
+          [
+            "case_017",
+            "legacy"
+          ],
+          [
+            "case_046",
+            "feedback"
+          ],
+          [
+            "case_090",
+            "read_order"
+          ],
+          [
+            "case_003",
+            "legacy"
+          ],
+          [
+            "case_098",
+            "feedback"
+          ],
+          [
+            "case_071",
+            "joint"
+          ],
+          [
+            "case_003",
+            "interleave"
+          ],
+          [
+            "case_008",
+            "legacy"
+          ],
+          [
+            "case_026",
+            "joint"
+          ],
+          [
+            "case_015",
+            "read_order"
+          ],
+          [
+            "case_008",
+            "feedback"
+          ],
+          [
+            "case_015",
+            "legacy"
+          ],
+          [
+            "case_078",
+            "joint"
+          ],
+          [
+            "case_003",
+            "joint"
+          ],
+          [
+            "case_078",
+            "legacy"
+          ],
+          [
+            "case_008",
+            "joint"
+          ],
+          [
+            "case_046",
+            "read_order"
+          ],
+          [
+            "case_026",
+            "legacy"
+          ],
+          [
+            "case_070",
+            "feedback"
+          ],
+          [
+            "case_017",
+            "joint"
+          ],
+          [
+            "case_098",
+            "interleave"
+          ],
+          [
+            "case_044",
+            "feedback"
+          ],
+          [
+            "case_017",
+            "read_order"
+          ],
+          [
+            "case_001",
+            "interleave"
+          ],
+          [
+            "case_004",
+            "feedback"
+          ],
+          [
+            "case_023",
+            "legacy"
+          ],
+          [
+            "case_071",
+            "feedback"
+          ],
+          [
+            "case_010",
+            "joint"
+          ],
+          [
+            "case_023",
+            "joint"
+          ],
+          [
+            "case_044",
+            "read_order"
+          ],
+          [
+            "case_023",
+            "interleave"
+          ],
+          [
+            "case_046",
+            "interleave"
+          ],
+          [
+            "case_071",
+            "read_order"
+          ]
+        ],
+        "scope": "Common recorded warm P3 incumbent; one total call/time cap; no P2 inheritance; fresh mode isolates new candidate caches but reuses the input plan observation."
+      },
+      "complete": true,
+      "slots": 90,
+      "wall_seconds": 9.032827833900228,
+      "successful_slots": 90,
+      "failed_slots": 0
+    },
+    {
+      "group": "validation",
+      "source": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1",
+      "plan": {
+        "before": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/反馈计划_v1/before.json",
+        "cases": [
+          "case_009",
+          "case_037",
+          "case_047",
+          "case_051",
+          "case_056",
+          "case_057",
+          "case_067",
+          "case_069",
+          "case_072",
+          "case_079",
+          "case_085",
+          "case_100"
+        ],
+        "methods": [
+          "legacy",
+          "read_order",
+          "joint",
+          "interleave",
+          "feedback"
+        ],
+        "cores": 5,
+        "budget": 12,
+        "seconds": 120.0,
+        "workers": 2,
+        "per_call_timeout": 60,
+        "seed": 17,
+        "fresh_evaluations": false,
+        "jobs": [
+          [
+            "case_085",
+            "legacy"
+          ],
+          [
+            "case_057",
+            "feedback"
+          ],
+          [
+            "case_085",
+            "interleave"
+          ],
+          [
+            "case_057",
+            "interleave"
+          ],
+          [
+            "case_085",
+            "joint"
+          ],
+          [
+            "case_085",
+            "feedback"
+          ],
+          [
+            "case_057",
+            "joint"
+          ],
+          [
+            "case_079",
+            "read_order"
+          ],
+          [
+            "case_079",
+            "interleave"
+          ],
+          [
+            "case_100",
+            "feedback"
+          ],
+          [
+            "case_047",
+            "feedback"
+          ],
+          [
+            "case_072",
+            "interleave"
+          ],
+          [
+            "case_037",
+            "legacy"
+          ],
+          [
+            "case_037",
+            "read_order"
+          ],
+          [
+            "case_009",
+            "legacy"
+          ],
+          [
+            "case_067",
+            "legacy"
+          ],
+          [
+            "case_056",
+            "read_order"
+          ],
+          [
+            "case_100",
+            "legacy"
+          ],
+          [
+            "case_009",
+            "feedback"
+          ],
+          [
+            "case_100",
+            "read_order"
+          ],
+          [
+            "case_072",
+            "feedback"
+          ],
+          [
+            "case_072",
+            "read_order"
+          ],
+          [
+            "case_069",
+            "interleave"
+          ],
+          [
+            "case_067",
+            "read_order"
+          ],
+          [
+            "case_072",
+            "legacy"
+          ],
+          [
+            "case_009",
+            "joint"
+          ],
+          [
+            "case_069",
+            "feedback"
+          ],
+          [
+            "case_056",
+            "joint"
+          ],
+          [
+            "case_069",
+            "read_order"
+          ],
+          [
+            "case_079",
+            "joint"
+          ],
+          [
+            "case_047",
+            "legacy"
+          ],
+          [
+            "case_047",
+            "interleave"
+          ],
+          [
+            "case_037",
+            "feedback"
+          ],
+          [
+            "case_047",
+            "joint"
+          ],
+          [
+            "case_069",
+            "joint"
+          ],
+          [
+            "case_009",
+            "interleave"
+          ],
+          [
+            "case_069",
+            "legacy"
+          ],
+          [
+            "case_037",
+            "interleave"
+          ],
+          [
+            "case_057",
+            "legacy"
+          ],
+          [
+            "case_056",
+            "legacy"
+          ],
+          [
+            "case_067",
+            "joint"
+          ],
+          [
+            "case_051",
+            "read_order"
+          ],
+          [
+            "case_100",
+            "interleave"
+          ],
+          [
+            "case_056",
+            "feedback"
+          ],
+          [
+            "case_051",
+            "legacy"
+          ],
+          [
+            "case_009",
+            "read_order"
+          ],
+          [
+            "case_037",
+            "joint"
+          ],
+          [
+            "case_051",
+            "joint"
+          ],
+          [
+            "case_072",
+            "joint"
+          ],
+          [
+            "case_067",
+            "feedback"
+          ],
+          [
+            "case_100",
+            "joint"
+          ],
+          [
+            "case_079",
+            "legacy"
+          ],
+          [
+            "case_079",
+            "feedback"
+          ],
+          [
+            "case_047",
+            "read_order"
+          ],
+          [
+            "case_051",
+            "interleave"
+          ],
+          [
+            "case_056",
+            "interleave"
+          ],
+          [
+            "case_051",
+            "feedback"
+          ],
+          [
+            "case_085",
+            "read_order"
+          ],
+          [
+            "case_057",
+            "read_order"
+          ],
+          [
+            "case_067",
+            "interleave"
+          ]
+        ],
+        "scope": "Common recorded warm P3 incumbent; one total call/time cap; no P2 inheritance; fresh mode isolates new candidate caches but reuses the input plan observation."
+      },
+      "complete": true,
+      "slots": 60,
+      "wall_seconds": 370.8412442089757,
+      "successful_slots": 60,
+      "failed_slots": 0
+    }
+  ],
+  "per_graph_method": [
+    {
+      "group": "regression",
+      "case": "case_001",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 47502,
+      "after": 47502,
+      "status": "success",
+      "logical_calls": 6,
+      "new_calls": 0,
+      "elapsed_seconds": 0.047159292036667466,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 6
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_001/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_001",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 47502,
+      "after": 47502,
+      "status": "success",
+      "logical_calls": 6,
+      "new_calls": 0,
+      "elapsed_seconds": 0.04890812491066754,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 6
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_001/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_001",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 47502,
+      "after": 47502,
+      "status": "success",
+      "logical_calls": 5,
+      "new_calls": 0,
+      "elapsed_seconds": 0.04027345799840987,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 5
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_001/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_001",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 47502,
+      "after": 47502,
+      "status": "success",
+      "logical_calls": 6,
+      "new_calls": 0,
+      "elapsed_seconds": 0.03510779200587422,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 6
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_001/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_001",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 47502,
+      "after": 47502,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.018332208041101694,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_001/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_003",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 145413,
+      "after": 145413,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 2.1417185000609607,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_003/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_003",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 145413,
+      "after": 145413,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 2.147736749961041,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_003/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_003",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 145413,
+      "after": 145220,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.8016558339586481,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_003/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_003",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 145413,
+      "after": 145413,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.8768486250191927,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_003/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_003",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 145413,
+      "after": 145137,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.3764395420439541,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_003/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_004",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 81107,
+      "after": 81107,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11861325008794665,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_004/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_004",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 81107,
+      "after": 81107,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11383249994833022,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_004/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_004",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 81107,
+      "after": 81107,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09681670798454434,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_004/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_004",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 81107,
+      "after": 81107,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.06915687501896173,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_004/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_004",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 81107,
+      "after": 81107,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.06901162501890212,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_004/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_008",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 55855,
+      "after": 55855,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.03598695807158947,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_008/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_008",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 55855,
+      "after": 55855,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.039176124962978065,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_008/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_008",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 55855,
+      "after": 55855,
+      "status": "success",
+      "logical_calls": 2,
+      "new_calls": 0,
+      "elapsed_seconds": 0.04594529198948294,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 2
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_008/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_008",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 55855,
+      "after": 55855,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.0225663750898093,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_008/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_008",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 55855,
+      "after": 55855,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.03059208393096924,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_008/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_010",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 18758,
+      "after": 18663,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07587954099290073,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_010/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_010",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 18758,
+      "after": 18663,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07274083304218948,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_010/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_010",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 18758,
+      "after": 18678,
+      "status": "success",
+      "logical_calls": 10,
+      "new_calls": 0,
+      "elapsed_seconds": 0.061002374975942075,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 10
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_010/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_010",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 18758,
+      "after": 18544,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.0529551669023931,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_010/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_010",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 18758,
+      "after": 18678,
+      "status": "success",
+      "logical_calls": 6,
+      "new_calls": 0,
+      "elapsed_seconds": 0.029519040952436626,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 6
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_010/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_015",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 43242,
+      "after": 43242,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12282079202122986,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_015/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_015",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 43242,
+      "after": 42588,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12471850006841123,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_015/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_015",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 43242,
+      "after": 42588,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.10704525001347065,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_015/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_015",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 43242,
+      "after": 43242,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.0685904580168426,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_015/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_015",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 43242,
+      "after": 42588,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07767216698266566,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_015/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_017",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 32681,
+      "after": 32681,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.18102816701866686,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_017/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_017",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 32681,
+      "after": 32681,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.17693904205225408,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_017/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_017",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 32681,
+      "after": 32681,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.14209049998316914,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_017/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_017",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 32681,
+      "after": 32681,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09360629203729331,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_017/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_017",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 32681,
+      "after": 32681,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.10288070898968726,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_017/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_023",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 20229,
+      "after": 20229,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11087104200851172,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_023/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_023",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 20229,
+      "after": 20229,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11971008300315589,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_023/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_023",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 20229,
+      "after": 20229,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.0980122919427231,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_023/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_023",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 20229,
+      "after": 20229,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.072453000000678,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_023/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_023",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 20229,
+      "after": 20159,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.06001120898872614,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_023/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_026",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 26735,
+      "after": 26036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09504599997308105,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_026/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_026",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 26735,
+      "after": 26583,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07211508299224079,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_026/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_026",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 26735,
+      "after": 26583,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.061283999937586486,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_026/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_026",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 26735,
+      "after": 26036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.06687458290252835,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_026/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_026",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 26735,
+      "after": 26343,
+      "status": "success",
+      "logical_calls": 11,
+      "new_calls": 0,
+      "elapsed_seconds": 0.03753754193894565,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 11
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_026/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_044",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 43843,
+      "after": 43210,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.13709341594949365,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_044/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_044",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 43843,
+      "after": 43210,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.13980429095681757,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_044/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_044",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 43843,
+      "after": 43210,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11151179193984717,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_044/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_044",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 43843,
+      "after": 43210,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08107991702854633,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_044/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_044",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 43843,
+      "after": 43843,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08297516696620733,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_044/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_046",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 76087,
+      "after": 73405,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.1625862920191139,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_046/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_046",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 76087,
+      "after": 74966,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12387758295517415,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_046/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_046",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 76087,
+      "after": 76087,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09860641707200557,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_046/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_046",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 76087,
+      "after": 73405,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.06728333397768438,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_046/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_046",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 76087,
+      "after": 75770,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09309308300726116,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_046/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_052",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 34883,
+      "after": 32948,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 3,
+      "elapsed_seconds": 0.5757427919888869,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_052/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_052",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 34883,
+      "after": 32948,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.13271183299366385,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_052/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_052",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 34883,
+      "after": 32948,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.109991249977611,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_052/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_052",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 34883,
+      "after": 34613,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.0791272500064224,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_052/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_052",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 34883,
+      "after": 32948,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07614904106594622,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_052/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_070",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 26656,
+      "after": 26655,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.1553839580155909,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_070/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_070",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 26656,
+      "after": 26655,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.15485425002407283,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_070/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_070",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 26656,
+      "after": 26655,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.13080904202070087,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_070/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_070",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 26656,
+      "after": 26656,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08605920802801847,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_070/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_070",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 26656,
+      "after": 26655,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09358695801347494,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_070/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_071",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 7502,
+      "after": 7494,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09527316608000547,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_071/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_071",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 7502,
+      "after": 7494,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 2,
+      "elapsed_seconds": 0.3551622499944642,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_071/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_071",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 7502,
+      "after": 7494,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07507895899470896,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_071/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_071",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 7502,
+      "after": 7502,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.056501958053559065,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_071/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_071",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 7502,
+      "after": 7494,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.053198167006485164,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_071/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_078",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 464016,
+      "after": 463959,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.14832483301870525,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_078/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_078",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 464016,
+      "after": 463959,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.1459787500789389,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_078/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_078",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 464016,
+      "after": 464016,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12032125005498528,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_078/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_078",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 464016,
+      "after": 459213,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08682604203931987,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_078/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_078",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 464016,
+      "after": 461284,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08553745900280774,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_078/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_090",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 243470,
+      "after": 237205,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 1,
+      "elapsed_seconds": 0.6433378339279443,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_090/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_090",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 243470,
+      "after": 239504,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.24120974994730204,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_090/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_090",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 243470,
+      "after": 232265,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.19610775006003678,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_090/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_090",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 243470,
+      "after": 234641,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12934049998875707,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_090/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_090",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 243470,
+      "after": 236399,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.14477991696912795,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_090/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_094",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 21130,
+      "after": 20568,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11305516690481454,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_094/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_094",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 21130,
+      "after": 20398,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.08671491604764014,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_094/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_094",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 21130,
+      "after": 20156,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07610658300109208,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_094/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_094",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 21130,
+      "after": 20568,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.05114991695154458,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_094/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_094",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 21130,
+      "after": 20308,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.05314208404161036,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_094/read_order/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_098",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 45079,
+      "after": 44288,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.14831008308101445,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_098/feedback/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_098",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 45079,
+      "after": 44288,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.14128062489908189,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_098/interleave/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_098",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 45079,
+      "after": 44288,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.12354895798489451,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_098/joint/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_098",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 45079,
+      "after": 44288,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09071033401414752,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_098/legacy/summary.json"
+    },
+    {
+      "group": "regression",
+      "case": "case_098",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 45079,
+      "after": 45079,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.07119670906104147,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈回归_v2/case_098/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_009",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 47234,
+      "after": 47006,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 3,
+      "elapsed_seconds": 3.037582582910545,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_009/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_009",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 47234,
+      "after": 47026,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 6,
+      "elapsed_seconds": 5.523103791987523,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_009/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_009",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 47234,
+      "after": 46976,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 4,
+      "elapsed_seconds": 3.7843525840435177,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_009/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_009",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 47234,
+      "after": 47026,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 9.308012333000079,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_009/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_009",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 47234,
+      "after": 47110,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 5,
+      "elapsed_seconds": 4.357168917078525,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_009/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_037",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 43013,
+      "after": 43013,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.11553775006905198,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_037/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_037",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 43013,
+      "after": 43013,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.10675170796457678,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_037/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_037",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 43013,
+      "after": 43013,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.09681295906193554,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_037/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_037",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 43013,
+      "after": 43013,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 8,
+      "elapsed_seconds": 1.2250154169742018,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_037/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_037",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 43013,
+      "after": 43013,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 11,
+      "elapsed_seconds": 1.6401173330377787,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_037/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_047",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 93047,
+      "after": 93036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 28.272049625054933,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_047/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_047",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 93047,
+      "after": 93036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 2,
+      "elapsed_seconds": 7.847546624951065,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_047/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_047",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 93047,
+      "after": 93036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 3.1908737920457497,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_047/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_047",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 93047,
+      "after": 93047,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "elapsed_seconds": 15.535117459017783,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_047/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_047",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 93047,
+      "after": 93036,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 4,
+      "elapsed_seconds": 11.807731291977689,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_047/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_051",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 159635,
+      "after": 159635,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.16418762493412942,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_051/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_051",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 159635,
+      "after": 159635,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.17598787497263402,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_051/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_051",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 159635,
+      "after": 159635,
+      "status": "success",
+      "logical_calls": 9,
+      "new_calls": 0,
+      "elapsed_seconds": 0.10650724999140948,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 9
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_051/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_051",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 159635,
+      "after": 159635,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 11,
+      "elapsed_seconds": 2.6215565419988707,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_051/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_051",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 159635,
+      "after": 159635,
+      "status": "success",
+      "logical_calls": 5,
+      "new_calls": 5,
+      "elapsed_seconds": 1.2321679160231724,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 5
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_051/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_056",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 91994,
+      "after": 91938,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 0.9717163749737665,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_056/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_056",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 91994,
+      "after": 91938,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.0054235419956967,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_056/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_056",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 91994,
+      "after": 91897,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 11,
+      "elapsed_seconds": 12.897581957979128,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_056/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_056",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 91994,
+      "after": 91938,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "elapsed_seconds": 8.501164000015706,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_056/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_056",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 91994,
+      "after": 91957,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 13.749057209002785,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_056/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_057",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 16003,
+      "after": 16003,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.04143537499476224,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_057/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_057",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 16003,
+      "after": 16003,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.034943917067721486,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_057/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_057",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 16003,
+      "after": 16003,
+      "status": "success",
+      "logical_calls": 2,
+      "new_calls": 0,
+      "elapsed_seconds": 0.03873716702219099,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 2
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_057/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_057",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 16003,
+      "after": 16003,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.019686499959789217,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_057/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_057",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 16003,
+      "after": 16003,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.022015625028871,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_057/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_067",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 12007191,
+      "after": 11993835,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.3984725000336766,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_067/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_067",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 12007191,
+      "after": 12004782,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.4956666670041159,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_067/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_067",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 12007191,
+      "after": 11993835,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 1.1405293330317363,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_067/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_067",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 12007191,
+      "after": 12007191,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 28.14071991702076,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_067/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_067",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 12007191,
+      "after": 11993835,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 11,
+      "elapsed_seconds": 26.44760541699361,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_067/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_069",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 9390,
+      "after": 9183,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 6,
+      "elapsed_seconds": 1.1869766659801826,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_069/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_069",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 9390,
+      "after": 9268,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 1.839418041985482,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_069/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_069",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 9390,
+      "after": 9241,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 6,
+      "elapsed_seconds": 1.15955587499775,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_069/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_069",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 9390,
+      "after": 9261,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 6,
+      "elapsed_seconds": 1.0337251670425758,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_069/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_069",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 9390,
+      "after": 9390,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 5,
+      "elapsed_seconds": 0.7528184170369059,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_069/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_072",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 4795217,
+      "after": 4795217,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 3,
+      "elapsed_seconds": 27.404168249922805,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_072/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_072",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 4795217,
+      "after": 4795217,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 11,
+      "elapsed_seconds": 87.88412387506105,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_072/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_072",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 4795217,
+      "after": 4795217,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 3.392439791932702,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_072/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_072",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 4795217,
+      "after": 4795217,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 4,
+      "elapsed_seconds": 34.446077374974266,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_072/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_072",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 4795217,
+      "after": 4795217,
+      "status": "success",
+      "logical_calls": 9,
+      "new_calls": 2,
+      "elapsed_seconds": 16.58241666702088,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 9
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_072/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_079",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 6007100,
+      "after": 6001928,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 3,
+      "elapsed_seconds": 15.506715500028804,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_079/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_079",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 6007100,
+      "after": 6002122,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 5,
+      "elapsed_seconds": 20.731527500087395,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_079/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_079",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 6007100,
+      "after": 6001928,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 8,
+      "elapsed_seconds": 32.07235887495335,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_079/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_079",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 6007100,
+      "after": 6001928,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "elapsed_seconds": 30.248968417057768,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_079/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_079",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 6007100,
+      "after": 6004137,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 44.79766045906581,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_079/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_085",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 816858,
+      "after": 815053,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 0,
+      "elapsed_seconds": 3.7047904579667374,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_085/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_085",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 816858,
+      "after": 815053,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "elapsed_seconds": 44.60544995800592,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_085/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_085",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 816858,
+      "after": 815053,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 7,
+      "elapsed_seconds": 45.742346583982,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_085/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_085",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 816858,
+      "after": 815053,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 12,
+      "elapsed_seconds": 73.40467316703871,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_085/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_085",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 816858,
+      "after": 815053,
+      "status": "success",
+      "logical_calls": 12,
+      "new_calls": 5,
+      "elapsed_seconds": 30.397583459038287,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 12
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_085/read_order/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_100",
+      "method": "feedback",
+      "cores": 5,
+      "seed": 17,
+      "before": 57811,
+      "after": 57811,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.045662583084777,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_100/feedback/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_100",
+      "method": "interleave",
+      "cores": 5,
+      "seed": 17,
+      "before": 57811,
+      "after": 57811,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.04498183308169246,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_100/interleave/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_100",
+      "method": "joint",
+      "cores": 5,
+      "seed": 17,
+      "before": 57811,
+      "after": 57811,
+      "status": "success",
+      "logical_calls": 2,
+      "new_calls": 0,
+      "elapsed_seconds": 0.05760950001422316,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 2
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_100/joint/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_100",
+      "method": "legacy",
+      "cores": 5,
+      "seed": 17,
+      "before": 57811,
+      "after": 57811,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.027089625014923513,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_100/legacy/summary.json"
+    },
+    {
+      "group": "validation",
+      "case": "case_100",
+      "method": "read_order",
+      "cores": 5,
+      "seed": 17,
+      "before": 57811,
+      "after": 57811,
+      "status": "success",
+      "logical_calls": 1,
+      "new_calls": 0,
+      "elapsed_seconds": 0.025919708074070513,
+      "stop_reason": "budget_or_candidates",
+      "eval_failed_calls": 0,
+      "eval_timeout_calls": 0,
+      "eval_status_counts": {
+        "success": 1
+      },
+      "fresh_evaluations": false,
+      "error_type": null,
+      "error": null,
+      "partial_progress": null,
+      "source_summary": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/P3反馈验证_v1/case_100/read_order/summary.json"
+    }
+  ],
+  "comparisons": [
+    {
+      "group": "regression",
+      "method": "feedback",
+      "control": "legacy",
+      "selected_graph_slots": 18,
+      "valid_pairs": 18,
+      "wins": 3,
+      "ties": 12,
+      "losses": 3,
+      "mean_paired_reduction_pct": 0.11959797948111935,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.092733154052361,
+      "max_loss_case": "case_090",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 2564,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "regression",
+      "method": "feedback",
+      "control": "read_order",
+      "selected_graph_slots": 18,
+      "valid_pairs": 18,
+      "wins": 5,
+      "ties": 7,
+      "losses": 6,
+      "mean_paired_reduction_pct": 0.18284959597459227,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.5356438433361541,
+      "max_loss_case": "case_015",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 654,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "regression",
+      "method": "feedback",
+      "control": "joint",
+      "selected_graph_slots": 18,
+      "valid_pairs": 18,
+      "wins": 4,
+      "ties": 10,
+      "losses": 4,
+      "mean_paired_reduction_pct": -0.009126231873113962,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 2.126880933416575,
+      "max_loss_case": "case_090",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 4940,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "regression",
+      "method": "feedback",
+      "control": "interleave",
+      "selected_graph_slots": 18,
+      "valid_pairs": 18,
+      "wins": 3,
+      "ties": 13,
+      "losses": 2,
+      "mean_paired_reduction_pct": 0.15171249603938503,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.5356438433361541,
+      "max_loss_case": "case_015",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 654,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "validation",
+      "method": "feedback",
+      "control": "legacy",
+      "selected_graph_slots": 12,
+      "valid_pairs": 12,
+      "wins": 4,
+      "ties": 8,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.0839855540722569,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 0.0,
+      "max_loss_case": null,
+      "max_loss_group": null,
+      "max_loss_cycles": 0,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "validation",
+      "method": "feedback",
+      "control": "read_order",
+      "selected_graph_slots": 12,
+      "valid_pairs": 12,
+      "wins": 4,
+      "ties": 8,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.20689049143106375,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 0.0,
+      "max_loss_case": null,
+      "max_loss_group": null,
+      "max_loss_cycles": 0,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "validation",
+      "method": "feedback",
+      "control": "joint",
+      "selected_graph_slots": 12,
+      "valid_pairs": 12,
+      "wins": 1,
+      "ties": 9,
+      "losses": 2,
+      "mean_paired_reduction_pct": 0.04326334472890547,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 0.06386239782016911,
+      "max_loss_case": "case_009",
+      "max_loss_group": "validation",
+      "max_loss_cycles": 30,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "validation",
+      "method": "feedback",
+      "control": "interleave",
+      "selected_graph_slots": 12,
+      "valid_pairs": 12,
+      "wins": 4,
+      "ties": 8,
+      "losses": 0,
+      "mean_paired_reduction_pct": 0.0878403951055114,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 0.0,
+      "max_loss_case": null,
+      "max_loss_group": null,
+      "max_loss_cycles": 0,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "all",
+      "method": "feedback",
+      "control": "legacy",
+      "selected_graph_slots": 30,
+      "valid_pairs": 30,
+      "wins": 7,
+      "ties": 20,
+      "losses": 3,
+      "mean_paired_reduction_pct": 0.10535300931757437,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.092733154052361,
+      "max_loss_case": "case_090",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 2564,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "all",
+      "method": "feedback",
+      "control": "read_order",
+      "selected_graph_slots": 30,
+      "valid_pairs": 30,
+      "wins": 9,
+      "ties": 15,
+      "losses": 6,
+      "mean_paired_reduction_pct": 0.19246595415718085,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.5356438433361541,
+      "max_loss_case": "case_015",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 654,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "all",
+      "method": "feedback",
+      "control": "joint",
+      "selected_graph_slots": 30,
+      "valid_pairs": 30,
+      "wins": 5,
+      "ties": 19,
+      "losses": 6,
+      "mean_paired_reduction_pct": 0.011829598767693813,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 2.126880933416575,
+      "max_loss_case": "case_090",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 4940,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    },
+    {
+      "group": "all",
+      "method": "feedback",
+      "control": "interleave",
+      "selected_graph_slots": 30,
+      "valid_pairs": 30,
+      "wins": 7,
+      "ties": 21,
+      "losses": 2,
+      "mean_paired_reduction_pct": 0.12616365566583557,
+      "median_paired_reduction_pct": 0.0,
+      "max_loss_pct": 1.5356438433361541,
+      "max_loss_case": "case_015",
+      "max_loss_group": "regression",
+      "max_loss_cycles": 654,
+      "feedback_only_success": 0,
+      "control_only_success": 0,
+      "neither_success": 0,
+      "excluded_pairs": 0
+    }
+  ],
+  "excluded_comparison_pairs": [
+    {
+      "group": "regression",
+      "control": "legacy",
+      "cases": []
+    },
+    {
+      "group": "regression",
+      "control": "read_order",
+      "cases": []
+    },
+    {
+      "group": "regression",
+      "control": "joint",
+      "cases": []
+    },
+    {
+      "group": "regression",
+      "control": "interleave",
+      "cases": []
+    },
+    {
+      "group": "validation",
+      "control": "legacy",
+      "cases": []
+    },
+    {
+      "group": "validation",
+      "control": "read_order",
+      "cases": []
+    },
+    {
+      "group": "validation",
+      "control": "joint",
+      "cases": []
+    },
+    {
+      "group": "validation",
+      "control": "interleave",
+      "cases": []
+    },
+    {
+      "group": "all",
+      "control": "legacy",
+      "cases": []
+    },
+    {
+      "group": "all",
+      "control": "read_order",
+      "cases": []
+    },
+    {
+      "group": "all",
+      "control": "joint",
+      "cases": []
+    },
+    {
+      "group": "all",
+      "control": "interleave",
+      "cases": []
+    }
+  ],
+  "costs": [
+    {
+      "group": "regression",
+      "method": "all",
+      "slots": 90,
+      "successful_slots": 90,
+      "failed_slots": 0,
+      "wall_seconds": 9.032827833900228,
+      "sum_slot_elapsed_seconds": 17.68380242108833,
+      "total_logical_calls": 981,
+      "observed_logical_calls": 981,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 6,
+      "observed_new_calls": 6,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "regression",
+      "method": "legacy",
+      "slots": 18,
+      "successful_slots": 18,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 2.086237627081573,
+      "total_logical_calls": 199,
+      "observed_logical_calls": 199,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 0,
+      "observed_new_calls": 0,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "regression",
+      "method": "read_order",
+      "slots": 18,
+      "successful_slots": 18,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 2.555654712021351,
+      "total_logical_calls": 187,
+      "observed_logical_calls": 187,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 0,
+      "observed_new_calls": 0,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "regression",
+      "method": "joint",
+      "slots": 18,
+      "successful_slots": 18,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 3.496207709889859,
+      "total_logical_calls": 197,
+      "observed_logical_calls": 197,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 0,
+      "observed_new_calls": 0,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "regression",
+      "method": "interleave",
+      "slots": 18,
+      "successful_slots": 18,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 4.437471288838424,
+      "total_logical_calls": 199,
+      "observed_logical_calls": 199,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 2,
+      "observed_new_calls": 2,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "regression",
+      "method": "feedback",
+      "slots": 18,
+      "successful_slots": 18,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 5.108231083257124,
+      "total_logical_calls": 199,
+      "observed_logical_calls": 199,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 4,
+      "observed_new_calls": 4,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "all",
+      "slots": 60,
+      "successful_slots": 60,
+      "failed_slots": 0,
+      "wall_seconds": 370.8412442089757,
+      "sum_slot_elapsed_seconds": 713.1479946316686,
+      "total_logical_calls": 599,
+      "observed_logical_calls": 599,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 264,
+      "observed_new_calls": 264,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "legacy",
+      "slots": 12,
+      "successful_slots": 12,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 204.51180591911543,
+      "total_logical_calls": 122,
+      "observed_logical_calls": 122,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 86,
+      "observed_new_calls": 86,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "read_order",
+      "slots": 12,
+      "successful_slots": 12,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 151.81226241937838,
+      "total_logical_calls": 112,
+      "observed_logical_calls": 112,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 72,
+      "observed_new_calls": 72,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "joint",
+      "slots": 12,
+      "successful_slots": 12,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 103.67970566905569,
+      "total_logical_calls": 121,
+      "observed_logical_calls": 121,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 36,
+      "observed_new_calls": 36,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "interleave",
+      "slots": 12,
+      "successful_slots": 12,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 171.29492533416487,
+      "total_logical_calls": 122,
+      "observed_logical_calls": 122,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 43,
+      "observed_new_calls": 43,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    },
+    {
+      "group": "validation",
+      "method": "feedback",
+      "slots": 12,
+      "successful_slots": 12,
+      "failed_slots": 0,
+      "wall_seconds": null,
+      "sum_slot_elapsed_seconds": 81.84929528995417,
+      "total_logical_calls": 122,
+      "observed_logical_calls": 122,
+      "logical_calls_unknown_slots": 0,
+      "total_new_calls": 27,
+      "observed_new_calls": 27,
+      "new_calls_unknown_slots": 0,
+      "total_eval_failed_calls": 0,
+      "observed_eval_failed_calls": 0,
+      "eval_failed_calls_unknown_slots": 0,
+      "total_eval_timeout_calls": 0,
+      "observed_eval_timeout_calls": 0,
+      "eval_timeout_calls_unknown_slots": 0
+    }
+  ],
+  "totals": {
+    "slots": 150,
+    "successful_slots": 150,
+    "failed_slots": 0,
+    "sum_panel_wall_seconds": 379.8740720428759,
+    "sum_slot_elapsed_seconds": 730.8317970527569,
+    "logical_calls": {
+      "total": 1580,
+      "observed": 1580,
+      "unknown_slots": 0
+    },
+    "new_calls": {
+      "total": 270,
+      "observed": 270,
+      "unknown_slots": 0
+    },
+    "eval_failed_calls": {
+      "total": 0,
+      "observed": 0,
+      "unknown_slots": 0
+    },
+    "eval_timeout_calls": {
+      "total": 0,
+      "observed": 0,
+      "unknown_slots": 0
+    }
+  },
+  "overlapping_cases_between_panels": [],
+  "definitions": {
+    "paired_reduction_pct": "100 * (control_after - feedback_after) / control_after; positive is better.",
+    "win_tie_loss": "Official makespan only; COPY tie-break improvements are not counted as time wins.",
+    "max_loss_cycles": "Cycle increase on the graph with greatest relative loss, not maximum absolute cycle increase.",
+    "costs": "Panel wall is measured elapsed wall time; method rows report sum of slot wall times, not parallel makespan.",
+    "incomplete_costs": "Null totals mean at least one failed slot lacks trial counts; observed totals are lower bounds.",
+    "pooled": "All means pool fixed panel graph slots, including any overlap; no best-run, best-seed or best-method selection.",
+    "failures": "Unsuccessful or unplanned method results are excluded from numerical paired averages and reported separately.",
+    "scope": "Both panels start from supplied warm incumbents. Fresh candidate caches do not make the whole solve cold."
+  }
+}
