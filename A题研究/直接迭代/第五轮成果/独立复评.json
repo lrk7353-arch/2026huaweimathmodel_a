@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "name": "case002_final",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 78244,
+      "actual": 78244,
+      "elapsed_seconds": 0.25618625001516193
+    },
+    {
+      "name": "case024_final",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 1095114,
+      "actual": 1095114,
+      "elapsed_seconds": 1.4626654160674661
+    },
+    {
+      "name": "case014_first_candidate",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 3859241,
+      "actual": 3859241,
+      "elapsed_seconds": 13.912698499974795
+    }
+  ],
+  "records": [
+    "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/综合独立复评_v1/case002_final/attempts/20260925T110013-707a46486d89429a87e02886abe9835b/record.json",
+    "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/综合独立复评_v1/case024_final/attempts/20260925T110013-82e4e057cf16474195f17fce410d34c6/record.json",
+    "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/综合独立复评_v1/case014_first_candidate/attempts/20260925T110013-8da0f0a862a446298299361ec8be7b2a/record.json"
+  ],
+  "scope": "three fresh individual evaluations, not full cold algorithm benchmark"
+}

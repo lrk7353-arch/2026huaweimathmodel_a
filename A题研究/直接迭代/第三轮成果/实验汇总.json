@@ -1,0 +1,74 @@
+{
+  "quality": {
+    "graphs": 16,
+    "slots": 144,
+    "comparisons": {
+      "component": {
+        "wins": 5,
+        "ties": 9,
+        "losses": 2,
+        "mean_paired_time_reduction_pct": 3.885715965868187
+      },
+      "legacy": {
+        "wins": 7,
+        "ties": 9,
+        "losses": 0,
+        "mean_paired_time_reduction_pct": 4.061626453167992
+      }
+    },
+    "logical_calls": 987,
+    "fresh_calls": 130,
+    "timeouts": 0,
+    "batch_wall_seconds": 64.8897205410758,
+    "diversity": {
+      "component": {
+        "1": 12,
+        "2": 2,
+        "3": 2
+      },
+      "legacy": {
+        "1": 13,
+        "2": 1,
+        "3": 2
+      },
+      "adaptive": {
+        "1": 14,
+        "2": 1,
+        "3": 1
+      }
+    },
+    "scope": "16 selected graphs, three seeds per graph; graph-level median; shared cache; not cold runtime or full-100 evidence"
+  },
+  "task_batches": [
+    {
+      "batch": "深化任务粒度_v1",
+      "slots": 12,
+      "improved": 9,
+      "logical_calls": 48,
+      "fresh_calls": 48,
+      "wall_seconds": 362.1027269170154,
+      "statuses": {
+        "success": 43,
+        "timeout": 5
+      },
+      "skipped": {
+        "exact_duplicate": 34,
+        "necessary_bound": 10
+      }
+    },
+    {
+      "batch": "深化任务跨核_v1",
+      "slots": 12,
+      "improved": 9,
+      "logical_calls": 24,
+      "fresh_calls": 24,
+      "wall_seconds": 123.55046141694766,
+      "statuses": {
+        "success": 24
+      },
+      "skipped": {
+        "exact_duplicate": 16
+      }
+    }
+  ]
+}

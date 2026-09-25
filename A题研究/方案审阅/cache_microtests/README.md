@@ -2,7 +2,7 @@
 
 本目录是**合成小图的机制核验**，不属于100个正式case的算法性能评测，不证明任何方法在正式数据上取得同等提升。运行未修改的官方 `evaluate_problem_3`，使用题目固定参数：2核、DDR 60 B/cycle、Cache 250 B/cycle、Cache 1048576 B、L1 524288 B、UB 131072 B、跨核延迟500 cycles。每组对照中保持原图和操作分核不变，只改变合法 `core_schedules` 顺序。没有插入人工等待、预取、虚构操作或调整评估器。
 
-复现：在工作区根目录执行 `E题研究/.venv/bin/python A题研究/方案审阅/cache_order_microtests.py`。脚本仅使用标准库与本地官方模块。每例保存 `*_graph.json`、`*_plan.json`、完整 `*_result.json`，总表为 `summary.json`，官方源码与配置哈希见 `provenance.json`。
+复现：在工作区根目录执行 `python3 -B A题研究/方案审阅/cache_order_microtests.py`。脚本仅使用标准库与本地官方模块。每例保存 `*_graph.json`、`*_plan.json`、完整 `*_result.json`，总表为 `summary.json`，官方源码与配置哈希见 `provenance.json`。这些小型样例已纳入Git，克隆后可直接运行机制测试；重新生成会改写本目录结果。
 
 | 实验 | 核1子图顺序 | makespan | COPY_IN命中次数 | 字节命中率 |
 |---|---|---:|---:|---:|

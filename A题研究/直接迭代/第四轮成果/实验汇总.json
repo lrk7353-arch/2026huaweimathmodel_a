@@ -1,0 +1,141 @@
+{
+  "panels": [
+    {
+      "name": "融合开发_v1",
+      "label": "开发16图",
+      "graphs": 16,
+      "slots": 144,
+      "reference": "hybrid",
+      "comparisons": {
+        "component": {
+          "wins": 8,
+          "ties": 8,
+          "losses": 0,
+          "mean_paired_time_reduction_pct": 4.3169475333340035
+        },
+        "adaptive": {
+          "wins": 7,
+          "ties": 8,
+          "losses": 1,
+          "mean_paired_time_reduction_pct": 0.14404013879756664
+        }
+      },
+      "logical_calls": 1264,
+      "fresh_calls": 205,
+      "timeouts": 0,
+      "batch_wall_seconds": 87.13913779100403,
+      "diversity": {
+        "component": {
+          "1": 12,
+          "2": 2,
+          "3": 2
+        },
+        "adaptive": {
+          "1": 14,
+          "2": 1,
+          "3": 1
+        },
+        "hybrid": {
+          "1": 13,
+          "2": 1,
+          "3": 2
+        }
+      },
+      "scope": "selected graphs, repeated seeds per graph; graph-level median; shared cache; not cold runtime or full-100 evidence"
+    },
+    {
+      "name": "融合扩展_v1",
+      "label": "扩展8图",
+      "graphs": 8,
+      "slots": 72,
+      "reference": "hybrid",
+      "comparisons": {
+        "component": {
+          "wins": 5,
+          "ties": 3,
+          "losses": 0,
+          "mean_paired_time_reduction_pct": 15.800042330398735
+        },
+        "adaptive": {
+          "wins": 4,
+          "ties": 4,
+          "losses": 0,
+          "mean_paired_time_reduction_pct": 0.677009594076887
+        }
+      },
+      "logical_calls": 665,
+      "fresh_calls": 169,
+      "timeouts": 0,
+      "batch_wall_seconds": 112.73123799997848,
+      "diversity": {
+        "component": {
+          "1": 6,
+          "3": 2
+        },
+        "adaptive": {
+          "1": 7,
+          "3": 1
+        },
+        "hybrid": {
+          "3": 4,
+          "1": 3,
+          "2": 1
+        }
+      },
+      "scope": "selected graphs, repeated seeds per graph; graph-level median; shared cache; not cold runtime or full-100 evidence"
+    }
+  ],
+  "batches": [
+    {
+      "batch": "融合张量精修_v1",
+      "configs": 3,
+      "improved": 1,
+      "logical_calls": 6,
+      "fresh_calls": 6,
+      "wall_seconds": 64.72746037505567,
+      "statuses": {
+        "success": 6
+      }
+    },
+    {
+      "batch": "融合张量跨核_v1",
+      "configs": 3,
+      "improved": 3,
+      "logical_calls": 6,
+      "fresh_calls": 6,
+      "wall_seconds": 100.83069804206025,
+      "statuses": {
+        "success": 6
+      }
+    },
+    {
+      "batch": "融合张量细化_v1",
+      "configs": 1,
+      "improved": 1,
+      "logical_calls": 2,
+      "fresh_calls": 2,
+      "wall_seconds": 21.943937124917284,
+      "statuses": {
+        "success": 2
+      }
+    },
+    {
+      "batch": "融合张量跨核细化_v1",
+      "configs": 3,
+      "improved": 3,
+      "logical_calls": 5,
+      "fresh_calls": 5,
+      "wall_seconds": 31.32730966701638,
+      "statuses": {
+        "success": 5
+      }
+    }
+  ],
+  "independent_replay": {
+    "makespan": 3304638,
+    "fresh_calls": 1,
+    "elapsed_seconds": 10.768371124984697,
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/融合独立复评_v1/initial_evaluation/attempts/20260925T020657-21f1db33d76b4c5f9d6cf21f2784ffea/record.json"
+  },
+  "scope": "same-call-cap small/medium panels and additional-budget targeted tensor-region research are separate"
+}

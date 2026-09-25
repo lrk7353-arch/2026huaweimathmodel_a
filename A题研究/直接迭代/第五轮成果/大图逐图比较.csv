@@ -1,0 +1,5 @@
+﻿case,adaptive,hybrid,portfolio,portfolio_diverse,portfolio_diverse_vs_adaptive_reduction_pct,portfolio_diverse_vs_hybrid_reduction_pct,portfolio_diverse_vs_portfolio_reduction_pct
+case_014,,,,3641147,,,
+case_047,325792,323254,325792,325792,0.0,-0.7851410964752281,0.0
+case_053,492699,489929,470274,470274,4.551460425127718,4.0118057922678645,0.0
+case_063,464830,463765,286820,286820,38.29572101628552,38.15402197233513,0.0

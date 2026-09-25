@@ -1,0 +1,10 @@
+﻿group,method,control,cases,wins,ties,losses,mean_paired_reduction_pct
+development,read_order,legacy,10,4,4,2,0.16544720523792522
+development,joint,legacy,10,4,5,1,0.3809286672084622
+development,joint,read_order,10,2,7,1,0.21499724234134376
+extension,read_order,legacy,8,3,0,5,-0.3745223284443336
+extension,joint,legacy,8,3,2,3,-0.21885800964821928
+extension,joint,read_order,8,2,2,4,0.1524511006118029
+all,read_order,legacy,18,7,4,7,-0.07453925417641202
+all,joint,legacy,18,7,7,4,0.11435681082771487
+all,joint,read_order,18,4,9,5,0.1871989571282145

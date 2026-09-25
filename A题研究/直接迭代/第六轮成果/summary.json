@@ -1,0 +1,127 @@
+{
+  "coverage": 1500,
+  "previous_coverage": 1500,
+  "new_coverage": 0,
+  "missing": [],
+  "objective_improved": 25,
+  "strict_time_improved": 25,
+  "regressions": 0,
+  "groups": [
+    {
+      "problem": 1,
+      "cores": 2,
+      "cases": 100,
+      "before_mean_speedup": 1.7845240217708962,
+      "after_mean_speedup": 1.7845240217708962,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 1,
+      "cores": 3,
+      "cases": 100,
+      "before_mean_speedup": 2.4258366812151126,
+      "after_mean_speedup": 2.4258366812151126,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 1,
+      "cores": 4,
+      "cases": 100,
+      "before_mean_speedup": 3.031382274785021,
+      "after_mean_speedup": 3.031382274785021,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 1,
+      "cores": 5,
+      "cases": 100,
+      "before_mean_speedup": 3.572486956614837,
+      "after_mean_speedup": 3.576101091454332,
+      "mean_paired_time_reduction_pct": 0.245852690761037,
+      "strict_time_improved": 3
+    },
+    {
+      "problem": 2,
+      "cores": 2,
+      "cases": 100,
+      "before_mean_speedup": 2.0420107113779897,
+      "after_mean_speedup": 2.0420107113779897,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 2,
+      "cores": 3,
+      "cases": 100,
+      "before_mean_speedup": 2.897896084195691,
+      "after_mean_speedup": 2.897896084195691,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 2,
+      "cores": 4,
+      "cases": 100,
+      "before_mean_speedup": 3.606766851120958,
+      "after_mean_speedup": 3.606766851120958,
+      "mean_paired_time_reduction_pct": 0.0,
+      "strict_time_improved": 0
+    },
+    {
+      "problem": 2,
+      "cores": 5,
+      "cases": 100,
+      "before_mean_speedup": 4.3288440263597,
+      "after_mean_speedup": 4.334517565184253,
+      "mean_paired_time_reduction_pct": 0.12238244603531534,
+      "strict_time_improved": 5
+    },
+    {
+      "problem": 3,
+      "cores": 2,
+      "cases": 100,
+      "before_mean_speedup": 2.0479064324567084,
+      "after_mean_speedup": 2.0483501485922906,
+      "mean_paired_time_reduction_pct": 0.0193320366241283,
+      "strict_time_improved": 1
+    },
+    {
+      "problem": 3,
+      "cores": 3,
+      "cases": 100,
+      "before_mean_speedup": 2.9144084843317906,
+      "after_mean_speedup": 2.9147717447600945,
+      "mean_paired_time_reduction_pct": 0.011376867037024674,
+      "strict_time_improved": 1
+    },
+    {
+      "problem": 3,
+      "cores": 4,
+      "cases": 100,
+      "before_mean_speedup": 3.6402883331645577,
+      "after_mean_speedup": 3.641775579313945,
+      "mean_paired_time_reduction_pct": 0.03233713407333827,
+      "strict_time_improved": 1
+    },
+    {
+      "problem": 3,
+      "cores": 5,
+      "cases": 100,
+      "before_mean_speedup": 4.415382461028566,
+      "after_mean_speedup": 4.42846590611176,
+      "mean_paired_time_reduction_pct": 0.2843142256464053,
+      "strict_time_improved": 14
+    }
+  ],
+  "coverage_by_cores": {
+    "1": 300,
+    "2": 300,
+    "3": 300,
+    "4": 300,
+    "5": 300
+  },
+  "scope": "cumulative official-evaluated best plans; added budget varies; not equal-budget algorithm ranking"
+}

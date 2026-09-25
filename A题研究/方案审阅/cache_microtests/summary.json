@@ -1,0 +1,385 @@
+{
+  "kind": "synthetic mechanism verification; not benchmark performance",
+  "fixed_parameters": {
+    "bandwidth": 60,
+    "capacity": {
+      "L1": 524288,
+      "UB": 131072
+    },
+    "cross_core_copy_delay": 500,
+    "cache_capacity_bytes": 1048576,
+    "cache_bandwidth_bytes_per_cycle": 250
+  },
+  "cases": [
+    {
+      "case": "simultaneous_cold_reads",
+      "makespan": 410,
+      "cache_stats": {
+        "copy_in_hits": 0,
+        "copy_in_misses": 2,
+        "hit_bytes": 0,
+        "miss_bytes": 12000,
+        "hits": 0,
+        "accesses": 2,
+        "hit_rate": 0.0
+      },
+      "cache_events": [
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 0,
+          "op_id": 16,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 18,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "used_bytes": 6000,
+          "evicted_tensor_ids": [],
+          "core_id": 0,
+          "op_id": 16
+        }
+      ],
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 18000,
+        "scheduled_copy_bytes": 24000,
+        "added_copy_bytes": 6000,
+        "partition_added_copy_bytes": 6000,
+        "spill_added_copy_bytes": 0
+      },
+      "core_schedules": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "case": "short_compute_simultaneous",
+      "makespan": 313,
+      "cache_stats": {
+        "copy_in_hits": 0,
+        "copy_in_misses": 3,
+        "hit_bytes": 0,
+        "miss_bytes": 18000,
+        "hits": 0,
+        "accesses": 3,
+        "hit_rate": 0.0
+      },
+      "cache_events": [
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 0,
+          "op_id": 204,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 206,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "used_bytes": 6000,
+          "evicted_tensor_ids": [],
+          "core_id": 0,
+          "op_id": 204
+        },
+        {
+          "time": 200,
+          "event": "miss",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 208,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 302,
+          "event": "insert",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "used_bytes": 12000,
+          "evicted_tensor_ids": [],
+          "core_id": 1,
+          "op_id": 208
+        }
+      ],
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 12180,
+        "scheduled_copy_bytes": 18180,
+        "added_copy_bytes": 6000,
+        "partition_added_copy_bytes": 6000,
+        "spill_added_copy_bytes": 0
+      },
+      "core_schedules": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "short_compute_staggered",
+      "makespan": 235,
+      "cache_stats": {
+        "copy_in_hits": 1,
+        "copy_in_misses": 2,
+        "hit_bytes": 6000,
+        "miss_bytes": 12000,
+        "hits": 1,
+        "accesses": 3,
+        "hit_rate": 0.3333333333333333
+      },
+      "cache_events": [
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 0,
+          "op_id": 204,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 208,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "used_bytes": 6000,
+          "evicted_tensor_ids": [],
+          "core_id": 0,
+          "op_id": 204
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "used_bytes": 12000,
+          "evicted_tensor_ids": [],
+          "core_id": 1,
+          "op_id": 208
+        },
+        {
+          "time": 200,
+          "event": "hit",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 206,
+          "op": "COPY_IN"
+        }
+      ],
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 12180,
+        "scheduled_copy_bytes": 18180,
+        "added_copy_bytes": 6000,
+        "partition_added_copy_bytes": 6000,
+        "spill_added_copy_bytes": 0
+      },
+      "core_schedules": [
+        [
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "long_follower_compute_simultaneous",
+      "makespan": 3211,
+      "cache_stats": {
+        "copy_in_hits": 0,
+        "copy_in_misses": 3,
+        "hit_bytes": 0,
+        "miss_bytes": 18000,
+        "hits": 0,
+        "accesses": 3,
+        "hit_rate": 0.0
+      },
+      "cache_events": [
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 0,
+          "op_id": 204,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 206,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "used_bytes": 6000,
+          "evicted_tensor_ids": [],
+          "core_id": 0,
+          "op_id": 204
+        },
+        {
+          "time": 200,
+          "event": "miss",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 208,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 301,
+          "event": "insert",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "used_bytes": 12000,
+          "evicted_tensor_ids": [],
+          "core_id": 1,
+          "op_id": 208
+        }
+      ],
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 12180,
+        "scheduled_copy_bytes": 18180,
+        "added_copy_bytes": 6000,
+        "partition_added_copy_bytes": 6000,
+        "spill_added_copy_bytes": 0
+      },
+      "core_schedules": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "long_follower_compute_staggered",
+      "makespan": 3225,
+      "cache_stats": {
+        "copy_in_hits": 1,
+        "copy_in_misses": 2,
+        "hit_bytes": 6000,
+        "miss_bytes": 12000,
+        "hits": 1,
+        "accesses": 3,
+        "hit_rate": 0.3333333333333333
+      },
+      "cache_events": [
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 0,
+          "op_id": 204,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 0,
+          "event": "miss",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 208,
+          "op": "COPY_IN"
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "used_bytes": 6000,
+          "evicted_tensor_ids": [],
+          "core_id": 0,
+          "op_id": 204
+        },
+        {
+          "time": 200,
+          "event": "insert",
+          "tensor_id": 4,
+          "size_bytes": 6000,
+          "used_bytes": 12000,
+          "evicted_tensor_ids": [],
+          "core_id": 1,
+          "op_id": 208
+        },
+        {
+          "time": 200,
+          "event": "hit",
+          "tensor_id": 2,
+          "size_bytes": 6000,
+          "core_id": 1,
+          "op_id": 206,
+          "op": "COPY_IN"
+        }
+      ],
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 12180,
+        "scheduled_copy_bytes": 18180,
+        "added_copy_bytes": 6000,
+        "partition_added_copy_bytes": 6000,
+        "spill_added_copy_bytes": 0
+      },
+      "core_schedules": [
+        [
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ]
+}

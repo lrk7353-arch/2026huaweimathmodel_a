@@ -1,0 +1,84 @@
+{
+  "complete": true,
+  "completed": 4,
+  "expected": 4,
+  "rows": [
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        20156,
+        283776
+      ],
+      "actual": [
+        20156,
+        283776
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.17926241597160697,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112218-02dccf15dd294f36b816b6b1305af3a2/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/缓存独立复评_v1/case_094_p3_n5/attempts/20260925T112553-2494702a6bf54a02a3980b4f638b5519/record.json"
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        32948,
+        328704
+      ],
+      "actual": [
+        32948,
+        328704
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.20908541604876518,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112222-85625e26cceb4161866c241021fe4960/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/缓存独立复评_v1/case_052_p3_n5/attempts/20260925T112553-1e26b1028e524bb6b09d229f320bdf9a/record.json"
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        232265,
+        10140672
+      ],
+      "actual": [
+        232265,
+        10140672
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.3987874999875203,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112220-98372208e60144e38fa480b1db8e4852/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/缓存独立复评_v1/case_090_p3_n5/attempts/20260925T112553-5201cf1bff8c4d75adadce31b48576c8/record.json"
+    },
+    {
+      "case": "case_052",
+      "problem": 2,
+      "cores": 5,
+      "status": "success",
+      "new_call": true,
+      "expected": [
+        32948,
+        328704
+      ],
+      "actual": [
+        32948,
+        328704
+      ],
+      "matches": true,
+      "elapsed_seconds": 0.15287504193838686,
+      "source_record": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T112218-f3a399be065249f48e09bae3736152b9/record.json",
+      "record": "/Users/liyu/Desktop/中文题目/A题研究/直接迭代/运行结果/缓存独立复评_v1/case_052_p2_n5/attempts/20260925T112553-baeca9169c5046c6ae4e1fecd50dd4fa/record.json"
+    }
+  ],
+  "wall_seconds": 0.5423019590089098
+}

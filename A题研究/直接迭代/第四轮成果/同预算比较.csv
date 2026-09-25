@@ -1,0 +1,5 @@
+﻿group,reference,control,wins,ties,losses,mean_paired_time_reduction_pct
+开发16图,hybrid,component,8,8,0,4.3169475333340035
+开发16图,hybrid,adaptive,7,8,1,0.14404013879756664
+扩展8图,hybrid,component,5,3,0,15.800042330398735
+扩展8图,hybrid,adaptive,4,4,0,0.677009594076887

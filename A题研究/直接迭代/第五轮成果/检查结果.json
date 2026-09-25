@@ -1,0 +1,57 @@
+{
+  "exported": 1500,
+  "complete_unique_coverage": true,
+  "official_record_alignment": true,
+  "plan_content_alignment": true,
+  "changed_dags_validated": 12,
+  "strict_time_improvements": 11,
+  "equal_time_copy_improvements": 1,
+  "objective_regressions": 0,
+  "syntax": "passed",
+  "mechanism_tests": 9,
+  "git_diff_check": "passed",
+  "independent_fresh_replays": [
+    {
+      "name": "case002_final",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 78244,
+      "actual": 78244,
+      "elapsed_seconds": 0.25618625001516193
+    },
+    {
+      "name": "case024_final",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 1095114,
+      "actual": 1095114,
+      "elapsed_seconds": 1.4626654160674661
+    },
+    {
+      "name": "case014_first_candidate",
+      "status": "success",
+      "matches": true,
+      "new_call": true,
+      "expected": 3859241,
+      "actual": 3859241,
+      "elapsed_seconds": 13.912698499974795
+    }
+  ],
+  "from_scratch_cli": {
+    "case_016": {
+      "makespan": 3304638,
+      "logical_calls": 10,
+      "new_calls": 0
+    },
+    "case_024": {
+      "makespan": 1095114,
+      "logical_calls": 12,
+      "new_calls": 0
+    }
+  },
+  "budget_summaries_checked": 391,
+  "completed_search_batches": 8,
+  "scope": "All exported plans aligned with prior successful official records; 12 changed DAGs validated; three fresh single-plan evaluations. No full 1500-plan rerun or full cold-search benchmark."
+}

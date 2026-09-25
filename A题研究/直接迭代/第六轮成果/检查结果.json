@@ -1,0 +1,40 @@
+{
+  "exported": 1500,
+  "unique_complete_coverage": true,
+  "official_record_alignment": true,
+  "plan_content_alignment": true,
+  "changed_dags_validated": 25,
+  "strict_time_improvements": 25,
+  "objective_regressions": 0,
+  "syntax": "passed",
+  "mechanism_tests": 12,
+  "git_diff_check": "passed",
+  "official_files_unchanged_in_git": true,
+  "p3_search_slots_checked": 63,
+  "p3_fixed_mapping_trials_checked": 187,
+  "p2_p3_paired_evaluations_checked": 104,
+  "full_cold_searches": [
+    {
+      "case": "case_075",
+      "calls": 12,
+      "seconds": 36.156150334049016,
+      "makespan": 1322078
+    },
+    {
+      "case": "case_085",
+      "calls": 12,
+      "seconds": 142.3261014999589,
+      "makespan": 2760933
+    },
+    {
+      "case": "case_043",
+      "calls": 12,
+      "seconds": 48.179615000030026,
+      "makespan": 222525
+    }
+  ],
+  "independent_fresh_replays": 4,
+  "portable_read_order_cli": 20308,
+  "portable_joint_cli": 20156,
+  "scope": "Export aligns with successful official records; all changed DAGs revalidated. Four fresh individual replays plus three complete empty-cache P1 searches, not a fresh rerun of all 1500 plans."
+}

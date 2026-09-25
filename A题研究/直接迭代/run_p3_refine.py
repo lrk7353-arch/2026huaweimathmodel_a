@@ -4,7 +4,8 @@ from common_run import *
 from advanced_solver.cache_refine import generate_cache_candidates
 
 def exact(p):return json.dumps(p,ensure_ascii=False,separators=(',',':'))
-def run(case,old,p2,out,budget=8,seconds=180):
+def run(case,old,p2,out,budget=8,seconds=180,cores=5):
+ if key(old)!=(case,3,cores) or (p2 is not None and key(p2)!=(case,2,cores)):raise ValueError('Incumbent case/problem/core mismatch')
  out=Path(out);out.mkdir(exist_ok=False,parents=True);start=time.monotonic();deadline=start+seconds
  ir=GraphIR.from_path(DATA/(case+'.json'));best=old;plan=read_json(old['plan_path']);seen={exact(plan)};calls=[];phases=[]
  def apply(c,phase):
@@ -17,12 +18,12 @@ def run(case,old,p2,out,budget=8,seconds=180):
   calls.append({'name':c['name'],'phase':phase,'record':rec,'accepted':ok})
   if ok:best=rec;plan=c['plan'];atomic_json(out/'best.plan.json',plan)
   atomic_json(out/'progress.json',{'case':case,'before':score(old)[0],'best_time':score(best)[0],'calls':len(calls)})
- apply({'name':'inherit_P2_plan','plan':read_json(p2['plan_path'])},'cross_problem')
- phases.append({'phase':'after_P2','makespan':score(best)[0]})
+ if p2 is not None:apply({'name':'inherit_P2_plan','plan':read_json(p2['plan_path'])},'cross_problem')
+ phases.append({'phase':'after_P2','makespan':score(best)[0],'P2_source_available':p2 is not None})
  for rd in range(2):
   if len(calls)>=budget or time.monotonic()>=deadline:break
   with gzip.open(best['result_path'],'rt') as f:raw=json.load(f)
-  cs,diag=generate_cache_candidates(ir,plan,raw,num_cores=5,max_candidates=12,round_index=rd,seed=17)
+  cs,diag=generate_cache_candidates(ir,plan,raw,num_cores=cores,max_candidates=12,round_index=rd,seed=17)
   controls=[c for c in cs if c['metadata']['is_reencoding_control']]
   others=[c for c in cs if not c['metadata']['is_reencoding_control']]
   before=score(best)[0]
@@ -41,7 +42,7 @@ def run(case,old,p2,out,budget=8,seconds=180):
    apply(c,'cache_guided')
   phases.append({'round':rd,'before':before,'after_control':ctrl,'after_guided':score(best)[0]})
  atomic_json(out/'best.plan.json',plan)
- s={'case':case,'problem':3,'num_cores':5,'before':score(old)[0],'after':score(best)[0], 'best_record':best,'logical_calls':len(calls),
+ s={'case':case,'problem':3,'num_cores':cores,'before':score(old)[0],'after':score(best)[0], 'best_record':best,'logical_calls':len(calls),
   'new_calls':sum(not c['record']['cache_hit'] for c in calls),'calls':calls,'phases':phases,'elapsed_seconds':time.monotonic()-start,
   'stop_reason':'time_budget' if time.monotonic()>=deadline else 'budget_or_candidates','scope':'extra-budget refinement of current portfolio; no from-scratch fairness claim'}
  atomic_json(out/'summary.json',s);return s

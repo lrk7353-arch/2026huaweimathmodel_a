@@ -34,11 +34,28 @@ def known(include_direct=True):
  for p in (R/'直接迭代/运行结果').glob('P3*/case_*/summary.json'):
   s=read_json(p)
   if s.get('best_record'):add(s['best_record'])
+ for p in (R/'直接迭代/运行结果').glob('P3读序归因*/case_*/summary.json'):
+  for pair in read_json(p).get('records',{}).values():
+   for record in pair.values():add(record)
  for p in (R/'直接迭代/运行结果').glob('P2五核对照*/case_*/summary.json'):
   s=read_json(p)
   if s.get('best'):add(s['best']['record'])
  for p in (R/'直接迭代/运行结果').glob('P3五核四格*/case_*/*.json'):
   if p.name.startswith('t'):add(read_json(p))
+ for p in (R/'直接迭代/运行结果').glob('推广*/slots/case_*/p*_n*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('深化*/slots/case_*/p*_n*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('深化等预算*/case_*/*/seed*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('融合*/case_*/*/seed*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('融合*/slots/case_*/p*_n*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('综合*/case_*/*/seed*/summary.json'):
+  add(read_json(p).get('best_record'))
+ for p in (R/'直接迭代/运行结果').glob('综合*/slots/case_*/p*_n*/summary.json'):
+  add(read_json(p).get('best_record'))
  return best
 
 def write_csv(p,rows):

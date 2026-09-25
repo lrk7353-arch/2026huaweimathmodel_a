@@ -1,0 +1,170 @@
+{
+  "tensors": [
+    {
+      "id": 1,
+      "pos": "DDR",
+      "size": 6000
+    },
+    {
+      "id": 2,
+      "pos": "UB",
+      "size": 6000
+    },
+    {
+      "id": 3,
+      "pos": "DDR",
+      "size": 6000
+    },
+    {
+      "id": 4,
+      "pos": "UB",
+      "size": 6000
+    },
+    {
+      "id": 5,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 6,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 7,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 8,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 9,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 10,
+      "pos": "DDR",
+      "size": 60
+    }
+  ],
+  "ops": [
+    {
+      "id": 100,
+      "op": "COPY_IN",
+      "pipe": "PIPE_MTE2",
+      "cycles": 1
+    },
+    {
+      "id": 101,
+      "op": "COPY_IN",
+      "pipe": "PIPE_MTE2",
+      "cycles": 1
+    },
+    {
+      "id": 102,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 1
+    },
+    {
+      "id": 103,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 1
+    },
+    {
+      "id": 104,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 1
+    },
+    {
+      "id": 200,
+      "op": "ADD",
+      "pipe": "PIPE_V",
+      "cycles": 10
+    },
+    {
+      "id": 201,
+      "op": "ADD",
+      "pipe": "PIPE_V",
+      "cycles": 10
+    },
+    {
+      "id": 202,
+      "op": "ADD",
+      "pipe": "PIPE_V",
+      "cycles": 10
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 100
+    },
+    {
+      "source": 100,
+      "target": 2
+    },
+    {
+      "source": 3,
+      "target": 101
+    },
+    {
+      "source": 101,
+      "target": 4
+    },
+    {
+      "source": 2,
+      "target": 200
+    },
+    {
+      "source": 200,
+      "target": 5
+    },
+    {
+      "source": 5,
+      "target": 102
+    },
+    {
+      "source": 102,
+      "target": 6
+    },
+    {
+      "source": 2,
+      "target": 201
+    },
+    {
+      "source": 201,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": 103
+    },
+    {
+      "source": 103,
+      "target": 8
+    },
+    {
+      "source": 4,
+      "target": 202
+    },
+    {
+      "source": 202,
+      "target": 9
+    },
+    {
+      "source": 9,
+      "target": 104
+    },
+    {
+      "source": 104,
+      "target": 10
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "graphs": 24,
+  "slots": 288,
+  "reference": "portfolio_diverse",
+  "comparisons": {
+    "adaptive": {
+      "valid_pairs": 24,
+      "reference_only_feasible": 0,
+      "control_only_feasible": 0,
+      "neither_feasible": 0,
+      "wins": 12,
+      "ties": 12,
+      "losses": 0,
+      "mean_paired_time_reduction_pct": 4.517119981337944
+    },
+    "hybrid": {
+      "valid_pairs": 24,
+      "reference_only_feasible": 0,
+      "control_only_feasible": 0,
+      "neither_feasible": 0,
+      "wins": 4,
+      "ties": 19,
+      "losses": 1,
+      "mean_paired_time_reduction_pct": 4.189675259125917
+    },
+    "portfolio": {
+      "valid_pairs": 24,
+      "reference_only_feasible": 0,
+      "control_only_feasible": 0,
+      "neither_feasible": 0,
+      "wins": 1,
+      "ties": 23,
+      "losses": 0,
+      "mean_paired_time_reduction_pct": 0.1979832298322983
+    }
+  },
+  "logical_calls": 2609,
+  "fresh_calls": 33,
+  "timeouts": 0,
+  "infeasible_slots": 0,
+  "time_budget_stops": 0,
+  "batch_wall_seconds": null,
+  "diversity": {
+    "adaptive": {
+      "1": 21,
+      "2": 1,
+      "3": 2
+    },
+    "hybrid": {
+      "3": 6,
+      "1": 16,
+      "2": 2
+    },
+    "portfolio": {
+      "2": 3,
+      "1": 17,
+      "3": 4
+    },
+    "portfolio_diverse": {
+      "2": 3,
+      "1": 17,
+      "3": 4
+    }
+  },
+  "scope": "selected graphs, repeated seeds per graph; graph-level median; shared cache; not cold runtime or full-100 evidence"
+}

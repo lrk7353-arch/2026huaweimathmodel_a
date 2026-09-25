@@ -1,0 +1,33 @@
+{
+  "case": "case_016",
+  "compute_ops": 17995,
+  "work_by_pipe": {
+    "PIPE_V": 7714975
+  },
+  "direct_compute_critical_path": 655140,
+  "compute_capacity_bound_5core": 1542995,
+  "old_makespan": 7715523,
+  "old_fixed_plan_bound": 7714975,
+  "new_makespan": 3304638,
+  "new_fixed_task_bound": 2327355,
+  "new_fixed_ddr_bound": 2011773,
+  "old_copy": {
+    "original_graph_copy_bytes": 393218,
+    "scheduled_copy_bytes": 393218,
+    "added_copy_bytes": 0,
+    "partition_added_copy_bytes": 0,
+    "spill_added_copy_bytes": 0
+  },
+  "new_copy": {
+    "original_graph_copy_bytes": 393218,
+    "scheduled_copy_bytes": 119950386,
+    "added_copy_bytes": 119557168,
+    "partition_added_copy_bytes": 119557168,
+    "spill_added_copy_bytes": 0
+  },
+  "tensor_size_counts": {
+    "32768": 11004,
+    "2": 7016
+  },
+  "scope": "global compute bounds omit DDR; fixed-plan bounds do not transfer to other partitions"
+}

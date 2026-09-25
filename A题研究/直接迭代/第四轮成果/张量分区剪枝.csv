@@ -1,0 +1,6 @@
+﻿batch,case,cores,name,tensor_threshold,cheap_cycles,heavy_links,cheap_links,initial_groups,tasks,scc_groups_eliminated,active_limit,task_bound,ddr_bound,lower_bound,proxy,mandatory_boundary_bytes,reason,task_count,max_task_ops,core_ownership_preserved
+融合张量精修_v1,case_062,5,tensor4096_cheap64_active5,4096,64,0,4360,15276,15276,0,5,1034192,1523088,1523088,1425155.1999999627,90494976,,,,
+融合张量精修_v1,case_062,5,tensor4096_cheap64_active3,4096,64,0,4360,15276,15276,0,3,1618512,1523088,1618512,2195663.9999999437,90494976,,,,
+融合张量精修_v1,case_062,5,tensor4096_cheap0_active5,4096,0,0,0,19636,19636,0,5,998600,1749808,1749808,1344517.5999999028,103888896,,,,
+融合张量精修_v1,case_062,5,tensor4096_cheap0_active3,4096,0,0,0,19636,19636,0,3,1660560,1749808,1749808,2237353.59999985,103888896,,,,
+融合张量跨核细化_v1,case_016,2,merge16,,,,,,,,,4882379,2010861,4882379,,119948562,necessary_bound,1525,16,True

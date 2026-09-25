@@ -1,0 +1,17 @@
+﻿case,method,seed,makespan,logical_calls,new_calls,elapsed_seconds,timeouts,stop_reason,winner_plan
+case_053,adaptive,17,492699,12,4,10.272017666953616,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T104806-c5f5445768bb48d6b42dbc2b60f87957/plan.json
+case_063,hybrid,17,463765,12,4,19.190310375066474,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T104810-6ceb85f3dfc1479ca7f52174ed0a6f44/plan.json
+case_047,hybrid,17,323254,12,6,17.86577491706703,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T104826-fd4a58a23d3b4ab5be98c3c0872db4f7/plan.json
+case_063,adaptive,17,464830,12,3,22.14072791603394,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T104835-40ebed523fa747ceb23dbfb32b36e3f2/plan.json
+case_063,portfolio,17,286820,12,2,8.54641366598662,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T104902-05a3f2cde6bd437f94952bc372e6a047/plan.json
+case_014,portfolio,17,,3,3,180.03361379203852,3,time_budget,
+case_053,portfolio,17,470274,12,4,38.86011466709897,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105148-388c3eebcf104daca877672e558a7d48/plan.json
+case_014,adaptive,17,,3,3,180.0378092500614,3,time_budget,
+case_047,portfolio,17,325792,12,2,44.027001542039216,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105248-fde4976d4da4499681617ae2ad402b54/plan.json
+case_053,hybrid,17,489929,12,4,38.23535329196602,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105321-28592e0e274a477794d6adf1479a30ee/plan.json
+case_047,adaptive,17,325792,12,1,6.428464374970645,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105328-110ea7384a314bcb999b24baa6e0c97a/plan.json
+case_014,hybrid,17,,3,3,180.03117437497713,3,time_budget,
+case_053,portfolio_diverse,17,470274,12,1,10.224471666035242,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105304-50c479419f0943ca9e25b7e35512112f/plan.json
+case_063,portfolio_diverse,17,286820,12,0,4.006611916003749,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105308-43abb8650c5a4bc097447a8beebb75ae/plan.json
+case_047,portfolio_diverse,17,325792,12,2,9.825087875011377,0,budget_or_pool_exhausted,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105314-8b175a6764f445e5885b2a7b49e8721b/plan.json
+case_014,portfolio_diverse,17,3641147,11,3,180.03222599998116,3,time_budget,/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/formal_v2/evaluations/attempts/20260925T105511-98a9923d4f1a43608efbd23cb9409939/plan.json

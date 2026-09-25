@@ -6,10 +6,11 @@ from p1_selective import generate_selective_candidates,task_lower_bound
 from advanced_solver.engine import generate_coarse_p1_candidates
 
 def exact(p):return json.dumps(p,ensure_ascii=False,separators=(',',':'))
-def run(case,old,out,budget,seconds):
+def run(case,old,out,budget,seconds,cores=5):
+ if key(old)!=(case,1,cores):raise ValueError('Incumbent case/problem/core mismatch')
  out=Path(out);out.mkdir(parents=True,exist_ok=False);t=time.monotonic();deadline=t+seconds;ir=GraphIR.from_path(DATA/(case+'.json'));best=old;plan=read_json(old['plan_path']);seen={exact(plan)};calls=[];skips=[]
- cs,diag=generate_selective_candidates(ir,5,max_candidates=24,seed=17)
- coarse,_=generate_coarse_p1_candidates(ir,5,12,17);eft=[c for c in coarse if c['metadata']['assignment']=='p1_eft']
+ cs,diag=generate_selective_candidates(ir,cores,max_candidates=24,seed=17)
+ coarse,_=generate_coarse_p1_candidates(ir,cores,12,17);eft=[c for c in coarse if c['metadata']['assignment']=='p1_eft']
  cs=cs+eft if diag['heavy_component_ids'] else eft[:2]+cs[:1]+eft[2:]+cs[1:]
  for c in cs:
   if len(calls)>=budget or time.monotonic()>=deadline:break
@@ -23,7 +24,7 @@ def run(case,old,out,budget,seconds):
   if ok:best=rec;plan=c['plan']
   atomic_json(out/'progress.json',{'case':case,'calls':len(calls),'before':score(old)[0],'after':score(best)[0]})
  atomic_json(out/'best.plan.json',plan)
- s={'case':case,'before':score(old)[0],'after':score(best)[0],'best':{'record':best},'evaluations':calls,'logical_calls':len(calls),'new_calls':sum(not x['record']['cache_hit'] for x in calls),
+ s={'case':case,'problem':1,'num_cores':cores,'before':score(old)[0],'after':score(best)[0],'best':{'record':best},'best_record':best,'evaluations':calls,'logical_calls':len(calls),'new_calls':sum(not x['record']['cache_hit'] for x in calls),
     'elapsed_seconds':time.monotonic()-t,'pruned':len(skips),'stop_reason':'time_budget' if time.monotonic()>=deadline else 'budget_or_pool','scope':'extra budget warm search; incumbent retained on timeout'}
  atomic_json(out/'summary.json',s);return s
 

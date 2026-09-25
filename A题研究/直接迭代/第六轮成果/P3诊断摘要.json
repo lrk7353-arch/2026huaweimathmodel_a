@@ -1,0 +1,7 @@
+{
+  "graphs": 100,
+  "graphs_with_concurrent_misses": 81,
+  "graphs_with_post_eviction_misses": 39,
+  "graphs_without_repeated_reads": 13,
+  "scope": "100 current five-core P3 plans; no new official calls; not all possible plans"
+}

@@ -1,0 +1,17 @@
+﻿case,method,seeds,feasible_seeds,distinct_winning_plans,min_makespan,max_makespan
+case_014,adaptive,1,0,0,,
+case_014,hybrid,1,0,0,,
+case_014,portfolio,1,0,0,,
+case_014,portfolio_diverse,1,1,1,3641147,3641147
+case_047,adaptive,1,1,1,325792,325792
+case_047,hybrid,1,1,1,323254,323254
+case_047,portfolio,1,1,1,325792,325792
+case_047,portfolio_diverse,1,1,1,325792,325792
+case_053,adaptive,1,1,1,492699,492699
+case_053,hybrid,1,1,1,489929,489929
+case_053,portfolio,1,1,1,470274,470274
+case_053,portfolio_diverse,1,1,1,470274,470274
+case_063,adaptive,1,1,1,464830,464830
+case_063,hybrid,1,1,1,463765,463765
+case_063,portfolio,1,1,1,286820,286820
+case_063,portfolio_diverse,1,1,1,286820,286820

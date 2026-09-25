@@ -8,6 +8,7 @@
 !*.sh
 !requirements*.txt
 !/.gitignore
+!/.gitattributes
 
 # This repository covers problem A only.
 /A题/
@@ -38,3 +39,14 @@
 
 # Selected official-evaluated plans and aggregate result metadata.
 !/A题研究/直接迭代/本轮成果/**/*.json
+!/A题研究/直接迭代/第二轮成果/**/*.json
+!/A题研究/直接迭代/第三轮成果/**/*.json
+!/A题研究/直接迭代/第四轮成果/**/*.json
+!/A题研究/直接迭代/第五轮成果/**/*.json
+!/A题研究/直接迭代/第六轮成果/**/*.json
+
+# Small saved official observations required by portable mechanism tests.
+!/A题研究/方案审阅/cache_microtests/*.json
+
+# Local work products from the documented clone-and-run examples.
+/my_runs/

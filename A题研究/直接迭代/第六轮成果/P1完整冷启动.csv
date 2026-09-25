@@ -1,0 +1,4 @@
+﻿case,method,makespan,logical_calls,new_calls,elapsed_seconds,timeouts,stop_reason
+case_075,portfolio_diverse,1322078,12,12,36.156150334049016,0,budget_or_pool_exhausted
+case_085,portfolio_diverse,2760933,12,12,142.3261014999589,0,budget_or_pool_exhausted
+case_043,portfolio_diverse,222525,12,12,48.179615000030026,0,budget_or_pool_exhausted
