@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "at_least_two_winning_graphs": false,
+    "positive_mean_vs_single": true,
+    "nonnegative_mean_vs_original": true,
+    "regression_vs_original_within_one_pct": true,
+    "identical_prefixes": true,
+    "feasible_without_errors_or_timeouts": true
+  },
+  "expand_budget_8_16": false,
+  "wins": 1,
+  "ties": 5,
+  "losses": 0,
+  "mean_paired_reduction_pct": 2.318388630438117,
+  "mean_reference_speedup_delta": 0.09015592485156067,
+  "actual_new_calls": 168,
+  "logical_calls": 168,
+  "elapsed_seconds": 321.7818116080016,
+  "scope": "from-scratch development pilot, not new independent holdout; no previous incumbent or historical cache is used"
+}

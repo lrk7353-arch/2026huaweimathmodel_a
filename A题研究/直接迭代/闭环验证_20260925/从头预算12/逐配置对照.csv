@@ -1,0 +1,7 @@
+﻿case,cores,original,single,iterative,reduction_vs_single_pct,reduction_vs_original_pct,reference_speedup_delta,identical_prefix
+case_032,3,13587,13587,13587,0.0,0.0,0.0,True
+case_069,5,16818,16818,16818,0.0,0.0,0.0,True
+case_074,4,414388,414388,414388,0.0,0.0,0.0,True
+case_002,5,78244,78244,67360,13.9103317826287,13.9103317826287,0.540935549109364,True
+case_043,4,243378,243378,243378,0.0,0.0,0.0,True
+case_025,5,975282,975282,975282,0.0,0.0,0.0,True

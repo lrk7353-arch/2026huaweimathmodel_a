@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "attempt_id": "20260925T155359-72e4913d8c2241a2b1ff981706e44f06",
+  "problem": 1,
+  "status": "success",
+  "metrics": {
+    "makespan": 16521,
+    "num_cores": 5,
+    "data_movement_bytes": {
+      "original_graph_copy_bytes": 126054,
+      "scheduled_copy_bytes": 748384,
+      "added_copy_bytes": 622330,
+      "partition_added_copy_bytes": 622330,
+      "spill_added_copy_bytes": 0
+    },
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 30768
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 7056
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 30768
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "cross_task_traffic": 315136,
+    "capacity_bytes": {
+      "L1": 524288,
+      "UB": 131072
+    },
+    "bandwidth_bytes_per_cycle": 60,
+    "active_cores": 5,
+    "peak_memory_bytes": 85012480
+  },
+  "elapsed_seconds": 0.269940583006246,
+  "evaluation_elapsed_seconds": 0.14671415099292062,
+  "cache_hit": false,
+  "result_path": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_069_p1_n5/official_result.json.gz",
+  "plan_path": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_069_p1_n5.json",
+  "hashes": {
+    "graph_sha256": "9632392d98cfc04291ba0546accf1f4c3ede8ff71befd3cd0ae67caf27659e52",
+    "plan_sha256": "74a5beaca5afb12d3d671cad0fb30e028de55792849aaf9ccf5f50f45387c0dd",
+    "problem": 1,
+    "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "official_py_sha256": {
+      "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+      "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+      "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+      "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+      "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+      "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+      "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+      "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+      "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+      "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+    },
+    "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+    "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/bin/python3.12",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "error": null,
+  "peak_memory_bytes": 85012480,
+  "returncode": 0,
+  "attempt_dir": "my_runs/final_validation_replay_v1/case_069_p1_n5/attempts/20260925T155359-72e4913d8c2241a2b1ff981706e44f06",
+  "record_path": "my_runs/final_validation_replay_v1/case_069_p1_n5/attempts/20260925T155359-72e4913d8c2241a2b1ff981706e44f06/record.json",
+  "stdout_path": "my_runs/final_validation_replay_v1/case_069_p1_n5/attempts/20260925T155359-72e4913d8c2241a2b1ff981706e44f06/stdout.log",
+  "stderr_path": "my_runs/final_validation_replay_v1/case_069_p1_n5/attempts/20260925T155359-72e4913d8c2241a2b1ff981706e44f06/stderr.log",
+  "graph_path": "选题分析/A题附件/data/case_069.json",
+  "config_path": "选题分析/A题附件/data/config.txt",
+  "official_code": "选题分析/A题附件/code",
+  "timeout_seconds": 60.0,
+  "cache_key": "0971afe3a3023d41def72d2aada9945167a6c471d2670dda11fa641fabe48c3a",
+  "worker_elapsed_seconds": 0.19547067600069568,
+  "error_type": null,
+  "error_stage": null,
+  "rss_measurement": "worker_ru_maxrss",
+  "result_sha256": "d16719f68b734b423e52c11787d5fb5f6d96981fd8d8295af8402fa1b1a7b1ce"
+}

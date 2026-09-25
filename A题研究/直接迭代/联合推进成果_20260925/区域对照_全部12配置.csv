@@ -1,0 +1,13 @@
+﻿case,problem,cores,method,before,after,logical_calls,new_candidate_calls,baseline_new_calls,generation_seconds,search_seconds,skipped,timeouts,errors,summary,stop_reason
+case_062,1,5,tasks,942950,793705,3,2,1,1.8726668320014141,20.595871780999005,6,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_062/tasks/summary.json,budget_or_pool
+case_062,1,5,regions,942950,939449,8,7,1,1.784914845993626,52.52206083199417,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_062/regions/summary.json,budget_or_pool
+case_062,1,5,joint,942950,939354,8,7,1,1.8376894289976917,52.07567587099038,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_062/joint/summary.json,budget_or_pool
+case_063,1,5,tasks,286820,252654,4,3,1,0.6022634099936113,8.401530181989074,5,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_063/tasks/summary.json,budget_or_pool
+case_063,1,5,regions,286820,284987,8,7,1,0.6642123039928265,18.18995326399454,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_063/regions/summary.json,budget_or_pool
+case_063,1,5,joint,286820,286820,1,0,1,0.7403244779998204,0.7471468489966355,8,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_063/joint/summary.json,budget_or_pool
+case_100,1,5,tasks,57811,57811,6,5,1,0.07852195600571577,1.6447823430062272,3,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_100/tasks/summary.json,budget_or_pool
+case_100,1,5,regions,57811,57811,8,7,1,0.09085862799838651,2.101942217006581,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_100/regions/summary.json,budget_or_pool
+case_100,1,5,joint,57811,57811,8,7,1,0.10013134399196133,2.1137275279907044,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_100/joint/summary.json,budget_or_pool
+case_016,1,5,tasks,3304638,3223183,4,3,1,1.7498586870060535,49.18700395800988,7,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_016/tasks/summary.json,budget_or_pool
+case_016,1,5,regions,3304638,3304638,8,7,1,1.4045262839936186,114.34263053200266,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_016/regions/summary.json,budget_or_pool
+case_016,1,5,joint,3304638,3304638,8,7,1,1.3658369770128047,105.7918905980041,0,0,0,/home/konglingrui/.mathmodel/questionA/联合优化工作区/my_runs/region_panel_v1/case_016/joint/summary.json,budget_or_pool

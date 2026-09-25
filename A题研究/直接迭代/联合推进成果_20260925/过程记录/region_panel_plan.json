@@ -1,0 +1,18 @@
+{
+  "cases": [
+    "case_016",
+    "case_062",
+    "case_063",
+    "case_100"
+  ],
+  "methods": [
+    "tasks",
+    "regions",
+    "joint"
+  ],
+  "budget": 8,
+  "seconds": 180.0,
+  "workers": 2,
+  "upstream_commit": "18e0957475b20e9a3af52ab335dccb2611beefc9",
+  "note": "Each arm charges one common baseline; fresh candidate caches per arm. Targeted mechanism development, not independent or from-scratch ranking."
+}

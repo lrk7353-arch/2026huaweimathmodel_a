@@ -1,0 +1,30 @@
+{
+  "explanation": "连接器发布后核对文件树SHA完全相同，本地原提交保留在backup分支。后续结果提交对应关系见其远端提交说明和本地.git/codex-publication。",
+  "commits": [
+    {
+      "local": "26d77fbe953dd3a03853abf8da06cc7495be326d",
+      "remote": "87b12499ea78373409bb036260b7239e6afdfba1",
+      "tree": "31b05cbccd7151b99e8326a1aa814e477d53bb1a"
+    },
+    {
+      "local": "ec4f9bdbed55c156d57817a0ffa8bd9758a227a8",
+      "remote": "4861603d07249c8dc8aa2ff661730fa80f71f1bc",
+      "tree": "593deb40338fa549020d5c32e4fa6060f6b59af5"
+    },
+    {
+      "local": "fa48a7fe4ec3bef8dcc4066e7f558cd79f0b08e2",
+      "remote": "e472ba882c2c4ff39ec084ca8398eebe2c118f84",
+      "tree": "3daa9058052450bc7c85f1cd4f22f7d98da5366b"
+    },
+    {
+      "local": "c510857a7a0ed78bf12f5159c51c525794d8414a",
+      "remote": "214b8a32896c13b1f394c131915aec7229951e6e",
+      "tree": "ee76b8d68b8d5668477f7358f6391505d395b5d1"
+    },
+    {
+      "local": "31ba45c80f564b1f15f09abf0a4e7a5ef8c9a1ba",
+      "remote": "d7e5e53ff67355538571f6b48bab12b35667cfbd",
+      "tree": "378884a2560b50ea13a508722cb96434031d610e"
+    }
+  ]
+}

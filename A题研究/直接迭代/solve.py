@@ -8,7 +8,7 @@ def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--case',type=int,required=True,choices=range(1,101));p.add_argument('--problem',type=int,required=True,choices=(1,2,3));p.add_argument('--out',type=Path,required=True)
  p.add_argument('--cores',type=int,choices=range(1,6),default=5)
- p.add_argument('--p1-refinement',choices=('partition','tasks','tensor'),default='partition',help='P1 warm search: structural partition, Task refinement, or tensor regions')
+ p.add_argument('--p1-refinement',choices=('partition','tasks','tensor','region_joint','task_iterative'),default='partition',help='P1 warm search: partition/tasks/tensor, experimental region_joint, or accepted-parent task_iterative')
  p.add_argument('--p1-method',choices=('component','adaptive','hybrid','portfolio','portfolio_diverse'),default='adaptive',help='P1 from-scratch method; portfolio integrates tensor regions and task refinement in one budget')
  p.add_argument('--p3-refinement',choices=('legacy','read_order','joint'),default='legacy',help='P3 warm search: original cache neighbourhood, fixed-core read ordering, or a one-budget combination')
  p.add_argument('--seed',type=int,default=17,help='P1 from-scratch candidate seed')
@@ -46,7 +46,13 @@ def main():
    atomic_json(out/'best.plan.json',read_json(record['plan_path']));atomic_json(out/'summary.json',s)
    print(json.dumps({'output':str(out),'makespan':score(record)[0],'logical_calls':1,'new_calls':s['new_calls'],'elapsed_seconds':s['elapsed_seconds']}));return
   if a.problem==1:
-   if a.p1_refinement=='tensor':
+   if a.p1_refinement=='task_iterative':
+    from p1_iterative_tasks import run
+    s=run(case,b[case,1,a.cores],search_out,budget,seconds,cores=a.cores)
+   elif a.p1_refinement=='region_joint':
+    from run_region_refine import run
+    s=run(case,b[case,1,a.cores],search_out,budget,seconds,cores=a.cores)
+   elif a.p1_refinement=='tensor':
     from run_tensor_panel import run
     s=run(case,a.cores,b[case,1,a.cores],search_out,budget,seconds)
    else:

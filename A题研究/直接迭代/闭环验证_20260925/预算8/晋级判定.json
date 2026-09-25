@@ -1,0 +1,27 @@
+{
+  "promotion_to_from_scratch_pilot": true,
+  "checks": {
+    "two_distinct_winning_graphs": true,
+    "nonnegative_each_core": true,
+    "positive_mean_speedup_delta": true,
+    "no_large_regression": true,
+    "no_errors": true,
+    "no_timeouts": true
+  },
+  "extend_to_budget12": true,
+  "winning_graphs": [
+    "case_002",
+    "case_069"
+  ],
+  "wins": 2,
+  "ties": 10,
+  "losses": 0,
+  "mean_time_reduction_pct": 0.14858920706394263,
+  "mean_speedup_delta": 0.0022978203106439423,
+  "errors": 0,
+  "timeouts": 0,
+  "logical_calls": 114,
+  "actual_new_calls": 102,
+  "elapsed_seconds": 171.09365790001175,
+  "scope": "engineering screening on 12 warm-start cells, not proof of universal superiority"
+}

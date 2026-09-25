@@ -1,0 +1,283 @@
+{
+  "scope": "cumulative selected plans, NOT uniform-budget full-run score",
+  "cold_gate": {
+    "checks": {
+      "at_least_two_winning_graphs": false,
+      "positive_mean_vs_single": true,
+      "nonnegative_mean_vs_original": true,
+      "regression_vs_original_within_one_pct": true,
+      "identical_prefixes": true,
+      "feasible_without_errors_or_timeouts": true
+    },
+    "expand_budget_8_16": false,
+    "wins": 1,
+    "ties": 5,
+    "losses": 0,
+    "mean_paired_reduction_pct": 2.318388630438117,
+    "mean_reference_speedup_delta": 0.09015592485156067,
+    "actual_new_calls": 168,
+    "logical_calls": 168,
+    "elapsed_seconds": 321.7818116080016,
+    "scope": "from-scratch development pilot, not new independent holdout; no previous incumbent or historical cache is used"
+  },
+  "selected_replayed": 8,
+  "new_official_calls_this_stage": 384,
+  "previous_stage_calls": 85,
+  "tests_passed": 25,
+  "official_files_unchanged": 111,
+  "means": [
+    {
+      "problem": 1,
+      "cores": 1,
+      "count": 100,
+      "round6_mean_speedup": 1.0012193240160676,
+      "cumulative_mean_speedup": 1.0012193240160676
+    },
+    {
+      "problem": 1,
+      "cores": 2,
+      "count": 100,
+      "round6_mean_speedup": 1.7845240217708962,
+      "cumulative_mean_speedup": 1.784572255948752
+    },
+    {
+      "problem": 1,
+      "cores": 3,
+      "count": 100,
+      "round6_mean_speedup": 2.4258366812151126,
+      "cumulative_mean_speedup": 2.426171940678605
+    },
+    {
+      "problem": 1,
+      "cores": 4,
+      "count": 100,
+      "round6_mean_speedup": 3.031382274785021,
+      "cumulative_mean_speedup": 3.0346948887133767
+    },
+    {
+      "problem": 1,
+      "cores": 5,
+      "count": 100,
+      "round6_mean_speedup": 3.576101091454332,
+      "cumulative_mean_speedup": 3.5952495949082697
+    },
+    {
+      "problem": 2,
+      "cores": 1,
+      "count": 100,
+      "round6_mean_speedup": 1.0015105678032634,
+      "cumulative_mean_speedup": 1.0015105678032634
+    },
+    {
+      "problem": 2,
+      "cores": 2,
+      "count": 100,
+      "round6_mean_speedup": 2.0420107113779897,
+      "cumulative_mean_speedup": 2.0420107113779897
+    },
+    {
+      "problem": 2,
+      "cores": 3,
+      "count": 100,
+      "round6_mean_speedup": 2.897896084195691,
+      "cumulative_mean_speedup": 2.897896084195691
+    },
+    {
+      "problem": 2,
+      "cores": 4,
+      "count": 100,
+      "round6_mean_speedup": 3.606766851120958,
+      "cumulative_mean_speedup": 3.606766851120958
+    },
+    {
+      "problem": 2,
+      "cores": 5,
+      "count": 100,
+      "round6_mean_speedup": 4.334517565184253,
+      "cumulative_mean_speedup": 4.334517565184253
+    },
+    {
+      "problem": 3,
+      "cores": 1,
+      "count": 100,
+      "round6_mean_speedup": 1.010132283469584,
+      "cumulative_mean_speedup": 1.010132283469584
+    },
+    {
+      "problem": 3,
+      "cores": 2,
+      "count": 100,
+      "round6_mean_speedup": 2.0483501485922906,
+      "cumulative_mean_speedup": 2.0483501485922906
+    },
+    {
+      "problem": 3,
+      "cores": 3,
+      "count": 100,
+      "round6_mean_speedup": 2.9147717447600945,
+      "cumulative_mean_speedup": 2.9147717447600945
+    },
+    {
+      "problem": 3,
+      "cores": 4,
+      "count": 100,
+      "round6_mean_speedup": 3.641775579313945,
+      "cumulative_mean_speedup": 3.641775579313945
+    },
+    {
+      "problem": 3,
+      "cores": 5,
+      "count": 100,
+      "round6_mean_speedup": 4.42846590611176,
+      "cumulative_mean_speedup": 4.42846590611176
+    }
+  ],
+  "selected": [
+    {
+      "case": "case_002",
+      "problem": 1,
+      "cores": 5,
+      "before": 78244,
+      "after": 64296,
+      "before_copy": 2165760,
+      "after_copy": 2165760,
+      "reduction_pct": 17.826286999642146,
+      "source": "my_runs/iterative_holdout_b8_v1/case_002/n5/iterative/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_002_p1_n5.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_002_p1_n5/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 2,
+      "before": 20754,
+      "after": 20719,
+      "before_copy": 18504,
+      "after_copy": 18504,
+      "reduction_pct": 0.168642189457454,
+      "source": "my_runs/iterative_holdout_b8_v1/case_032/n2/single/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_032_p1_n2.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n2/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 3,
+      "before": 13738,
+      "after": 13587,
+      "before_copy": 18432,
+      "after_copy": 12288,
+      "reduction_pct": 1.099141068568933,
+      "source": "my_runs/iterative_holdout_b8_v1/case_032/n3/iterative/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_032_p1_n3.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n3/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 3,
+      "before": 268776,
+      "after": 268776,
+      "before_copy": 599040,
+      "after_copy": 141320,
+      "reduction_pct": 0.0,
+      "source": "my_runs/iterative_holdout_b8_v1/case_043/n3/single/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_043_p1_n3.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n3/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 4,
+      "before": 266766,
+      "after": 243378,
+      "before_copy": 2819424,
+      "after_copy": 4083474,
+      "reduction_pct": 8.767234205258541,
+      "source": "my_runs/reserved_cold_b12_v1/case_043/n4/single/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_043_p1_n4.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n4/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 5,
+      "before": 16908,
+      "after": 16521,
+      "before_copy": 622330,
+      "after_copy": 622330,
+      "reduction_pct": 2.2888573456352024,
+      "source": "my_runs/iterative_holdout_b8_v1/case_069/n5/iterative/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_069_p1_n5.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_069_p1_n5/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 2,
+      "before": 826889,
+      "after": 826300,
+      "before_copy": 6168576,
+      "after_copy": 7245824,
+      "reduction_pct": 0.0712308423500615,
+      "source": "my_runs/iterative_holdout_b8_v1/case_074/n2/single/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_074_p1_n2.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n2/record.json",
+      "replay_status": "success",
+      "new_call": true
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 4,
+      "before": 423479,
+      "after": 414388,
+      "before_copy": 8101888,
+      "after_copy": 8101888,
+      "reduction_pct": 2.14674163299715,
+      "source": "my_runs/iterative_holdout_b8_v1/case_074/n4/iterative/summary.json",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_074_p1_n4.json",
+      "official_record": "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n4/record.json",
+      "replay_status": "success",
+      "new_call": true
+    }
+  ],
+  "sha256": {
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_002_p1_n5.json": "5b5b63dd7752e106d4258c3ff10da6b0944cba1bd9156d2eb9311280a58ade38",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_074_p1_n4.json": "004c31014a1b7b639f378d3186f7fb10de007e49b90c757ba81f4cbdf9f4a605",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_069_p1_n5.json": "74a5beaca5afb12d3d671cad0fb30e028de55792849aaf9ccf5f50f45387c0dd",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_032_p1_n3.json": "a88d604f5e1985e448c57f3b51c5ca2102c4d00777328230ca85ceb6d5790740",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_043_p1_n4.json": "564e0279e6a4b5f357ff6d074060ca50a9305a90aead5f47ba16154cf7e12743",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_043_p1_n3.json": "250586dc4b0900158685379d12924c278b0e74dcc0c25233c6e478dd4c09a0df",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_074_p1_n2.json": "a9cf99822533842f07e66cdeeb581f56b9b80892f6bd8487ef37cb6acdfd0ec9",
+    "A题研究/直接迭代/闭环验证_20260925/精选方案/case_032_p1_n2.json": "c27f5191a2ee6d34bb99185ac8f73ba8467bfbc22a4143d5b4151032a587e39d",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_069_p1_n5/record.json": "05ddbf4ece581cb1cea26108eaf83ee90b349250bbcf7d19257a427d742cc400",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_069_p1_n5/official_result.json.gz": "d16719f68b734b423e52c11787d5fb5f6d96981fd8d8295af8402fa1b1a7b1ce",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n3/record.json": "dc1de893a149ee72daa33b21220785e5ff77494f1c8812b286993da77f3de29c",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n3/official_result.json.gz": "8ea80c73bf704308e0684eb96ade862a7b993e14c6483b201edecf45e0166d49",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n4/record.json": "89f1190910eb4f01e1857f5630d83427d42e5572b073f28f794ecbb8a91e05c4",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n4/official_result.json.gz": "f64abd90fad5122362e493774206765931e58ae1073bdcde0d4fcb9806a475d4",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_002_p1_n5/record.json": "0ca139f12fb78909928f4988fd50d28d45ba8d62fa755c531a85b8ad90a64c93",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_002_p1_n5/official_result.json.gz": "63265911e99d3fe9a5cff4dd74dfc58407786f5d4ae094a8278a258f450311f1",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n2/record.json": "400378f21f713e9c0641fed8542f253bd7fd419d5d6fcdd4933121564b8405c4",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n2/official_result.json.gz": "a128bc417c3bb44524c554281bd977518fd57209f46443688d46daa13d5e0af9",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n2/record.json": "b0693472da44c1a3c9f5b18153ba4999fddedff1f8ce93418909442cb7e88ddd",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_074_p1_n2/official_result.json.gz": "98ecebdc3687f2ec7240e86a2ecaa7cb34d049cba7f6a44ed41dc0dbdba19373",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n3/record.json": "f2f14d47be67c8bab5068ade129abc644eba353bb3b589a619ee5776dbf85ec4",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_032_p1_n3/official_result.json.gz": "3a3bafe98a6031dc9c8ae00dcc4e40dfca3896c95a9c1d90e252b87683e7b928",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n4/record.json": "2ab9faabd4b0a477f2684fff92368dc7649016c883caa332e99d9308548ce7ba",
+    "A题研究/直接迭代/闭环验证_20260925/官方复评/case_043_p1_n4/official_result.json.gz": "28769cc61682abf660a847708248b7a818f527343eb7d412ffd8111da1dd80b5"
+  }
+}
