@@ -1,0 +1,22 @@
+{
+  "transport": "authorized GitHub connector; native Git has no stored login",
+  "mapping": [
+    {
+      "local": "26d77fbe953dd3a03853abf8da06cc7495be326d",
+      "remote": "87b12499ea78373409bb036260b7239e6afdfba1",
+      "tree": "31b05cbccd7151b99e8326a1aa814e477d53bb1a"
+    },
+    {
+      "local": "ec4f9bdbed55c156d57817a0ffa8bd9758a227a8",
+      "remote": "4861603d07249c8dc8aa2ff661730fa80f71f1bc",
+      "tree": "593deb40338fa549020d5c32e4fa6060f6b59af5"
+    },
+    {
+      "local": "fa48a7fe4ec3bef8dcc4066e7f558cd79f0b08e2",
+      "remote": "e472ba882c2c4ff39ec084ca8398eebe2c118f84",
+      "tree": "3daa9058052450bc7c85f1cd4f22f7d98da5366b"
+    }
+  ],
+  "remote_head": "e472ba882c2c4ff39ec084ca8398eebe2c118f84",
+  "branch": "codex/p1-iterative-validation-20260925"
+}

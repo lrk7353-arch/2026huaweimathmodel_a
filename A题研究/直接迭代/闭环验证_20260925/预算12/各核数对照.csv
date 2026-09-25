@@ -1,0 +1,5 @@
+﻿cores,cells,wins,ties,losses,mean_time_reduction_pct,mean_speedup_delta
+2,3,0,3,0,0.0,0.0
+3,3,0,3,0,0.0,0.0
+4,3,0,3,0,0.0,0.0
+5,3,2,1,0,0.5943568282557705,0.00919128124257577
