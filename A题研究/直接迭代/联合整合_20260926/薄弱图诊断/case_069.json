@@ -1,0 +1,5434 @@
+{
+  "summary": {
+    "case": "case_069",
+    "makespan": 15487,
+    "tasks": 52,
+    "critical_tasks": 11,
+    "largest_task_duration": 3663,
+    "largest_task_ops": 121,
+    "max_core_pipe_busy": 5700,
+    "max_pipe_fraction": 0.3680506231032479,
+    "original_compute_path": 2298,
+    "compute_path_fraction": 0.14838251436688835,
+    "boundary_ddr_bound": 11644,
+    "boundary_ddr_fraction": 0.7518563956867049,
+    "fixed_task_bound": 11839,
+    "spill_bytes": 0
+  },
+  "diagnosis": {
+    "makespan": 15487,
+    "task_count": 52,
+    "core_ends": [
+      15487,
+      14994,
+      13918,
+      15154,
+      14787
+    ],
+    "compute_dependency_path": 2298,
+    "compute_work_m": 16674,
+    "compute_work_v": 15288,
+    "final_blocker_chain": [
+      30,
+      29,
+      25,
+      24,
+      23,
+      17,
+      31,
+      22,
+      10,
+      8,
+      5
+    ],
+    "release_witnesses": {
+      "30": {
+        "release": 15309,
+        "start": 15309,
+        "unexplained_start_gap": 0,
+        "blocker": 29,
+        "kind": "core_order"
+      },
+      "29": {
+        "release": 13231,
+        "start": 13231,
+        "unexplained_start_gap": 0,
+        "blocker": 25,
+        "kind": "data"
+      },
+      "25": {
+        "release": 11834,
+        "start": 11834,
+        "unexplained_start_gap": 0,
+        "blocker": 24,
+        "kind": "data"
+      },
+      "24": {
+        "release": 9945,
+        "start": 9945,
+        "unexplained_start_gap": 0,
+        "blocker": 23,
+        "kind": "data"
+      },
+      "23": {
+        "release": 8441,
+        "start": 8441,
+        "unexplained_start_gap": 0,
+        "blocker": 17,
+        "kind": "core_order"
+      },
+      "17": {
+        "release": 7312,
+        "start": 7312,
+        "unexplained_start_gap": 0,
+        "blocker": 31,
+        "kind": "core_order"
+      },
+      "31": {
+        "release": 7066,
+        "start": 7066,
+        "unexplained_start_gap": 0,
+        "blocker": 22,
+        "kind": "core_order"
+      },
+      "22": {
+        "release": 6820,
+        "start": 6820,
+        "unexplained_start_gap": 0,
+        "blocker": 10,
+        "kind": "core_order"
+      },
+      "10": {
+        "release": 6392,
+        "start": 6392,
+        "unexplained_start_gap": 0,
+        "blocker": 8,
+        "kind": "core_order"
+      },
+      "8": {
+        "release": 2629,
+        "start": 2629,
+        "unexplained_start_gap": 0,
+        "blocker": 5,
+        "kind": "data"
+      },
+      "5": {
+        "release": 0,
+        "start": 0,
+        "unexplained_start_gap": 0,
+        "blocker": null,
+        "kind": "source"
+      }
+    },
+    "heavy_tasks": [
+      {
+        "task": 8,
+        "core": 2,
+        "ops": 121,
+        "work_m": 2460,
+        "work_v": 1661,
+        "task_id": 8,
+        "subgraph_id": 8,
+        "start": 2629,
+        "end": 6292,
+        "duration": 3663
+      },
+      {
+        "task": 18,
+        "core": 0,
+        "ops": 40,
+        "work_m": 2544,
+        "work_v": 0,
+        "task_id": 18,
+        "subgraph_id": 18,
+        "start": 2263,
+        "end": 4976,
+        "duration": 2713
+      },
+      {
+        "task": 29,
+        "core": 0,
+        "ops": 8,
+        "work_m": 1176,
+        "work_v": 360,
+        "task_id": 29,
+        "subgraph_id": 29,
+        "start": 13231,
+        "end": 15209,
+        "duration": 1978
+      },
+      {
+        "task": 5,
+        "core": 0,
+        "ops": 34,
+        "work_m": 966,
+        "work_v": 366,
+        "task_id": 5,
+        "subgraph_id": 5,
+        "start": 0,
+        "end": 1629,
+        "duration": 1629
+      },
+      {
+        "task": 47,
+        "core": 1,
+        "ops": 5,
+        "work_m": 438,
+        "work_v": 312,
+        "task_id": 47,
+        "subgraph_id": 47,
+        "start": 13641,
+        "end": 14994,
+        "duration": 1353
+      },
+      {
+        "task": 43,
+        "core": 4,
+        "ops": 5,
+        "work_m": 438,
+        "work_v": 312,
+        "task_id": 43,
+        "subgraph_id": 43,
+        "start": 13469,
+        "end": 14787,
+        "duration": 1318
+      },
+      {
+        "task": 2,
+        "core": 1,
+        "ops": 42,
+        "work_m": 30,
+        "work_v": 976,
+        "task_id": 2,
+        "subgraph_id": 2,
+        "start": 0,
+        "end": 1263,
+        "duration": 1263
+      },
+      {
+        "task": 50,
+        "core": 3,
+        "ops": 8,
+        "work_m": 438,
+        "work_v": 189,
+        "task_id": 50,
+        "subgraph_id": 50,
+        "start": 12766,
+        "end": 13992,
+        "duration": 1226
+      },
+      {
+        "task": 39,
+        "core": 2,
+        "ops": 5,
+        "work_m": 438,
+        "work_v": 312,
+        "task_id": 39,
+        "subgraph_id": 39,
+        "start": 12746,
+        "end": 13918,
+        "duration": 1172
+      },
+      {
+        "task": 51,
+        "core": 3,
+        "ops": 5,
+        "work_m": 438,
+        "work_v": 312,
+        "task_id": 51,
+        "subgraph_id": 51,
+        "start": 14092,
+        "end": 15154,
+        "duration": 1062
+      },
+      {
+        "task": 36,
+        "core": 3,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 36,
+        "subgraph_id": 36,
+        "start": 7542,
+        "end": 8597,
+        "duration": 1055
+      },
+      {
+        "task": 17,
+        "core": 2,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 17,
+        "subgraph_id": 17,
+        "start": 7312,
+        "end": 8341,
+        "duration": 1029
+      },
+      {
+        "task": 9,
+        "core": 0,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 9,
+        "subgraph_id": 9,
+        "start": 7292,
+        "end": 8319,
+        "duration": 1027
+      },
+      {
+        "task": 14,
+        "core": 4,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 14,
+        "subgraph_id": 14,
+        "start": 7292,
+        "end": 8319,
+        "duration": 1027
+      },
+      {
+        "task": 40,
+        "core": 0,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 40,
+        "subgraph_id": 40,
+        "start": 8419,
+        "end": 9436,
+        "duration": 1017
+      },
+      {
+        "task": 48,
+        "core": 4,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 48,
+        "subgraph_id": 48,
+        "start": 8419,
+        "end": 9436,
+        "duration": 1017
+      },
+      {
+        "task": 11,
+        "core": 1,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 11,
+        "subgraph_id": 11,
+        "start": 7720,
+        "end": 8712,
+        "duration": 992
+      },
+      {
+        "task": 44,
+        "core": 1,
+        "ops": 46,
+        "work_m": 324,
+        "work_v": 590,
+        "task_id": 44,
+        "subgraph_id": 44,
+        "start": 8812,
+        "end": 9792,
+        "duration": 980
+      },
+      {
+        "task": 46,
+        "core": 1,
+        "ops": 8,
+        "work_m": 438,
+        "work_v": 189,
+        "task_id": 46,
+        "subgraph_id": 46,
+        "start": 12584,
+        "end": 13541,
+        "duration": 957
+      },
+      {
+        "task": 27,
+        "core": 2,
+        "ops": 41,
+        "work_m": 306,
+        "work_v": 460,
+        "task_id": 27,
+        "subgraph_id": 27,
+        "start": 10035,
+        "end": 10970,
+        "duration": 935
+      },
+      {
+        "task": 38,
+        "core": 2,
+        "ops": 8,
+        "work_m": 438,
+        "work_v": 189,
+        "task_id": 38,
+        "subgraph_id": 38,
+        "start": 11743,
+        "end": 12646,
+        "duration": 903
+      },
+      {
+        "task": 24,
+        "core": 0,
+        "ops": 41,
+        "work_m": 306,
+        "work_v": 460,
+        "task_id": 24,
+        "subgraph_id": 24,
+        "start": 9945,
+        "end": 10834,
+        "duration": 889
+      },
+      {
+        "task": 12,
+        "core": 3,
+        "ops": 41,
+        "work_m": 306,
+        "work_v": 460,
+        "task_id": 12,
+        "subgraph_id": 12,
+        "start": 9127,
+        "end": 10011,
+        "duration": 884
+      },
+      {
+        "task": 42,
+        "core": 3,
+        "ops": 8,
+        "work_m": 438,
+        "work_v": 189,
+        "task_id": 42,
+        "subgraph_id": 42,
+        "start": 11586,
+        "end": 12469,
+        "duration": 883
+      },
+      {
+        "task": 16,
+        "core": 1,
+        "ops": 41,
+        "work_m": 306,
+        "work_v": 460,
+        "task_id": 16,
+        "subgraph_id": 16,
+        "start": 10230,
+        "end": 11088,
+        "duration": 858
+      },
+      {
+        "task": 4,
+        "core": 1,
+        "ops": 6,
+        "work_m": 684,
+        "work_v": 0,
+        "task_id": 4,
+        "subgraph_id": 4,
+        "start": 1363,
+        "end": 2165,
+        "duration": 802
+      },
+      {
+        "task": 37,
+        "core": 4,
+        "ops": 7,
+        "work_m": 228,
+        "work_v": 156,
+        "task_id": 37,
+        "subgraph_id": 37,
+        "start": 10002,
+        "end": 10743,
+        "duration": 741
+      },
+      {
+        "task": 41,
+        "core": 3,
+        "ops": 7,
+        "work_m": 228,
+        "work_v": 156,
+        "task_id": 41,
+        "subgraph_id": 41,
+        "start": 10902,
+        "end": 11486,
+        "duration": 584
+      },
+      {
+        "task": 49,
+        "core": 1,
+        "ops": 7,
+        "work_m": 228,
+        "work_v": 156,
+        "task_id": 49,
+        "subgraph_id": 49,
+        "start": 11188,
+        "end": 11766,
+        "duration": 578
+      },
+      {
+        "task": 33,
+        "core": 4,
+        "ops": 6,
+        "work_m": 0,
+        "work_v": 171,
+        "task_id": 33,
+        "subgraph_id": 33,
+        "start": 5976,
+        "end": 6542,
+        "duration": 566
+      },
+      {
+        "task": 34,
+        "core": 1,
+        "ops": 6,
+        "work_m": 0,
+        "work_v": 171,
+        "task_id": 34,
+        "subgraph_id": 34,
+        "start": 5976,
+        "end": 6542,
+        "duration": 566
+      },
+      {
+        "task": 20,
+        "core": 0,
+        "ops": 6,
+        "work_m": 0,
+        "work_v": 171,
+        "task_id": 20,
+        "subgraph_id": 20,
+        "start": 6023,
+        "end": 6574,
+        "duration": 551
+      },
+      {
+        "task": 45,
+        "core": 2,
+        "ops": 7,
+        "work_m": 228,
+        "work_v": 156,
+        "task_id": 45,
+        "subgraph_id": 45,
+        "start": 11070,
+        "end": 11584,
+        "duration": 514
+      },
+      {
+        "task": 26,
+        "core": 2,
+        "ops": 15,
+        "work_m": 0,
+        "work_v": 217,
+        "task_id": 26,
+        "subgraph_id": 26,
+        "start": 9045,
+        "end": 9553,
+        "duration": 508
+      },
+      {
+        "task": 23,
+        "core": 2,
+        "ops": 15,
+        "work_m": 0,
+        "work_v": 217,
+        "task_id": 23,
+        "subgraph_id": 23,
+        "start": 8441,
+        "end": 8945,
+        "duration": 504
+      },
+      {
+        "task": 3,
+        "core": 3,
+        "ops": 2,
+        "work_m": 228,
+        "work_v": 0,
+        "task_id": 3,
+        "subgraph_id": 3,
+        "start": 2263,
+        "end": 2707,
+        "duration": 444
+      },
+      {
+        "task": 35,
+        "core": 0,
+        "ops": 8,
+        "work_m": 0,
+        "work_v": 228,
+        "task_id": 35,
+        "subgraph_id": 35,
+        "start": 5076,
+        "end": 5488,
+        "duration": 412
+      },
+      {
+        "task": 25,
+        "core": 4,
+        "ops": 10,
+        "work_m": 0,
+        "work_v": 194,
+        "task_id": 25,
+        "subgraph_id": 25,
+        "start": 11834,
+        "end": 12231,
+        "duration": 397
+      },
+      {
+        "task": 1,
+        "core": 4,
+        "ops": 5,
+        "work_m": 15,
+        "work_v": 44,
+        "task_id": 1,
+        "subgraph_id": 1,
+        "start": 9536,
+        "end": 9902,
+        "duration": 366
+      },
+      {
+        "task": 28,
+        "core": 0,
+        "ops": 10,
+        "work_m": 0,
+        "work_v": 194,
+        "task_id": 28,
+        "subgraph_id": 28,
+        "start": 12088,
+        "end": 12432,
+        "duration": 344
+      },
+      {
+        "task": 19,
+        "core": 0,
+        "ops": 6,
+        "work_m": 0,
+        "work_v": 171,
+        "task_id": 19,
+        "subgraph_id": 19,
+        "start": 5588,
+        "end": 5923,
+        "duration": 335
+      },
+      {
+        "task": 6,
+        "core": 3,
+        "ops": 9,
+        "work_m": 60,
+        "work_v": 85,
+        "task_id": 6,
+        "subgraph_id": 6,
+        "start": 8697,
+        "end": 9027,
+        "duration": 330
+      },
+      {
+        "task": 10,
+        "core": 2,
+        "ops": 9,
+        "work_m": 84,
+        "work_v": 105,
+        "task_id": 10,
+        "subgraph_id": 10,
+        "start": 6392,
+        "end": 6720,
+        "duration": 328
+      },
+      {
+        "task": 21,
+        "core": 3,
+        "ops": 7,
+        "work_m": 0,
+        "work_v": 105,
+        "task_id": 21,
+        "subgraph_id": 21,
+        "start": 5976,
+        "end": 6286,
+        "duration": 310
+      },
+      {
+        "task": 13,
+        "core": 0,
+        "ops": 9,
+        "work_m": 60,
+        "work_v": 85,
+        "task_id": 13,
+        "subgraph_id": 13,
+        "start": 9536,
+        "end": 9843,
+        "duration": 307
+      },
+      {
+        "task": 7,
+        "core": 2,
+        "ops": 9,
+        "work_m": 60,
+        "work_v": 85,
+        "task_id": 7,
+        "subgraph_id": 7,
+        "start": 9653,
+        "end": 9935,
+        "duration": 282
+      },
+      {
+        "task": 0,
+        "core": 4,
+        "ops": 3,
+        "work_m": 15,
+        "work_v": 22,
+        "task_id": 0,
+        "subgraph_id": 0,
+        "start": 10843,
+        "end": 11088,
+        "duration": 245
+      },
+      {
+        "task": 15,
+        "core": 1,
+        "ops": 9,
+        "work_m": 60,
+        "work_v": 85,
+        "task_id": 15,
+        "subgraph_id": 15,
+        "start": 9892,
+        "end": 10130,
+        "duration": 238
+      },
+      {
+        "task": 32,
+        "core": 3,
+        "ops": 7,
+        "work_m": 0,
+        "work_v": 105,
+        "task_id": 32,
+        "subgraph_id": 32,
+        "start": 6386,
+        "end": 6610,
+        "duration": 224
+      },
+      {
+        "task": 30,
+        "core": 0,
+        "ops": 4,
+        "work_m": 0,
+        "work_v": 72,
+        "task_id": 30,
+        "subgraph_id": 30,
+        "start": 15309,
+        "end": 15487,
+        "duration": 178
+      },
+      {
+        "task": 22,
+        "core": 2,
+        "ops": 7,
+        "work_m": 0,
+        "work_v": 105,
+        "task_id": 22,
+        "subgraph_id": 22,
+        "start": 6820,
+        "end": 6966,
+        "duration": 146
+      },
+      {
+        "task": 31,
+        "core": 2,
+        "ops": 7,
+        "work_m": 0,
+        "work_v": 105,
+        "task_id": 31,
+        "subgraph_id": 31,
+        "start": 7066,
+        "end": 7212,
+        "duration": 146
+      }
+    ],
+    "warning": "Trace releases explain Task-level blocking; duration also contains DDR/pipe/memory effects. Contracted compute path and work do not establish achievable parallelism."
+  },
+  "ddr": {
+    "schema_version": 1,
+    "problem": 1,
+    "bandwidth": 60,
+    "lower_bound": 11644,
+    "mandatory_boundary": {
+      "copy_in_count": 399,
+      "copy_out_count": 227,
+      "copy_in_bytes": 487990,
+      "copy_out_bytes": 192832,
+      "nominal_ddr_cycles": 11644,
+      "total_bytes": 680822
+    },
+    "conservative_compute_cross_task_subset": {
+      "copy_in_count": 315,
+      "copy_out_count": 221,
+      "copy_in_bytes": 285568,
+      "copy_out_bytes": 180544,
+      "nominal_ddr_cycles": 8008,
+      "total_bytes": 466112
+    },
+    "tensors": [
+      {
+        "tensor_id": 1000000001,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          2,
+          45
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000003,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          2,
+          49
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000005,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          2,
+          41
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000007,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          2,
+          37
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000009,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          5,
+          25
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000011,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          5,
+          28
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000013,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000015,
+        "size": 2,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          2,
+          5,
+          25,
+          28,
+          38,
+          42,
+          46,
+          50
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000017,
+        "size": 2,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          2,
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000019,
+        "size": 2,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          6,
+          7,
+          8,
+          10,
+          13,
+          15,
+          19,
+          20,
+          21,
+          22,
+          23,
+          26,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000021,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          2
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000024,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          2
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000027,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          1
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000030,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          8
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000032,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          8
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000034,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          3,
+          4
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000036,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          18
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000038,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          18
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000040,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          4
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000042,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          37,
+          41,
+          45,
+          49
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000044,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          37,
+          41,
+          45,
+          49
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000046,
+        "size": 9216,
+        "nominal_copy_cycles": 154,
+        "copy_in_tasks": [
+          38,
+          42,
+          46,
+          50
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000048,
+        "size": 9216,
+        "nominal_copy_cycles": 154,
+        "copy_in_tasks": [
+          39,
+          43,
+          47,
+          51
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000050,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000053,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000056,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          0
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000059,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000061,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000063,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000065,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000067,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000069,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          5
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000071,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          12,
+          16
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000073,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          24,
+          27
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000075,
+        "size": 9216,
+        "nominal_copy_cycles": 154,
+        "copy_in_tasks": [
+          29
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000077,
+        "size": 9216,
+        "nominal_copy_cycles": 154,
+        "copy_in_tasks": [
+          29
+        ],
+        "copy_out_tasks": [],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000000087,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          4,
+          8,
+          18
+        ],
+        "copy_out_tasks": [
+          2
+        ],
+        "conservative_cross_in_tasks": [
+          4,
+          8,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          2
+        ]
+      },
+      {
+        "tensor_id": 1000000097,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          3,
+          4,
+          8,
+          18
+        ],
+        "copy_out_tasks": [
+          2
+        ],
+        "conservative_cross_in_tasks": [
+          3,
+          4,
+          8,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          2
+        ]
+      },
+      {
+        "tensor_id": 1000000107,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          4,
+          8,
+          18
+        ],
+        "copy_out_tasks": [
+          2
+        ],
+        "conservative_cross_in_tasks": [
+          4,
+          8,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          2
+        ]
+      },
+      {
+        "tensor_id": 1000000117,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          3,
+          4,
+          8,
+          18
+        ],
+        "copy_out_tasks": [
+          2
+        ],
+        "conservative_cross_in_tasks": [
+          3,
+          4,
+          8,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          2
+        ]
+      },
+      {
+        "tensor_id": 1000000140,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000143,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          3
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          3
+        ]
+      },
+      {
+        "tensor_id": 1000000144,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          10
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          10
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000146,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000149,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          3
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          3
+        ]
+      },
+      {
+        "tensor_id": 1000000150,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          6,
+          8
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          6,
+          8
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000151,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          6,
+          8,
+          10,
+          15
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          6,
+          8,
+          10,
+          15
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000152,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000153,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          8,
+          15
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          8,
+          15
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000154,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          6,
+          8,
+          10,
+          15
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          6,
+          8,
+          10,
+          15
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000155,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          9,
+          11,
+          12,
+          14,
+          16,
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000157,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000159,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000161,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000163,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000165,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000167,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000168,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000169,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000170,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000171,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000182,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          17
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          17
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000211,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          45
+        ],
+        "copy_out_tasks": [
+          17
+        ],
+        "conservative_cross_in_tasks": [
+          45
+        ],
+        "conservative_cross_out_tasks": [
+          17
+        ]
+      },
+      {
+        "tensor_id": 1000000222,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          45
+        ],
+        "copy_out_tasks": [
+          17
+        ],
+        "conservative_cross_in_tasks": [
+          45
+        ],
+        "conservative_cross_out_tasks": [
+          17
+        ]
+      },
+      {
+        "tensor_id": 1000000225,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000227,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000229,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000231,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000233,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000235,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000236,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000237,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000238,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000239,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000250,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          9
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          9
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000279,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          49
+        ],
+        "copy_out_tasks": [
+          9
+        ],
+        "conservative_cross_in_tasks": [
+          49
+        ],
+        "conservative_cross_out_tasks": [
+          9
+        ]
+      },
+      {
+        "tensor_id": 1000000290,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          49
+        ],
+        "copy_out_tasks": [
+          9
+        ],
+        "conservative_cross_in_tasks": [
+          49
+        ],
+        "conservative_cross_out_tasks": [
+          9
+        ]
+      },
+      {
+        "tensor_id": 1000000293,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000295,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000297,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000299,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000301,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          10
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          10
+        ]
+      },
+      {
+        "tensor_id": 1000000303,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          10
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          10
+        ]
+      },
+      {
+        "tensor_id": 1000000304,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000305,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000306,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000307,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000318,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          11
+        ],
+        "copy_out_tasks": [
+          10
+        ],
+        "conservative_cross_in_tasks": [
+          11
+        ],
+        "conservative_cross_out_tasks": [
+          10
+        ]
+      },
+      {
+        "tensor_id": 1000000347,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          41
+        ],
+        "copy_out_tasks": [
+          11
+        ],
+        "conservative_cross_in_tasks": [
+          41
+        ],
+        "conservative_cross_out_tasks": [
+          11
+        ]
+      },
+      {
+        "tensor_id": 1000000358,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          41
+        ],
+        "copy_out_tasks": [
+          11
+        ],
+        "conservative_cross_in_tasks": [
+          41
+        ],
+        "conservative_cross_out_tasks": [
+          11
+        ]
+      },
+      {
+        "tensor_id": 1000000361,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000363,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000365,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000367,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000369,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000371,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000372,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000373,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000374,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000375,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000386,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          14
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          14
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000415,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          37
+        ],
+        "copy_out_tasks": [
+          14
+        ],
+        "conservative_cross_in_tasks": [
+          37
+        ],
+        "conservative_cross_out_tasks": [
+          14
+        ]
+      },
+      {
+        "tensor_id": 1000000426,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          37
+        ],
+        "copy_out_tasks": [
+          14
+        ],
+        "conservative_cross_in_tasks": [
+          37
+        ],
+        "conservative_cross_out_tasks": [
+          14
+        ]
+      },
+      {
+        "tensor_id": 1000000429,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000431,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000433,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000435,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000437,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          6
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          6
+        ]
+      },
+      {
+        "tensor_id": 1000000439,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          6
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          6
+        ]
+      },
+      {
+        "tensor_id": 1000000451,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000454,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          6
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          6
+        ]
+      },
+      {
+        "tensor_id": 1000000455,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          12
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          12
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000497,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000499,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000501,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000503,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000505,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          15
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          15
+        ]
+      },
+      {
+        "tensor_id": 1000000507,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          15
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          15
+        ]
+      },
+      {
+        "tensor_id": 1000000519,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000522,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          15
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          15
+        ]
+      },
+      {
+        "tensor_id": 1000000523,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          16
+        ],
+        "copy_out_tasks": [
+          8
+        ],
+        "conservative_cross_in_tasks": [
+          16
+        ],
+        "conservative_cross_out_tasks": [
+          8
+        ]
+      },
+      {
+        "tensor_id": 1000000566,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000569,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000572,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000575,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          4
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          4
+        ]
+      },
+      {
+        "tensor_id": 1000000576,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          13,
+          18
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          13,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000577,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          7,
+          13,
+          18
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          7,
+          13,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000578,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000579,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          7,
+          18
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          7,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000580,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          7,
+          13,
+          18
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          7,
+          13,
+          18
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000581,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "copy_out_tasks": [
+          5
+        ],
+        "conservative_cross_in_tasks": [
+          24,
+          27,
+          36,
+          40,
+          44,
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          5
+        ]
+      },
+      {
+        "tensor_id": 1000000582,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          35
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          35
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000583,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000584,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          20
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          20
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000585,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000586,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          34
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          34
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000587,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000588,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          33
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          33
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000589,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000590,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          32
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          32
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000591,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          32
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          32
+        ]
+      },
+      {
+        "tensor_id": 1000000592,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          32
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          32
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000593,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          32
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          32
+        ]
+      },
+      {
+        "tensor_id": 1000000594,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000595,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000596,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000597,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000608,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          44
+        ],
+        "copy_out_tasks": [
+          32
+        ],
+        "conservative_cross_in_tasks": [
+          44
+        ],
+        "conservative_cross_out_tasks": [
+          32
+        ]
+      },
+      {
+        "tensor_id": 1000000637,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          45
+        ],
+        "copy_out_tasks": [
+          44
+        ],
+        "conservative_cross_in_tasks": [
+          45
+        ],
+        "conservative_cross_out_tasks": [
+          44
+        ]
+      },
+      {
+        "tensor_id": 1000000648,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          45
+        ],
+        "copy_out_tasks": [
+          44
+        ],
+        "conservative_cross_in_tasks": [
+          45
+        ],
+        "conservative_cross_out_tasks": [
+          44
+        ]
+      },
+      {
+        "tensor_id": 1000000650,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          19
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          19
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000651,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000652,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          35
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          35
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000653,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000654,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          20
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          20
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000655,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000656,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          34
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          34
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000657,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000658,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          22
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          22
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000659,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          22
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          22
+        ]
+      },
+      {
+        "tensor_id": 1000000660,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          22
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          22
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000661,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          22
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          22
+        ]
+      },
+      {
+        "tensor_id": 1000000662,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000663,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000664,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000665,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000676,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          48
+        ],
+        "copy_out_tasks": [
+          22
+        ],
+        "conservative_cross_in_tasks": [
+          48
+        ],
+        "conservative_cross_out_tasks": [
+          22
+        ]
+      },
+      {
+        "tensor_id": 1000000705,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          49
+        ],
+        "copy_out_tasks": [
+          48
+        ],
+        "conservative_cross_in_tasks": [
+          49
+        ],
+        "conservative_cross_out_tasks": [
+          48
+        ]
+      },
+      {
+        "tensor_id": 1000000716,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          49
+        ],
+        "copy_out_tasks": [
+          48
+        ],
+        "conservative_cross_in_tasks": [
+          49
+        ],
+        "conservative_cross_out_tasks": [
+          48
+        ]
+      },
+      {
+        "tensor_id": 1000000718,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          33
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          33
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000719,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000720,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          19
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          19
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000721,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000722,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          35
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          35
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000723,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000724,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          20
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          20
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000725,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000726,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          31
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          31
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000727,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          31
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          31
+        ]
+      },
+      {
+        "tensor_id": 1000000728,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          31
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          31
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000729,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          31
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          31
+        ]
+      },
+      {
+        "tensor_id": 1000000730,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000731,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000732,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000733,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          20
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          20
+        ]
+      },
+      {
+        "tensor_id": 1000000744,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          40
+        ],
+        "copy_out_tasks": [
+          31
+        ],
+        "conservative_cross_in_tasks": [
+          40
+        ],
+        "conservative_cross_out_tasks": [
+          31
+        ]
+      },
+      {
+        "tensor_id": 1000000773,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          41
+        ],
+        "copy_out_tasks": [
+          40
+        ],
+        "conservative_cross_in_tasks": [
+          41
+        ],
+        "conservative_cross_out_tasks": [
+          40
+        ]
+      },
+      {
+        "tensor_id": 1000000784,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          41
+        ],
+        "copy_out_tasks": [
+          40
+        ],
+        "conservative_cross_in_tasks": [
+          41
+        ],
+        "conservative_cross_out_tasks": [
+          40
+        ]
+      },
+      {
+        "tensor_id": 1000000786,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          19
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          19
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000787,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000788,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          34
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          34
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000789,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000790,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          33
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          33
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000791,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000792,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          35
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          35
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000793,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000794,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          21
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          21
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000795,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          21
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          21
+        ]
+      },
+      {
+        "tensor_id": 1000000796,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          21
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          21
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000797,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          21
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          21
+        ]
+      },
+      {
+        "tensor_id": 1000000798,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          19
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          19
+        ]
+      },
+      {
+        "tensor_id": 1000000799,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          34
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          34
+        ]
+      },
+      {
+        "tensor_id": 1000000800,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          33
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          33
+        ]
+      },
+      {
+        "tensor_id": 1000000801,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          35
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          35
+        ]
+      },
+      {
+        "tensor_id": 1000000812,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          36
+        ],
+        "copy_out_tasks": [
+          21
+        ],
+        "conservative_cross_in_tasks": [
+          36
+        ],
+        "conservative_cross_out_tasks": [
+          21
+        ]
+      },
+      {
+        "tensor_id": 1000000841,
+        "size": 48,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          37
+        ],
+        "copy_out_tasks": [
+          36
+        ],
+        "conservative_cross_in_tasks": [
+          37
+        ],
+        "conservative_cross_out_tasks": [
+          36
+        ]
+      },
+      {
+        "tensor_id": 1000000852,
+        "size": 1152,
+        "nominal_copy_cycles": 20,
+        "copy_in_tasks": [
+          37
+        ],
+        "copy_out_tasks": [
+          36
+        ],
+        "conservative_cross_in_tasks": [
+          37
+        ],
+        "conservative_cross_out_tasks": [
+          36
+        ]
+      },
+      {
+        "tensor_id": 1000000854,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          23
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          23
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000855,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000856,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          23
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          23
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000857,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000858,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          23
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          23
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000859,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000860,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          23
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          23
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000861,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000863,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          13
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          13
+        ]
+      },
+      {
+        "tensor_id": 1000000865,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          13
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          13
+        ]
+      },
+      {
+        "tensor_id": 1000000877,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000880,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          13
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          13
+        ]
+      },
+      {
+        "tensor_id": 1000000881,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          24
+        ],
+        "copy_out_tasks": [
+          23
+        ],
+        "conservative_cross_in_tasks": [
+          24
+        ],
+        "conservative_cross_out_tasks": [
+          23
+        ]
+      },
+      {
+        "tensor_id": 1000000922,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          26
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          26
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000923,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000924,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          26
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          26
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000925,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000926,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          26
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          26
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000927,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000928,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          26
+        ],
+        "copy_out_tasks": [
+          18
+        ],
+        "conservative_cross_in_tasks": [
+          26
+        ],
+        "conservative_cross_out_tasks": [
+          18
+        ]
+      },
+      {
+        "tensor_id": 1000000929,
+        "size": 768,
+        "nominal_copy_cycles": 13,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000931,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          7
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          7
+        ]
+      },
+      {
+        "tensor_id": 1000000933,
+        "size": 512,
+        "nominal_copy_cycles": 9,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          7
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          7
+        ]
+      },
+      {
+        "tensor_id": 1000000945,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000948,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          7
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          7
+        ]
+      },
+      {
+        "tensor_id": 1000000949,
+        "size": 32,
+        "nominal_copy_cycles": 1,
+        "copy_in_tasks": [
+          27
+        ],
+        "copy_out_tasks": [
+          26
+        ],
+        "conservative_cross_in_tasks": [
+          27
+        ],
+        "conservative_cross_out_tasks": [
+          26
+        ]
+      },
+      {
+        "tensor_id": 1000000993,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          45,
+          47
+        ],
+        "copy_out_tasks": [
+          1
+        ],
+        "conservative_cross_in_tasks": [
+          45,
+          47
+        ],
+        "conservative_cross_out_tasks": [
+          1
+        ]
+      },
+      {
+        "tensor_id": 1000000995,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          46,
+          47
+        ],
+        "copy_out_tasks": [
+          45
+        ],
+        "conservative_cross_in_tasks": [
+          46,
+          47
+        ],
+        "conservative_cross_out_tasks": [
+          45
+        ]
+      },
+      {
+        "tensor_id": 1000001003,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          47
+        ],
+        "copy_out_tasks": [
+          46
+        ],
+        "conservative_cross_in_tasks": [
+          47
+        ],
+        "conservative_cross_out_tasks": [
+          46
+        ]
+      },
+      {
+        "tensor_id": 1000001008,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          47
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000001012,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          49,
+          51
+        ],
+        "copy_out_tasks": [
+          1
+        ],
+        "conservative_cross_in_tasks": [
+          49,
+          51
+        ],
+        "conservative_cross_out_tasks": [
+          1
+        ]
+      },
+      {
+        "tensor_id": 1000001014,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          50,
+          51
+        ],
+        "copy_out_tasks": [
+          49
+        ],
+        "conservative_cross_in_tasks": [
+          50,
+          51
+        ],
+        "conservative_cross_out_tasks": [
+          49
+        ]
+      },
+      {
+        "tensor_id": 1000001022,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          51
+        ],
+        "copy_out_tasks": [
+          50
+        ],
+        "conservative_cross_in_tasks": [
+          51
+        ],
+        "conservative_cross_out_tasks": [
+          50
+        ]
+      },
+      {
+        "tensor_id": 1000001027,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          51
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000001031,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          41,
+          43
+        ],
+        "copy_out_tasks": [
+          1
+        ],
+        "conservative_cross_in_tasks": [
+          41,
+          43
+        ],
+        "conservative_cross_out_tasks": [
+          1
+        ]
+      },
+      {
+        "tensor_id": 1000001033,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          42,
+          43
+        ],
+        "copy_out_tasks": [
+          41
+        ],
+        "conservative_cross_in_tasks": [
+          42,
+          43
+        ],
+        "conservative_cross_out_tasks": [
+          41
+        ]
+      },
+      {
+        "tensor_id": 1000001041,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          43
+        ],
+        "copy_out_tasks": [
+          42
+        ],
+        "conservative_cross_in_tasks": [
+          43
+        ],
+        "conservative_cross_out_tasks": [
+          42
+        ]
+      },
+      {
+        "tensor_id": 1000001046,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          43
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000001050,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          37,
+          39
+        ],
+        "copy_out_tasks": [
+          1
+        ],
+        "conservative_cross_in_tasks": [
+          37,
+          39
+        ],
+        "conservative_cross_out_tasks": [
+          1
+        ]
+      },
+      {
+        "tensor_id": 1000001052,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [
+          38,
+          39
+        ],
+        "copy_out_tasks": [
+          37
+        ],
+        "conservative_cross_in_tasks": [
+          38,
+          39
+        ],
+        "conservative_cross_out_tasks": [
+          37
+        ]
+      },
+      {
+        "tensor_id": 1000001060,
+        "size": 4608,
+        "nominal_copy_cycles": 77,
+        "copy_in_tasks": [
+          39
+        ],
+        "copy_out_tasks": [
+          38
+        ],
+        "conservative_cross_in_tasks": [
+          39
+        ],
+        "conservative_cross_out_tasks": [
+          38
+        ]
+      },
+      {
+        "tensor_id": 1000001065,
+        "size": 2304,
+        "nominal_copy_cycles": 39,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          39
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000001066,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          25
+        ],
+        "copy_out_tasks": [
+          12
+        ],
+        "conservative_cross_in_tasks": [
+          25
+        ],
+        "conservative_cross_out_tasks": [
+          12
+        ]
+      },
+      {
+        "tensor_id": 1000001067,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          25
+        ],
+        "copy_out_tasks": [
+          24
+        ],
+        "conservative_cross_in_tasks": [
+          25
+        ],
+        "conservative_cross_out_tasks": [
+          24
+        ]
+      },
+      {
+        "tensor_id": 1000001069,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          25,
+          30
+        ],
+        "copy_out_tasks": [
+          0
+        ],
+        "conservative_cross_in_tasks": [
+          25,
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          0
+        ]
+      },
+      {
+        "tensor_id": 1000001071,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          30
+        ],
+        "copy_out_tasks": [
+          25
+        ],
+        "conservative_cross_in_tasks": [
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          25
+        ]
+      },
+      {
+        "tensor_id": 1000001078,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          29
+        ],
+        "copy_out_tasks": [
+          25
+        ],
+        "conservative_cross_in_tasks": [
+          29
+        ],
+        "conservative_cross_out_tasks": [
+          25
+        ]
+      },
+      {
+        "tensor_id": 1000001082,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          30
+        ],
+        "copy_out_tasks": [
+          29
+        ],
+        "conservative_cross_in_tasks": [
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          29
+        ]
+      },
+      {
+        "tensor_id": 1000001084,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          30
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      },
+      {
+        "tensor_id": 1000001085,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          28
+        ],
+        "copy_out_tasks": [
+          16
+        ],
+        "conservative_cross_in_tasks": [
+          28
+        ],
+        "conservative_cross_out_tasks": [
+          16
+        ]
+      },
+      {
+        "tensor_id": 1000001086,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          28
+        ],
+        "copy_out_tasks": [
+          27
+        ],
+        "conservative_cross_in_tasks": [
+          28
+        ],
+        "conservative_cross_out_tasks": [
+          27
+        ]
+      },
+      {
+        "tensor_id": 1000001088,
+        "size": 96,
+        "nominal_copy_cycles": 2,
+        "copy_in_tasks": [
+          28,
+          30
+        ],
+        "copy_out_tasks": [
+          0
+        ],
+        "conservative_cross_in_tasks": [
+          28,
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          0
+        ]
+      },
+      {
+        "tensor_id": 1000001090,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          30
+        ],
+        "copy_out_tasks": [
+          28
+        ],
+        "conservative_cross_in_tasks": [
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          28
+        ]
+      },
+      {
+        "tensor_id": 1000001097,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          29
+        ],
+        "copy_out_tasks": [
+          28
+        ],
+        "conservative_cross_in_tasks": [
+          29
+        ],
+        "conservative_cross_out_tasks": [
+          28
+        ]
+      },
+      {
+        "tensor_id": 1000001101,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [
+          30
+        ],
+        "copy_out_tasks": [
+          29
+        ],
+        "conservative_cross_in_tasks": [
+          30
+        ],
+        "conservative_cross_out_tasks": [
+          29
+        ]
+      },
+      {
+        "tensor_id": 1000001103,
+        "size": 1536,
+        "nominal_copy_cycles": 26,
+        "copy_in_tasks": [],
+        "copy_out_tasks": [
+          30
+        ],
+        "conservative_cross_in_tasks": [],
+        "conservative_cross_out_tasks": []
+      }
+    ],
+    "scope": "mandatory Task boundary COPY before spill; includes root inputs and final outputs; excludes spill and overlap-independent compute/wait; all directions/cores share one nominal DDR work pool",
+    "safe_pruning_rule": "max(this bound, other independently necessary bound) strictly greater than verified incumbent makespan; never sum overlapping bounds"
+  },
+  "task_bound": {
+    "value": 11839,
+    "critical_task_path": [
+      {
+        "task": 2,
+        "duration_bound": 976,
+        "incoming_wait": 0
+      },
+      {
+        "task": 18,
+        "duration_bound": 2544,
+        "incoming_wait": 1000
+      },
+      {
+        "task": 22,
+        "duration_bound": 105,
+        "incoming_wait": 1000
+      },
+      {
+        "task": 31,
+        "duration_bound": 105,
+        "incoming_wait": 100
+      },
+      {
+        "task": 17,
+        "duration_bound": 590,
+        "incoming_wait": 100
+      },
+      {
+        "task": 23,
+        "duration_bound": 217,
+        "incoming_wait": 100
+      },
+      {
+        "task": 24,
+        "duration_bound": 460,
+        "incoming_wait": 1000
+      },
+      {
+        "task": 25,
+        "duration_bound": 194,
+        "incoming_wait": 1000
+      },
+      {
+        "task": 29,
+        "duration_bound": 1176,
+        "incoming_wait": 1000
+      },
+      {
+        "task": 30,
+        "duration_bound": 72,
+        "incoming_wait": 100
+      }
+    ],
+    "task_duration_bounds": {
+      "5": 966,
+      "18": 2544,
+      "35": 228,
+      "19": 171,
+      "20": 171,
+      "9": 590,
+      "40": 590,
+      "13": 85,
+      "24": 460,
+      "28": 194,
+      "29": 1176,
+      "30": 72,
+      "2": 976,
+      "4": 684,
+      "34": 171,
+      "11": 590,
+      "44": 590,
+      "15": 85,
+      "16": 460,
+      "49": 228,
+      "46": 627,
+      "47": 750,
+      "8": 2460,
+      "10": 105,
+      "22": 105,
+      "31": 105,
+      "17": 590,
+      "23": 217,
+      "26": 217,
+      "7": 85,
+      "27": 460,
+      "45": 228,
+      "38": 627,
+      "39": 750,
+      "3": 228,
+      "21": 105,
+      "32": 105,
+      "36": 590,
+      "6": 85,
+      "12": 460,
+      "41": 228,
+      "42": 627,
+      "50": 627,
+      "51": 750,
+      "33": 171,
+      "14": 590,
+      "48": 590,
+      "1": 44,
+      "37": 228,
+      "0": 26,
+      "25": 194,
+      "43": 750
+    },
+    "scope": "P1 only; fixed plan; original compute and mandatory Task waits; IO omitted"
+  },
+  "record": {
+    "schema_version": 1,
+    "attempt_id": "20260926T001140-4420b6ff0b634f6f8c075e89fa75b228",
+    "problem": 1,
+    "status": "success",
+    "metrics": {
+      "makespan": 15487,
+      "num_cores": 5,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 126054,
+        "scheduled_copy_bytes": 680822,
+        "added_copy_bytes": 554768,
+        "partition_added_copy_bytes": 554768,
+        "spill_added_copy_bytes": 0
+      },
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 23040,
+          "UB": 7056
+        },
+        "1": {
+          "L1": 13824,
+          "UB": 9216
+        },
+        "2": {
+          "L1": 13824,
+          "UB": 29232
+        },
+        "3": {
+          "L1": 13824,
+          "UB": 9216
+        },
+        "4": {
+          "L1": 13824,
+          "UB": 9216
+        }
+      },
+      "cross_task_traffic": 285568,
+      "capacity_bytes": {
+        "L1": 524288,
+        "UB": 131072
+      },
+      "bandwidth_bytes_per_cycle": 60,
+      "active_cores": 5,
+      "peak_memory_bytes": 30420992
+    },
+    "elapsed_seconds": 0.42512487099156715,
+    "evaluation_elapsed_seconds": 0.23093386000255123,
+    "cache_hit": false,
+    "result_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228/official_result.json.gz",
+    "plan_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228/plan.json",
+    "hashes": {
+      "graph_sha256": "9632392d98cfc04291ba0546accf1f4c3ede8ff71befd3cd0ae67caf27659e52",
+      "plan_sha256": "d8807a39da50f7f26fc840bdbfedd6b2fe26e3e6cf7d327affd8055a2f2d6367",
+      "problem": 1,
+      "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+      "official_py_sha256": {
+        "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+        "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+        "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+        "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+        "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+        "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+        "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+        "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+        "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+        "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+      },
+      "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+      "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "python_executable": "/usr/bin/python3.12",
+      "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+    },
+    "error": null,
+    "peak_memory_bytes": 30420992,
+    "returncode": 0,
+    "attempt_dir": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228",
+    "record_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228/record.json",
+    "stdout_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228/stdout.log",
+    "stderr_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/A题研究/直接迭代/联合整合_20260926/薄弱图诊断/复评运行/case_069/attempts/20260926T001140-4420b6ff0b634f6f8c075e89fa75b228/stderr.log",
+    "graph_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/case_069.json",
+    "config_path": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/data/config.txt",
+    "official_code": "/home/konglingrui/.mathmodel/questionA/统一算法迭代/选题分析/A题附件/code",
+    "timeout_seconds": 180.0,
+    "cache_key": "b5344e947544cd9f5e4e42e83548278e6c9a2b285a79635128755a610251ee0b",
+    "worker_elapsed_seconds": 0.31672538799466565,
+    "error_type": null,
+    "error_stage": null,
+    "rss_measurement": "worker_ru_maxrss",
+    "result_sha256": "94c39753e4f67883d6e408c67ec0b033df6189ce9e96f37138a69bdefdd05c22"
+  }
+}

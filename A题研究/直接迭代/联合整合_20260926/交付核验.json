@@ -1,0 +1,49 @@
+{
+  "frozen_source_files": 176,
+  "official_files": 111,
+  "plans": 1500,
+  "bundles": 15,
+  "independent_new_winner_replays": 52,
+  "strict_improvements_by_problem": {
+    "1": 23,
+    "2": 14,
+    "3": 15
+  },
+  "call_statuses": {
+    "success": 3360,
+    "timeout": 16
+  },
+  "supplemental_analysis": [
+    {
+      "problem": 1,
+      "total_configs": 36,
+      "joint_wins": 0,
+      "ties": 27,
+      "strong_wins": 9,
+      "validation_wins_over_half_percent": 0,
+      "all_groups_mean_paired_reduction_pct": -0.9711783164126218,
+      "aggregate_solver_wall_increase_pct": 5.0893121340558345
+    },
+    {
+      "problem": 2,
+      "total_configs": 36,
+      "joint_wins": 14,
+      "ties": 22,
+      "strong_wins": 0,
+      "validation_wins_over_half_percent": 4,
+      "all_groups_mean_paired_reduction_pct": 0.5224110732096264,
+      "aggregate_solver_wall_increase_pct": 22.830000670619665
+    },
+    {
+      "problem": 3,
+      "total_configs": 36,
+      "joint_wins": 15,
+      "ties": 20,
+      "strong_wins": 1,
+      "validation_wins_over_half_percent": 5,
+      "all_groups_mean_paired_reduction_pct": 0.16081945081711047,
+      "aggregate_solver_wall_increase_pct": 24.799945663620825
+    }
+  ],
+  "passed": true
+}
