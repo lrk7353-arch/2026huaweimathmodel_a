@@ -1,0 +1,54 @@
+{
+  "kind": "warm development, not from scratch",
+  "cells": [
+    {
+      "case": "case_043",
+      "cores": 4,
+      "plan": "A题研究/直接迭代/闭环验证_20260925/精选方案/case_043_p1_n4.json",
+      "makespan": 243378
+    },
+    {
+      "case": "case_051",
+      "cores": 5,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_051_multicore_res.json",
+      "makespan": 607628
+    },
+    {
+      "case": "case_047",
+      "cores": 5,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_047_multicore_res.json",
+      "makespan": 321049
+    },
+    {
+      "case": "case_075",
+      "cores": 5,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_075_multicore_res.json",
+      "makespan": 1322078
+    },
+    {
+      "case": "case_064",
+      "cores": 5,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_064_multicore_res.json",
+      "makespan": 16370
+    }
+  ],
+  "call_cap": 8,
+  "workers": 2,
+  "cell_seconds": 180,
+  "evaluation_seconds": 60,
+  "construction_seconds": 30,
+  "seed": 17,
+  "git": "f5082cc0a35d8dfead738ff5d8581db4bb74c8b1",
+  "source_sha256": {
+    "A题研究/直接迭代/run_bottleneck_panel.py": "aa085a0ef38b5a8f311ec45c67feda17f979eb297821b1974f545510f1368038",
+    "A题研究/直接迭代/p1_bottleneck_diagnose.py": "144118a79c228283036f19422312c04962927519dc315a6c68e44783cc6e67bb",
+    "A题研究/直接迭代/test_p1_bottleneck_repartition.py": "d4be5139bcd3c8b8c8854bf1d12b7d9a3a0155952fddff756c43164bfeff2125",
+    "A题研究/直接迭代/p1_bottleneck_repartition.py": "421dbeae2e7c69f704cb46c315016540664a4601620440cea078823afce12253",
+    "A题研究/直接迭代/p1_task_refine.py": "405ef0ebe5c7cd2aade19bc0e7cb71bedd8860d79e32345e7d33f3f2b258a1ea",
+    "A题研究/直接迭代/common_run.py": "4b75756023c0d67659c4cd2fabe8e8bb5c489bb6c91f9b34812d8f92fad9011a",
+    "A题研究/精修求解器/p1_selective.py": "9f5e9d3e2e8c361fc5633aa2fced0845838cb9c659d4fcc9977e97c587e1b169",
+    "A题研究/探索/partition_candidates.py": "bf99c6bacb64e0fab52b79f5cbe0bace02c8ee3f0bbff48df6944f50e90991be"
+  },
+  "selection": "min greedy proxy per family; evaluate same partition with width4; merge better measured joint candidate, regardless of intermediate loss; one cheapest distinct width4 diversity; duplicates do not consume calls",
+  "control_adjustment": "Analytical EFT with outside constraints replaces observed-duration reschedule: a changed partition has no matching trace without another charged evaluation."
+}

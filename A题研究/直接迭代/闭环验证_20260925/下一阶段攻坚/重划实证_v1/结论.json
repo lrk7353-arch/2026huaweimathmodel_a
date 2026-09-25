@@ -1,0 +1,102 @@
+{
+  "development_calls": 37,
+  "transfer_calls": 261,
+  "verification_calls": 7,
+  "total_fresh_calls": 305,
+  "transfer_gate": {
+    "winning_graphs": 3,
+    "mean_delta_speedup": 0.07240682670277604,
+    "mean_gain_by_core": {
+      "3": 0.0552627130428712,
+      "5": 0.058459045360269496
+    },
+    "worst_regression": 0,
+    "errors": 6,
+    "prefix_identical": true,
+    "passed": false,
+    "quality_conditions_passed": true,
+    "time_exhausted_before_new_generation": [
+      {
+        "case": "case_085",
+        "cores": 3,
+        "prefix_calls": 7
+      },
+      {
+        "case": "case_085",
+        "cores": 5,
+        "prefix_calls": 7
+      }
+    ]
+  },
+  "cumulative_means_5core": {
+    "1": 3.618253968426477,
+    "2": 4.334517565184253,
+    "3": 4.428465906111759
+  },
+  "selected": [
+    {
+      "case": "case_043",
+      "cores": 4,
+      "before": 243378,
+      "after": 242835,
+      "source": "本轮开发重划",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_043_p1_n4.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_043_p1_n4.json"
+    },
+    {
+      "case": "case_048",
+      "cores": 3,
+      "before": 222220,
+      "after": 191033,
+      "source": "本轮从头_new",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_048_p1_n3.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_048_p1_n3.json"
+    },
+    {
+      "case": "case_048",
+      "cores": 5,
+      "before": 211661,
+      "after": 162167,
+      "source": "本轮从头_new",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_048_p1_n5.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_048_p1_n5.json"
+    },
+    {
+      "case": "case_051",
+      "cores": 5,
+      "before": 607628,
+      "after": 293518,
+      "source": "本轮开发重划",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_051_p1_n5.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_051_p1_n5.json"
+    },
+    {
+      "case": "case_056",
+      "cores": 3,
+      "before": 255706,
+      "after": 244205,
+      "source": "本轮从头_new",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_056_p1_n3.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_056_p1_n3.json"
+    },
+    {
+      "case": "case_068",
+      "cores": 3,
+      "before": 301848,
+      "after": 290734,
+      "source": "本轮从头_new",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_068_p1_n3.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_068_p1_n3.json"
+    },
+    {
+      "case": "case_075",
+      "cores": 5,
+      "before": 1322078,
+      "after": 720755,
+      "source": "本轮开发重划",
+      "plan": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/精选方案/case_075_p1_n5.json",
+      "record": "A题研究/直接迭代/闭环验证_20260925/下一阶段攻坚/重划实证_v1/复评记录/case_075_p1_n5.json"
+    }
+  ],
+  "cumulative_scope": "Best-ever plan library; not uniform from-scratch B12 performance."
+}

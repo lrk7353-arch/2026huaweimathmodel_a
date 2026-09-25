@@ -1,0 +1,35 @@
+{
+  "config_sha256": [
+    "\"dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9\""
+  ],
+  "official_py_sha256": [
+    "{\"contest_io.py\": \"d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e\", \"evaluation_validation.py\": \"103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64\", \"multicore_cut_evaluate_problem_1.py\": \"2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f\", \"multicore_cut_evaluate_problem_2.py\": \"0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464\", \"multicore_cut_evaluate_problem_3.py\": \"eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0\", \"schedule_step1.py\": \"d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034\", \"schedule_step2.py\": \"2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3\", \"schedule_step3.py\": \"50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a\", \"singlecore_evaluate.py\": \"446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a\", \"stub_multicore_cut_and_schedule.py\": \"0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892\"}"
+  ],
+  "graph_case_043": [
+    "23270b8e711405157c6b29fd36a4a182bdccf090b2beb69f63d9580aa22e780c"
+  ],
+  "graph_case_051": [
+    "884e8b12ac1f7a9b569958909680e8c2f6055966a59c9f929ffd5cee48aae43b"
+  ],
+  "graph_case_047": [
+    "7c6328650b8e50e4d15a0ddf1ad0715a40d64d51f3c86c2c3b9c22e4cbb6a83f"
+  ],
+  "graph_case_075": [
+    "5c24beddea6d09e1df3c8f8843d3593b90affb117ba38450fa9bea8a8db3351c"
+  ],
+  "graph_case_064": [
+    "871f65b73fc1da6a48501998fbfde6684fc78e5dd022ddc68085d1384d2e2280"
+  ],
+  "graph_case_085": [
+    "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6"
+  ],
+  "graph_case_048": [
+    "9932aaca8ab23d020c5f5102fa3d436dd3cdf3ca8d1ee458d4c235c556c11764"
+  ],
+  "graph_case_056": [
+    "fda213426382a3810afd172eadc10b9221330b906888537cb13b16369be3369d"
+  ],
+  "graph_case_068": [
+    "dfd9a58ef9d26a8a4567026b50af8b4499d87eebb3d98f8208b909b11e963c6d"
+  ]
+}
