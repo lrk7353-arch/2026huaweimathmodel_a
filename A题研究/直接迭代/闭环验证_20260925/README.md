@@ -29,3 +29,23 @@ python3 -B A题研究/直接迭代/run_iterative_panel.py \
 这些是工程筛选规则，不是统计显著性保证。当前图集只称“未用于本控制器调参的保留回归组”，不是未见过的新数据集。结果是否支持从头整合，要等本批完成后根据上述规则判断。
 
 原始过程保存在my_runs，公开记录选用紧凑汇总、全部正负例、输入哈希、获益方案及独立复评证据。Git分支用于审阅，main保持队友当前版本。
+
+## 已完成结果
+
+详见[验证结论.md](验证结论.md)。暖启动预算8和12均2胜10平0负；从头预算12为1胜5平0负，未达到2图获胜门槛，故未追加从头预算8/16，默认算法保持不变。新增8份精选方案已独立复评。本轮384次新官方调用，25项测试通过。
+
+条件追加和从头小试的复现命令（输出目录须不存在）：
+
+```sh
+python3 -B A题研究/直接迭代/run_iterative_panel.py \
+  --protocol A题研究/直接迭代/闭环验证_20260925/预登记.json \
+  --budget 12 --extension-of my_runs/iterative_holdout_b8_v1 \
+  --out my_runs/iterative_holdout_b12_v1
+python3 -B A题研究/直接迭代/run_reserved_panel.py \
+  --protocol A题研究/直接迭代/闭环验证_20260925/从头预登记.json \
+  --out my_runs/reserved_cold_b12_v1
+python3 -B A题研究/直接迭代/finalize_iterative_validation.py \
+  --replay-out my_runs/final_validation_replay_v1
+```
+
+复现会核对冻结源码和输入哈希。官方复评record中plan_path/result_path已改为仓库相对路径；其他attempt字段仅用于过程定位，my_runs不随Git分发。精选方案可交由现有官方评测入口独立验证。

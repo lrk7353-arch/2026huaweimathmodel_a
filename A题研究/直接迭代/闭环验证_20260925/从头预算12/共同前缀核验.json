@@ -1,0 +1,452 @@
+[
+  {
+    "case": "case_032",
+    "cores": 3,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a3_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "a4e6eb89430f186beeae0716ac4cdde7aee70b9258a37e0a99aeb22a3eee6e6b",
+        "time": 15402
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "56505df969e9ea2dc2afe1f2892353ebc96741de185b1fea0fd139e942a97220",
+        "time": 13738
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a3_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "a4e6eb89430f186beeae0716ac4cdde7aee70b9258a37e0a99aeb22a3eee6e6b",
+        "time": 15402
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "56505df969e9ea2dc2afe1f2892353ebc96741de185b1fea0fd139e942a97220",
+        "time": 13738
+      }
+    ]
+  },
+  {
+    "case": "case_069",
+    "cores": 5,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a1_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "60e23d9410576f4bb3aeeed854f5684d5df927fd8abacd5c55d349d937db78a2",
+        "time": 25144
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "80cb800066d4e10a45eaccd5a4bc5beef57abcaf68d070c5a41f08088fbc6c4f",
+        "time": 25144
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "a4ed2574832382ba8cc009da115d1760ffd44d7a207c1aba07107eee8e9ee138",
+        "time": 25643
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "25ef0417d864a33ee30af21c10b2be5073bba7624c22778e4283662b5e5e1378",
+        "time": 16908
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "d3358d4229a919c40f8c4160437c89d2afbe4a0bd00b4d68e590d6d9273fb932",
+        "time": 17284
+      },
+      {
+        "name": "selective_phase_band_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "8f7cf0fd91a0a112b6d96157ba21a9b7e1df8b22a37512f86a9f941d97664744",
+        "time": 16908
+      },
+      {
+        "name": "selective_phase_band_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "6963d358a08915a45d3b0b820509f488c09677affba258aa708ccdd0f6da998a",
+        "time": 17284
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_balanced",
+        "status": "success",
+        "plan_sha256": "14c5ad26e742016c8819cac34b7cd55f640629b22daf5d6888553863e973fe1e",
+        "time": 19793
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a1_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "60e23d9410576f4bb3aeeed854f5684d5df927fd8abacd5c55d349d937db78a2",
+        "time": 25144
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "80cb800066d4e10a45eaccd5a4bc5beef57abcaf68d070c5a41f08088fbc6c4f",
+        "time": 25144
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "a4ed2574832382ba8cc009da115d1760ffd44d7a207c1aba07107eee8e9ee138",
+        "time": 25643
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "25ef0417d864a33ee30af21c10b2be5073bba7624c22778e4283662b5e5e1378",
+        "time": 16908
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "d3358d4229a919c40f8c4160437c89d2afbe4a0bd00b4d68e590d6d9273fb932",
+        "time": 17284
+      },
+      {
+        "name": "selective_phase_band_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "8f7cf0fd91a0a112b6d96157ba21a9b7e1df8b22a37512f86a9f941d97664744",
+        "time": 16908
+      },
+      {
+        "name": "selective_phase_band_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "6963d358a08915a45d3b0b820509f488c09677affba258aa708ccdd0f6da998a",
+        "time": 17284
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_balanced",
+        "status": "success",
+        "plan_sha256": "14c5ad26e742016c8819cac34b7cd55f640629b22daf5d6888553863e973fe1e",
+        "time": 19793
+      }
+    ]
+  },
+  {
+    "case": "case_074",
+    "cores": 4,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a4_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "99e2fc94f98ce189edcf9625fb5719fd0f13c35e404bffae4b2a4404b3b02577",
+        "time": 424418
+      },
+      {
+        "name": "wcc_task_3_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "946f8378498a990c5c93d6120c0453d7a29615c9272eed30f509dbe896e70377",
+        "time": 423479
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "0cb62fdbc52e29cafda20c5dc6ae4aab00ce43acf7e38a7121799b3b645936e6",
+        "time": 433472
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "4c1145d61d11e55ee435c0d3beb75f14e5131012d7059e41ba04da368c026277",
+        "time": 433472
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a4_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "99e2fc94f98ce189edcf9625fb5719fd0f13c35e404bffae4b2a4404b3b02577",
+        "time": 424418
+      },
+      {
+        "name": "wcc_task_3_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "946f8378498a990c5c93d6120c0453d7a29615c9272eed30f509dbe896e70377",
+        "time": 423479
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "0cb62fdbc52e29cafda20c5dc6ae4aab00ce43acf7e38a7121799b3b645936e6",
+        "time": 433472
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "4c1145d61d11e55ee435c0d3beb75f14e5131012d7059e41ba04da368c026277",
+        "time": 433472
+      }
+    ]
+  },
+  {
+    "case": "case_002",
+    "cores": 5,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a1_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "69dee48e5a3ef0157297f68628d0e190988babb2ca3ce8c1f6425282ae50e9e2",
+        "time": 261945
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "14f6610f669689f7dc835f20881ef75644c2c318d837f342742f777e6d400e58",
+        "time": 261945
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "35f71befc83ed1c4a13461c39ccd39326d138620d807df4214edb15cb8fdbfc7",
+        "time": 154153
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "1f0525573a6f25e2de68096cb7dbbf28ae96a165488acf07f6393965b910d185",
+        "time": 114925
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "cd204a5dbebadcbd4fb8e68d0dce433613bd90c7376d718fe08b06c78cbdccc4",
+        "time": 171344
+      },
+      {
+        "name": "selective_phase_band_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "a114fa37386244a17793cac5501d931aaea38031ed55135023c104cdb3c3e7bb",
+        "time": 114925
+      },
+      {
+        "name": "selective_phase_band_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "3771234d81b50aa79a7cffece5352e01ab3001b83f0fa7e11bb4d8159d64acb7",
+        "time": 171344
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_balanced",
+        "status": "success",
+        "plan_sha256": "bf26862274b0bfae5ef4a93cfbd225d0d9a97b0509bce99f25658e167209f43c",
+        "time": 116663
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a1_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "69dee48e5a3ef0157297f68628d0e190988babb2ca3ce8c1f6425282ae50e9e2",
+        "time": 261945
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "14f6610f669689f7dc835f20881ef75644c2c318d837f342742f777e6d400e58",
+        "time": 261945
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "35f71befc83ed1c4a13461c39ccd39326d138620d807df4214edb15cb8fdbfc7",
+        "time": 154153
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "1f0525573a6f25e2de68096cb7dbbf28ae96a165488acf07f6393965b910d185",
+        "time": 114925
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "cd204a5dbebadcbd4fb8e68d0dce433613bd90c7376d718fe08b06c78cbdccc4",
+        "time": 171344
+      },
+      {
+        "name": "selective_phase_band_stable_id_x1_a5_eft",
+        "status": "success",
+        "plan_sha256": "a114fa37386244a17793cac5501d931aaea38031ed55135023c104cdb3c3e7bb",
+        "time": 114925
+      },
+      {
+        "name": "selective_phase_band_stable_id_x2_a5_eft",
+        "status": "success",
+        "plan_sha256": "3771234d81b50aa79a7cffece5352e01ab3001b83f0fa7e11bb4d8159d64acb7",
+        "time": 171344
+      },
+      {
+        "name": "selective_phase_band_critical_path_x1_a5_balanced",
+        "status": "success",
+        "plan_sha256": "bf26862274b0bfae5ef4a93cfbd225d0d9a97b0509bce99f25658e167209f43c",
+        "time": 116663
+      }
+    ]
+  },
+  {
+    "case": "case_043",
+    "cores": 4,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a4_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "2f5629d2f912ba41c59f19552f60a5b2820d31252394e556d40d1b8e61d5073b",
+        "time": 269194
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "d18ea3b64c918bbccb2a5b43c560554035a4f380512c2b5fc3e2acc715632ff9",
+        "time": 269193
+      },
+      {
+        "name": "wcc_start0_affinity_a4_per_component_w15",
+        "status": "success",
+        "plan_sha256": "5fe22ab27c88a9db0c30a35eb02d35023cd17b21ed3911a1f721f682843a97ca",
+        "time": 269193
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "f3feaa534f8b6658af696fd324e540ab21fd9db6f564e337e4e09153f45ae987",
+        "time": 269193
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "d70384bf1402ab14a63d156dc7668e3e6eafe867b1a2eecdde56d62b08335774",
+        "time": 266766
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a4_eft",
+        "status": "success",
+        "plan_sha256": "7b7343f18c2505c1400327dd8bf64f7dbea9badce7a6178576192b9aa8eebd77",
+        "time": 243410
+      },
+      {
+        "name": "tensor4096_cheap256_active4",
+        "status": "success",
+        "plan_sha256": "344a5a1925a2e0c00666606076031169ccde278e47022720f201d539332856ec",
+        "time": 247208
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x2_a4_eft",
+        "status": "success",
+        "plan_sha256": "024050ab65dcfb168731b607c2613333324f5d8dca6434356ce9a621b0026827",
+        "time": 267271
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a4_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "2f5629d2f912ba41c59f19552f60a5b2820d31252394e556d40d1b8e61d5073b",
+        "time": 269194
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "d18ea3b64c918bbccb2a5b43c560554035a4f380512c2b5fc3e2acc715632ff9",
+        "time": 269193
+      },
+      {
+        "name": "wcc_start0_affinity_a4_per_component_w15",
+        "status": "success",
+        "plan_sha256": "5fe22ab27c88a9db0c30a35eb02d35023cd17b21ed3911a1f721f682843a97ca",
+        "time": 269193
+      },
+      {
+        "name": "selective_whole_critical_path_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "f3feaa534f8b6658af696fd324e540ab21fd9db6f564e337e4e09153f45ae987",
+        "time": 269193
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a4_eft",
+        "status": "success",
+        "plan_sha256": "d70384bf1402ab14a63d156dc7668e3e6eafe867b1a2eecdde56d62b08335774",
+        "time": 266766
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a4_eft",
+        "status": "success",
+        "plan_sha256": "7b7343f18c2505c1400327dd8bf64f7dbea9badce7a6178576192b9aa8eebd77",
+        "time": 243410
+      },
+      {
+        "name": "tensor4096_cheap256_active4",
+        "status": "success",
+        "plan_sha256": "344a5a1925a2e0c00666606076031169ccde278e47022720f201d539332856ec",
+        "time": 247208
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x2_a4_eft",
+        "status": "success",
+        "plan_sha256": "024050ab65dcfb168731b607c2613333324f5d8dca6434356ce9a621b0026827",
+        "time": 267271
+      }
+    ]
+  },
+  {
+    "case": "case_025",
+    "cores": 5,
+    "identical": true,
+    "single": [
+      {
+        "name": "wcc_start0_simple_a5_per_component_lpt_mv",
+        "status": "success",
+        "plan_sha256": "8a60ea965ce7e1cac5fe5219591a08644cd987c614b3afbc005369e959dd8575",
+        "time": 1757768
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "11de4a25ad2376425ff4a2f64809c14bc25d7aa1d72276996f3863ba3de277f3",
+        "time": 976752
+      },
+      {
+        "name": "wcc_start0_simple_a5_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "time": 975282
+      }
+    ],
+    "iterative": [
+      {
+        "name": "wcc_start0_simple_a5_per_component_lpt_mv",
+        "status": "success",
+        "plan_sha256": "8a60ea965ce7e1cac5fe5219591a08644cd987c614b3afbc005369e959dd8575",
+        "time": 1757768
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "status": "success",
+        "plan_sha256": "11de4a25ad2376425ff4a2f64809c14bc25d7aa1d72276996f3863ba3de277f3",
+        "time": 976752
+      },
+      {
+        "name": "wcc_start0_simple_a5_per_core_lpt_mv",
+        "status": "success",
+        "plan_sha256": "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "time": 975282
+      }
+    ]
+  }
+]
