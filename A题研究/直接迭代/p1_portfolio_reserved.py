@@ -14,7 +14,7 @@ from p1_adaptive import plan_key
 from p1_portfolio import diversify, refinement_caps
 
 
-def run(case, cores, out, budget=12, seconds=180, seed=17, refresh=False):
+def run(case, cores, out, budget=12, seconds=180, seed=17, refresh=False, bottleneck=False):
     reservations = {8:3, 12:4, 16:6}
     if budget not in reservations or cores not in range(1,6) or seconds <= 0:
         raise ValueError('budgets 8/12/16, cores 1..5 and positive time required')
@@ -86,7 +86,50 @@ def run(case, cores, out, budget=12, seconds=180, seed=17, refresh=False):
     apply(component+extra,prefix_cap,'prefix_fallback')
     prefix_calls=len(calls)
     prefix_best=best
-    while best and len(calls)<budget and time.monotonic()<deadline:
+    if bottleneck and best and len(calls)<budget and time.monotonic()<deadline:
+        # Same prefix as the old arm; reserve one old refinement, two distinct
+        # repartition families, and one composed merge/diversity call.
+        from p1_task_refine import generate as task_generate, view
+        from p1_bottleneck_diagnose import diagnose, regions
+        from p1_bottleneck_repartition import generate as regional_generate, merge_region
+        plan=read_json(best['record']['plan_path'])
+        with gzip.open(best['record']['result_path'],'rt') as f: raw=json.load(f)
+        caps=refinement_caps(plan,cores)
+        old=(task_generate(ir,plan,raw,seed,merge_caps=caps) if caps else [])+task_generate(ir,plan,raw,seed)
+        apply(old,min(budget,len(calls)+1),'old_task_refine')
+        plan=read_json(best['record']['plan_path'])
+        with gzip.open(best['record']['result_path'],'rt') as f: raw=json.load(f)
+        diagnostic=diagnose(ir,plan,raw)
+        selected_regions=regions(ir,plan,diagnostic)
+        construction_started=time.perf_counter()
+        pool,diag=regional_generate(ir,plan,selected_regions,min(30,max(0,deadline-time.monotonic())))
+        events.append(dict(stage='bottleneck_generation',diagnostic=diagnostic,regions=selected_regions,**diag))
+        new_start=len(calls)
+        chosen=[]
+        for family in ('branch','affinity'):
+            options=[c for c in pool if c['metadata']['family']==family and c['metadata']['width']==1]
+            if options:
+                greedy=min(options,key=lambda c:(c['metadata']['proxy'],c['name']))
+                ident=greedy['name'].rsplit('_w',1)[0]+'_w4'
+                candidate=next((c for c in pool if c['name']==ident),None)
+                if candidate:
+                    chosen.append(candidate)
+                    apply([candidate],min(budget,len(calls)+1),'bottleneck_repartition')
+        viable=[x for x in calls[new_start:] if x['record']['status']=='success']
+        adaptive=[]
+        if viable:
+            parent=min(viable,key=lambda x:score(x['record']))
+            candidate=next(c for c in chosen if c['name']==parent['name'])
+            mp,_,_,_,_=view(ir,plan)
+            protected={o for o,t in mp.items() if t not in candidate['metadata']['old_tasks']}
+            # The parent need not beat the incumbent. Merge is evaluated only
+            # as a complete candidate, allowing a losing split to be repaired.
+            merged=merge_region(ir,candidate['plan'],protected,candidate['metadata']['target_work']*2,
+                                min(time.perf_counter()+max(0,deadline-time.monotonic()),construction_started+30))
+            adaptive.append(dict(name=candidate['name']+'_merge',plan=merged,metadata=dict(parent=parent['name'])))
+        adaptive+=sorted((c for c in pool if c['metadata']['width']==4),key=lambda c:(c['metadata']['proxy'],c['name']))
+        apply(adaptive,min(budget,len(calls)+1),'bottleneck_adaptive')
+    while not bottleneck and best and len(calls)<budget and time.monotonic()<deadline:
         from p1_task_refine import generate
         plan=read_json(best['record']['plan_path'])
         caps=refinement_caps(plan,cores)
@@ -102,7 +145,7 @@ def run(case, cores, out, budget=12, seconds=180, seed=17, refresh=False):
             break
     apply(component+extra,budget,'partition_fallback')
     result=dict(case=case,problem=1,num_cores=cores,
-        variant='reserved_iterative' if refresh else 'reserved_single',budget=budget,
+        variant='reserved_bottleneck' if bottleneck else ('reserved_iterative' if refresh else 'reserved_single'),budget=budget,
         prefix_cap=prefix_cap,prefix_calls=prefix_calls,prefix_best=prefix_best,
         task_call_reserve=reservations[budget],generations=generation,
         best=best,best_record=best['record'] if best else None,
