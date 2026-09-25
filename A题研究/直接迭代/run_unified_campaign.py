@@ -18,7 +18,7 @@ from unified_solver import solve_unified
 
 
 def worker(job):
-    case, p, n, variant, out, budget, seconds, timeout, seed, stage, experience = job
+    case, p, n, variant, out, budget, seconds, timeout, seed, stage, experience, incumbent = job
     summary = Path(out) / 'summary.json'
     if summary.exists():
         return read_json(summary)
@@ -38,13 +38,13 @@ def worker(job):
         return result
     return solve_unified(DATA / (case + '.json'), p, n, out, call_budget=budget,
         seconds=seconds, evaluation_timeout=timeout, seed=seed, variant=variant,
-        stage=stage, experience_path=experience)
+        stage=stage, experience_path=experience, incumbent=incumbent)
 
 
 def summarize(s):
     rec = s['best_record']
     old = [x['record']['metrics']['makespan'] for x in s['evaluations']
-           if not x['metadata'].get('new_strategy') and x['record']['status'] == 'success']
+           if x.get('source', 'old') == 'old' and x['record']['status'] == 'success']
     return dict(case=s['case'], problem=s['problem'], cores=s['num_cores'], variant=s['variant'],
         valid=s['returned_valid'], makespan=rec['metrics']['makespan'] if rec else None,
         best_name=s['best']['name'] if s['best'] else None, best_seed=min(old) if old else None,
@@ -61,6 +61,18 @@ def run(args):
     out = args.out.resolve()
     out.mkdir(parents=True, exist_ok=True)
     cases = [f'case_{i:03d}' for i in args.cases]
+    incumbents = {}
+    if args.incumbent_ledger:
+        with args.incumbent_ledger.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                key = row['case'], int(row['problem']), int(row['cores'])
+                if key[0] in cases and key[1] in args.problems and key[2] in args.cores:
+                    path = Path(row['plan'])
+                    if not path.is_absolute():
+                        path = (args.incumbent_root or R.parent)/path
+                    assert path.is_file(), path
+                    incumbents[key] = str(path.resolve())
+        assert len(incumbents) == len(cases)*len(args.problems)*len(args.cores)
     source_files = [p for folder in (R / 'solver', R / 'advanced_solver', R / '精修求解器', R / '探索', Path(__file__).parent)
                     for p in folder.glob('*.py')]
     manifest = dict(cases=cases, problems=args.problems, cores=args.cores, variants=args.variants,
@@ -68,6 +80,10 @@ def run(args):
         stage=args.stage, experience_sha256=hashlib.sha256(args.experience.read_bytes()).hexdigest() if args.experience else None,
         adaptive_workers=args.adaptive_workers, heavy_slots=args.heavy_slots,
         singlecore_baselines=args.singlecore_baselines,
+        mode='warm_explicit_charged' if incumbents else 'cold',
+        incumbent_ledger_sha256=hashlib.sha256(args.incumbent_ledger.read_bytes()).hexdigest() if args.incumbent_ledger else None,
+        incumbents={f'{c}/p{p}_n{n}':dict(path=path, sha256=hashlib.sha256(Path(path).read_bytes()).hexdigest())
+                    for (c,p,n),path in incumbents.items()},
         code_commit=subprocess.check_output(['git', '-C', str(R.parent), 'rev-parse', 'HEAD']).decode().strip(),
         sources={str(p.relative_to(R)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(source_files))},
         inputs={c: hashlib.sha256((DATA / (c + '.json')).read_bytes()).hexdigest() for c in cases},
@@ -81,11 +97,11 @@ def run(args):
         if not target.exists():
             shutil.copyfile(path, target)
     jobs = [(c, p, n, v, str(out / 'slots' / c / f'p{p}_n{n}' / v), args.budget, args.seconds, args.timeout, args.seed,
-             args.stage, str(args.experience.resolve()) if args.experience else None)
+             args.stage, str(args.experience.resolve()) if args.experience else None, incumbents.get((c,p,n)))
             for c in cases for n in args.cores for p in args.problems for v in args.variants]
     if args.singlecore_baselines:
         jobs += [(c, 0, 1, 'official_singlecore', str(out/'slots'/c/'p0_n1'/'official_singlecore'),
-                  1, args.seconds, args.timeout, args.seed, args.stage, None) for c in cases]
+                  1, args.seconds, args.timeout, args.seed, args.stage, None, None) for c in cases]
     # Size ordering reduces the long-job tail without using scores or graph IDs.
     jobs.sort(key=lambda j: -(DATA / (j[0] + '.json')).stat().st_size)
     rows, errors = [], []
@@ -102,6 +118,8 @@ def run(args):
     queue = list(jobs)
     concurrency_events = []
     rss_estimate = 512*1024*1024
+    rss_per_input_byte = 40.
+    reduced_at_size = None
     window_started, window_work, window_done = start, 0., 0
     prior_rate = None
     capacity_frozen = False
@@ -129,6 +147,8 @@ def run(args):
                     row = summarize(future.result())
                     rows.append(row)
                     rss_estimate = max(rss_estimate, row['peak_worker_rss'])
+                    rss_per_input_byte = max(rss_per_input_byte,
+                        max(0, row['peak_worker_rss']-192*1024*1024)/(DATA/(job[0]+'.json')).stat().st_size)
                     window_work += ((DATA/(job[0]+'.json')).stat().st_size/1048576)**1.25 * max(1, row['calls'])
                     print(json.dumps(row, ensure_ascii=False), flush=True)
                 except Exception as error:
@@ -138,7 +158,14 @@ def run(args):
             if args.adaptive_workers and window_done >= max(4, capacity):
                 elapsed = time.monotonic()-window_started
                 rate = window_work/max(.01, elapsed)
-                memory_cap = max(1, int((available_memory()+len(pending)*rss_estimate)*.65/(1.5*rss_estimate)))
+                # Old peak RSS belongs to a specific graph. Once the remaining
+                # pool is smaller, keeping its worst-case estimate permanently
+                # can unnecessarily serialize hundreds of small configurations.
+                remaining_size = max(((DATA/(j[0]+'.json')).stat().st_size for j in queue+list(pending.values())), default=1)
+                current_rss = min(rss_estimate, 192*1024*1024+rss_per_input_byte*remaining_size)
+                memory_cap = max(1, int((available_memory()+len(pending)*current_rss)*.65/(1.5*current_rss)))
+                if reduced_at_size and remaining_size < reduced_at_size*.5:
+                    capacity_frozen, prior_rate, reduced_at_size = False, None, None
                 next_capacity = capacity
                 if memory_cap < capacity:
                     next_capacity = memory_cap
@@ -146,10 +173,12 @@ def run(args):
                     if prior_rate is not None and rate < .8*prior_rate:
                         next_capacity = max(2, capacity//2)
                         capacity_frozen = True
+                        reduced_at_size = remaining_size
                     else:
                         next_capacity = min(args.workers, memory_cap, capacity*2)
                 concurrency_events.append(dict(completed=len(rows), capacity=capacity, next_capacity=next_capacity,
                     normalized_throughput=rate, peak_worker_rss=rss_estimate, memory_cap=memory_cap,
+                    remaining_max_input_bytes=remaining_size, predicted_current_worker_rss=current_rss,
                     note='size/call-normalized throughput heuristic; heavy evaluations have a separate slot cap'))
                 capacity = next_capacity
                 prior_rate = rate
@@ -179,6 +208,8 @@ def main():
     p.add_argument('--adaptive-workers', action='store_true')
     p.add_argument('--heavy-slots', type=int, default=2)
     p.add_argument('--singlecore-baselines', action='store_true')
+    p.add_argument('--incumbent-ledger', type=Path, help='explicit warm input index; first evaluation is charged')
+    p.add_argument('--incumbent-root', type=Path, help='root for relative plan paths in explicit ledger')
     p.add_argument('--seed', type=int, default=17)
     p.add_argument('--stage', choices=('A', 'B'), default='B')
     p.add_argument('--experience', type=Path)

@@ -25,6 +25,17 @@ def seeds(ir, scene, cores, seed):
     total = max(1, ir.total_work_m + ir.total_work_v)
     dominant = max((c.compute_work for c in ir.components), default=0) / total
     if scene == 1:
+        if component and max(Counter(component[0]['plan']['node_to_subgraph'].values()).values(), default=0) > 2048:
+            # A runtime fallback, not a claim that equal-op slicing releases
+            # parallelism. Small complete WCCs stay together; ownership stays
+            # fixed. Bound official per-Task heuristic cost before trying large
+            # coarse Tasks. Applies by structure/size, never by graph identity.
+            from p1_task_refine import split_large
+            cap = 256 if len(ir.compute_ids) > 20000 else 1024
+            yield dict(name=f'runtime_bounded_component{cap}',
+                plan=split_large(ir, component[0]['plan'], cap),
+                metadata=dict(family='runtime_bounded_component', new_strategy=False,
+                              purpose='obtain_valid_plan_before_large_task_search', max_task_ops=cap))
         from p1_selective import generate_selective_candidates
         other, _ = generate_selective_candidates(ir, cores, max_candidates=24, seed=seed)
         # A large single Task can spend the entire evaluation deadline in the
@@ -166,6 +177,15 @@ def solve_unified(graph, scene, cores, out, *, seconds=180, call_budget=8, seed=
         row = dict(name=c['name'], source=source, metadata=c['metadata'], record=rec,
                    accepted=accepted, generation_seconds=time.monotonic() - generation_start - rec['elapsed_seconds'])
         calls.append(row)
+        if scene == 1 and best is None and rec['status'] == 'timeout' and len(calls) < call_budget:
+            from collections import Counter
+            from p1_task_refine import split_large
+            largest = max(Counter(c['plan']['node_to_subgraph'].values()).values(), default=0)
+            cap = min(128, largest//2)
+            if cap >= 32:
+                pending.insert(0, dict(name=f'runtime_timeout_repair{cap}',
+                    plan=split_large(ir, c['plan'], cap), metadata=dict(family='runtime_timeout_repair',
+                        new_strategy=False, parent=c['name'], max_task_ops=cap)))
         if search is not None:
             search.observe(c, rec)
         if accepted:

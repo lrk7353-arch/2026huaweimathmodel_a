@@ -244,6 +244,8 @@ class Search:
         self.last_repair_call = -1
         self.pruned_by_bound = 0
         self.prune_rounds = 0
+        self.observed_parent = None
+        self.observed_generations = 0
 
     def admit(self, candidate, source):
         from unified_solver import signature
@@ -292,6 +294,19 @@ class Search:
         generation_deadline = min(deadline, time.monotonic()+12)
         self.fill('old', max(0, 4-sum(source=='old' for _, source in self.queue)), generation_deadline)
         self.fill('new', max(0, 3-sum(source=='new' for _, source in self.queue)), generation_deadline)
+        if best and self.scene in (2, 3) and len(calls) >= 3:
+            rec = best['record']
+            parent_hash = rec['hashes']['plan_sha256']
+            if parent_hash != self.observed_parent and self.observed_generations < 3:
+                from unified_observed import observed_candidates
+                self.observed_parent = parent_hash
+                try:
+                    for c in observed_candidates(self.s, self.scene, self.cores, rec,
+                            self.observed_generations, min(deadline, time.monotonic()+10)):
+                        self.admit(c, 'observed')
+                except (ValueError, TimeoutError) as error:
+                    self.errors.append(dict(source='observed_mature', error=str(error)))
+                self.observed_generations += 1
         if best and len(calls) >= 4 and len(calls)-self.last_repair_call >= 4:
             self.last_repair_call = len(calls)
             try:
@@ -349,6 +364,8 @@ class Search:
         candidates = list(range(len(self.queue)))
         if len(calls) == 2:
             candidates = [i for i in candidates if self.queue[i][1] == 'old'] or candidates
+        if len(calls) == 3 or (len(calls) >= 7 and not any(x['source']=='observed' for x in calls)):
+            candidates = [i for i in candidates if self.queue[i][1] == 'observed'] or candidates
         # Ensure at least one full regional action is actually evaluated, then
         # let measured calibration decide further spending.
         if len(calls) >= 4 and not any(x['source']=='joint' for x in calls):
