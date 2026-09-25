@@ -1,0 +1,226 @@
+[
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 0.0,
+    "end_us": 15.881
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 15.901,
+    "end_us": 30.621000000000002
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 30.641,
+    "end_us": 44.421
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 44.441,
+    "end_us": 58.241
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 58.261,
+    "end_us": 72.182
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 72.222,
+    "end_us": 86.18199999999999
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 86.202,
+    "end_us": 100.182
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 100.202,
+    "end_us": 114.383
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 114.403,
+    "end_us": 128.12300000000002
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 128.143,
+    "end_us": 141.923
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 141.943,
+    "end_us": 155.663
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 155.683,
+    "end_us": 174.684
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 174.704,
+    "end_us": 190.924
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 190.944,
+    "end_us": 207.10399999999998
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 207.124,
+    "end_us": 223.64499999999998
+  },
+  {
+    "op": "MatMulV2",
+    "stream": "12",
+    "task_type": "AI_CORE",
+    "start_us": 223.665,
+    "end_us": 239.70499999999998
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 161.644,
+    "end_us": 172.464
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 172.484,
+    "end_us": 177.78400000000002
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 177.804,
+    "end_us": 184.844
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 184.884,
+    "end_us": 191.064
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 191.084,
+    "end_us": 197.504
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 197.524,
+    "end_us": 204.804
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 204.824,
+    "end_us": 210.40400000000002
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 210.424,
+    "end_us": 217.485
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 217.505,
+    "end_us": 223.745
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 223.785,
+    "end_us": 230.565
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 230.585,
+    "end_us": 237.60500000000002
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 237.625,
+    "end_us": 242.325
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 242.345,
+    "end_us": 247.145
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 247.165,
+    "end_us": 251.92499999999998
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 251.945,
+    "end_us": 256.685
+  },
+  {
+    "op": "Add",
+    "stream": "11",
+    "task_type": "AI_VECTOR_CORE",
+    "start_us": 256.705,
+    "end_us": 261.406
+  }
+]

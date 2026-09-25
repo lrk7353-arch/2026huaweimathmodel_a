@@ -1,0 +1,145 @@
+{
+  "bandwidth": {
+    "configs": 36,
+    "samples": 1080,
+    "pairs": 0,
+    "pairs_over_5pct": 0,
+    "pairs_under_minus5pct": 0
+  },
+  "barrier": {
+    "configs": 72,
+    "samples": 2160,
+    "pairs": 36,
+    "pairs_over_5pct": 26,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.138718674866751,
+    "best": {
+      "suite": "barrier",
+      "baseline": "barrier_038",
+      "candidate": "barrier_039",
+      "paired_samples": 30,
+      "baseline_us": 3432.51991272,
+      "candidate_us": 1896.78001404,
+      "ratio_of_medians": 1.809656305587588,
+      "paired_ratio_median": 1.8079255614119614,
+      "paired_ratio_ci_low": 1.7997120531760964,
+      "paired_ratio_ci_high": 1.8130899479672853,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "barrier",
+      "baseline": "barrier_066",
+      "candidate": "barrier_067",
+      "paired_samples": 30,
+      "baseline_us": 379.9400031565,
+      "candidate_us": 392.05999672400003,
+      "ratio_of_medians": 0.9690863804806074,
+      "paired_ratio_median": 1.0048143093477706,
+      "paired_ratio_ci_low": 0.9010809126690644,
+      "paired_ratio_ci_high": 1.075716344897057,
+      "candidate_faster_samples": 16
+    }
+  },
+  "cache": {
+    "configs": 48,
+    "samples": 1440,
+    "pairs": 24,
+    "pairs_over_5pct": 6,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.0046609335667083,
+    "best": {
+      "suite": "cache",
+      "baseline": "cache_047",
+      "candidate": "cache_046",
+      "paired_samples": 30,
+      "baseline_us": 11622.3402023,
+      "candidate_us": 6565.44995308,
+      "ratio_of_medians": 1.770227522159041,
+      "paired_ratio_median": 1.7748586588157664,
+      "paired_ratio_ci_low": 1.759902608578774,
+      "paired_ratio_ci_high": 1.7792317282196797,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "cache",
+      "baseline": "cache_001",
+      "candidate": "cache_000",
+      "paired_samples": 30,
+      "baseline_us": 78.92999798055,
+      "candidate_us": 94.27999705075,
+      "ratio_of_medians": 0.8371871070176503,
+      "paired_ratio_median": 0.8662143408087257,
+      "paired_ratio_ci_low": 0.7125122974437668,
+      "paired_ratio_ci_high": 1.0801155613020796,
+      "candidate_faster_samples": 11
+    }
+  },
+  "pipe": {
+    "configs": 108,
+    "samples": 3240,
+    "pairs": 54,
+    "pairs_over_5pct": 32,
+    "pairs_under_minus5pct": 5,
+    "median_pair_ratio": 1.0982328018844383,
+    "best": {
+      "suite": "pipe",
+      "baseline": "pipe_055",
+      "candidate": "pipe_058",
+      "paired_samples": 30,
+      "baseline_us": 17361.43016815,
+      "candidate_us": 12274.23000335,
+      "ratio_of_medians": 1.4144618573557408,
+      "paired_ratio_median": 1.4139457720494903,
+      "paired_ratio_ci_low": 1.4033687992300417,
+      "paired_ratio_ci_high": 1.4158803018301205,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "pipe",
+      "baseline": "pipe_000",
+      "candidate": "pipe_003",
+      "paired_samples": 30,
+      "baseline_us": 1881.24001026,
+      "candidate_us": 2048.790097235,
+      "ratio_of_medians": 0.9182199839792657,
+      "paired_ratio_median": 0.9192040286904861,
+      "paired_ratio_ci_low": 0.9149702814652926,
+      "paired_ratio_ci_high": 0.9221900214157217,
+      "candidate_faster_samples": 0
+    }
+  },
+  "reuse": {
+    "configs": 72,
+    "samples": 2160,
+    "pairs": 36,
+    "pairs_over_5pct": 34,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.6457085306316555,
+    "best": {
+      "suite": "reuse",
+      "baseline": "reuse_033",
+      "candidate": "reuse_032",
+      "paired_samples": 30,
+      "baseline_us": 16130.069732700002,
+      "candidate_us": 1555.4000139250002,
+      "ratio_of_medians": 10.370367486365328,
+      "paired_ratio_median": 10.378867104692656,
+      "paired_ratio_ci_low": 10.313403428340207,
+      "paired_ratio_ci_high": 10.412468177759365,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "reuse",
+      "baseline": "reuse_003",
+      "candidate": "reuse_002",
+      "paired_samples": 30,
+      "baseline_us": 52.570000290850004,
+      "candidate_us": 53.7800006568,
+      "ratio_of_medians": 0.977500923183849,
+      "paired_ratio_median": 1.0107443423843725,
+      "paired_ratio_ci_low": 0.8862886009377144,
+      "paired_ratio_ci_high": 1.2423397909583804,
+      "candidate_faster_samples": 16
+    }
+  }
+}

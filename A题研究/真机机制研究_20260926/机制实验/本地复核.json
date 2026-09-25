@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "hashed_files": 123,
+  "formal_batches": {
+    "full_01": {
+      "configurations": 336,
+      "samples": 10080,
+      "all_correct": true
+    },
+    "confirm_01": {
+      "configurations": 32,
+      "samples": 960,
+      "all_correct": true
+    },
+    "sharing_01": {
+      "configurations": 64,
+      "samples": 1920,
+      "all_correct": true
+    },
+    "sharing_confirm": {
+      "configurations": 8,
+      "samples": 240,
+      "all_correct": true
+    },
+    "mixed_01": {
+      "configurations": 24,
+      "samples": 720,
+      "all_correct": true
+    },
+    "mixed_graph_01": {
+      "configurations": 24,
+      "samples": 720,
+      "all_correct": true
+    }
+  },
+  "formal_configuration_batches": 488,
+  "formal_timed_sequences": 14640,
+  "source_checks": [
+    "full_01/main.cpp",
+    "full_01/vector_probe.cpp",
+    "full_01/run_suite.py",
+    "full_01/CMakeLists.txt",
+    "sharing_01/main.cpp",
+    "sharing_01/vector_probe.cpp",
+    "sharing_01/sharing_probe.cpp",
+    "sharing_01/run_suite.py",
+    "sharing_01/CMakeLists.txt",
+    "mixed_01/mixed_resources.py",
+    "mixed_graph_01/mixed_resources.py"
+  ],
+  "checks": [
+    "all exported file hashes and sizes",
+    "all timed output correctness flags",
+    "positive finite timings",
+    "30 unique samples per configuration",
+    "summary medians reproduced from raw data",
+    "exact executed core source snapshots"
+  ],
+  "scope": "Artifact integrity and internal consistency; does not prove physical independence or contest gains."
+}

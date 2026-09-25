@@ -1,0 +1,154 @@
+{
+  "scope": "installed torch_npu matrix/vector scheduling; framework-selected kernels",
+  "samples": 30,
+  "warmup": 10,
+  "configs": [
+    {
+      "size": 512,
+      "elements": 1048576,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 1048576,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 1048576,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 1048576,
+      "mode": "parallel",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 16777216,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 16777216,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 16777216,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 512,
+      "elements": 16777216,
+      "mode": "parallel",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 1048576,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 1048576,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 1048576,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 1048576,
+      "mode": "parallel",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 16777216,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 16777216,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 16777216,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 1024,
+      "elements": 16777216,
+      "mode": "parallel",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 1048576,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 1048576,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 1048576,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 1048576,
+      "mode": "parallel",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 16777216,
+      "mode": "matrix_only",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 16777216,
+      "mode": "vector_only",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 16777216,
+      "mode": "serial",
+      "repeats": 16
+    },
+    {
+      "size": 2048,
+      "elements": 16777216,
+      "mode": "parallel",
+      "repeats": 16
+    }
+  ],
+  "torch": "2.7.1+cpu",
+  "torch_npu": "2.7.1.post4",
+  "source_sha256": "31d35780c06994fb8b4c3e3839b7e8b2d4dfa30585a025cbf4a1783688646335"
+}

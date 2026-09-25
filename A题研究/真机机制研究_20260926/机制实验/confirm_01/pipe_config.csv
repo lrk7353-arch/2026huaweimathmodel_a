@@ -1,0 +1,9 @@
+id,mode,n,blocks,tile,buffers,rounds,groups,repeats
+pipe_best_scale1_pipe_055,pipe,4194304,1,512,1,16,1,4
+pipe_best_scale1_pipe_058,pipe,4194304,1,512,2,16,1,4
+pipe_best_scale2_pipe_055,pipe,8388608,1,512,1,16,1,4
+pipe_best_scale2_pipe_058,pipe,8388608,1,512,2,16,1,4
+pipe_worst_scale1_pipe_000,pipe,1048576,1,512,1,1,1,4
+pipe_worst_scale1_pipe_003,pipe,1048576,1,512,2,1,1,4
+pipe_worst_scale2_pipe_000,pipe,2097152,1,512,1,1,1,4
+pipe_worst_scale2_pipe_003,pipe,2097152,1,512,2,1,1,4

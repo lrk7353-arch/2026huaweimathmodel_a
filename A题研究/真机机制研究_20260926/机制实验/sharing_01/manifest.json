@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-25T19:04:37Z",
+  "system": "Linux-5.10.0-182.0.0.95.r2673_211.hce2.aarch64-aarch64-with-glibc2.31",
+  "samples": 30,
+  "warmup": 10,
+  "shuffle_seed": 20260926,
+  "suites": [
+    "sharing"
+  ],
+  "timing": "ACL device event envelope, includes device scheduling and host submission gaps; NOT pure kernel time",
+  "validation": "full elementwise CPU reference before warmup and after EVERY timed sequence; outside timing",
+  "cache_condition": "no forced flush; configuration order shuffled each round; preceding validation copies may affect cache",
+  "source_sha256": {
+    "vector_probe.cpp": "a1d23ec10bb3c7a81fbdde1355be1943ee1c08724ba2b9070b307db194b1827d",
+    "extract_profiles.py": "a3bc9ee4fa61f06593546e59f0c07cfa01cebc4124112bda3071378b84abd376",
+    "analyze.py": "f5fb819ef1c6da9547970900a99777209499a54f3db9784455bea93a0674d7ae",
+    "run_suite.py": "ba8ebd1a333883743f9303d3d27144deef54e55fbe48b97747a50b5f40abd035",
+    "confirm_selected.py": "7e61024ee8d25ec3eb8988771a432f0d267b585f9194f38720bfae6160ac6bad",
+    "CMakeLists.txt": "ab585447768617f86c5ae8ae79ba2c509216bdd99c2eebf9b17905464fa687c0",
+    "sharing_probe.cpp": "8c6c2151df3cb6ed0cc4ef640edb930cb5f78e0cc668d81411a05f8314fda151",
+    "profile_selected.py": "f9745183f43f05aa2b5d553f4556504fe133a1c5e45e1ef6eefdb5286e22bc9a",
+    "plot_results.py": "dffff7930ccd103f7434c15f3490a3e8975d2383b9a39bc4d5b1359e0af11d51",
+    "main.cpp": "c5597f9be38b4dea62ca3f172eaae228c1624afcdff71e09f1571b08cbdad9d7"
+  },
+  "binary_sha256": "76a18217c30c29e88a36cbd4c3c92b6cdb4f95dde1c33b4590c5e067ff1c4521"
+}

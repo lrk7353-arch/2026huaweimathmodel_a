@@ -1,0 +1,118 @@
+[
+  {
+    "id": "sharing_000",
+    "suite": "sharing",
+    "config": {
+      "id": "sharing_000",
+      "mode": "private",
+      "n": "8126464",
+      "blocks": "1",
+      "tile": "1024",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_000/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build_v2/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_000/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_000/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.080171609999525
+  },
+  {
+    "id": "sharing_001",
+    "suite": "sharing",
+    "config": {
+      "id": "sharing_001",
+      "mode": "shared",
+      "n": "8126464",
+      "blocks": "1",
+      "tile": "1024",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_001/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build_v2/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_001/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_001/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.078999983999893
+  },
+  {
+    "id": "sharing_060",
+    "suite": "sharing",
+    "config": {
+      "id": "sharing_060",
+      "mode": "private",
+      "n": "32505856",
+      "blocks": "32",
+      "tile": "4096",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_060/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build_v2/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_060/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_060/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.07856460200037
+  },
+  {
+    "id": "sharing_061",
+    "suite": "sharing",
+    "config": {
+      "id": "sharing_061",
+      "mode": "shared",
+      "n": "32505856",
+      "blocks": "32",
+      "tile": "4096",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_061/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build_v2/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_061/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/sharing_profile/sharing_061/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077091291000215
+  }
+]

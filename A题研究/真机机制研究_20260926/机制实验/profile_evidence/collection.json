@@ -1,0 +1,582 @@
+[
+  {
+    "id": "pipe_000",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_000",
+      "mode": "pipe",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "1",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_000/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_000/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_000/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 6.0748935179999535
+  },
+  {
+    "id": "pipe_003",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_003",
+      "mode": "pipe",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_003/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_003/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_003/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077150092000011
+  },
+  {
+    "id": "pipe_055",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_055",
+      "mode": "pipe",
+      "n": "4194304",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "1",
+      "rounds": "16",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_055/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_055/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_055/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077085691999855
+  },
+  {
+    "id": "pipe_058",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_058",
+      "mode": "pipe",
+      "n": "4194304",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "16",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_058/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_058/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_058/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.077991618999476
+  },
+  {
+    "id": "pipe_102",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_102",
+      "mode": "pipe",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "4096",
+      "buffers": "1",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_102/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_102/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_102/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.078243150000162
+  },
+  {
+    "id": "pipe_105",
+    "suite": "pipe",
+    "config": {
+      "id": "pipe_105",
+      "mode": "pipe",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "4096",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_105/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_105/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/pipe_105/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.07931153500067
+  },
+  {
+    "id": "barrier_038",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_038",
+      "mode": "barrier",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "2",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_038/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_038/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_038/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.079227435000575
+  },
+  {
+    "id": "barrier_039",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_039",
+      "mode": "branch",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "2",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_039/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_039/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_039/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.079005393999978
+  },
+  {
+    "id": "barrier_054",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_054",
+      "mode": "barrier",
+      "n": "1048576",
+      "blocks": "4",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "4",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_054/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_054/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_054/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.079091273999438
+  },
+  {
+    "id": "barrier_055",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_055",
+      "mode": "branch",
+      "n": "1048576",
+      "blocks": "4",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "4",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_055/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_055/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_055/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.027405808999902
+  },
+  {
+    "id": "barrier_066",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_066",
+      "mode": "barrier",
+      "n": "1048576",
+      "blocks": "16",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "4",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_066/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_066/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_066/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.027453308999611
+  },
+  {
+    "id": "barrier_067",
+    "suite": "barrier",
+    "config": {
+      "id": "barrier_067",
+      "mode": "branch",
+      "n": "1048576",
+      "blocks": "16",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "64",
+      "groups": "4",
+      "repeats": "1"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_067/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_067/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/barrier_067/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077063671999895
+  },
+  {
+    "id": "reuse_032",
+    "suite": "reuse",
+    "config": {
+      "id": "reuse_032",
+      "mode": "fused",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "32"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_032/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_032/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_032/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.076615107999714
+  },
+  {
+    "id": "reuse_033",
+    "suite": "reuse",
+    "config": {
+      "id": "reuse_033",
+      "mode": "materialize",
+      "n": "1048576",
+      "blocks": "1",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "32"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_033/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_033/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_033/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.028193160000228
+  },
+  {
+    "id": "reuse_040",
+    "suite": "reuse",
+    "config": {
+      "id": "reuse_040",
+      "mode": "fused",
+      "n": "1048576",
+      "blocks": "32",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "8"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_040/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_040/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_040/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077301735999754
+  },
+  {
+    "id": "reuse_041",
+    "suite": "reuse",
+    "config": {
+      "id": "reuse_041",
+      "mode": "materialize",
+      "n": "1048576",
+      "blocks": "32",
+      "tile": "512",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "1",
+      "repeats": "8"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_041/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=PipeUtilization",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_041/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/reuse_041/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 7.077213016000314
+  },
+  {
+    "id": "cache_042",
+    "suite": "cache",
+    "config": {
+      "id": "cache_042",
+      "mode": "cache_adjacent",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "4",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_042/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_042/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_042/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.07887479800047
+  },
+  {
+    "id": "cache_043",
+    "suite": "cache",
+    "config": {
+      "id": "cache_043",
+      "mode": "cache_roundrobin",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "4",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_043/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_043/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_043/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 8.079714231999787
+  },
+  {
+    "id": "cache_046",
+    "suite": "cache",
+    "config": {
+      "id": "cache_046",
+      "mode": "cache_adjacent",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "64",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_046/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_046/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_046/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 12.087142067000059
+  },
+  {
+    "id": "cache_047",
+    "suite": "cache",
+    "config": {
+      "id": "cache_047",
+      "mode": "cache_roundrobin",
+      "n": "4194304",
+      "blocks": "32",
+      "tile": "2048",
+      "buffers": "2",
+      "rounds": "1",
+      "groups": "64",
+      "repeats": "4"
+    },
+    "argv": [
+      "msprof",
+      "--output=/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_047/prof",
+      "--task-time=on",
+      "--runtime-api=on",
+      "--aic-metrics=L2Cache",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/build/mechanism_bench",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_047/config.csv",
+      "/home/developer/ascend-lab-codex-1z1yBI/mechanisms/profile_01/cache_047/timed_under_profiler.csv",
+      "1",
+      "1"
+    ],
+    "returncode": 0,
+    "seconds": 12.086766435000754
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "stream": "45",
+    "start_us": 0.0,
+    "end_us": 1695.594,
+    "duration_us": 1695.594,
+    "phase": "A"
+  },
+  {
+    "stream": "44",
+    "start_us": 34.961,
+    "end_us": 165.02300000000002,
+    "duration_us": 130.062,
+    "phase": "A"
+  },
+  {
+    "stream": "44",
+    "start_us": 165.223,
+    "end_us": 1860.9569999999999,
+    "duration_us": 1695.734,
+    "phase": "B"
+  },
+  {
+    "stream": "45",
+    "start_us": 1695.794,
+    "end_us": 1825.8960000000002,
+    "duration_us": 130.102,
+    "phase": "B"
+  }
+]

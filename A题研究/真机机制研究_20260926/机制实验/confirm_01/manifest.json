@@ -1,0 +1,201 @@
+{
+  "source_batch": "full_01",
+  "selection": "best and worst exploratory ratio, original and doubled n",
+  "scope": "confirmation, not held-out graph validation",
+  "samples": 30,
+  "warmup": 10,
+  "selection_provenance": [
+    {
+      "id": "pipe_best_scale1_pipe_055",
+      "source": "pipe_055",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "pipe_best_scale1_pipe_058",
+      "source": "pipe_058",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "pipe_best_scale2_pipe_055",
+      "source": "pipe_055",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "pipe_best_scale2_pipe_058",
+      "source": "pipe_058",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "pipe_worst_scale1_pipe_000",
+      "source": "pipe_000",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "pipe_worst_scale1_pipe_003",
+      "source": "pipe_003",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "pipe_worst_scale2_pipe_000",
+      "source": "pipe_000",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "pipe_worst_scale2_pipe_003",
+      "source": "pipe_003",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "barrier_best_scale1_barrier_038",
+      "source": "barrier_038",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "barrier_best_scale1_barrier_039",
+      "source": "barrier_039",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "barrier_best_scale2_barrier_038",
+      "source": "barrier_038",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "barrier_best_scale2_barrier_039",
+      "source": "barrier_039",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "barrier_worst_scale1_barrier_066",
+      "source": "barrier_066",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "barrier_worst_scale1_barrier_067",
+      "source": "barrier_067",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "barrier_worst_scale2_barrier_066",
+      "source": "barrier_066",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "barrier_worst_scale2_barrier_067",
+      "source": "barrier_067",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "reuse_best_scale1_reuse_033",
+      "source": "reuse_033",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "reuse_best_scale1_reuse_032",
+      "source": "reuse_032",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "reuse_best_scale2_reuse_033",
+      "source": "reuse_033",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "reuse_best_scale2_reuse_032",
+      "source": "reuse_032",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "reuse_worst_scale1_reuse_003",
+      "source": "reuse_003",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "reuse_worst_scale1_reuse_002",
+      "source": "reuse_002",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "reuse_worst_scale2_reuse_003",
+      "source": "reuse_003",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "reuse_worst_scale2_reuse_002",
+      "source": "reuse_002",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "cache_best_scale1_cache_047",
+      "source": "cache_047",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "cache_best_scale1_cache_046",
+      "source": "cache_046",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "cache_best_scale2_cache_047",
+      "source": "cache_047",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "cache_best_scale2_cache_046",
+      "source": "cache_046",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "cache_worst_scale1_cache_001",
+      "source": "cache_001",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "cache_worst_scale1_cache_000",
+      "source": "cache_000",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "cache_worst_scale2_cache_001",
+      "source": "cache_001",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "cache_worst_scale2_cache_000",
+      "source": "cache_000",
+      "selection": "worst",
+      "n_scale": 2
+    }
+  ]
+}

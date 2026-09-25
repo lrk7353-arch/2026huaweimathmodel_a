@@ -1,0 +1,16 @@
+{
+  "scope": "installed torch_npu Add correctness only; NOT a performance benchmark",
+  "runner_sha256": "3fd9db9ef2f0a76ad6611ec563af2281124fdb0ff11a3aeaa34552c28e194385",
+  "success": true,
+  "torch_version": "2.7.1+cpu",
+  "torch_npu_version": "2.7.1.post4",
+  "visible_device_count": 1,
+  "logical_device": 0,
+  "device_name": "Ascend910B3",
+  "elements": 16384,
+  "dtype": "torch.float32",
+  "execution_device": "npu:0",
+  "max_absolute_error": 0.0,
+  "exact_match": true,
+  "all_finite": true
+}

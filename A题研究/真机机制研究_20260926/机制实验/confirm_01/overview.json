@@ -1,0 +1,138 @@
+{
+  "barrier": {
+    "configs": 8,
+    "samples": 240,
+    "pairs": 4,
+    "pairs_over_5pct": 3,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.4622459181608156,
+    "best": {
+      "suite": "barrier",
+      "baseline": "barrier_best_scale2_barrier_038",
+      "candidate": "barrier_best_scale2_barrier_039",
+      "paired_samples": 30,
+      "baseline_us": 6815.129995345,
+      "candidate_us": 3724.640011785,
+      "ratio_of_medians": 1.8297419277518072,
+      "paired_ratio_median": 1.8316598376494475,
+      "paired_ratio_ci_low": 1.828359269466749,
+      "paired_ratio_ci_high": 1.8348907691940695,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "barrier",
+      "baseline": "barrier_worst_scale1_barrier_066",
+      "candidate": "barrier_worst_scale1_barrier_067",
+      "paired_samples": 30,
+      "baseline_us": 381.3100010155,
+      "candidate_us": 361.939996481,
+      "ratio_of_medians": 1.0535171705885698,
+      "paired_ratio_median": 1.0467333151654294,
+      "paired_ratio_ci_low": 0.9382964613723427,
+      "paired_ratio_ci_high": 1.0985608962421531,
+      "candidate_faster_samples": 18
+    }
+  },
+  "cache": {
+    "configs": 8,
+    "samples": 240,
+    "pairs": 4,
+    "pairs_over_5pct": 2,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.4081344931194344,
+    "best": {
+      "suite": "cache",
+      "baseline": "cache_best_scale2_cache_047",
+      "candidate": "cache_best_scale2_cache_046",
+      "paired_samples": 30,
+      "baseline_us": 22500.28038025,
+      "candidate_us": 12274.16992185,
+      "ratio_of_medians": 1.8331406949317097,
+      "paired_ratio_median": 1.8342009306194627,
+      "paired_ratio_ci_low": 1.8218879385344642,
+      "paired_ratio_ci_high": 1.8471189485528599,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "cache",
+      "baseline": "cache_worst_scale2_cache_001",
+      "candidate": "cache_worst_scale2_cache_000",
+      "paired_samples": 30,
+      "baseline_us": 65.5400007963,
+      "candidate_us": 64.89000096915,
+      "ratio_of_medians": 1.0100169489511803,
+      "paired_ratio_median": 0.9770032581623834,
+      "paired_ratio_ci_low": 0.8625965932969604,
+      "paired_ratio_ci_high": 1.1740087979218503,
+      "candidate_faster_samples": 13
+    }
+  },
+  "pipe": {
+    "configs": 8,
+    "samples": 240,
+    "pairs": 4,
+    "pairs_over_5pct": 2,
+    "pairs_under_minus5pct": 2,
+    "median_pair_ratio": 1.1624228334923572,
+    "best": {
+      "suite": "pipe",
+      "baseline": "pipe_best_scale2_pipe_055",
+      "candidate": "pipe_best_scale2_pipe_058",
+      "paired_samples": 30,
+      "baseline_us": 34409.95979305,
+      "candidate_us": 24504.1599274,
+      "ratio_of_medians": 1.4042497231081796,
+      "paired_ratio_median": 1.404541032844127,
+      "paired_ratio_ci_low": 1.4039344205488922,
+      "paired_ratio_ci_high": 1.4098102189216994,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "pipe",
+      "baseline": "pipe_worst_scale1_pipe_000",
+      "candidate": "pipe_worst_scale1_pipe_003",
+      "paired_samples": 30,
+      "baseline_us": 1882.16996193,
+      "candidate_us": 2043.879985805,
+      "ratio_of_medians": 0.9208808614017965,
+      "paired_ratio_median": 0.9214470765256982,
+      "paired_ratio_ci_low": 0.9184429920933287,
+      "paired_ratio_ci_high": 0.9275368025553169,
+      "candidate_faster_samples": 0
+    }
+  },
+  "reuse": {
+    "configs": 8,
+    "samples": 240,
+    "pairs": 4,
+    "pairs_over_5pct": 4,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 5.820697634014759,
+    "best": {
+      "suite": "reuse",
+      "baseline": "reuse_best_scale2_reuse_033",
+      "candidate": "reuse_best_scale2_reuse_032",
+      "paired_samples": 30,
+      "baseline_us": 32197.360992449998,
+      "candidate_us": 3085.75999737,
+      "ratio_of_medians": 10.43417537977415,
+      "paired_ratio_median": 10.437077844470886,
+      "paired_ratio_ci_low": 10.391882652231011,
+      "paired_ratio_ci_high": 10.463518468376055,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "reuse",
+      "baseline": "reuse_worst_scale1_reuse_003",
+      "candidate": "reuse_worst_scale1_reuse_002",
+      "paired_samples": 30,
+      "baseline_us": 57.07000009715,
+      "candidate_us": 44.3199984729,
+      "ratio_of_medians": 1.2876805519757892,
+      "paired_ratio_median": 1.229327763428871,
+      "paired_ratio_ci_low": 1.0562474006566789,
+      "paired_ratio_ci_high": 1.3488696374059512,
+      "candidate_faster_samples": 24
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-25T18:41:59Z",
+  "system": "Linux-5.10.0-182.0.0.95.r2673_211.hce2.aarch64-aarch64-with-glibc2.31",
+  "samples": 3,
+  "warmup": 2,
+  "shuffle_seed": 20260926,
+  "suites": [
+    "smoke"
+  ],
+  "timing": "ACL device event envelope, includes device scheduling and host submission gaps; NOT pure kernel time",
+  "validation": "full elementwise CPU reference before warmup and after EVERY timed sequence; outside timing",
+  "cache_condition": "no forced flush; configuration order shuffled each round; preceding validation copies may affect cache",
+  "source_sha256": {
+    "vector_probe.cpp": "a1d23ec10bb3c7a81fbdde1355be1943ee1c08724ba2b9070b307db194b1827d",
+    "run_suite.py": "a98a8fd091557b19720d07e7e6412db5ddd27bee66961d7ca30e4c6f523d1d15",
+    "CMakeLists.txt": "5329112dfbdc962de62454471267535fcac33a3081c7bb4e5c3f92bf5ab8b5f5",
+    "main.cpp": "36da80d23366137aaa4427801c709021ebf9e3ca6a7834a985a5f762a5f2224b"
+  },
+  "binary_sha256": "262d8f3b0b04c5f0544cca5ef8ff788eb251d48ca6f1dccaa95c7ab45e560fdb"
+}
