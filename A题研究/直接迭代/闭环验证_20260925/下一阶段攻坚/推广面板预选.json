@@ -1,0 +1,142 @@
+{
+  "status": "planned_not_executed",
+  "selection_frozen_before_new_algorithm_implementation": true,
+  "selection_rule": "Exclude development/transfer/previous focal graphs; stratify baseline n5 speedup <2, 2..4, >=4; within each stratum select standardized structural centroid then farthest-first; ties case id. Four weak, two middle, two strong.",
+  "features": [
+    "log_ops",
+    "log_components",
+    "largest_component_fraction",
+    "log_tasks_n5",
+    "log_median_task_ops_n5"
+  ],
+  "excluded": [
+    "case_002",
+    "case_016",
+    "case_025",
+    "case_032",
+    "case_043",
+    "case_047",
+    "case_048",
+    "case_051",
+    "case_056",
+    "case_062",
+    "case_063",
+    "case_064",
+    "case_068",
+    "case_069",
+    "case_074",
+    "case_075",
+    "case_085",
+    "case_100"
+  ],
+  "feature_sha256": "cb592b2909cf68eaf0dd58b86a5de47ddcd68c7328f58e2a992cd8bd1d12e560",
+  "score_sha256": "78e868da2e393512fb59bfc545c333e50050d6d65247198e4cc111220fe91fae",
+  "jobs": [
+    {
+      "case": "case_049",
+      "stratum": "weak",
+      "baseline_n5_speedup": 1.5704467078996007,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_044",
+      "stratum": "weak",
+      "baseline_n5_speedup": 1.6025802032195455,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_071",
+      "stratum": "weak",
+      "baseline_n5_speedup": 1.6464189365590463,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_082",
+      "stratum": "weak",
+      "baseline_n5_speedup": 1.8636655001111415,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_090",
+      "stratum": "middle",
+      "baseline_n5_speedup": 2.384293197954753,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_024",
+      "stratum": "middle",
+      "baseline_n5_speedup": 2.3334036456478504,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_033",
+      "stratum": "strong",
+      "baseline_n5_speedup": 4.8209358755933795,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case": "case_014",
+      "stratum": "strong",
+      "baseline_n5_speedup": 4.860728226572561,
+      "core_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "methods": [
+    "original_portfolio",
+    "new_unified_repartition"
+  ],
+  "max_calls_per_method": 12,
+  "total_seconds_per_method": 180,
+  "single_eval_timeout_seconds": 60,
+  "workers": 2,
+  "seed": 17,
+  "max_official_calls": 768,
+  "promotion_conditions": [
+    "at_least_two_distinct_graphs_win",
+    "positive_mean_reference_speedup_delta",
+    "nonnegative_mean_paired_reduction_for_each_core_count",
+    "max_per_cell_regression_0.5_percent",
+    "no_unhandled_invalid_plan_error_or_timeout"
+  ],
+  "implementation_freeze": "source and configuration hashes must be added in a new execution manifest before running; this file freezes selection and gates only"
+}

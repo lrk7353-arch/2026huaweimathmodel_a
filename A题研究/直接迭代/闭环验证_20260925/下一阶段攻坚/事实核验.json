@@ -1,0 +1,230 @@
+{
+  "source_commit": "150c76f2eb5926f42f542a1306169f81da98d841",
+  "new_official_calls": 0,
+  "evidence_scope": "recomputed existing scores, plans and official traces; proposed new algorithm not implemented",
+  "source_score_sha256": "78e868da2e393512fb59bfc545c333e50050d6d65247198e4cc111220fe91fae",
+  "five_core_summary": {
+    "1": {
+      "mean_speedup": 3.5952495949082697,
+      "below_two": 23,
+      "weakest10_mean": 1.187088481713875
+    },
+    "2": {
+      "mean_speedup": 4.334517565184253,
+      "below_two": 0,
+      "weakest10_mean": 2.486597633319478
+    },
+    "3": {
+      "mean_speedup": 4.42846590611176,
+      "below_two": 0,
+      "weakest10_mean": 2.6415724313774898
+    }
+  },
+  "development_profiles": [
+    {
+      "case": "case_051",
+      "cores": 5,
+      "makespan": 607628,
+      "speedup": 1.0,
+      "compute_ops": 1416,
+      "tasks": 1,
+      "small_tasks_le8": 0,
+      "largest_tasks": [
+        [
+          0,
+          1416
+        ]
+      ],
+      "active_cores": 1,
+      "largest_task_mv_bound": 607080,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_051_multicore_res.json"
+    },
+    {
+      "case": "case_047",
+      "cores": 5,
+      "makespan": 321049,
+      "speedup": 1.0170036349591496,
+      "compute_ops": 13710,
+      "tasks": 20,
+      "small_tasks_le8": 0,
+      "largest_tasks": [
+        [
+          0,
+          742
+        ],
+        [
+          2,
+          739
+        ],
+        [
+          4,
+          739
+        ]
+      ],
+      "active_cores": 1,
+      "largest_task_mv_bound": 14651,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_047_multicore_res.json"
+    },
+    {
+      "case": "case_075",
+      "cores": 5,
+      "makespan": 1322078,
+      "speedup": 1.0905627353302907,
+      "compute_ops": 7410,
+      "tasks": 1148,
+      "small_tasks_le8": 1129,
+      "largest_tasks": [
+        [
+          759,
+          5876
+        ],
+        [
+          281,
+          47
+        ],
+        [
+          416,
+          47
+        ]
+      ],
+      "active_cores": 5,
+      "largest_task_mv_bound": 865344,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_075_multicore_res.json"
+    },
+    {
+      "case": "case_064",
+      "cores": 5,
+      "makespan": 16370,
+      "speedup": 1.1677458766035431,
+      "compute_ops": 906,
+      "tasks": 46,
+      "small_tasks_le8": 19,
+      "largest_tasks": [
+        [
+          35,
+          147
+        ],
+        [
+          0,
+          117
+        ],
+        [
+          15,
+          60
+        ]
+      ],
+      "active_cores": 5,
+      "largest_task_mv_bound": 2483,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_064_multicore_res.json"
+    },
+    {
+      "case": "case_085",
+      "cores": 5,
+      "makespan": 2760933,
+      "speedup": 1.1546455491676184,
+      "compute_ops": 19737,
+      "tasks": 72,
+      "small_tasks_le8": 30,
+      "largest_tasks": [
+        [
+          0,
+          2201
+        ],
+        [
+          9,
+          2169
+        ],
+        [
+          30,
+          2169
+        ]
+      ],
+      "active_cores": 5,
+      "largest_task_mv_bound": 286992,
+      "plan": "A题研究/直接迭代/第六轮成果/方案/p1/n5/case_085_multicore_res.json"
+    }
+  ],
+  "case043": {
+    "old_final_chain": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "critical_ops": 3117,
+    "old_task_sizes": {
+      "4": 935,
+      "5": 702,
+      "6": 709,
+      "7": 771
+    },
+    "probe_critical_assignment": {
+      "split1024_local": {
+        "0": 3117
+      },
+      "split1024_observed": {
+        "0": 3117
+      },
+      "split512_local": {
+        "0": 3117
+      },
+      "split512_observed": {
+        "0": 3117
+      }
+    },
+    "split_quotient_chains": {
+      "split1024": {
+        "tasks": 4,
+        "longest_path_nodes": 4
+      },
+      "split512": {
+        "tasks": 8,
+        "longest_path_nodes": 8
+      }
+    },
+    "old_core_end": [
+      266766,
+      207095,
+      110370,
+      105170
+    ],
+    "old_record": "my_runs/iterative_holdout_b12_v1/case_043/n4/baseline/attempts/20260925T153428-084682dcba3a4769a962f7d06aec318c/record.json",
+    "better_assignment": {
+      "1": 1023,
+      "0": 445,
+      "3": 1224,
+      "2": 425
+    },
+    "accepted_candidates": [
+      {
+        "name": "wcc_start0_simple_a4_per_core_lpt_mv",
+        "makespan": 269194
+      },
+      {
+        "name": "wcc_task_4_mv_complement_batch2",
+        "makespan": 269193
+      },
+      {
+        "name": "selective_local_quantile_stable_id_x1_a4_eft",
+        "makespan": 266766
+      },
+      {
+        "name": "selective_phase_band_critical_path_x2_a4_eft",
+        "makespan": 243410
+      },
+      {
+        "name": "observed_duration",
+        "makespan": 243378
+      }
+    ],
+    "max_simultaneously_active_cores_for_old_critical_ops": 4,
+    "old_task4_ops_finish": 95047,
+    "old_task5_ops_first_start": 11325,
+    "better_record": "my_runs/reserved_cold_b12_v1/case_043/n4/original/evaluations/attempts/20260925T154741-40f8d117cc564ccdbb2f1ce9fda43a33/record.json"
+  },
+  "limitations": [
+    "case043 gain jointly changes partition and assignment; not isolated causal effect of partition alone",
+    "low speedup is not proof that a graph has cheap exploitable parallelism",
+    "other weak graph mechanisms remain hypotheses until their own traces and candidates are examined"
+  ]
+}
