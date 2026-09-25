@@ -1,0 +1,9 @@
+id,mode,n,blocks,tile,buffers,rounds,groups,repeats
+barrier_best_scale1_barrier_038,barrier,1048576,1,2048,2,64,2,1
+barrier_best_scale1_barrier_039,branch,1048576,1,2048,2,64,2,1
+barrier_best_scale2_barrier_038,barrier,2097152,1,2048,2,64,2,1
+barrier_best_scale2_barrier_039,branch,2097152,1,2048,2,64,2,1
+barrier_worst_scale1_barrier_066,barrier,1048576,16,2048,2,64,4,1
+barrier_worst_scale1_barrier_067,branch,1048576,16,2048,2,64,4,1
+barrier_worst_scale2_barrier_066,barrier,2097152,16,2048,2,64,4,1
+barrier_worst_scale2_barrier_067,branch,2097152,16,2048,2,64,4,1

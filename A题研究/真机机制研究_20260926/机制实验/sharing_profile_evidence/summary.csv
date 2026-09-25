@@ -1,0 +1,5 @@
+id,mode,last_sequence_launches,median_kernel_us,kernel_span_us,sum_kernel_us,kernel_union_us,kernel_gap_us,peak_overlapping_kernels,first_B_start_us,last_A_end_us,A_B_overlap_window_us,aiv_scalar_ratio_median,aiv_vec_ratio_median,aiv_mte2_ratio_median,aiv_mte3_ratio_median,read_hit_requests,read_miss_allocate_requests,request_weighted_read_hit_pct
+sharing_000,private,4,1667.3635,6669.374,6669.294,6669.294,0.07999999999992724,1,,,,,,,,2031720.0,8.0,99.99960624650544
+sharing_001,shared,4,1667.4035,6669.673000000001,6669.593,6669.593,0.08000000000083674,1,,,,,,,,2031720.0,7.0,99.99965546552268
+sharing_060,private,4,328.91650000000004,1316.086,1316.0059999999999,1316.0059999999999,0.08000000000015461,1,,,,,,,,345.0,8126503.0,0.004245188294403931
+sharing_061,shared,4,213.334,853.057,852.977,852.9770000000001,0.07999999999992724,1,,,,,,,,3936600.0,4190248.0,48.4394441731899

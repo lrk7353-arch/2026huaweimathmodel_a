@@ -7,6 +7,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 
 
 def main():
@@ -22,7 +23,8 @@ def main():
             y=i*3+streams.index(r['stream'])
             ax.broken_barh([(r['start_us']/1000,(r['end_us']-r['start_us'])/1000)],(y,.65),color=colors[r['phase']])
         ax.text(0,i*3+1.9,name,fontsize=10)
-    ax.set(xlabel='Time since first kernel (ms)',title='A/B overlap appears after removing the whole barrier',yticks=[])
+    ax.set(xlabel='Time since first kernel (ms)',title='A/B overlap appears after removing the whole barrier',yticks=[],ylim=(-.25,6.3))
+    ax.legend(handles=[Patch(color=colors[k],label=f'Phase {k}') for k in ['A','B']],loc='upper right',fontsize=8)
     ax=axes[0,1]
     prof={r['id']:r for r in csv.DictReader((root/'profile_evidence/summary.csv').open())}
     for ids,name,color in [(['cache_043','cache_042'],'Input pool 128 MiB','#7c3aed'),
@@ -31,9 +33,11 @@ def main():
         y=[float(prof[k]['median_kernel_us']) for k in ids]
         ax.plot(x,y,'o-',color=color,label=name)
         for k,xx,yy in zip(ids,x,y):
-            ax.annotate('adjacent' if prof[k]['mode']=='cache_adjacent' else 'round-robin',(xx,yy),
-                        xytext=(-15,9 if name.endswith('2048 MiB') else -16),textcoords='offset points',fontsize=8)
-    ax.set(xlabel='PMU read-request hit percentage',ylabel='Median profiled kernel duration (us)',title='Higher hit rate is useful only when it removes a bottleneck');ax.legend(fontsize=8)
+            adjacent=prof[k]['mode']=='cache_adjacent'
+            offset=(0,9) if name.endswith('2048 MiB') else ((-2,12) if adjacent else (-2,-14))
+            ax.annotate('adjacent' if adjacent else 'round-robin',(xx,yy),
+                        xytext=offset,textcoords='offset points',fontsize=8,ha='right' if xx>90 else 'left')
+    ax.set(xlabel='PMU read-request hit percentage',ylabel='Median profiled kernel duration (us)',title='Higher hit rate is useful only when it removes a bottleneck',xlim=(-5,105),ylim=(16,50));ax.legend(fontsize=8,loc='center right')
     ax=axes[1,0]
     stats=list(csv.DictReader((root/'sharing_01/summary.csv').open()))
     for n,color in [(31<<18,'#d97706'),(31<<20,'#155e75')]:
@@ -51,7 +55,8 @@ def main():
             y=i*3+int(row['op']=='Add')
             ax.broken_barh([(row['start_us'],row['end_us']-row['start_us'])],(y,.65),color=colors[row['op']])
         ax.text(0,i*3+1.9,name,fontsize=10)
-    ax.set(xlabel='Time since first selected kernel (us)',yticks=[],title='Measured Cube / Vector overlap, not just two host streams')
+    ax.set(xlabel='Time since first selected kernel (us)',yticks=[],title='Measured Cube / Vector overlap, not just two host streams',ylim=(-.25,6.3))
+    ax.legend(handles=[Patch(color=colors[k],label=k) for k in ['MatMulV2','Add']],loc='upper right',fontsize=8)
     for ax in axes.flat:
         ax.grid(alpha=.18);ax.spines[['right','top']].set_visible(False)
     fig.suptitle('Ascend 910B3 | profiler evidence and controlled sharing\nTimelines and PMU observations are separate from the unprofiled measurements',fontsize=14)

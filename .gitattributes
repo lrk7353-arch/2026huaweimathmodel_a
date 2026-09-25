@@ -7,3 +7,7 @@
 *.sh text eol=lf
 *.command text eol=lf
 选题分析/A题附件/** -text
+# Frozen hardware evidence is SHA256-addressed, including logs and SVG exports.
+A题研究/真机机制研究_20260926/机制实验/** -text
+# Matplotlib emits trailing spaces inside SVG path data; preserve the original export.
+A题研究/真机机制研究_20260926/机制实验/figures_final/*.svg whitespace=-blank-at-eol

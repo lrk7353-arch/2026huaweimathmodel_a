@@ -1,0 +1,9 @@
+id,mode,n,blocks,tile,buffers,rounds,groups,repeats
+cache_best_scale1_cache_047,cache_roundrobin,4194304,32,2048,2,1,64,4
+cache_best_scale1_cache_046,cache_adjacent,4194304,32,2048,2,1,64,4
+cache_best_scale2_cache_047,cache_roundrobin,8388608,32,2048,2,1,64,4
+cache_best_scale2_cache_046,cache_adjacent,8388608,32,2048,2,1,64,4
+cache_worst_scale1_cache_001,cache_roundrobin,65536,8,2048,2,1,1,4
+cache_worst_scale1_cache_000,cache_adjacent,65536,8,2048,2,1,1,4
+cache_worst_scale2_cache_001,cache_roundrobin,131072,8,2048,2,1,1,4
+cache_worst_scale2_cache_000,cache_adjacent,131072,8,2048,2,1,1,4

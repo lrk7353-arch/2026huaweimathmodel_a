@@ -1,0 +1,9 @@
+id,mode,n,blocks,tile,buffers,rounds,groups,repeats
+reuse_best_scale1_reuse_033,materialize,1048576,1,512,2,1,1,32
+reuse_best_scale1_reuse_032,fused,1048576,1,512,2,1,1,32
+reuse_best_scale2_reuse_033,materialize,2097152,1,512,2,1,1,32
+reuse_best_scale2_reuse_032,fused,2097152,1,512,2,1,1,32
+reuse_worst_scale1_reuse_003,materialize,16384,1,512,2,8,1,2
+reuse_worst_scale1_reuse_002,fused,16384,1,512,2,8,1,2
+reuse_worst_scale2_reuse_003,materialize,32768,1,512,2,8,1,2
+reuse_worst_scale2_reuse_002,fused,32768,1,512,2,8,1,2

@@ -1,0 +1,9 @@
+id,mode,n,blocks,tile,buffers,rounds,groups,repeats
+smoke_000,pipe,262144,8,2048,1,16,1,1
+smoke_001,pipe,262144,8,2048,2,16,1,1
+smoke_002,barrier,262144,4,2048,2,16,4,1
+smoke_003,branch,262144,4,2048,2,16,4,1
+smoke_004,fused,262144,8,2048,2,4,1,8
+smoke_005,materialize,262144,8,2048,2,4,1,8
+smoke_006,cache_adjacent,262144,8,2048,2,1,4,4
+smoke_007,cache_roundrobin,262144,8,2048,2,1,4,4

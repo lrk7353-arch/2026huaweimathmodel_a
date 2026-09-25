@@ -1,0 +1,57 @@
+{
+  "source_batch": "sharing_01",
+  "selection": "best and worst exploratory ratio, original and doubled n",
+  "scope": "confirmation, not held-out graph validation",
+  "samples": 30,
+  "warmup": 10,
+  "selection_provenance": [
+    {
+      "id": "sharing_best_scale1_sharing_060",
+      "source": "sharing_060",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "sharing_best_scale1_sharing_061",
+      "source": "sharing_061",
+      "selection": "best",
+      "n_scale": 1
+    },
+    {
+      "id": "sharing_best_scale2_sharing_060",
+      "source": "sharing_060",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "sharing_best_scale2_sharing_061",
+      "source": "sharing_061",
+      "selection": "best",
+      "n_scale": 2
+    },
+    {
+      "id": "sharing_worst_scale1_sharing_002",
+      "source": "sharing_002",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "sharing_worst_scale1_sharing_003",
+      "source": "sharing_003",
+      "selection": "worst",
+      "n_scale": 1
+    },
+    {
+      "id": "sharing_worst_scale2_sharing_002",
+      "source": "sharing_002",
+      "selection": "worst",
+      "n_scale": 2
+    },
+    {
+      "id": "sharing_worst_scale2_sharing_003",
+      "source": "sharing_003",
+      "selection": "worst",
+      "n_scale": 2
+    }
+  ]
+}

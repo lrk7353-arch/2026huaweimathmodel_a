@@ -1,0 +1,64 @@
+{
+  "scope": "ACL runtime device attributes; no SetDevice, allocation or kernel",
+  "header": "CANN 9.0.0 include/acl/acl_rt.h aclrtDevAttr enum",
+  "runner_sha256": "0cb5f60e69c3547fc21bb15f77bc25e08a1af512b6134c7211e12360533ba81f",
+  "installed_sdk_spec": {
+    "path": "/home/developer/Ascend/cann-9.0.0/aarch64-linux/data/platform_config/Ascend910B3.ini",
+    "values": {
+      "ai_core_cnt": "20",
+      "cube_core_cnt": "20",
+      "vector_core_cnt": "40",
+      "l2_size": "201326592",
+      "cube_vector_combine": "split",
+      "l1_size": "524288",
+      "ub_size": "196608"
+    },
+    "scope": "SDK configuration, not a capacity measurement"
+  },
+  "notice": "Runtime UBUF attribute may return zero on this platform; do not interpret that as physical UB capacity.",
+  "aclInit_returncode": 0,
+  "visible_devices": 1,
+  "attributes": {
+    "aicpu_cores": {
+      "enum": 1,
+      "returncode": 0,
+      "value": 6
+    },
+    "aicore_cores": {
+      "enum": 101,
+      "returncode": 0,
+      "value": 20
+    },
+    "cube_cores": {
+      "enum": 102,
+      "returncode": 0,
+      "value": 20
+    },
+    "vector_cores": {
+      "enum": 201,
+      "returncode": 0,
+      "value": 40
+    },
+    "ubuf_bytes_per_vector": {
+      "enum": 204,
+      "returncode": 0,
+      "value": 0
+    },
+    "global_mem_bytes": {
+      "enum": 301,
+      "returncode": 0,
+      "value": 65452113920
+    },
+    "l2_cache_bytes": {
+      "enum": 302,
+      "returncode": 0,
+      "value": 201326592
+    },
+    "is_virtual": {
+      "enum": 501,
+      "returncode": 0,
+      "value": 0
+    }
+  },
+  "aclFinalize_returncode": 0
+}

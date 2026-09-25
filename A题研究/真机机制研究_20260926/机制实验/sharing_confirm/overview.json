@@ -1,0 +1,36 @@
+{
+  "sharing": {
+    "configs": 8,
+    "samples": 240,
+    "pairs": 4,
+    "pairs_over_5pct": 2,
+    "pairs_under_minus5pct": 0,
+    "median_pair_ratio": 1.2492391742847748,
+    "best": {
+      "suite": "sharing",
+      "baseline": "sharing_best_scale2_sharing_060",
+      "candidate": "sharing_best_scale2_sharing_061",
+      "paired_samples": 30,
+      "baseline_us": 2633.46004486,
+      "candidate_us": 1723.580002785,
+      "ratio_of_medians": 1.5279012523960565,
+      "paired_ratio_median": 1.5324396944415557,
+      "paired_ratio_ci_low": 1.525850729466752,
+      "paired_ratio_ci_high": 1.5428735258437372,
+      "candidate_faster_samples": 30
+    },
+    "worst": {
+      "suite": "sharing",
+      "baseline": "sharing_worst_scale1_sharing_002",
+      "candidate": "sharing_worst_scale1_sharing_003",
+      "paired_samples": 30,
+      "baseline_us": 16942.779541,
+      "candidate_us": 16938.890457150002,
+      "ratio_of_medians": 1.0002295949584086,
+      "paired_ratio_median": 0.9992966992568896,
+      "paired_ratio_ci_low": 0.9963811802554665,
+      "paired_ratio_ci_high": 1.003410432338514,
+      "candidate_faster_samples": 14
+    }
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "size": 512,
+    "elements": 1048576,
+    "samples": 30,
+    "matrix_only_median_us": 385.9799951314926,
+    "vector_only_median_us": 392.4800008535385,
+    "serial_median_us": 661.3099873065948,
+    "parallel_median_us": 786.1700057983398,
+    "ratio_of_medians": 0.8411793663319015,
+    "paired_ratio_median": 0.8342205589079394,
+    "ci_low": 0.814625887584418,
+    "ci_high": 0.8626420925942959
+  },
+  {
+    "size": 512,
+    "elements": 16777216,
+    "samples": 30,
+    "matrix_only_median_us": 396.5100049972534,
+    "vector_only_median_us": 829.9500048160553,
+    "serial_median_us": 1079.2700052261353,
+    "parallel_median_us": 1215.3799533843994,
+    "ratio_of_medians": 0.8880103725758792,
+    "paired_ratio_median": 0.8857874120604522,
+    "ci_low": 0.8804548268690685,
+    "ci_high": 0.9001375821025543
+  },
+  {
+    "size": 1024,
+    "elements": 1048576,
+    "samples": 30,
+    "matrix_only_median_us": 423.88999462127686,
+    "vector_only_median_us": 435.39999425411224,
+    "serial_median_us": 699.8200118541718,
+    "parallel_median_us": 825.7700204849243,
+    "ratio_of_medians": 0.8474756826885168,
+    "paired_ratio_median": 0.8545473186823039,
+    "ci_low": 0.8348062587217815,
+    "ci_high": 0.8777750391279698
+  },
+  {
+    "size": 1024,
+    "elements": 16777216,
+    "samples": 30,
+    "matrix_only_median_us": 408.610001206398,
+    "vector_only_median_us": 811.5900158882141,
+    "serial_median_us": 1068.560004234314,
+    "parallel_median_us": 1199.8299956321716,
+    "ratio_of_medians": 0.8905928407559993,
+    "paired_ratio_median": 0.8872920664979016,
+    "ci_low": 0.8792776102453014,
+    "ci_high": 0.899395540788155
+  },
+  {
+    "size": 2048,
+    "elements": 1048576,
+    "samples": 30,
+    "matrix_only_median_us": 1308.7199926376343,
+    "vector_only_median_us": 383.31998884677887,
+    "serial_median_us": 1378.8500428199768,
+    "parallel_median_us": 1336.3699913024902,
+    "ratio_of_medians": 1.0317876424896997,
+    "paired_ratio_median": 1.0300695044702044,
+    "ci_low": 1.0277770042555623,
+    "ci_high": 1.0385675512451347
+  },
+  {
+    "size": 2048,
+    "elements": 16777216,
+    "samples": 30,
+    "matrix_only_median_us": 1316.9400095939636,
+    "vector_only_median_us": 781.1700105667114,
+    "serial_median_us": 1983.2299947738647,
+    "parallel_median_us": 1999.8199939727783,
+    "ratio_of_medians": 0.9917042537583813,
+    "paired_ratio_median": 0.9908436222024861,
+    "ci_low": 0.987357557084487,
+    "ci_high": 0.9945046568141088
+  }
+]

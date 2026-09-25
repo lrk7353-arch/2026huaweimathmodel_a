@@ -1,0 +1,58 @@
+[
+  {
+    "stream": "45",
+    "start_us": 0.0,
+    "end_us": 109.863,
+    "duration_us": 109.863,
+    "phase": "A"
+  },
+  {
+    "stream": "44",
+    "start_us": 42.741,
+    "end_us": 53.181,
+    "duration_us": 10.44,
+    "phase": "A"
+  },
+  {
+    "stream": "43",
+    "start_us": 74.982,
+    "end_us": 185.184,
+    "duration_us": 110.202,
+    "phase": "A"
+  },
+  {
+    "stream": "42",
+    "start_us": 124.423,
+    "end_us": 136.28300000000002,
+    "duration_us": 11.86,
+    "phase": "A"
+  },
+  {
+    "stream": "45",
+    "start_us": 158.744,
+    "end_us": 169.564,
+    "duration_us": 10.82,
+    "phase": "B"
+  },
+  {
+    "stream": "44",
+    "start_us": 197.964,
+    "end_us": 308.086,
+    "duration_us": 110.122,
+    "phase": "B"
+  },
+  {
+    "stream": "43",
+    "start_us": 223.045,
+    "end_us": 233.86499999999998,
+    "duration_us": 10.82,
+    "phase": "B"
+  },
+  {
+    "stream": "42",
+    "start_us": 256.845,
+    "end_us": 366.848,
+    "duration_us": 110.003,
+    "phase": "B"
+  }
+]
