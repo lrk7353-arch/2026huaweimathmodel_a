@@ -1,0 +1,114 @@
+{
+  "completion": {
+    "completed": 300,
+    "total": 300,
+    "errors": [],
+    "elapsed_seconds": 903.3852185840078,
+    "all_segments_elapsed_seconds": 3483.126914571214,
+    "official_calls": 2054,
+    "valid_slots": 298,
+    "interpretation": "Improvement vs evaluated seeds is mechanism evidence, not equal-budget baseline dominance."
+  },
+  "groups": [
+    {
+      "scope": "all",
+      "problem": 1,
+      "count": 100,
+      "valid": 98,
+      "wins": 20,
+      "ties": 40,
+      "losses": 38,
+      "cold_mean": 3.551793794981517,
+      "archive_mean_same_valid": 3.5963720581199508
+    },
+    {
+      "scope": "all",
+      "problem": 2,
+      "count": 100,
+      "valid": 100,
+      "wins": 25,
+      "ties": 7,
+      "losses": 68,
+      "cold_mean": 4.096072517864958,
+      "archive_mean_same_valid": 4.334517565184253
+    },
+    {
+      "scope": "all",
+      "problem": 3,
+      "count": 100,
+      "valid": 100,
+      "wins": 29,
+      "ties": 6,
+      "losses": 65,
+      "cold_mean": 4.169269921671611,
+      "archive_mean_same_valid": 4.42846590611176
+    },
+    {
+      "scope": "development9",
+      "problem": 1,
+      "count": 9,
+      "valid": 9,
+      "wins": 2,
+      "ties": 2,
+      "losses": 5,
+      "cold_mean": 2.080153882637854,
+      "archive_mean_same_valid": 2.0509200026675374
+    },
+    {
+      "scope": "development9",
+      "problem": 2,
+      "count": 9,
+      "valid": 9,
+      "wins": 1,
+      "ties": 0,
+      "losses": 8,
+      "cold_mean": 3.047437685001122,
+      "archive_mean_same_valid": 3.3445085520152946
+    },
+    {
+      "scope": "development9",
+      "problem": 3,
+      "count": 9,
+      "valid": 9,
+      "wins": 1,
+      "ties": 0,
+      "losses": 8,
+      "cold_mean": 3.1449337871799012,
+      "archive_mean_same_valid": 3.4786991372833507
+    },
+    {
+      "scope": "other91",
+      "problem": 1,
+      "count": 91,
+      "valid": 89,
+      "wins": 18,
+      "ties": 38,
+      "losses": 33,
+      "cold_mean": 3.7006113142072805,
+      "archive_mean_same_valid": 3.7526537266488464
+    },
+    {
+      "scope": "other91",
+      "problem": 2,
+      "count": 91,
+      "valid": 91,
+      "wins": 24,
+      "ties": 7,
+      "losses": 60,
+      "cold_mean": 4.199783655181162,
+      "archive_mean_same_valid": 4.432430544508655
+    },
+    {
+      "scope": "other91",
+      "problem": 3,
+      "count": 91,
+      "valid": 91,
+      "wins": 28,
+      "ties": 6,
+      "losses": 57,
+      "cold_mean": 4.270577891016945,
+      "archive_mean_same_valid": 4.522398883248635
+    }
+  ],
+  "interpretation": "Cold budget-limited solver versus historical cumulative archive; not an equal-budget comparison. The other91 group was not used in the frozen experience fit, but is not a pristine external test set."
+}

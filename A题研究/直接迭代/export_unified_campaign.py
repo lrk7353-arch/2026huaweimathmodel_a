@@ -46,26 +46,44 @@ def curve_rows(rows):
     return curves
 
 
-def export(run, out, final=False, raw=True):
+def export(run, out, final=False, raw=True, baseline_ledger=None):
     run, out = run.resolve(), out.resolve()
     manifest, completion = read_json(run/'manifest.json'), read_json(run/'completion.json')
     assert not completion['errors'] and completion['completed'] == completion['total']
-    assert completion['valid_slots'] == completion['total'], 'invalid slots must be resolved before final delivery'
     assert manifest['variants'] == ['v2'], 'export a single frozen uniform version'
     if final:
         assert manifest['cases'] == [f'case_{i:03d}' for i in range(1, 101)]
         assert set(manifest['problems']) == {1, 2, 3} and set(manifest['cores']) == set(range(1, 6))
         assert manifest['singlecore_baselines'] and completion['total'] == 1600
     out.mkdir(parents=True, exist_ok=True)
-    baseline, summaries = {}, {}
+    baseline, summaries, baseline_evidence = {}, {}, {}
+    references = {}
+    if baseline_ledger:
+        for r in read_csv(baseline_ledger):
+            value = int(r['original_singlecore'])
+            assert value > 0
+            assert r['case'] not in references or references[r['case']] == value
+            references[r['case']] = value
+        assert set(manifest['cases']).issubset(references)
     for path in sorted((run/'slots').glob('case_*/p*_n*/*/summary.json')):
         s = read_json(path)
         key = s['case'], s['problem'], s['num_cores']
         assert key not in summaries
         summaries[key] = s
         if s['problem'] == 0:
-            validate_record(s['best_record'], raw=raw)
-            baseline[s['case']] = s['best_record']['metrics']['makespan']
+            if s['best_record']:
+                validate_record(s['best_record'], raw=raw)
+                value = s['best_record']['metrics']['makespan']
+                if references:
+                    assert value == references[s['case']], ('fresh/historical baseline mismatch',s['case'],value,references[s['case']])
+                baseline[s['case']] = value
+                baseline_evidence[s['case']] = dict(makespan=value, source='fresh_official_success',record=s['best_record'])
+            else:
+                assert not any(a['record']['status']=='success' for a in s['evaluations']), 'successful baseline omitted from summary'
+                assert s['case'] in references, ('failed baseline requires explicit reference ledger',s['case'])
+                baseline[s['case']] = references[s['case']]
+                baseline_evidence[s['case']] = dict(makespan=references[s['case']],source='historical_ledger_not_freshly_verified',
+                    reference_ledger_sha256=sha(baseline_ledger), failed_fresh_attempts=s['evaluations'])
     expected = {(c, p, n) for c in manifest['cases'] for p in manifest['problems'] for n in manifest['cores']}
     assert {k for k in summaries if k[1]} == expected, 'missing/duplicate cells'
     assert set(baseline) == set(manifest['cases']), 'official single-core denominator missing'
@@ -76,6 +94,7 @@ def export(run, out, final=False, raw=True):
         for p in manifest['problems']:
             for n in manifest['cores']:
                 s = summaries[case, p, n]
+                assert s['returned_valid'] and s['best_record'], ('invalid target configuration',case,p,n)
                 assert s['mode'] == 'cold' and not s.get('upstream_searches')
                 assert s['budget'] == manifest['budget'] and s['seed'] == manifest['seed']
                 assert s['logical_calls'] <= s['budget']
@@ -110,6 +129,15 @@ def export(run, out, final=False, raw=True):
                         cache_hit=r['cache_hit'], accepted=a['accepted'], error=r.get('error'),
                         plan_sha256=r['hashes'].get('plan_sha256'), record_path=r['record_path']))
         print(json.dumps(dict(exported_case=case, cells=len(rows))), flush=True)
+    for (case,p,n),s in sorted(summaries.items()):
+        if p != 0:
+            continue
+        for index,a in enumerate(s['evaluations']):
+            r=a['record']
+            attempts.append(dict(case=case,problem=0,cores=1,call=index+1,name=a['name'],
+                status=r['status'],makespan=r['metrics'].get('makespan'),seconds=r['elapsed_seconds'],
+                cache_hit=r['cache_hit'],accepted=a['accepted'],error=r.get('error'),
+                plan_sha256=r['hashes'].get('plan_sha256'),record_path=r['record_path']))
     write_csv(out/'统一算法逐配置成绩.csv', rows)
     write_csv(out/'全部调用账本.csv', attempts)
     curves = curve_rows(rows)
@@ -118,14 +146,31 @@ def export(run, out, final=False, raw=True):
         # Deterministic gzip output makes publication hashes stable.
         with (out/name).open('wb') as f, gzip.GzipFile(fileobj=f, mode='wb', mtime=0) as stream:
             stream.write(json.dumps(obj, ensure_ascii=False, separators=(',', ':')).encode())
+    shards = []
+    for p in manifest['problems']:
+        for n in manifest['cores']:
+            subset = {k:v for k,v in plans.items() if k.startswith(f'方案/p{p}/n{n}/')}
+            destination = out/'方案分包'/f'p{p}_n{n}.json.gz'
+            destination.parent.mkdir(exist_ok=True)
+            with destination.open('wb') as f, gzip.GzipFile(fileobj=f, mode='wb', mtime=0) as stream:
+                stream.write(json.dumps(subset, ensure_ascii=False, separators=(',', ':')).encode())
+            shards.append(dict(path=str(destination.relative_to(out)), plans=len(subset), sha256=sha(destination)))
+    atomic_json(out/'方案分包索引.json', shards)
     atomic_json(out/'冻结运行配置.json', manifest)
-    atomic_json(out/'原单核官方基线.json', {c:dict(makespan=t, record=summaries[c,0,1]['best_record']) for c,t in baseline.items()})
+    atomic_json(out/'原单核基线来源.json', baseline_evidence)
     audit = dict(expected_cells=len(expected), valid_cells=len(rows), singlecore_baselines=len(baseline),
         source_commit=manifest['code_commit'], source_config_sha256=manifest['config'],
+        freshly_verified_singlecore=sum(v['source']=='fresh_official_success' for v in baseline_evidence.values()),
+        historical_singlecore_cases=[c for c,v in baseline_evidence.items() if v['source']!='fresh_official_success'],
+        reference_ledger_sha256=sha(baseline_ledger) if baseline_ledger else None,
         official_calls=sum(s['new_calls'] for s in summaries.values()),
         target_calls=sum(r['new_calls'] for r in rows), baseline_calls=sum(s['new_calls'] for k,s in summaries.items() if k[1] == 0),
-        wall_seconds=completion['elapsed_seconds'], failures=sum(r['failures'] for r in rows),
-        timeouts=sum(r['timeouts'] for r in rows), status_counts=dict(Counter(r['status'] for r in attempts)),
+        wall_seconds=completion.get('all_segments_elapsed_seconds',completion['elapsed_seconds']),
+        last_execution_segment_seconds=completion['elapsed_seconds'],
+        target_failures=sum(r['failures'] for r in rows),
+        baseline_failures=sum(r['problem']==0 and r['status']!='success' for r in attempts),
+        failures=sum(r['status']!='success' for r in attempts),
+        timeouts=sum(r['status']=='timeout' for r in attempts), status_counts=dict(Counter(r['status'] for r in attempts)),
         max_slot_seconds=max(r['elapsed_seconds'] for r in rows),
         slots_over_requested_seconds=sum(r['elapsed_seconds'] > manifest['seconds'] for r in rows),
         all_best_plan_hashes_checked=True, all_input_and_official_hashes_checked=True,
@@ -134,13 +179,14 @@ def export(run, out, final=False, raw=True):
         interpretation='No historical incumbents. P3 same-core ratio compares independent P2/P3 searches; not a same-plan cache ablation. No official scalar overall score exists.')
     atomic_json(out/'交付核验.json', audit)
     text = ['# 统一算法冻结全量结果', '',
-            f'有效配置 {len(rows)}/{len(expected)}；另有 {len(baseline)} 个原单核官方基线。所有方案均从头求解。', '',
+            f"有效配置 {len(rows)}/{len(expected)}；另有 {len(baseline)} 个原单核参考值，其中本轮复算成功 {audit['freshly_verified_singlecore']} 个。所有目标方案均从头求解。", '',
             '|问题|核数|原单核/当前时间的均值|P3同核无L2/有L2均值|', '|---|---:|---:|---:|']
     for c in curves:
         ratio = c['mean_P3_same_core_noL2_over_L2']
         text.append(f"|P{c['problem']}|{c['cores']}|{c['mean_original_singlecore_speedup']:.8f}|{ratio if ratio != '' else '—'}|")
     text += ['', 'P1/P2原题曲线的单核锚点为1；上表保留实际单核求解器时间之比，避免隐藏单核额外开销。',
         'P3的同核比较来自分别优化的P2和P3方案，包含映射/次序变化，不能当作固定方案下L2的纯收益。',
+        '单核复算超时项使用明确列出的历史累计账本参考值；不宣称这些项已完成本轮独立复算。全部成功复算值已与历史值核对（指定参考账本时）。基线超时仍计费。',
         f"官方调用 {audit['official_calls']} 次（目标配置 {audit['target_calls']}，基线 {audit['baseline_calls']}）；失败调用 {audit['failures']}，其中超时 {audit['timeouts']}。", 
         f"整批耗时 {audit['wall_seconds']:.1f} 秒；超过请求软时间预算的配置 {audit['slots_over_requested_seconds']} 个，最长 {audit['max_slot_seconds']:.2f} 秒。", '',
         '方案集.json.gz包含相对路径到完整官方方案的映射；解压JSON后按键写出即可恢复方案目录。官方证据摘要保留输入、官方程序及方案哈希和完整指标；大体积原始轨迹在本地原运行目录。',
@@ -155,7 +201,8 @@ if __name__ == '__main__':
     p.add_argument('--out', type=Path, required=True)
     p.add_argument('--final', action='store_true')
     p.add_argument('--skip-raw', action='store_true', help='development only; not final evidence audit')
+    p.add_argument('--baseline-ledger',type=Path,help='explicit fixed reference denominators for failed baseline reruns; every fresh success must match')
     a = p.parse_args()
     if a.final and a.skip_raw:
         p.error('final export requires checking raw official results')
-    print(json.dumps(export(a.run, a.out, a.final, not a.skip_raw), ensure_ascii=False))
+    print(json.dumps(export(a.run, a.out, a.final, not a.skip_raw, a.baseline_ledger), ensure_ascii=False))

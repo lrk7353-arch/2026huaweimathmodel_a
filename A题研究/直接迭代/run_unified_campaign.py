@@ -69,7 +69,8 @@ def run(args):
                 if key[0] in cases and key[1] in args.problems and key[2] in args.cores:
                     path = Path(row['plan'])
                     if not path.is_absolute():
-                        path = (args.incumbent_root or R.parent)/path
+                        root = args.incumbent_ledger.parent if row.get('plan_base') == 'delivery' else (args.incumbent_root or R.parent)
+                        path = root/path
                     assert path.is_file(), path
                     incumbents[key] = str(path.resolve())
         assert len(incumbents) == len(cases)*len(args.problems)*len(args.cores)
@@ -93,10 +94,11 @@ def run(args):
     if args.resume_from:
         previous = args.resume_from.resolve()
         prior = read_json(previous/'manifest.json')
+        legacy_defaults = {'mode':'cold', 'incumbent_ledger_sha256':None, 'incumbents':{}}
         for key in ('cases','problems','cores','variants','budget','seconds','timeout','seed','stage',
                     'experience_sha256','singlecore_baselines','mode','incumbent_ledger_sha256',
                     'incumbents','inputs','config'):
-            assert prior[key] == manifest[key], ('resume changes solver experiment', key)
+            assert prior.get(key, legacy_defaults.get(key)) == manifest[key], ('resume changes solver experiment', key)
         # Only orchestration may change; every candidate/search/evaluator source
         # remains byte-identical. The prior source manifest is retained in full.
         orchestration = '直接迭代/run_unified_campaign.py'
@@ -143,7 +145,19 @@ def run(args):
     def heavy(job):
         return (DATA/(job[0]+'.json')).stat().st_size >= 4*1024*1024
     capacity = min(4, args.workers) if args.adaptive_workers else args.workers
-    queue = list(jobs)
+    queue = []
+    for job in jobs:
+        summary = Path(job[4])/'summary.json'
+        if summary.exists():
+            # Completed work consumes neither a current worker slot nor current
+            # memory. Its past peak RSS must not throttle unrelated new jobs.
+            rows.append(summarize(read_json(summary)))
+        else:
+            queue.append(job)
+    if rows:
+        write_csv(out/'results.csv', sorted(rows,key=lambda r:(r['case'],r['problem'],r['cores'],r['variant'])))
+        atomic_json(out/'progress.json',dict(completed=len(rows),total=len(jobs),errors=errors,
+            elapsed_seconds=time.monotonic()-start,reused_completed=len(rows)))
     concurrency_events = []
     rss_estimate = 512*1024*1024
     rss_per_input_byte = 40.

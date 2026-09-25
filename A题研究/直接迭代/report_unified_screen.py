@@ -47,7 +47,7 @@ def report(run, archive, out):
     for g in groups:
         text.append(f"|{g['scope']}|P{g['problem']}|{g['valid']}/{g['count']}|{g['cold_mean']:.8f}|{g['archive_mean_same_valid']:.8f}|{g['wins']}/{g['ties']}/{g['losses']}|")
     text+=['','均值均为原始单核时间/对应多核时间；P3正式Cache收益需最终同核P2/P3数据另算。',
-        f"官方新调用 {completion['official_calls']}，整批 {completion['elapsed_seconds']:.1f} 秒。", 
+        f"官方新调用 {completion['official_calls']}，全部执行段合计 {completion.get('all_segments_elapsed_seconds',completion['elapsed_seconds']):.1f} 秒。",
         'development9为参与冻结经验训练的9图；other91未参与这次经验拟合，但仍属于公开开发图池，不称为严格盲测。']
     (out/'宽筛效果.md').write_text('\n'.join(text)+'\n',encoding='utf-8')
     return result

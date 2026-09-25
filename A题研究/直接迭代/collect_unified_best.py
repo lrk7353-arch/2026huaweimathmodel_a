@@ -27,6 +27,13 @@ def collect(archive, roots, out, workers=4):
             if 'source_snapshot' in path.parts:
                 continue
             s = read_json(path)
+            # Charge failed slots and original-single-core calls too, even
+            # though they cannot contribute a winning candidate.
+            for a in s.get('evaluations', []):
+                r = a['record']
+                if r['record_path'] not in unique:
+                    unique.add(r['record_path'])
+                    attempts.append(r)
             rec = s.get('best_record')
             if not rec or rec['status'] != 'success' or rec['problem'] not in (1, 2, 3):
                 continue
@@ -34,11 +41,6 @@ def collect(archive, roots, out, workers=4):
             k = case, rec['problem'], rec['metrics']['num_cores']
             if k not in old:
                 continue
-            for a in s.get('evaluations', []):
-                r = a['record']
-                if r['record_path'] not in unique:
-                    unique.add(r['record_path'])
-                    attempts.append(r)
             score = rec['metrics']['makespan'], rec['metrics']['data_movement_bytes']['added_copy_bytes']
             prior = float(old[k]['makespan']), float(old[k]['added_copy'])
             if score < prior and (k not in candidates or score < candidates[k][0]):
@@ -61,6 +63,7 @@ def collect(archive, roots, out, workers=4):
             assert verified['status'] == 'success', (key, verified.get('error'))
             cached = False
         assert verified['metrics']['makespan'] == rec['metrics']['makespan'], key
+        assert verified['hashes']['plan_sha256'] == rec['hashes']['plan_sha256'], key
         assert verified['metrics']['data_movement_bytes'] == rec['metrics']['data_movement_bytes'], key
         if key[1] == 3:
             assert verified['metrics']['cache_stats'] == rec['metrics']['cache_stats'], key
@@ -93,10 +96,11 @@ def collect(archive, roots, out, workers=4):
     for k, original in sorted(old.items()):
         r = dict(original)
         r['verification'] = 'historical_ledger'
+        r['plan_base'] = 'repository'
         if k in winner_map:
             w = winner_map[k]
             r.update(makespan=w['after'], added_copy=w['after_added_copy'],
-                plan=str(out/w['plan']), source='unified_v2_best_known_replayed', verification='independent_official_replay',
+                plan=w['plan'], plan_base='delivery', source='unified_v2_best_known_replayed', verification='independent_official_replay',
                 speedup=float(r['original_singlecore'])/w['after'])
         cumulative.append(r)
     gains = []
@@ -116,6 +120,7 @@ def collect(archive, roots, out, workers=4):
         new_replay_calls_this_run=fresh_calls, selected_replay_calls=len(winners),
         upstream_unique_official_calls=sum(not r['cache_hit'] for r in attempts),
         upstream_failures=sum(r['status']!='success' for r in attempts),
+        all_replay_new_calls=sum(not read_json(p)['cache_hit'] for p in (out/'复评记录').glob('*.json')),
         interpretation='Cumulative best-known across explicitly listed development/full runs. Not a frozen from-scratch algorithm score. Historical unchanged rows are not freshly replayed.',
         source_archive=str(archive.resolve()), source_archive_sha256=sha(archive), run_roots=[str(r.resolve()) for r in roots])
     atomic_json(out/'精选库核验.json', audit)
