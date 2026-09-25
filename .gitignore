@@ -80,3 +80,9 @@
 # Pinned teammate review inputs; raw evaluator runs stay local.
 !/A题研究/直接迭代/队友成果对比_20260925/来源快照/**/*.json
 /A题研究/直接迭代/队友成果对比_20260925/复评运行/
+
+# Joint integration deliverables and bounded experiment evidence.
+!/A题研究/直接迭代/联合整合_20260926/**/*.json
+!/A题研究/直接迭代/联合整合_20260926/**/*.json.gz
+/A题研究/直接迭代/联合整合_20260926/**/复评运行/
+/A题研究/直接迭代/联合整合_20260926/同预算对照/slots/

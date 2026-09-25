@@ -8,7 +8,7 @@ def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--case',type=int,required=True,choices=range(1,101));p.add_argument('--problem',type=int,required=True,choices=(1,2,3));p.add_argument('--out',type=Path,required=True)
  p.add_argument('--cores',type=int,choices=range(1,6),default=5)
- p.add_argument('--engine',choices=('legacy','v2'),default='legacy',help='v2: unified cold/warm structural search for P1/P2/P3')
+ p.add_argument('--engine',choices=('legacy','v2','joint'),default='legacy',help='joint: protected strong prefix with complementary queues; v2: previous structural research')
  p.add_argument('--p1-refinement',choices=('partition','tasks','tensor','region_joint','task_iterative'),default='partition',help='P1 warm search: partition/tasks/tensor, experimental region_joint, or accepted-parent task_iterative')
  p.add_argument('--p1-method',choices=('component','adaptive','hybrid','portfolio','portfolio_diverse','integrated','local_legacy'),default='adaptive',help='P1 from-scratch method; integrated adds joint Task refinement under the same budget')
  p.add_argument('--p23-method',choices=('component_wcc','staged','routed','trace_routed','integrated','local_legacy','wide_legacy','budget_greedy','budget_beam'),help='P2/P3 from scratch (default: trace_routed); budget variants allocate calls by observed gain/cost')
@@ -21,12 +21,20 @@ def main():
  p.add_argument('--budget',type=int,help='Logical calls; default 12 for P2/P3 from scratch, otherwise 8');p.add_argument('--seconds',type=float,help='Soft time budget; default 120 for P2/P3 from scratch, otherwise 180');p.add_argument('--from-scratch',action='store_true')
  a=p.parse_args();case=f'case_{a.case:03d}';out=a.out.resolve()
  p23_cold=a.from_scratch and a.problem in (2,3)
- if a.budget is None:a.budget=12 if p23_cold else 8
- if a.seconds is None:a.seconds=120 if p23_cold else 180
+ if a.budget is None:a.budget=16 if a.engine=='joint' else 12 if p23_cold else 8
+ if a.seconds is None:a.seconds=180 if a.engine=='joint' else 120 if p23_cold else 180
  if out==DATA or DATA in out.parents:p.error('Outputs must be outside official data.')
  if out.exists():p.error('Use a new output directory.')
  if a.budget<1 or a.seconds<=0:p.error('Budget and seconds must be positive.')
  if a.from_scratch and a.incumbent_plan:p.error('Choose from-scratch or incumbent-plan.')
+ if a.engine=='joint':
+  if not a.from_scratch or a.incumbent_plan:p.error('joint requires --from-scratch and has no historical incumbent')
+  if a.seed!=17:p.error('joint currently requires seed 17')
+  from joint_solver import run
+  s=run(case,a.problem,a.cores,out,a.budget,a.seconds,a.evaluation_timeout or 45)
+  print(json.dumps({'output':str(out),'makespan':score(s['best_record'])[0] if s['best_record'] else None,
+      'logical_calls':s['logical_calls'],'new_calls':s['new_calls'],'elapsed_seconds':s['elapsed_seconds']},ensure_ascii=False))
+  return
  if a.engine=='v2':
   from unified_solver import solve_unified
   s=solve_unified(DATA/(case+'.json'),a.problem,a.cores,out,seconds=a.seconds,call_budget=a.budget,

@@ -1,0 +1,83 @@
+{
+  "version": "joint-v3-integration-1",
+  "date": "2026-09-26",
+  "rollback": "milestone/pre-integration-20260925",
+  "source_before_development": "14b91b623fadf85b70e611be7c61e4b896a254ca",
+  "budget": 16,
+  "seconds": 180,
+  "evaluation_timeout": 45,
+  "seed": 17,
+  "workers": 6,
+  "variants": [
+    "strong",
+    "joint"
+  ],
+  "problems": [
+    1,
+    2,
+    3
+  ],
+  "development_cases": [
+    6,
+    9,
+    44,
+    46,
+    47,
+    51,
+    64,
+    69,
+    75,
+    85,
+    94,
+    95
+  ],
+  "validation_cases": [
+    2,
+    12,
+    17,
+    22,
+    28,
+    34,
+    42,
+    57,
+    65,
+    77,
+    89,
+    99
+  ],
+  "low_core_cases": [
+    9,
+    46,
+    51,
+    95
+  ],
+  "low_cores": [
+    2,
+    3,
+    4
+  ],
+  "prefixes": [
+    8,
+    12,
+    16
+  ],
+  "gate": {
+    "per_problem_validation_mean_time_reduction_pct_at_least": 0.5,
+    "per_problem_validation_strict_wins_at_least": 3,
+    "per_problem_validation_worst_regression_pct_at_most": 3,
+    "per_problem_lowcore_mean_time_reduction_pct_at_least": 0,
+    "no_new_invalid_slots": true,
+    "combined_validated_scenes_required_for_full1500": [
+      1,
+      2,
+      3
+    ]
+  },
+  "notes": [
+    "All diagrams may have been seen historically; validation means no adjustment using this panel.",
+    "Both arms B16/T180 and fresh evaluation directories; no implicit historical incumbent.",
+    "Joint prefix uses unchanged B12 strong path, then a retained candidate tail.",
+    "No additional controller tuning rounds after the declared comparison; failed scenes retain strong mainline.",
+    "Full1500 only if all scene gates pass; otherwise deliver merged library and evaluated research option."
+  ]
+}
