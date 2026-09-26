@@ -1,0 +1,7 @@
+﻿problem,cores,group,baseline,count,baseline_mean_speedup,persistent_mean_speedup,wins,ties,losses,copy_increase_cases,time_tie_copy_regressions
+2,5,all,legacy,1,5.419478167549802,5.404451065641057,0,0,1,1,0
+2,5,all,mature,1,5.443042703427665,5.404451065641057,0,0,1,0,0
+2,5,frozen_regression,legacy,1,5.419478167549802,5.404451065641057,0,0,1,1,0
+2,5,frozen_regression,mature,1,5.443042703427665,5.404451065641057,0,0,1,0,0
+3,4,all,mature,1,3.5874086689007307,3.6257717763070225,1,0,0,0,0
+3,4,core_regression,mature,1,3.5874086689007307,3.6257717763070225,1,0,0,0,0

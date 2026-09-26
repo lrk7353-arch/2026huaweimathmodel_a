@@ -1,0 +1,4 @@
+﻿config_id,case,problem,cores,group,baseline,baseline_makespan,persistent_makespan,baseline_speedup,persistent_speedup,outcome,time_reduction,copy_delta,baseline_calls,persistent_calls,baseline_seconds,persistent_seconds
+case_060_p2_n5,case_060,2,5,frozen_regression,legacy,163999,164455,5.419478167549802,5.404451065641057,loss,-0.0027805047591753507,16384,24,24,69.77589013200486,66.7461606709985
+case_060_p2_n5,case_060,2,5,frozen_regression,mature,163289,164455,5.443042703427665,5.404451065641057,loss,-0.007140713703923662,-95232,24,24,24.42297307201079,66.7461606709985
+case_047_p3_n4,case_047,3,4,core_regression,mature,91015,90052,3.5874086689007307,3.6257717763070225,win,0.010580673515354633,-38432,24,24,86.68895091299783,160.43396343299537

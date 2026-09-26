@@ -15,6 +15,33 @@ def record(name, span, copied=0):
 
 
 class LifecycleTests(unittest.TestCase):
+    def test_old_joint_queue_reaches_fifo_before_unrelated_next_family(self):
+        from persistent_search import Frame
+        parent = Frame(record('old_parent', 100), 0)
+        parent.streams['joint'] = iter(['placement', 'fifo_second_action'])
+        self.assertEqual(next(parent.streams['joint']), 'placement')
+        parent.cursor = 2  # the ordinary P3 round robin would now choose cache
+        parent.served('joint')
+        parent.protect_queue('joint')
+        order = ['insertion', 'joint', 'cache', 'trace']
+        self.assertEqual(parent.next_family(order), 'joint')
+        self.assertEqual(next(parent.streams['joint']), 'fifo_second_action')
+        parent.served('joint')
+        self.assertEqual(parent.next_family(order), 'cache')
+
+    def test_stale_parent_repair_uses_its_own_iterator_not_currents(self):
+        from persistent_search import Frame
+        old = Frame(record('actual_parent', 300), 0)
+        current = Frame(record('current_best', 100), 2)
+        old.streams['joint'] = iter(['old_first', 'old_fifo'])
+        current.streams['joint'] = iter(['current_first', 'current_fifo'])
+        self.assertEqual(next(old.streams['joint']), 'old_first')
+        old.protect_queue('joint')
+        self.assertEqual(old.next_family(['cache', 'joint']), 'joint')
+        self.assertEqual(next(old.streams['joint']), 'old_fifo')
+        self.assertEqual(next(current.streams['joint']), 'current_first')
+        self.assertEqual(current.stale_lease, 0)
+
     def test_same_structure_keeps_old_paid_order_and_its_lease(self):
         control = PersistentBudget(1, 2)
         control.add_seed(record('old_order', 300), 'same', 'old')

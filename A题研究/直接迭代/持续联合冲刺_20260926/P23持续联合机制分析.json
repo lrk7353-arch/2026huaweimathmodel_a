@@ -1,0 +1,3717 @@
+{
+  "generated_utc": "2026-09-26T05:06:58.026467+00:00",
+  "frozen_source": "7175300",
+  "scope": "independent mechanistic analysis of complete three-arm P23 configurations only; no promotion decision from partial coverage",
+  "complete_P23": 6,
+  "expected_P23": 54,
+  "complete": false,
+  "missing": [
+    {
+      "id": "case_047_p3_n3",
+      "complete_arms": [
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p2_n4",
+      "complete_arms": [
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_025_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p2_n1",
+      "complete_arms": [
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p3_n2",
+      "complete_arms": []
+    },
+    {
+      "id": "case_035_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_037_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_028_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_049_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_028_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_023_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_095_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_071_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_042_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_037_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_012_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_009_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p2_n3",
+      "complete_arms": []
+    },
+    {
+      "id": "case_049_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_023_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_001_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_019_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p3_n1",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p2_n2",
+      "complete_arms": []
+    },
+    {
+      "id": "case_066_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_001_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_042_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_009_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_050_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_050_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_035_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_053_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_066_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p2_n3",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p2_n4",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p2_n2",
+      "complete_arms": []
+    },
+    {
+      "id": "case_019_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_071_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p3_n4",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p3_n3",
+      "complete_arms": []
+    },
+    {
+      "id": "case_060_p3_n2",
+      "complete_arms": []
+    },
+    {
+      "id": "case_046_p3_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_047_p2_n1",
+      "complete_arms": []
+    },
+    {
+      "id": "case_046_p2_n5",
+      "complete_arms": []
+    },
+    {
+      "id": "case_012_p3_n5",
+      "complete_arms": []
+    }
+  ],
+  "aggregate": {
+    "2": {
+      "completed_configurations": 2,
+      "phase_calls": {
+        "initialization": 12,
+        "insertion": 10,
+        "joint": 18,
+        "trace": 8
+      },
+      "joint_calls": 18,
+      "joint_successes": 18,
+      "joint_global_time_improvements": 0,
+      "joint_parent_time_improvements": 9,
+      "fifo_calls": 0,
+      "fifo_global_time_improvements": 0,
+      "fifo_parent_time_improvements": 0,
+      "winner_has_joint_ancestor": 0,
+      "persistent_vs_mature": {
+        "loss": 1,
+        "tie": 1
+      },
+      "persistent_vs_same_init_legacy": {
+        "loss": 2
+      },
+      "init_already_better_than_mature": 0,
+      "continuous_improves_own_initial": 0
+    },
+    "3": {
+      "completed_configurations": 4,
+      "phase_calls": {
+        "initialization": 20,
+        "joint": 18,
+        "insertion": 11,
+        "cache": 11,
+        "trace": 3
+      },
+      "joint_calls": 18,
+      "joint_successes": 18,
+      "joint_global_time_improvements": 0,
+      "joint_parent_time_improvements": 6,
+      "fifo_calls": 0,
+      "fifo_global_time_improvements": 0,
+      "fifo_parent_time_improvements": 0,
+      "winner_has_joint_ancestor": 0,
+      "persistent_vs_mature": {
+        "win": 2,
+        "loss": 1,
+        "tie": 1
+      },
+      "persistent_vs_same_init_legacy": {
+        "loss": 1,
+        "tie": 2
+      },
+      "init_already_better_than_mature": 2,
+      "continuous_improves_own_initial": 1
+    }
+  },
+  "configurations": [
+    {
+      "id": "case_060_p2_n5",
+      "case": 60,
+      "problem": 2,
+      "cores": 5,
+      "group": "frozen_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": true,
+      "best_times": {
+        "mature": 163289,
+        "legacy": 162261,
+        "persistent": 164455
+      },
+      "best_added_copy": {
+        "mature": 3740032,
+        "legacy": 3554692,
+        "persistent": 3644800
+      },
+      "best_byte_hit": {
+        "mature": null,
+        "legacy": null,
+        "persistent": null
+      },
+      "calls": {
+        "mature": 24,
+        "legacy": 24,
+        "persistent": 24
+      },
+      "initial_best": 164455,
+      "initial_calls": 6,
+      "phase_calls": {
+        "initialization": 6,
+        "insertion": 6,
+        "joint": 8,
+        "trace": 4
+      },
+      "joint": [
+        {
+          "call": 10,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 164455,
+          "makespan": 166443,
+          "parent_copy": 3644800,
+          "added_copy": 3713408,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              3,
+              3297
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 48,
+          "region_size": 56,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125605-c4d7e859897f4b42b6c107718a9d8c10/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125635-977294e581714b07955cf19a1001e25d/record.json"
+        },
+        {
+          "call": 11,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 326268,
+          "makespan": 327033,
+          "parent_copy": 16931768,
+          "added_copy": 16882608,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              4,
+              1000006833
+            ],
+            "tensor_id": 1000000129,
+            "wait_priority": 2459.027777777778
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 7,
+          "region_size": 15,
+          "global_reencoding": true,
+          "lineage": 3,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125614-963294ec34a84f858fb57e6498b8c24b/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125640-3f17c4a2aa9d44d4af3a28a80979d418/record.json"
+        },
+        {
+          "call": 12,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 512276,
+          "makespan": 511639,
+          "parent_copy": 28132538,
+          "added_copy": 28091570,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000007959
+            ],
+            "tensor_id": 1000000703,
+            "wait_priority": 2603.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 3,
+          "region_size": 7,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125624-76395d3f460346bf804c1ebe55ac3008/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125649-4c9e66b0a6ca4608aaa11eb0b367b756/record.json"
+        },
+        {
+          "call": 13,
+          "name": "persistent_p23_r1_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 345624,
+          "makespan": 347041,
+          "parent_copy": 17889780,
+          "added_copy": 17840628,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              1,
+              1000006942
+            ],
+            "tensor_id": 1000000253,
+            "wait_priority": 2462.977777777778
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 6,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125628-da174cb8453d445cb5e2d1e82d2ea282/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125658-8ce367531dc74170bc0a4ed93ec6c7fb/record.json"
+        },
+        {
+          "call": 15,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 516194,
+          "makespan": 516019,
+          "parent_copy": 28343644,
+          "added_copy": 28335452,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000007765
+            ],
+            "tensor_id": 1000000630,
+            "wait_priority": 2603.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 1,
+          "region_size": 2,
+          "global_reencoding": true,
+          "lineage": 4,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125617-5bb2b92e3e7f4afba6771e324957a8ef/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125709-c52016e0ae894b38b0befc81f43410f0/record.json"
+        },
+        {
+          "call": 17,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 555925,
+          "makespan": 554101,
+          "parent_copy": 29412538,
+          "added_copy": 29379770,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              1,
+              1000008613
+            ],
+            "tensor_id": 1000000994,
+            "wait_priority": 2603.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 1,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125607-ddd23552cae4494facc989d87608ff87/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125722-9abd2d8300c94ac0817e9d3e1d90feeb/record.json"
+        },
+        {
+          "call": 18,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 371717,
+          "makespan": 344072,
+          "parent_copy": 15976916,
+          "added_copy": 15960532,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              3,
+              1000007944
+            ],
+            "tensor_id": 1000001092,
+            "wait_priority": 1887.742835583896
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 1,
+          "region_size": 2,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125611-e741cb33362a4e30901bc46506656ce7/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-b4243099223a44d2b7e3e758f7feb184/record.json"
+        },
+        {
+          "call": 22,
+          "name": "persistent_p23_r2_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 515774,
+          "makespan": 515576,
+          "parent_copy": 28319068,
+          "added_copy": 28310876,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000007935
+            ],
+            "tensor_id": 1000000709,
+            "wait_priority": 2603.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 1,
+          "region_size": 2,
+          "global_reencoding": true,
+          "lineage": 4,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-44cfff70fd3e4e899552e88eac550820/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125753-409ad7817bec4233bf1ee9968ab14aaa/record.json"
+        }
+      ],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "wcc_unrestricted_interleave_w2_complement_earliest_start",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125605-c4d7e859897f4b42b6c107718a9d8c10/record.json"
+      },
+      "winner_phase": "initialization",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125601-f94ea9b8b58946a1ad3dd0a913d62ff0/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125622-acd07aac2b34487da04cab936b52d8a8/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125607-ddd23552cae4494facc989d87608ff87/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125624-76395d3f460346bf804c1ebe55ac3008/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125611-e741cb33362a4e30901bc46506656ce7/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125628-da174cb8453d445cb5e2d1e82d2ea282/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125605-c4d7e859897f4b42b6c107718a9d8c10/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125635-977294e581714b07955cf19a1001e25d/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125614-963294ec34a84f858fb57e6498b8c24b/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125640-3f17c4a2aa9d44d4af3a28a80979d418/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125624-76395d3f460346bf804c1ebe55ac3008/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125649-4c9e66b0a6ca4608aaa11eb0b367b756/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125628-da174cb8453d445cb5e2d1e82d2ea282/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125658-8ce367531dc74170bc0a4ed93ec6c7fb/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125614-963294ec34a84f858fb57e6498b8c24b/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125701-03f67b1a2e134b7e9d724af1e8bb9bb3/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125617-5bb2b92e3e7f4afba6771e324957a8ef/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125709-c52016e0ae894b38b0befc81f43410f0/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125709-c52016e0ae894b38b0befc81f43410f0/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-44cfff70fd3e4e899552e88eac550820/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125607-ddd23552cae4494facc989d87608ff87/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125722-9abd2d8300c94ac0817e9d3e1d90feeb/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125611-e741cb33362a4e30901bc46506656ce7/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-b4243099223a44d2b7e3e758f7feb184/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125617-5bb2b92e3e7f4afba6771e324957a8ef/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125733-1f57a2452add49d794f0559870ff8efe/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125649-4c9e66b0a6ca4608aaa11eb0b367b756/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125738-c7eb063a2b8749f59d7927905672fc70/record.json",
+          "protected_remaining": 0,
+          "depth": 2,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-b4243099223a44d2b7e3e758f7feb184/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125744-6935f089ee8b4b18b059c35394e732ed/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-44cfff70fd3e4e899552e88eac550820/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125753-409ad7817bec4233bf1ee9968ab14aaa/record.json",
+          "protected_remaining": 0,
+          "depth": 2,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125624-76395d3f460346bf804c1ebe55ac3008/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125758-25cbe3167ae144e8a8d0af8516948f7b/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125628-da174cb8453d445cb5e2d1e82d2ea282/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125802-809411790d1245538068d0459b2175a5/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        }
+      ],
+      "seed_descendants": {
+        "op_stable_id_w100": {
+          "time": 371717,
+          "direct_evaluated_children": [
+            {
+              "call": 9,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 345624,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 18,
+              "name": "persistent_p23_r0_1_related_chain_move",
+              "phase": "joint",
+              "time": 344072,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        },
+        "op_critical_path_w100": {
+          "time": 555925,
+          "direct_evaluated_children": [
+            {
+              "call": 8,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 512276,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 17,
+              "name": "persistent_p23_r0_1_related_chain_move",
+              "phase": "joint",
+              "time": 554101,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 164455,
+          "added_copy": 3644800,
+          "byte_hit": null
+        },
+        "0.01": {
+          "time": 164455,
+          "added_copy": 3644800,
+          "byte_hit": null
+        },
+        "0.03": {
+          "time": 164455,
+          "added_copy": 3644800,
+          "byte_hit": null
+        }
+      },
+      "generation_failures": [],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [
+          {
+            "lineage": 1,
+            "origin": "critical_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125649-4c9e66b0a6ca4608aaa11eb0b367b756/record.json",
+            "shape": "607a87897845a3c200d1634c1668494dad140d267cfd29ba81734d85d387d68b",
+            "calls": 5,
+            "depth": 2,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125722-9abd2d8300c94ac0817e9d3e1d90feeb/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125758-25cbe3167ae144e8a8d0af8516948f7b/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 2,
+            "origin": "stable_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-b4243099223a44d2b7e3e758f7feb184/record.json",
+            "shape": "6710a209da3b568bd36f413d70019d57a4b806a0690b9b7ce9b2260c400e80ad",
+            "calls": 5,
+            "depth": 1,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          },
+          {
+            "lineage": 4,
+            "origin": "critical_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125753-409ad7817bec4233bf1ee9968ab14aaa/record.json",
+            "shape": "5cb5b807a74cdcff18197f11cdb5cfc045bab084f7e559f579adc6fad809c889",
+            "calls": 4,
+            "depth": 3,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125709-c52016e0ae894b38b0befc81f43410f0/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-44cfff70fd3e4e899552e88eac550820/record.json",
+                "remaining": 1
+              }
+            ]
+          }
+        ],
+        "retired": [
+          {
+            "lineage": 0,
+            "origin": "whole_component_interleave",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125605-c4d7e859897f4b42b6c107718a9d8c10/record.json",
+            "shape": "6b435478abcf371ea5e2c0c439a1b10244609e75a9453082e93028194d512e07",
+            "calls": 2,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          },
+          {
+            "lineage": 3,
+            "origin": "stable_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125614-963294ec34a84f858fb57e6498b8c24b/record.json",
+            "shape": "bd08e5481924414a7517250454aff5eaa592c0c9f0c92b6f537a3de0612145e7",
+            "calls": 2,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "waiting": [],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125605-c4d7e859897f4b42b6c107718a9d8c10/record.json",
+            "quota": 2,
+            "origin": "whole_component_interleave"
+          },
+          {
+            "event": "admit",
+            "lineage": 1,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125607-ddd23552cae4494facc989d87608ff87/record.json",
+            "quota": 2,
+            "origin": "critical_w100_control"
+          },
+          {
+            "event": "admit",
+            "lineage": 2,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125611-e741cb33362a4e30901bc46506656ce7/record.json",
+            "quota": 2,
+            "origin": "stable_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 0,
+            "reason": "completed_lease_stalled",
+            "visits": 2,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 3,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125614-963294ec34a84f858fb57e6498b8c24b/record.json",
+            "quota": 2,
+            "origin": "stable_w200_joint"
+          },
+          {
+            "event": "retire",
+            "lineage": 3,
+            "reason": "completed_lease_stalled",
+            "visits": 2,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 4,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_060_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125617-5bb2b92e3e7f4afba6771e324957a8ef/record.json",
+            "quota": 2,
+            "origin": "critical_w200_joint"
+          }
+        ],
+        "charged_continuation_calls": 18
+      }
+    },
+    {
+      "id": "case_047_p3_n4",
+      "case": 47,
+      "problem": 3,
+      "cores": 4,
+      "group": "core_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": true,
+      "best_times": {
+        "mature": 91015,
+        "legacy": 90017,
+        "persistent": 90052
+      },
+      "best_added_copy": {
+        "mature": 2152850,
+        "legacy": 2114418,
+        "persistent": 2114418
+      },
+      "best_byte_hit": {
+        "mature": 0.4092330280777142,
+        "legacy": 0.3829318319667008,
+        "persistent": 0.38115389779656544
+      },
+      "calls": {
+        "mature": 24,
+        "legacy": 8,
+        "persistent": 20
+      },
+      "initial_best": 90079,
+      "initial_calls": 5,
+      "phase_calls": {
+        "initialization": 5,
+        "joint": 9,
+        "insertion": 3,
+        "cache": 2,
+        "trace": 1
+      },
+      "joint": [
+        {
+          "call": 6,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 90079,
+          "makespan": 92392,
+          "parent_copy": 2114418,
+          "added_copy": 2106546,
+          "byte_hit": 0.37918042483036124,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000018536
+            ],
+            "tensor_id": 1000008586,
+            "wait_priority": 390.0741080779166
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 77,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125721-530f2d6a4f904be7995c31bddd6e71d0/record.json"
+        },
+        {
+          "call": 10,
+          "name": "persistent_p23_r1_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 277066,
+          "makespan": 284023,
+          "parent_copy": 0,
+          "added_copy": 131648,
+          "byte_hit": 0.09508723248522455,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              13960
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 96,
+          "region_size": 242,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125728-f34825efdaff4c7c9157ef0d26063b77/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125804-b593b01e1041478ebb840ffb446ea50b/record.json"
+        },
+        {
+          "call": 11,
+          "name": "persistent_p23_r1_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 121887,
+          "makespan": 122209,
+          "parent_copy": 4956306,
+          "added_copy": 4943826,
+          "byte_hit": 0.2164596032146601,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000014383
+            ],
+            "tensor_id": 1000000048,
+            "wait_priority": 230.8342260515583
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 18,
+          "region_size": 27,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125736-b9919269964c4b0e9e432fd248f585bc/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125824-65cf05dab4b1401391a5c1eef3a739f9/record.json"
+        },
+        {
+          "call": 13,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 326508,
+          "makespan": 346211,
+          "parent_copy": 0,
+          "added_copy": 93376,
+          "byte_hit": 0.022103350431509832,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              13960
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 93,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125636-e858ab1af9cb452eb107b8231e9efc41/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125852-31235b57eeba416fb957b7eb928b6bdd/record.json"
+        },
+        {
+          "call": 15,
+          "name": "persistent_p23_r1_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 91120,
+          "makespan": 91238,
+          "parent_copy": 2151826,
+          "added_copy": 2154002,
+          "byte_hit": 0.4078050388466416,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              1,
+              13941
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 19,
+          "region_size": 23,
+          "global_reencoding": true,
+          "lineage": 3,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125902-c2994b9d77b24ca1871256bffd6f5c03/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125919-8b921838d4264e9db101dee1323e3397/record.json"
+        },
+        {
+          "call": 16,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 166090,
+          "makespan": 158193,
+          "parent_copy": 4956306,
+          "added_copy": 4956818,
+          "byte_hit": 0.21675368054497124,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              1,
+              12544
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 94,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125645-52dbb7f105304823aa79cf1cd3fb9d31/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125936-5824c550edf941fc88fae07c4fb4cb76/record.json"
+        },
+        {
+          "call": 17,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 141315,
+          "makespan": 136526,
+          "parent_copy": 2151826,
+          "added_copy": 2231890,
+          "byte_hit": 0.41533506251483915,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              13960
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 93,
+          "global_reencoding": true,
+          "lineage": 3,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125654-1cb79d6423194b2c9357e3640d7824cf/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125952-bf76c788d752443c8dc0b1792e96c3f0/record.json"
+        },
+        {
+          "call": 18,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 90052,
+          "makespan": 94791,
+          "parent_copy": 2114418,
+          "added_copy": 2100594,
+          "byte_hit": 0.38607578691928973,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              3,
+              1000018542
+            ],
+            "tensor_id": 1000008586,
+            "wait_priority": 403.18333333333334
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 97,
+          "region_size": 234,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125747-e54bffafa3d4438bb43c8995cd834b34/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T130006-63737f1de6dd4abd936d852cdec40ad4/record.json"
+        },
+        {
+          "call": 19,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 137922,
+          "makespan": 140716,
+          "parent_copy": 4219376,
+          "added_copy": 4244272,
+          "byte_hit": 0.18919627319195248,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              13960
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 64,
+          "global_reencoding": true,
+          "lineage": 4,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125705-60b0f9e224c245cdabdb9e6efb429d38/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T130022-ec2946a850904287a8d958da80ebc775/record.json"
+        }
+      ],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "op_stable_id_w200_complete_insertion",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json"
+      },
+      "winner_phase": "cache",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125721-530f2d6a4f904be7995c31bddd6e71d0/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125636-e858ab1af9cb452eb107b8231e9efc41/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125728-f34825efdaff4c7c9157ef0d26063b77/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125645-52dbb7f105304823aa79cf1cd3fb9d31/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125736-b9919269964c4b0e9e432fd248f585bc/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125747-e54bffafa3d4438bb43c8995cd834b34/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": true,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125728-f34825efdaff4c7c9157ef0d26063b77/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125804-b593b01e1041478ebb840ffb446ea50b/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125736-b9919269964c4b0e9e432fd248f585bc/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125824-65cf05dab4b1401391a5c1eef3a739f9/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125835-14c13a6d78eb4ea0843ebe0aab50a879/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125636-e858ab1af9cb452eb107b8231e9efc41/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125852-31235b57eeba416fb957b7eb928b6bdd/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125654-1cb79d6423194b2c9357e3640d7824cf/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125902-c2994b9d77b24ca1871256bffd6f5c03/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125902-c2994b9d77b24ca1871256bffd6f5c03/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125919-8b921838d4264e9db101dee1323e3397/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125645-52dbb7f105304823aa79cf1cd3fb9d31/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125936-5824c550edf941fc88fae07c4fb4cb76/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125654-1cb79d6423194b2c9357e3640d7824cf/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125952-bf76c788d752443c8dc0b1792e96c3f0/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125747-e54bffafa3d4438bb43c8995cd834b34/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T130006-63737f1de6dd4abd936d852cdec40ad4/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125705-60b0f9e224c245cdabdb9e6efb429d38/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T130022-ec2946a850904287a8d958da80ebc775/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125705-60b0f9e224c245cdabdb9e6efb429d38/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T130031-958d7f17717f404ab93d3d390a1c0083/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "timeout"
+        }
+      ],
+      "seed_descendants": {
+        "op_stable_id_w100": {
+          "time": 141315,
+          "direct_evaluated_children": [
+            {
+              "call": 14,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 91120,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 17,
+              "name": "persistent_p23_r0_1_related_chain_move",
+              "phase": "joint",
+              "time": 136526,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        },
+        "op_critical_path_w100": {
+          "time": 166090,
+          "direct_evaluated_children": [
+            {
+              "call": 8,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 121887,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 16,
+              "name": "persistent_p23_r0_1_related_chain_move",
+              "phase": "joint",
+              "time": 158193,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 90052,
+          "added_copy": 2114418,
+          "byte_hit": 0.38115389779656544
+        },
+        "0.01": {
+          "time": 90052,
+          "added_copy": 2114418,
+          "byte_hit": 0.38115389779656544
+        },
+        "0.03": {
+          "time": 92392,
+          "added_copy": 2106546,
+          "byte_hit": 0.37918042483036124
+        }
+      },
+      "generation_failures": [],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [
+          {
+            "lineage": 2,
+            "origin": "critical_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125736-b9919269964c4b0e9e432fd248f585bc/record.json",
+            "shape": "1e9b91e4bbec428d4da9267d926e043ca263680cdda2f38526bd714dd6208af9",
+            "calls": 3,
+            "depth": 1,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125936-5824c550edf941fc88fae07c4fb4cb76/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 3,
+            "origin": "stable_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125902-c2994b9d77b24ca1871256bffd6f5c03/record.json",
+            "shape": "1490a2d1a0ce78e0ebc36c275dbf082a6bfb56610397fdcb6ec8af95d29c137a",
+            "calls": 3,
+            "depth": 1,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125952-bf76c788d752443c8dc0b1792e96c3f0/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 4,
+            "origin": "critical_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125705-60b0f9e224c245cdabdb9e6efb429d38/record.json",
+            "shape": "36e8d1238051574acbb97a5322a21609d5bc5db5836538a7ab0d39b18c2b8db1",
+            "calls": 2,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "retired": [
+          {
+            "lineage": 1,
+            "origin": "whole_component_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125728-f34825efdaff4c7c9157ef0d26063b77/record.json",
+            "shape": "2dbb323ca01d4d7b0e3c75a2af4b9ce82858a68d54d2b6d02b18ad6cc4656306",
+            "calls": 3,
+            "depth": 1,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          },
+          {
+            "lineage": 0,
+            "origin": "stable_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125747-e54bffafa3d4438bb43c8995cd834b34/record.json",
+            "shape": "1c98851654b18c8e3a3e61b7ceda34489f0d86acc6a081b1a24ef2f08f9ef890",
+            "calls": 4,
+            "depth": 1,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "waiting": [],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125659-290948c3cfeb4897964fc076dadbc19c/record.json",
+            "quota": 2,
+            "origin": "stable_w200_joint"
+          },
+          {
+            "event": "admit",
+            "lineage": 1,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125636-e858ab1af9cb452eb107b8231e9efc41/record.json",
+            "quota": 2,
+            "origin": "whole_component_control"
+          },
+          {
+            "event": "admit",
+            "lineage": 2,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125645-52dbb7f105304823aa79cf1cd3fb9d31/record.json",
+            "quota": 2,
+            "origin": "critical_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 1,
+            "reason": "completed_lease_stalled",
+            "visits": 3,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 3,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125654-1cb79d6423194b2c9357e3640d7824cf/record.json",
+            "quota": 2,
+            "origin": "stable_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 0,
+            "reason": "completed_lease_stalled",
+            "visits": 4,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 4,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n4/persistent/attempt_001/evaluations/attempts/20260926T125705-60b0f9e224c245cdabdb9e6efb429d38/record.json",
+            "quota": 2,
+            "origin": "critical_w200_joint"
+          }
+        ],
+        "charged_continuation_calls": 15
+      }
+    },
+    {
+      "id": "case_025_p3_n5",
+      "case": 25,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": false,
+      "best_times": {
+        "mature": 942350,
+        "legacy": 942350,
+        "persistent": 942938
+      },
+      "best_added_copy": {
+        "mature": 118272,
+        "legacy": 118272,
+        "persistent": 110592
+      },
+      "best_byte_hit": {
+        "mature": 0.010873504893077202,
+        "legacy": 0.010873504893077202,
+        "persistent": 0.0
+      },
+      "calls": {
+        "mature": 23,
+        "legacy": 11,
+        "persistent": 13
+      },
+      "initial_best": 942938,
+      "initial_calls": 6,
+      "phase_calls": {
+        "initialization": 6,
+        "insertion": 3,
+        "joint": 1,
+        "cache": 3
+      },
+      "joint": [
+        {
+          "call": 10,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 942938,
+          "makespan": 943565,
+          "parent_copy": 110592,
+          "added_copy": 124416,
+          "byte_hit": 0.0025353132922854038,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000026667
+            ],
+            "tensor_id": 1000000001,
+            "wait_priority": 1386.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 11,
+          "region_size": 13,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130224-39505d31ff7745abb7618531d276924b/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130433-8db0153f27604bf78fb159a714f84d39/record.json"
+        }
+      ],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "wcc_protected_interleave_v2_w2_base_earliest_start",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130224-39505d31ff7745abb7618531d276924b/record.json"
+      },
+      "winner_phase": "initialization",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130209-7cfb4bdc3b934b8e94a14cb46fb34c0c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130336-07be4183b5b54b25808743f7a50ea69d/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130235-065beb471f444d00b921825cf6e5468e/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130351-4fe20ff8b07844ff9c83d7ab894dae47/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130255-d76ce997ca8f4dcb81961da570f1c5fc/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130406-a4c393b7638c4511af60fb76a9a29aee/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130224-39505d31ff7745abb7618531d276924b/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130433-8db0153f27604bf78fb159a714f84d39/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130351-4fe20ff8b07844ff9c83d7ab894dae47/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130456-3bf0a41e7d0442c791bdb31c96f9082c/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130406-a4c393b7638c4511af60fb76a9a29aee/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130526-fde5e16b4d724a4db300a2116ceb6256/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130336-07be4183b5b54b25808743f7a50ea69d/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130555-066d685f51794e0ab878b3bb07a4b6a2/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        }
+      ],
+      "seed_descendants": {
+        "op_stable_id_w100": {
+          "time": 1264904,
+          "direct_evaluated_children": [
+            {
+              "call": 9,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 1088152,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        },
+        "op_critical_path_w100": {
+          "time": 2261842,
+          "direct_evaluated_children": [
+            {
+              "call": 8,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 981974,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 942938,
+          "added_copy": 110592,
+          "byte_hit": 0.0
+        },
+        "0.01": {
+          "time": 942938,
+          "added_copy": 110592,
+          "byte_hit": 0.0
+        },
+        "0.03": {
+          "time": 942938,
+          "added_copy": 110592,
+          "byte_hit": 0.0
+        }
+      },
+      "generation_failures": [
+        {
+          "name": "observe_paid_parent",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130351-4fe20ff8b07844ff9c83d7ab894dae47/record.json",
+          "status": "generation_timeout",
+          "elapsed_seconds": 12.117819662002148,
+          "included_in_parent_generation": false,
+          "error": "candidate generation/observation deadline",
+          "diagnostics": null
+        },
+        {
+          "name": "observe_paid_parent",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130406-a4c393b7638c4511af60fb76a9a29aee/record.json",
+          "status": "generation_timeout",
+          "elapsed_seconds": 12.579731731995707,
+          "included_in_parent_generation": false,
+          "error": "candidate generation/observation deadline",
+          "diagnostics": null
+        },
+        {
+          "name": "observe_paid_parent",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130336-07be4183b5b54b25808743f7a50ea69d/record.json",
+          "status": "generation_timeout",
+          "elapsed_seconds": 12.127674119983567,
+          "included_in_parent_generation": false,
+          "error": "candidate generation/observation deadline",
+          "diagnostics": null
+        },
+        {
+          "name": "persistent_insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130307-aa82a7f5146b449594411a5f30d55b8c/record.json",
+          "status": "generation_timeout",
+          "elapsed_seconds": 0.009122530987951905,
+          "included_in_parent_generation": false,
+          "error": "candidate generation/observation deadline",
+          "diagnostics": null
+        }
+      ],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [
+          {
+            "lineage": 1,
+            "origin": "critical_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130456-3bf0a41e7d0442c791bdb31c96f9082c/record.json",
+            "shape": "23ded8746025d6647bcd28976fca6e09ff46039b17905d451abbddc72eacd59a",
+            "calls": 2,
+            "depth": 2,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130235-065beb471f444d00b921825cf6e5468e/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130351-4fe20ff8b07844ff9c83d7ab894dae47/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 2,
+            "origin": "stable_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130406-a4c393b7638c4511af60fb76a9a29aee/record.json",
+            "shape": "2ca7915e40f0184b93d81b44cad66f5ecb8108142c38a08b35dd9fce28e9477d",
+            "calls": 2,
+            "depth": 1,
+            "stagnant": 1,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130255-d76ce997ca8f4dcb81961da570f1c5fc/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 3,
+            "origin": "stable_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130307-aa82a7f5146b449594411a5f30d55b8c/record.json",
+            "shape": "1b4b53532857537caab10b23da7e7884bb8d4ac1da05c98796acadfafd883e63",
+            "calls": 0,
+            "depth": 0,
+            "stagnant": 0,
+            "protected_remaining": 2,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "retired": [
+          {
+            "lineage": 0,
+            "origin": "whole_component_interleave",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130224-39505d31ff7745abb7618531d276924b/record.json",
+            "shape": "f5252ccc51bcd49d94d7557da7bd5a630261686b1bb993d35e4186938600af09",
+            "calls": 3,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "waiting": [
+          {
+            "origin": "critical_w200_joint",
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130322-8a4341e4301f450a99cdd479ab2f8934/record.json"
+          }
+        ],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130224-39505d31ff7745abb7618531d276924b/record.json",
+            "quota": 2,
+            "origin": "whole_component_interleave"
+          },
+          {
+            "event": "admit",
+            "lineage": 1,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130235-065beb471f444d00b921825cf6e5468e/record.json",
+            "quota": 2,
+            "origin": "critical_w100_control"
+          },
+          {
+            "event": "admit",
+            "lineage": 2,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130255-d76ce997ca8f4dcb81961da570f1c5fc/record.json",
+            "quota": 2,
+            "origin": "stable_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 0,
+            "reason": "completed_lease_stalled",
+            "visits": 3,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 3,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_025_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T130307-aa82a7f5146b449594411a5f30d55b8c/record.json",
+            "quota": 2,
+            "origin": "stable_w200_joint"
+          }
+        ],
+        "charged_continuation_calls": 7
+      }
+    },
+    {
+      "id": "case_047_p3_n1",
+      "case": 47,
+      "problem": 3,
+      "cores": 1,
+      "group": "core_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": true,
+      "best_times": {
+        "mature": 277066,
+        "legacy": 277066,
+        "persistent": 277066
+      },
+      "best_added_copy": {
+        "mature": 0,
+        "legacy": 0,
+        "persistent": 0
+      },
+      "best_byte_hit": {
+        "mature": 0.0,
+        "legacy": 0.0,
+        "persistent": 0.0
+      },
+      "calls": {
+        "mature": 10,
+        "legacy": 6,
+        "persistent": 8
+      },
+      "initial_best": 277066,
+      "initial_calls": 3,
+      "phase_calls": {
+        "initialization": 3,
+        "cache": 3,
+        "trace": 2
+      },
+      "joint": [],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "op_stable_id_w200_complete_insertion",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125419-58e3352339034209a3cfb687cd3f1c46/record.json"
+      },
+      "winner_phase": "initialization",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125413-eb1d88c5c02f4467996c2f05f0294ce4/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125434-e8465f85ada747b3a9bf07f0ad965d89/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125419-58e3352339034209a3cfb687cd3f1c46/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125450-1ab99f212fca4b2b9aa695790163f84b/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125406-c083e597c38349ac94dd92b48e86e3b8/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125505-6a6e388c248340648d615d8e345ca254/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125419-58e3352339034209a3cfb687cd3f1c46/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125513-96716e66a2f6408dafb37a30ea670f12/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125505-6a6e388c248340648d615d8e345ca254/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125528-ea540d777ba04440b1c9c1b3f3da87e7/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        }
+      ],
+      "seed_descendants": {
+        "op_critical_path_w100": {
+          "time": 326508,
+          "direct_evaluated_children": [
+            {
+              "call": 4,
+              "name": "cache_reencode_control",
+              "phase": "cache",
+              "time": 326508,
+              "accepted": false,
+              "local_accepted": false
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 277066,
+          "added_copy": 0,
+          "byte_hit": 0.0
+        },
+        "0.01": {
+          "time": 277066,
+          "added_copy": 0,
+          "byte_hit": 0.0
+        },
+        "0.03": {
+          "time": 277066,
+          "added_copy": 0,
+          "byte_hit": 0.0
+        }
+      },
+      "generation_failures": [],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [],
+        "retired": [
+          {
+            "lineage": 0,
+            "origin": "stable_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125419-58e3352339034209a3cfb687cd3f1c46/record.json",
+            "shape": "2dbb323ca01d4d7b0e3c75a2af4b9ce82858a68d54d2b6d02b18ad6cc4656306",
+            "calls": 5,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": true,
+            "pending_parent_leases": []
+          }
+        ],
+        "waiting": [],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_047_p3_n1/persistent/attempt_001/evaluations/attempts/20260926T125419-58e3352339034209a3cfb687cd3f1c46/record.json",
+            "quota": 2,
+            "origin": "stable_w200_joint"
+          },
+          {
+            "event": "retire",
+            "lineage": 0,
+            "reason": "exhausted",
+            "visits": 5,
+            "protected_remaining": 0
+          }
+        ],
+        "charged_continuation_calls": 5
+      }
+    },
+    {
+      "id": "case_053_p3_n5",
+      "case": 53,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": true,
+      "best_times": {
+        "mature": 374457,
+        "legacy": 325708,
+        "persistent": 325708
+      },
+      "best_added_copy": {
+        "mature": 3247692,
+        "legacy": 10044262,
+        "persistent": 10044262
+      },
+      "best_byte_hit": {
+        "mature": 0.020520021907168538,
+        "legacy": 0.4167957278876739,
+        "persistent": 0.4167957278876739
+      },
+      "calls": {
+        "mature": 24,
+        "legacy": 12,
+        "persistent": 22
+      },
+      "initial_best": 325708,
+      "initial_calls": 6,
+      "phase_calls": {
+        "initialization": 6,
+        "joint": 8,
+        "insertion": 5,
+        "cache": 3
+      },
+      "joint": [
+        {
+          "call": 7,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 325708,
+          "makespan": 338389,
+          "parent_copy": 10044262,
+          "added_copy": 10109798,
+          "byte_hit": 0.41132300264604427,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000012979
+            ],
+            "tensor_id": 1000000391,
+            "wait_priority": 3531.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 33,
+          "region_size": 54,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125458-17b566e09fdd4273bc660cdedd409628/record.json"
+        },
+        {
+          "call": 12,
+          "name": "persistent_p23_r1_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 374457,
+          "makespan": 402996,
+          "parent_copy": 3247692,
+          "added_copy": 3604418,
+          "byte_hit": 0.21594263389247992,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              11899
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 96,
+          "region_size": 255,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125504-6ad448875fe240aaafd79da1b2cb3a85/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125539-92b87c8258c8453a9975b5c4c96e744b/record.json"
+        },
+        {
+          "call": 13,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 421178,
+          "makespan": 417801,
+          "parent_copy": 22953822,
+          "added_copy": 22952798,
+          "byte_hit": 0.28620115630075993,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              0,
+              1000013210
+            ],
+            "tensor_id": 1000000401,
+            "wait_priority": 9850.241233901335
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 6,
+          "region_size": 10,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125511-d55ab941288547298204ffb19949c76c/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125556-e47903e6e51446dfba6af94de03c539e/record.json"
+        },
+        {
+          "call": 14,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 354711,
+          "makespan": 390148,
+          "parent_copy": 11500056,
+          "added_copy": 11508248,
+          "byte_hit": 0.3106004374825935,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              1,
+              1000012995
+            ],
+            "tensor_id": 1000000393,
+            "wait_priority": 5313.579342257432
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 97,
+          "region_size": 104,
+          "global_reencoding": true,
+          "lineage": 3,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125526-5a71ce1e66e04736b23c48419d42a105/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125613-e898ea90b6d347829be0bf5fd7f07c7e/record.json"
+        },
+        {
+          "call": 15,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 405585,
+          "makespan": 411362,
+          "parent_copy": 3269876,
+          "added_copy": 3459088,
+          "byte_hit": 0.1794580424353242,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              11899
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 32,
+          "region_size": 63,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125415-62a073aae32c45278ed3dfc35cce20d6/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125627-3e95f0499a104ac196dede5b6df6b35c/record.json"
+        },
+        {
+          "call": 16,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 390575,
+          "makespan": 390302,
+          "parent_copy": 21711392,
+          "added_copy": 21710368,
+          "byte_hit": 0.32917612158711274,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              1,
+              1000013129
+            ],
+            "tensor_id": 1000000397,
+            "wait_priority": 8821.889063540657
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 4,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125443-34d8387a0c5b4ce49c7fd2b52ba825a3/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125645-3e6384604ec5442f9283131ef5f31d65/record.json"
+        },
+        {
+          "call": 18,
+          "name": "persistent_p23_r0_1_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 508364,
+          "makespan": 492004,
+          "parent_copy": 22953822,
+          "added_copy": 22953822,
+          "byte_hit": 0.20375325476697115,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              3,
+              1000013176
+            ],
+            "tensor_id": 1000000393,
+            "wait_priority": 12855.17738095238
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125422-3cc5a9340c4945a190508b877e1ef7a9/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-2a9eda675f8c4b5186d5653e541e4f7b/record.json"
+        },
+        {
+          "call": 19,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 765949,
+          "makespan": 670234,
+          "parent_copy": 15121176,
+          "added_copy": 15112984,
+          "byte_hit": 0.58919722042494,
+          "bottleneck": {
+            "kind": "shared_input_wait",
+            "event": [
+              4,
+              1000013561
+            ],
+            "tensor_id": 1000002013,
+            "wait_priority": 1386.1756019064064
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 3,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125432-3f0a49ad65d74cab9450e2f9a78fe061/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-3bfbb1c704ae401f83df1f4b23bbcf93/record.json"
+        }
+      ],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "op_stable_id_w200_complete_insertion",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json"
+      },
+      "winner_phase": "initialization",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125458-17b566e09fdd4273bc660cdedd409628/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125408-e0e27e7fb27e43ec955de61146925ded/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125504-6ad448875fe240aaafd79da1b2cb3a85/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125422-3cc5a9340c4945a190508b877e1ef7a9/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125511-d55ab941288547298204ffb19949c76c/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125521-2689f0fe28224aa98b375a5ff586678a/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125432-3f0a49ad65d74cab9450e2f9a78fe061/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125526-5a71ce1e66e04736b23c48419d42a105/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125504-6ad448875fe240aaafd79da1b2cb3a85/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125539-92b87c8258c8453a9975b5c4c96e744b/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125511-d55ab941288547298204ffb19949c76c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125556-e47903e6e51446dfba6af94de03c539e/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125526-5a71ce1e66e04736b23c48419d42a105/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125613-e898ea90b6d347829be0bf5fd7f07c7e/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125415-62a073aae32c45278ed3dfc35cce20d6/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125627-3e95f0499a104ac196dede5b6df6b35c/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125443-34d8387a0c5b4ce49c7fd2b52ba825a3/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125645-3e6384604ec5442f9283131ef5f31d65/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125645-3e6384604ec5442f9283131ef5f31d65/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125654-a9d326429d54434191f673a99a107b7c/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125422-3cc5a9340c4945a190508b877e1ef7a9/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-2a9eda675f8c4b5186d5653e541e4f7b/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125432-3f0a49ad65d74cab9450e2f9a78fe061/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-3bfbb1c704ae401f83df1f4b23bbcf93/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 4,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125443-34d8387a0c5b4ce49c7fd2b52ba825a3/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125737-be4e7bbab4b341ce9d174f214f170377/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125556-e47903e6e51446dfba6af94de03c539e/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125748-8ec3a69ee770480ea0092c841bcf854e/record.json",
+          "protected_remaining": 0,
+          "depth": 2,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 3,
+          "family": "cache",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125526-5a71ce1e66e04736b23c48419d42a105/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125759-1377c61627964e53aa848359565ddabe/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        }
+      ],
+      "seed_descendants": {
+        "op_stable_id_w100": {
+          "time": 765949,
+          "direct_evaluated_children": [
+            {
+              "call": 11,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 354711,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 19,
+              "name": "persistent_p23_r0_1_related_chain_exchange",
+              "phase": "joint",
+              "time": 670234,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        },
+        "op_critical_path_w100": {
+          "time": 508364,
+          "direct_evaluated_children": [
+            {
+              "call": 9,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 421178,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 18,
+              "name": "persistent_p23_r0_1_related_chain_move",
+              "phase": "joint",
+              "time": 492004,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 325708,
+          "added_copy": 10044262,
+          "byte_hit": 0.4167957278876739
+        },
+        "0.01": {
+          "time": 325708,
+          "added_copy": 10044262,
+          "byte_hit": 0.4167957278876739
+        },
+        "0.03": {
+          "time": 325708,
+          "added_copy": 10044262,
+          "byte_hit": 0.4167957278876739
+        }
+      },
+      "generation_failures": [
+        {
+          "name": "observe_paid_parent",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125645-3e6384604ec5442f9283131ef5f31d65/record.json",
+          "status": "generation_timeout",
+          "elapsed_seconds": 0.3692616789776366,
+          "included_in_parent_generation": false,
+          "error": "candidate generation/observation deadline",
+          "diagnostics": null
+        }
+      ],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [
+          {
+            "lineage": 2,
+            "origin": "critical_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125748-8ec3a69ee770480ea0092c841bcf854e/record.json",
+            "shape": "6301e5ebe3363d399fd247415988f9f801bd53d3a0340d84debd38f6d14c6b1e",
+            "calls": 4,
+            "depth": 3,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125511-d55ab941288547298204ffb19949c76c/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125556-e47903e6e51446dfba6af94de03c539e/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125713-2a9eda675f8c4b5186d5653e541e4f7b/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 3,
+            "origin": "stable_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125759-1377c61627964e53aa848359565ddabe/record.json",
+            "shape": "2cc39c1e884a1e69e275781eefddafe2d40ca1323252a9233d25b7be08ad0e10",
+            "calls": 4,
+            "depth": 2,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125526-5a71ce1e66e04736b23c48419d42a105/record.json",
+                "remaining": 1
+              },
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125730-3bfbb1c704ae401f83df1f4b23bbcf93/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 4,
+            "origin": "critical_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125645-3e6384604ec5442f9283131ef5f31d65/record.json",
+            "shape": "acdd27755414dbc1f649c3bde141d12d9a3e4237c6f5283c1e3550f4aae59585",
+            "calls": 3,
+            "depth": 1,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "retired": [
+          {
+            "lineage": 0,
+            "origin": "stable_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json",
+            "shape": "d4a546b3322099c951e47140e5bbb8f620008fc79ea0d581cc508dea5a2eef3a",
+            "calls": 2,
+            "depth": 0,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          },
+          {
+            "lineage": 1,
+            "origin": "whole_component_interleave",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125504-6ad448875fe240aaafd79da1b2cb3a85/record.json",
+            "shape": "63aa054dc3b061716516b839960348c5c76550882c1d9c32158aec14e6ecf882",
+            "calls": 3,
+            "depth": 1,
+            "stagnant": 2,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          }
+        ],
+        "waiting": [],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125437-762edcc0e21b458d9b63df14c7142aea/record.json",
+            "quota": 2,
+            "origin": "stable_w200_joint"
+          },
+          {
+            "event": "admit",
+            "lineage": 1,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125415-62a073aae32c45278ed3dfc35cce20d6/record.json",
+            "quota": 2,
+            "origin": "whole_component_interleave"
+          },
+          {
+            "event": "admit",
+            "lineage": 2,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125422-3cc5a9340c4945a190508b877e1ef7a9/record.json",
+            "quota": 2,
+            "origin": "critical_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 0,
+            "reason": "completed_lease_stalled",
+            "visits": 2,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 3,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125432-3f0a49ad65d74cab9450e2f9a78fe061/record.json",
+            "quota": 2,
+            "origin": "stable_w100_control"
+          },
+          {
+            "event": "retire",
+            "lineage": 1,
+            "reason": "completed_lease_stalled",
+            "visits": 3,
+            "protected_remaining": 0
+          },
+          {
+            "event": "admit",
+            "lineage": 4,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_053_p3_n5/persistent/attempt_001/evaluations/attempts/20260926T125443-34d8387a0c5b4ce49c7fd2b52ba825a3/record.json",
+            "quota": 2,
+            "origin": "critical_w200_joint"
+          }
+        ],
+        "charged_continuation_calls": 16
+      }
+    },
+    {
+      "id": "case_095_p2_n5",
+      "case": 95,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "sources": {
+        "mature": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/mature/attempt_001/summary.json",
+        "legacy": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/legacy/attempt_001/summary.json",
+        "persistent": "A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/summary.json"
+      },
+      "same_paid_initialization": true,
+      "best_times": {
+        "mature": 220188,
+        "legacy": 217302,
+        "persistent": 220188
+      },
+      "best_added_copy": {
+        "mature": 0,
+        "legacy": 0,
+        "persistent": 0
+      },
+      "best_byte_hit": {
+        "mature": null,
+        "legacy": null,
+        "persistent": null
+      },
+      "calls": {
+        "mature": 24,
+        "legacy": 24,
+        "persistent": 24
+      },
+      "initial_best": 220188,
+      "initial_calls": 6,
+      "phase_calls": {
+        "initialization": 6,
+        "joint": 10,
+        "insertion": 4,
+        "trace": 4
+      },
+      "joint": [
+        {
+          "call": 7,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 420852,
+          "makespan": 420543,
+          "parent_copy": 0,
+          "added_copy": 36864,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              1,
+              5544
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 12,
+          "region_size": 13,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125454-eb3d2ca2891a48bc91c90dab7c9eec9c/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125512-e6ccc17c7a9e4db3a46e84f557232366/record.json"
+        },
+        {
+          "call": 9,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 1889006,
+          "makespan": 1887420,
+          "parent_copy": 101265024,
+          "added_copy": 101191296,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              0,
+              1000007861
+            ],
+            "tensor_id": 1000000006,
+            "wait_priority": 5852.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 3,
+          "region_size": 8,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125506-b914b254da294e019c4137d2ece063c8/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json"
+        },
+        {
+          "call": 10,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 220188,
+          "makespan": 223292,
+          "parent_copy": 0,
+          "added_copy": 36864,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              1,
+              5544
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 12,
+          "region_size": 13,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125525-b002af39b80e4cd0811f72746c7e0f6c/record.json"
+        },
+        {
+          "call": 11,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 1839073,
+          "makespan": 1839811,
+          "parent_copy": 98313216,
+          "added_copy": 98331648,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              3,
+              1000007894
+            ],
+            "tensor_id": 1000000025,
+            "wait_priority": 5852.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125531-a6a66ff881bc4b00bf6cebba3c2ec525/record.json"
+        },
+        {
+          "call": 14,
+          "name": "persistent_p23_r0_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 2046291,
+          "makespan": 2039141,
+          "parent_copy": 109310976,
+          "added_copy": 109310976,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              3,
+              1000008942
+            ],
+            "tensor_id": 1000000649,
+            "wait_priority": 5836.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 2,
+          "region_size": 6,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125459-bc64f9485f4c4c6e864063854ad61251/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125547-a4b0904664c6473c8a397f9822faf1e6/record.json"
+        },
+        {
+          "call": 16,
+          "name": "persistent_p23_r0_2_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 220188,
+          "makespan": 220188,
+          "parent_copy": 0,
+          "added_copy": 0,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              1,
+              5544
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 8,
+          "region_size": 8,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125554-e47d4e9a7b3e482cadefc66928c5883d/record.json"
+        },
+        {
+          "call": 18,
+          "name": "persistent_p23_r1_1_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 1887420,
+          "makespan": 1888402,
+          "parent_copy": 101191296,
+          "added_copy": 101080320,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              0,
+              1000008717
+            ],
+            "tensor_id": 1000000523,
+            "wait_priority": 5852.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 6,
+          "region_size": 9,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125603-d699bf7707e84069a2b92ec582d0c987/record.json"
+        },
+        {
+          "call": 22,
+          "name": "persistent_p23_r0_3_related_chain_exchange",
+          "action": "related_chain_exchange",
+          "status": "success",
+          "parent_time": 220188,
+          "makespan": 223292,
+          "parent_copy": 0,
+          "added_copy": 36864,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "critical_compute",
+            "event": [
+              0,
+              5532
+            ],
+            "slack": 0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 12,
+          "region_size": 13,
+          "global_reencoding": true,
+          "lineage": 0,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125616-ff377fba6d734a40b9106dc8a7afd7c1/record.json"
+        },
+        {
+          "call": 23,
+          "name": "persistent_p23_r1_2_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 1839073,
+          "makespan": 1839195,
+          "parent_copy": 98313216,
+          "added_copy": 98294784,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              3,
+              1000007894
+            ],
+            "tensor_id": 1000000025,
+            "wait_priority": 5852.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": false,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": false,
+          "fifo": false,
+          "moved_ops": 1,
+          "region_size": 4,
+          "global_reencoding": true,
+          "lineage": 1,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125618-f6411a41cef14265a2ef14b2b28f5532/record.json"
+        },
+        {
+          "call": 24,
+          "name": "persistent_p23_r1_2_related_chain_move",
+          "action": "related_chain_move",
+          "status": "success",
+          "parent_time": 1887420,
+          "makespan": 1887065,
+          "parent_copy": 101191296,
+          "added_copy": 101080320,
+          "byte_hit": null,
+          "bottleneck": {
+            "kind": "copy_wait",
+            "event": [
+              0,
+              1000008717
+            ],
+            "tensor_id": 1000000523,
+            "wait_priority": 5852.0
+          },
+          "global_time_improved": false,
+          "parent_time_improved": true,
+          "global_lexicographic_accepted": false,
+          "local_lexicographic_accepted": true,
+          "fifo": false,
+          "moved_ops": 3,
+          "region_size": 5,
+          "global_reencoding": true,
+          "lineage": 2,
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125622-c8d6d4e8ee4a4c0b96b635d1797d35c0/record.json"
+        }
+      ],
+      "joint_ancestry_of_winner": [],
+      "winner_origin": {
+        "name": "wcc_protected_interleave_v2_w4_base_earliest_start",
+        "phase": "initialization",
+        "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json"
+      },
+      "winner_phase": "initialization",
+      "branch_visit_events": [
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125454-eb3d2ca2891a48bc91c90dab7c9eec9c/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125512-e6ccc17c7a9e4db3a46e84f557232366/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125459-bc64f9485f4c4c6e864063854ad61251/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125506-b914b254da294e019c4137d2ece063c8/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "protected_remaining": 1,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125525-b002af39b80e4cd0811f72746c7e0f6c/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125531-a6a66ff881bc4b00bf6cebba3c2ec525/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125534-137aea24ac2d404a8689dcb492042cfd/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125502-f0e9e5ede6c4484ebc8a5ee8f53eee64/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125540-7da83cac6419455e8ec42b237f51c708/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125459-bc64f9485f4c4c6e864063854ad61251/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125547-a4b0904664c6473c8a397f9822faf1e6/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125506-b914b254da294e019c4137d2ece063c8/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125550-3e37a81292fe4b549c586ec1bb760c1b/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125554-e47d4e9a7b3e482cadefc66928c5883d/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125555-2d1e85d7ff1446699b19230b53aad31e/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125603-d699bf7707e84069a2b92ec582d0c987/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125512-e6ccc17c7a9e4db3a46e84f557232366/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125606-57216b50b7db4a5eb591827c3b2f8f00/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "insertion",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125547-a4b0904664c6473c8a397f9822faf1e6/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125609-aa881562e83e4e5aa97ba6bfbe4ee50d/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": true,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "trace",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125612-a48ef5e27f734a7999cf917cc02a55ea/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 0,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125616-ff377fba6d734a40b9106dc8a7afd7c1/record.json",
+          "protected_remaining": 0,
+          "depth": 0,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 1,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125618-f6411a41cef14265a2ef14b2b28f5532/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": false,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        },
+        {
+          "event": "visit",
+          "lineage": 2,
+          "family": "joint",
+          "parent_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+          "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125622-c8d6d4e8ee4a4c0b96b635d1797d35c0/record.json",
+          "protected_remaining": 0,
+          "depth": 1,
+          "local_accepted": true,
+          "global_accepted": false,
+          "stale_parent": false,
+          "status": "success"
+        }
+      ],
+      "seed_descendants": {
+        "op_stable_id_w100": {
+          "time": 420852,
+          "direct_evaluated_children": [
+            {
+              "call": 13,
+              "name": "trace_r00_00_compute_dependency_tail",
+              "phase": "trace",
+              "time": 1887928,
+              "accepted": false,
+              "local_accepted": false
+            }
+          ]
+        },
+        "op_critical_path_w100": {
+          "time": 2046291,
+          "direct_evaluated_children": [
+            {
+              "call": 8,
+              "name": "insert_0_parent",
+              "phase": "insertion",
+              "time": 1839073,
+              "accepted": false,
+              "local_accepted": true
+            },
+            {
+              "call": 14,
+              "name": "persistent_p23_r0_1_related_chain_exchange",
+              "phase": "joint",
+              "time": 2039141,
+              "accepted": false,
+              "local_accepted": true
+            }
+          ]
+        }
+      },
+      "tradeoffs": {
+        "0.0": {
+          "time": 220188,
+          "added_copy": 0,
+          "byte_hit": null
+        },
+        "0.01": {
+          "time": 220188,
+          "added_copy": 0,
+          "byte_hit": null
+        },
+        "0.03": {
+          "time": 220188,
+          "added_copy": 0,
+          "byte_hit": null
+        }
+      },
+      "generation_failures": [],
+      "allocation": {
+        "width": 3,
+        "repair_quota": 2,
+        "active": [
+          {
+            "lineage": 0,
+            "origin": "whole_component_interleave",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+            "shape": "e66853aa55c92ff25933633c6252e33af1ad45e632c7fe55b3e08933f76a3556",
+            "calls": 6,
+            "depth": 0,
+            "stagnant": 5,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": []
+          },
+          {
+            "lineage": 1,
+            "origin": "critical_w100_control",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125513-7b3e0f74d7e14387b4f5626379f544ff/record.json",
+            "shape": "b4cc4884c91856b3832a1ac1832eff18d58f9d9eaf92bc40d7de810d306c1e4f",
+            "calls": 6,
+            "depth": 1,
+            "stagnant": 1,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125609-aa881562e83e4e5aa97ba6bfbe4ee50d/record.json",
+                "remaining": 1
+              }
+            ]
+          },
+          {
+            "lineage": 2,
+            "origin": "critical_w200_joint",
+            "current_record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125622-c8d6d4e8ee4a4c0b96b635d1797d35c0/record.json",
+            "shape": "f4b63521eb46d319e6b10a3b1afb93c7b4384b07efff25665fd58cb60cc44c92",
+            "calls": 6,
+            "depth": 2,
+            "stagnant": 0,
+            "protected_remaining": 0,
+            "exhausted": false,
+            "pending_parent_leases": [
+              {
+                "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125520-5115a461459a4b538d04a93461bfc195/record.json",
+                "remaining": 1
+              }
+            ]
+          }
+        ],
+        "retired": [],
+        "waiting": [],
+        "events": [
+          {
+            "event": "admit",
+            "lineage": 0,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125457-e250d60f30614e989daf545e306f8886/record.json",
+            "quota": 2,
+            "origin": "whole_component_interleave"
+          },
+          {
+            "event": "admit",
+            "lineage": 1,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125459-bc64f9485f4c4c6e864063854ad61251/record.json",
+            "quota": 2,
+            "origin": "critical_w100_control"
+          },
+          {
+            "event": "admit",
+            "lineage": 2,
+            "record": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/持续联合冲刺_20260926/正式75配置_6并发/configurations/case_095_p2_n5/persistent/attempt_001/evaluations/attempts/20260926T125506-b914b254da294e019c4137d2ece063c8/record.json",
+            "quota": 2,
+            "origin": "critical_w200_joint"
+          }
+        ],
+        "charged_continuation_calls": 18
+      }
+    }
+  ]
+}

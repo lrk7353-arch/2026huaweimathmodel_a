@@ -1,0 +1,7 @@
+﻿variant,problem,cores,count,statement_mean_speedup,raw_optimized_mean_ratio,graph_set,interpretation
+legacy,2,5,1,5.419478167549802,5.419478167549802,case_060,panel only; graph sets may differ by core count; not full-pool curve
+persistent,2,5,1,5.404451065641057,5.404451065641057,case_060,panel only; graph sets may differ by core count; not full-pool curve
+persistent,3,4,1,3.6257717763070225,3.6257717763070225,case_047,panel only; graph sets may differ by core count; not full-pool curve
+mature,2,5,1,5.443042703427665,5.443042703427665,case_060,panel only; graph sets may differ by core count; not full-pool curve
+mature,3,4,1,3.5874086689007307,3.5874086689007307,case_047,panel only; graph sets may differ by core count; not full-pool curve
+mature,3,5,1,5.160530588422561,5.160530588422561,case_025,panel only; graph sets may differ by core count; not full-pool curve

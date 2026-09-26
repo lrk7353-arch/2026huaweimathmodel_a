@@ -1,0 +1,49 @@
+[
+  {
+    "config_id": "case_060_p2_n5",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    }
+  }
+]

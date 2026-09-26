@@ -1,0 +1,25 @@
+﻿config_id,case,problem,cores,group,variant,prefix_budget,paid_calls,makespan,added_copy,interpretation
+case_060_p2_n5,case_060,2,5,frozen_regression,legacy,8,8,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,legacy,12,12,163999,3632512,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,legacy,16,16,163999,3628416,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,legacy,24,24,163999,3628416,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,persistent,8,8,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,persistent,12,12,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,persistent,16,16,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,persistent,24,24,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,mature,8,8,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,mature,12,12,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,mature,16,16,164455,3644800,prefix of this B24 run; not a separate budget experiment
+case_060_p2_n5,case_060,2,5,frozen_regression,mature,24,24,163289,3740032,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,persistent,8,8,90079,2114418,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,persistent,12,12,90052,2114418,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,persistent,16,16,90052,2114418,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,persistent,24,24,90052,2114418,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,mature,8,8,129541,2151826,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,mature,12,12,129513,2152850,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,mature,16,16,129513,2152850,prefix of this B24 run; not a separate budget experiment
+case_047_p3_n4,case_047,3,4,core_regression,mature,24,24,91015,2152850,prefix of this B24 run; not a separate budget experiment
+case_025_p3_n5,case_025,3,5,existing_regression,mature,8,8,942350,118272,prefix of this B24 run; not a separate budget experiment
+case_025_p3_n5,case_025,3,5,existing_regression,mature,12,12,942350,118272,prefix of this B24 run; not a separate budget experiment
+case_025_p3_n5,case_025,3,5,existing_regression,mature,16,16,942350,118272,prefix of this B24 run; not a separate budget experiment
+case_025_p3_n5,case_025,3,5,existing_regression,mature,24,24,942350,118272,prefix of this B24 run; not a separate budget experiment

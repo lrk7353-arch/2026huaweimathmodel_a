@@ -154,7 +154,10 @@ def summarize(source, output, allow_partial=False):
                        seconds=summary.get("elapsed_seconds"),
                        deadline_overrun_seconds=max(0., summary.get("elapsed_seconds", 0.) - protocol["seconds"]),
                        logged_generation_seconds=generation_time(summary, path.parent),
-                       generation_errors=len(summary.get("generation_errors", [])),
+                       generation_errors=len(summary.get("generation_errors", [])) +
+                           sum(g.get("status") == "generation_error" for g in summary.get("generations", [])),
+                       generation_timeouts=sum(g.get("status") == "generation_timeout"
+                                               for g in summary.get("generations", [])),
                        total_recorded_calls_including_recovery=len(all_records),
                        total_recorded_failures_including_recovery=sum(r.get("status") != "success" for r in all_records),
                        recorded_evaluation_seconds_including_recovery=sum(r.get("elapsed_seconds", 0.) for r in all_records),

@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "protocol_name": "persistent-joint-sprint-20260926-v1",
+  "configurations": [
+    {
+      "id": "case_060_p2_n5",
+      "case": 60,
+      "problem": 2,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_047_p3_n4",
+      "case": 47,
+      "problem": 3,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_025_p3_n5",
+      "case": 25,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p3_n1",
+      "case": 47,
+      "problem": 3,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_053_p3_n5",
+      "case": 53,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_095_p2_n5",
+      "case": 95,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p3_n3",
+      "case": 47,
+      "problem": 3,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_054_p1_n5",
+      "case": 54,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_085_p1_n5",
+      "case": 85,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_060_p2_n4",
+      "case": 60,
+      "problem": 2,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_025_p2_n5",
+      "case": 25,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_060_p2_n1",
+      "case": 60,
+      "problem": 2,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_060_p1_n2",
+      "case": 60,
+      "problem": 1,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_003_p1_n5",
+      "case": 3,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p3_n2",
+      "case": 47,
+      "problem": 3,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_035_p2_n5",
+      "case": 35,
+      "problem": 2,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_037_p3_n5",
+      "case": 37,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_028_p3_n5",
+      "case": 28,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_049_p2_n5",
+      "case": 49,
+      "problem": 2,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p1_n1",
+      "case": 60,
+      "problem": 1,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p1_n3",
+      "case": 60,
+      "problem": 1,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_028_p2_n5",
+      "case": 28,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_016_p1_n5",
+      "case": 16,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_023_p3_n5",
+      "case": 23,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_095_p3_n5",
+      "case": 95,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_058_p1_n5",
+      "case": 58,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_012_p1_n5",
+      "case": 12,
+      "problem": 1,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_071_p2_n5",
+      "case": 71,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_042_p3_n5",
+      "case": 42,
+      "problem": 3,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p1_n4",
+      "case": 47,
+      "problem": 1,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_087_p1_n5",
+      "case": 87,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_037_p2_n5",
+      "case": 37,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_012_p2_n5",
+      "case": 12,
+      "problem": 2,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_009_p2_n5",
+      "case": 9,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_060_p1_n5",
+      "case": 60,
+      "problem": 1,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_060_p2_n3",
+      "case": 60,
+      "problem": 2,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_049_p3_n5",
+      "case": 49,
+      "problem": 3,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_023_p2_n5",
+      "case": 23,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p1_n4",
+      "case": 60,
+      "problem": 1,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_001_p3_n5",
+      "case": 1,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_019_p3_n5",
+      "case": 19,
+      "problem": 3,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_060_p3_n5",
+      "case": 60,
+      "problem": 3,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p3_n1",
+      "case": 60,
+      "problem": 3,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_047_p2_n2",
+      "case": 47,
+      "problem": 2,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_066_p2_n5",
+      "case": 66,
+      "problem": 2,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_001_p2_n5",
+      "case": 1,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_042_p2_n5",
+      "case": 42,
+      "problem": 2,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_042_p1_n5",
+      "case": 42,
+      "problem": 1,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p3_n5",
+      "case": 47,
+      "problem": 3,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_009_p3_n5",
+      "case": 9,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_062_p1_n5",
+      "case": 62,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_050_p3_n5",
+      "case": 50,
+      "problem": 3,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_050_p2_n5",
+      "case": 50,
+      "problem": 2,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_035_p3_n5",
+      "case": 35,
+      "problem": 3,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_053_p2_n5",
+      "case": 53,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_066_p3_n5",
+      "case": 66,
+      "problem": 3,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p2_n5",
+      "case": 47,
+      "problem": 2,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p2_n3",
+      "case": 47,
+      "problem": 2,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p2_n4",
+      "case": 47,
+      "problem": 2,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_060_p2_n2",
+      "case": 60,
+      "problem": 2,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_019_p2_n5",
+      "case": 19,
+      "problem": 2,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "persistent",
+        "mature",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p1_n5",
+      "case": 47,
+      "problem": 1,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_043_p1_n5",
+      "case": 43,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p1_n2",
+      "case": 47,
+      "problem": 1,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_071_p3_n5",
+      "case": 71,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_075_p1_n5",
+      "case": 75,
+      "problem": 1,
+      "cores": 5,
+      "group": "development",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p3_n4",
+      "case": 60,
+      "problem": 3,
+      "cores": 4,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p3_n3",
+      "case": 60,
+      "problem": 3,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "legacy",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_060_p3_n2",
+      "case": 60,
+      "problem": 3,
+      "cores": 2,
+      "group": "core_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_047_p1_n3",
+      "case": 47,
+      "problem": 1,
+      "cores": 3,
+      "group": "core_regression",
+      "arm_order": [
+        "persistent",
+        "legacy",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_047_p1_n1",
+      "case": 47,
+      "problem": 1,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "persistent",
+        "mature"
+      ]
+    },
+    {
+      "id": "case_046_p3_n5",
+      "case": 46,
+      "problem": 3,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_047_p2_n1",
+      "case": 47,
+      "problem": 2,
+      "cores": 1,
+      "group": "core_regression",
+      "arm_order": [
+        "legacy",
+        "mature",
+        "persistent"
+      ]
+    },
+    {
+      "id": "case_046_p2_n5",
+      "case": 46,
+      "problem": 2,
+      "cores": 5,
+      "group": "existing_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    },
+    {
+      "id": "case_012_p3_n5",
+      "case": 12,
+      "problem": 3,
+      "cores": 5,
+      "group": "frozen_regression",
+      "arm_order": [
+        "mature",
+        "persistent",
+        "legacy"
+      ]
+    }
+  ],
+  "variants": [
+    "legacy",
+    "persistent",
+    "mature"
+  ],
+  "budget": 24,
+  "seconds": 240.0,
+  "timeout": 60.0,
+  "workers": 6,
+  "regression_pool": [
+    47,
+    69,
+    61,
+    31,
+    92,
+    60,
+    77,
+    68,
+    42,
+    8,
+    48,
+    83,
+    6,
+    45,
+    79,
+    12,
+    90,
+    21,
+    18,
+    29
+  ],
+  "frozen_regression_cases": [
+    60,
+    42,
+    47,
+    12
+  ],
+  "low_core_cases": [
+    60,
+    47
+  ],
+  "selection": "identifier SHA256 only; all graphs historically used; not blind",
+  "comparison": "same initialization legacy loop vs persistent; mature release separate",
+  "initialization_check": "compare paid initialization hashes and success sets; disclose any mismatch",
+  "source_policy": "one frozen source manifest for all runs; abort on mutation",
+  "recovery_policy": "preserve interrupted attempts; restart cold, disclose all spent calls",
+  "mature_policy": "P1 mature; P2/P3 frontier; legacy operation policy; no time extension",
+  "single_core_curve": "statement speedup point is 1; raw optimized ratio reported separately"
+}

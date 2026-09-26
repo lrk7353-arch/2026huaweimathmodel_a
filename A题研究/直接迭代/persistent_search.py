@@ -60,6 +60,28 @@ class Frame:
     stale_lease: int = 0
     calls: int = 0
     joint_round: int = 0
+    resume_family: str = None
+    last_family: str = None
+
+    def protect_queue(self, family):
+        """Grant one paid continuation of this exact parent/family iterator."""
+        self.stale_lease = max(self.stale_lease, 1)
+        self.resume_family = family
+
+    def next_family(self, order):
+        if self.resume_family is not None:
+            if self.resume_family not in self.exhausted:
+                return self.resume_family
+            self.resume_family = None
+        family = order[self.cursor % len(order)]
+        self.cursor += 1
+        return family
+
+    def served(self, family):
+        self.calls += 1
+        self.last_family = family
+        if self.resume_family == family:
+            self.resume_family = None
 
 
 def run(case, problem, cores, out, budget=24, seconds=240, timeout=60, variant='persistent'):
@@ -334,8 +356,7 @@ def run(case, problem, cores, out, budget=24, seconds=240, timeout=60, variant='
         for _ in range(len(family_order)*3):
             if not available():
                 break
-            family = family_order[frame.cursor % len(family_order)]
-            frame.cursor += 1
+            family = frame.next_family(family_order)
             if family in frame.exhausted:
                 continue
             if family == 'joint' and not frame.observation_attempted:
@@ -407,7 +428,7 @@ def run(case, problem, cores, out, budget=24, seconds=240, timeout=60, variant='
                       parent_makespan=score(frame.record)[0])
         if trial is None:
             continue
-        frame.calls += 1
+        frame.served(family)
         if frame is not current:
             frame.stale_lease = max(0, frame.stale_lease-1)
         r = trial['record']
@@ -418,7 +439,12 @@ def run(case, problem, cores, out, budget=24, seconds=240, timeout=60, variant='
         if advanced:
             # Carry the previous branch's visit count and grant a finite one-
             # call continuation to the actual old queue, bound to its own trace.
-            current.stale_lease = max(current.stale_lease, 1)
+            # Bind to the iterator that produced the child, even when this was
+            # an old alternate frame. A lease on an unrelated next family is
+            # not a continuation of its pending regional/FIFO queue.
+            frame.protect_queue(family)
+            if current is not frame:
+                current.protect_queue(current.last_family)
             branch.frames.append(Frame(r, frame.depth+1))
             branch.depth = frame.depth+1
             branch_events.append(dict(event='advance', lineage=branch.number,
@@ -428,6 +454,7 @@ def run(case, problem, cores, out, budget=24, seconds=240, timeout=60, variant='
         elif trial['local_accepted']:
             # An alternate order may improve without overtaking this lineage's
             # fastest frame. Preserve its own newly observed continuation.
+            frame.protect_queue(family)
             branch.frames.append(Frame(r, frame.depth+1, stale_lease=1))
             branch.stagnant = 0
             branch_events.append(dict(event='advance_alternate', lineage=branch.number,

@@ -1,0 +1,10 @@
+{
+  "reason": "Resource-only restart: uniform workers 2 to 6 for all 75 configurations, all three arms; code, inputs and selection unchanged",
+  "terminated_owned_pids": [
+    974659,
+    974662,
+    974663
+  ],
+  "utc": "2026-09-26T04:54:05Z",
+  "scope": "Preserve all completed and interrupted paid attempts; exclude from formal quality decision"
+}
