@@ -10,14 +10,17 @@ p.add_argument('--root',type=Path,required=True)
 p.add_argument('--pid-file',type=Path)
 a=p.parse_args()
 print('服务器全量实验进度',datetime.now().isoformat(timespec='seconds'))
-if a.pid_file and a.pid_file.exists():
-    pid=int(a.pid_file.read_text().strip())
+pid_files=[('主批次调度',a.pid_file),('超时补跑调度',a.root.parent/'timeout_retry.pid'),
+           ('补跑后恢复调度',a.root.parent/'resume_after_retry.pid')]
+for label,pid_file in pid_files:
+    if not pid_file or not pid_file.exists():continue
+    pid=int(pid_file.read_text().strip())
     try:
         os.kill(pid,0)
         stat=Path(f'/proc/{pid}/stat')
         alive=not(stat.exists() and stat.read_text().split(') ')[1].startswith('Z'))
     except ProcessLookupError:alive=False
-    print('调度进程：', '运行中' if alive else '已退出', 'PID',pid)
+    print(label+'：', '运行中' if alive else '已退出', 'PID',pid)
 for phase,label,total in [('replay','现有1500方案逐份官方复评',1500),
                           ('cold','P1全100图×5核数×2方法',1000),
                           ('cold_verification','新旧方法最终方案独立复评',1000)]:
@@ -38,5 +41,6 @@ if proof.exists():
     s=json.loads(proof.read_text())
     print(f"合并独立复评证据后：{s['verified']}/1500已验证；共{s['original_calls']+s['additional_calls']}次官方调用")
 if (a.root/'attention.json').exists():
-    print('需要处理：',json.loads((a.root/'attention.json').read_text()))
+    attention=json.loads((a.root/'attention.json').read_text())
+    print('已解决提示：' if attention.get('resolved') else '原批次提示：',attention)
 print('冷启动每项是一整次搜索，并非一份候选；全量有效结论需要同时检查失败项。')
