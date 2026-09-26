@@ -1,0 +1,27 @@
+{
+  "scope": "development; historical library is a charged warm start, not a free cold seed",
+  "cases": [
+    "case_009",
+    "case_023",
+    "case_046",
+    "case_053",
+    "case_066",
+    "case_092"
+  ],
+  "problems": [
+    3
+  ],
+  "cores": 5,
+  "budget": 9,
+  "seconds": 240,
+  "workers": 2,
+  "timeout": 45,
+  "generator": "cache_gap",
+  "ledger_sha256": "996026b32b787c03c472846581ace1c1687e78ddc502a8d48b29cd1fa676abf8",
+  "source_sha256": {
+    "event_frontier.py": "31d0a4cac44645accbe8d673e5e97a2bf367f6daba4b123dc8737ff483bea2b9",
+    "run_frontier_probe.py": "b67cc8f699dc06f6a4c1c7a7a19c6402ac3da85301cf2a37d867691490c6e26e",
+    "cache_gap_link.py": "822d496b53ad607fa12f72ba7e05a576858b378deea137b73e4fda3018189f76",
+    "p3_joint_reads.py": "7ee94075be8097b98d63015661b5c9a34a54355ead30ab70a06f69731bd898de"
+  }
+}

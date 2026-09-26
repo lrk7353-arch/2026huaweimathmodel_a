@@ -1,0 +1,403 @@
+[
+  {
+    "case": "case_005",
+    "before": 61202,
+    "after": 59571,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 11,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "contract",
+        "observed_boundary_fraction": 0.22221496029541518,
+        "observed_boundary_cycles": 13600,
+        "generation_seconds": 1.0737576299870852,
+        "generated": {
+          "contract": 9,
+          "bands": 16
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_009",
+    "before": 81206,
+    "after": 81206,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": false,
+        "last_improvement_call": 18,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_025",
+    "before": 975282,
+    "after": 975282,
+    "calls_before": 8,
+    "calls_after": 8,
+    "compared_prefix": 8,
+    "prefix_mismatch_calls": [],
+    "gate": [],
+    "last_call_statuses": [
+      "timeout",
+      "timeout"
+    ]
+  },
+  {
+    "case": "case_035",
+    "before": 90079,
+    "after": 90079,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 12,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "bands",
+        "observed_boundary_fraction": 0.03996491968161281,
+        "observed_boundary_cycles": 3600,
+        "generation_seconds": 1.3756067889917176,
+        "generated": {
+          "bands": 16,
+          "contract": 9
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_043",
+    "before": 198411,
+    "after": 198411,
+    "calls_before": 24,
+    "calls_after": 19,
+    "compared_prefix": 19,
+    "prefix_mismatch_calls": [],
+    "gate": [],
+    "last_call_statuses": [
+      "success",
+      "timeout"
+    ]
+  },
+  {
+    "case": "case_044",
+    "before": 99310,
+    "after": 67192,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 5,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "bands",
+        "observed_boundary_fraction": 0.0070486355855402276,
+        "observed_boundary_cycles": 700,
+        "generation_seconds": 0.2572288499795832,
+        "generated": {
+          "bands": 16,
+          "contract": 7
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_047",
+    "before": 243255,
+    "after": 282154,
+    "calls_before": 13,
+    "calls_after": 9,
+    "compared_prefix": 9,
+    "prefix_mismatch_calls": [],
+    "gate": [],
+    "last_call_statuses": [
+      "timeout",
+      "timeout"
+    ]
+  },
+  {
+    "case": "case_048",
+    "before": 121708,
+    "after": 121708,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": false,
+        "last_improvement_call": 20,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_050",
+    "before": 63801,
+    "after": 63801,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": false,
+        "last_improvement_call": 18,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_051",
+    "before": 259576,
+    "after": 259576,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 13,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "bands",
+        "observed_boundary_fraction": 0.11403211390883594,
+        "observed_boundary_cycles": 29600,
+        "generation_seconds": 0.2971773059980478,
+        "generated": {
+          "bands": 16,
+          "contract": 9
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_056",
+    "before": 136494,
+    "after": 136494,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": false,
+        "last_improvement_call": 20,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_064",
+    "before": 15155,
+    "after": 15155,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 13,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "contract",
+        "observed_boundary_fraction": 0.3629165291982844,
+        "observed_boundary_cycles": 5500,
+        "generation_seconds": 0.19531106000067666,
+        "generated": {
+          "contract": 9,
+          "bands": 16
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_069",
+    "before": 15046,
+    "after": 15046,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": false,
+        "last_improvement_call": 18,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_071",
+    "before": 11496,
+    "after": 11496,
+    "calls_before": 24,
+    "calls_after": 24,
+    "compared_prefix": 20,
+    "prefix_mismatch_calls": [],
+    "gate": [
+      {
+        "phase": "late_stagnation_gate",
+        "admitted": true,
+        "last_improvement_call": 10,
+        "observed_calls": 20,
+        "window": 6,
+        "criterion": "no lexicographic makespan/COPY improvement in the last window of paid calls"
+      },
+      {
+        "phase": "late_stagnation_generation",
+        "primary_family": "contract",
+        "observed_boundary_fraction": 0.2783576896311761,
+        "observed_boundary_cycles": 3200,
+        "generation_seconds": 0.16758889399352483,
+        "generated": {
+          "contract": 6,
+          "bands": 16
+        },
+        "errors": [],
+        "scope": "paid Task trajectory; no official graph recompilation; estimates only rank complete candidates"
+      }
+    ],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_075",
+    "before": 481313,
+    "after": 492944,
+    "calls_before": 24,
+    "calls_after": 19,
+    "compared_prefix": 19,
+    "prefix_mismatch_calls": [],
+    "gate": [],
+    "last_call_statuses": [
+      "success",
+      "success"
+    ]
+  },
+  {
+    "case": "case_085",
+    "before": 2760933,
+    "after": 2760933,
+    "calls_before": 7,
+    "calls_after": 6,
+    "compared_prefix": 6,
+    "prefix_mismatch_calls": [],
+    "gate": [],
+    "last_call_statuses": [
+      "timeout",
+      "success"
+    ]
+  }
+]

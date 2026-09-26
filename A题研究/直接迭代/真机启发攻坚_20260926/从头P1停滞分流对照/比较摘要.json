@@ -1,0 +1,27 @@
+{
+  "1": {
+    "pairs": 16,
+    "wins": 2,
+    "ties": 12,
+    "losses": 2,
+    "geometric_speed_ratio": 1.015460961071215,
+    "metrics": {
+      "mature": {
+        "mean_speedup": 2.1189786808718742,
+        "calls": 340,
+        "failures": 6,
+        "sum_seconds": 1493.4688891860133,
+        "added_copy_bytes": 45100432,
+        "median_generation_seconds": 0.0
+      },
+      "frontier": {
+        "mean_speedup": 2.1521190267618393,
+        "calls": 325,
+        "failures": 7,
+        "sum_seconds": 1801.4558749019925,
+        "added_copy_bytes": 44626778,
+        "median_generation_seconds": 0.0
+      }
+    }
+  }
+}

@@ -15,12 +15,12 @@ LEDGER = HERE/'三指标联合推进_20260926/累计1500配置成绩.csv'
 
 
 def run_one(task):
-    row, out, budget, seconds, timeout, generator = task
+    row, out, budget, seconds, timeout, generator, ledger = task
     out = Path(out); out.mkdir(parents=True, exist_ok=False)
     started = time.monotonic(); deadline = started + seconds
     case, problem, cores = row['case'], int(row['problem']), int(row['cores'])
     ir = GraphIR.from_path(DATA/(case+'.json'))
-    parent = read_json(LEDGER.parent/row['plan'])
+    parent = read_json(Path(ledger).parent/row['plan'])
     calls, errors, seen = [], [], set()
     best = None; generation_seconds = 0.
     def checkpoint(complete=False):
@@ -52,9 +52,12 @@ def run_one(task):
     elif generator=='residency':
         from residency_frontier import candidates as build
     else:build=candidates
-    if generator=='contract':
+    if generator in ('contract','cache_gap'):
         import gzip
-        from critical_contract import candidates as build
+        if generator=='contract':
+            from critical_contract import candidates as build
+        else:
+            from cache_gap_link import candidates as build
         with gzip.open(best['result_path'],'rt') as f:raw=json.load(f)
         stream=build(ir,problem,cores,parent,raw,deadline)
     else:stream=build(ir,problem,cores,parent,deadline)
@@ -76,21 +79,23 @@ def main():
     p.add_argument('--problems',default='1');p.add_argument('--cores',type=int,default=5)
     p.add_argument('--budget',type=int,default=29);p.add_argument('--seconds',type=float,default=240)
     p.add_argument('--timeout',type=float,default=45);p.add_argument('--workers',type=int,default=4)
-    p.add_argument('--generator',choices=('forward','backward','barrier','residency','contract'),default='forward')
+    p.add_argument('--generator',choices=('forward','backward','barrier','residency','contract','cache_gap'),default='forward')
+    p.add_argument('--ledger',type=Path,default=LEDGER)
     p.add_argument('--out',type=Path,required=True);args=p.parse_args()
     cases={f'case_{int(c):03d}' for c in args.cases.split(',')}
     problems={int(v) for v in args.problems.split(',')}
-    rows=[r for r in csv.DictReader(LEDGER.open(encoding='utf-8-sig'))
+    rows=[r for r in csv.DictReader(args.ledger.open(encoding='utf-8-sig'))
           if r['case'] in cases and int(r['problem']) in problems and int(r['cores'])==args.cores]
     args.out.mkdir(parents=True,exist_ok=False)
     atomic_json(args.out/'manifest.json',dict(scope='development; historical library is a charged warm start, not a free cold seed',
         cases=sorted(cases),problems=sorted(problems),cores=args.cores,budget=args.budget,seconds=args.seconds,
-        workers=args.workers,timeout=args.timeout,generator=args.generator,ledger_sha256=hashlib.sha256(LEDGER.read_bytes()).hexdigest(),
+        workers=args.workers,timeout=args.timeout,generator=args.generator,ledger_sha256=hashlib.sha256(args.ledger.read_bytes()).hexdigest(),
         source_sha256={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest()
                        for name in ['event_frontier.py','run_frontier_probe.py']+({'backward':['backward_frontier.py'],
                            'barrier':['barrier_bands.py'],'contract':['critical_contract.py','barrier_bands.py'],
-                           'residency':['residency_frontier.py','p23_data_refine.py']}.get(args.generator,[]))}))
-    tasks=[(r,str(args.out/r['case']/('p'+r['problem'])),args.budget,args.seconds,args.timeout,args.generator) for r in rows]
+                           'residency':['residency_frontier.py','p23_data_refine.py'],
+                           'cache_gap':['cache_gap_link.py','p3_joint_reads.py']}.get(args.generator,[]))}))
+    tasks=[(r,str(args.out/r['case']/('p'+r['problem'])),args.budget,args.seconds,args.timeout,args.generator,str(args.ledger)) for r in rows]
     results=[]
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:
         for result in pool.map(run_one,tasks):

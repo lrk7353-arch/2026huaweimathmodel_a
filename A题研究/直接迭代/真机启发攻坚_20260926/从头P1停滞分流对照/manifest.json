@@ -1,0 +1,97 @@
+{
+  "tasks": [
+    [
+      "case_064",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_064/p1_n5"
+    ],
+    [
+      "case_009",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_009/p1_n5"
+    ],
+    [
+      "case_085",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_085/p1_n5"
+    ],
+    [
+      "case_069",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_069/p1_n5"
+    ],
+    [
+      "case_075",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_075/p1_n5"
+    ],
+    [
+      "case_056",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_056/p1_n5"
+    ],
+    [
+      "case_050",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_050/p1_n5"
+    ],
+    [
+      "case_035",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_035/p1_n5"
+    ],
+    [
+      "case_051",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_051/p1_n5"
+    ],
+    [
+      "case_025",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_025/p1_n5"
+    ],
+    [
+      "case_048",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_048/p1_n5"
+    ],
+    [
+      "case_047",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_047/p1_n5"
+    ],
+    [
+      "case_043",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_043/p1_n5"
+    ],
+    [
+      "case_005",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_005/p1_n5"
+    ],
+    [
+      "case_044",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_044/p1_n5"
+    ],
+    [
+      "case_071",
+      5,
+      "A题研究/直接迭代/运行结果/硬件启发P1停滞分流B24_v1/slots/case_071/p1_n5"
+    ]
+  ],
+  "baseline": "A题研究/直接迭代/运行结果/硬件启发从头P1B24_v1",
+  "budget": 24,
+  "seconds": 240,
+  "timeout": 60,
+  "workers": 2,
+  "sources": {
+    "p1_stagnation_portfolio.py": "292ee7561e08f94b76dfde789d1847bb5f83fce7d4892a19a3a8ba89a211d479",
+    "p1_late_policy.py": "ae5f47bdf74862fd3815c0774c86505bec84c061e93704101287c0d423dafb46",
+    "barrier_bands.py": "2630f6b55d04f69e91850a44fdeb41cb17638608a427615e13969c4426185abe",
+    "critical_contract.py": "c11fa7360bc8245411f3de2ed8a6705ee452eaff6e5731cbc5600b66404af539",
+    "run_p1_gated_panel.py": "966afef71107e13bb226c6f4906e754dc66a093887ea0cb59aa88fe2132b8c9f"
+  },
+  "scope": "developmental paired comparison; original paid mature arms reused; lookback6 and last4 gate frozen"
+}
