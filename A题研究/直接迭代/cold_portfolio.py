@@ -26,9 +26,8 @@ def exact(plan):
 
 def prefix_run(case,problem,cores,out,budget,seconds,timeout,evdir,proposal_budget=None):
     if problem==1:
-        from p1_adaptive import run
-        return run(case,cores,'portfolio_diverse',out,budget,seconds,seed=17,
-                   evaluation_timeout=timeout,evaluation_dir=evdir)
+        from p1_incumbent import run
+        return run(case,cores,out,budget,seconds,timeout,evdir)
     from p23_pipeline import run
     return run(case,problem,cores,'trace_routed',out,budget,seconds,seed=17,
                evaluation_timeout=timeout,evaluation_dir=evdir,proposal_budget=proposal_budget)
@@ -121,6 +120,20 @@ def run(case,problem,cores,variant,out,budget=12,seconds=120,evaluation_timeout=
         raise ValueError('prefix incumbent mismatch')
     stages.append(dict(phase='prefix',logical_calls=len(prefix_calls),elapsed_seconds=initial['elapsed_seconds']))
     if best is not None:atomic_json(out/'best.plan.json',read_json(best['plan_path']))
+    # Initialization failure is an explicit result, never permission to spend
+    # the remaining time generating an unbounded structural/advanced queue.
+    if problem==1 and best is None:
+        result=dict(case=case,problem=problem,num_cores=cores,method=variant,
+            effective_method=variant,seed=17,budget=budget,soft_time_budget=seconds,
+            prefix_cap=prefix_cap,logical_calls=len(calls),
+            new_calls=sum(not c['record'].get('cache_hit',False) for c in calls),
+            status='incumbent_unverified',best_record=None,calls=calls,stages=stages,
+            skipped=skips,elapsed_seconds=time.monotonic()-started,
+            stop_reason='incumbent_unverified',initialization_policy=initial.get('policy'),
+            evaluation_dir=str(evdir),scope='no optimization without a paid verified incumbent')
+        atomic_json(out/'summary.json',result)
+        atomic_json(out/'progress.json',dict(result,complete=True))
+        return result
     ir=None
     def available():return len(calls)<budget and time.monotonic()<deadline
     def checkpoint(done=False):
@@ -240,7 +253,13 @@ def run(case,problem,cores,variant,out,budget=12,seconds=120,evaluation_timeout=
                 if family is None:break
             else:family=order[cursor%len(order)];cursor+=1
             t=time.monotonic()
-            try:c,parent=next_candidate(family,selected_parent)
+            try:
+                if problem==1:
+                    from persistent_search import generation_limit
+                    with generation_limit(min(20., max(.001,deadline-time.monotonic()))):
+                        c,parent=next_candidate(family,selected_parent)
+                else:
+                    c,parent=next_candidate(family,selected_parent)
             except Exception as exc:
                 stages.append(dict(phase='generation_error',family=family,error=repr(exc),seconds=time.monotonic()-t))
                 if allocation:allocation.exhaust(family,selected_parent)
@@ -289,6 +308,7 @@ def run(case,problem,cores,variant,out,budget=12,seconds=120,evaluation_timeout=
         prefix_cap=prefix_cap,logical_calls=len(calls),new_calls=sum(not c['record'].get('cache_hit',False) for c in calls),
         status='success' if best is not None else 'no_feasible_result',best_record=best,calls=calls,stages=stages,skipped=skips,
         elapsed_seconds=time.monotonic()-started,stop_reason=stop,evaluation_dir=str(evdir),
+        initialization_policy=initial.get('policy'),
         scope='from original graph; no historical incumbent; prefix/failures/cache hits charged; all stages share a soft deadline')
     if allocation:result['budget_allocation']=allocation.summary()
     atomic_json(out/'summary.json',result);checkpoint(True);return result

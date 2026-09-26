@@ -19,8 +19,11 @@ for label,pid_file in pid_files:
         os.kill(pid,0)
         stat=Path(f'/proc/{pid}/stat')
         alive=not(stat.exists() and stat.read_text().split(') ')[1].startswith('Z'))
+        stopped=stat.exists() and stat.read_text().split(') ')[1].startswith(('T','t'))
     except ProcessLookupError:alive=False
-    print(label+'：', '运行中' if alive else '已退出', 'PID',pid)
+    print(label+'：', ('已暂停' if stopped else '运行中') if alive else '已退出', 'PID',pid)
+if (a.root/'user_pause.json').exists():
+    print('用户暂停：已停止派发新搜索；以下旧进度可能滞后，以任务结果文件为准。')
 for phase,label,total in [('replay','现有1500方案逐份官方复评',1500),
                           ('cold','P1全100图×5核数×2方法',1000),
                           ('cold_verification','新旧方法最终方案独立复评',1000)]:

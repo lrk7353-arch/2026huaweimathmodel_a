@@ -1,0 +1,36 @@
+{
+  "reason": "User requested incumbent-first budget repair; no further search dispatch",
+  "at": "2026-09-26T19:59:36.557799",
+  "dispatcher_pid": 90672,
+  "dispatcher_stopped": true,
+  "active_at_pause": [
+    "case_025_p1_n3_integrated",
+    "case_025_p1_n3_joint_tonight",
+    "case_025_p1_n4_joint_tonight",
+    "case_025_p1_n4_integrated",
+    "case_025_p1_n5_integrated",
+    "case_025_p1_n5_joint_tonight",
+    "case_027_p1_n3_integrated",
+    "case_027_p1_n3_joint_tonight",
+    "case_027_p1_n4_joint_tonight",
+    "case_027_p1_n4_integrated",
+    "case_027_p1_n5_integrated",
+    "case_027_p1_n5_joint_tonight"
+  ],
+  "inflight_finished": true,
+  "dispatcher_terminated": true,
+  "settled_progress": {
+    "complete": false,
+    "expected": 1000,
+    "completed": 270,
+    "success": 237,
+    "attention": 33,
+    "active": [],
+    "remaining": 730,
+    "recorded_calls": 4192,
+    "workers": 12,
+    "updated": "2026-09-26T20:07:51.773189",
+    "session_seconds": 1920.4652815289955,
+    "paused": true
+  }
+}

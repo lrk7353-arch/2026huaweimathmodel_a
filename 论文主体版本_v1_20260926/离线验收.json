@@ -1,0 +1,10 @@
+{
+  "plans": 1500,
+  "graphs": 100,
+  "valid_plan_coverage": true,
+  "metric_rows": 1500,
+  "p3_pairs": 500,
+  "code_anchors": 25,
+  "official_searches_started": 0,
+  "scope": "offline checks; inherited official evidence plus two separately evaluated transfers"
+}

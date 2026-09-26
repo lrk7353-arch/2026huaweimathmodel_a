@@ -1,0 +1,20 @@
+[
+  {
+    "problem": 1,
+    "success": true,
+    "expected_makespan": 47502,
+    "result_path": "/var/folders/46/hjv580qd3_11xzr_w6k823jh0000gn/T/paper-smoke-zqapb2yh/p1.result.json"
+  },
+  {
+    "problem": 2,
+    "success": true,
+    "expected_makespan": 47502,
+    "result_path": "/var/folders/46/hjv580qd3_11xzr_w6k823jh0000gn/T/paper-smoke-zqapb2yh/p2.result.json"
+  },
+  {
+    "problem": 3,
+    "success": true,
+    "expected_makespan": 47502,
+    "result_path": "/var/folders/46/hjv580qd3_11xzr_w6k823jh0000gn/T/paper-smoke-zqapb2yh/p3.result.json"
+  }
+]

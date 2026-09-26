@@ -1,0 +1,16 @@
+﻿problem,cores,n,statement_speedup,raw_singlecore_ratio_mean,mean_makespan,mean_added_copy,scope
+1,1,100,1.0,1.0515525908789989,3019133.95,15273196.72,cumulative selected; not equal-budget cold run
+1,2,100,1.8865623418040816,1.8865623418040816,1561037.21,17789446.72,cumulative selected; not equal-budget cold run
+1,3,100,2.6086721949798792,2.6086721949798792,1101986.51,17952390.86,cumulative selected; not equal-budget cold run
+1,4,100,3.303345085249653,3.303345085249653,859013.26,17895886.38,cumulative selected; not equal-budget cold run
+1,5,100,3.9316520232784615,3.9316520232784615,707810.44,18754822.38,cumulative selected; not equal-budget cold run
+2,1,100,1.0,1.2014586335788486,2913450.46,7534612.52,cumulative selected; not equal-budget cold run
+2,2,100,2.263185422327446,2.263185422327446,1466090.99,7650978.3,cumulative selected; not equal-budget cold run
+2,3,100,3.167710058569076,3.167710058569076,989654.61,8094957.88,cumulative selected; not equal-budget cold run
+2,4,100,3.9136933980240203,3.9136933980240203,749873.88,7946655.36,cumulative selected; not equal-budget cold run
+2,5,100,4.730723905435942,4.730723905435942,606332.99,11317833.6,cumulative selected; not equal-budget cold run
+3,1,100,1.0,1.2011758384475673,2922488.62,6500369.32,cumulative selected; not equal-budget cold run
+3,2,100,2.264590929322452,2.264590929322452,1466019.29,7767084.2,cumulative selected; not equal-budget cold run
+3,3,100,3.189593301122709,3.189593301122709,987367.07,7741716.26,cumulative selected; not equal-budget cold run
+3,4,100,3.9706219953375963,3.9706219953375963,747098.01,7970486.24,cumulative selected; not equal-budget cold run
+3,5,100,4.872482166360644,4.872482166360644,599885.74,11226559.82,cumulative selected; not equal-budget cold run

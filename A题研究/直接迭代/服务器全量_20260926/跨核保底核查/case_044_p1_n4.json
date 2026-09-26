@@ -1,0 +1,94 @@
+{
+  "case": "case_044",
+  "problem": 1,
+  "source_cores": 3,
+  "target_cores": 4,
+  "record": {
+    "schema_version": 1,
+    "attempt_id": "20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da",
+    "problem": 1,
+    "status": "success",
+    "metrics": {
+      "makespan": 68578,
+      "num_cores": 4,
+      "data_movement_bytes": {
+        "original_graph_copy_bytes": 975456,
+        "scheduled_copy_bytes": 1783328,
+        "added_copy_bytes": 807872,
+        "partition_added_copy_bytes": 807872,
+        "spill_added_copy_bytes": 0
+      },
+      "memory_peak_by_core": {
+        "0": {
+          "L1": 11776,
+          "UB": 0
+        },
+        "1": {
+          "L1": 492544,
+          "UB": 0
+        },
+        "2": {
+          "L1": 7168,
+          "UB": 0
+        },
+        "3": {
+          "L1": 0,
+          "UB": 0
+        }
+      },
+      "cross_task_traffic": 100864,
+      "capacity_bytes": {
+        "L1": 524288,
+        "UB": 131072
+      },
+      "bandwidth_bytes_per_cycle": 60,
+      "active_cores": 3,
+      "peak_memory_bytes": 39632896
+    },
+    "elapsed_seconds": 0.3139359999913722,
+    "evaluation_elapsed_seconds": 0.1728129170369357,
+    "cache_hit": false,
+    "result_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da/official_result.json.gz",
+    "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da/plan.json",
+    "hashes": {
+      "graph_sha256": "9abd4468a4be365e384de47431ac914ee44fd6e7b6221dffc584561f388cd57e",
+      "plan_sha256": "809bf50c12f6f957d3aa718da3e352c7471a37aec0e3ccd763fcdcaa3c633d99",
+      "problem": 1,
+      "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+      "official_py_sha256": {
+        "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+        "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+        "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+        "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+        "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+        "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+        "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+        "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+        "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+        "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+      },
+      "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+      "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+      "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+      "python_executable": "/Users/liyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "platform": "macOS-26.6.2-arm64-arm-64bit"
+    },
+    "error": null,
+    "peak_memory_bytes": 39632896,
+    "returncode": 0,
+    "attempt_dir": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da",
+    "record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da/record.json",
+    "stdout_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da/stdout.log",
+    "stderr_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4/attempts/20260926T193908-78bf9ea61e234f46b6f780f46b3bb0da/stderr.log",
+    "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_044.json",
+    "config_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/config.txt",
+    "official_code": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/code",
+    "timeout_seconds": 120.0,
+    "cache_key": "dd506457d4d7b53d2626d064a0f6ac2a14b960f1ad9aeda882ee442d760c0265",
+    "worker_elapsed_seconds": 0.23403995798435062,
+    "error_type": null,
+    "error_stage": null,
+    "rss_measurement": "worker_ru_maxrss",
+    "result_sha256": "eaae561bc81f414144f904102faff5d06e0bacae37f2bfaa2aa16e7434b493c6"
+  }
+}

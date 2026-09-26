@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 import csv
 from datetime import datetime
 import fcntl
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -20,6 +21,64 @@ import traceback
 from common_run import DATA, GraphIR, atomic_json, read_json, validate_plan, evaluate, score, write_csv
 from accept_p1_relay_gains import deterministic_metrics
 from persistent_budget import exact_signature
+
+
+SEARCH_PROTOCOL = 'incumbent_first_v1'
+
+
+def pause_requested(root):
+    root=Path(root)
+    return (root/'pause.request').exists() or (root.parent/'user_pause.json').exists()
+
+
+def recover_paid_incumbent(job, directory, previous):
+    """Keep a verified current-job answer even if the optimizer exits abnormally."""
+    if job['kind'] != 'cold' or previous.get('status') == 'success':
+        return previous
+    directory=Path(directory).resolve()
+    attempts=directory/'search/evaluations/attempts'
+    records=[]
+    attempt_dirs=list(attempts.glob('*'))
+    for attempt in attempt_dirs:
+        path=attempt/'record.json'
+        if not path.exists():continue
+        try:
+            record=read_json(path)
+            request=read_json(attempt/'request.json')
+        except (OSError,ValueError):continue
+        if record.get('status')!='success':continue
+        if request.get('hashes')!=record.get('hashes'):continue
+        if (record.get('problem')!=job['problem'] or
+            record.get('metrics',{}).get('num_cores')!=job['cores'] or
+            Path(record.get('graph_path','')).resolve()!=(DATA/(job['case']+'.json')).resolve()):
+            continue
+        if Path(record.get('record_path','')).resolve()!=path.resolve():continue
+        plan_path=Path(record.get('plan_path','')).resolve()
+        result_path=Path(record.get('result_path','')).resolve()
+        if (not plan_path.is_relative_to(attempt.resolve()) or not plan_path.is_file()
+                or not result_path.is_relative_to(attempt.resolve()) or not result_path.is_file()):continue
+        if (request.get('problem')!=job['problem'] or
+                Path(request.get('plan_path','')).resolve()!=plan_path or
+                Path(request.get('graph_path','')).resolve()!=Path(record['graph_path']).resolve()):continue
+        def digest(path):
+            with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+        if digest(result_path)!=record.get('result_sha256'):continue
+        if digest(plan_path)!=record.get('hashes',{}).get('plan_sha256'):continue
+        try:
+            plan=read_json(plan_path)
+            ir=GraphIR.from_path(DATA/(job['case']+'.json'))
+            validate_plan(ir,plan)
+        except (OSError,ValueError,KeyError):continue
+        if len(plan['core_schedules'])!=job['cores']:continue
+        records.append(record)
+    if not records:return previous
+    best=min(records,key=score)
+    # Retain both the charged failures and the abnormal termination evidence.
+    return dict(previous,status='success',best_record=best,
+        calls=max(previous.get('calls',0),len(attempt_dirs)),
+        optimizer_termination=previous.get('status'),
+        stop_reason='optimizer_stopped_returning_verified_incumbent',
+        recovered_paid_incumbent=True)
 
 
 def execute(job, directory):
@@ -83,12 +142,20 @@ def supervise(job, root):
             proc.wait()
     result = directory/'result.json'
     if result.exists():
-        return read_json(result)
+        previous=read_json(result)
+        recovered=recover_paid_incumbent(job,directory,previous)
+        if recovered is not previous:
+            atomic_json(directory/'optimizer_failure.json',previous)
+            atomic_json(result,recovered)
+        return recovered
     records = list(directory.rglob('record.json'))
     requests = list(directory.rglob('request.json'))
     value = dict(job=job, status='interrupted_or_hard_timeout',
                  calls=max(len(records), len(requests)), failed_calls=None,
                  returncode=proc.returncode)
+    previous=value
+    value=recover_paid_incumbent(job,directory,value)
+    if value is not previous:atomic_json(directory/'optimizer_failure.json',previous)
     atomic_json(result, value)
     return value
 
@@ -144,6 +211,7 @@ def run_jobs(jobs, root, workers, deadline):
                 completed=len(results), success=sum(r['status']=='success' for r in results),
                 attention=sum(r['status']!='success' for r in results),
                 active=[j['id'] for j in active.values()], remaining=len(jobs)-len(results),
+                paused=pause_requested(root),
                 recorded_calls=sum(r.get('calls',0) for r in results), workers=workers,
                 updated=datetime.now().isoformat(), session_seconds=time.monotonic()-started))
             write_csv(root/'results.csv', rows)
@@ -157,7 +225,7 @@ def run_jobs(jobs, root, workers, deadline):
                 while not exhausted and len(active) < workers:
                     # The independent replay repair may use a longer per-job cap.
                     required=max([360]+[j.get('evaluation_timeout',120)+30 for j in jobs])
-                    if time.time()+required >= deadline:
+                    if pause_requested(root) or time.time()+required >= deadline:
                         exhausted = True
                         break
                     job = next(pending, None)
@@ -270,7 +338,9 @@ def main():
         parser.error('invalid case/core/problem selection')
     root=args.out.resolve(); delivery=args.delivery.resolve()
     root.mkdir(parents=True,exist_ok=True)
-    protocol=dict(workers=args.workers,stage=args.stage,cases=cases,cores=cores,
+    if (root/'user_pause.json').exists():
+        parser.error('This batch is explicitly paused; do not resume it implicitly')
+    protocol=dict(search_protocol=SEARCH_PROTOCOL,workers=args.workers,stage=args.stage,cases=cases,cores=cores,
                   problems=problems,delivery=str(delivery),call_budget=24,route_seconds=240)
     manifest=root/'run_manifest.json'
     if manifest.exists():

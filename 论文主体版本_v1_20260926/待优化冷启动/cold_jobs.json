@@ -1,0 +1,8002 @@
+[
+  {
+    "id": "case_001_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_001_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_001_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_001_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_001_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_001_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_001_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_001_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_001_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_001_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_001",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_002_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_002_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_002_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_002_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_002_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_002",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_003_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_003_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_003_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_003_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_003_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_004_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_004_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_004_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_004_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_004_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_004",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_005_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_005_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_005_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_005_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_005_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_005",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_006_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_006_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_006_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_006_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_006_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_006",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_007_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_007_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_007_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_007_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_007_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_007",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_008_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_008_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_008_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_008_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_008_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_008",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_009_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_009_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_009_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_009_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_009_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_009",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_010_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_010_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_010_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_010_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_010_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_010",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_011_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_011_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_011_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_011_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_011_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_011",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_012_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_012_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_012_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_012_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_012_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_013_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_013_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_013_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_013_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_013_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_013",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_014_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_014_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_014_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_014_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_014_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_014",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_015_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_015_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_015_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_015_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_015_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_015",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_016_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_016_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_016_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_016_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_016_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_017_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_017_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_017_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_017_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_017_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_017",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_018_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_018_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_018_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_018_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_018_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_018",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_019_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_019_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_019_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_019_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_019_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_019",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_020_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_020_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_020_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_020_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_020_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_020",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_021_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_021_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_021_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_021_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_021_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_021",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_022_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_022_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_022_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_022_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_022_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_022",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_023_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_023_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_023_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_023_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_023_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_023",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_024_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_024_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_024_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_024_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_024_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_024",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_025_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_025_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_025_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_025_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_025_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_025",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_026_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_026_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_026_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_026_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_026_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_026",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_027_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_027_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_027_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_027_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_027_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_027",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_028_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_028_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_028_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_028_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_028_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_028",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_029_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_029_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_029_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_029_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_029_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_029",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_030_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_030_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_030_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_030_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_030_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_030",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_031_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_031_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_031_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_031_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_031_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_031",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_032_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_032_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_032_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_032_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_032_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_032",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_033_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_033_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_033_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_033_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_033_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_033",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_034_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_034_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_034_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_034_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_034_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_034",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_035_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_035_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_035_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_035_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_035_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_035",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_036_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_036_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_036_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_036_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_036_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_036",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_037_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_037_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_037_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_037_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_037_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_037",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_038_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_038_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_038_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_038_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_038_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_038",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_039_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_039_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_039_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_039_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_039_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_039",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_040_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_040_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_040_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_040_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_040_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_040",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_041_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_041_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_041_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_041_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_041_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_041",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_042_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_042_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_042_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_042_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_042_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_043_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_043_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_043_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_043_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_043_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_044_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_044_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_044_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_044_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_044_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_044",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_045_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_045_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_045_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_045_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_045_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_045",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_046_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_046_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_046_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_046_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_046_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_046",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_047_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_047_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_047_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_047_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_047_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_048_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_048_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_048_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_048_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_048_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_048",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_049_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_049_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_049_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_049_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_049_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_049",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_050_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_050_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_050_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_050_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_050_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_050",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_051_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_051_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_051_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_051_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_051_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_051",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_052_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_052_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_052_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_052_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_052_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_052",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_053_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_053_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_053_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_053_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_053_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_053",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_054_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_054_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_054_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_054_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_054_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_055_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_055_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_055_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_055_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_055_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_055",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_056_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_056_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_056_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_056_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_056_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_056",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_057_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_057_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_057_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_057_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_057_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_057",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_058_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_058_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_058_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_058_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_058_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_059_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_059_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_059_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_059_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_059_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_059",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_060_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_060_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_060_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_060_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_060_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_061_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_061_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_061_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_061_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_061_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_061",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_062_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_062_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_062_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_062_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_062_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_063_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_063_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_063_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_063_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_063_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_063",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_064_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_064_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_064_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_064_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_064_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_064",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_065_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_065_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_065_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_065_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_065_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_065",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_066_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_066_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_066_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_066_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_066_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_066",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_067_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_067_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_067_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_067_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_067_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_067",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_068_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_068_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_068_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_068_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_068_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_068",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_069_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_069_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_069_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_069_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_069_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_069",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_070_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_070_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_070_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_070_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_070_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_070",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_071_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_071_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_071_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_071_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_071_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_071",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_072_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_072_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_072_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_072_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_072_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_072",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_073_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_073_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_073_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_073_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_073_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_073",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_074_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_074_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_074_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_074_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_074_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_074",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_075_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_075_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_075_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_075_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_075_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_076_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_076_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_076_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_076_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_076_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_076",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_077_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_077_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_077_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_077_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_077_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_077",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_078_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_078_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_078_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_078_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_078_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_078",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_079_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_079_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_079_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_079_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_079_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_079",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_080_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_080_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_080_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_080_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_080_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_080",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_081_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_081_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_081_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_081_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_081_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_081",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_082_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_082_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_082_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_082_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_082_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_082",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_083_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_083_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_083_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_083_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_083_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_083",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_084_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_084_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_084_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_084_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_084_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_084",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_085_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_085_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_085_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_085_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_085_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_086_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_086_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_086_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_086_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_086_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_086",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_087_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_087_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_087_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_087_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_087_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_088_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_088_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_088_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_088_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_088_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_088",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_089_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_089_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_089_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_089_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_089_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_089",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_090_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_090_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_090_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_090_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_090_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_090",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_091_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_091_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_091_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_091_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_091_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_091",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_092_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_092_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_092_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_092_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_092_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_092",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_093_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_093_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_093_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_093_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_093_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_093",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_094_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_094_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_094_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_094_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_094_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_094",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_095_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_095_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_095_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_095_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_095_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_095",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_096_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_096_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_096_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_096_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_096_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_096",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_097_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_097_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_097_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_097_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_097_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_097",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_098_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_098_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_098_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_098_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_098_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_098",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_099_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_099_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_099_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_099_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  },
+  {
+    "id": "case_099_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_099",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n1_joint_tonight",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 1,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n1_integrated",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 1,
+    "method": "integrated"
+  },
+  {
+    "id": "case_100_p1_n2_integrated",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 2,
+    "method": "integrated"
+  },
+  {
+    "id": "case_100_p1_n2_joint_tonight",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 2,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n3_joint_tonight",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 3,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n3_integrated",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 3,
+    "method": "integrated"
+  },
+  {
+    "id": "case_100_p1_n4_integrated",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 4,
+    "method": "integrated"
+  },
+  {
+    "id": "case_100_p1_n4_joint_tonight",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 4,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n5_joint_tonight",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 5,
+    "method": "joint_tonight"
+  },
+  {
+    "id": "case_100_p1_n5_integrated",
+    "kind": "cold",
+    "case": "case_100",
+    "problem": 1,
+    "cores": 5,
+    "method": "integrated"
+  }
+]

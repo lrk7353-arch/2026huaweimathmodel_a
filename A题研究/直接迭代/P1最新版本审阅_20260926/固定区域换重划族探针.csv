@@ -1,0 +1,9 @@
+﻿case,family,cap,status,parent_cycles,cycles,added_copy,observation,record_path
+case_043,affinity,4096,success,198411,269426,8493840,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_043/affinity/attempts/20260926T151420-607b599266324f1fa41f8e36d8657a84/record.json
+case_043,affinity,8192,success,198411,241989,7702194,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_043/affinity/attempts/20260926T151423-6b1cc5ada61340c9b3febec0593b900e/record.json
+case_043,branch,4096,success,198411,402267,11296502,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_043/branch/attempts/20260926T151424-006c89b06c8f419e86d4b7b81c02ab78/record.json
+case_043,branch,8192,success,198411,420833,12148408,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_043/branch/attempts/20260926T151433-e7138e197ca844c5b038e43a1d5b8407/record.json
+case_085,affinity,4096,success,2760933,2460520,16006552,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_085/affinity/attempts/20260926T151447-8ee00a6e5dea4b87b81e4f61ccdc4ccf/record.json
+case_085,affinity,8192,success,2760933,2291410,19447168,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_085/affinity/attempts/20260926T151454-8198a6bd86f4415db9375252202bad66/record.json
+case_085,branch,4096,success,2760933,2554316,19361220,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_085/branch/attempts/20260926T151500-038037183f3f4326b91c3aff2f87294c/record.json
+case_085,branch,8192,success,2760933,2523857,30505814,cached_official_compiled_chain,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1最新版本审阅_20260926/探针运行/case_085/branch/attempts/20260926T151515-6e24aa0f0f494a0a9010fc26228a0e64/record.json

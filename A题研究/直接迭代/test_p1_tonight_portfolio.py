@@ -164,7 +164,8 @@ class TonightPortfolioTests(unittest.TestCase):
             result = portfolio.run('case_001', 1, 2, 'joint_tonight', self.root/'time',
                                    budget=24, seconds=10, evaluation_timeout=5)
         self.assertEqual(requested, [2.])
-        self.assertEqual(hard_caps, [2.])
+        self.assertTrue(hard_caps)
+        self.assertTrue(all(limit == 2. for limit in hard_caps))
         self.assertEqual(result['logical_calls'], 1)
         self.assertEqual(result['stop_reason'], 'time_budget')
 

@@ -1,0 +1,3 @@
+﻿case,problem,cores,old_makespan,new_makespan,old_added_copy,new_added_copy,evidence
+case_044,1,4,96349,68578,222208,807872,A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_044_p1_n4.json
+case_083,1,5,412888,311694,17453280,12305888,A题研究/直接迭代/服务器全量_20260926/跨核保底核查/case_083_p1_n5.json

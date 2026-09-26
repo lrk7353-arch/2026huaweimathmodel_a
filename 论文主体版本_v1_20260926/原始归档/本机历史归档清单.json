@@ -1,0 +1,49 @@
+{
+  "source_roots": [
+    "/Users/liyu/Desktop/中文题目/A题研究",
+    "/Users/liyu/Desktop/A题P1最新审阅/A题研究"
+  ],
+  "files": 520947,
+  "unique_files": 273681,
+  "parts": [
+    "history-blobs-001.tar.gz",
+    "history-blobs-002.tar.gz",
+    "history-blobs-003.tar.gz",
+    "history-blobs-004.tar.gz",
+    "history-blobs-005.tar.gz",
+    "history-blobs-006.tar.gz",
+    "history-blobs-007.tar.gz",
+    "history-blobs-008.tar.gz",
+    "history-blobs-009.tar.gz",
+    "history-blobs-010.tar.gz",
+    "history-blobs-011.tar.gz",
+    "history-blobs-012.tar.gz",
+    "history-blobs-013.tar.gz",
+    "history-blobs-014.tar.gz",
+    "history-blobs-015.tar.gz",
+    "history-blobs-016.tar.gz",
+    "history-blobs-017.tar.gz",
+    "history-blobs-018.tar.gz",
+    "history-blobs-019.tar.gz",
+    "history-blobs-020.tar.gz",
+    "history-blobs-021.tar.gz",
+    "history-blobs-022.tar.gz",
+    "history-blobs-023.tar.gz",
+    "history-blobs-024.tar.gz",
+    "history-blobs-025.tar.gz",
+    "history-blobs-026.tar.gz",
+    "history-blobs-027.tar.gz",
+    "history-blobs-028.tar.gz",
+    "history-blobs-029.tar.gz",
+    "history-blobs-030.tar.gz"
+  ],
+  "excluded": [
+    "virtual environments",
+    "compiled Python cache",
+    "Git internals",
+    "node_modules",
+    ".DS_Store",
+    "lock files"
+  ],
+  "seconds": 407.8783178329468
+}

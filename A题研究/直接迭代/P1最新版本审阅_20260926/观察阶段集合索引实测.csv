@@ -1,0 +1,9 @@
+﻿case,repeat,variant,seconds,outputs_equal
+case_043,0,tuple,0.7770644999109209,True
+case_043,0,set,0.6869023340987042,True
+case_043,1,set,0.7126952500548214,True
+case_043,1,tuple,0.8426719170529395,True
+case_085,0,tuple,1.8692858340218663,True
+case_085,0,set,1.551716792047955,True
+case_085,1,set,1.6069633750012144,True
+case_085,1,tuple,2.047492500045337,True

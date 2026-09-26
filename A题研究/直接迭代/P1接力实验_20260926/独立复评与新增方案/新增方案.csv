@@ -1,0 +1,3 @@
+﻿case,problem,cores,old_makespan,makespan,time_reduction_percent,old_added_copy_bytes,added_copy_bytes,added_copy_delta,copy_increase_percent,verified,plan_path,verification_path
+case_047,1,5,160151,159950,0.12550655319042425,3720028,3887038,167010,4.489482337229722,True,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_047_p1_n5.json,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_047.verification.json
+case_075,1,5,424934,422465,0.5810314072303036,10606092,10638860,32768,0.3089545140660732,True,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_075_p1_n5.json,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_075.verification.json

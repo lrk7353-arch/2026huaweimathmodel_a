@@ -1,0 +1,989 @@
+[
+  {
+    "cache_key": "249681f84b59df473450e1724f20a11d4168b5079f86e9afaaad26cd139d330a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/trace_refine_v1/evaluations/attempts/20260924T121753-424960ba3b42423f85d2724f1b3e8787/record.json",
+    "problem": 2,
+    "plan_sha256": "2ad4b68ed2a4e374f586d6e84d2a473877ef4eb908c646206e1c5c1f7b507ad3",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  {
+    "cache_key": "f5dc513459e51f8aa9d98cd914fca4e24931b92e4e9daf4c10042062bc1ece99",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/trace_refine_v1/evaluations/attempts/20260924T121756-e0f4dea9c1414cc2ae424604c6078ffc/record.json",
+    "problem": 2,
+    "plan_sha256": "9dbbc814bf97e01bd031a3560223d8353b8e77d36f332e7f579675935a8bd806",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  {
+    "cache_key": "a17f412e533b9477154f7aa8dd3ada572860f49fdb7f72bf21887357b5ca28e9",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/trace_refine_v1/evaluations/attempts/20260924T121811-d1c40e670fcd4ccfbcf4be4b7387ca01/record.json",
+    "problem": 2,
+    "plan_sha256": "c08a6c42beefb4e2893e5cb6f33ea1102931e1c5fc4332f35883fa43e7b35e59",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  {
+    "cache_key": "3bd0d28955da19220b0765331b7e682d23d96a19294bb0605f2d05f9be60f641",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/trace_refine_v1/evaluations/attempts/20260924T121813-0d014c8eab194de5ad662ce2d170c60b/record.json",
+    "problem": 2,
+    "plan_sha256": "add52d22bf244c992a20ba390f25ba1f618b5ce3871b6c8b9dc04c5bf1ea76aa",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  {
+    "cache_key": "b60e1e3f76096cfc8c8395eb5b0d1a5f3665d4c862fb01d24bc48f34f02f0ebe",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/trace_refine_v1/evaluations/attempts/20260924T121757-74877d4e472546dab23bfcd2e8594bc7/record.json",
+    "problem": 2,
+    "plan_sha256": "12ea66e3762f43f75248012327c7aedf7abeac9b015e65a000566322c0d2ae37",
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  {
+    "cache_key": "760d87d59ee91438fd431e61ad301a90debac1c62a73c1f0a650b0d0715556a2",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/实验记录/第二轮独立核验/fresh/case_044_p2/attempts/20260924T123211-8a9f2360f5e941f78980f9b73b63424e/record.json",
+    "problem": 2,
+    "plan_sha256": "12ea66e3762f43f75248012327c7aedf7abeac9b015e65a000566322c0d2ae37",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "81a16b93c9434b7c3c8ca85b1790e0cfdcd5b5b1823ea3465b97658e3a894571",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121502-1eb791aec0214339b7e366ed3bc7a84a/record.json",
+    "problem": 2,
+    "plan_sha256": "f33e30c73f6597da5494f160981d3689bc7528c4fe5a6658f313b921f5f6d67f",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "dcb37a736e433e9cc16230a6a396b34f1d6a5f47e88879f94f9ed1411886df20",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121515-4cc0eab5bf554758a85268c041aa450c/record.json",
+    "problem": 2,
+    "plan_sha256": "be893a506dfffb76e5f8768d3b36bde5fcbf6ef7671d3a8071ed381052bdcb8c",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3b7f8863a5e33a5b71cf70abd3279711ea97ba2cdbfa28190ae65bae8cbedaca",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/实验记录/第二轮独立核验/fresh/case_071_p2/attempts/20260924T123211-3f8bed88ef9f41859b18e4e65c64bf63/record.json",
+    "problem": 2,
+    "plan_sha256": "2ad4b68ed2a4e374f586d6e84d2a473877ef4eb908c646206e1c5c1f7b507ad3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "92c6bfbfab184e158682acb11079f4082fb2c79db80c6bfdc5a4da49f5749d36",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122136-bd0ee7816b47446a8a73c5f7a1c10449/record.json",
+    "problem": 3,
+    "plan_sha256": "4f7890c73287fa2a205577ae07445b728c2c9fca618f06234640dd3324fc6ca4",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "defed5b0ccfb19fe7a3004ef21bd1dd188f7b2682f7a6e3d41209e514c3596f8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121948-4df39a33cec6456f937764bea79f352a/record.json",
+    "problem": 2,
+    "plan_sha256": "705e45e57a05a152eb7f5869e2872f2ad985fe8bce2e3a44fc1c5a85999475ab",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "d9e0560501c4ef5d670fc9e9360fbc75b429f802f87bbb38c2ed6b4df3d03cf4",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122140-e501bb2888464fdfbd39f10bffb059a2/record.json",
+    "problem": 2,
+    "plan_sha256": "03392a5bdfb3c5d4541c5d35d61401bdcfe9769c6e3e0f0f3a74e10b25e534ec",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "d800fcb0404c63ee978f120a8fc8b9d4b2cd47ae0dd40bc497aaa3b0c47a3f22",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122139-8aa2c9db730247b6a616927a5551c1eb/record.json",
+    "problem": 3,
+    "plan_sha256": "03392a5bdfb3c5d4541c5d35d61401bdcfe9769c6e3e0f0f3a74e10b25e534ec",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "fc18975bd3b414e788de947ccdd9f6cb4f84df207d7c9599ac88bee6085713f4",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T093719-5b45e20ef673421cbf6fd1d7f228cdb7/record.json",
+    "problem": 2,
+    "plan_sha256": "0c08c1429a2e43be321d6d26cd8329414ea03ea4c71a1187105093910cdeefcb",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "c00bdf3f980e18b997fb8dd8a447406eb76a99322220f1919c4a286982587a44",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121029-e89b136e1661496abcb8a9261629b753/record.json",
+    "problem": 2,
+    "plan_sha256": "5947b2e6fafea0d1825498d71d73e75b366dd4efdc3a62246a5a9e281513aecf",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "411b262b07e75c48bc96b73bf4a7a70284acc0f18df08f3d397658d56ef0b867",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121028-ad64aa412785480b81b22560e32c7a44/record.json",
+    "problem": 2,
+    "plan_sha256": "309c7674ecbce150a37f6f916903f2fa75ecc030d8728089a5983908f9fd6cd7",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "01a1ea64ec7f1f82e345021342d0a893396a185a72c1a08ce43c8eaf71c69b22",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121028-e6761875c5554275ad4685d6631a1dad/record.json",
+    "problem": 2,
+    "plan_sha256": "a5a22862af1ebea6b6471fa62d47f6f286e36bc2410eda01ddd1bd65262b17aa",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "5af841ae32cf517532d0b9b04cd476b0f6338482d6e2c387d457b11c21c5246d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121028-573485cb5ab845048f337385f329f0d0/record.json",
+    "problem": 2,
+    "plan_sha256": "95537d6424a41fa6159a3b8d9458c61dbf33a5d3eda196f2251b97f4d6c75221",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "8d1a945057b692e4dd2f5c013db7cffea39a63408b3384a54d0a2e509ef315b6",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121029-51fd3253bbca4523a1509d396efc2547/record.json",
+    "problem": 2,
+    "plan_sha256": "8e5f8b4d43fd33de4233a28759e7997f351e147ca7d1c38b7bde9ba3e51a5a4c",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "899d5be9dbddbda086a3754aace4b896395e5f2a3e4a8a3eb1c3e5b22f28ed8a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121029-d86f1aa886e6426dbda0abc43d76aca4/record.json",
+    "problem": 2,
+    "plan_sha256": "46c49bca025daf0319d152a2b3e53e4d74b35e89effb46caf4cb0b691413d392",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "f29a9d8512a5328065c0192103999ca28c2b0e64863ba2dde6d6d918015404e6",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/pilot_fullpool_v2/evaluations/attempts/20260924T093733-326cc25abb4d422e8759ae4f2bb33f0c/record.json",
+    "problem": 3,
+    "plan_sha256": "9f62431bc5a5d183c25ae2169f22f084cad0000c3fd7e9ddc9e6dd15aa97e883",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "8e0224dd977f1230af5d0d626563e10891a58439846c2e1ac89cee7f264efaa8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/pilot_fullpool_v2/evaluations/attempts/20260924T093731-98fd2276bbe6495ebc87225a9cf56f5c/record.json",
+    "problem": 2,
+    "plan_sha256": "9f62431bc5a5d183c25ae2169f22f084cad0000c3fd7e9ddc9e6dd15aa97e883",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b7879feec29c29679d7ba45863d5ab8719b20f6710bbff7403d5214e461ef54f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122137-338b6abd9ad84cd38316484d6296fcb8/record.json",
+    "problem": 3,
+    "plan_sha256": "8e58671cfe365382a78f585bedd6d5d596d3ef1f136e1b1b5773708d99d6ae45",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "fe0b682c9f574e10be684ce7a9ece93ab54112948a8a4c786f9d83707302acc9",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T093827-3d8d800c2d194b9190b0fe1b718389bb/record.json",
+    "problem": 2,
+    "plan_sha256": "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "6076f156ef79ef90a0ef6da2177771da2cd7a9e5914e256e854abc5b6292248d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-77ef64c38a044b768dc9b95f5db308d3/record.json",
+    "problem": 2,
+    "plan_sha256": "028a0811ecbd4dbd51fb2d9e72ef4c46609cceb21b9ec4411643045c42dc6fe5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "667d44e0904aa2f20f9e6d47e37ca4e43d1d61e07ee1403af146463ae66bbd3b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121059-0027ee64cc2d482497050adf44c5e04c/record.json",
+    "problem": 2,
+    "plan_sha256": "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "1136529a4fbf4ad218a8b21237d9539f4c3304002dce0472b22de603a44114ae",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-60ca5c15a38f46779ab92e0e449f7e12/record.json",
+    "problem": 2,
+    "plan_sha256": "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "d95684d234a1fe7bf929652b3e1d4b6e5124129fda3f255ca3390b7cdcec7137",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-003d525818164c6792aecd441525465e/record.json",
+    "problem": 2,
+    "plan_sha256": "1cb6a4e5c8245a04c62a29821089a1c477d3b95ce9e0f9320477446352346974",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a4b0ef410210282a0865653492aa839af8d192ff320939ddf7811caab1fc027b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-e5720d40f9074e989f94bcc4c2fee30b/record.json",
+    "problem": 2,
+    "plan_sha256": "814fb243e118d5095d37c6bc46c377155782bbca1f81ba8f6469d70e7661c160",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "2cfedeba566a152a45b4337883ae1ca4207acaf29fc0e765dbd3f50a2e57e23f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-a54590b937b6454086597dbce4f02e59/record.json",
+    "problem": 2,
+    "plan_sha256": "bb3392699f2fd5bbd7d0f5d5d70ab34373cf08e062cb27c44656a6cac7b1e4e4",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "daa5d68bc3086e37e3ae6a81ba5ed46daa382b75fc9694ccd4704b0dbd95347f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-21198069c7b440629ff8de75e54de706/record.json",
+    "problem": 2,
+    "plan_sha256": "3dea2484bbafbd3c7a6e5f56d1432d8fdffd3ecb10d6172a02ec96b1753f8926",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "f2b7881be1ede72cb5ab18e2e67fd63834e9df5affa2b690a346da8bb12023bc",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121100-a234873a7235400a8bfa1e324e4fb6ac/record.json",
+    "problem": 2,
+    "plan_sha256": "551e040e12ceb603bd2b3700716bda85372258a86daf0e800b4c4100f3744d10",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "6eae6665f9a432110a2192ad9c621239bee504f184653c3eed47d96d1aa127bb",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121101-5d083ffe7bab4ad29034a573fb866d6c/record.json",
+    "problem": 2,
+    "plan_sha256": "484e23c264819e8a12bc51f26410feeb97b837c962b94a08be26c40bca1af2ee",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "e80f19ad8db8e2a63051ec44402ddd0829363536eac3e5ac33cf6dd4747ed279",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121101-9f0d088f2b334d7d969116663311a4c5/record.json",
+    "problem": 2,
+    "plan_sha256": "f8ed667ed7ea79cc19a895bcadea6cb038a835c4826812c823e74ddc2c26c6f1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3534dc1ff04ee84f77defb4edd2b60301e08950c2623121fd026d86956a2e73c",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121101-bbbff82789704f99ae074ed99c76873c/record.json",
+    "problem": 2,
+    "plan_sha256": "6153679256faec8b72134198a9a07c74af5782bccf9441f1054412de072628aa",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "886a30d961fcd42ecf83a82adcb02272fc7cd1123d38fd722614324bbf66c695",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121101-ed4c5cd5e30746198061f82a493b4c55/record.json",
+    "problem": 2,
+    "plan_sha256": "79ed958ebc41b6054dbbe6d56392183632a21516f2842ad5f2f68e41dbe175b6",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "da2dede38e356152c54aeacee4eef52fa24e7952a67fb323e5f11f941b4d663b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/pilot_fullpool_v2/evaluations/attempts/20260924T093749-0c57abe2c2054b56839f39c0db613c5a/record.json",
+    "problem": 3,
+    "plan_sha256": "da7e21672761dfb0fc13392f0ee534c80383973f055d814138f57ee436bd81be",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "f0c322407a8448c43c4f5561ffa45411938add4315888947bde253c8460d8a92",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/pilot_fullpool_v2/evaluations/attempts/20260924T093745-2f990521fb96446eac84d8ce3b62ee08/record.json",
+    "problem": 2,
+    "plan_sha256": "da7e21672761dfb0fc13392f0ee534c80383973f055d814138f57ee436bd81be",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "332effb02896877279ef62aaee5b64efa525c3625dbbc1fdda69fcfbf82a8d3e",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122138-c163e4e6751340d69150d6f4b9a2efec/record.json",
+    "problem": 3,
+    "plan_sha256": "e29ea396970c5287e1f4136d20254df4e3de9fb1a23300490eb4bbb8c50b3e78",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "60ac0379089a36fc977ca1dddc60ff9e6056d5d7cc560f62b3b4535acd8fcf44",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T095203-a3640949c30e48958a382dd65902a680/record.json",
+    "problem": 2,
+    "plan_sha256": "52fbbf5b157a2aa486967c105b8db1e1307fbaab185c542d3580e5838313e0d5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "dff6dd4385aa9b13816ce6df449e0dbaf5c31c94f70e086f6295324a658fcffd",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-91c3a9a94aa54c36842c15020b99961d/record.json",
+    "problem": 2,
+    "plan_sha256": "8c8fd32469677b64d809705e324dc876eb57ebac9677f37ff491ab8421cfd961",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "127e19cdf8f74562fea87019091c116234a3dddb0bbba446aab0a68de9962458",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-5318ec76966f482ca807d5b3eab3d72a/record.json",
+    "problem": 2,
+    "plan_sha256": "25f7a6e9fbc11d5d276bc94655895ffdb940d0bd5d6389e7be3f2578e46eebbd",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3c18b39bca327cc3fbabeb43db2a840fb84b660c318a77b0aa91ce0c25aaa2a8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-bb0f58f26204403d895f61a1f1f7a948/record.json",
+    "problem": 2,
+    "plan_sha256": "92e80738ca6f9d0d5e6145a93779bf8eca83849e19092c517715e374ebc4089e",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "72ba8efc54292b41a70071015b12e01b8ae746e87e3d97c3722830f4c42480e3",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-e6bcff7a4f1342a9baaddfb4f80bf1fc/record.json",
+    "problem": 2,
+    "plan_sha256": "eedabdf5efb64d0b44699f87f7d6a1bcec24e9ed6e8bdbf14025d9e68c5b2989",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "051aa027c4c8befaf71199aff4a8342729e677e8cfe655fdfb72eeadab0a529f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-5579111d424d40f3939d34ea7ceb3bae/record.json",
+    "problem": 2,
+    "plan_sha256": "00e6b3bda98f54762ddf0dce245231fa061080dc073f164ba6c6c373debfe487",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "081658ddbc0cee10db5aea5f8f5d79dbebef9029d81b4cd7fc61fd6fb441d978",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-cec59cd51e1a413a9e6b4bb83b85840c/record.json",
+    "problem": 2,
+    "plan_sha256": "eb05c0f78d430499560798b074d52ce687d0f4d8021dbbb20bd25c539076b578",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "2a360d4047d5b71a6d371e280c339482b1a464d9d519419312a873f5d7ab60ac",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-057cf3032b7549d8a0337d7e74c0fbe4/record.json",
+    "problem": 2,
+    "plan_sha256": "fa21d57ec10ce9e7e54c2120ccb7d41297ba87930aba33ea2c28465ec8c03736",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3ccb448a075ac668480e17aca8bd9bee1b0b7969b26593b7c573a33ce96bafba",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-11e382c0c6704a2987469a41e25032cc/record.json",
+    "problem": 2,
+    "plan_sha256": "3c8cf93c29519b383bd2c301d79f3669efbaaece6cc008e6280893b9514e14bf",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "09fd7aed1b3ca1c8c5c9b753a94e9a543e488e856228ee39981fc4c4f7938a3d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-0e124204713243e49b68fb18250027c7/record.json",
+    "problem": 2,
+    "plan_sha256": "1ce35ffaf71caf4345afb79b21153e72886b0d320db72b34b4adf2ffa5a4cd9c",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "77860a9a2603e41a32845236d80492ae2ae5d349d610a65d9d55926c2d5de098",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-e45f19e69e3347adac9bc9ab59d5f975/record.json",
+    "problem": 2,
+    "plan_sha256": "68d1fd285b093e774c841ca7b5947694c23f7e8aa5b2842c5b2e2908a9745c30",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "2008a476c3ab8def0e9e4cb774b64c88266079478033aaf4b132ff6f556dc395",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-ca596af263b64a85bf9d3d670663292b/record.json",
+    "problem": 2,
+    "plan_sha256": "427810e5a651f04263129f349c0e5096236100848a26f252ed5552e9bfb59c29",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "2c4c028c825fa42ede81eba42e85a946ccd520103249d761e55d0b1619a15005",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121442-819e7821ad22412c852c214922245ba3/record.json",
+    "problem": 2,
+    "plan_sha256": "58b0321bf64e38b4bc000279a83f93f26a3a02b53179f36f9eedc3ac55963789",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "96f2c6ca63fd74ef59bb0239f6498a82884d1b41e1190ab28411da583934390d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T095402-fb9c00bc9b4941209cc766ab6ddb2f34/record.json",
+    "problem": 2,
+    "plan_sha256": "9cff13e4a0cde9fdea41d1c3588709eea211de1f874dcc2583f92018dde44ef8",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "011c630a0c8b60c5294063ebfae11277a5cc79dba0cb6151bb10376cdc91bc0a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121455-6f5a37f4cfc3488f940baa37360b9dd2/record.json",
+    "problem": 2,
+    "plan_sha256": "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3190bde51102ce6a5a08354008a80d4540f6ea3fe17acbee1b4c15afcfbdd690",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121456-ec87dbbaaaa24f69acc9e9edbacf4c6d/record.json",
+    "problem": 2,
+    "plan_sha256": "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "1dc75fe3a5891fb9f0379bb8866d2f6a9c8ad8823c387c19ae031d3cd8faa382",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121457-a2815ac61a714f1b90fd8a955e53390b/record.json",
+    "problem": 2,
+    "plan_sha256": "15d1a540c3bd35a9385974114c942d212b8628c8bba6df8b5b77c93f5ce1d69e",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "08b67ad082a34599b62c9a734e79d298bdfac917857e38094d8f3177d1d457d6",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121458-b539c18d12924e2da2a1c4872d005069/record.json",
+    "problem": 2,
+    "plan_sha256": "64fb3c41bf56df3093dbc001f778e02ba043e5371224855c2c429f023f40e4f6",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b3ab52d72184d3e6977555e60b3c5ee842bdf3545aa513814f9ea9350cd58335",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121458-ce3f1165b7ac4fc6b727e1c467f9e068/record.json",
+    "problem": 2,
+    "plan_sha256": "cbe7285f26f71d86ef28ce3ba1019f9e9743d0d8de1af00d242f0adb29627722",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "36419499a64c74202e9f8977ce48b5d1d7764210b24269899e3b224e3f6a0411",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121459-ba2149b4e6fe41aeac61298054035aba/record.json",
+    "problem": 2,
+    "plan_sha256": "c40bc9124908d2c17c2e00a9a5feb5652e6f892d2d4262d3f3202b9329e3d979",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "4b0b0789346a050ce36bca368476c7cd17831c5982204bea4c7591fbdafa8308",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121500-825199b8bcab496d87ad595ece64c590/record.json",
+    "problem": 2,
+    "plan_sha256": "d8413a71380dc83d218aa0de9eecbb37b185d0245acfcac9bdf947fe26106197",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "01f93daad4a603ad1599a682585a6bb19963cbc81ee316ed96c49b209377046c",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121501-ce313ed7988544ef97fdc4d7b5748277/record.json",
+    "problem": 2,
+    "plan_sha256": "725c9ce87a85ac2b2a31296543321bb68a0006661acd82c9385ebb4c374c2180",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "acd07762dd83bcae1e0a461a043f4f96ba8057109d319f7fa03582dc759306bf",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121502-2b3936e81757495b92c157be8807081b/record.json",
+    "problem": 2,
+    "plan_sha256": "5f247e5df6f512bb87bfe26c53c08cc1f4ee60e8c7f3cd5adc5ed9ef75799ebc",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "936a9390946407366d25f302fedb1a7fb038485663472bf5e9b8d0d6ddd0a6c7",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121503-d2ccdeff08cd42b99e29ce9f8952dc1e/record.json",
+    "problem": 2,
+    "plan_sha256": "8d261a78023cc5dca765a433783a809389a7b472973765b92d31466bd998e4f0",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "99e90e18b90fa9350f4850816b8217800f53e752cb602cfa9d30dff8097b550e",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121504-8960e579a94b45fa8aae33131ea5988a/record.json",
+    "problem": 2,
+    "plan_sha256": "cd6b4894f3fe37e3850c1f7ed5df293152873c48e67bbc5e913c160e691e3940",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a194f34d9bb15997713f6cb4dbc3c7693b24b6fceb966cfa197b462a89cb691f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T095406-79c2fbfa84014b0494f99a752539b85b/record.json",
+    "problem": 2,
+    "plan_sha256": "a15598307377a3c4db528ff1a02f637cc2f84b0d4acf4afcc2ce9463e0604244",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "54276e4d38b55a3b5dfb8b27b12d946c041b2ef5143cf50db5344672171e6099",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121514-4fac5bdb995e4826a31d36b5eee25a28/record.json",
+    "problem": 2,
+    "plan_sha256": "cad121d44aebdaacce92222da98c0fb3de11c71b453a7444ad82d73ae1b38c9d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "373ce942a13df3797edf230e3ac3056fdc79dfacb90845235d778f3d958b44ae",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121515-eee79fa05933451f816c2af89d77ad5c/record.json",
+    "problem": 2,
+    "plan_sha256": "1aa7b19a4a19f8db0310cdbdb3564efc4b9f7ef66801fc8336d7dd8543f21eae",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "e96867d8be61230aa2dce9883a93dfdc8f14f3c2bab408a4d2325e9bf2c22b2a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121515-13e1a53898f44b958f04c97e99c11f97/record.json",
+    "problem": 2,
+    "plan_sha256": "bafe0f5f7a8f937b2d1f9c033baca9a192368850d15505eb95afbf0325f8bf73",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "82768ca781270488463a211c53cfa6ab3a03cab4bfb6f1c7b37af2aa5c050222",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121515-b1da9ce5b06a42dd9eea2f77de11b93e/record.json",
+    "problem": 2,
+    "plan_sha256": "439dfce6c556efed7f8328c42176ca1e2d562f57566bf5398b26b4b4f509450f",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "ec29ac731ad190e4ef3246ef8ad2031ec7017034263ee24913544b30825d3137",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121516-dc9b1bab3733461a8d963bd391677a4d/record.json",
+    "problem": 2,
+    "plan_sha256": "14f41a055c48aed3a3bde207cd25276f0a8267f47afea550b71779c23378fbb3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "241b285d060d533da1fcf4a8539a32683de2cd84dade560dd13a2e9379d1b6af",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121516-35c49e68e58b406fa027ffecbf438378/record.json",
+    "problem": 2,
+    "plan_sha256": "7cdbd947088a083042a8576c897d07dd743f4ad2a9a74d5f49e87be89953dcf2",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "8f202ec54a4bb884ca344c38ece2566fc98655ed910a67bbbe77f3e6dd48e997",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121516-6743dfb18e014e69b6260eef759db7bb/record.json",
+    "problem": 2,
+    "plan_sha256": "60c1505332eb58f98e6bf7dc722ecbd6f8e700ba9f583367dd26eb617a783c33",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "5298841b516a8ce285ff6de1c6896d7865b29edd36bda0b5a0149325cb243882",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121516-d947fceb92cf4ef7a212ec266e12e210/record.json",
+    "problem": 2,
+    "plan_sha256": "c1d163f4325bd2e54e8d20b7d0f7882ebdd4b2f88f0e34a0f65aaf59022f9e46",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "bd59d3be0275ad6feca022f302bbb517087f33db47b72ca1643ba25ce933a61b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121517-cdf3894e32cb42109a2921e6ca01b993/record.json",
+    "problem": 2,
+    "plan_sha256": "55d5a2130168e18f9213451d6eb6a1e398552821462ab43cb8dd0d6d80bfc0fa",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a644dd71372cafa1d1236e5868cb6cd3e5ce23badb16c4770bfa0bd39afd6a78",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T100348-6aab2c8740f843f7b504d55d9513abc5/record.json",
+    "problem": 2,
+    "plan_sha256": "44a9e314e9b092e1d3476ba838b4463aa83706dee67bfdf5f2c5d4ca88ec7b18",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "4d693fcf793d0ff1d68c30ce6057d7c79dccf93c7e494c741ef708822166011e",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-3871c7d47b20411dad7f79468214cca5/record.json",
+    "problem": 2,
+    "plan_sha256": "84aa8f19c7bd52fc8bbb284afaa998f89ca38745acf22283804964348a108e27",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "35d2929175b3ebe8a1adf5cef9060a7576d67f1ce42e4625bc883173296b168a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-ba551a40e6e74b658d519f8b0e25a39e/record.json",
+    "problem": 2,
+    "plan_sha256": "c17f87ed856e3044f6648fd2e60527c40ed3eebe30a9fb55bc4b4829abb08e70",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "94ae308fb221862908b53037a2ec42d585badc4194cb886cab30e04ac0245e1a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-b3a1e8c43a9d4948a19471fe73a9dcab/record.json",
+    "problem": 2,
+    "plan_sha256": "eb62bfd3ed3aff816559b548ebc5c4f693240d0fefe1b833113f9d79398dcd08",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "aa535ed51445d569d44afdc037e89496d69c76f4947f6df43b1094e6de165e5d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-dd0751326a6a47d7a50f4c6fbb4e62be/record.json",
+    "problem": 2,
+    "plan_sha256": "5f5516b0eb92da7cc861fe0f47dc5812f3ecbd556f639e2a39f95467c2c4c5bc",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "9d58c21dae69788b40a5e1a2e0abe32a6b27a2039eeeb88f1b7fe18158c07aa3",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-05f448c2162142699f7d3774dd17e78b/record.json",
+    "problem": 2,
+    "plan_sha256": "94226590cff91b0fc2aab489d043e9685351087ddb77af31e87eaa9205bc6e91",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "9eb12aa24ba2eb9cf746efc72da7f150631f3dc779acf8e1bb3445dafeaa7a0f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121652-9f915928f55c4d5cac264c14df911e64/record.json",
+    "problem": 2,
+    "plan_sha256": "873457a8633114c382f8e7fcccd53804fbb1cf2dc39648136bac74020961be4b",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "e1e5b4709a7a201cefa6c9807d49213f9fc4c065bff44ef55f66d6a297deb63f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121653-d4719d4651bf4cc0a0e9cab98d408f69/record.json",
+    "problem": 2,
+    "plan_sha256": "c0342d823dc60b654dac2ee07828af3d299ab394170525c4c54a76ce1e38794e",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "7f7d91198bf3f15c8101d415d09d03849b4ddd125d248b9e4abe8540cbfb4c4e",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121653-17a0922ff82f4e1c805378040c5e4a58/record.json",
+    "problem": 2,
+    "plan_sha256": "a09cc05b8e6e840ad4d1be86d152aeca1f1009fe9860cd931c1b09f5ee4271c5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a74c2fd80b8646429379314b37e3d8e594bb4793b9bec8c9a84a4478b6abb926",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121653-c6da5081442d434ca9834a64eb7cc81e/record.json",
+    "problem": 2,
+    "plan_sha256": "301e396412eaa7d8cb0beb29ddf1189c86a1789710ece1eb4a387f2a5ae35460",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "8a315a8e60b7c49e4212aa74b7733ad110089de68feab2f02c370a3754b52d08",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121653-666fb2761bf5495fb270ace3c7e0bda9/record.json",
+    "problem": 2,
+    "plan_sha256": "0ab281bbc68561c6749be7e7ab0032a888ff557f34152700427e1882e821b5d8",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "f72a7c77f2f8fa0571984714b509af0844b7389457821ef3a84658374722c254",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121653-2f98a60425014b2abfa09f0b309b9a31/record.json",
+    "problem": 2,
+    "plan_sha256": "f158c4ba95bd836ce18623b569c913e07b1538353c90eb607345f68be00b4877",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "57e6c4adf20882a28b43194fc7b6447dd7e1571e0c3cab6a9d4bfef549164488",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T100712-37bf920c4c5044fabb8deb5c9c6cbe58/record.json",
+    "problem": 2,
+    "plan_sha256": "60e23d9410576f4bb3aeeed854f5684d5df927fd8abacd5c55d349d937db78a2",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "0ba7a1def64442dcf608f5d33ba447ba23ff44d2b0242c2a4d3b67a662878dec",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121724-9d15ecf34ab24d05b6dc0cb2c4e9f3e8/record.json",
+    "problem": 2,
+    "plan_sha256": "4e1dc0552ed62a8b22404f603b6ddb9e6814b117c546b366d99f08619c4a2afe",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "cf5fbe5137c4666297fd19a14ab5b66e52529afc577aef29736b3a5f63f3ac6a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121723-00a996d75a0140cdae9f44d830711b1d/record.json",
+    "problem": 2,
+    "plan_sha256": "baf572547890d3f0cb7229f9a34e8b68aa3b7e48ef06cf3ae853bc988850cf7d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "0cee0bdd9e5f8488b02a1b5ba2cd38a638a33d8fea87dff394f8e144c7997de9",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121723-bee61cd5151c4d41b54d44ecd5044f7c/record.json",
+    "problem": 2,
+    "plan_sha256": "de694350038432c106a849c173a80ed770cb8f7cd9a580a6503988b0b46d1b98",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "6eac43ed8588b19610aae2201f5882c18df47309e8e58d0166f51cb6b55d49b9",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121724-f088b82adf174c4c9acd3e3a29d062b0/record.json",
+    "problem": 2,
+    "plan_sha256": "27178dd88791f6f4f1185a55329e053e8f6a58906fe756eb869eb53643482e9b",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "31f7d10335172c788c5d35aa158fb0899b36031d0fec5ade7fa594c2d383ca14",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121724-e4b09e825c4446a09b271a2c66524392/record.json",
+    "problem": 2,
+    "plan_sha256": "edc676c9da78c2ebfd49a5d7bd2d335029cea8fab7f159bfbb8eb1e964c40671",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "da9d0796823aea3882fa034c04ec65f3392967a0a2b6c93537ea06de53ed00d9",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121724-ca3b45b348ed451392ac95dd4973ca2d/record.json",
+    "problem": 2,
+    "plan_sha256": "719ed88366dbf614baa0c6e4bbfa538c3a827d405963681c134d4564a3bf2d53",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "73e84b933c7c4015c1b70988925894708b001d4ab14945661acba63ddde1f021",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121725-ad02d56d12554ff8825ebdcad3e863f7/record.json",
+    "problem": 2,
+    "plan_sha256": "77800cc9621aae6bfe675a5020f33ed4bdf7a31fa0090b53a1256eb2cbc41a57",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "271b41f10c9a17798d23630a9b2c56ecb1ce24be8fe81970519761702eefe47d",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121725-0a17b8b713e94372bfd1c590fed6aff6/record.json",
+    "problem": 2,
+    "plan_sha256": "811098e3a5b9b9b8d96acc72f9bffac05636c004eb0501cb91db5e168d20c2ba",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "0deff7bfedbca799f5066050ea943ec7c3ac96db56d59352ca5b137fcae8f633",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121725-aef9b26720ad4bdca0b1aad22b8e5487/record.json",
+    "problem": 2,
+    "plan_sha256": "4636f21fb54d92585866cdf6b2929c98f6b4d16f385c8ec04bbc143c2f007469",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3787ee106733a7f5a533f4c8b8208975abcdb5bfdb3d2760b66abcb9a658c204",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121725-98c8ed4b83de4e038eed36af5990a684/record.json",
+    "problem": 2,
+    "plan_sha256": "7b6cd29c0e8d60bdd9a90fcae410e54d2afe0c9a57c92a5f4e153d6e21da4f48",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "5ed629175b598fdf2fa0476b546cbb9bf2b1c2e7b6a4f4f659912d8cf0a59b59",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121725-4e314126fb0c4733927c916f9d568931/record.json",
+    "problem": 2,
+    "plan_sha256": "3841eba9fbd894f0e0bbdf32dffa5ac5883fe4048a62a75a20a48646d9081e45",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "8f0af0c154390ade76893b5969ba0b7565b61388e8ccfa92993e86bcecf35c0b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-c0dfd07da80445eeb4b620e567a8de41/record.json",
+    "problem": 2,
+    "plan_sha256": "b406f14dd0cd1c5b5cf3a89f1eeef6f8173cfb6f7b3e7d25e669b5ca4504c0fc",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "89179addd3ea003cd069032599d79360dc3d91a33ba2e1de7af81a51e5879662",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T100719-4985cf6435a1454bb0d51e65cccee43a/record.json",
+    "problem": 2,
+    "plan_sha256": "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "44f024284180d57b088b38e3f3d78d95064895c0cc67db5054996fe3b7d5a622",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-fca2ef8d8aa84ce3a31912a8521f7d32/record.json",
+    "problem": 2,
+    "plan_sha256": "f59694d9bde67365cc41f6b54b12a425e97f8fe66c00146293b513a7bd325d0a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "6e24c1593c2249cce0a8344b0c81bd8e47967592feb2a1cd564ba93250cc63c5",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-17a77813080f4ba6a6a68971799a77db/record.json",
+    "problem": 2,
+    "plan_sha256": "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "49fdf7f9a04af6dffce223a794542ebbdf39ac47b40e037aa259bfe3b7d43acc",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-8d6691adbdc4444bb95540bd843fc491/record.json",
+    "problem": 2,
+    "plan_sha256": "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "f825647df91877c61f97aba96ca7e4273f3bad20f4e8826f8e08a0a8a4d85320",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-bcb0ead1a2664c04b7bccf4f67bc45fb/record.json",
+    "problem": 2,
+    "plan_sha256": "cd0ccdc2141141ced4df2d4ea1570f9a1ce2b784d882915059525baf809d3031",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "fa7b51e3788b41e7639d3922365f55e0ea6ea5757bf5c4891ebb8545b7881987",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-3217a063c24b4fc5867a5094a5b27e85/record.json",
+    "problem": 2,
+    "plan_sha256": "0c347a8fb01a90106c8e99b1002e5af79c9bb6df148a3fe3ca6fe704d535bfd1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b9ce931f40c3341119d85b2a340d47436b9726cb9405d84db40767e6ee5155b0",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-4fd302c32ed04ef5895c1ef01248a5a7/record.json",
+    "problem": 2,
+    "plan_sha256": "c498ab555ee582b76c2a3d6e2cabec63b37c20000b49387b5863d304015ac089",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a4d846d9f345e4c19aecfb778b18c20ddd21e6791c1db387cd65081868e0ba9c",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-fc7434e58dc34e75979a2e783cc46e9f/record.json",
+    "problem": 2,
+    "plan_sha256": "8916672631df8c03dd3aa8b1f6d9b0fdc81cf39514df21b3d0295980a9eda25d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "32a06ed8fb2d30fba7562690936f4645bd351be0d26d430008ba5f7581ffd5ac",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-3da6d847a02344ac9fe517b029f8ba06/record.json",
+    "problem": 2,
+    "plan_sha256": "839712ee75dd411e3bab93d8bab38e8a124fd3786207d6ffa707bd1aab67cdb1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "47d271385d2fb6b4ab33de2eabb99584fe9f779f7bd6dc5f78db555038a1f7fc",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-695b3962148b4d34a2b7230393d8342e/record.json",
+    "problem": 2,
+    "plan_sha256": "c1074a2159808a10ae64e194025208d761783587103e4b9c309c1993994b2a28",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "44c0e7909cbc9191d40f62015079f2a672c6455d5925136e9819b04c0a0b0c4a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-22f768a50bab4cac82878c95c380c1e3/record.json",
+    "problem": 2,
+    "plan_sha256": "f744b18fd51a681ff1a6b1e142cc290501c39b72758c07118ae2fda79fe9b93a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "c159397410c30038623b72bf35a8a8f0967e18794d0fa1d2a5e1f4497d2121a8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-2a16a3ff8d51451087d201ed1c0575ad/record.json",
+    "problem": 2,
+    "plan_sha256": "f958e1ea16c2d048da09f179da9f36309254db7563940af2f329ee82318ee8c9",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "bfe16f710245bf32ea1c646471dfad21edd7cd56dd5d6a01871ab0c4dbe5065a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121726-34c7411b74924f9495846ae2a3617bd1/record.json",
+    "problem": 2,
+    "plan_sha256": "96a21e015507332256c459f9f4d4f751cf790923f579a518e1c925a7d8e92090",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "a6460cc68fbc2f544883eda169b4d7e7eaf1774cdceadc3629d5e3035ff31307",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/实验记录/independent_local_move_check/evaluations/attempts/20260924T104810-daff8c36cdb344b998815c06ef29af2e/record.json",
+    "problem": 3,
+    "plan_sha256": "1ac2e50bdff513b2d64d7e6a296112b3aff28e1f2a783d633800793c6b6d115a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b932a693f4f3f3f3d729fab506a47f462c201dc6013a1ec44b28979a041dfa85",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/实验记录/independent_local_move_check/evaluations/attempts/20260924T104809-1582ed57114b4c1a8b6cb324636dc884/record.json",
+    "problem": 2,
+    "plan_sha256": "1ac2e50bdff513b2d64d7e6a296112b3aff28e1f2a783d633800793c6b6d115a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "7fb3637d1d4b2a9e62dc563ce212a453877b6fa5b8bbbbeb425e44df2c182dc2",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122134-51c5952207314f5a90c34899ff011d57/record.json",
+    "problem": 3,
+    "plan_sha256": "5937b9fefe434aa565402e830155de2ee3bf5e808d19128d861851d86a29fa5d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "4d7abdd568b91e5b0b4980ac83284e6ace16d33b0377e68fdd842e7581caf0a6",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122136-94beb46a83464245bc9a4ae75d8e408b/record.json",
+    "problem": 3,
+    "plan_sha256": "d6c781083e135cce72c91e2d403774fbbb5150844e066ce5ac6716fde035e51b",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "e17b4eab3a717bfb3164ff417327cd3d87369d85cfe4fe03f94f34eb9541818f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122137-928806cb4e4247dc8735191f2065c461/record.json",
+    "problem": 2,
+    "plan_sha256": "d6c781083e135cce72c91e2d403774fbbb5150844e066ce5ac6716fde035e51b",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "d257aaeaf995552b4ca11b453ef5c3eef4253704037d54b6a917dd6de1c1876a",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T101148-5ed5a6097f20494db2f38639e7ac3cf3/record.json",
+    "problem": 2,
+    "plan_sha256": "c713f4fadc6c9dab0dddc33e225d9cf5932f74d21016ad17ad9050a64bd5f681",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "83cd043d76ee9bda95215ba0ce021cd34052fae00dd51039a1d12824f57c9990",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121946-98d8b96913614cdc962113b451d033b0/record.json",
+    "problem": 2,
+    "plan_sha256": "c715d54f6b4b3f489f42893bb3f37e9685f1787844d5fe4677271563c321b5f6",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "38a60fa63e911a39e49efebaf709584909449b57384843e95df9b739a13b35f7",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121947-d8c352c7a8c943e4ba81de8e4ae2f3a5/record.json",
+    "problem": 2,
+    "plan_sha256": "d156c9dc3f55d7de9b2bc03b19f35439dcee5030a801d9769a9d80c91acca50e",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "72d6507c667dc75f277ab547d667e4a1a3cabc2fe4dcc522b9dd71efe5b5c9a8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121949-3626f1b7fac44450bae7a37713baa7c0/record.json",
+    "problem": 2,
+    "plan_sha256": "59cc4711099040b1846f45080938be92a0bff86ae92fdb1639979ba438ef7a60",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "00143802f1c883a605df625051cb524ef2d6328290aadb4dc756fcd1b5af7344",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121949-355c5a7cc4e64f9c8d2dc33898c3e81d/record.json",
+    "problem": 2,
+    "plan_sha256": "f64ee9b83e928aa579ca3dadabe7baa090e01dc7bf44b8f208d75426867ee0bd",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "34866ec29ff9099749b19153fcd55b266339505038b90eb5d57a1ed2326970be",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121950-e17d02f9d938448798ac40b0970652c9/record.json",
+    "problem": 2,
+    "plan_sha256": "38f3b775e5a144e578ba487d63a77863b2a3dffc87bffd05c524543e9c579398",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b0823fb0d936d872c9209cee6b5ed6e939a2be449fd1c16c5735a83047daebe8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121951-80b2efd5d9a643fa89fc21adb946bced/record.json",
+    "problem": 2,
+    "plan_sha256": "95889cc39d6d76decda73d1d7e236ed838d9d6efa054caf78f907cd7bbd3d8f3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "9315492c1072500323ab2b50726d3f81c06265290b23b0632bc7bd4128aec31c",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121953-10cf9e22073d4fe790f41e015f8c0914/record.json",
+    "problem": 2,
+    "plan_sha256": "50c52b48eb9c0a649dfb875ba40e26293c2b6e74c8a94eb4b63dbf1588dd9f4c",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3bc856fe80f2e83f5fff247625bf45de110a3d084f2a4e78ea1d194aa17734b2",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121953-2c7203dfe353452695c05f4414687570/record.json",
+    "problem": 2,
+    "plan_sha256": "f3ee056a3b0312913967dbbced329c1183bdde4b1fdf5937292fec1e7c1261a3",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "985183d3415f4441d46ac4c8b834425eb3fb307eccd2529eba7f99096be5ec43",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121954-9d4d9ab88a8340d38b48a8f99d17451b/record.json",
+    "problem": 2,
+    "plan_sha256": "762cd8d20d8f8c1a64dcf8c2cb1a845881121cfaa2f0b669d544088f129e29b5",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "dc7bb97d5c15ffab086135055eede292b17228c8e584a15639cd7ddddff6dab1",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121955-0acb69b8358e4e5da0c3a048d0fd1ca9/record.json",
+    "problem": 2,
+    "plan_sha256": "9672ff1a5e0f46b0f5e25c65e117698cdae5eb942b652f6336a1988356c465a0",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "d5ae516977ff85d925546d946692283a3487d2b4d44de4d65735b8c6b515cf3b",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T121956-a6fa24175a964a409194ab02665e530f/record.json",
+    "problem": 2,
+    "plan_sha256": "680fdc4e3bfa825b1eea45225ff3c87d577511e87c27c87be00f8e7334364d19",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "4736653b0a22888783d8b89d8e041a1ece8f1f2f11e72b192932f68d0ebbc058",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/full_initial_v1/evaluations/attempts/20260924T104257-0b829931c7714c07b88fee1315501c54/record.json",
+    "problem": 2,
+    "plan_sha256": "37f84ac73f276a8bd248823c582d73525cbaa292be0a0043b979bfc55c2e112a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "9786ac273b5f948196477fb4418e569f8f959de8c9fe9477fc0038d5abbc0bc3",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122336-966868f8a0e649f2a48c643275d18e7f/record.json",
+    "problem": 2,
+    "plan_sha256": "c3e4023e4fba01a68f354798899ca4009ebd44945f373b9fb1dd71b52979f01a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "c6417928aa748a9b8d2b47ec9613076adec9ca0834e743b36a5bb3434c5775e8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122335-96ac5781fadd4cd1b004b3028056ce5f/record.json",
+    "problem": 2,
+    "plan_sha256": "522ab0d30a44f588041e6507c408c5ba2c2e2448b15e905d2be417630a484b67",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "3312aa1407b2ecdb42e9a15449cbadf2d860de6b946250f49f724d6aff721369",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122336-178b8198c5b748ca94261d5cae894f12/record.json",
+    "problem": 2,
+    "plan_sha256": "45a5ef1a3401ceca861c04623013f8fd279df082e8ee1bdc6ea3ac53e059dc37",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "c06f87bdb486834db63002a172adef7c6f71abf569ff94e2286e0a07870686ee",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122336-d50d282525ad41d28541d3738315a605/record.json",
+    "problem": 2,
+    "plan_sha256": "15b1fd56be816757cb821029827054d96ca1ff9c437208be976e24ec0583cc5b",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "dccf2ec158f2329ab1f1c88ea6b04c24a420a3fa225c59328d2dab3129399f0f",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122336-13070ed5b36c49b89f1ae15e75a36f52/record.json",
+    "problem": 2,
+    "plan_sha256": "af134824455bef60c99a24960fa3e083ed425b83e87fbb7aa46a5b6b051c9095",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "7eb48bea8e7940e675051c3437ed06263c1b77c1d776f00e7140176c5208b231",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122336-c011530556134e7d80797447a4d63b47/record.json",
+    "problem": 2,
+    "plan_sha256": "b13d4e7ae8eaaf3b8717f22ee497c906579fdb23553ebd5a805ce60024327af9",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "92621f1fdfaad6874c6bc6075e54ab99d0a6ed2d1f161425150d3fd8e4182f7c",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122337-8fe5905e71ad4831b4ad898078ee632b/record.json",
+    "problem": 2,
+    "plan_sha256": "03fffcb5a34e9d3a1c0980e2b038bef49ad84e06c8853a9e6a8e50262dfcc745",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "25a6a784644c162682fdd8522695f7f737af66cec8c12d1d4f857adb57b5f8d8",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122337-97107e8c8d8247ed899ffbd013848788/record.json",
+    "problem": 2,
+    "plan_sha256": "292aeb189b6ec9a08180743348c55b2bdff9d60b841637687d6de925780da060",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "749a14469dcc1a70a428443887760eae37478bf2318b2edb55b29251df4de6f3",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/operation_all100_n5_v1/evaluations/attempts/20260924T122337-65aac115807b4862abb9752d14cc99ab/record.json",
+    "problem": 2,
+    "plan_sha256": "98e4ec24d341ad0ea8d73b583fa574afc1e779bcd86dd0af1b52964773c2341d",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "0ccf6f23b67221f383851876f171160e936cfbf9df1ea34d474fb972f6ecb038",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/solver/runs/pilot_fullpool_v2/evaluations/attempts/20260924T093713-8b6b7576422c41f8b725744859d80f5a/record.json",
+    "problem": 3,
+    "plan_sha256": "37f84ac73f276a8bd248823c582d73525cbaa292be0a0043b979bfc55c2e112a",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  {
+    "cache_key": "b679825b604d91540fbf6c522448611f95bb0524f5804f8c9c77f2a431d199c7",
+    "record_path": "/Users/liyu/Desktop/中文题目/A题研究/advanced_solver/runs/cache_refine_v1/evaluations/attempts/20260924T122139-e3fbd968516e4ffeb7128674c35ff874/record.json",
+    "problem": 3,
+    "plan_sha256": "db9597c0e7f59d0602408519bce044c57cda4c2229818b395d239632edbd9854",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  }
+]

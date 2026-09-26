@@ -1,0 +1,764 @@
+[
+  {
+    "group": "replay",
+    "case": 1,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 2,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 3,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 4,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 5,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 6,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 7,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 8,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 9,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 10,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 11,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 12,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 13,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 14,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(6990): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 15,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(6995): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 16,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7001): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 17,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 18,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection closed by 127.0.0.1 port 47549\r\nrsync(7029): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 19,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 20,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 21,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 22,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 23,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 24,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 25,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 26,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 27,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 28,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 29,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 30,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7154): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 31,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 32,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 33,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 34,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 35,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 36,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 37,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 38,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 39,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 40,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 41,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7249): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 42,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 43,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 44,
+    "exit": 255,
+    "error": "ng: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7290): error: poll: hangup on receiver idx 0\n"
+  },
+  {
+    "group": "replay",
+    "case": 45,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 46,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7322): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 47,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7325): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 48,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 49,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 50,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 51,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 52,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 53,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7379): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 54,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7392): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 55,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 56,
+    "exit": 255,
+    "error": "ng: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7409): error: poll: hangup on receiver idx 0\n"
+  },
+  {
+    "group": "replay",
+    "case": 57,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 58,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7422): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 59,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 60,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7433): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 61,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 62,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 63,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 64,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 65,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 66,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 67,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 68,
+    "exit": 255,
+    "error": "ng: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7515): error: poll: hangup on receiver idx 0\n"
+  },
+  {
+    "group": "replay",
+    "case": 69,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7521): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 70,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 71,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 72,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7539): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 73,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 74,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\n"
+  },
+  {
+    "group": "replay",
+    "case": 75,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7557): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 76,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7583): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 77,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7588): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 78,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 79,
+    "exit": 255,
+    "error": "Connection closed by UNKNOWN port 65535\r\nrsync(7632): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 80,
+    "exit": 255,
+    "error": "Connection closed by 127.0.0.1 port 47549\r\nrsync(7637): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 81,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7638): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 82,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 83,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 84,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 85,
+    "exit": 255,
+    "error": "ng: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7676): error: poll: hangup on receiver idx 0\n"
+  },
+  {
+    "group": "replay",
+    "case": 86,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nrsync(7683): error: poll: timeout\nConnection to 127.0.0.1 closed by remote host.\r\n"
+  },
+  {
+    "group": "replay",
+    "case": 87,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7686): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 88,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 89,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 90,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 91,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7745): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 92,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 93,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\n"
+  },
+  {
+    "group": "replay",
+    "case": 94,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 95,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7819): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 96,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 97,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7842): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 98,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "replay",
+    "case": 99,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7860): error: unexpected end of file\n"
+  },
+  {
+    "group": "replay",
+    "case": 100,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 1,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 2,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 3,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 4,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 5,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 6,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 7,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 8,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 9,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 10,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 11,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 12,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 13,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 14,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 15,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 16,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 17,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 18,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 19,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 20,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(7996): error: unexpected end of file\n"
+  },
+  {
+    "group": "cold",
+    "case": 21,
+    "exit": 255,
+    "error": "Connection closed by 127.0.0.1 port 47549\r\nrsync(8001): error: unexpected end of file\n"
+  },
+  {
+    "group": "cold",
+    "case": 22,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 23,
+    "exit": 255,
+    "error": "ng: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(8023): error: poll: hangup on receiver idx 0\n"
+  },
+  {
+    "group": "cold",
+    "case": 24,
+    "exit": 255,
+    "error": "Warning: Permanently added '[127.0.0.1]:47549' (ED25519) to the list of known hosts.\r\nConnection to 127.0.0.1 closed by remote host.\r\nrsync(8024): error: unexpected end of file\n"
+  },
+  {
+    "group": "cold",
+    "case": 25,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 26,
+    "exit": 0,
+    "error": ""
+  },
+  {
+    "group": "cold",
+    "case": 27,
+    "exit": 0,
+    "error": ""
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "base_verified_on_server": 1500,
+  "base_replay_calls": 1514,
+  "new_transfer_plans": 2,
+  "retained_base_plans": 1498,
+  "new_search_calls_for_packaging": 0,
+  "five_core": {
+    "1": 3.9316520232784615,
+    "2": 4.730723905435942,
+    "3": 4.872482166360644
+  },
+  "scope": "cumulative best within recorded verified library; not global optimum; no claim of uniform budget"
+}

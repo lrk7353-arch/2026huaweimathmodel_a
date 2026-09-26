@@ -1,0 +1,2 @@
+﻿case,cores,variant,p2_makespan,p3_makespan,same_core_p2_over_p3,identical_plan_hash,interpretation
+case_025,5,persistent,942938,942938,1.0,True,separately optimized plans; includes scheduling differences

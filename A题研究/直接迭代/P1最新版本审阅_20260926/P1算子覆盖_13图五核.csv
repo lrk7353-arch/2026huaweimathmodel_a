@@ -1,0 +1,22 @@
+﻿source_revision,problem,cores,graph_count,variant,phase,family,paid_calls,successful_calls,strict_arm_best_updates,arm_best_update_scope
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,initialization,(none),26,23,3,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,initialization,tensor_merge,9,9,9,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,initialization,tensor_work_fraction,6,6,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,initialization,whole_component_pack,4,4,4,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,initialization,whole_component_reference,19,16,1,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,joint,affinity,0,0,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,joint,branch,0,0,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,joint,phase,111,108,70,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,joint,tensor_cap,24,24,2,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,legacy,legacy,(none),44,42,4,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,initialization,(none),26,23,3,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,initialization,tensor_merge,9,9,9,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,initialization,tensor_work_fraction,7,7,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,initialization,whole_component_pack,4,4,4,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,initialization,whole_component_reference,18,16,1,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,insertion,event_frontier,10,10,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,joint,affinity,79,78,9,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,joint,branch,29,25,3,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,joint,phase,0,0,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,joint,tensor_cap,0,0,0,current experimental arm only; not historical portfolio best
+fea72e66e7260ba4deecbc28569b641e590f5046,1,5,13,persistent,legacy,(none),40,38,7,current experimental arm only; not historical portfolio best

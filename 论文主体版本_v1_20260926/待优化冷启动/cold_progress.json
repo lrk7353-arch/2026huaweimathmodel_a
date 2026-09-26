@@ -1,0 +1,14 @@
+{
+  "complete": false,
+  "expected": 1000,
+  "completed": 270,
+  "success": 237,
+  "attention": 33,
+  "active": [],
+  "remaining": 730,
+  "recorded_calls": 4192,
+  "workers": 12,
+  "updated": "2026-09-26T20:07:51.773189",
+  "session_seconds": 1920.4652815289955,
+  "paused": true
+}

@@ -1,0 +1,6 @@
+﻿cores,n,mean_same_core_speedup,faster,equal,slower,scope
+1,100,0.9997469202290449,18,76,6,separately optimized plans; combined scheduling/cache comparison
+2,100,1.000313048887346,48,39,13,separately optimized plans; combined scheduling/cache comparison
+3,100,1.0081601770617428,54,44,2,separately optimized plans; combined scheduling/cache comparison
+4,100,1.0178144483927407,53,39,8,separately optimized plans; combined scheduling/cache comparison
+5,100,1.0360361653277084,71,22,7,separately optimized plans; combined scheduling/cache comparison

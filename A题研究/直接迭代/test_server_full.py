@@ -5,10 +5,53 @@ import unittest
 from unittest.mock import patch
 
 from common_run import atomic_json,read_json
-from run_server_full import run_jobs,apply_replay_recovery
+from run_server_full import run_jobs,apply_replay_recovery,recover_paid_incumbent
 
 
 class ResumeTests(unittest.TestCase):
+    def test_pause_marker_stops_dispatch_after_active_work_finishes(self):
+        with tempfile.TemporaryDirectory() as name:
+            root=Path(name)
+            jobs=[dict(id=str(i),kind='cold',case='case_001',problem=1,cores=1) for i in range(3)]
+            def run(job,path):
+                (root/'pause.request').write_text('pause')
+                return dict(job=job,status='success',calls=1)
+            with patch('run_server_full.supervise',side_effect=run) as worker:
+                results=run_jobs(jobs,root,1,time.time()+1000)
+            self.assertEqual(len(results),1)
+            self.assertEqual(worker.call_count,1)
+            self.assertTrue(read_json(root/'progress.json')['paused'])
+            self.assertFalse(read_json(root/'progress.json')['complete'])
+
+    def test_optimizer_crash_retains_only_paid_local_verified_incumbent(self):
+        import hashlib
+        from common_run import DATA
+        from test_p1_task_refine import graph
+        with tempfile.TemporaryDirectory() as name:
+            root=Path(name);attempt=root/'search/evaluations/attempts/paid';attempt.mkdir(parents=True)
+            plan=dict(node_to_subgraph={'0':0},core_schedules=[[0]])
+            atomic_json(attempt/'plan.json',plan)
+            (attempt/'official_result.json.gz').write_bytes(b'official result fixture')
+            hashes=dict(plan_sha256=hashlib.sha256((attempt/'plan.json').read_bytes()).hexdigest())
+            record=dict(status='success',problem=1,graph_path=str(DATA/'case_001.json'),
+                plan_path=str(attempt/'plan.json'),record_path=str(attempt/'record.json'),
+                result_path=str(attempt/'official_result.json.gz'),hashes=hashes,
+                result_sha256=hashlib.sha256((attempt/'official_result.json.gz').read_bytes()).hexdigest(),
+                metrics=dict(num_cores=1,makespan=10,data_movement_bytes=dict(added_copy_bytes=0)))
+            atomic_json(attempt/'record.json',record)
+            atomic_json(attempt/'request.json',dict(problem=1,hashes=hashes,graph_path=record['graph_path'],plan_path=record['plan_path']))
+            (root/'search/evaluations/attempts/timed_out').mkdir()
+            job=dict(kind='cold',case='case_001',problem=1,cores=1)
+            failed=dict(status='interrupted_or_hard_timeout',calls=2,returncode=-9)
+            with patch('run_server_full.GraphIR.from_path',return_value=graph(1,[])):
+                recovered=recover_paid_incumbent(job,root,failed)
+                self.assertEqual(recovered['status'],'success')
+                self.assertEqual(recovered['calls'],2)
+                self.assertEqual(recovered['optimizer_termination'],failed['status'])
+                self.assertEqual(failed['status'],'interrupted_or_hard_timeout')
+                (attempt/'official_result.json.gz').write_bytes(b'corrupted')
+                self.assertIs(recover_paid_incumbent(job,root,failed),failed)
+
     def test_recovery_rejects_changed_plan_and_keeps_original_failure(self):
         with tempfile.TemporaryDirectory() as name:
             root=Path(name)
