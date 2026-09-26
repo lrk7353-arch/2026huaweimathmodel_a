@@ -1,0 +1,22 @@
+{
+  "archive": "all_evaluated_plans.tar.gz",
+  "sha256": "d4cef5722c5316b4c01a64451d3c46a00bc970fe72991cbb4f69c41a0682237c",
+  "parts": [
+    {
+      "name": "all_evaluated_plans.tar.gz.part000",
+      "bytes": 45000000,
+      "sha256": "e7ae989014652cfdc987aac26c23927d24fa3f8a165b6be950116706b476f4c0"
+    },
+    {
+      "name": "all_evaluated_plans.tar.gz.part001",
+      "bytes": 45000000,
+      "sha256": "74afc852605c34e3fb9668eaa0463cdb788ef6867d8d9afa7087e599b4194304"
+    },
+    {
+      "name": "all_evaluated_plans.tar.gz.part002",
+      "bytes": 31394577,
+      "sha256": "a2a5d5c96e0c81514ed6359bd8fc361ffc20f222ae2ba415371f70feb4680263"
+    }
+  ],
+  "restore": "Concatenate parts in listed order as raw bytes, verify SHA256, then read as tar.gz. Original unsplit local file is not tracked."
+}

@@ -1,0 +1,119 @@
+{
+  "plans": 1500,
+  "improved": 37,
+  "strict_time_improvements": 36,
+  "tie_time_copy_improvements": 1,
+  "regressions": 0,
+  "all_plan_hashes_and_legality_verified": true,
+  "archive_sha256": "225c3e8eead8a97965ecc5c85d1f642442a04a2e959602f4e3347270ab3d4404",
+  "archive_bytes": 46358220,
+  "curves": [
+    {
+      "problem": 1,
+      "cores": 1,
+      "count": 100,
+      "mean_speedup": 1.0,
+      "raw_optimized_singlecore_ratio": 1.0515525908789989
+    },
+    {
+      "problem": 1,
+      "cores": 2,
+      "count": 100,
+      "mean_speedup": 1.8865623418040816,
+      "raw_optimized_singlecore_ratio": 1.8865623418040816
+    },
+    {
+      "problem": 1,
+      "cores": 3,
+      "count": 100,
+      "mean_speedup": 2.6086721949798797,
+      "raw_optimized_singlecore_ratio": 2.6086721949798797
+    },
+    {
+      "problem": 1,
+      "cores": 4,
+      "count": 100,
+      "mean_speedup": 3.2968553575201174,
+      "raw_optimized_singlecore_ratio": 3.2968553575201174
+    },
+    {
+      "problem": 1,
+      "cores": 5,
+      "count": 100,
+      "mean_speedup": 3.9228384379259973,
+      "raw_optimized_singlecore_ratio": 3.9228384379259973
+    },
+    {
+      "problem": 2,
+      "cores": 1,
+      "count": 100,
+      "mean_speedup": 1.0,
+      "raw_optimized_singlecore_ratio": 1.2014586335788489
+    },
+    {
+      "problem": 2,
+      "cores": 2,
+      "count": 100,
+      "mean_speedup": 2.2631854223274464,
+      "raw_optimized_singlecore_ratio": 2.2631854223274464
+    },
+    {
+      "problem": 2,
+      "cores": 3,
+      "count": 100,
+      "mean_speedup": 3.1677100585690763,
+      "raw_optimized_singlecore_ratio": 3.1677100585690763
+    },
+    {
+      "problem": 2,
+      "cores": 4,
+      "count": 100,
+      "mean_speedup": 3.9136933980240203,
+      "raw_optimized_singlecore_ratio": 3.9136933980240203
+    },
+    {
+      "problem": 2,
+      "cores": 5,
+      "count": 100,
+      "mean_speedup": 4.730723905435941,
+      "raw_optimized_singlecore_ratio": 4.730723905435941
+    },
+    {
+      "problem": 3,
+      "cores": 1,
+      "count": 100,
+      "mean_speedup": 1.0,
+      "raw_optimized_singlecore_ratio": 1.2011758384475673
+    },
+    {
+      "problem": 3,
+      "cores": 2,
+      "count": 100,
+      "mean_speedup": 2.264590929322452,
+      "raw_optimized_singlecore_ratio": 2.264590929322452
+    },
+    {
+      "problem": 3,
+      "cores": 3,
+      "count": 100,
+      "mean_speedup": 3.189593301122709,
+      "raw_optimized_singlecore_ratio": 3.189593301122709
+    },
+    {
+      "problem": 3,
+      "cores": 4,
+      "count": 100,
+      "mean_speedup": 3.9706219953375963,
+      "raw_optimized_singlecore_ratio": 3.9706219953375963
+    },
+    {
+      "problem": 3,
+      "cores": 5,
+      "count": 100,
+      "mean_speedup": 4.872482166360644,
+      "raw_optimized_singlecore_ratio": 4.872482166360644
+    }
+  ],
+  "source_revision": "6da5b56; imported controls retain original 7175300 provenance",
+  "scope": "Cumulative selected library; not a new complete cold matrix or controller-only score"
+}
