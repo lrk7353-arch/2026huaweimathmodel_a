@@ -42,8 +42,13 @@ def structural_route(ir, cores):
 
 
 def run(case, problem, cores, method, out, budget=12, seconds=120, seed=17,
-        evaluation_timeout=60, evaluation_dir=None, p3_refinement='legacy', proposal_budget=None):
+        evaluation_timeout=60, evaluation_dir=None, p3_refinement='legacy', proposal_budget=None,
+        operation_policy='legacy'):
+    if operation_policy not in ('legacy', 'paired_w200'):
+        raise ValueError('unknown operation policy')
     if method in ('integrated','local_legacy','wide_legacy','budget_greedy','budget_beam'):
+        if operation_policy != 'legacy':
+            raise ValueError('paired operation policy requires trace_routed/staged pipeline')
         if seed!=17 or p3_refinement!='legacy':raise ValueError('integrated pipeline requires seed17 and legacy p3-refinement flag')
         from cold_portfolio import run as integrated_run
         return integrated_run(case,problem,cores,method,out,budget,seconds,evaluation_timeout,evaluation_dir)
@@ -203,9 +208,35 @@ def run(case, problem, cores, method, out, budget=12, seconds=120, seed=17,
     else:
         # Operation proposals do not depend on an incumbent. Even if every
         # Component trial failed, they still have a chance to find feasibility.
-        pools['operation'].extend(generate('operation', generate_operation_candidates, ir, cores,
-                                           max_candidates=max(4, proposal_budget), seed=seed))
+        operation_candidates = generate('operation', generate_operation_candidates, ir, cores,
+                                        max_candidates=max(4, proposal_budget), seed=seed)
+        pools['operation'].extend(operation_candidates)
         consume(pools['operation'], 2, 'operation')
+        if operation_policy == 'paired_w200':
+            # Ownership and order form one complete candidate. Do not require
+            # the unrefined ownership to win an official call before repairing
+            # its ordering; that acceptance barrier hid strong stable-w200 layouts.
+            # The two established operation controls remain first. Every new
+            # evaluation consumes this pipeline's original shared budget.
+            from event_frontier import candidates as insertion_candidates
+            for wanted in ('op_stable_id_w200', 'op_critical_path_w200'):
+                if not available():
+                    break
+                source = next((c for c in operation_candidates
+                               if wanted == c['name'] or wanted in c.get('metadata', {}).get('aliases', [])), None)
+                if source is None:
+                    continue
+                t = time.monotonic()
+                try:
+                    c = next(insertion_candidates(ir, problem, cores, source['plan'], deadline))
+                    c = dict(c, name=wanted+'_fixed_insertion', metadata=dict(
+                        c['metadata'], source_family=source['metadata'], operation_policy=operation_policy))
+                    stages.append(dict(phase='paired_operation_generation', name=c['name'],
+                                       generation_seconds=time.monotonic()-t))
+                    apply(c, 'paired_operation')
+                except (StopIteration, TimeoutError, ValueError) as exc:
+                    stages.append(dict(phase='paired_operation_generation', name=wanted,
+                                       generation_seconds=time.monotonic()-t, error=repr(exc)))
         trace_limit = min(budget, len(calls) + 2) if problem == 3 else budget
         for round_index in range(3):
             if not available() or best is None or len(calls) >= trace_limit:
@@ -255,7 +286,7 @@ def run(case, problem, cores, method, out, budget=12, seconds=120, seed=17,
                   new_calls=sum(not trial['record'].get('cache_hit', False) for trial in calls),
                   elapsed_seconds=time.monotonic() - started, stop_reason=stopped,
                   budget=budget, proposal_budget=proposal_budget, soft_time_budget=seconds, evaluation_timeout=evaluation_timeout,
-                  evaluation_dir=str(evdir), p3_refinement=p3_refinement,
+                  evaluation_dir=str(evdir), p3_refinement=p3_refinement, operation_policy=operation_policy,
                   skipped=skipped, stages=stages,
                   scope='Experimental from-scratch P2/P3 pipeline; all initial/failure/cache-hit calls charged; '
                         'shared soft deadline includes graph loading and candidate generation; no historical incumbents; '

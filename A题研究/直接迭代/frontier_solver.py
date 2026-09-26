@@ -12,29 +12,31 @@ from common_run import DATA, GraphIR, atomic_json, evaluate, read_json, score
 from event_frontier import candidates
 
 
-def mature(case,problem,cores,out,budget,proposal_budget,seconds,timeout):
+def mature(case,problem,cores,out,budget,proposal_budget,seconds,timeout,operation_policy='legacy'):
     if problem==1:
         from cold_portfolio import run
         return run(case,problem,cores,'integrated',out,budget,seconds,timeout)
     from p23_pipeline import run
     return run(case,problem,cores,'trace_routed',out,budget,seconds,
                evaluation_timeout=timeout,evaluation_dir=Path(out)/'evaluations',
-               proposal_budget=proposal_budget)
+               proposal_budget=proposal_budget,operation_policy=operation_policy)
 
 
-def run(case,problem,cores,out,budget=24,seconds=240,timeout=60,variant='frontier'):
+def run(case,problem,cores,out,budget=24,seconds=240,timeout=60,variant='frontier',operation_policy='legacy'):
     if variant not in ('mature','frontier','frontier_wide'):
         raise ValueError('unknown variant')
     if budget<2 or problem not in (1,2,3) or cores not in range(1,6):
         raise ValueError('invalid scenario/core count/budget')
+    if operation_policy not in ('legacy','paired_w200') or (problem==1 and operation_policy!='legacy'):
+        raise ValueError('invalid operation policy for scenario')
     out=Path(out);out.mkdir(parents=True,exist_ok=False)
     started=time.monotonic();deadline=started+seconds
     reserve=0 if variant=='mature' else min(budget-1,4 if problem==1 or variant=='frontier_wide' else 1)
     atomic_json(out/'input.json',dict(case=case,problem=problem,cores=cores,variant=variant,
-        budget=budget,seconds=seconds,timeout=timeout,reserve=reserve,
+        budget=budget,seconds=seconds,timeout=timeout,reserve=reserve,operation_policy=operation_policy,
         scope='cold; shared total call cap and deadline; no historical input plans'))
     prefix=mature(case,problem,cores,out/'mature_prefix',budget-reserve,budget,
-                  max(.001,deadline-time.monotonic()),timeout)
+                  max(.001,deadline-time.monotonic()),timeout,operation_policy)
     calls=[dict(c,frontier_stage='mature_prefix') for c in prefix.get('calls',prefix.get('evaluations',[]))]
     assert len(calls)==prefix['logical_calls'] and len(calls)<=budget
     best=prefix.get('best_record');errors=[];generation_seconds=0.;proposals=[]
@@ -42,7 +44,7 @@ def run(case,problem,cores,out,budget=24,seconds=240,timeout=60,variant='frontie
           for c in calls if c['record'].get('plan_path')}
     def checkpoint(complete=False):
         result=dict(case=case,problem=problem,cores=cores,variant=variant,budget=budget,
-            logical_calls=len(calls),calls=calls,best_record=best,reserve=reserve,
+            logical_calls=len(calls),calls=calls,best_record=best,reserve=reserve,operation_policy=operation_policy,
             prefix_calls=prefix['logical_calls'],generation_seconds=generation_seconds,
             generation_errors=errors,elapsed_seconds=time.monotonic()-started,complete=complete,
             scope='cold start; no historical plans; all successful, failed and cached calls charged')
@@ -102,5 +104,6 @@ if __name__=='__main__':
     p.add_argument('--out',type=Path,required=True);p.add_argument('--budget',type=int,default=24)
     p.add_argument('--seconds',type=float,default=240);p.add_argument('--timeout',type=float,default=60)
     p.add_argument('--variant',choices=('mature','frontier','frontier_wide'),default='frontier')
-    a=p.parse_args();s=run(f'case_{a.case:03d}',a.problem,a.cores,a.out,a.budget,a.seconds,a.timeout,a.variant)
+    p.add_argument('--operation-policy',choices=('legacy','paired_w200'),default='legacy')
+    a=p.parse_args();s=run(f'case_{a.case:03d}',a.problem,a.cores,a.out,a.budget,a.seconds,a.timeout,a.variant,a.operation_policy)
     print(json.dumps(dict(calls=s['logical_calls'],best=score(s['best_record']) if s['best_record'] else None)))
