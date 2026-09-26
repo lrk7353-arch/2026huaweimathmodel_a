@@ -1,0 +1,10643 @@
+{
+  "passed": true,
+  "plans": 1500,
+  "exact_ordered_hashes": 1500,
+  "regressions": 0,
+  "improved_configurations": 816,
+  "independent_replays": 816,
+  "five_core": {
+    "1": {
+      "before": 3.827519367976939,
+      "after": 3.907244794831929,
+      "copy_before": 1826430554,
+      "copy_after": 1867292952
+    },
+    "2": {
+      "before": 4.668134535941024,
+      "after": 4.726023695868106,
+      "copy_before": 1136266784,
+      "copy_after": 1135054178
+    },
+    "3": {
+      "before": 4.804428555229012,
+      "after": 4.869796170198467,
+      "copy_before": 1099026750,
+      "copy_after": 1116467222
+    }
+  },
+  "p3_cache": {
+    "mean_graph_byte_hit_rate": 0.2789643939134009,
+    "weighted_byte_hit_rate": 0.313007098574289
+  },
+  "improvements": [
+    {
+      "case": "case_002",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        266518,
+        390144
+      ],
+      "after": [
+        261945,
+        0
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        136619,
+        56832
+      ],
+      "after": [
+        132881,
+        56832
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        124560,
+        565248
+      ],
+      "after": [
+        116122,
+        1701888
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        88895,
+        1594368
+      ],
+      "after": [
+        83979,
+        1692672
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        261945,
+        0
+      ],
+      "after": [
+        255849,
+        3316224
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        82013,
+        632832
+      ],
+      "after": [
+        81890,
+        669696
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        63304,
+        595968
+      ],
+      "after": [
+        62314,
+        595968
+      ]
+    },
+    {
+      "case": "case_002",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        261945,
+        0
+      ],
+      "after": [
+        251773,
+        2732544
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        602212,
+        0
+      ],
+      "after": [
+        453222,
+        745240
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        321883,
+        6032838
+      ],
+      "after": [
+        281188,
+        7582218
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        602212,
+        0
+      ],
+      "after": [
+        453222,
+        745240
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        321549,
+        6032838
+      ],
+      "after": [
+        279980,
+        7582474
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        392357,
+        0
+      ],
+      "after": [
+        386363,
+        0
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        197916,
+        125952
+      ],
+      "after": [
+        194802,
+        125952
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        130725,
+        1474560
+      ],
+      "after": [
+        130725,
+        221184
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        100636,
+        1474560
+      ],
+      "after": [
+        100126,
+        331776
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        392357,
+        0
+      ],
+      "after": [
+        386363,
+        0
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        197916,
+        125952
+      ],
+      "after": [
+        194802,
+        125952
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        130725,
+        1474560
+      ],
+      "after": [
+        130725,
+        221184
+      ]
+    },
+    {
+      "case": "case_004",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        100126,
+        1474560
+      ],
+      "after": [
+        100126,
+        1093632
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        95537,
+        319314
+      ],
+      "after": [
+        95439,
+        99558
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        95439,
+        99558
+      ],
+      "after": [
+        82206,
+        629612
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        95439,
+        99558
+      ],
+      "after": [
+        69681,
+        2543130
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        70732,
+        1362706
+      ],
+      "after": [
+        48777,
+        2086306
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        95618,
+        0
+      ],
+      "after": [
+        73787,
+        0
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        51025,
+        690726
+      ],
+      "after": [
+        40820,
+        710982
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        39002,
+        1152972
+      ],
+      "after": [
+        34420,
+        1262476
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        37038,
+        1555314
+      ],
+      "after": [
+        35287,
+        1555314
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        95618,
+        0
+      ],
+      "after": [
+        73787,
+        0
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        50990,
+        690726
+      ],
+      "after": [
+        40429,
+        710982
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        37103,
+        1152972
+      ],
+      "after": [
+        32392,
+        1152972
+      ]
+    },
+    {
+      "case": "case_005",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        34188,
+        1555314
+      ],
+      "after": [
+        31233,
+        1553010
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        82837,
+        16400
+      ],
+      "after": [
+        79627,
+        12800
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        45580,
+        91264
+      ],
+      "after": [
+        42234,
+        56200
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        31151,
+        13824
+      ],
+      "after": [
+        31151,
+        0
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        31151,
+        13824
+      ],
+      "after": [
+        28176,
+        232112
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        82837,
+        16400
+      ],
+      "after": [
+        77634,
+        0
+      ]
+    },
+    {
+      "case": "case_006",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        82837,
+        16400
+      ],
+      "after": [
+        77634,
+        0
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1013588,
+        82944
+      ],
+      "after": [
+        1012562,
+        0
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1012562,
+        0
+      ],
+      "after": [
+        979262,
+        0
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        506906,
+        35328
+      ],
+      "after": [
+        490226,
+        35328
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        338094,
+        55296
+      ],
+      "after": [
+        326994,
+        55296
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        254398,
+        82944
+      ],
+      "after": [
+        246030,
+        82944
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1012562,
+        0
+      ],
+      "after": [
+        979262,
+        0
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        506906,
+        35328
+      ],
+      "after": [
+        490226,
+        35328
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        338094,
+        55296
+      ],
+      "after": [
+        326994,
+        55296
+      ]
+    },
+    {
+      "case": "case_007",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        254398,
+        82944
+      ],
+      "after": [
+        246030,
+        82944
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        487605,
+        0
+      ],
+      "after": [
+        273527,
+        3981312
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        487605,
+        0
+      ],
+      "after": [
+        254001,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        244266,
+        0
+      ],
+      "after": [
+        129246,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        163359,
+        0
+      ],
+      "after": [
+        87867,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        123060,
+        0
+      ],
+      "after": [
+        67332,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        487605,
+        0
+      ],
+      "after": [
+        254001,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        244266,
+        0
+      ],
+      "after": [
+        129246,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        163359,
+        0
+      ],
+      "after": [
+        87867,
+        0
+      ]
+    },
+    {
+      "case": "case_008",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        123060,
+        0
+      ],
+      "after": [
+        67332,
+        0
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        153745,
+        80024
+      ],
+      "after": [
+        153261,
+        0
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        89561,
+        400018
+      ],
+      "after": [
+        89285,
+        400018
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        86698,
+        283696
+      ],
+      "after": [
+        81990,
+        603674
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        153261,
+        0
+      ],
+      "after": [
+        122105,
+        415618
+      ]
+    },
+    {
+      "case": "case_009",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        153261,
+        0
+      ],
+      "after": [
+        122068,
+        415618
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        86969,
+        0
+      ],
+      "after": [
+        83274,
+        618628
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        45626,
+        48384
+      ],
+      "after": [
+        45452,
+        48384
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        30689,
+        48384
+      ],
+      "after": [
+        30316,
+        10368
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        29780,
+        362880
+      ],
+      "after": [
+        26299,
+        510344
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        29780,
+        362880
+      ],
+      "after": [
+        25730,
+        690046
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        86969,
+        0
+      ],
+      "after": [
+        75081,
+        1282564
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        29848,
+        10368
+      ],
+      "after": [
+        29582,
+        48384
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        86969,
+        0
+      ],
+      "after": [
+        75081,
+        1282564
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        29848,
+        10368
+      ],
+      "after": [
+        29343,
+        59904
+      ]
+    },
+    {
+      "case": "case_010",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        29617,
+        133632
+      ],
+      "after": [
+        29582,
+        133632
+      ]
+    },
+    {
+      "case": "case_011",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        46880,
+        540672
+      ],
+      "after": [
+        46208,
+        1785856
+      ]
+    },
+    {
+      "case": "case_011",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        62289,
+        2535424
+      ],
+      "after": [
+        62289,
+        2531328
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        59088,
+        0
+      ],
+      "after": [
+        57268,
+        390744
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        29964,
+        13248
+      ],
+      "after": [
+        28993,
+        38016
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        19924,
+        32832
+      ],
+      "after": [
+        19914,
+        32832
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        59088,
+        0
+      ],
+      "after": [
+        35956,
+        0
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        26437,
+        12096
+      ],
+      "after": [
+        18675,
+        28800
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        17932,
+        32064
+      ],
+      "after": [
+        13844,
+        32832
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        14747,
+        3456
+      ],
+      "after": [
+        13059,
+        39168
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        59088,
+        0
+      ],
+      "after": [
+        35956,
+        0
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        26437,
+        12096
+      ],
+      "after": [
+        18542,
+        28800
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        17932,
+        32064
+      ],
+      "after": [
+        13842,
+        32832
+      ]
+    },
+    {
+      "case": "case_012",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        14747,
+        3456
+      ],
+      "after": [
+        13059,
+        39168
+      ]
+    },
+    {
+      "case": "case_013",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        264286,
+        8192
+      ],
+      "after": [
+        263949,
+        0
+      ]
+    },
+    {
+      "case": "case_013",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        66982,
+        24576
+      ],
+      "after": [
+        66946,
+        24576
+      ]
+    },
+    {
+      "case": "case_013",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        66958,
+        24576
+      ],
+      "after": [
+        66946,
+        24576
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        17662956,
+        56372640
+      ],
+      "after": [
+        17513386,
+        60734880
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        8816332,
+        84413112
+      ],
+      "after": [
+        8801137,
+        68858136
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        5963301,
+        82715304
+      ],
+      "after": [
+        5904919,
+        80211600
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        4517885,
+        98239944
+      ],
+      "after": [
+        4407508,
+        89135112
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        3674889,
+        91061544
+      ],
+      "after": [
+        3584500,
+        88929456
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        17589991,
+        58536768
+      ],
+      "after": [
+        17512146,
+        60734880
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        8799327,
+        84413112
+      ],
+      "after": [
+        8787064,
+        68858136
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        5949209,
+        82715304
+      ],
+      "after": [
+        5842901,
+        80211600
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        4484616,
+        98239944
+      ],
+      "after": [
+        4396449,
+        89135112
+      ]
+    },
+    {
+      "case": "case_014",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        3646327,
+        57797928
+      ],
+      "after": [
+        3574405,
+        88929456
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        177362,
+        180256
+      ],
+      "after": [
+        172989,
+        158984
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        87789,
+        342532
+      ],
+      "after": [
+        85515,
+        528384
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        61193,
+        521472
+      ],
+      "after": [
+        60827,
+        281864
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        50093,
+        532992
+      ],
+      "after": [
+        45588,
+        631296
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        177362,
+        180256
+      ],
+      "after": [
+        116048,
+        1083648
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        82882,
+        109824
+      ],
+      "after": [
+        67929,
+        1191168
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        49885,
+        231168
+      ],
+      "after": [
+        44529,
+        219648
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        33997,
+        313344
+      ],
+      "after": [
+        33367,
+        313344
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        177362,
+        180256
+      ],
+      "after": [
+        116048,
+        1083648
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        82882,
+        109824
+      ],
+      "after": [
+        67929,
+        1191168
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        54545,
+        208128
+      ],
+      "after": [
+        54371,
+        1355008
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        49853,
+        219648
+      ],
+      "after": [
+        44529,
+        219648
+      ]
+    },
+    {
+      "case": "case_015",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        33340,
+        313344
+      ],
+      "after": [
+        32109,
+        313344
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        162946,
+        22528
+      ],
+      "after": [
+        147373,
+        78336
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        83047,
+        87552
+      ],
+      "after": [
+        73090,
+        241920
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        56882,
+        176256
+      ],
+      "after": [
+        50095,
+        330624
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        162810,
+        22528
+      ],
+      "after": [
+        111337,
+        12288
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        71999,
+        87552
+      ],
+      "after": [
+        57263,
+        87552
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        49831,
+        175104
+      ],
+      "after": [
+        38685,
+        269972
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        37645,
+        259200
+      ],
+      "after": [
+        29762,
+        259200
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        162810,
+        22528
+      ],
+      "after": [
+        111337,
+        12288
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        71999,
+        87552
+      ],
+      "after": [
+        57263,
+        87552
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        49831,
+        175104
+      ],
+      "after": [
+        38445,
+        269972
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        37645,
+        259200
+      ],
+      "after": [
+        29762,
+        259200
+      ]
+    },
+    {
+      "case": "case_017",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        26934,
+        339840
+      ],
+      "after": [
+        25560,
+        330624
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1000826,
+        2535424
+      ],
+      "after": [
+        995710,
+        3612672
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        504468,
+        3253248
+      ],
+      "after": [
+        502024,
+        5085824
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        339838,
+        4075904
+      ],
+      "after": [
+        337171,
+        3821952
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        254635,
+        6577920
+      ],
+      "after": [
+        251851,
+        6790912
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1004367,
+        1970176
+      ],
+      "after": [
+        975003,
+        690176
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        502396,
+        3253248
+      ],
+      "after": [
+        486844,
+        1463296
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        337775,
+        4075904
+      ],
+      "after": [
+        325165,
+        2638208
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        254221,
+        4880128
+      ],
+      "after": [
+        247668,
+        4198144
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        196915,
+        4681728
+      ],
+      "after": [
+        196754,
+        4681728
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1003110,
+        1970176
+      ],
+      "after": [
+        974899,
+        690176
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        500499,
+        3253248
+      ],
+      "after": [
+        486465,
+        1463296
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        336999,
+        4075904
+      ],
+      "after": [
+        325023,
+        2638208
+      ]
+    },
+    {
+      "case": "case_018",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        253930,
+        4880128
+      ],
+      "after": [
+        244826,
+        3919616
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        81144,
+        0
+      ],
+      "after": [
+        78329,
+        0
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        41238,
+        27168
+      ],
+      "after": [
+        41238,
+        2592
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        18981,
+        289924
+      ],
+      "after": [
+        18885,
+        287332
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        77857,
+        0
+      ],
+      "after": [
+        49567,
+        0
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        31100,
+        1043448
+      ],
+      "after": [
+        26149,
+        2592
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        24938,
+        974368
+      ],
+      "after": [
+        22000,
+        27168
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        22443,
+        51744
+      ],
+      "after": [
+        22103,
+        51744
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        77857,
+        0
+      ],
+      "after": [
+        49567,
+        0
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        30570,
+        1043448
+      ],
+      "after": [
+        26149,
+        2592
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        23552,
+        974368
+      ],
+      "after": [
+        22000,
+        27168
+      ]
+    },
+    {
+      "case": "case_019",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        22443,
+        51744
+      ],
+      "after": [
+        22103,
+        51744
+      ]
+    },
+    {
+      "case": "case_020",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        534174,
+        0
+      ],
+      "after": [
+        532746,
+        0
+      ]
+    },
+    {
+      "case": "case_020",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        107494,
+        0
+      ],
+      "after": [
+        107187,
+        0
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        6484242,
+        5222400
+      ],
+      "after": [
+        6202244,
+        6656000
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        2118096,
+        5883904
+      ],
+      "after": [
+        2097306,
+        8755200
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        6567937,
+        4501504
+      ],
+      "after": [
+        6199721,
+        26124288
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        3193754,
+        3174400
+      ],
+      "after": [
+        3102874,
+        25079808
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        2101778,
+        6299648
+      ],
+      "after": [
+        2095417,
+        28008448
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        6558837,
+        4501504
+      ],
+      "after": [
+        6199721,
+        26124288
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        3192818,
+        3174400
+      ],
+      "after": [
+        3102874,
+        25079808
+      ]
+    },
+    {
+      "case": "case_021",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        2101648,
+        6299648
+      ],
+      "after": [
+        2095417,
+        28008448
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        56916,
+        6912
+      ],
+      "after": [
+        56129,
+        506880
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        28357,
+        13824
+      ],
+      "after": [
+        28344,
+        6912
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        19153,
+        20736
+      ],
+      "after": [
+        19006,
+        6912
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        14654,
+        13824
+      ],
+      "after": [
+        14610,
+        6912
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        56780,
+        0
+      ],
+      "after": [
+        54262,
+        0
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        28088,
+        6912
+      ],
+      "after": [
+        27246,
+        6912
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        18709,
+        17920
+      ],
+      "after": [
+        18346,
+        13824
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        14529,
+        13824
+      ],
+      "after": [
+        14333,
+        13824
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        56780,
+        0
+      ],
+      "after": [
+        54262,
+        0
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        27982,
+        323328
+      ],
+      "after": [
+        27181,
+        6912
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        18709,
+        17920
+      ],
+      "after": [
+        18320,
+        13824
+      ]
+    },
+    {
+      "case": "case_022",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        14529,
+        13824
+      ],
+      "after": [
+        14333,
+        13824
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        122614,
+        0
+      ],
+      "after": [
+        119735,
+        206976
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        61829,
+        74016
+      ],
+      "after": [
+        59249,
+        280992
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        40862,
+        354720
+      ],
+      "after": [
+        40825,
+        354720
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        30838,
+        281280
+      ],
+      "after": [
+        29988,
+        281280
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        122614,
+        0
+      ],
+      "after": [
+        69823,
+        0
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        122614,
+        0
+      ],
+      "after": [
+        69823,
+        0
+      ]
+    },
+    {
+      "case": "case_023",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        16725,
+        280992
+      ],
+      "after": [
+        16213,
+        280992
+      ]
+    },
+    {
+      "case": "case_024",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2560775,
+        2228372
+      ],
+      "after": [
+        2555343,
+        0
+      ]
+    },
+    {
+      "case": "case_024",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        1603810,
+        39327848
+      ],
+      "after": [
+        1603352,
+        39393384
+      ]
+    },
+    {
+      "case": "case_024",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        1315118,
+        39327848
+      ],
+      "after": [
+        1315117,
+        39393384
+      ]
+    },
+    {
+      "case": "case_024",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        1214514,
+        39328248
+      ],
+      "after": [
+        1214157,
+        39393784
+      ]
+    },
+    {
+      "case": "case_024",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        1095114,
+        39328048
+      ],
+      "after": [
+        1093563,
+        39393584
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        2431840,
+        27648
+      ],
+      "after": [
+        2351860,
+        27648
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        1622164,
+        55296
+      ],
+      "after": [
+        1568824,
+        55296
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        1217444,
+        82944
+      ],
+      "after": [
+        1177396,
+        82944
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        2431840,
+        27648
+      ],
+      "after": [
+        2351860,
+        27648
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        1622164,
+        55296
+      ],
+      "after": [
+        1568824,
+        55296
+      ]
+    },
+    {
+      "case": "case_025",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        1217444,
+        82944
+      ],
+      "after": [
+        1177396,
+        82944
+      ]
+    },
+    {
+      "case": "case_026",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        99203,
+        0
+      ],
+      "after": [
+        92662,
+        19200
+      ]
+    },
+    {
+      "case": "case_026",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        56614,
+        217872
+      ],
+      "after": [
+        51949,
+        2736
+      ]
+    },
+    {
+      "case": "case_026",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        99203,
+        0
+      ],
+      "after": [
+        86096,
+        1249280
+      ]
+    },
+    {
+      "case": "case_026",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        99203,
+        0
+      ],
+      "after": [
+        86096,
+        1249280
+      ]
+    },
+    {
+      "case": "case_026",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        41655,
+        95664
+      ],
+      "after": [
+        41481,
+        105264
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2319327,
+        1886208
+      ],
+      "after": [
+        2232560,
+        2211840
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        837049,
+        3686400
+      ],
+      "after": [
+        781183,
+        8441856
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        559196,
+        2211840
+      ],
+      "after": [
+        559196,
+        1843200
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        2363952,
+        1400832
+      ],
+      "after": [
+        2229905,
+        0
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        1120962,
+        1744896
+      ],
+      "after": [
+        1115722,
+        1105920
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        761753,
+        12165120
+      ],
+      "after": [
+        745692,
+        12165120
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        2359515,
+        1400832
+      ],
+      "after": [
+        2229905,
+        0
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        1120962,
+        1744896
+      ],
+      "after": [
+        1115722,
+        1105920
+      ]
+    },
+    {
+      "case": "case_027",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        761753,
+        12165120
+      ],
+      "after": [
+        745692,
+        12165120
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        43896686,
+        281067912
+      ],
+      "after": [
+        41029757,
+        326568960
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        20808437,
+        326568960
+      ],
+      "after": [
+        20554731,
+        326618112
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        14792144,
+        326568960
+      ],
+      "after": [
+        13817566,
+        326618112
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        12041229,
+        326568960
+      ],
+      "after": [
+        11630453,
+        326618112
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        43836040,
+        277412256
+      ],
+      "after": [
+        40346726,
+        147635712
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        13730603,
+        145554288
+      ],
+      "after": [
+        13360974,
+        32792832
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        10487595,
+        115615968
+      ],
+      "after": [
+        10044660,
+        25172352
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        43836040,
+        277412256
+      ],
+      "after": [
+        40597261,
+        141611064
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        13647648,
+        145554288
+      ],
+      "after": [
+        13360974,
+        32792832
+      ]
+    },
+    {
+      "case": "case_028",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        10445902,
+        115615968
+      ],
+      "after": [
+        10033676,
+        25172352
+      ]
+    },
+    {
+      "case": "case_030",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        933857,
+        9242624
+      ],
+      "after": [
+        931679,
+        11486208
+      ]
+    },
+    {
+      "case": "case_030",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        2808034,
+        5519360
+      ],
+      "after": [
+        2783863,
+        11663360
+      ]
+    },
+    {
+      "case": "case_030",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        932050,
+        8046592
+      ],
+      "after": [
+        930940,
+        12462080
+      ]
+    },
+    {
+      "case": "case_030",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        2807891,
+        5519360
+      ],
+      "after": [
+        2783811,
+        11663360
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1411124,
+        4666312
+      ],
+      "after": [
+        1408617,
+        5067762
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        727493,
+        5617152
+      ],
+      "after": [
+        711743,
+        6246634
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        484062,
+        6300672
+      ],
+      "after": [
+        484025,
+        5630976
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        394470,
+        7408128
+      ],
+      "after": [
+        365099,
+        7798194
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1414369,
+        3491328
+      ],
+      "after": [
+        1342133,
+        4904704
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        716905,
+        4631040
+      ],
+      "after": [
+        680485,
+        4885124
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        484947,
+        7348224
+      ],
+      "after": [
+        452413,
+        6380544
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        376640,
+        5047296
+      ],
+      "after": [
+        347666,
+        7232130
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        273240,
+        7215360
+      ],
+      "after": [
+        273131,
+        7215360
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1414159,
+        3491328
+      ],
+      "after": [
+        1347132,
+        3355142
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        716807,
+        4631040
+      ],
+      "after": [
+        679536,
+        4885124
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        484869,
+        7348224
+      ],
+      "after": [
+        450295,
+        6379520
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        376640,
+        5047296
+      ],
+      "after": [
+        344645,
+        7232130
+      ]
+    },
+    {
+      "case": "case_031",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        273059,
+        7215360
+      ],
+      "after": [
+        273027,
+        7217408
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        41443,
+        0
+      ],
+      "after": [
+        34743,
+        0
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        20719,
+        18504
+      ],
+      "after": [
+        17523,
+        6144
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        13587,
+        12288
+      ],
+      "after": [
+        11892,
+        6216
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        11010,
+        6216
+      ],
+      "after": [
+        10786,
+        79976
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        10110,
+        55440
+      ],
+      "after": [
+        9965,
+        36936
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        41443,
+        0
+      ],
+      "after": [
+        34152,
+        28672
+      ]
+    },
+    {
+      "case": "case_032",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        41443,
+        0
+      ],
+      "after": [
+        34152,
+        28672
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1763349,
+        4998144
+      ],
+      "after": [
+        1753237,
+        6715392
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        896305,
+        6261792
+      ],
+      "after": [
+        882364,
+        6588960
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        606115,
+        6759456
+      ],
+      "after": [
+        588558,
+        7154208
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        458833,
+        6648384
+      ],
+      "after": [
+        439903,
+        6648384
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        368019,
+        6668352
+      ],
+      "after": [
+        358547,
+        6668352
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1774196,
+        4592640
+      ],
+      "after": [
+        1738589,
+        4957184
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        881861,
+        5770272
+      ],
+      "after": [
+        869585,
+        6563360
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        587547,
+        6246432
+      ],
+      "after": [
+        581136,
+        7235648
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        442361,
+        5376576
+      ],
+      "after": [
+        434989,
+        7229024
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        358906,
+        7756416
+      ],
+      "after": [
+        349438,
+        7936128
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1774080,
+        4592640
+      ],
+      "after": [
+        1738241,
+        4957184
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        880331,
+        5770272
+      ],
+      "after": [
+        868519,
+        6563360
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        586217,
+        6246432
+      ],
+      "after": [
+        580115,
+        7235648
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        441272,
+        5376576
+      ],
+      "after": [
+        434850,
+        7229024
+      ]
+    },
+    {
+      "case": "case_033",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        356432,
+        16531092
+      ],
+      "after": [
+        349144,
+        7934592
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        837634,
+        1579032
+      ],
+      "after": [
+        831008,
+        942080
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        278077,
+        2015744
+      ],
+      "after": [
+        275037,
+        2015744
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        211980,
+        3116544
+      ],
+      "after": [
+        211623,
+        2450944
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        842996,
+        1079832
+      ],
+      "after": [
+        758553,
+        59904
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        380968,
+        1078784
+      ],
+      "after": [
+        374992,
+        1101312
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        256145,
+        1893376
+      ],
+      "after": [
+        250493,
+        1889280
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        158846,
+        2807808
+      ],
+      "after": [
+        150655,
+        2807808
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        842733,
+        1079832
+      ],
+      "after": [
+        758553,
+        59904
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        380968,
+        1078784
+      ],
+      "after": [
+        374992,
+        1101312
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        256145,
+        1893376
+      ],
+      "after": [
+        250493,
+        1889280
+      ]
+    },
+    {
+      "case": "case_034",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        158621,
+        2807808
+      ],
+      "after": [
+        150655,
+        2807808
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        171025,
+        56588
+      ],
+      "after": [
+        169571,
+        0
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        169571,
+        0
+      ],
+      "after": [
+        146202,
+        731080
+      ]
+    },
+    {
+      "case": "case_035",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        169571,
+        0
+      ],
+      "after": [
+        146202,
+        731080
+      ]
+    },
+    {
+      "case": "case_036",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        932330,
+        2304
+      ],
+      "after": [
+        931510,
+        0
+      ]
+    },
+    {
+      "case": "case_037",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        74038,
+        1064960
+      ],
+      "after": [
+        74038,
+        491520
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1353756,
+        7113216
+      ],
+      "after": [
+        1341551,
+        7580160
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        681518,
+        6790656
+      ],
+      "after": [
+        674823,
+        7569412
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        456502,
+        7908864
+      ],
+      "after": [
+        454023,
+        7984128
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1364555,
+        5627904
+      ],
+      "after": [
+        1328347,
+        4938752
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        677265,
+        6798848
+      ],
+      "after": [
+        666218,
+        5591552
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        457910,
+        5497344
+      ],
+      "after": [
+        446434,
+        5902848
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        339551,
+        6811648
+      ],
+      "after": [
+        334329,
+        6673920
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        274362,
+        7547392
+      ],
+      "after": [
+        269823,
+        8643072
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1363312,
+        5627904
+      ],
+      "after": [
+        1328347,
+        4938752
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        677060,
+        6798848
+      ],
+      "after": [
+        664974,
+        5591552
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        457545,
+        5411328
+      ],
+      "after": [
+        444979,
+        5902848
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        337655,
+        6811648
+      ],
+      "after": [
+        333874,
+        6676992
+      ]
+    },
+    {
+      "case": "case_038",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        270445,
+        7620096
+      ],
+      "after": [
+        267123,
+        8640000
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1408153,
+        10416128
+      ],
+      "after": [
+        1383648,
+        12918784
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        707704,
+        9543680
+      ],
+      "after": [
+        703600,
+        11231232
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        387558,
+        11976704
+      ],
+      "after": [
+        377811,
+        9801728
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        316542,
+        9805824
+      ],
+      "after": [
+        311228,
+        11124736
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1435262,
+        7929856
+      ],
+      "after": [
+        1381195,
+        10153984
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        707094,
+        19521536
+      ],
+      "after": [
+        692686,
+        13369344
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1435262,
+        7929856
+      ],
+      "after": [
+        1380227,
+        10153984
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        705335,
+        11067392
+      ],
+      "after": [
+        691136,
+        13369344
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        481474,
+        14344192
+      ],
+      "after": [
+        476822,
+        16646144
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        367436,
+        17604608
+      ],
+      "after": [
+        363337,
+        17469440
+      ]
+    },
+    {
+      "case": "case_039",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        289050,
+        16449536
+      ],
+      "after": [
+        288160,
+        20160512
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        253833,
+        113930
+      ],
+      "after": [
+        253454,
+        0
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        143594,
+        24576
+      ],
+      "after": [
+        129778,
+        24576
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        110105,
+        0
+      ],
+      "after": [
+        101341,
+        977534
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        110105,
+        0
+      ],
+      "after": [
+        94651,
+        1035452
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        87145,
+        1855276
+      ],
+      "after": [
+        85037,
+        1855276
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        253454,
+        0
+      ],
+      "after": [
+        223809,
+        0
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        137591,
+        20540
+      ],
+      "after": [
+        130824,
+        12288
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        253454,
+        0
+      ],
+      "after": [
+        223809,
+        0
+      ]
+    },
+    {
+      "case": "case_040",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        137591,
+        20540
+      ],
+      "after": [
+        130824,
+        12288
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        5963739,
+        30357504
+      ],
+      "after": [
+        5935418,
+        41610240
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        2992480,
+        33490944
+      ],
+      "after": [
+        2970651,
+        52224000
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        1993597,
+        33042432
+      ],
+      "after": [
+        1983173,
+        50727936
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        1494574,
+        33045504
+      ],
+      "after": [
+        1490051,
+        53409792
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        6003957,
+        30898176
+      ],
+      "after": [
+        5925894,
+        24450048
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        2990074,
+        33490944
+      ],
+      "after": [
+        2968333,
+        30394368
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        1991212,
+        34887680
+      ],
+      "after": [
+        1984993,
+        32312320
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        1490603,
+        39164928
+      ],
+      "after": [
+        1485492,
+        36000768
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        6001575,
+        30898176
+      ],
+      "after": [
+        5925504,
+        24450048
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        2985657,
+        33490944
+      ],
+      "after": [
+        2973456,
+        29000704
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        1989217,
+        33050624
+      ],
+      "after": [
+        1981686,
+        32323584
+      ]
+    },
+    {
+      "case": "case_041",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        1487676,
+        39164928
+      ],
+      "after": [
+        1483911,
+        36000768
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1674351,
+        8189952
+      ],
+      "after": [
+        1645054,
+        3621888
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        840111,
+        7262496
+      ],
+      "after": [
+        823838,
+        9815328
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        571947,
+        8251680
+      ],
+      "after": [
+        553947,
+        11658528
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        433223,
+        17044896
+      ],
+      "after": [
+        416893,
+        10946400
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        337038,
+        11748480
+      ],
+      "after": [
+        335169,
+        11748480
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1686740,
+        6629376
+      ],
+      "after": [
+        1621175,
+        1894400
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        834436,
+        7262496
+      ],
+      "after": [
+        822365,
+        3658016
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        566534,
+        8258848
+      ],
+      "after": [
+        565432,
+        5593376
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        437808,
+        8924448
+      ],
+      "after": [
+        430772,
+        8766464
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1675633,
+        6629376
+      ],
+      "after": [
+        1621175,
+        1894400
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        833725,
+        7262496
+      ],
+      "after": [
+        821855,
+        3658016
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        565883,
+        8258848
+      ],
+      "after": [
+        562499,
+        5593376
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        433925,
+        8924448
+      ],
+      "after": [
+        426450,
+        7608608
+      ]
+    },
+    {
+      "case": "case_042",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        348844,
+        10597376
+      ],
+      "after": [
+        347203,
+        8738816
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        200786,
+        7616098
+      ],
+      "after": [
+        198411,
+        4859778
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        657996,
+        856294
+      ],
+      "after": [
+        532953,
+        610242
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        352934,
+        458788
+      ],
+      "after": [
+        272847,
+        1698060
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        230366,
+        294068
+      ],
+      "after": [
+        218258,
+        1020724
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        230366,
+        294068
+      ],
+      "after": [
+        219424,
+        1434420
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        657961,
+        856294
+      ],
+      "after": [
+        532288,
+        1893060
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        352934,
+        458788
+      ],
+      "after": [
+        272945,
+        1701132
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        230321,
+        294068
+      ],
+      "after": [
+        218258,
+        1020724
+      ]
+    },
+    {
+      "case": "case_043",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        230321,
+        294068
+      ],
+      "after": [
+        219046,
+        1443636
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        162836,
+        4741728
+      ],
+      "after": [
+        96349,
+        222208
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        96349,
+        222208
+      ],
+      "after": [
+        68578,
+        807872
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        154407,
+        4438112
+      ],
+      "after": [
+        74567,
+        0
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        44806,
+        1020512
+      ],
+      "after": [
+        43839,
+        930400
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        107814,
+        4438112
+      ],
+      "after": [
+        74567,
+        0
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        43843,
+        1021024
+      ],
+      "after": [
+        43790,
+        930400
+      ]
+    },
+    {
+      "case": "case_044",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        43843,
+        1021024
+      ],
+      "after": [
+        43790,
+        930400
+      ]
+    },
+    {
+      "case": "case_045",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        125852,
+        0
+      ],
+      "after": [
+        125614,
+        0
+      ]
+    },
+    {
+      "case": "case_045",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        63059,
+        0
+      ],
+      "after": [
+        62983,
+        0
+      ]
+    },
+    {
+      "case": "case_045",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        42452,
+        0
+      ],
+      "after": [
+        42214,
+        0
+      ]
+    },
+    {
+      "case": "case_045",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        26153,
+        0
+      ],
+      "after": [
+        25770,
+        0
+      ]
+    },
+    {
+      "case": "case_046",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        276455,
+        3176288
+      ],
+      "after": [
+        230580,
+        6512800
+      ]
+    },
+    {
+      "case": "case_046",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        123920,
+        5365312
+      ],
+      "after": [
+        123055,
+        5709984
+      ]
+    },
+    {
+      "case": "case_046",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        276455,
+        3176288
+      ],
+      "after": [
+        209667,
+        0
+      ]
+    },
+    {
+      "case": "case_046",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        244994,
+        3176288
+      ],
+      "after": [
+        209667,
+        0
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        326508,
+        0
+      ],
+      "after": [
+        277066,
+        0
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        185848,
+        902790
+      ],
+      "after": [
+        155794,
+        763014
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        128075,
+        1560748
+      ],
+      "after": [
+        105024,
+        1709964
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        110320,
+        2112370
+      ],
+      "after": [
+        92456,
+        2149778
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        326508,
+        0
+      ],
+      "after": [
+        277066,
+        0
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        185722,
+        902790
+      ],
+      "after": [
+        155794,
+        762886
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        127936,
+        1560748
+      ],
+      "after": [
+        108690,
+        1560748
+      ]
+    },
+    {
+      "case": "case_047",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        109306,
+        2112370
+      ],
+      "after": [
+        91015,
+        2152850
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        222532,
+        42438
+      ],
+      "after": [
+        222220,
+        0
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        122039,
+        1391956
+      ],
+      "after": [
+        121830,
+        1391956
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        222220,
+        0
+      ],
+      "after": [
+        150456,
+        0
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        103645,
+        725004
+      ],
+      "after": [
+        99531,
+        758442
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        102067,
+        792656
+      ],
+      "after": [
+        96007,
+        1005518
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        97932,
+        1236440
+      ],
+      "after": [
+        94648,
+        880530
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        222220,
+        0
+      ],
+      "after": [
+        150456,
+        0
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        114065,
+        479718
+      ],
+      "after": [
+        102880,
+        479718
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        103311,
+        725004
+      ],
+      "after": [
+        98100,
+        725004
+      ]
+    },
+    {
+      "case": "case_048",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        101542,
+        792656
+      ],
+      "after": [
+        97526,
+        788560
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        196276,
+        0
+      ],
+      "after": [
+        195126,
+        31014
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        160206,
+        0
+      ],
+      "after": [
+        136116,
+        2369448
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        142360,
+        746906
+      ],
+      "after": [
+        90408,
+        2067380
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        141356,
+        353564
+      ],
+      "after": [
+        76895,
+        2090452
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        86941,
+        2643504
+      ],
+      "after": [
+        70626,
+        2098104
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        196276,
+        0
+      ],
+      "after": [
+        166548,
+        303504
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        121112,
+        3169338
+      ],
+      "after": [
+        103352,
+        3732258
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        196276,
+        0
+      ],
+      "after": [
+        166548,
+        303504
+      ]
+    },
+    {
+      "case": "case_049",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        121088,
+        3169338
+      ],
+      "after": [
+        103147,
+        3729574
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        149552,
+        96048
+      ],
+      "after": [
+        148006,
+        3456
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        102445,
+        64082
+      ],
+      "after": [
+        95363,
+        549142
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        91511,
+        466052
+      ],
+      "after": [
+        75788,
+        1083064
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        91511,
+        466052
+      ],
+      "after": [
+        66740,
+        1083064
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        77776,
+        907036
+      ],
+      "after": [
+        63801,
+        1029304
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        149690,
+        0
+      ],
+      "after": [
+        133500,
+        225996
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        149690,
+        0
+      ],
+      "after": [
+        133500,
+        225996
+      ]
+    },
+    {
+      "case": "case_050",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        55123,
+        1214252
+      ],
+      "after": [
+        44303,
+        1237226
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        180301,
+        0
+      ],
+      "after": [
+        166257,
+        105984
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        86401,
+        135168
+      ],
+      "after": [
+        84973,
+        208896
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        44240,
+        854016
+      ],
+      "after": [
+        37486,
+        328704
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        180301,
+        0
+      ],
+      "after": [
+        141828,
+        0
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        85972,
+        102912
+      ],
+      "after": [
+        71528,
+        232448
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        54776,
+        181248
+      ],
+      "after": [
+        48171,
+        181248
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        40702,
+        259584
+      ],
+      "after": [
+        36758,
+        259584
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        180301,
+        0
+      ],
+      "after": [
+        141828,
+        0
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        85972,
+        102912
+      ],
+      "after": [
+        71558,
+        186368
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        54776,
+        181248
+      ],
+      "after": [
+        48171,
+        181248
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        40702,
+        259584
+      ],
+      "after": [
+        36746,
+        259584
+      ]
+    },
+    {
+      "case": "case_052",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        31421,
+        382976
+      ],
+      "after": [
+        31139,
+        328704
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1471981,
+        6711364
+      ],
+      "after": [
+        1435336,
+        11271680
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1472686,
+        5405536
+      ],
+      "after": [
+        1217800,
+        136822
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1428109,
+        5405536
+      ],
+      "after": [
+        1217800,
+        136822
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        317827,
+        15784344
+      ],
+      "after": [
+        316525,
+        15784344
+      ]
+    },
+    {
+      "case": "case_054",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        815051,
+        0
+      ],
+      "after": [
+        577879,
+        985508
+      ]
+    },
+    {
+      "case": "case_054",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        467888,
+        8232922
+      ],
+      "after": [
+        439945,
+        1030306
+      ]
+    },
+    {
+      "case": "case_054",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        815051,
+        0
+      ],
+      "after": [
+        577771,
+        985508
+      ]
+    },
+    {
+      "case": "case_054",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        467045,
+        8232922
+      ],
+      "after": [
+        439923,
+        1030306
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        120124,
+        86016
+      ],
+      "after": [
+        104437,
+        32768
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        60867,
+        74240
+      ],
+      "after": [
+        52618,
+        32768
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        43004,
+        74240
+      ],
+      "after": [
+        41860,
+        57856
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        118835,
+        69632
+      ],
+      "after": [
+        70489,
+        0
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        51558,
+        16384
+      ],
+      "after": [
+        36179,
+        57856
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        40867,
+        68608
+      ],
+      "after": [
+        26196,
+        57856
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        29477,
+        197632
+      ],
+      "after": [
+        21855,
+        115712
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        118835,
+        69632
+      ],
+      "after": [
+        70489,
+        0
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        51557,
+        16384
+      ],
+      "after": [
+        36179,
+        57856
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        40867,
+        68608
+      ],
+      "after": [
+        26196,
+        57856
+      ]
+    },
+    {
+      "case": "case_055",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        29504,
+        197632
+      ],
+      "after": [
+        21340,
+        115712
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        277456,
+        432166
+      ],
+      "after": [
+        277285,
+        0
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        265710,
+        0
+      ],
+      "after": [
+        239013,
+        1570980
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        244205,
+        1764804
+      ],
+      "after": [
+        227837,
+        1590966
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        222412,
+        952620
+      ],
+      "after": [
+        219452,
+        2075000
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        138785,
+        4461966
+      ],
+      "after": [
+        136494,
+        4461966
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        277285,
+        0
+      ],
+      "after": [
+        246138,
+        89280
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        172826,
+        3631650
+      ],
+      "after": [
+        137372,
+        4124990
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        277285,
+        0
+      ],
+      "after": [
+        246138,
+        89280
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        172496,
+        3631650
+      ],
+      "after": [
+        137140,
+        4124990
+      ]
+    },
+    {
+      "case": "case_056",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        122455,
+        5819338
+      ],
+      "after": [
+        122012,
+        6410910
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        59726,
+        94216
+      ],
+      "after": [
+        59549,
+        1075284
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        33201,
+        70272
+      ],
+      "after": [
+        30180,
+        22016
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        22973,
+        70272
+      ],
+      "after": [
+        20844,
+        14400
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        18187,
+        70272
+      ],
+      "after": [
+        16485,
+        28224
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        59726,
+        94216
+      ],
+      "after": [
+        47719,
+        229384
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        32260,
+        1186582
+      ],
+      "after": [
+        25585,
+        94496
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        22235,
+        57640
+      ],
+      "after": [
+        17798,
+        288
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        17942,
+        288
+      ],
+      "after": [
+        14026,
+        288
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        59726,
+        94216
+      ],
+      "after": [
+        47719,
+        229384
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        29663,
+        1186582
+      ],
+      "after": [
+        25553,
+        69920
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        22235,
+        57640
+      ],
+      "after": [
+        17798,
+        288
+      ]
+    },
+    {
+      "case": "case_057",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        17942,
+        288
+      ],
+      "after": [
+        14026,
+        288
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        2260323,
+        30367744
+      ],
+      "after": [
+        2217447,
+        55418880
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        4539717,
+        28696576
+      ],
+      "after": [
+        4459065,
+        71098368
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        2263305,
+        29569024
+      ],
+      "after": [
+        2238588,
+        33644544
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        1554261,
+        30400512
+      ],
+      "after": [
+        1487365,
+        31199232
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        4539717,
+        28696576
+      ],
+      "after": [
+        4473866,
+        28766208
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        2262720,
+        29569024
+      ],
+      "after": [
+        2237150,
+        33644544
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        1554261,
+        30400512
+      ],
+      "after": [
+        1487365,
+        31199232
+      ]
+    },
+    {
+      "case": "case_058",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        1126957,
+        34217984
+      ],
+      "after": [
+        1115407,
+        43626496
+      ]
+    },
+    {
+      "case": "case_059",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        795946,
+        2621440
+      ],
+      "after": [
+        738390,
+        360448
+      ]
+    },
+    {
+      "case": "case_059",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        254768,
+        2117632
+      ],
+      "after": [
+        254073,
+        1081344
+      ]
+    },
+    {
+      "case": "case_059",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        150782,
+        4325376
+      ],
+      "after": [
+        150782,
+        1847296
+      ]
+    },
+    {
+      "case": "case_059",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        829473,
+        1691648
+      ],
+      "after": [
+        738041,
+        0
+      ]
+    },
+    {
+      "case": "case_059",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        815938,
+        1691648
+      ],
+      "after": [
+        738041,
+        0
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        457717,
+        3319936
+      ],
+      "after": [
+        437641,
+        2497668
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        312009,
+        8109056
+      ],
+      "after": [
+        291413,
+        6191488
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        231814,
+        3975424
+      ],
+      "after": [
+        226171,
+        4825344
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        888789,
+        2068520
+      ],
+      "after": [
+        727354,
+        2259072
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        427562,
+        2034816
+      ],
+      "after": [
+        364591,
+        2615424
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        298064,
+        1913856
+      ],
+      "after": [
+        244858,
+        2287748
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        225360,
+        3954944
+      ],
+      "after": [
+        194395,
+        3667328
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        887801,
+        2068520
+      ],
+      "after": [
+        727120,
+        2259072
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        427523,
+        2034816
+      ],
+      "after": [
+        364106,
+        3611780
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        297940,
+        1913856
+      ],
+      "after": [
+        244808,
+        2287748
+      ]
+    },
+    {
+      "case": "case_060",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        225156,
+        3954944
+      ],
+      "after": [
+        191705,
+        3841408
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        77396,
+        15360
+      ],
+      "after": [
+        76437,
+        26112
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        39298,
+        34560
+      ],
+      "after": [
+        38804,
+        27648
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        28342,
+        43008
+      ],
+      "after": [
+        26341,
+        36096
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        26992,
+        278016
+      ],
+      "after": [
+        22711,
+        103424
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        22272,
+        204420
+      ],
+      "after": [
+        19857,
+        198400
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        77191,
+        0
+      ],
+      "after": [
+        71663,
+        0
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        38566,
+        34560
+      ],
+      "after": [
+        36322,
+        34560
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        25837,
+        43008
+      ],
+      "after": [
+        24733,
+        43008
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        23801,
+        62208
+      ],
+      "after": [
+        21539,
+        62208
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        77191,
+        0
+      ],
+      "after": [
+        71663,
+        0
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        38566,
+        34560
+      ],
+      "after": [
+        36255,
+        34176
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        25837,
+        43008
+      ],
+      "after": [
+        24733,
+        43008
+      ]
+    },
+    {
+      "case": "case_061",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        23801,
+        62208
+      ],
+      "after": [
+        21539,
+        62208
+      ]
+    },
+    {
+      "case": "case_062",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2977362,
+        10254336
+      ],
+      "after": [
+        2872160,
+        110592
+      ]
+    },
+    {
+      "case": "case_062",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        2784050,
+        43739136
+      ],
+      "after": [
+        1441494,
+        130560
+      ]
+    },
+    {
+      "case": "case_062",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        1578487,
+        10948608
+      ],
+      "after": [
+        1578399,
+        10994688
+      ]
+    },
+    {
+      "case": "case_063",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1102415,
+        2949120
+      ],
+      "after": [
+        1070397,
+        0
+      ]
+    },
+    {
+      "case": "case_063",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        447415,
+        2543616
+      ],
+      "after": [
+        427051,
+        2614272
+      ]
+    },
+    {
+      "case": "case_063",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        549818,
+        15203328
+      ],
+      "after": [
+        533734,
+        12549120
+      ]
+    },
+    {
+      "case": "case_063",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        273116,
+        6474240
+      ],
+      "after": [
+        263190,
+        6047232
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        19116,
+        0
+      ],
+      "after": [
+        19044,
+        12262
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        17896,
+        48856
+      ],
+      "after": [
+        17896,
+        48564
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        17896,
+        48856
+      ],
+      "after": [
+        16555,
+        107724
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        16863,
+        48856
+      ],
+      "after": [
+        15095,
+        96914
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        18831,
+        0
+      ],
+      "after": [
+        16277,
+        0
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        14566,
+        33828
+      ],
+      "after": [
+        11107,
+        60454
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        10854,
+        102764
+      ],
+      "after": [
+        10212,
+        102252
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        9171,
+        122668
+      ],
+      "after": [
+        8662,
+        119534
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        18831,
+        0
+      ],
+      "after": [
+        16277,
+        0
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        14566,
+        33828
+      ],
+      "after": [
+        13331,
+        33828
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        10823,
+        102764
+      ],
+      "after": [
+        10189,
+        102252
+      ]
+    },
+    {
+      "case": "case_064",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        9149,
+        122668
+      ],
+      "after": [
+        9079,
+        122668
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        53068,
+        0
+      ],
+      "after": [
+        44748,
+        41472
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        26308,
+        41616
+      ],
+      "after": [
+        24568,
+        69264
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        18088,
+        69408
+      ],
+      "after": [
+        17893,
+        27936
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        13210,
+        96912
+      ],
+      "after": [
+        12248,
+        96912
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        53068,
+        0
+      ],
+      "after": [
+        29854,
+        0
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        23611,
+        13968
+      ],
+      "after": [
+        16086,
+        13968
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        17093,
+        27936
+      ],
+      "after": [
+        10514,
+        27792
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        12999,
+        41616
+      ],
+      "after": [
+        9773,
+        41616
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        8714,
+        55584
+      ],
+      "after": [
+        8456,
+        55584
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        53068,
+        0
+      ],
+      "after": [
+        29854,
+        0
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        23611,
+        13968
+      ],
+      "after": [
+        16067,
+        13968
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        17093,
+        27936
+      ],
+      "after": [
+        10514,
+        27792
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        12999,
+        41616
+      ],
+      "after": [
+        9505,
+        41616
+      ]
+    },
+    {
+      "case": "case_065",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        8334,
+        55584
+      ],
+      "after": [
+        8163,
+        55584
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        358492,
+        403768
+      ],
+      "after": [
+        357781,
+        391480
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        247728,
+        142662
+      ],
+      "after": [
+        221935,
+        1444054
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        160671,
+        3191810
+      ],
+      "after": [
+        157714,
+        1474830
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        134704,
+        3435846
+      ],
+      "after": [
+        118972,
+        1958292
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        359070,
+        0
+      ],
+      "after": [
+        280637,
+        0
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        359070,
+        0
+      ],
+      "after": [
+        280637,
+        0
+      ]
+    },
+    {
+      "case": "case_066",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        79793,
+        3261704
+      ],
+      "after": [
+        79059,
+        3261704
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        63950466,
+        261050752
+      ],
+      "after": [
+        63849288,
+        264024576
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        33768704,
+        264024576
+      ],
+      "after": [
+        32063428,
+        247756544
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        23568859,
+        263599744
+      ],
+      "after": [
+        23060132,
+        264909312
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        18473155,
+        263174912
+      ],
+      "after": [
+        16821472,
+        256139392
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        63834834,
+        264449408
+      ],
+      "after": [
+        60066399,
+        29110272
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        30166430,
+        60981632
+      ],
+      "after": [
+        29743067,
+        50651520
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        20034746,
+        62186240
+      ],
+      "after": [
+        19768878,
+        61002496
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        15025891,
+        69837952
+      ],
+      "after": [
+        14818727,
+        68594816
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        63834834,
+        264449408
+      ],
+      "after": [
+        60066399,
+        29110272
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        30145037,
+        60981632
+      ],
+      "after": [
+        29721725,
+        50667904
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        20005690,
+        62186240
+      ],
+      "after": [
+        19732687,
+        61002496
+      ]
+    },
+    {
+      "case": "case_067",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        14964449,
+        69837952
+      ],
+      "after": [
+        14790697,
+        68594816
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        361497,
+        359444
+      ],
+      "after": [
+        359162,
+        574888
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        302089,
+        200380
+      ],
+      "after": [
+        261866,
+        2286388
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        290734,
+        403836
+      ],
+      "after": [
+        178479,
+        3823206
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        287436,
+        657174
+      ],
+      "after": [
+        149252,
+        3816796
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        362095,
+        0
+      ],
+      "after": [
+        256826,
+        627670
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        204172,
+        2205494
+      ],
+      "after": [
+        165990,
+        2416760
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        153006,
+        3406314
+      ],
+      "after": [
+        132178,
+        3406314
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        142255,
+        3895504
+      ],
+      "after": [
+        129343,
+        4068370
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        362095,
+        0
+      ],
+      "after": [
+        256826,
+        627670
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        201418,
+        2205494
+      ],
+      "after": [
+        164057,
+        2405744
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        150684,
+        3406314
+      ],
+      "after": [
+        123381,
+        3402214
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        130760,
+        3895504
+      ],
+      "after": [
+        114757,
+        4068370
+      ]
+    },
+    {
+      "case": "case_068",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        114730,
+        4175156
+      ],
+      "after": [
+        114148,
+        4188824
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        25419,
+        24832
+      ],
+      "after": [
+        24830,
+        71044
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        24830,
+        71044
+      ],
+      "after": [
+        20314,
+        304534
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        22899,
+        192108
+      ],
+      "after": [
+        17375,
+        395940
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        17041,
+        626568
+      ],
+      "after": [
+        16793,
+        687822
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        15209,
+        549196
+      ],
+      "after": [
+        15046,
+        554768
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        25144,
+        0
+      ],
+      "after": [
+        19752,
+        0
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        13478,
+        322852
+      ],
+      "after": [
+        11609,
+        226118
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        10770,
+        341068
+      ],
+      "after": [
+        10493,
+        341068
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        25144,
+        0
+      ],
+      "after": [
+        19752,
+        0
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        13447,
+        322852
+      ],
+      "after": [
+        12078,
+        322852
+      ]
+    },
+    {
+      "case": "case_069",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        10221,
+        341068
+      ],
+      "after": [
+        9795,
+        341068
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        115224,
+        115200
+      ],
+      "after": [
+        113109,
+        161792
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        41525,
+        494592
+      ],
+      "after": [
+        38572,
+        494592
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        33986,
+        670208
+      ],
+      "after": [
+        29640,
+        568320
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        26669,
+        462848
+      ],
+      "after": [
+        25386,
+        449024
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        117300,
+        0
+      ],
+      "after": [
+        92008,
+        0
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        53120,
+        129536
+      ],
+      "after": [
+        46481,
+        129536
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        40678,
+        259072
+      ],
+      "after": [
+        31757,
+        259072
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        31817,
+        360960
+      ],
+      "after": [
+        24990,
+        360960
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        117300,
+        0
+      ],
+      "after": [
+        92008,
+        0
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        53120,
+        129536
+      ],
+      "after": [
+        46445,
+        129536
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        40678,
+        259072
+      ],
+      "after": [
+        31458,
+        259072
+      ]
+    },
+    {
+      "case": "case_070",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        31817,
+        360960
+      ],
+      "after": [
+        24990,
+        360960
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        18533,
+        313296
+      ],
+      "after": [
+        15802,
+        440614
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        17281,
+        148042
+      ],
+      "after": [
+        11375,
+        364122
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        13897,
+        465378
+      ],
+      "after": [
+        12884,
+        465378
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        17062,
+        0
+      ],
+      "after": [
+        14377,
+        0
+      ]
+    },
+    {
+      "case": "case_071",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        17062,
+        0
+      ],
+      "after": [
+        14377,
+        0
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        23718216,
+        91789712
+      ],
+      "after": [
+        23454874,
+        88848864
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        11789600,
+        105091120
+      ],
+      "after": [
+        11699495,
+        115911456
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        7915818,
+        117916336
+      ],
+      "after": [
+        7859153,
+        117308088
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        5959314,
+        123079600
+      ],
+      "after": [
+        5882529,
+        121713128
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        23822009,
+        83521584
+      ],
+      "after": [
+        23444619,
+        88848864
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        11775412,
+        105540384
+      ],
+      "after": [
+        11698667,
+        115911456
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        7902885,
+        119358128
+      ],
+      "after": [
+        7835275,
+        117308088
+      ]
+    },
+    {
+      "case": "case_072",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        5951324,
+        123079456
+      ],
+      "after": [
+        5854470,
+        121721176
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        10133074,
+        139772800
+      ],
+      "after": [
+        10081626,
+        141570432
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        5980423,
+        141121024
+      ],
+      "after": [
+        5280999,
+        136848128
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        4515227,
+        140671616
+      ],
+      "after": [
+        3837059,
+        137933440
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        3903787,
+        140222208
+      ],
+      "after": [
+        3459355,
+        142100736
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        10081626,
+        141570432
+      ],
+      "after": [
+        8206775,
+        188416
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        2863798,
+        7443200
+      ],
+      "after": [
+        2854038,
+        7443200
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        10081626,
+        141570432
+      ],
+      "after": [
+        8206775,
+        188416
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        2863798,
+        7443200
+      ],
+      "after": [
+        2854038,
+        7443200
+      ]
+    },
+    {
+      "case": "case_073",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        1751868,
+        22805504
+      ],
+      "after": [
+        1713089,
+        14886400
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1672889,
+        7536648
+      ],
+      "after": [
+        1628061,
+        4341760
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        826300,
+        7245824
+      ],
+      "after": [
+        820801,
+        5849088
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        548347,
+        7626752
+      ],
+      "after": [
+        543961,
+        7897088
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        330675,
+        8142848
+      ],
+      "after": [
+        329995,
+        6922240
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1682239,
+        6070280
+      ],
+      "after": [
+        1607310,
+        2392092
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        820615,
+        6176768
+      ],
+      "after": [
+        802539,
+        3588116
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        545184,
+        7626752
+      ],
+      "after": [
+        533495,
+        5079040
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        412510,
+        7225348
+      ],
+      "after": [
+        402467,
+        6586368
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1678120,
+        6070280
+      ],
+      "after": [
+        1605014,
+        2392092
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        819556,
+        6176768
+      ],
+      "after": [
+        801507,
+        3588116
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        543845,
+        7626752
+      ],
+      "after": [
+        530641,
+        5087232
+      ]
+    },
+    {
+      "case": "case_074",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        412345,
+        7225348
+      ],
+      "after": [
+        400221,
+        6586368
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1441809,
+        0
+      ],
+      "after": [
+        1138789,
+        0
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        745608,
+        3907972
+      ],
+      "after": [
+        626530,
+        8219270
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        458423,
+        7116882
+      ],
+      "after": [
+        432473,
+        12219250
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1441809,
+        0
+      ],
+      "after": [
+        1138789,
+        0
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        745220,
+        3907972
+      ],
+      "after": [
+        599976,
+        3907972
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        562643,
+        12172972
+      ],
+      "after": [
+        505606,
+        12181164
+      ]
+    },
+    {
+      "case": "case_075",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        455143,
+        7116882
+      ],
+      "after": [
+        424548,
+        12223346
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        6185113,
+        28280832
+      ],
+      "after": [
+        6116671,
+        22736896
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        3063348,
+        29871104
+      ],
+      "after": [
+        3060647,
+        28484608
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        2045432,
+        32451584
+      ],
+      "after": [
+        2044878,
+        32937984
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        6126965,
+        16629760
+      ],
+      "after": [
+        6116632,
+        22736896
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        3061439,
+        29871104
+      ],
+      "after": [
+        3059865,
+        28484608
+      ]
+    },
+    {
+      "case": "case_076",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        2044010,
+        32451584
+      ],
+      "after": [
+        2043746,
+        31208448
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        496124,
+        173148
+      ],
+      "after": [
+        493143,
+        172032
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        177148,
+        286720
+      ],
+      "after": [
+        174385,
+        172032
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        144734,
+        172032
+      ],
+      "after": [
+        131524,
+        383480
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        116241,
+        286720
+      ],
+      "after": [
+        115157,
+        257174
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        495320,
+        0
+      ],
+      "after": [
+        418664,
+        0
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        244870,
+        57344
+      ],
+      "after": [
+        216557,
+        73728
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        173746,
+        114688
+      ],
+      "after": [
+        149526,
+        114688
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        133684,
+        598016
+      ],
+      "after": [
+        118637,
+        188416
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        495320,
+        0
+      ],
+      "after": [
+        418664,
+        0
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        244870,
+        57344
+      ],
+      "after": [
+        216779,
+        73728
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        173746,
+        114688
+      ],
+      "after": [
+        147616,
+        131072
+      ]
+    },
+    {
+      "case": "case_077",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        133491,
+        598016
+      ],
+      "after": [
+        115215,
+        221184
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2296143,
+        12644568
+      ],
+      "after": [
+        2145252,
+        15039360
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        1080972,
+        15039360
+      ],
+      "after": [
+        1079997,
+        15088512
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        850256,
+        15039360
+      ],
+      "after": [
+        737869,
+        15580032
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        619540,
+        15039360
+      ],
+      "after": [
+        571864,
+        15211392
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        553407,
+        15862656
+      ],
+      "after": [
+        509682,
+        15678336
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        2296143,
+        12644568
+      ],
+      "after": [
+        2061245,
+        0
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        1029517,
+        2910336
+      ],
+      "after": [
+        1020602,
+        2148480
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        517385,
+        7595328
+      ],
+      "after": [
+        515192,
+        6445440
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        2296143,
+        12644568
+      ],
+      "after": [
+        2061245,
+        0
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        1029517,
+        2910336
+      ],
+      "after": [
+        1020602,
+        2148480
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        691338,
+        8567040
+      ],
+      "after": [
+        691121,
+        8593152
+      ]
+    },
+    {
+      "case": "case_078",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        515912,
+        7595328
+      ],
+      "after": [
+        515192,
+        6445440
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        14893820,
+        91508736
+      ],
+      "after": [
+        14772668,
+        57446400
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        9965372,
+        91508736
+      ],
+      "after": [
+        9860476,
+        59879424
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        7501148,
+        91508736
+      ],
+      "after": [
+        7404380,
+        62312448
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        6056359,
+        37085184
+      ],
+      "after": [
+        5972750,
+        83466240
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        31052251,
+        32448512
+      ],
+      "after": [
+        30161480,
+        67907584
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        15446486,
+        31780864
+      ],
+      "after": [
+        15123031,
+        64829440
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        10178800,
+        39981056
+      ],
+      "after": [
+        10064404,
+        70815744
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        7635624,
+        30445568
+      ],
+      "after": [
+        7465676,
+        52277248
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        31052251,
+        32448512
+      ],
+      "after": [
+        30801806,
+        35608576
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        15446486,
+        31780864
+      ],
+      "after": [
+        15207597,
+        38100992
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        10174866,
+        39981056
+      ],
+      "after": [
+        10110918,
+        43214848
+      ]
+    },
+    {
+      "case": "case_079",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        7635624,
+        30445568
+      ],
+      "after": [
+        7473390,
+        40062976
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        292124,
+        1048576
+      ],
+      "after": [
+        290776,
+        2801664
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        95868,
+        2793472
+      ],
+      "after": [
+        90584,
+        1904640
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        95868,
+        2793472
+      ],
+      "after": [
+        82527,
+        2539520
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        292138,
+        548864
+      ],
+      "after": [
+        289509,
+        827392
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        145926,
+        2191360
+      ],
+      "after": [
+        145224,
+        1904640
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        100325,
+        3047424
+      ],
+      "after": [
+        97325,
+        3047424
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        90653,
+        1650688
+      ],
+      "after": [
+        85451,
+        1650688
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        291826,
+        548864
+      ],
+      "after": [
+        289509,
+        827392
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        145674,
+        2191360
+      ],
+      "after": [
+        145224,
+        1904640
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        100325,
+        3047424
+      ],
+      "after": [
+        97325,
+        3047424
+      ]
+    },
+    {
+      "case": "case_080",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        90143,
+        4190208
+      ],
+      "after": [
+        84651,
+        4190208
+      ]
+    },
+    {
+      "case": "case_081",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        152305,
+        0
+      ],
+      "after": [
+        151795,
+        0
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        715454,
+        514706
+      ],
+      "after": [
+        708952,
+        562068
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        657900,
+        1030938
+      ],
+      "after": [
+        398820,
+        4371054
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        656864,
+        816014
+      ],
+      "after": [
+        488459,
+        11947636
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        427273,
+        2277584
+      ],
+      "after": [
+        237888,
+        5791742
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        356186,
+        6760886
+      ],
+      "after": [
+        196608,
+        4634628
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        721041,
+        0
+      ],
+      "after": [
+        597412,
+        960396
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        426708,
+        3885638
+      ],
+      "after": [
+        310774,
+        3885638
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        270489,
+        5756268
+      ],
+      "after": [
+        234596,
+        5756268
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        211881,
+        6752624
+      ],
+      "after": [
+        206265,
+        6538482
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        721041,
+        0
+      ],
+      "after": [
+        597412,
+        960396
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        426720,
+        3885638
+      ],
+      "after": [
+        309703,
+        3885638
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        269306,
+        5756268
+      ],
+      "after": [
+        233259,
+        5739884
+      ]
+    },
+    {
+      "case": "case_082",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        209447,
+        6752624
+      ],
+      "after": [
+        203902,
+        6530034
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1074172,
+        14977600
+      ],
+      "after": [
+        893785,
+        27912000
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        624895,
+        27912000
+      ],
+      "after": [
+        529309,
+        27944768
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        450029,
+        14977600
+      ],
+      "after": [
+        311694,
+        12305888
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1057993,
+        13934688
+      ],
+      "after": [
+        823296,
+        131072
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        315399,
+        11712704
+      ],
+      "after": [
+        288559,
+        1860800
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        265354,
+        11609888
+      ],
+      "after": [
+        210367,
+        2791200
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        946145,
+        13934688
+      ],
+      "after": [
+        823296,
+        131072
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        305255,
+        11712704
+      ],
+      "after": [
+        288559,
+        1860800
+      ]
+    },
+    {
+      "case": "case_083",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        250483,
+        11610912
+      ],
+      "after": [
+        210367,
+        2791200
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2509460,
+        0
+      ],
+      "after": [
+        2507668,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        2507412,
+        0
+      ],
+      "after": [
+        1268652,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        1253576,
+        9216
+      ],
+      "after": [
+        635532,
+        9216
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        836220,
+        0
+      ],
+      "after": [
+        424596,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        627552,
+        9216
+      ],
+      "after": [
+        319932,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 2,
+      "cores": 5,
+      "before": [
+        503472,
+        0
+      ],
+      "after": [
+        256584,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        2507412,
+        0
+      ],
+      "after": [
+        1268652,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        1253576,
+        9216
+      ],
+      "after": [
+        636068,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        836220,
+        0
+      ],
+      "after": [
+        424596,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        627552,
+        9216
+      ],
+      "after": [
+        319932,
+        0
+      ]
+    },
+    {
+      "case": "case_084",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        503472,
+        0
+      ],
+      "after": [
+        256584,
+        0
+      ]
+    },
+    {
+      "case": "case_085",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        3187899,
+        0
+      ],
+      "after": [
+        2707438,
+        10144936
+      ]
+    },
+    {
+      "case": "case_085",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        964456,
+        30035794
+      ],
+      "after": [
+        929675,
+        33196594
+      ]
+    },
+    {
+      "case": "case_085",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        3187899,
+        0
+      ],
+      "after": [
+        2707438,
+        10144936
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        117789,
+        459442
+      ],
+      "after": [
+        90636,
+        2707014
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        117789,
+        459442
+      ],
+      "after": [
+        81262,
+        2882314
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        86066,
+        1676764
+      ],
+      "after": [
+        58175,
+        2584534
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        118403,
+        0
+      ],
+      "after": [
+        92756,
+        171086
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        64138,
+        788550
+      ],
+      "after": [
+        49693,
+        899142
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        47404,
+        1305868
+      ],
+      "after": [
+        40972,
+        1419148
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        45893,
+        1780850
+      ],
+      "after": [
+        43989,
+        1946800
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        118403,
+        0
+      ],
+      "after": [
+        92756,
+        171086
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        64138,
+        788550
+      ],
+      "after": [
+        49309,
+        788550
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        45981,
+        1301260
+      ],
+      "after": [
+        39679,
+        1308172
+      ]
+    },
+    {
+      "case": "case_086",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        43507,
+        1780850
+      ],
+      "after": [
+        38497,
+        1780850
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        3974071,
+        7902720
+      ],
+      "after": [
+        3660759,
+        8097756
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        1973360,
+        6578688
+      ],
+      "after": [
+        1836261,
+        11026388
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        1322596,
+        10114560
+      ],
+      "after": [
+        1233023,
+        12004244
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        1003734,
+        11796480
+      ],
+      "after": [
+        956871,
+        12125012
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        3961605,
+        7736832
+      ],
+      "after": [
+        3660005,
+        8097756
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        1955672,
+        6216192
+      ],
+      "after": [
+        1835224,
+        11026388
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        1335295,
+        10985472
+      ],
+      "after": [
+        1230468,
+        11999636
+      ]
+    },
+    {
+      "case": "case_087",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        1022400,
+        13086720
+      ],
+      "after": [
+        954587,
+        12125012
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        243217,
+        178124
+      ],
+      "after": [
+        242011,
+        173904
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        201411,
+        348602
+      ],
+      "after": [
+        167259,
+        2055844
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        201396,
+        431884
+      ],
+      "after": [
+        130057,
+        2856214
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        186407,
+        894280
+      ],
+      "after": [
+        113512,
+        2942586
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        243623,
+        0
+      ],
+      "after": [
+        182214,
+        461958
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        135939,
+        1312570
+      ],
+      "after": [
+        109433,
+        1614074
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        95670,
+        2093894
+      ],
+      "after": [
+        86573,
+        2078542
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        89756,
+        2468882
+      ],
+      "after": [
+        85296,
+        2703122
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        243623,
+        0
+      ],
+      "after": [
+        182110,
+        461958
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        133987,
+        1312570
+      ],
+      "after": [
+        107989,
+        1614078
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        92714,
+        2093894
+      ],
+      "after": [
+        84044,
+        2078542
+      ]
+    },
+    {
+      "case": "case_088",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        82216,
+        2468882
+      ],
+      "after": [
+        77521,
+        2703122
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        694660,
+        954880
+      ],
+      "after": [
+        693092,
+        0
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        693092,
+        0
+      ],
+      "after": [
+        589412,
+        0
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        313368,
+        2204224
+      ],
+      "after": [
+        294992,
+        238720
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        230533,
+        7132416
+      ],
+      "after": [
+        206626,
+        477440
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        169868,
+        3906944
+      ],
+      "after": [
+        147992,
+        716160
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        693092,
+        0
+      ],
+      "after": [
+        589412,
+        0
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        313350,
+        2204224
+      ],
+      "after": [
+        294992,
+        238720
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        227310,
+        7132416
+      ],
+      "after": [
+        206626,
+        477440
+      ]
+    },
+    {
+      "case": "case_089",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        169216,
+        3906944
+      ],
+      "after": [
+        147992,
+        716160
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1174025,
+        21498480
+      ],
+      "after": [
+        1011768,
+        25781760
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        679752,
+        25781760
+      ],
+      "after": [
+        581249,
+        25818624
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        589444,
+        25781760
+      ],
+      "after": [
+        500965,
+        25824768
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        565296,
+        25781760
+      ],
+      "after": [
+        472483,
+        22465368
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1178363,
+        21233592
+      ],
+      "after": [
+        840883,
+        0
+      ]
+    },
+    {
+      "case": "case_090",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1178363,
+        21233592
+      ],
+      "after": [
+        840883,
+        0
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        9141689,
+        38633088
+      ],
+      "after": [
+        9040424,
+        38763680
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        4546046,
+        52254688
+      ],
+      "after": [
+        4511151,
+        52865312
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        2313039,
+        41001120
+      ],
+      "after": [
+        2286955,
+        69345792
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        9168820,
+        53947008
+      ],
+      "after": [
+        9038981,
+        38763680
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        4542858,
+        53119456
+      ],
+      "after": [
+        4508153,
+        52865312
+      ]
+    },
+    {
+      "case": "case_091",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        2300004,
+        66074432
+      ],
+      "after": [
+        2263593,
+        69345792
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        4912704,
+        71983424
+      ],
+      "after": [
+        4094470,
+        131186400
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        2821724,
+        131186400
+      ],
+      "after": [
+        2403007,
+        131219168
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        4815554,
+        66000096
+      ],
+      "after": [
+        3945094,
+        56614784
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        2126364,
+        19020384
+      ],
+      "after": [
+        1978704,
+        16527968
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        1357066,
+        10514624
+      ],
+      "after": [
+        1294505,
+        10282176
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        1122381,
+        39622432
+      ],
+      "after": [
+        971654,
+        6264608
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        4333631,
+        66000096
+      ],
+      "after": [
+        3958435,
+        34696704
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        2126411,
+        19020384
+      ],
+      "after": [
+        1958800,
+        56975776
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        1348155,
+        10514624
+      ],
+      "after": [
+        1291687,
+        10282176
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        1121490,
+        39622432
+      ],
+      "after": [
+        957768,
+        6264608
+      ]
+    },
+    {
+      "case": "case_092",
+      "problem": 3,
+      "cores": 5,
+      "before": [
+        751732,
+        4540800
+      ],
+      "after": [
+        750838,
+        4540800
+      ]
+    },
+    {
+      "case": "case_093",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        37559,
+        12288
+      ],
+      "after": [
+        37335,
+        16384
+      ]
+    },
+    {
+      "case": "case_093",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        19546,
+        28672
+      ],
+      "after": [
+        19545,
+        28672
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        94892,
+        0
+      ],
+      "after": [
+        88097,
+        138240
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        44002,
+        170784
+      ],
+      "after": [
+        41882,
+        276768
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        35671,
+        221472
+      ],
+      "after": [
+        31836,
+        221472
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        23422,
+        318816
+      ],
+      "after": [
+        22975,
+        318816
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        94892,
+        0
+      ],
+      "after": [
+        71257,
+        0
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        42158,
+        106272
+      ],
+      "after": [
+        36011,
+        106272
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        21760,
+        318816
+      ],
+      "after": [
+        18815,
+        318816
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        94892,
+        0
+      ],
+      "after": [
+        71257,
+        0
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        41343,
+        106272
+      ],
+      "after": [
+        36011,
+        106272
+      ]
+    },
+    {
+      "case": "case_094",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        21760,
+        318816
+      ],
+      "after": [
+        18815,
+        318816
+      ]
+    },
+    {
+      "case": "case_095",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        2086080,
+        0
+      ],
+      "after": [
+        1168265,
+        17031168
+      ]
+    },
+    {
+      "case": "case_095",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        2084853,
+        0
+      ],
+      "after": [
+        1073865,
+        0
+      ]
+    },
+    {
+      "case": "case_095",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        2084853,
+        0
+      ],
+      "after": [
+        1073865,
+        0
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        84343,
+        65664
+      ],
+      "after": [
+        83389,
+        0
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        46535,
+        120960
+      ],
+      "after": [
+        44056,
+        233604
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        26984,
+        78336
+      ],
+      "after": [
+        25448,
+        472016
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        84194,
+        0
+      ],
+      "after": [
+        54774,
+        137216
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        34851,
+        816880
+      ],
+      "after": [
+        32672,
+        103104
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        84194,
+        0
+      ],
+      "after": [
+        54774,
+        137216
+      ]
+    },
+    {
+      "case": "case_096",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        34370,
+        816880
+      ],
+      "after": [
+        32672,
+        103104
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        11215101,
+        12988416
+      ],
+      "after": [
+        10310468,
+        11927552
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        3577028,
+        29818880
+      ],
+      "after": [
+        3470498,
+        28311552
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        11491509,
+        10584064
+      ],
+      "after": [
+        10419693,
+        34676736
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        5601821,
+        11821056
+      ],
+      "after": [
+        5152906,
+        2555904
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        3651847,
+        16058368
+      ],
+      "after": [
+        3539857,
+        8544256
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        2624984,
+        14254080
+      ],
+      "after": [
+        2577788,
+        7667712
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        11491509,
+        10584064
+      ],
+      "after": [
+        10419693,
+        34676736
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        5601821,
+        11821056
+      ],
+      "after": [
+        5165085,
+        2664448
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        3651113,
+        16058368
+      ],
+      "after": [
+        3539857,
+        8589312
+      ]
+    },
+    {
+      "case": "case_097",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        2624356,
+        14254080
+      ],
+      "after": [
+        2583365,
+        7718912
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        177600,
+        0
+      ],
+      "after": [
+        167972,
+        1394228
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        89756,
+        0
+      ],
+      "after": [
+        89551,
+        0
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        89756,
+        0
+      ],
+      "after": [
+        70700,
+        786760
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        89756,
+        0
+      ],
+      "after": [
+        57378,
+        934216
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        82199,
+        1028624
+      ],
+      "after": [
+        47221,
+        934216
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        177430,
+        0
+      ],
+      "after": [
+        169595,
+        1566248
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        63811,
+        1054616
+      ],
+      "after": [
+        52286,
+        809756
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        177430,
+        0
+      ],
+      "after": [
+        169429,
+        1566248
+      ]
+    },
+    {
+      "case": "case_098",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        62695,
+        1054616
+      ],
+      "after": [
+        52728,
+        921372
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        1611716,
+        7073792
+      ],
+      "after": [
+        1603779,
+        7790592
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        807246,
+        8232960
+      ],
+      "after": [
+        802869,
+        9818112
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        537682,
+        9621504
+      ],
+      "after": [
+        537076,
+        9621504
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        1622999,
+        5484544
+      ],
+      "after": [
+        1596164,
+        6086016
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        809444,
+        3375104
+      ],
+      "after": [
+        799145,
+        7516160
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 2,
+      "cores": 3,
+      "before": [
+        539401,
+        8294400
+      ],
+      "after": [
+        533822,
+        8986624
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 2,
+      "cores": 4,
+      "before": [
+        405317,
+        9764864
+      ],
+      "after": [
+        400362,
+        5652480
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        1618902,
+        5484544
+      ],
+      "after": [
+        1596164,
+        6086016
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        806972,
+        7319552
+      ],
+      "after": [
+        799052,
+        7516160
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 3,
+      "cores": 3,
+      "before": [
+        538579,
+        8294400
+      ],
+      "after": [
+        533576,
+        8986624
+      ]
+    },
+    {
+      "case": "case_099",
+      "problem": 3,
+      "cores": 4,
+      "before": [
+        403402,
+        9764864
+      ],
+      "after": [
+        400362,
+        5652480
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        151461,
+        0
+      ],
+      "after": [
+        146801,
+        4608
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        82475,
+        534528
+      ],
+      "after": [
+        76311,
+        21504
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        57811,
+        72192
+      ],
+      "after": [
+        51023,
+        786472
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        57811,
+        0
+      ],
+      "after": [
+        51180,
+        1307176
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 2,
+      "cores": 1,
+      "before": [
+        151223,
+        0
+      ],
+      "after": [
+        139277,
+        0
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 2,
+      "cores": 2,
+      "before": [
+        80697,
+        3197966
+      ],
+      "after": [
+        72939,
+        4608
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 3,
+      "cores": 1,
+      "before": [
+        151223,
+        0
+      ],
+      "after": [
+        139277,
+        0
+      ]
+    },
+    {
+      "case": "case_100",
+      "problem": 3,
+      "cores": 2,
+      "before": [
+        79693,
+        3197966
+      ],
+      "after": [
+        72939,
+        4608
+      ]
+    }
+  ],
+  "scope": "portable plan legality, unchanged denominator, selected replay evidence; not cold performance"
+}
