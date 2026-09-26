@@ -1,0 +1,79 @@
+{
+  "scope": "100 graphs, 5 cores, released cold P3 plans; descriptive replay of saved events; no counterfactual simulation",
+  "official_calls_added": 0,
+  "sources": {
+    "cold_records_sha256": "795683226060878453c66f6c20675cafdf5c122a4a86d035af4b4eb48eb97798",
+    "events_sha256": "e6c7263c47e140c482e7c09a2f8c8a570ddd5e02c181296f7f8c3dfd3ba3a190",
+    "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "official_p3_sha256": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0"
+  },
+  "graph_count": 100,
+  "curves": [
+    {
+      "cores": 1,
+      "count": 100,
+      "mean_same_core_ratio": 0.9998585542801375,
+      "mean_hit_rate": 0.03761219141546903,
+      "pooled_hit_rate": 0.08427023922260989,
+      "same_plan_count": 92
+    },
+    {
+      "cores": 2,
+      "count": 100,
+      "mean_same_core_ratio": 0.9981453629542237,
+      "mean_hit_rate": 0.14586081542465093,
+      "pooled_hit_rate": 0.2380528601837007,
+      "same_plan_count": 67
+    },
+    {
+      "cores": 3,
+      "count": 100,
+      "mean_same_core_ratio": 1.0141698747674603,
+      "mean_hit_rate": 0.18759820002187766,
+      "pooled_hit_rate": 0.26498812174542963,
+      "same_plan_count": 62
+    },
+    {
+      "cores": 4,
+      "count": 100,
+      "mean_same_core_ratio": 1.0234798187923957,
+      "mean_hit_rate": 0.21307051466525354,
+      "pooled_hit_rate": 0.3013572545773965,
+      "same_plan_count": 55
+    },
+    {
+      "cores": 5,
+      "count": 100,
+      "mean_same_core_ratio": 1.0517990146616965,
+      "mean_hit_rate": 0.2528532357708029,
+      "pooled_hit_rate": 0.3409386969756455,
+      "same_plan_count": 43
+    }
+  ],
+  "totals": {
+    "hit_count": 77366,
+    "hit_bytes": 346140996,
+    "first_miss_count": 106053,
+    "first_miss_bytes": 318797114,
+    "pre_first_insert_repeat_miss_count": 5286,
+    "pre_first_insert_repeat_miss_bytes": 57441966,
+    "post_eviction_miss_count": 59194,
+    "post_eviction_miss_bytes": 292878676,
+    "oversize_miss_count": 0,
+    "oversize_miss_bytes": 0
+  },
+  "miss_total_bytes": 669117756,
+  "miss_byte_fractions": {
+    "first_miss_bytes": 0.4764439609341349,
+    "pre_first_insert_repeat_miss_bytes": 0.08584731982512209,
+    "post_eviction_miss_bytes": 0.437708719240743,
+    "oversize_miss_bytes": 0.0
+  },
+  "graphs_with_eviction": 59,
+  "graphs_without_eviction": 41,
+  "graphs_with_post_eviction_miss": 30,
+  "graphs_with_pre_insert_repeat": 83,
+  "graphs_with_both_pools_active": 83,
+  "graphs_without_hits": 15,
+  "checks": "All hit/miss event membership, FIFO order, eviction lists, occupancy, final entries, byte/count sums, timestamps, and provenance hashes match saved official records."
+}

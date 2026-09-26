@@ -1,0 +1,6 @@
+﻿name,makespan,hit_bytes,miss_bytes,hit_rate,static_added_copy
+long_follower_compute_simultaneous,3211,0,18000,0.0,6000
+long_follower_compute_staggered,3225,6000,12000,0.3333333333333333,6000
+short_compute_simultaneous,313,0,18000,0.0,6000
+short_compute_staggered,235,6000,12000,0.3333333333333333,6000
+simultaneous_cold_reads,410,0,12000,0.0,6000

@@ -1,0 +1,3778 @@
+{
+  "case_001": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000001203,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 1000001205,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_002": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000002596,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_003": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000013869,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 21,
+      "event": {
+        "time": 350,
+        "event": "hit",
+        "tensor_id": 1000000019,
+        "size_bytes": 128,
+        "core_id": 0,
+        "op_id": 1000013905,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 55,
+      "event": {
+        "time": 1602,
+        "event": "miss",
+        "tensor_id": 1000000031,
+        "size_bytes": 128,
+        "core_id": 3,
+        "op_id": 1000013954,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 8401,
+      "event": {
+        "time": 124662,
+        "event": "miss",
+        "tensor_id": 1000013710,
+        "size_bytes": 32768,
+        "core_id": 3,
+        "op_id": 1000038707,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_004": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 36864,
+        "core_id": 0,
+        "op_id": 1000001117,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 36864,
+        "core_id": 2,
+        "op_id": 1000001121,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 18,
+      "event": {
+        "time": 3335,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 36864,
+        "core_id": 1,
+        "op_id": 1000001119,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_005": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 2304,
+        "core_id": 0,
+        "op_id": 1000004315,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 195,
+        "event": "miss",
+        "tensor_id": 1000000017,
+        "size_bytes": 2,
+        "core_id": 1,
+        "op_id": 1000004339,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 38,
+      "event": {
+        "time": 670,
+        "event": "hit",
+        "tensor_id": 1000000019,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 1000004347,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_006": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 133,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 1843,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 136,
+      "event": {
+        "time": 5878,
+        "event": "hit",
+        "tensor_id": 1337,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 2071,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 188,
+      "event": {
+        "time": 6494,
+        "event": "miss",
+        "tensor_id": 1549,
+        "size_bytes": 4608,
+        "core_id": 3,
+        "op_id": 2153,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_007": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 9216,
+        "core_id": 0,
+        "op_id": 1000005557,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 9216,
+        "core_id": 1,
+        "op_id": 1000005559,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_008": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000001837,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_009": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000013,
+        "size_bytes": 32,
+        "core_id": 0,
+        "op_id": 1000006399,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 11,
+      "event": {
+        "time": 45,
+        "event": "hit",
+        "tensor_id": 1000000013,
+        "size_bytes": 32,
+        "core_id": 1,
+        "op_id": 1000006401,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 32,
+      "event": {
+        "time": 94,
+        "event": "miss",
+        "tensor_id": 1000000015,
+        "size_bytes": 2,
+        "core_id": 2,
+        "op_id": 1000006413,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_010": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 645,
+        "size_bytes": 9216,
+        "core_id": 0,
+        "op_id": 1971,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 645,
+        "size_bytes": 9216,
+        "core_id": 1,
+        "op_id": 1973,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 107,
+      "event": {
+        "time": 6020,
+        "event": "hit",
+        "tensor_id": 790,
+        "size_bytes": 2304,
+        "core_id": 0,
+        "op_id": 2069,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_011": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001057,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 4,
+        "op_id": 1000001063,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 32,
+      "event": {
+        "time": 1040,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001065,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_012": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 147,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 2917,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 13,
+      "event": {
+        "time": 175,
+        "event": "miss",
+        "tensor_id": 2177,
+        "size_bytes": 1152,
+        "core_id": 3,
+        "op_id": 3391,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 32,
+      "event": {
+        "time": 530,
+        "event": "hit",
+        "tensor_id": 2177,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 3387,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_013": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000004191,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 2,
+        "op_id": 1000004195,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 18,
+      "event": {
+        "time": 350,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000004201,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_014": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000885,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000040752,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 3,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 3,
+        "op_id": 1000040290,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 330,
+      "event": {
+        "time": 26740,
+        "event": "hit",
+        "tensor_id": 1000000885,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000040754,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 791,
+      "event": {
+        "time": 104340,
+        "event": "miss",
+        "tensor_id": 1000001397,
+        "size_bytes": 4608,
+        "core_id": 1,
+        "op_id": 1000043314,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_015": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 633,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 2937,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 3,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 393,
+        "size_bytes": 2304,
+        "core_id": 3,
+        "op_id": 2895,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 17,
+      "event": {
+        "time": 815,
+        "event": "hit",
+        "tensor_id": 393,
+        "size_bytes": 2304,
+        "core_id": 1,
+        "op_id": 2891,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_016": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 32768,
+        "core_id": 0,
+        "op_id": 1000018021,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 40,
+      "event": {
+        "time": 10275,
+        "event": "hit",
+        "tensor_id": 1000000005,
+        "size_bytes": 32768,
+        "core_id": 4,
+        "op_id": 1000018031,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_017": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 24576,
+        "core_id": 0,
+        "op_id": 3775,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 24576,
+        "core_id": 1,
+        "op_id": 3777,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 136,
+      "event": {
+        "time": 4690,
+        "event": "hit",
+        "tensor_id": 6,
+        "size_bytes": 24576,
+        "core_id": 0,
+        "op_id": 3785,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_018": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 6243,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 9550,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 45,
+      "event": {
+        "time": 1465,
+        "event": "miss",
+        "tensor_id": 1564,
+        "size_bytes": 4096,
+        "core_id": 3,
+        "op_id": 7548,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 68,
+      "event": {
+        "time": 2495,
+        "event": "hit",
+        "tensor_id": 1939,
+        "size_bytes": 8192,
+        "core_id": 2,
+        "op_id": 8570,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_019": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 870,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1805,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 73,
+      "event": {
+        "time": 1060,
+        "event": "miss",
+        "tensor_id": 113,
+        "size_bytes": 8192,
+        "core_id": 3,
+        "op_id": 1632,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 131,
+      "event": {
+        "time": 2560,
+        "event": "hit",
+        "tensor_id": 190,
+        "size_bytes": 768,
+        "core_id": 3,
+        "op_id": 1660,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_020": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000050,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000007881,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_021": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000004901,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000401,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000006903,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 195,
+      "event": {
+        "time": 10320,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 3,
+        "op_id": 1000004907,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1642,
+      "event": {
+        "time": 642888,
+        "event": "miss",
+        "tensor_id": 1000000037,
+        "size_bytes": 4096,
+        "core_id": 3,
+        "op_id": 1000005087,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_022": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 2505,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 3590,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 222,
+      "event": {
+        "time": 3977,
+        "event": "hit",
+        "tensor_id": 1869,
+        "size_bytes": 2304,
+        "core_id": 0,
+        "op_id": 3492,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_023": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1678,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 2714,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 100,
+      "event": {
+        "time": 2785,
+        "event": "miss",
+        "tensor_id": 1035,
+        "size_bytes": 24576,
+        "core_id": 2,
+        "op_id": 2596,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 132,
+      "event": {
+        "time": 3825,
+        "event": "hit",
+        "tensor_id": 2181,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 2854,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_024": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 32768,
+        "core_id": 0,
+        "op_id": 1000005985,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 40,
+      "event": {
+        "time": 10275,
+        "event": "hit",
+        "tensor_id": 1000000005,
+        "size_bytes": 32768,
+        "core_id": 4,
+        "op_id": 1000005995,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_025": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 9216,
+        "core_id": 0,
+        "op_id": 1000026667,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 9216,
+        "core_id": 2,
+        "op_id": 1000026671,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 18,
+      "event": {
+        "time": 900,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 9216,
+        "core_id": 1,
+        "op_id": 1000026669,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 5350,
+      "event": {
+        "time": 846504,
+        "event": "miss",
+        "tensor_id": 1000023992,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000037357,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_026": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 622,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 1968,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 24,
+      "event": {
+        "time": 2740,
+        "event": "hit",
+        "tensor_id": 90,
+        "size_bytes": 24576,
+        "core_id": 4,
+        "op_id": 1698,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 34,
+      "event": {
+        "time": 3983,
+        "event": "miss",
+        "tensor_id": 93,
+        "size_bytes": 24576,
+        "core_id": 3,
+        "op_id": 1702,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_027": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000361,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000002955,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 34,
+      "event": {
+        "time": 1375,
+        "event": "hit",
+        "tensor_id": 1000000015,
+        "size_bytes": 4096,
+        "core_id": 4,
+        "op_id": 1000002197,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 72,
+      "event": {
+        "time": 2741,
+        "event": "miss",
+        "tensor_id": 1000000455,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000003247,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 359,
+      "event": {
+        "time": 52558,
+        "event": "miss",
+        "tensor_id": 1000000635,
+        "size_bytes": 6144,
+        "core_id": 4,
+        "op_id": 1000003823,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_028": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000020152,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 1,
+        "op_id": 1000020154,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 315,
+      "event": {
+        "time": 136488,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000020162,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1440,
+      "event": {
+        "time": 7474608,
+        "event": "miss",
+        "tensor_id": 1000000103,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000020662,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_029": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000001282,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_030": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000439,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000012253,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 260,
+        "event": "miss",
+        "tensor_id": 1000000767,
+        "size_bytes": 4096,
+        "core_id": 2,
+        "op_id": 1000013719,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 109,
+      "event": {
+        "time": 3630,
+        "event": "hit",
+        "tensor_id": 1000000441,
+        "size_bytes": 3072,
+        "core_id": 1,
+        "op_id": 1000012263,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_031": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000003997,
+        "size_bytes": 96,
+        "core_id": 0,
+        "op_id": 1000010793,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 51,
+      "event": {
+        "time": 2133,
+        "event": "miss",
+        "tensor_id": 1000000705,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000010536,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 75,
+      "event": {
+        "time": 3155,
+        "event": "hit",
+        "tensor_id": 1000000619,
+        "size_bytes": 6144,
+        "core_id": 4,
+        "op_id": 1000010112,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 853,
+      "event": {
+        "time": 27963,
+        "event": "miss",
+        "tensor_id": 1000000015,
+        "size_bytes": 3072,
+        "core_id": 2,
+        "op_id": 1000007428,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_032": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1321,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 2467,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 87,
+      "event": {
+        "time": 1575,
+        "event": "miss",
+        "tensor_id": 1669,
+        "size_bytes": 2048,
+        "core_id": 3,
+        "op_id": 2507,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 97,
+      "event": {
+        "time": 1750,
+        "event": "hit",
+        "tensor_id": 1666,
+        "size_bytes": 2048,
+        "core_id": 4,
+        "op_id": 2503,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_033": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 2592,
+        "core_id": 0,
+        "op_id": 8643,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 2592,
+        "core_id": 1,
+        "op_id": 8645,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 32,
+      "event": {
+        "time": 2530,
+        "event": "hit",
+        "tensor_id": 430,
+        "size_bytes": 8192,
+        "core_id": 3,
+        "op_id": 8727,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 568,
+      "event": {
+        "time": 34375,
+        "event": "miss",
+        "tensor_id": 1045,
+        "size_bytes": 6144,
+        "core_id": 4,
+        "op_id": 8935,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_034": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 4410,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 10975,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 4410,
+        "size_bytes": 4096,
+        "core_id": 4,
+        "op_id": 10979,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 219,
+      "event": {
+        "time": 7260,
+        "event": "hit",
+        "tensor_id": 4632,
+        "size_bytes": 3072,
+        "core_id": 3,
+        "op_id": 11401,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_035": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 8777,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 20,
+      "event": {
+        "time": 144,
+        "event": "miss",
+        "tensor_id": 1146,
+        "size_bytes": 2,
+        "core_id": 4,
+        "op_id": 9219,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 24,
+      "event": {
+        "time": 178,
+        "event": "hit",
+        "tensor_id": 1143,
+        "size_bytes": 2,
+        "core_id": 2,
+        "op_id": 9211,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_036": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000004803,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 1000004805,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_037": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001161,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 4,
+        "op_id": 1000001163,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 322,
+      "event": {
+        "time": 10400,
+        "event": "hit",
+        "tensor_id": 1000000201,
+        "size_bytes": 2048,
+        "core_id": 2,
+        "op_id": 1000001641,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_038": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000003356,
+        "size_bytes": 1024,
+        "core_id": 0,
+        "op_id": 1000010770,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 21,
+      "event": {
+        "time": 560,
+        "event": "miss",
+        "tensor_id": 1000004175,
+        "size_bytes": 3072,
+        "core_id": 2,
+        "op_id": 1000013064,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 35,
+      "event": {
+        "time": 920,
+        "event": "hit",
+        "tensor_id": 1000004375,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000013960,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 819,
+      "event": {
+        "time": 20857,
+        "event": "miss",
+        "tensor_id": 1000003681,
+        "size_bytes": 4608,
+        "core_id": 4,
+        "op_id": 1000010942,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_039": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000006613,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000533,
+        "size_bytes": 8192,
+        "core_id": 1,
+        "op_id": 1000009275,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 258,
+      "event": {
+        "time": 16480,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 2,
+        "op_id": 1000006617,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 986,
+      "event": {
+        "time": 52222,
+        "event": "miss",
+        "tensor_id": 1000000005,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000006633,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_040": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1036,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 7746,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 12,
+      "event": {
+        "time": 130,
+        "event": "hit",
+        "tensor_id": 1048,
+        "size_bytes": 64,
+        "core_id": 1,
+        "op_id": 7762,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 14,
+      "event": {
+        "time": 130,
+        "event": "miss",
+        "tensor_id": 1051,
+        "size_bytes": 2,
+        "core_id": 4,
+        "op_id": 7778,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1475,
+      "event": {
+        "time": 41063,
+        "event": "miss",
+        "tensor_id": 5941,
+        "size_bytes": 16384,
+        "core_id": 3,
+        "op_id": 9555,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_041": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000017701,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000029591,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 92,
+      "event": {
+        "time": 3275,
+        "event": "hit",
+        "tensor_id": 1000001081,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000024125,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 327,
+      "event": {
+        "time": 12228,
+        "event": "miss",
+        "tensor_id": 1000001111,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000024275,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 545,
+      "event": {
+        "time": 21014,
+        "event": "miss",
+        "tensor_id": 1000000021,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000019299,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_042": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000103,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000005886,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000105,
+        "size_bytes": 6144,
+        "core_id": 4,
+        "op_id": 1000005900,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 38,
+      "event": {
+        "time": 1550,
+        "event": "hit",
+        "tensor_id": 1000000109,
+        "size_bytes": 6144,
+        "core_id": 2,
+        "op_id": 1000005910,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 681,
+      "event": {
+        "time": 24054,
+        "event": "miss",
+        "tensor_id": 1000000699,
+        "size_bytes": 3072,
+        "core_id": 3,
+        "op_id": 1000007780,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_043": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000120,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000010155,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 45,
+      "event": {
+        "time": 1083,
+        "event": "hit",
+        "tensor_id": 1000008444,
+        "size_bytes": 3072,
+        "core_id": 2,
+        "op_id": 1000010525,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 129,
+      "event": {
+        "time": 3291,
+        "event": "miss",
+        "tensor_id": 1000008464,
+        "size_bytes": 3072,
+        "core_id": 3,
+        "op_id": 1000010589,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1195,
+      "event": {
+        "time": 75693,
+        "event": "miss",
+        "tensor_id": 1000003424,
+        "size_bytes": 2,
+        "core_id": 1,
+        "op_id": 1000011980,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_044": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000001498,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 1,
+        "op_id": 1000001500,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 36,
+      "event": {
+        "time": 430,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000001502,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_045": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000919,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001996,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_046": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000001117,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 1,
+        "op_id": 1000001119,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_047": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 1024,
+        "core_id": 0,
+        "op_id": 1000014276,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 13,
+      "event": {
+        "time": 90,
+        "event": "miss",
+        "tensor_id": 1000000015,
+        "size_bytes": 64,
+        "core_id": 3,
+        "op_id": 1000014292,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 23,
+      "event": {
+        "time": 180,
+        "event": "hit",
+        "tensor_id": 1000000015,
+        "size_bytes": 64,
+        "core_id": 0,
+        "op_id": 1000014286,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_048": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000007,
+        "size_bytes": 64,
+        "core_id": 0,
+        "op_id": 1000002080,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000007,
+        "size_bytes": 64,
+        "core_id": 4,
+        "op_id": 1000002088,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 9,
+      "event": {
+        "time": 45,
+        "event": "hit",
+        "tensor_id": 1000000007,
+        "size_bytes": 64,
+        "core_id": 3,
+        "op_id": 1000002086,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_049": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 1024,
+        "core_id": 0,
+        "op_id": 9076,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 13,
+      "event": {
+        "time": 90,
+        "event": "miss",
+        "tensor_id": 27,
+        "size_bytes": 32,
+        "core_id": 3,
+        "op_id": 9110,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 29,
+      "event": {
+        "time": 184,
+        "event": "hit",
+        "tensor_id": 27,
+        "size_bytes": 32,
+        "core_id": 0,
+        "op_id": 9104,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1942,
+      "event": {
+        "time": 43628,
+        "event": "miss",
+        "tensor_id": 8762,
+        "size_bytes": 1152,
+        "core_id": 3,
+        "op_id": 15932,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_050": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 768,
+        "core_id": 0,
+        "op_id": 9752,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 70,
+      "event": {
+        "time": 865,
+        "event": "hit",
+        "tensor_id": 8303,
+        "size_bytes": 1152,
+        "core_id": 2,
+        "op_id": 9970,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_051": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 32768,
+        "core_id": 0,
+        "op_id": 1000001442,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 40,
+      "event": {
+        "time": 10275,
+        "event": "hit",
+        "tensor_id": 1000000005,
+        "size_bytes": 32768,
+        "core_id": 4,
+        "op_id": 1000001452,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_052": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1179,
+        "size_bytes": 768,
+        "core_id": 0,
+        "op_id": 3187,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 31,
+      "event": {
+        "time": 525,
+        "event": "miss",
+        "tensor_id": 1563,
+        "size_bytes": 4608,
+        "core_id": 1,
+        "op_id": 3291,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 49,
+      "event": {
+        "time": 985,
+        "event": "hit",
+        "tensor_id": 1563,
+        "size_bytes": 4608,
+        "core_id": 0,
+        "op_id": 3289,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_053": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000002083,
+        "size_bytes": 3456,
+        "core_id": 0,
+        "op_id": 1000013086,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000343,
+        "size_bytes": 288,
+        "core_id": 2,
+        "op_id": 1000012568,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 276,
+      "event": {
+        "time": 50820,
+        "event": "hit",
+        "tensor_id": 1000002099,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 1000013475,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 505,
+      "event": {
+        "time": 126565,
+        "event": "miss",
+        "tensor_id": 1000002099,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 1000013669,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_054": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000016485,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 13,
+      "event": {
+        "time": 130,
+        "event": "miss",
+        "tensor_id": 1000000021,
+        "size_bytes": 2,
+        "core_id": 3,
+        "op_id": 1000016531,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 25,
+      "event": {
+        "time": 253,
+        "event": "hit",
+        "tensor_id": 1000000021,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 1000016525,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 6833,
+      "event": {
+        "time": 103175,
+        "event": "miss",
+        "tensor_id": 1000000023,
+        "size_bytes": 2,
+        "core_id": 2,
+        "op_id": 1000016539,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_055": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 2306,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 3463,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 9,
+      "event": {
+        "time": 175,
+        "event": "miss",
+        "tensor_id": 1385,
+        "size_bytes": 13824,
+        "core_id": 0,
+        "op_id": 3347,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 203,
+      "event": {
+        "time": 6556,
+        "event": "hit",
+        "tensor_id": 1385,
+        "size_bytes": 13824,
+        "core_id": 2,
+        "op_id": 3351,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_056": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1024,
+        "core_id": 0,
+        "op_id": 1000008158,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 90,
+        "event": "miss",
+        "tensor_id": 1000000019,
+        "size_bytes": 32,
+        "core_id": 2,
+        "op_id": 1000008192,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 32,
+      "event": {
+        "time": 186,
+        "event": "hit",
+        "tensor_id": 1000000019,
+        "size_bytes": 32,
+        "core_id": 0,
+        "op_id": 1000008188,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_057": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 51,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 2259,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 200,
+      "event": {
+        "time": 5693,
+        "event": "hit",
+        "tensor_id": 1831,
+        "size_bytes": 4608,
+        "core_id": 3,
+        "op_id": 2523,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_058": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000005,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000018963,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000991,
+        "size_bytes": 8192,
+        "core_id": 2,
+        "op_id": 1000023037,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 544,
+      "event": {
+        "time": 32960,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000018979,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 614,
+      "event": {
+        "time": 35720,
+        "event": "hit",
+        "tensor_id": 1000000219,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000019847,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_059": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000003521,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000353,
+        "size_bytes": 2048,
+        "core_id": 1,
+        "op_id": 1000005283,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 355,
+      "event": {
+        "time": 11440,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 3,
+        "op_id": 1000003527,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_060": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000001745,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000007189,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000001745,
+        "size_bytes": 3072,
+        "core_id": 4,
+        "op_id": 1000007195,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 13,
+      "event": {
+        "time": 345,
+        "event": "hit",
+        "tensor_id": 1000001745,
+        "size_bytes": 3072,
+        "core_id": 2,
+        "op_id": 1000007193,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 794,
+      "event": {
+        "time": 21084,
+        "event": "miss",
+        "tensor_id": 1000001739,
+        "size_bytes": 3072,
+        "core_id": 4,
+        "op_id": 1000007167,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_061": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 2327,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 3693,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 3,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 3200,
+        "core_id": 3,
+        "op_id": 3165,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 76,
+      "event": {
+        "time": 1705,
+        "event": "hit",
+        "tensor_id": 3,
+        "size_bytes": 3200,
+        "core_id": 1,
+        "op_id": 3161,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_062": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000028362,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_063": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000010630,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_064": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 32,
+        "core_id": 0,
+        "op_id": 1000001049,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 8,
+      "event": {
+        "time": 25,
+        "event": "hit",
+        "tensor_id": 1000000009,
+        "size_bytes": 32,
+        "core_id": 4,
+        "op_id": 1000001057,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 82,
+      "event": {
+        "time": 626,
+        "event": "miss",
+        "tensor_id": 1000000030,
+        "size_bytes": 512,
+        "core_id": 3,
+        "op_id": 1000001114,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_065": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 753,
+        "size_bytes": 768,
+        "core_id": 0,
+        "op_id": 2209,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 90,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 4608,
+        "core_id": 4,
+        "op_id": 1991,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 55,
+      "event": {
+        "time": 1067,
+        "event": "hit",
+        "tensor_id": 3,
+        "size_bytes": 4608,
+        "core_id": 2,
+        "op_id": 1987,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_066": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000003964,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000012281,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000003974,
+        "size_bytes": 192,
+        "core_id": 4,
+        "op_id": 1000012307,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 15,
+      "event": {
+        "time": 520,
+        "event": "hit",
+        "tensor_id": 1000003974,
+        "size_bytes": 192,
+        "core_id": 1,
+        "op_id": 1000012303,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 2438,
+      "event": {
+        "time": 61885,
+        "event": "miss",
+        "tensor_id": 1000003791,
+        "size_bytes": 2304,
+        "core_id": 2,
+        "op_id": 1000012042,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_067": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000009118,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 1000009120,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 153,
+      "event": {
+        "time": 131902,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000009128,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_068": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000079,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000006321,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 14,
+      "event": {
+        "time": 260,
+        "event": "hit",
+        "tensor_id": 1000000083,
+        "size_bytes": 2,
+        "core_id": 1,
+        "op_id": 1000006337,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 29,
+      "event": {
+        "time": 1522,
+        "event": "miss",
+        "tensor_id": 1000000085,
+        "size_bytes": 2,
+        "core_id": 2,
+        "op_id": 1000006347,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_069": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 1536,
+        "core_id": 0,
+        "op_id": 1000001127,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 13,
+      "event": {
+        "time": 195,
+        "event": "miss",
+        "tensor_id": 1000000015,
+        "size_bytes": 2,
+        "core_id": 3,
+        "op_id": 1000001147,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 25,
+      "event": {
+        "time": 260,
+        "event": "hit",
+        "tensor_id": 1000000013,
+        "size_bytes": 96,
+        "core_id": 0,
+        "op_id": 1000001131,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_070": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 24576,
+        "core_id": 0,
+        "op_id": 3069,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 24576,
+        "core_id": 1,
+        "op_id": 3071,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 103,
+      "event": {
+        "time": 4850,
+        "event": "hit",
+        "tensor_id": 6,
+        "size_bytes": 24576,
+        "core_id": 0,
+        "op_id": 3079,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_071": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000011,
+        "size_bytes": 96,
+        "core_id": 0,
+        "op_id": 1000000835,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 12,
+      "event": {
+        "time": 195,
+        "event": "hit",
+        "tensor_id": 1000000011,
+        "size_bytes": 96,
+        "core_id": 1,
+        "op_id": 1000000837,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 14,
+      "event": {
+        "time": 195,
+        "event": "miss",
+        "tensor_id": 1000000013,
+        "size_bytes": 2,
+        "core_id": 3,
+        "op_id": 1000000851,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_072": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000025219,
+        "size_bytes": 48,
+        "core_id": 0,
+        "op_id": 1000044155,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 3,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 3,
+        "op_id": 1000032629,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 102,
+      "event": {
+        "time": 2905,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000032625,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 610,
+      "event": {
+        "time": 46830,
+        "event": "miss",
+        "tensor_id": 1000013217,
+        "size_bytes": 8192,
+        "core_id": 4,
+        "op_id": 1000042589,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_073": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000005054,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 1152,
+        "core_id": 1,
+        "op_id": 1000005056,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 91,
+      "event": {
+        "time": 2860,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 1152,
+        "core_id": 0,
+        "op_id": 1000005064,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_074": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 2392,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 9598,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 2392,
+        "size_bytes": 8192,
+        "core_id": 2,
+        "op_id": 9600,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 34,
+      "event": {
+        "time": 2060,
+        "event": "hit",
+        "tensor_id": 2389,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 9590,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 689,
+      "event": {
+        "time": 56195,
+        "event": "miss",
+        "tensor_id": 3,
+        "size_bytes": 8192,
+        "core_id": 3,
+        "op_id": 9110,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_075": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000007954,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "hit",
+        "tensor_id": 1000000011,
+        "size_bytes": 128,
+        "core_id": 0,
+        "op_id": 1000007974,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 79,
+      "event": {
+        "time": 3179,
+        "event": "miss",
+        "tensor_id": 1000000095,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000008146,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_076": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000013841,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000049446,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 4,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000012565,
+        "size_bytes": 3072,
+        "core_id": 4,
+        "op_id": 1000043074,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 474,
+      "event": {
+        "time": 12180,
+        "event": "hit",
+        "tensor_id": 1000012633,
+        "size_bytes": 3072,
+        "core_id": 3,
+        "op_id": 1000043412,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1368,
+      "event": {
+        "time": 29413,
+        "event": "miss",
+        "tensor_id": 1000012565,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000043066,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_077": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2304,
+        "core_id": 0,
+        "op_id": 1000005209,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 3,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000004418,
+        "size_bytes": 8192,
+        "core_id": 3,
+        "op_id": 1000005591,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 56,
+      "event": {
+        "time": 1185,
+        "event": "hit",
+        "tensor_id": 1000004418,
+        "size_bytes": 8192,
+        "core_id": 2,
+        "op_id": 1000005589,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 427,
+      "event": {
+        "time": 27907,
+        "event": "miss",
+        "tensor_id": 1000004259,
+        "size_bytes": 4096,
+        "core_id": 2,
+        "op_id": 1000006204,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_078": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000001157,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 1,
+        "op_id": 1000001159,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 25,
+      "event": {
+        "time": 1717,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000001167,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 889,
+      "event": {
+        "time": 312754,
+        "event": "miss",
+        "tensor_id": 1000000275,
+        "size_bytes": 3072,
+        "core_id": 2,
+        "op_id": 1000001980,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_079": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000021253,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000001057,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000026533,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 428,
+      "event": {
+        "time": 81764,
+        "event": "hit",
+        "tensor_id": 1000001061,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000026553,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1016,
+      "event": {
+        "time": 228368,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 1,
+        "op_id": 1000021255,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_080": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001675,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 1,
+        "op_id": 1000001677,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 224,
+      "event": {
+        "time": 14420,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000001683,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_081": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000005186,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_082": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000004299,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000015,
+        "size_bytes": 128,
+        "core_id": 2,
+        "op_id": 1000004327,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 24,
+      "event": {
+        "time": 690,
+        "event": "hit",
+        "tensor_id": 1000000015,
+        "size_bytes": 128,
+        "core_id": 0,
+        "op_id": 1000004323,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 1544,
+      "event": {
+        "time": 44417,
+        "event": "miss",
+        "tensor_id": 1000000007,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000004309,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_083": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000004038,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 1,
+        "op_id": 1000004040,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 93,
+      "event": {
+        "time": 4392,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000004048,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_084": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 1000018310,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_085": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000020241,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 14,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000021,
+        "size_bytes": 2,
+        "core_id": 4,
+        "op_id": 1000020293,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 19,
+      "event": {
+        "time": 554,
+        "event": "hit",
+        "tensor_id": 1000000021,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 1000020285,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 2308,
+      "event": {
+        "time": 71968,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 2,
+        "op_id": 1000020243,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_086": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000009,
+        "size_bytes": 2304,
+        "core_id": 0,
+        "op_id": 1000005479,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 12,
+      "event": {
+        "time": 195,
+        "event": "miss",
+        "tensor_id": 1000000019,
+        "size_bytes": 2,
+        "core_id": 2,
+        "op_id": 1000005507,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 25,
+      "event": {
+        "time": 330,
+        "event": "hit",
+        "tensor_id": 1000000017,
+        "size_bytes": 96,
+        "core_id": 2,
+        "op_id": 1000005497,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_087": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000011,
+        "size_bytes": 144,
+        "core_id": 0,
+        "op_id": 1000029580,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 45,
+      "event": {
+        "time": 1925,
+        "event": "hit",
+        "tensor_id": 1000009788,
+        "size_bytes": 4608,
+        "core_id": 3,
+        "op_id": 1000033508,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 504,
+      "event": {
+        "time": 22754,
+        "event": "miss",
+        "tensor_id": 1000009286,
+        "size_bytes": 4608,
+        "core_id": 4,
+        "op_id": 1000031234,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 595,
+      "event": {
+        "time": 27911,
+        "event": "miss",
+        "tensor_id": 1000009048,
+        "size_bytes": 4608,
+        "core_id": 2,
+        "op_id": 1000030192,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_088": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 102,
+        "size_bytes": 3072,
+        "core_id": 0,
+        "op_id": 7453,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 13,
+      "event": {
+        "time": 236,
+        "event": "hit",
+        "tensor_id": 111,
+        "size_bytes": 2,
+        "core_id": 0,
+        "op_id": 7465,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 44,
+      "event": {
+        "time": 1760,
+        "event": "miss",
+        "tensor_id": 135,
+        "size_bytes": 6144,
+        "core_id": 2,
+        "op_id": 7515,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_089": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 72,
+        "core_id": 0,
+        "op_id": 1000005349,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 72,
+        "core_id": 1,
+        "op_id": 1000005351,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_090": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000001812,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 648,
+        "core_id": 1,
+        "op_id": 1000001814,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 46,
+      "event": {
+        "time": 835,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 648,
+        "core_id": 0,
+        "op_id": 1000001822,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_091": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000759,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000035488,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 14,
+      "event": {
+        "time": 260,
+        "event": "miss",
+        "tensor_id": 1000001908,
+        "size_bytes": 4608,
+        "core_id": 4,
+        "op_id": 1000040444,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 79,
+      "event": {
+        "time": 2370,
+        "event": "hit",
+        "tensor_id": 1000001908,
+        "size_bytes": 4608,
+        "core_id": 0,
+        "op_id": 1000040436,
+        "op": "COPY_IN"
+      }
+    },
+    "post_eviction_miss": {
+      "event_index": 846,
+      "event": {
+        "time": 26616,
+        "event": "miss",
+        "tensor_id": 1000000946,
+        "size_bytes": 3072,
+        "core_id": 3,
+        "op_id": 1000035632,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_092": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000018135,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 288,
+        "core_id": 1,
+        "op_id": 1000018137,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 294,
+      "event": {
+        "time": 19494,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 288,
+        "core_id": 0,
+        "op_id": 1000018145,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_093": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000001182,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 2,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 2048,
+        "core_id": 2,
+        "op_id": 1000001186,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 17,
+      "event": {
+        "time": 350,
+        "event": "hit",
+        "tensor_id": 1000000003,
+        "size_bytes": 2048,
+        "core_id": 0,
+        "op_id": 1000001192,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_094": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1076,
+        "size_bytes": 4608,
+        "core_id": 0,
+        "op_id": 1842,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1076,
+        "size_bytes": 4608,
+        "core_id": 1,
+        "op_id": 1844,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 23,
+      "event": {
+        "time": 1075,
+        "event": "hit",
+        "tensor_id": 1076,
+        "size_bytes": 4608,
+        "core_id": 4,
+        "op_id": 1850,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_095": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 6144,
+        "core_id": 0,
+        "op_id": 1000007855,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_096": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 833,
+        "size_bytes": 1024,
+        "core_id": 0,
+        "op_id": 3524,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 37,
+      "event": {
+        "time": 1106,
+        "event": "miss",
+        "tensor_id": 593,
+        "size_bytes": 18432,
+        "core_id": 4,
+        "op_id": 3281,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 56,
+      "event": {
+        "time": 2562,
+        "event": "hit",
+        "tensor_id": 619,
+        "size_bytes": 768,
+        "core_id": 1,
+        "op_id": 3320,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_097": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 0,
+        "op_id": 1000008321,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 11,
+      "event": {
+        "time": 345,
+        "event": "miss",
+        "tensor_id": 1000000833,
+        "size_bytes": 6144,
+        "core_id": 1,
+        "op_id": 1000012483,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 35,
+      "event": {
+        "time": 1720,
+        "event": "hit",
+        "tensor_id": 1000000001,
+        "size_bytes": 4096,
+        "core_id": 3,
+        "op_id": 1000008327,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_098": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1142,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 3894,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 125,
+      "event": {
+        "time": 7591,
+        "event": "hit",
+        "tensor_id": 1145,
+        "size_bytes": 16384,
+        "core_id": 3,
+        "op_id": 3900,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 643,
+      "event": {
+        "time": 35199,
+        "event": "miss",
+        "tensor_id": 636,
+        "size_bytes": 2,
+        "core_id": 3,
+        "op_id": 3521,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_099": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000006762,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 1000011959,
+        "op": "COPY_IN"
+      }
+    },
+    "pre_first_insert_repeat_miss": {
+      "event_index": 1,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 1000006762,
+        "size_bytes": 8192,
+        "core_id": 1,
+        "op_id": 1000011961,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 104,
+      "event": {
+        "time": 8220,
+        "event": "hit",
+        "tensor_id": 1000006770,
+        "size_bytes": 8192,
+        "core_id": 0,
+        "op_id": 1000011999,
+        "op": "COPY_IN"
+      }
+    }
+  },
+  "case_100": {
+    "first_miss": {
+      "event_index": 0,
+      "event": {
+        "time": 0,
+        "event": "miss",
+        "tensor_id": 183,
+        "size_bytes": 16384,
+        "core_id": 0,
+        "op_id": 3551,
+        "op": "COPY_IN"
+      }
+    },
+    "hit": {
+      "event_index": 163,
+      "event": {
+        "time": 4273,
+        "event": "hit",
+        "tensor_id": 994,
+        "size_bytes": 18432,
+        "core_id": 2,
+        "op_id": 3637,
+        "op": "COPY_IN"
+      }
+    }
+  }
+}
