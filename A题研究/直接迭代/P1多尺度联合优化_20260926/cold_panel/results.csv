@@ -1,0 +1,13 @@
+﻿config,method,complete,status,makespan,added_copy,calls,failed,elapsed_seconds,stop_reason,generation_errors,summary_path
+case_004_p1_n5,integrated,True,success,88341,442368,12,0,2.3349007919896394,candidate_pools_exhausted,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_004_p1_n5/integrated/summary.json
+case_004_p1_n5,joint_tonight,True,success,88341,442368,13,0,5.258250250015408,candidate_pools_exhausted,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_004_p1_n5/joint_tonight/summary.json
+case_044_p1_n5,integrated,True,success,99310,319616,24,0,5.247931999969296,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_044_p1_n5/integrated/summary.json
+case_044_p1_n5,joint_tonight,True,success,90332,512192,24,0,5.550404541078024,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_044_p1_n5/joint_tonight/summary.json
+case_048_p1_n5,joint_tonight,True,success,147470,1098232,24,0,7.9011267920723185,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_048_p1_n5/joint_tonight/summary.json
+case_048_p1_n5,integrated,True,success,121708,1391956,24,0,9.812283915933222,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_048_p1_n5/integrated/summary.json
+case_035_p1_n5,integrated,True,success,90079,1379966,24,0,20.672507125069387,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_035_p1_n5/integrated/summary.json
+case_035_p1_n5,joint_tonight,True,success,90079,1379966,24,0,20.859485207940452,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_035_p1_n5/joint_tonight/summary.json
+case_044_p1_n2,integrated,True,success,96349,222208,8,0,2.460488499957137,candidate_pools_exhausted,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_044_p1_n2/integrated/summary.json
+case_044_p1_n2,joint_tonight,True,success,96349,222208,8,0,2.5114688749890774,candidate_pools_exhausted,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_044_p1_n2/joint_tonight/summary.json
+case_035_p1_n3,joint_tonight,True,success,95406,0,24,0,23.295877416967414,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_035_p1_n3/joint_tonight/summary.json
+case_035_p1_n3,integrated,True,success,95406,0,24,0,23.902113709016703,call_budget,0,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/slots/case_035_p1_n3/integrated/summary.json

@@ -1,0 +1,139 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/liyu/Desktop/中文题目/E题研究/.venv/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "matplotlib": "3.11.2",
+  "pillow": "12.3.0",
+  "candidate_rows": 27,
+  "success_rows": 27,
+  "source_tables": [
+    "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/逐次候选.csv",
+    "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/逐次候选.csv"
+  ],
+  "official_records_checked": true,
+  "cold_status": {
+    "status": "ready",
+    "source": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/cold_panel/results.csv",
+    "rows": 12,
+    "configurations": 6,
+    "distinct_graphs": 4
+  },
+  "normalization": "100 * (actual candidate / same-case parent - 1)",
+  "error_bars": "none; candidates are not independent replicates",
+  "exclusions": "none; failed attempts retained in CSV and explicitly marked if present",
+  "palette_contrast_on_white": {
+    "#333333": 12.63465434445799,
+    "#0072B2": 5.185446345779855,
+    "#B33D00": 5.858985038133429,
+    "#007A5E": 5.322595043546072,
+    "#946027": 5.30085501939241,
+    "#874D8B": 6.061399807554812,
+    "#526B8C": 5.467987299870166
+  },
+  "text_contrast_on_white": 15.909984431773273,
+  "contrast_caveat": "Marker shape and direct method labels provide redundant identity; ratios do not certify accessibility.",
+  "outputs": [
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/warm_all_candidates.pdf",
+      "bytes": 30291,
+      "width_inches": 7.3,
+      "height_inches": 4.7,
+      "page_points": [
+        0.0,
+        0.0,
+        525.6,
+        338.4
+      ],
+      "fonts": [
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        },
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        },
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        }
+      ]
+    },
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/warm_all_candidates.png",
+      "bytes": 204743,
+      "width_inches": 7.3,
+      "height_inches": 4.7,
+      "pixels": [
+        2190,
+        1410
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "mode": "RGBA",
+      "extrema_alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/warm_all_candidates.svg",
+      "bytes": 26683,
+      "width_inches": 7.3,
+      "height_inches": 4.7
+    },
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/cold_complete_routes.pdf",
+      "bytes": 26305,
+      "width_inches": 7.3,
+      "height_inches": 3.7,
+      "page_points": [
+        0.0,
+        0.0,
+        525.6,
+        266.4
+      ],
+      "fonts": [
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        },
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        },
+        {
+          "subtype": "/CIDFontType2",
+          "true_type_embedded": true
+        }
+      ]
+    },
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/cold_complete_routes.png",
+      "bytes": 122335,
+      "width_inches": 7.3,
+      "height_inches": 3.7,
+      "pixels": [
+        2190,
+        1110
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "mode": "RGBA",
+      "extrema_alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/论文证据/图表/cold_complete_routes.svg",
+      "bytes": 14989,
+      "width_inches": 7.3,
+      "height_inches": 3.7
+    }
+  ]
+}

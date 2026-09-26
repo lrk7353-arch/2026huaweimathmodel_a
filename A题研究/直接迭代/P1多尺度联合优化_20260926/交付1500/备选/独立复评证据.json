@@ -1,0 +1,894 @@
+[
+  {
+    "case": "case_047",
+    "source": "base_selected",
+    "replay": {
+      "attempt_id": "20260926T163022-c85a68d7045b48278ccadf2ee57975d6",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 160151,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4183970,
+          "added_copy_bytes": 3720028,
+          "partition_added_copy_bytes": 3720028,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8192,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 14336,
+            "UB": 6144
+          },
+          "2": {
+            "L1": 13824,
+            "UB": 23328
+          },
+          "3": {
+            "L1": 8192,
+            "UB": 8512
+          },
+          "4": {
+            "L1": 12800,
+            "UB": 24866
+          }
+        },
+        "cross_task_traffic": 1945056,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 171950080
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_selected/evaluations/attempts/20260926T163022-c85a68d7045b48278ccadf2ee57975d6/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_selected/evaluations/attempts/20260926T163022-c85a68d7045b48278ccadf2ee57975d6/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 2.607206750079058
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_selected/seed.json"
+  },
+  {
+    "case": "case_047",
+    "source": "relay_region_seed",
+    "replay": {
+      "attempt_id": "20260926T163108-4f88485a1a5e4bfb892b14d5e4954f60",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 322588,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 2681630,
+          "added_copy_bytes": 2217688,
+          "partition_added_copy_bytes": 2217688,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 32832,
+            "UB": 19876
+          },
+          "1": {
+            "L1": 10240,
+            "UB": 10306
+          },
+          "2": {
+            "L1": 7232,
+            "UB": 6416
+          },
+          "3": {
+            "L1": 9280,
+            "UB": 11808
+          },
+          "4": {
+            "L1": 10304,
+            "UB": 10594
+          }
+        },
+        "cross_task_traffic": 1101552,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 194265088
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_region/evaluations/attempts/20260926T163108-4f88485a1a5e4bfb892b14d5e4954f60/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_region/evaluations/attempts/20260926T163108-4f88485a1a5e4bfb892b14d5e4954f60/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 4.878616958972998
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_047_region/seed.json"
+  },
+  {
+    "case": "case_075",
+    "source": "base_selected",
+    "replay": {
+      "attempt_id": "20260926T163113-2748791bf6c443208de80678efe06e2e",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 424934,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1837190,
+          "scheduled_copy_bytes": 12443282,
+          "added_copy_bytes": 10606092,
+          "partition_added_copy_bytes": 10606092,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "1": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "2": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "4": {
+            "L1": 24576,
+            "UB": 16384
+          }
+        },
+        "cross_task_traffic": 5482416,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 119914496
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_075.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_selected/evaluations/attempts/20260926T163113-2748791bf6c443208de80678efe06e2e/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_selected/evaluations/attempts/20260926T163113-2748791bf6c443208de80678efe06e2e/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 1.9888905840925872
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_selected/seed.json"
+  },
+  {
+    "case": "case_075",
+    "source": "relay_region_seed",
+    "replay": {
+      "attempt_id": "20260926T163108-354555a0811145d3b28e4e37f2a1fa1f",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 724319,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1837190,
+          "scheduled_copy_bytes": 19745910,
+          "added_copy_bytes": 17908720,
+          "partition_added_copy_bytes": 17908720,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 24576,
+            "UB": 20480
+          },
+          "1": {
+            "L1": 24576,
+            "UB": 29186
+          },
+          "2": {
+            "L1": 24576,
+            "UB": 20480
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 33280
+          },
+          "4": {
+            "L1": 24576,
+            "UB": 20480
+          }
+        },
+        "cross_task_traffic": 10199360,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 174030848
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_075.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_region/evaluations/attempts/20260926T163108-354555a0811145d3b28e4e37f2a1fa1f/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_region/evaluations/attempts/20260926T163108-354555a0811145d3b28e4e37f2a1fa1f/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 7.301012166077271
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_075_region/seed.json"
+  },
+  {
+    "case": "case_085",
+    "source": "base_selected",
+    "replay": {
+      "attempt_id": "20260926T163115-00c9d76250e44397803b9297b57ec644",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 873645,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1689734,
+          "scheduled_copy_bytes": 25087990,
+          "added_copy_bytes": 23398256,
+          "partition_added_copy_bytes": 23398256,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "1": {
+            "L1": 28672,
+            "UB": 24576
+          },
+          "2": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 20610
+          },
+          "4": {
+            "L1": 40960,
+            "UB": 24576
+          }
+        },
+        "cross_task_traffic": 12895952,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 237191168
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_085.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_selected/evaluations/attempts/20260926T163115-00c9d76250e44397803b9297b57ec644/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_selected/evaluations/attempts/20260926T163115-00c9d76250e44397803b9297b57ec644/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 5.574610417010263
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_selected/seed.json"
+  },
+  {
+    "case": "case_085",
+    "source": "relay_region_seed",
+    "replay": {
+      "attempt_id": "20260926T163115-9a26269fe3ab49c8bae93b62aadc0b81",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 2081783,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1689734,
+          "scheduled_copy_bytes": 31177658,
+          "added_copy_bytes": 29487924,
+          "partition_added_copy_bytes": 29487924,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 24576,
+            "UB": 18688
+          },
+          "1": {
+            "L1": 24576,
+            "UB": 41600
+          },
+          "2": {
+            "L1": 24576,
+            "UB": 20480
+          },
+          "3": {
+            "L1": 75264,
+            "UB": 110144
+          },
+          "4": {
+            "L1": 24576,
+            "UB": 24640
+          }
+        },
+        "cross_task_traffic": 16201472,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 299253760
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_085.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_region/evaluations/attempts/20260926T163115-9a26269fe3ab49c8bae93b62aadc0b81/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_region/evaluations/attempts/20260926T163115-9a26269fe3ab49c8bae93b62aadc0b81/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 17.36493416700978
+    },
+    "ordered_plan_matches": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/seeds/case_085_region/seed.json"
+  },
+  {
+    "case": "case_047",
+    "source": "relay_verified",
+    "replay": {
+      "attempt_id": "20260926T164013-e8662bf8c7764ed3b700afc0287f70bf",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 159950,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4350980,
+          "added_copy_bytes": 3887038,
+          "partition_added_copy_bytes": 3887038,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 21744
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 13824,
+            "UB": 23328
+          },
+          "4": {
+            "L1": 12288,
+            "UB": 6144
+          }
+        },
+        "cross_task_traffic": 2064864,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 169263104
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/evaluations/case_047/attempts/20260926T164013-e8662bf8c7764ed3b700afc0287f70bf/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/evaluations/case_047/attempts/20260926T164013-e8662bf8c7764ed3b700afc0287f70bf/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 2.997551666921936
+    },
+    "ordered_plan_matches": true,
+    "original": {
+      "attempt_id": "20260926T163233-7a8ec1a217b8466f8327c3895349cfb3",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 159950,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4350980,
+          "added_copy_bytes": 3887038,
+          "partition_added_copy_bytes": 3887038,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 21744
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 13824,
+            "UB": 23328
+          },
+          "4": {
+            "L1": 12288,
+            "UB": 6144
+          }
+        },
+        "cross_task_traffic": 2064864,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 174161920
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/arms/case_047_selected/legacy_joint/evaluations/call_001/attempts/20260926T163233-7a8ec1a217b8466f8327c3895349cfb3/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/arms/case_047_selected/legacy_joint/evaluations/call_001/attempts/20260926T163233-7a8ec1a217b8466f8327c3895349cfb3/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 3.3429446250665933
+    },
+    "independent_attempts": true,
+    "deterministic_metrics_match": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_047.verification.json"
+  },
+  {
+    "case": "case_075",
+    "source": "relay_verified",
+    "replay": {
+      "attempt_id": "20260926T164016-fd3c5f01e26a435391096f906a1ec4a2",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 422465,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1837190,
+          "scheduled_copy_bytes": 12476050,
+          "added_copy_bytes": 10638860,
+          "partition_added_copy_bytes": 10638860,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "1": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "2": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "4": {
+            "L1": 24576,
+            "UB": 16384
+          }
+        },
+        "cross_task_traffic": 5498800,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 119996416
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_075.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/evaluations/case_075/attempts/20260926T164016-fd3c5f01e26a435391096f906a1ec4a2/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/evaluations/case_075/attempts/20260926T164016-fd3c5f01e26a435391096f906a1ec4a2/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 1.9853530830005184
+    },
+    "ordered_plan_matches": true,
+    "original": {
+      "attempt_id": "20260926T163358-78e7d9b6bee442bbacf97d9f8231daf6",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 422465,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1837190,
+          "scheduled_copy_bytes": 12476050,
+          "added_copy_bytes": 10638860,
+          "partition_added_copy_bytes": 10638860,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "1": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "2": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 16384
+          },
+          "4": {
+            "L1": 24576,
+            "UB": 16384
+          }
+        },
+        "cross_task_traffic": 5498800,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 120029184
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_075.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/arms/case_075_selected/legacy_joint/evaluations/call_001/attempts/20260926T163358-78e7d9b6bee442bbacf97d9f8231daf6/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/run_v1/arms/case_075_selected/legacy_joint/evaluations/call_001/attempts/20260926T163358-78e7d9b6bee442bbacf97d9f8231daf6/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 2.297343624988571
+    },
+    "independent_attempts": true,
+    "deterministic_metrics_match": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_075.verification.json"
+  },
+  {
+    "case": "case_047",
+    "source": "run_v1_legacy",
+    "replay": {
+      "attempt_id": "20260926T173422-32f80f1f15474087acd750860432af3e",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 158429,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4371304,
+          "added_copy_bytes": 3907362,
+          "partition_added_copy_bytes": 3907362,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 21744
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 12288,
+            "UB": 20000
+          },
+          "4": {
+            "L1": 13824,
+            "UB": 23328
+          }
+        },
+        "cross_task_traffic": 2084752,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 158875648
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/acceptance/evaluations/case_047/attempts/20260926T173422-32f80f1f15474087acd750860432af3e/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/acceptance/evaluations/case_047/attempts/20260926T173422-32f80f1f15474087acd750860432af3e/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 3.248104041093029
+    },
+    "ordered_plan_matches": true,
+    "original": {
+      "attempt_id": "20260926T173136-7da47a9f404143eab37aa6db1f82d175",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 158429,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4371304,
+          "added_copy_bytes": 3907362,
+          "partition_added_copy_bytes": 3907362,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 21744
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 12288,
+            "UB": 20000
+          },
+          "4": {
+            "L1": 13824,
+            "UB": 23328
+          }
+        },
+        "cross_task_traffic": 2084752,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 174555136
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/arms/case_047/legacy/evaluations/call_01/attempts/20260926T173136-7da47a9f404143eab37aa6db1f82d175/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/arms/case_047/legacy/evaluations/call_01/attempts/20260926T173136-7da47a9f404143eab37aa6db1f82d175/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 3.2325822500279173
+    },
+    "independent_attempts": true,
+    "deterministic_metrics_match": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/acceptance/summary.json"
+  },
+  {
+    "case": "case_047",
+    "source": "run_v2_cpsat_warm",
+    "replay": {
+      "attempt_id": "20260926T174225-6882ea1e86a04e48929d546adbab6ca0",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 158234,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4430848,
+          "added_copy_bytes": 3966906,
+          "partition_added_copy_bytes": 3966906,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 8512
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 13824,
+            "UB": 23328
+          },
+          "4": {
+            "L1": 12288,
+            "UB": 6144
+          }
+        },
+        "cross_task_traffic": 2127200,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 160399360
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/evaluations/case_047/attempts/20260926T174225-6882ea1e86a04e48929d546adbab6ca0/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/evaluations/case_047/attempts/20260926T174225-6882ea1e86a04e48929d546adbab6ca0/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 3.2473534590099007
+    },
+    "ordered_plan_matches": true,
+    "original": {
+      "attempt_id": "20260926T174004-35387af972034c308d33efa7310a77d8",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 158234,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 463942,
+          "scheduled_copy_bytes": 4430848,
+          "added_copy_bytes": 3966906,
+          "partition_added_copy_bytes": 3966906,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 8256,
+            "UB": 21744
+          },
+          "1": {
+            "L1": 8192,
+            "UB": 8512
+          },
+          "2": {
+            "L1": 12800,
+            "UB": 24866
+          },
+          "3": {
+            "L1": 13824,
+            "UB": 23328
+          },
+          "4": {
+            "L1": 12288,
+            "UB": 6144
+          }
+        },
+        "cross_task_traffic": 2127200,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 170983424
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_047.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/arms/case_047/cpsat_warm/evaluations/call_01/attempts/20260926T174004-35387af972034c308d33efa7310a77d8/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/arms/case_047/cpsat_warm/evaluations/call_01/attempts/20260926T174004-35387af972034c308d33efa7310a77d8/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 3.5309851249912754
+    },
+    "independent_attempts": true,
+    "deterministic_metrics_match": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/summary.json"
+  },
+  {
+    "case": "case_085",
+    "source": "run_v2_cpsat_intact",
+    "replay": {
+      "attempt_id": "20260926T174229-81f7037cf3544d04aa9b50ca23b816a8",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 872469,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1689734,
+          "scheduled_copy_bytes": 25087990,
+          "added_copy_bytes": 23398256,
+          "partition_added_copy_bytes": 23398256,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "1": {
+            "L1": 28672,
+            "UB": 24576
+          },
+          "2": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 20610
+          },
+          "4": {
+            "L1": 40960,
+            "UB": 24576
+          }
+        },
+        "cross_task_traffic": 12895952,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 212123648
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_085.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/evaluations/case_085/attempts/20260926T174229-81f7037cf3544d04aa9b50ca23b816a8/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/evaluations/case_085/attempts/20260926T174229-81f7037cf3544d04aa9b50ca23b816a8/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 5.807699375087395
+    },
+    "ordered_plan_matches": true,
+    "original": {
+      "attempt_id": "20260926T174020-d9b894ad7ed244d1ac4e57db6524e9bf",
+      "status": "success",
+      "problem": 1,
+      "metrics": {
+        "makespan": 872469,
+        "num_cores": 5,
+        "data_movement_bytes": {
+          "original_graph_copy_bytes": 1689734,
+          "scheduled_copy_bytes": 25087990,
+          "added_copy_bytes": 23398256,
+          "partition_added_copy_bytes": 23398256,
+          "spill_added_copy_bytes": 0
+        },
+        "memory_peak_by_core": {
+          "0": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "1": {
+            "L1": 28672,
+            "UB": 24576
+          },
+          "2": {
+            "L1": 36864,
+            "UB": 20610
+          },
+          "3": {
+            "L1": 24576,
+            "UB": 20610
+          },
+          "4": {
+            "L1": 40960,
+            "UB": 24576
+          }
+        },
+        "cross_task_traffic": 12895952,
+        "capacity_bytes": {
+          "L1": 524288,
+          "UB": 131072
+        },
+        "bandwidth_bytes_per_cycle": 60,
+        "active_cores": 5,
+        "peak_memory_bytes": 222904320
+      },
+      "graph_path": "/Users/liyu/Desktop/A题P1最新审阅/选题分析/A题附件/data/case_085.json",
+      "plan_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/arms/case_085/cpsat_intact/evaluations/call_01/attempts/20260926T174020-d9b894ad7ed244d1ac4e57db6524e9bf/plan.json",
+      "source_record_path": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/arms/case_085/cpsat_intact/evaluations/call_01/attempts/20260926T174020-d9b894ad7ed244d1ac4e57db6524e9bf/record.json",
+      "independent_cache_hit": false,
+      "elapsed_seconds": 6.1631297919666395
+    },
+    "independent_attempts": true,
+    "deterministic_metrics_match": true,
+    "verification_manifest": "/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/acceptance/summary.json"
+  }
+]

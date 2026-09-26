@@ -1,0 +1,9 @@
+﻿case,source,makespan,added_copy,independently_replayed,nondominated,dominated_by,selected_in_1500,source_plan,alternative_plan
+case_047,base_selected,160151,3720028,True,True,,False,plans/p1/n5/case_047_multicore_res.json,备选/case_047_base_selected_p1_n5.json
+case_047,relay_region_seed,322588,2217688,True,True,,False,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/inputs/case_047_region.json,备选/case_047_relay_region_seed_p1_n5.json
+case_075,base_selected,424934,10606092,True,True,,False,plans/p1/n5/case_075_multicore_res.json,备选/case_075_base_selected_p1_n5.json
+case_047,relay_verified,159950,3887038,True,True,,False,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_047_p1_n5.json,备选/case_047_relay_verified_p1_n5.json
+case_075,relay_verified,422465,10638860,True,True,,True,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1接力实验_20260926/独立复评与新增方案/case_075_p1_n5.json,备选/case_075_relay_verified_p1_n5.json
+case_047,run_v1_legacy,158429,3907362,True,True,,False,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v1/verified_plans/case_047_p1_n5.json,备选/case_047_run_v1_legacy_p1_n5.json
+case_047,run_v2_cpsat_warm,158234,3966906,True,True,,True,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/verified_plans/case_047_p1_n5.json,备选/case_047_run_v2_cpsat_warm_p1_n5.json
+case_085,run_v2_cpsat_intact,872469,23398256,True,True,,True,/Users/liyu/Desktop/A题P1最新审阅/A题研究/直接迭代/P1多尺度联合优化_20260926/run_v2/verified_plans/case_085_p1_n5.json,备选/case_085_run_v2_cpsat_intact_p1_n5.json

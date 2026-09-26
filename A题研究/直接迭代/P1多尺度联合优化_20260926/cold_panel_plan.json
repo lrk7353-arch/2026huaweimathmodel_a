@@ -1,0 +1,51 @@
+{
+  "selection_basis": "Original graph structure only; exclude current development cases 047,075,085; not a claim of never-seen project-wide holdout.",
+  "budget": 24,
+  "seconds": 240,
+  "timeout": 60,
+  "workers": 2,
+  "batch_seconds": 2700,
+  "seed": 17,
+  "methods": [
+    "integrated",
+    "joint_tonight"
+  ],
+  "configurations": [
+    {
+      "case": "case_004",
+      "problem": 1,
+      "cores": 5,
+      "id": "case_004_p1_n5"
+    },
+    {
+      "case": "case_044",
+      "problem": 1,
+      "cores": 5,
+      "id": "case_044_p1_n5"
+    },
+    {
+      "case": "case_048",
+      "problem": 1,
+      "cores": 5,
+      "id": "case_048_p1_n5"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 5,
+      "id": "case_035_p1_n5"
+    },
+    {
+      "case": "case_044",
+      "problem": 1,
+      "cores": 2,
+      "id": "case_044_p1_n2"
+    },
+    {
+      "case": "case_035",
+      "problem": 1,
+      "cores": 3,
+      "id": "case_035_p1_n3"
+    }
+  ]
+}

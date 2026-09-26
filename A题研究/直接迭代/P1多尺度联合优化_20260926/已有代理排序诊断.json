@@ -1,0 +1,22 @@
+{
+  "scope": "Within same graph/family/exact paid parent, successful candidates only; correlated pairs",
+  "warning": "Logged raw/merge proxies may refer to pre-merge plans; not a calibrated model error rate",
+  "group_counts": {
+    "legacy_joint": 4,
+    "region_joint": 7
+  },
+  "pair_counts": {
+    "legacy_joint": {
+      "inverted": 10,
+      "proxy_tie_different_time": 6,
+      "concordant": 22
+    },
+    "region_joint": {
+      "proxy_tie_different_time": 15,
+      "concordant": 40,
+      "inverted": 12
+    }
+  },
+  "total_pairs": 105,
+  "new_official_calls": 0
+}

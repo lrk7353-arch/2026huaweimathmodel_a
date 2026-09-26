@@ -1,0 +1,2 @@
+﻿config,case,cores,integrated_time,joint_time,reduction_pct,integrated_copy,joint_copy,integrated_calls,joint_calls,integrated_seconds,joint_seconds,integrated_errors,joint_errors,common_calls,integrated_common_time,joint_common_time,common_reduction_pct,integrated_prefix_calls,joint_prefix_calls,actual_initial_ordered_plans_equal,both_initial_six_complete,initial_six_ordered_plans_equal
+case_048_p1_n5,case_048,5,121708,149554,-22.879350576790358,1391956,1177242,24,24,9.294011292047799,10.22655024996493,0,0,24,121708,149554,-22.879350576790358,6,6,True,True,True

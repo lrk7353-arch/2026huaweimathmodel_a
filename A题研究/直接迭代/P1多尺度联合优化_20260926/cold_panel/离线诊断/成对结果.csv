@@ -1,0 +1,7 @@
+﻿config,case,cores,integrated_time,joint_time,reduction_pct,integrated_copy,joint_copy,integrated_calls,joint_calls,integrated_seconds,joint_seconds,integrated_errors,joint_errors,common_calls,integrated_common_time,joint_common_time,common_reduction_pct,integrated_prefix_calls,joint_prefix_calls,actual_initial_ordered_plans_equal,both_initial_six_complete,initial_six_ordered_plans_equal
+case_004_p1_n5,case_004,5,88341,88341,0.0,442368,442368,12,13,2.3349007919896394,5.258250250015408,0,0,12,88341,88341,0.0,3,3,True,False,False
+case_044_p1_n5,case_044,5,99310,90332,9.040378612425737,319616,512192,24,24,5.247931999969296,5.550404541078024,0,0,24,99310,90332,9.040378612425737,6,6,True,True,True
+case_048_p1_n5,case_048,5,121708,147470,-21.16705557564005,1391956,1098232,24,24,9.812283915933222,7.9011267920723185,0,0,24,121708,147470,-21.16705557564005,6,6,True,True,True
+case_035_p1_n5,case_035,5,90079,90079,0.0,1379966,1379966,24,24,20.672507125069387,20.859485207940452,0,0,24,90079,90079,0.0,6,6,True,True,True
+case_044_p1_n2,case_044,2,96349,96349,0.0,222208,222208,8,8,2.460488499957137,2.5114688749890774,0,0,8,96349,96349,0.0,6,6,True,True,True
+case_035_p1_n3,case_035,3,95406,95406,0.0,0,0,24,24,23.902113709016703,23.295877416967414,0,0,24,95406,95406,0.0,6,6,True,True,True

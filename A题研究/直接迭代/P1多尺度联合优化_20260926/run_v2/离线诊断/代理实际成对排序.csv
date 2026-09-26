@@ -1,0 +1,4 @@
+﻿case,a,b,proxy_delta,actual_delta,relation
+case_047,cpsat_intact_raw,cpsat_warm_raw,-461.93333333337796,1600,inverted
+case_075,cpsat_intact_raw,cpsat_warm_raw,-2058.9000000000233,-2188,concordant
+case_085,cpsat_intact_raw,cpsat_warm_raw,-7072.266666666605,-3067,concordant

@@ -3,6 +3,8 @@
 Only the original graph and this run's charged observations are used. The
 prefix and local search share exact-plan dedup, a call cap and a soft deadline.
 `local_legacy` is the same framework with old local neighborhoods for ablation.
+`joint_tonight` is an explicit P1-only experiment adding bounded CP warm repairs
+to the same cold prefix and budget; the default integrated route is unchanged.
 """
 import gzip
 import math
@@ -34,6 +36,9 @@ def prefix_run(case,problem,cores,out,budget,seconds,timeout,evdir,proposal_budg
 
 def local_order(ir,record,problem,variant):
     if variant in ('local_legacy','wide_legacy'):return ['legacy','legacy','structure','legacy'],{'reason':'legacy_ablation'}
+    if variant=='joint_tonight':
+        if problem!=1:raise ValueError('joint_tonight requires P1')
+        return ['joint','structure','tonight','legacy'],{'reason':'P1_existing_joint_plus_bounded_joint_repair'}
     if problem==1:return ['joint','structure','joint','legacy'],{'reason':'P1_joint_with_structural_control'}
     from p23_data_refine import partition_copy_bytes
     from advanced_solver.trace_refine import _plan_assignment,_tensor_views
@@ -47,9 +52,46 @@ def local_order(ir,record,problem,variant):
         spill_bytes=spill,threshold=.35,scope='family ordering heuristic, not a proof of bottleneck')
 
 
+def tonight_candidates(ir,plan,raw,record,cores,round_index,seconds):
+    """Repair this paid parent under one counted, interruptible generation cap."""
+    if round_index not in (0,1):raise ValueError('tonight parent supports only two expansions')
+    if record.get('status')!='success' or record.get('problem')!=1 or record.get('metrics',{}).get('num_cores')!=cores:
+        raise ValueError('tonight parent scene/core mismatch')
+    from persistent_search import generation_limit
+    with generation_limit(seconds):
+        from run_p1_joint_tonight import candidates
+        # The earlier warm probe's assert_trace deliberately requires five cores;
+        # this cold variant also supports the lower-core regression configurations.
+        validate_plan(ir,plan)
+        if len(plan['core_schedules'])!=cores or raw.get('num_cores')!=cores or raw.get('makespan')!=score(record)[0]:
+            raise ValueError('tonight raw trace does not match parent metrics')
+        timelines=raw.get('per_core_timeline',[])
+        by_core={entry['core_id']:entry for entry in timelines}
+        if len(timelines)!=cores or set(by_core)!=set(range(cores)):
+            raise ValueError('tonight trace core coverage mismatch')
+        mapping={int(op):task for op,task in plan['node_to_subgraph'].items()};found=set()
+        for core,tasks in enumerate(plan['core_schedules']):
+            entries=by_core[core]
+            if [task['task_id'] for task in entries['tasks']]!=tasks:
+                raise ValueError('tonight trace Task sequence mismatch')
+            for event in entries['ops']:
+                op=event['op_id']
+                if op in mapping:
+                    if op in found or event['task_id']!=mapping[op] or event['task_id'] not in tasks:
+                        raise ValueError('tonight trace compute ownership mismatch')
+                    found.add(op)
+        if found!=set(ir.compute_ids):raise ValueError('tonight trace compute coverage mismatch')
+        method=('cpsat_intact','cpsat_warm')[round_index]
+        proposals,diagnostics=candidates(ir,plan,raw,method,seconds=seconds)
+    return proposals,dict(diagnostics,portfolio_method=method,
+        portfolio_generation_cap_seconds=seconds,
+        portfolio_scope='current run paid parent only; initialization and repair share full call/time budget')
+
+
 def run(case,problem,cores,variant,out,budget=12,seconds=120,evaluation_timeout=25,evaluation_dir=None):
-    if problem not in (1,2,3) or cores not in range(1,6) or variant not in ('integrated','local_legacy','wide_legacy','budget_greedy','budget_beam'):
+    if problem not in (1,2,3) or cores not in range(1,6) or variant not in ('integrated','local_legacy','wide_legacy','budget_greedy','budget_beam','joint_tonight'):
         raise ValueError('invalid scene/cores/variant')
+    if variant=='joint_tonight' and problem!=1:raise ValueError('joint_tonight requires P1')
     budget_policy=variant in ('budget_greedy','budget_beam')
     if (budget_policy or variant=='wide_legacy') and problem==1:raise ValueError('budget variants currently require P2/P3')
     if type(budget) is not int or budget<1 or not math.isfinite(seconds) or seconds<=0:
@@ -158,7 +200,16 @@ def run(case,problem,cores,variant,out,budget=12,seconds=120,evaluation_timeout=
                 index=expanded[qkey];expanded[qkey]+=1;t=time.monotonic()
                 with gzip.open(source['result_path'],'rt') as f:raw=json.load(f)
                 if raw['makespan']!=score(source)[0]:raise ValueError('trace/record score mismatch')
-                cs,diag=local_candidates(ir,read_json(source['plan_path']),raw,problem,cores,family,index,24)
+                if family=='tonight':
+                    if variant!='joint_tonight' or problem!=1:raise ValueError('tonight family requires explicit P1 variant')
+                    if parent not in {call['record'].get('record_path') for call in calls
+                                      if call['record'].get('status')=='success'}:
+                        raise ValueError('tonight parent is not a charged current-run success')
+                    generation_seconds=min(20.,deadline-time.monotonic())
+                    cs,diag=tonight_candidates(ir,read_json(source['plan_path']),raw,source,
+                                               cores,index,generation_seconds)
+                else:
+                    cs,diag=local_candidates(ir,read_json(source['plan_path']),raw,problem,cores,family,index,24)
                 pool.extend(cs);stages.append(dict(phase='local_generation',family=family,parent_record=parent,
                     round_index=index,count=len(cs),seconds=time.monotonic()-t,diagnostics=diag))
         while pool:
