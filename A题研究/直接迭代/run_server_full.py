@@ -19,6 +19,7 @@ import traceback
 
 from common_run import DATA, GraphIR, atomic_json, read_json, validate_plan, evaluate, score, write_csv
 from accept_p1_relay_gains import deterministic_metrics
+from persistent_budget import exact_signature
 
 
 def execute(job, directory):
@@ -42,12 +43,15 @@ def execute(job, directory):
             generation_errors=sum(x.get('phase') == 'generation_error' for x in s['stages']),
             best_record=best, stop_reason=s['stop_reason'])
     else:
+        evaluation_timeout=job.get('evaluation_timeout',120)
+        if not isinstance(evaluation_timeout,(int,float)) or not 0 < evaluation_timeout <= 900:
+            raise ValueError('Replay timeout must be positive and no more than 900 seconds')
         plan = read_json(job['plan'])
         ir = GraphIR.from_path(DATA/(job['case']+'.json'))
         validate_plan(ir, plan)
         assert len(plan['core_schedules']) == job['cores']
         record = evaluate(ir.path, plan, job['problem'], directory/'evaluation',
-                          timeout=120, config_path=DATA/'config.txt')
+                          timeout=evaluation_timeout, config_path=DATA/'config.txt')
         matched = record['status'] == 'success'
         if matched:
             matched = list(score(record)) == job['expected_score']
@@ -73,7 +77,7 @@ def supervise(job, root):
                                 stdout=out, stderr=err, env=env, start_new_session=True)
         atomic_json(directory/'process.json', dict(pid=proc.pid, started=time.time()))
         try:
-            proc.wait(timeout=360 if job['kind'] == 'cold' else 150)
+            proc.wait(timeout=360 if job['kind'] == 'cold' else job.get('evaluation_timeout',120)+30)
         except subprocess.TimeoutExpired:
             os.killpg(proc.pid, signal.SIGKILL)
             proc.wait()
@@ -151,7 +155,9 @@ def run_jobs(jobs, root, workers, deadline):
             exhausted = False
             while active or not exhausted:
                 while not exhausted and len(active) < workers:
-                    if time.time()+360 >= deadline:
+                    # The independent replay repair may use a longer per-job cap.
+                    required=max([360]+[j.get('evaluation_timeout',120)+30 for j in jobs])
+                    if time.time()+required >= deadline:
                         exhausted = True
                         break
                     job = next(pending, None)
@@ -205,6 +211,34 @@ def summarize_cold(results, verified, root, delivery):
         scope='Same-server cold comparison; speedup denominator inherited from source table; not official total score'))
 
 
+def apply_replay_recovery(results, root):
+    """Use independently validated retry records; leave the failed ledger intact."""
+    proof=Path(root)/'replay_reconciliation.json'
+    if not proof.exists():return results
+    recoveries=read_json(proof).get('records',{})
+    combined=[]
+    for result in results:
+        ident=result['job']['id']
+        if result['status']=='success' or ident not in recoveries:
+            combined.append(result);continue
+        before=result.get('best_record') or {}
+        after=read_json(recoveries[ident]);job=result['job']
+        if before.get('status')!='timeout' or after.get('status')!='success':
+            raise ValueError('Only successful timeout replays can resolve the gate')
+        if after['problem']!=job['problem'] or after['metrics']['num_cores']!=job['cores']:
+            raise ValueError('Recovery scene/core mismatch')
+        if list(score(after))!=job['expected_score']:
+            raise ValueError('Recovery score mismatch')
+        for field in ('graph_sha256','config_sha256','official_py_sha256'):
+            if before['hashes'][field]!=after['hashes'][field]:
+                raise ValueError('Recovery official input mismatch')
+        if exact_signature(read_json(before['plan_path']))!=exact_signature(read_json(after['plan_path'])):
+            raise ValueError('Recovery plan changed')
+        combined.append(dict(result,status='success',best_record=after,
+            calls=result.get('calls',0)+1,recovered_from_timeout=True))
+    return combined
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--job-file', type=Path)
@@ -256,9 +290,13 @@ def main():
             plan=str(delivery/r['plan']),expected_score=[int(r['makespan']),int(r['added_copy'])])
             for r in rows if int(r['case'][-3:]) in cases and int(r['cores']) in cores and int(r['problem']) in problems]
         results=run_jobs(jobs,root/'replay',args.workers,deadline)
+        results=apply_replay_recovery(results,root)
         if len(results)!=len(jobs) or any(r['status']!='success' for r in results):
             atomic_json(root/'attention.json',dict(reason='Replay incomplete or mismatched; cold phase not started'))
             return
+        if (root/'attention.json').exists():
+            atomic_json(root/'attention.json',dict(resolved=True,
+                reason='All 1500 plans verified; timeout attempts retained separately'))
     if args.stage in ('cold','all'):
         jobs=[]
         # Rotate method order while retaining adjacent paired configurations.

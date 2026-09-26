@@ -29,6 +29,14 @@ for phase,label,total in [('replay','现有1500方案逐份官方复评',1500),
     print(f"{label}：{s['completed']}/{s['expected']}；成功{s['success']}；需处理{s['attention']}；运行{len(s['active'])}")
     print(f"  已结束任务记录评测{s['recorded_calls']}次；更新{s['updated']}")
     if s['active']:print('  当前：'+', '.join(s['active'][:8]))
+retry=a.root/'replay_timeout_retry/progress.json'
+if retry.exists():
+    s=json.loads(retry.read_text())
+    print(f"超时补跑（原失败记录保留）：{s['completed']}/{s['expected']}；通过{s['success']}；需处理{s['attention']}；运行{len(s['active'])}")
+proof=a.root/'replay_reconciliation.json'
+if proof.exists():
+    s=json.loads(proof.read_text())
+    print(f"合并独立复评证据后：{s['verified']}/1500已验证；共{s['original_calls']+s['additional_calls']}次官方调用")
 if (a.root/'attention.json').exists():
     print('需要处理：',json.loads((a.root/'attention.json').read_text()))
 print('冷启动每项是一整次搜索，并非一份候选；全量有效结论需要同时检查失败项。')

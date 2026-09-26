@@ -5,10 +5,30 @@ import unittest
 from unittest.mock import patch
 
 from common_run import atomic_json,read_json
-from run_server_full import run_jobs
+from run_server_full import run_jobs,apply_replay_recovery
 
 
 class ResumeTests(unittest.TestCase):
+    def test_recovery_rejects_changed_plan_and_keeps_original_failure(self):
+        with tempfile.TemporaryDirectory() as name:
+            root=Path(name)
+            plan=dict(node_to_subgraph={'1':0},core_schedules=[[0]])
+            atomic_json(root/'old_plan.json',plan);atomic_json(root/'new_plan.json',plan)
+            hashes=dict(graph_sha256='g',config_sha256='c',official_py_sha256={'official.py':'same'})
+            before=dict(status='timeout',plan_path=str(root/'old_plan.json'),hashes=hashes)
+            after=dict(status='success',problem=1,metrics=dict(num_cores=1,makespan=10,
+                       data_movement_bytes=dict(added_copy_bytes=0)),
+                       plan_path=str(root/'new_plan.json'),hashes=hashes)
+            atomic_json(root/'new_record.json',after)
+            atomic_json(root/'replay_reconciliation.json',dict(records={'x':str(root/'new_record.json')}))
+            original=dict(job=dict(id='x',problem=1,cores=1,expected_score=[10,0]),
+                          status='mismatch_or_failure',best_record=before,calls=1)
+            fixed=apply_replay_recovery([original],root)
+            self.assertEqual(fixed[0]['status'],'success');self.assertEqual(fixed[0]['calls'],2)
+            self.assertEqual(original['status'],'mismatch_or_failure')
+            atomic_json(root/'new_plan.json',dict(node_to_subgraph={'1':5},core_schedules=[[5]]))
+            with self.assertRaises(ValueError):apply_replay_recovery([original],root)
+
     def test_completion_order_does_not_invalidate_resume(self):
         with tempfile.TemporaryDirectory() as name:
             root=Path(name)
