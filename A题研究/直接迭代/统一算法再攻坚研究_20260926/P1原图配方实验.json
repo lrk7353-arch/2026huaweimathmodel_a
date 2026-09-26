@@ -1,0 +1,78 @@
+{
+  "cases": [
+    16,
+    58,
+    85,
+    87
+  ],
+  "cores": 5,
+  "budget_per_case": 4,
+  "seconds_per_case": 240,
+  "timeout": 60,
+  "generation_timeout": 30,
+  "workers": 2,
+  "source_sha256": "770ee17834e633eb21d36284fa3dc75546113a85dd6621b2b35f4c1490d91bc2",
+  "scope": "registered developmental recipe probe; choices informed by past data",
+  "results": [
+    {
+      "case": "case_016",
+      "calls": 4,
+      "failed": 0,
+      "seconds": 50.68246082300902,
+      "generation_seconds": 0.8479343949875329,
+      "winner": "recipe_tensor_merge_8",
+      "cold": 7718119,
+      "recipe": 3304638,
+      "selected": 3223183,
+      "copy": 119557168,
+      "plan_sha256": "387aafb24488d34fdf17bf4f8678440bfec73621c0732ce8f022205948c50d9d",
+      "generation_errors": []
+    },
+    {
+      "case": "case_058",
+      "calls": 4,
+      "failed": 0,
+      "seconds": 47.79010576699511,
+      "generation_seconds": 0.41775857299217023,
+      "winner": "recipe_whole_component_pack_4096",
+      "cold": 1591982,
+      "recipe": 1004819,
+      "selected": 943984,
+      "copy": 32104448,
+      "plan_sha256": "3c83f5ad93be315a3211979e2451b7c887ce56259eda999b214cba8730e13b93",
+      "generation_errors": []
+    },
+    {
+      "case": "case_085",
+      "calls": 4,
+      "failed": 0,
+      "seconds": 29.565261987008853,
+      "generation_seconds": 1.059674726013327,
+      "winner": "recipe_tensor_merge_8",
+      "cold": 2760933,
+      "recipe": 3042113,
+      "selected": 873645,
+      "copy": 8412088,
+      "plan_sha256": "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+      "generation_errors": []
+    },
+    {
+      "case": "case_087",
+      "calls": 4,
+      "failed": 0,
+      "seconds": 69.01990169100463,
+      "generation_seconds": 1.3860224559321068,
+      "winner": "recipe_tensor_work_fraction_16",
+      "cold": 4014055,
+      "recipe": 940456,
+      "selected": 879179,
+      "copy": 27303944,
+      "plan_sha256": "ef46afc159e8710fbe1114daa396a64510c0e18657330e2b3ec84a17590f4808",
+      "generation_errors": []
+    }
+  ],
+  "actual_calls": 16,
+  "failed_calls": 0,
+  "sum_run_seconds": 197.05773026801762,
+  "negative_results_retained": true
+}

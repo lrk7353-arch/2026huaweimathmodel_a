@@ -1,0 +1,52 @@
+{
+  "2": {
+    "configs": 100,
+    "stable_w200_evaluated": 9,
+    "critical_w200_evaluated": 11,
+    "release_w200_evaluated": 2,
+    "full24": 91,
+    "elapsed_ge240": 8,
+    "phase_calls": {
+      "component": 569,
+      "wcc": 428,
+      "wcc_probe": 35,
+      "operation": 223,
+      "insertion": 92,
+      "trace": 975
+    },
+    "trace_full_stale": [
+      "case_006",
+      "case_018",
+      "case_020",
+      "case_029",
+      "case_032",
+      "case_033",
+      "case_038",
+      "case_041",
+      "case_050",
+      "case_057",
+      "case_074",
+      "case_087",
+      "case_099",
+      "case_100"
+    ]
+  },
+  "3": {
+    "configs": 100,
+    "stable_w200_evaluated": 16,
+    "critical_w200_evaluated": 24,
+    "release_w200_evaluated": 10,
+    "full24": 88,
+    "elapsed_ge240": 10,
+    "phase_calls": {
+      "component": 524,
+      "wcc": 383,
+      "wcc_probe": 36,
+      "operation": 274,
+      "p3_cache": 849,
+      "insertion": 92,
+      "trace": 143
+    },
+    "trace_full_stale": []
+  }
+}

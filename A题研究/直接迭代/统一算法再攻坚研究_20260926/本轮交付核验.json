@@ -1,0 +1,27 @@
+{
+  "base_commit": "09f27b063061de8d77c1b4d00c1ad06c4918fe0a",
+  "rollback_tag": "milestone/hardware-guided-release-20260926",
+  "scope": "development probes and paired panel; not a new full matrix; no default promotion",
+  "source_sha256": {
+    "p1_bounded_bootstrap.py": "3c865c170f631699a68c760801e59c40936c53fd5b339142c1932f42055a40f0",
+    "p1_recipe_bootstrap.py": "770ee17834e633eb21d36284fa3dc75546113a85dd6621b2b35f4c1490d91bc2",
+    "p1_recipe_reassign_diagnostic.py": "140dc8787a5c719cbcd5d166c86d55d9dd990a7a81cb580b09598f99d84e2b47",
+    "p23_gap_probe.py": "446075d0c87506463fff675b36d52ed70b8edb016deaeaa9391c83234bf6ee77",
+    "p23_pipeline.py": "3f89eb2cec2c3fdcd6f9ce848cf6ed8c8547155b70e3674dca2312017d55b3be",
+    "frontier_solver.py": "e98255aa145089896e3b2e47276da76cfd883fa284db7276acb63fbdb3c41169",
+    "solve_hardware_unified.py": "4c4379158f451594373f65b1a00eaba1fa76cea7fd1cd5b08041fa06387c8db3",
+    "run_recipe_panel.py": "699e5ed4225923440a482ec361fd4e88a00b1a8e92c15a2330fb06c234145367",
+    "export_recipe_panel.py": "569ebe9269f440c27d20c96eed8b0a39dbe0138f09a5d34e6f864d9b1d779432",
+    "audit_submission_curves.py": "a6b19006047b7673f64c7d8089821f54c93cbc00e67072712415d762f8dfdcd0"
+  },
+  "official_unchanged": true,
+  "paired_panel": {
+    "cold_runs": 60,
+    "official_calls": 1421,
+    "failures": 0,
+    "budget_each": 24,
+    "seconds_each": 240,
+    "single_timeout": 60
+  },
+  "bounded_probe_timing_caveat": "v1 snapshots recorded through last official call; duplicate-tail generation may be unreported; final-checkpoint accounting fixed afterward without changing candidates"
+}

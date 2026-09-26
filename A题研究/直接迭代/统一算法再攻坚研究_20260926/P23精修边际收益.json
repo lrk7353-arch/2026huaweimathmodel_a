@@ -1,0 +1,24 @@
+{
+  "2": {
+    "same_time_calls": 62,
+    "time_improving_calls": 69,
+    "time_improving_lt1percent_calls": 35,
+    "worse_or_failed_calls": 844,
+    "time_improving_ge1percent_calls": 34,
+    "configs": 72,
+    "calls": 975,
+    "configs_time_improved": 40,
+    "configs_time_improved_ge1percent": 31
+  },
+  "3": {
+    "same_time_calls": 218,
+    "worse_or_failed_calls": 519,
+    "configs": 72,
+    "calls": 849,
+    "time_improving_calls": 112,
+    "time_improving_lt1percent_calls": 89,
+    "configs_time_improved": 41,
+    "configs_time_improved_ge1percent": 23,
+    "time_improving_ge1percent_calls": 23
+  }
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "case": "case_050",
+    "name": "op_critical_path_w100",
+    "mismatch": 0.7697036223929747
+  },
+  {
+    "case": "case_050",
+    "name": "op_stable_id_w100",
+    "mismatch": 0.7396267837541164
+  },
+  {
+    "case": "case_050",
+    "name": "op_critical_path_w200",
+    "mismatch": 0.7466520307354555
+  },
+  {
+    "case": "case_050",
+    "name": "op_stable_id_w200",
+    "mismatch": 0.0
+  },
+  {
+    "case": "case_050",
+    "name": "op_release_priority_w100",
+    "mismatch": 0.7470911086717893
+  },
+  {
+    "case": "case_050",
+    "name": "op_seeded_priority_w100",
+    "mismatch": 0.7646542261251372
+  },
+  {
+    "case": "case_050",
+    "name": "op_critical_path_w025",
+    "mismatch": 0.772338090010977
+  },
+  {
+    "case": "case_050",
+    "name": "op_stable_id_w025",
+    "mismatch": 0.7618002195389681
+  },
+  {
+    "case": "case_050",
+    "name": "op_release_priority_w200",
+    "mismatch": 0.7402854006586169
+  },
+  {
+    "case": "case_050",
+    "name": "op_seeded_priority_w050",
+    "mismatch": 0.7609220636663008
+  },
+  {
+    "case": "case_050",
+    "name": "priority_only_critical_path",
+    "mismatch": 0.7813391877058178
+  },
+  {
+    "case": "case_050",
+    "name": "priority_only_release_priority",
+    "mismatch": 0.7813391877058178
+  },
+  {
+    "case": "case_050",
+    "name": "insert_0_critical",
+    "mismatch": 0.7538968166849616
+  },
+  {
+    "case": "case_050",
+    "name": "insert_1_critical",
+    "mismatch": 0.757628979143798
+  },
+  {
+    "case": "case_050",
+    "name": "insert_2_release",
+    "mismatch": 0.7569703622392975
+  },
+  {
+    "case": "case_050",
+    "name": "insert_3_stable",
+    "mismatch": 0.7306256860592755
+  },
+  {
+    "case": "case_050",
+    "name": "insert_4_critical",
+    "mismatch": 0.7121844127332602
+  },
+  {
+    "case": "case_050",
+    "name": "insert_5_release",
+    "mismatch": 0.7521405049396268
+  },
+  {
+    "case": "case_035",
+    "name": "op_critical_path_w100",
+    "mismatch": 0.6995073891625616
+  },
+  {
+    "case": "case_035",
+    "name": "op_stable_id_w100",
+    "mismatch": 0.711952294529427
+  },
+  {
+    "case": "case_035",
+    "name": "op_critical_path_w200",
+    "mismatch": 0.7433238268084003
+  },
+  {
+    "case": "case_035",
+    "name": "op_stable_id_w200",
+    "mismatch": 0.0
+  },
+  {
+    "case": "case_035",
+    "name": "op_release_priority_w100",
+    "mismatch": 0.6912107855846513
+  },
+  {
+    "case": "case_035",
+    "name": "op_seeded_priority_w100",
+    "mismatch": 0.7345086855068707
+  },
+  {
+    "case": "case_035",
+    "name": "op_critical_path_w025",
+    "mismatch": 0.7557687321752657
+  },
+  {
+    "case": "case_035",
+    "name": "op_stable_id_w025",
+    "mismatch": 0.663209748509204
+  },
+  {
+    "case": "case_035",
+    "name": "op_release_priority_w200",
+    "mismatch": 0.7404718693284936
+  },
+  {
+    "case": "case_035",
+    "name": "op_seeded_priority_w050",
+    "mismatch": 0.7511018926626912
+  },
+  {
+    "case": "case_035",
+    "name": "priority_only_critical_path",
+    "mismatch": 0.7656209489240342
+  },
+  {
+    "case": "case_035",
+    "name": "priority_only_release_priority",
+    "mismatch": 0.7656209489240342
+  },
+  {
+    "case": "case_035",
+    "name": "insert_0_critical",
+    "mismatch": 0.7363235675395385
+  },
+  {
+    "case": "case_035",
+    "name": "insert_1_critical",
+    "mismatch": 0.6699507389162561
+  },
+  {
+    "case": "case_035",
+    "name": "insert_2_release",
+    "mismatch": 0.6577651024112005
+  },
+  {
+    "case": "case_035",
+    "name": "insert_3_stable",
+    "mismatch": 0.6958776250972258
+  },
+  {
+    "case": "case_035",
+    "name": "insert_4_critical",
+    "mismatch": 0.653876069484055
+  },
+  {
+    "case": "case_035",
+    "name": "insert_5_release",
+    "mismatch": 0.7360642986777288
+  },
+  {
+    "case": "case_049",
+    "name": "op_critical_path_w100",
+    "mismatch": 0.7353009528236114
+  },
+  {
+    "case": "case_049",
+    "name": "op_stable_id_w100",
+    "mismatch": 0.7506390890076691
+  },
+  {
+    "case": "case_049",
+    "name": "op_critical_path_w200",
+    "mismatch": 0.7522658610271903
+  },
+  {
+    "case": "case_049",
+    "name": "op_stable_id_w200",
+    "mismatch": 0.0
+  },
+  {
+    "case": "case_049",
+    "name": "op_release_priority_w100",
+    "mismatch": 0.7538926330467116
+  },
+  {
+    "case": "case_049",
+    "name": "op_seeded_priority_w100",
+    "mismatch": 0.7562165930745991
+  },
+  {
+    "case": "case_049",
+    "name": "op_critical_path_w025",
+    "mismatch": 0.7764350453172205
+  },
+  {
+    "case": "case_049",
+    "name": "op_stable_id_w025",
+    "mismatch": 0.7299558447594702
+  },
+  {
+    "case": "case_049",
+    "name": "op_release_priority_w200",
+    "mismatch": 0.7617940971415291
+  },
+  {
+    "case": "case_049",
+    "name": "op_seeded_priority_w050",
+    "mismatch": 0.7636532651638391
+  },
+  {
+    "case": "case_049",
+    "name": "priority_only_critical_path",
+    "mismatch": 0.776899837322798
+  },
+  {
+    "case": "case_049",
+    "name": "priority_only_release_priority",
+    "mismatch": 0.776899837322798
+  },
+  {
+    "case": "case_049",
+    "name": "insert_0_critical",
+    "mismatch": 0.7701603532419242
+  },
+  {
+    "case": "case_049",
+    "name": "insert_1_critical",
+    "mismatch": 0.7594701371136416
+  },
+  {
+    "case": "case_049",
+    "name": "insert_2_release",
+    "mismatch": 0.7683011852196142
+  },
+  {
+    "case": "case_049",
+    "name": "insert_3_stable",
+    "mismatch": 0.7594701371136416
+  },
+  {
+    "case": "case_049",
+    "name": "insert_4_critical",
+    "mismatch": 0.7594701371136416
+  },
+  {
+    "case": "case_049",
+    "name": "insert_5_release",
+    "mismatch": 0.7708575412502905
+  },
+  {
+    "case": "case_019",
+    "name": "op_critical_path_w100",
+    "mismatch": 0.6290571870170015
+  },
+  {
+    "case": "case_019",
+    "name": "op_stable_id_w100",
+    "mismatch": 0.6306027820710973
+  },
+  {
+    "case": "case_019",
+    "name": "op_critical_path_w200",
+    "mismatch": 0.5718701700154559
+  },
+  {
+    "case": "case_019",
+    "name": "op_stable_id_w200",
+    "mismatch": 0.6352395672333848
+  },
+  {
+    "case": "case_019",
+    "name": "op_release_priority_w100",
+    "mismatch": 0.642967542503864
+  },
+  {
+    "case": "case_019",
+    "name": "op_seeded_priority_w100",
+    "mismatch": 0.6213292117465224
+  },
+  {
+    "case": "case_019",
+    "name": "op_critical_path_w025",
+    "mismatch": 0.6136012364760433
+  },
+  {
+    "case": "case_019",
+    "name": "op_stable_id_w025",
+    "mismatch": 0.6491499227202473
+  },
+  {
+    "case": "case_019",
+    "name": "op_release_priority_w200",
+    "mismatch": 0.6290571870170015
+  },
+  {
+    "case": "case_019",
+    "name": "op_seeded_priority_w050",
+    "mismatch": 0.6460587326120556
+  },
+  {
+    "case": "case_019",
+    "name": "priority_only_critical_path",
+    "mismatch": 0.7867078825347759
+  },
+  {
+    "case": "case_019",
+    "name": "priority_only_release_priority",
+    "mismatch": 0.7867078825347759
+  },
+  {
+    "case": "case_019",
+    "name": "insert_0_critical",
+    "mismatch": 0.5965996908809892
+  },
+  {
+    "case": "case_019",
+    "name": "insert_1_critical",
+    "mismatch": 0.6043276661514683
+  },
+  {
+    "case": "case_019",
+    "name": "insert_2_release",
+    "mismatch": 0.5517774343122102
+  },
+  {
+    "case": "case_019",
+    "name": "insert_3_stable",
+    "mismatch": 0.642967542503864
+  },
+  {
+    "case": "case_019",
+    "name": "insert_4_critical",
+    "mismatch": 0.5734157650695518
+  },
+  {
+    "case": "case_019",
+    "name": "insert_5_release",
+    "mismatch": 0.5347758887171561
+  },
+  {
+    "case": "case_066",
+    "name": "op_critical_path_w100",
+    "mismatch": 0.7547802750754781
+  },
+  {
+    "case": "case_066",
+    "name": "op_stable_id_w100",
+    "mismatch": 0.7490774907749077
+  },
+  {
+    "case": "case_066",
+    "name": "op_critical_path_w200",
+    "mismatch": 0.7700436095270043
+  },
+  {
+    "case": "case_066",
+    "name": "op_stable_id_w200",
+    "mismatch": 0.0
+  },
+  {
+    "case": "case_066",
+    "name": "op_release_priority_w100",
+    "mismatch": 0.7609862462260987
+  },
+  {
+    "case": "case_066",
+    "name": "op_seeded_priority_w100",
+    "mismatch": 0.7608185172760819
+  },
+  {
+    "case": "case_066",
+    "name": "op_critical_path_w025",
+    "mismatch": 0.763669909426367
+  },
+  {
+    "case": "case_066",
+    "name": "op_stable_id_w025",
+    "mismatch": 0.7564575645756457
+  },
+  {
+    "case": "case_066",
+    "name": "op_release_priority_w200",
+    "mismatch": 0.7534384434753438
+  },
+  {
+    "case": "case_066",
+    "name": "op_seeded_priority_w050",
+    "mismatch": 0.7718886279771888
+  },
+  {
+    "case": "case_066",
+    "name": "priority_only_critical_path",
+    "mismatch": 0.7873196913787319
+  },
+  {
+    "case": "case_066",
+    "name": "priority_only_release_priority",
+    "mismatch": 0.7873196913787319
+  },
+  {
+    "case": "case_066",
+    "name": "insert_0_critical",
+    "mismatch": 0.7700436095270043
+  },
+  {
+    "case": "case_066",
+    "name": "insert_1_critical",
+    "mismatch": 0.7591412277759141
+  },
+  {
+    "case": "case_066",
+    "name": "insert_2_release",
+    "mismatch": 0.7331432405233144
+  },
+  {
+    "case": "case_066",
+    "name": "insert_3_stable",
+    "mismatch": 0.7323045957732305
+  },
+  {
+    "case": "case_066",
+    "name": "insert_4_critical",
+    "mismatch": 0.7623280778262328
+  },
+  {
+    "case": "case_066",
+    "name": "insert_5_release",
+    "mismatch": 0.7777591412277759
+  }
+]

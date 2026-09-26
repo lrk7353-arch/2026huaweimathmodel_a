@@ -1,0 +1,2362 @@
+[
+  {
+    "case": "case_019",
+    "problem": 2,
+    "cold_time": 22206,
+    "selected_time": 14954,
+    "cold_copy": 81504,
+    "cold_hit": "",
+    "best_time": 17038,
+    "best_copy": 768928,
+    "best_name": "op_release_priority_w200_fixed_insertion",
+    "seconds": 1.0316393800021615,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 26065,
+        "added_copy": 253852,
+        "spill": 0,
+        "metrics": {
+          "makespan": 26065,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 440836,
+            "added_copy_bytes": 253852,
+            "partition_added_copy_bytes": 253852,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 31488,
+              "UB": 16512
+            },
+            "1": {
+              "L1": 31488,
+              "UB": 18434
+            },
+            "2": {
+              "L1": 21760,
+              "UB": 16512
+            },
+            "3": {
+              "L1": 31488,
+              "UB": 16512
+            },
+            "4": {
+              "L1": 29184,
+              "UB": 18432
+            }
+          },
+          "cross_task_traffic": 66590,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 27344896
+        },
+        "plan_sha": "1cb6a4e5c8245a04c62a29821089a1c477d3b95ce9e0f9320477446352346974"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 20378,
+        "added_copy": 253852,
+        "spill": 0,
+        "metrics": {
+          "makespan": 20378,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 440836,
+            "added_copy_bytes": 253852,
+            "partition_added_copy_bytes": 253852,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 34816,
+              "UB": 34816
+            },
+            "1": {
+              "L1": 34816,
+              "UB": 41984
+            },
+            "2": {
+              "L1": 35072,
+              "UB": 30208
+            },
+            "3": {
+              "L1": 37120,
+              "UB": 52224
+            },
+            "4": {
+              "L1": 37120,
+              "UB": 63488
+            }
+          },
+          "cross_task_traffic": 66590,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 27738112
+        },
+        "plan_sha": "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 17713,
+        "added_copy": 817004,
+        "spill": 0,
+        "metrics": {
+          "makespan": 17713,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 1003988,
+            "added_copy_bytes": 817004,
+            "partition_added_copy_bytes": 817004,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 7680,
+              "UB": 4608
+            },
+            "1": {
+              "L1": 28672,
+              "UB": 46080
+            },
+            "2": {
+              "L1": 40736,
+              "UB": 34560
+            },
+            "3": {
+              "L1": 25856,
+              "UB": 36864
+            },
+            "4": {
+              "L1": 46592,
+              "UB": 35328
+            }
+          },
+          "cross_task_traffic": 329478,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 29052928
+        },
+        "plan_sha": "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 17038,
+        "added_copy": 768928,
+        "spill": 0,
+        "metrics": {
+          "makespan": 17038,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 955912,
+            "added_copy_bytes": 768928,
+            "partition_added_copy_bytes": 768928,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 7680,
+              "UB": 4608
+            },
+            "1": {
+              "L1": 28672,
+              "UB": 41088
+            },
+            "2": {
+              "L1": 28672,
+              "UB": 33152
+            },
+            "3": {
+              "L1": 45824,
+              "UB": 40960
+            },
+            "4": {
+              "L1": 39680,
+              "UB": 33536
+            }
+          },
+          "cross_task_traffic": 311472,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 29044736
+        },
+        "plan_sha": "b6e7c767b971bc27144717a0d2db14273e6e8ebf0318b0cfcb9bfb0a676628ba"
+      }
+    ]
+  },
+  {
+    "case": "case_019",
+    "problem": 3,
+    "cold_time": 22206,
+    "selected_time": 15396,
+    "cold_copy": 80224,
+    "cold_hit": "0.06527199263662033",
+    "best_time": 15762,
+    "best_copy": 817004,
+    "best_name": "op_critical_path_w200_fixed_insertion",
+    "seconds": 1.0255999809887726,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 25862,
+        "added_copy": 253852,
+        "spill": 0,
+        "metrics": {
+          "makespan": 25862,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 440836,
+            "added_copy_bytes": 253852,
+            "partition_added_copy_bytes": 253852,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 22,
+            "copy_in_misses": 145,
+            "hit_bytes": 70752,
+            "miss_bytes": 295762,
+            "hits": 22,
+            "accesses": 167,
+            "hit_rate": 0.19304037499249688
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 31488,
+              "UB": 16512
+            },
+            "1": {
+              "L1": 31488,
+              "UB": 18434
+            },
+            "2": {
+              "L1": 21760,
+              "UB": 16512
+            },
+            "3": {
+              "L1": 31488,
+              "UB": 16512
+            },
+            "4": {
+              "L1": 29184,
+              "UB": 18432
+            }
+          },
+          "cross_task_traffic": 66590,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 27611136
+        },
+        "plan_sha": "1cb6a4e5c8245a04c62a29821089a1c477d3b95ce9e0f9320477446352346974"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 20378,
+        "added_copy": 253852,
+        "spill": 0,
+        "metrics": {
+          "makespan": 20378,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 440836,
+            "added_copy_bytes": 253852,
+            "partition_added_copy_bytes": 253852,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 22,
+            "copy_in_misses": 145,
+            "hit_bytes": 80128,
+            "miss_bytes": 286386,
+            "hits": 22,
+            "accesses": 167,
+            "hit_rate": 0.21862193531488566
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 34816,
+              "UB": 34816
+            },
+            "1": {
+              "L1": 34816,
+              "UB": 41984
+            },
+            "2": {
+              "L1": 35072,
+              "UB": 30208
+            },
+            "3": {
+              "L1": 37120,
+              "UB": 52224
+            },
+            "4": {
+              "L1": 37120,
+              "UB": 63488
+            }
+          },
+          "cross_task_traffic": 66590,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 28004352
+        },
+        "plan_sha": "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 15762,
+        "added_copy": 817004,
+        "spill": 0,
+        "metrics": {
+          "makespan": 15762,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 1003988,
+            "added_copy_bytes": 817004,
+            "partition_added_copy_bytes": 817004,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 46,
+            "copy_in_misses": 223,
+            "hit_bytes": 147808,
+            "miss_bytes": 518970,
+            "hits": 46,
+            "accesses": 269,
+            "hit_rate": 0.22167498027829352
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 7680,
+              "UB": 4608
+            },
+            "1": {
+              "L1": 28672,
+              "UB": 46080
+            },
+            "2": {
+              "L1": 40736,
+              "UB": 34560
+            },
+            "3": {
+              "L1": 25856,
+              "UB": 36864
+            },
+            "4": {
+              "L1": 46592,
+              "UB": 35328
+            }
+          },
+          "cross_task_traffic": 329478,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 29179904
+        },
+        "plan_sha": "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 15821,
+        "added_copy": 768928,
+        "spill": 0,
+        "metrics": {
+          "makespan": 15821,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 186984,
+            "scheduled_copy_bytes": 955912,
+            "added_copy_bytes": 768928,
+            "partition_added_copy_bytes": 768928,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 44,
+            "copy_in_misses": 237,
+            "hit_bytes": 123936,
+            "miss_bytes": 512772,
+            "hits": 44,
+            "accesses": 281,
+            "hit_rate": 0.1946512373018715
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 7680,
+              "UB": 4608
+            },
+            "1": {
+              "L1": 28672,
+              "UB": 41088
+            },
+            "2": {
+              "L1": 28672,
+              "UB": 33152
+            },
+            "3": {
+              "L1": 45824,
+              "UB": 40960
+            },
+            "4": {
+              "L1": 39680,
+              "UB": 33536
+            }
+          },
+          "cross_task_traffic": 311472,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 29315072
+        },
+        "plan_sha": "b6e7c767b971bc27144717a0d2db14273e6e8ebf0318b0cfcb9bfb0a676628ba"
+      }
+    ]
+  },
+  {
+    "case": "case_035",
+    "problem": 2,
+    "cold_time": 80677,
+    "selected_time": 41934,
+    "cold_copy": 0,
+    "cold_hit": "",
+    "best_time": 41934,
+    "best_copy": 1130532,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 5.05312495000544,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 80362,
+        "added_copy": 1130532,
+        "spill": 0,
+        "metrics": {
+          "makespan": 80362,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 1541386,
+            "added_copy_bytes": 1130532,
+            "partition_added_copy_bytes": 1130532,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 32768,
+              "UB": 16390
+            },
+            "1": {
+              "L1": 24576,
+              "UB": 16390
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 16386
+            },
+            "3": {
+              "L1": 16384,
+              "UB": 16386
+            },
+            "4": {
+              "L1": 22528,
+              "UB": 16384
+            }
+          },
+          "cross_task_traffic": 427010,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 67854336
+        },
+        "plan_sha": "fb383bb7245dbadea861156bdca8900c94840279cb41493108759e55384ab398"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 41934,
+        "added_copy": 1130532,
+        "spill": 0,
+        "metrics": {
+          "makespan": 41934,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 1541386,
+            "added_copy_bytes": 1130532,
+            "partition_added_copy_bytes": 1130532,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 52736,
+              "UB": 53444
+            },
+            "1": {
+              "L1": 41984,
+              "UB": 53254
+            },
+            "2": {
+              "L1": 28672,
+              "UB": 48174
+            },
+            "3": {
+              "L1": 48640,
+              "UB": 72758
+            },
+            "4": {
+              "L1": 44544,
+              "UB": 36866
+            }
+          },
+          "cross_task_traffic": 427010,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 70184960
+        },
+        "plan_sha": "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 66989,
+        "added_copy": 2075572,
+        "spill": 0,
+        "metrics": {
+          "makespan": 66989,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 2486426,
+            "added_copy_bytes": 2075572,
+            "partition_added_copy_bytes": 2075572,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 89600,
+              "UB": 77892
+            },
+            "1": {
+              "L1": 24096,
+              "UB": 41124
+            },
+            "2": {
+              "L1": 19008,
+              "UB": 42148
+            },
+            "3": {
+              "L1": 23552,
+              "UB": 41218
+            },
+            "4": {
+              "L1": 87552,
+              "UB": 94860
+            }
+          },
+          "cross_task_traffic": 880004,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 75206656
+        },
+        "plan_sha": "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 66353,
+        "added_copy": 1978506,
+        "spill": 0,
+        "metrics": {
+          "makespan": 66353,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 2389360,
+            "added_copy_bytes": 1978506,
+            "partition_added_copy_bytes": 1978506,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 75296,
+              "UB": 73840
+            },
+            "1": {
+              "L1": 17408,
+              "UB": 68616
+            },
+            "2": {
+              "L1": 80384,
+              "UB": 101434
+            },
+            "3": {
+              "L1": 17440,
+              "UB": 81060
+            },
+            "4": {
+              "L1": 35328,
+              "UB": 69706
+            }
+          },
+          "cross_task_traffic": 798448,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 75542528
+        },
+        "plan_sha": "87c90dd30db24247225a5d86ea171d141acce5661aecd01a190db425fe6aa427"
+      }
+    ]
+  },
+  {
+    "case": "case_035",
+    "problem": 3,
+    "cold_time": 40778,
+    "selected_time": 40778,
+    "cold_copy": 1130532,
+    "cold_hit": "0.34067248273355144",
+    "best_time": 40778,
+    "best_copy": 1130532,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 5.368142463994445,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 79371,
+        "added_copy": 1130532,
+        "spill": 0,
+        "metrics": {
+          "makespan": 79371,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 1541386,
+            "added_copy_bytes": 1130532,
+            "partition_added_copy_bytes": 1130532,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 323,
+            "copy_in_misses": 932,
+            "hit_bytes": 335456,
+            "miss_bytes": 764944,
+            "hits": 323,
+            "accesses": 1255,
+            "hit_rate": 0.3048491457651763
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 32768,
+              "UB": 16390
+            },
+            "1": {
+              "L1": 24576,
+              "UB": 16390
+            },
+            "2": {
+              "L1": 12288,
+              "UB": 16386
+            },
+            "3": {
+              "L1": 16384,
+              "UB": 16386
+            },
+            "4": {
+              "L1": 22528,
+              "UB": 16384
+            }
+          },
+          "cross_task_traffic": 427010,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 68046848
+        },
+        "plan_sha": "fb383bb7245dbadea861156bdca8900c94840279cb41493108759e55384ab398"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 40778,
+        "added_copy": 1130532,
+        "spill": 0,
+        "metrics": {
+          "makespan": 40778,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 1541386,
+            "added_copy_bytes": 1130532,
+            "partition_added_copy_bytes": 1130532,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 368,
+            "copy_in_misses": 887,
+            "hit_bytes": 374876,
+            "miss_bytes": 725524,
+            "hits": 368,
+            "accesses": 1255,
+            "hit_rate": 0.34067248273355144
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 52736,
+              "UB": 53444
+            },
+            "1": {
+              "L1": 41984,
+              "UB": 53254
+            },
+            "2": {
+              "L1": 28672,
+              "UB": 48174
+            },
+            "3": {
+              "L1": 48640,
+              "UB": 72758
+            },
+            "4": {
+              "L1": 44544,
+              "UB": 36866
+            }
+          },
+          "cross_task_traffic": 427010,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 70283264
+        },
+        "plan_sha": "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 64615,
+        "added_copy": 2075572,
+        "spill": 0,
+        "metrics": {
+          "makespan": 64615,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 2486426,
+            "added_copy_bytes": 2075572,
+            "partition_added_copy_bytes": 2075572,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 366,
+            "copy_in_misses": 1273,
+            "hit_bytes": 399042,
+            "miss_bytes": 1193404,
+            "hits": 366,
+            "accesses": 1639,
+            "hit_rate": 0.250584321226591
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 89600,
+              "UB": 77892
+            },
+            "1": {
+              "L1": 24096,
+              "UB": 41124
+            },
+            "2": {
+              "L1": 19008,
+              "UB": 42148
+            },
+            "3": {
+              "L1": 23552,
+              "UB": 41218
+            },
+            "4": {
+              "L1": 87552,
+              "UB": 94860
+            }
+          },
+          "cross_task_traffic": 880004,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 75517952
+        },
+        "plan_sha": "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 63156,
+        "added_copy": 1978506,
+        "spill": 0,
+        "metrics": {
+          "makespan": 63156,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 410854,
+            "scheduled_copy_bytes": 2389360,
+            "added_copy_bytes": 1978506,
+            "partition_added_copy_bytes": 1978506,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 373,
+            "copy_in_misses": 1265,
+            "hit_bytes": 464064,
+            "miss_bytes": 1112872,
+            "hits": 373,
+            "accesses": 1638,
+            "hit_rate": 0.2942820761273761
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 75296,
+              "UB": 73840
+            },
+            "1": {
+              "L1": 17408,
+              "UB": 68616
+            },
+            "2": {
+              "L1": 80384,
+              "UB": 101434
+            },
+            "3": {
+              "L1": 17440,
+              "UB": 81060
+            },
+            "4": {
+              "L1": 35328,
+              "UB": 69706
+            }
+          },
+          "cross_task_traffic": 798448,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 75149312
+        },
+        "plan_sha": "87c90dd30db24247225a5d86ea171d141acce5661aecd01a190db425fe6aa427"
+      }
+    ]
+  },
+  {
+    "case": "case_049",
+    "problem": 2,
+    "cold_time": 102732,
+    "selected_time": 54069,
+    "cold_copy": 5301640,
+    "cold_hit": "",
+    "best_time": 54069,
+    "best_copy": 1782112,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 5.664365906995954,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 103297,
+        "added_copy": 1782112,
+        "spill": 0,
+        "metrics": {
+          "makespan": 103297,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 1934652,
+            "added_copy_bytes": 1782112,
+            "partition_added_copy_bytes": 1782112,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 17408,
+              "UB": 16512
+            },
+            "1": {
+              "L1": 17440,
+              "UB": 16512
+            },
+            "2": {
+              "L1": 14400,
+              "UB": 16512
+            },
+            "3": {
+              "L1": 18432,
+              "UB": 16512
+            },
+            "4": {
+              "L1": 18432,
+              "UB": 16512
+            }
+          },
+          "cross_task_traffic": 857636,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 73920512
+        },
+        "plan_sha": "64fb3c41bf56df3093dbc001f778e02ba043e5371224855c2c429f023f40e4f6"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 54069,
+        "added_copy": 1782112,
+        "spill": 0,
+        "metrics": {
+          "makespan": 54069,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 1934652,
+            "added_copy_bytes": 1782112,
+            "partition_added_copy_bytes": 1782112,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 25984,
+              "UB": 45220
+            },
+            "1": {
+              "L1": 20000,
+              "UB": 40132
+            },
+            "2": {
+              "L1": 33280,
+              "UB": 44132
+            },
+            "3": {
+              "L1": 20000,
+              "UB": 40388
+            },
+            "4": {
+              "L1": 33312,
+              "UB": 39012
+            }
+          },
+          "cross_task_traffic": 857636,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 76058624
+        },
+        "plan_sha": "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 90671,
+        "added_copy": 4458948,
+        "spill": 0,
+        "metrics": {
+          "makespan": 90671,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 4611488,
+            "added_copy_bytes": 4458948,
+            "partition_added_copy_bytes": 4458948,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 26624,
+              "UB": 46468
+            },
+            "1": {
+              "L1": 18464,
+              "UB": 24900
+            },
+            "2": {
+              "L1": 32544,
+              "UB": 35684
+            },
+            "3": {
+              "L1": 25120,
+              "UB": 32866
+            },
+            "4": {
+              "L1": 20352,
+              "UB": 31172
+            }
+          },
+          "cross_task_traffic": 2203736,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 87310336
+        },
+        "plan_sha": "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 84052,
+        "added_copy": 4058282,
+        "spill": 0,
+        "metrics": {
+          "makespan": 84052,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 4210822,
+            "added_copy_bytes": 4058282,
+            "partition_added_copy_bytes": 4058282,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 23712,
+              "UB": 43428
+            },
+            "1": {
+              "L1": 17024,
+              "UB": 38884
+            },
+            "2": {
+              "L1": 23584,
+              "UB": 27946
+            },
+            "3": {
+              "L1": 41600,
+              "UB": 46052
+            },
+            "4": {
+              "L1": 13856,
+              "UB": 26948
+            }
+          },
+          "cross_task_traffic": 2001562,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 86847488
+        },
+        "plan_sha": "b092ba29cd1b720fa9462242362b8d6ebbb9942630a33fdaa7ccad21835bab36"
+      }
+    ]
+  },
+  {
+    "case": "case_049",
+    "problem": 3,
+    "cold_time": 95813,
+    "selected_time": 52519,
+    "cold_copy": 5284936,
+    "cold_hit": "0.1523863246603417",
+    "best_time": 52489,
+    "best_copy": 1782112,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 6.076433672016719,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 101804,
+        "added_copy": 1782112,
+        "spill": 0,
+        "metrics": {
+          "makespan": 101804,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 1934652,
+            "added_copy_bytes": 1782112,
+            "partition_added_copy_bytes": 1782112,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 357,
+            "copy_in_misses": 924,
+            "hit_bytes": 268722,
+            "miss_bytes": 808258,
+            "hits": 357,
+            "accesses": 1281,
+            "hit_rate": 0.24951438281119426
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 17408,
+              "UB": 16512
+            },
+            "1": {
+              "L1": 17440,
+              "UB": 16512
+            },
+            "2": {
+              "L1": 14400,
+              "UB": 16512
+            },
+            "3": {
+              "L1": 18432,
+              "UB": 16512
+            },
+            "4": {
+              "L1": 18432,
+              "UB": 16512
+            }
+          },
+          "cross_task_traffic": 857636,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 73965568
+        },
+        "plan_sha": "64fb3c41bf56df3093dbc001f778e02ba043e5371224855c2c429f023f40e4f6"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 52489,
+        "added_copy": 1782112,
+        "spill": 0,
+        "metrics": {
+          "makespan": 52489,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 1934652,
+            "added_copy_bytes": 1782112,
+            "partition_added_copy_bytes": 1782112,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 341,
+            "copy_in_misses": 940,
+            "hit_bytes": 251158,
+            "miss_bytes": 825822,
+            "hits": 341,
+            "accesses": 1281,
+            "hit_rate": 0.23320581626399747
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 25984,
+              "UB": 45220
+            },
+            "1": {
+              "L1": 20000,
+              "UB": 40132
+            },
+            "2": {
+              "L1": 33280,
+              "UB": 44132
+            },
+            "3": {
+              "L1": 20000,
+              "UB": 40388
+            },
+            "4": {
+              "L1": 33312,
+              "UB": 39012
+            }
+          },
+          "cross_task_traffic": 857636,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 75952128
+        },
+        "plan_sha": "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 84824,
+        "added_copy": 4458948,
+        "spill": 0,
+        "metrics": {
+          "makespan": 84824,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 4611488,
+            "added_copy_bytes": 4458948,
+            "partition_added_copy_bytes": 4458948,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 381,
+            "copy_in_misses": 1652,
+            "hit_bytes": 421012,
+            "miss_bytes": 1986704,
+            "hits": 381,
+            "accesses": 2033,
+            "hit_rate": 0.17485949339540047
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 26624,
+              "UB": 46468
+            },
+            "1": {
+              "L1": 18464,
+              "UB": 24900
+            },
+            "2": {
+              "L1": 32544,
+              "UB": 35684
+            },
+            "3": {
+              "L1": 25120,
+              "UB": 32866
+            },
+            "4": {
+              "L1": 20352,
+              "UB": 31172
+            }
+          },
+          "cross_task_traffic": 2203736,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 87105536
+        },
+        "plan_sha": "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 78560,
+        "added_copy": 4058282,
+        "spill": 0,
+        "metrics": {
+          "makespan": 78560,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 152540,
+            "scheduled_copy_bytes": 4210822,
+            "added_copy_bytes": 4058282,
+            "partition_added_copy_bytes": 4058282,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 379,
+            "copy_in_misses": 1632,
+            "hit_bytes": 394486,
+            "miss_bytes": 1814738,
+            "hits": 379,
+            "accesses": 2011,
+            "hit_rate": 0.17856315158625835
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 23712,
+              "UB": 43428
+            },
+            "1": {
+              "L1": 17024,
+              "UB": 38884
+            },
+            "2": {
+              "L1": 23584,
+              "UB": 27946
+            },
+            "3": {
+              "L1": 41600,
+              "UB": 46052
+            },
+            "4": {
+              "L1": 13856,
+              "UB": 26948
+            }
+          },
+          "cross_task_traffic": 2001562,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 86839296
+        },
+        "plan_sha": "b092ba29cd1b720fa9462242362b8d6ebbb9942630a33fdaa7ccad21835bab36"
+      }
+    ]
+  },
+  {
+    "case": "case_050",
+    "problem": 2,
+    "cold_time": 96590,
+    "selected_time": 38837,
+    "cold_copy": 13824,
+    "cold_hit": "",
+    "best_time": 38837,
+    "best_copy": 1481220,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 6.2252994689915795,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 65615,
+        "added_copy": 1481220,
+        "spill": 0,
+        "metrics": {
+          "makespan": 65615,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 1800596,
+            "added_copy_bytes": 1481220,
+            "partition_added_copy_bytes": 1481220,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 13824,
+              "UB": 32770
+            },
+            "1": {
+              "L1": 10528,
+              "UB": 32768
+            },
+            "2": {
+              "L1": 10752,
+              "UB": 40960
+            },
+            "3": {
+              "L1": 10560,
+              "UB": 40960
+            },
+            "4": {
+              "L1": 12448,
+              "UB": 32784
+            }
+          },
+          "cross_task_traffic": 575028,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 72708096
+        },
+        "plan_sha": "788d7ad47a2338311eb5ca60c48774a6740e39618980eba24a41f4c063baa681"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 38837,
+        "added_copy": 1481220,
+        "spill": 0,
+        "metrics": {
+          "makespan": 38837,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 1800596,
+            "added_copy_bytes": 1481220,
+            "partition_added_copy_bytes": 1481220,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 22272,
+              "UB": 76404
+            },
+            "1": {
+              "L1": 16416,
+              "UB": 45108
+            },
+            "2": {
+              "L1": 16384,
+              "UB": 85252
+            },
+            "3": {
+              "L1": 11904,
+              "UB": 112052
+            },
+            "4": {
+              "L1": 16576,
+              "UB": 73928
+            }
+          },
+          "cross_task_traffic": 575028,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 77017088
+        },
+        "plan_sha": "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 76891,
+        "added_copy": 3905750,
+        "spill": 0,
+        "metrics": {
+          "makespan": 76891,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 4225126,
+            "added_copy_bytes": 3905750,
+            "partition_added_copy_bytes": 3905750,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 19968,
+              "UB": 65556
+            },
+            "1": {
+              "L1": 10144,
+              "UB": 59524
+            },
+            "2": {
+              "L1": 10112,
+              "UB": 46662
+            },
+            "3": {
+              "L1": 13824,
+              "UB": 65604
+            },
+            "4": {
+              "L1": 9216,
+              "UB": 32806
+            }
+          },
+          "cross_task_traffic": 1799324,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 89604096
+        },
+        "plan_sha": "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 67189,
+        "added_copy": 3245522,
+        "spill": 0,
+        "metrics": {
+          "makespan": 67189,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 3564898,
+            "added_copy_bytes": 3245522,
+            "partition_added_copy_bytes": 3245522,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 19488,
+              "UB": 51206
+            },
+            "1": {
+              "L1": 7840,
+              "UB": 69636
+            },
+            "2": {
+              "L1": 13184,
+              "UB": 53302
+            },
+            "3": {
+              "L1": 16640,
+              "UB": 74228
+            },
+            "4": {
+              "L1": 11424,
+              "UB": 49800
+            }
+          },
+          "cross_task_traffic": 1440026,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 86794240
+        },
+        "plan_sha": "a9d68287f7733bf6a577f12293a3cf4e1583c3503831e9864d4c89982a2463bd"
+      }
+    ]
+  },
+  {
+    "case": "case_050",
+    "problem": 3,
+    "cold_time": 96617,
+    "selected_time": 35012,
+    "cold_copy": 16128,
+    "cold_hit": "0.034581717318476",
+    "best_time": 35012,
+    "best_copy": 1481220,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 6.323024619021453,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 63582,
+        "added_copy": 1481220,
+        "spill": 0,
+        "metrics": {
+          "makespan": 63582,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 1800596,
+            "added_copy_bytes": 1481220,
+            "partition_added_copy_bytes": 1481220,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 356,
+            "copy_in_misses": 773,
+            "hit_bytes": 393350,
+            "miss_bytes": 832142,
+            "hits": 356,
+            "accesses": 1129,
+            "hit_rate": 0.3209731275275563
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 13824,
+              "UB": 32770
+            },
+            "1": {
+              "L1": 10528,
+              "UB": 32768
+            },
+            "2": {
+              "L1": 10752,
+              "UB": 40960
+            },
+            "3": {
+              "L1": 10560,
+              "UB": 40960
+            },
+            "4": {
+              "L1": 12448,
+              "UB": 32784
+            }
+          },
+          "cross_task_traffic": 575028,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 72540160
+        },
+        "plan_sha": "788d7ad47a2338311eb5ca60c48774a6740e39618980eba24a41f4c063baa681"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 35012,
+        "added_copy": 1481220,
+        "spill": 0,
+        "metrics": {
+          "makespan": 35012,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 1800596,
+            "added_copy_bytes": 1481220,
+            "partition_added_copy_bytes": 1481220,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 352,
+            "copy_in_misses": 777,
+            "hit_bytes": 437636,
+            "miss_bytes": 787856,
+            "hits": 352,
+            "accesses": 1129,
+            "hit_rate": 0.3571104503334171
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 22272,
+              "UB": 76404
+            },
+            "1": {
+              "L1": 16416,
+              "UB": 45108
+            },
+            "2": {
+              "L1": 16384,
+              "UB": 85252
+            },
+            "3": {
+              "L1": 11904,
+              "UB": 112052
+            },
+            "4": {
+              "L1": 16576,
+              "UB": 73928
+            }
+          },
+          "cross_task_traffic": 575028,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 77135872
+        },
+        "plan_sha": "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 70332,
+        "added_copy": 3905750,
+        "spill": 0,
+        "metrics": {
+          "makespan": 70332,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 4225126,
+            "added_copy_bytes": 3905750,
+            "partition_added_copy_bytes": 3905750,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 340,
+            "copy_in_misses": 1797,
+            "hit_bytes": 479432,
+            "miss_bytes": 1946294,
+            "hits": 340,
+            "accesses": 2137,
+            "hit_rate": 0.19764474635634857
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 19968,
+              "UB": 65556
+            },
+            "1": {
+              "L1": 10144,
+              "UB": 59524
+            },
+            "2": {
+              "L1": 10112,
+              "UB": 46662
+            },
+            "3": {
+              "L1": 13824,
+              "UB": 65604
+            },
+            "4": {
+              "L1": 9216,
+              "UB": 32806
+            }
+          },
+          "cross_task_traffic": 1799324,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 89550848
+        },
+        "plan_sha": "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 59503,
+        "added_copy": 3245522,
+        "spill": 0,
+        "metrics": {
+          "makespan": 59503,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 319376,
+            "scheduled_copy_bytes": 3564898,
+            "added_copy_bytes": 3245522,
+            "partition_added_copy_bytes": 3245522,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 341,
+            "copy_in_misses": 1597,
+            "hit_bytes": 530198,
+            "miss_bytes": 1594598,
+            "hits": 341,
+            "accesses": 1938,
+            "hit_rate": 0.24952889595048183
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 19488,
+              "UB": 51206
+            },
+            "1": {
+              "L1": 7840,
+              "UB": 69636
+            },
+            "2": {
+              "L1": 13184,
+              "UB": 53302
+            },
+            "3": {
+              "L1": 16640,
+              "UB": 74228
+            },
+            "4": {
+              "L1": 11424,
+              "UB": 49800
+            }
+          },
+          "cross_task_traffic": 1440026,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 86654976
+        },
+        "plan_sha": "a9d68287f7733bf6a577f12293a3cf4e1583c3503831e9864d4c89982a2463bd"
+      }
+    ]
+  },
+  {
+    "case": "case_066",
+    "problem": 2,
+    "cold_time": 143083,
+    "selected_time": 89276,
+    "cold_copy": 6000546,
+    "cold_hit": "",
+    "best_time": 89276,
+    "best_copy": 3267848,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 8.211221266014036,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 115031,
+        "added_copy": 3267848,
+        "spill": 0,
+        "metrics": {
+          "makespan": 115031,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 4374882,
+            "added_copy_bytes": 3267848,
+            "partition_added_copy_bytes": 3267848,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 49152,
+              "UB": 30924
+            },
+            "1": {
+              "L1": 49152,
+              "UB": 30912
+            },
+            "2": {
+              "L1": 49152,
+              "UB": 30916
+            },
+            "3": {
+              "L1": 49152,
+              "UB": 30916
+            },
+            "4": {
+              "L1": 49152,
+              "UB": 30912
+            }
+          },
+          "cross_task_traffic": 1158012,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 94580736
+        },
+        "plan_sha": "5b888372b5140f31f0e128356195ea5c54855bc43de9f3fc92399b6272fabb30"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 89276,
+        "added_copy": 3267848,
+        "spill": 0,
+        "metrics": {
+          "makespan": 89276,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 4374882,
+            "added_copy_bytes": 3267848,
+            "partition_added_copy_bytes": 3267848,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 66304,
+              "UB": 42600
+            },
+            "1": {
+              "L1": 58160,
+              "UB": 34070
+            },
+            "2": {
+              "L1": 72400,
+              "UB": 45288
+            },
+            "3": {
+              "L1": 64128,
+              "UB": 35032
+            },
+            "4": {
+              "L1": 58896,
+              "UB": 32468
+            }
+          },
+          "cross_task_traffic": 1158012,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 98840576
+        },
+        "plan_sha": "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 148457,
+        "added_copy": 5652276,
+        "spill": 0,
+        "metrics": {
+          "makespan": 148457,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 6759310,
+            "added_copy_bytes": 5652276,
+            "partition_added_copy_bytes": 5652276,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 49152,
+              "UB": 22982
+            },
+            "1": {
+              "L1": 68400,
+              "UB": 51896
+            },
+            "2": {
+              "L1": 60672,
+              "UB": 40100
+            },
+            "3": {
+              "L1": 68608,
+              "UB": 51050
+            },
+            "4": {
+              "L1": 82176,
+              "UB": 30694
+            }
+          },
+          "cross_task_traffic": 2287278,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 114966528
+        },
+        "plan_sha": "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 135876,
+        "added_copy": 5320564,
+        "spill": 0,
+        "metrics": {
+          "makespan": 135876,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 6427598,
+            "added_copy_bytes": 5320564,
+            "partition_added_copy_bytes": 5320564,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 56416,
+              "UB": 26806
+            },
+            "1": {
+              "L1": 65024,
+              "UB": 36436
+            },
+            "2": {
+              "L1": 68096,
+              "UB": 31938
+            },
+            "3": {
+              "L1": 67584,
+              "UB": 26506
+            },
+            "4": {
+              "L1": 70528,
+              "UB": 34214
+            }
+          },
+          "cross_task_traffic": 2161622,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 114933760
+        },
+        "plan_sha": "03663fd5cab7b5292129d58ba194b848905bfae4331c8c4081878eae1c1e7108"
+      }
+    ]
+  },
+  {
+    "case": "case_066",
+    "problem": 3,
+    "cold_time": 124922,
+    "selected_time": 79059,
+    "cold_copy": 6000546,
+    "cold_hit": "0.29008532297500744",
+    "best_time": 81153,
+    "best_copy": 3267848,
+    "best_name": "op_stable_id_w200_fixed_insertion",
+    "seconds": 8.48272095900029,
+    "variants": [
+      {
+        "name": "op_stable_id_w200",
+        "status": "success",
+        "makespan": 110300,
+        "added_copy": 3267848,
+        "spill": 0,
+        "metrics": {
+          "makespan": 110300,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 4374882,
+            "added_copy_bytes": 3267848,
+            "partition_added_copy_bytes": 3267848,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 527,
+            "copy_in_misses": 1010,
+            "hit_bytes": 1055258,
+            "miss_bytes": 2081694,
+            "hits": 527,
+            "accesses": 1537,
+            "hit_rate": 0.3363959665305685
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 49152,
+              "UB": 30924
+            },
+            "1": {
+              "L1": 49152,
+              "UB": 30912
+            },
+            "2": {
+              "L1": 49152,
+              "UB": 30916
+            },
+            "3": {
+              "L1": 49152,
+              "UB": 30916
+            },
+            "4": {
+              "L1": 49152,
+              "UB": 30912
+            }
+          },
+          "cross_task_traffic": 1158012,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 94597120
+        },
+        "plan_sha": "5b888372b5140f31f0e128356195ea5c54855bc43de9f3fc92399b6272fabb30"
+      },
+      {
+        "name": "op_stable_id_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 81153,
+        "added_copy": 3267848,
+        "spill": 0,
+        "metrics": {
+          "makespan": 81153,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 4374882,
+            "added_copy_bytes": 3267848,
+            "partition_added_copy_bytes": 3267848,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 529,
+            "copy_in_misses": 1008,
+            "hit_bytes": 1175628,
+            "miss_bytes": 1961324,
+            "hits": 529,
+            "accesses": 1537,
+            "hit_rate": 0.3747676088126309
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 66304,
+              "UB": 42600
+            },
+            "1": {
+              "L1": 58160,
+              "UB": 34070
+            },
+            "2": {
+              "L1": 72400,
+              "UB": 45288
+            },
+            "3": {
+              "L1": 64128,
+              "UB": 35032
+            },
+            "4": {
+              "L1": 58896,
+              "UB": 32468
+            }
+          },
+          "cross_task_traffic": 1158012,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 98664448
+        },
+        "plan_sha": "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67"
+      },
+      {
+        "name": "op_critical_path_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 132905,
+        "added_copy": 5652276,
+        "spill": 0,
+        "metrics": {
+          "makespan": 132905,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 6759310,
+            "added_copy_bytes": 5652276,
+            "partition_added_copy_bytes": 5652276,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 575,
+            "copy_in_misses": 2336,
+            "hit_bytes": 1195888,
+            "miss_bytes": 3196226,
+            "hits": 575,
+            "accesses": 2911,
+            "hit_rate": 0.2722807285967532
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 49152,
+              "UB": 22982
+            },
+            "1": {
+              "L1": 68400,
+              "UB": 51896
+            },
+            "2": {
+              "L1": 60672,
+              "UB": 40100
+            },
+            "3": {
+              "L1": 68608,
+              "UB": 51050
+            },
+            "4": {
+              "L1": 82176,
+              "UB": 30694
+            }
+          },
+          "cross_task_traffic": 2287278,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 115200000
+        },
+        "plan_sha": "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      },
+      {
+        "name": "op_release_priority_w200_fixed_insertion",
+        "status": "success",
+        "makespan": 121041,
+        "added_copy": 5320564,
+        "spill": 0,
+        "metrics": {
+          "makespan": 121041,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1107034,
+            "scheduled_copy_bytes": 6427598,
+            "added_copy_bytes": 5320564,
+            "partition_added_copy_bytes": 5320564,
+            "spill_added_copy_bytes": 0
+          },
+          "cache_stats": {
+            "copy_in_hits": 531,
+            "copy_in_misses": 2202,
+            "hit_bytes": 1050416,
+            "miss_bytes": 3135642,
+            "hits": 531,
+            "accesses": 2733,
+            "hit_rate": 0.2509320224421162
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 56416,
+              "UB": 26806
+            },
+            "1": {
+              "L1": 65024,
+              "UB": 36436
+            },
+            "2": {
+              "L1": 68096,
+              "UB": 31938
+            },
+            "3": {
+              "L1": 67584,
+              "UB": 26506
+            },
+            "4": {
+              "L1": 70528,
+              "UB": 34214
+            }
+          },
+          "cross_task_traffic": 2161622,
+          "task_count": 5,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "cache_capacity_bytes": 1048576,
+          "cache_bandwidth_bytes_per_cycle": 250,
+          "active_cores": 5,
+          "peak_memory_bytes": 115253248
+        },
+        "plan_sha": "03663fd5cab7b5292129d58ba194b848905bfae4331c8c4081878eae1c1e7108"
+      }
+    ]
+  }
+]

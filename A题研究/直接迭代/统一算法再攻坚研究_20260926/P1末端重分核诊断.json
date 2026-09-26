@@ -1,0 +1,2078 @@
+{
+  "case": "case_085",
+  "problem": 1,
+  "cores": 5,
+  "budget": 2,
+  "logical_calls": 2,
+  "calls": [
+    {
+      "name": "recipe_tensor_merge_8_final_eft",
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T120237-34bfff20ceb54869ada437d98ace1d85",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 3036942,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1689734,
+            "scheduled_copy_bytes": 10101822,
+            "added_copy_bytes": 8412088,
+            "partition_added_copy_bytes": 8412088,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 16768,
+              "UB": 8384
+            },
+            "1": {
+              "L1": 16768,
+              "UB": 10240
+            },
+            "2": {
+              "L1": 16640,
+              "UB": 10240
+            },
+            "3": {
+              "L1": 16768,
+              "UB": 10240
+            },
+            "4": {
+              "L1": 105600,
+              "UB": 95108
+            }
+          },
+          "cross_task_traffic": 4711360,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 200900608
+        },
+        "elapsed_seconds": 7.699628938979004,
+        "evaluation_elapsed_seconds": 7.189326196006732,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85/plan.json",
+        "hashes": {
+          "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6",
+          "plan_sha256": "c4ecd41409da440497621de8071712dcebab9eaf6e9e1d5271cb854b4b856384",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 200900608,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120237-34bfff20ceb54869ada437d98ace1d85/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/case_085.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "c87306108d198f369a0c9181df192afa2dca2d8b6db91918846e6f2780cf0b14",
+        "worker_elapsed_seconds": 7.610700194025412,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "e3080a35f795270a8932f6031ecb3109db53098a8473739fdb21261897af5662"
+      },
+      "metadata": {
+        "partition_preserved": true,
+        "moved_ops": 19259,
+        "task_count": 266,
+        "max_task_ops": 1024,
+        "proxy_end": 2542317.3,
+        "generation_seconds": 0.38002416800009087,
+        "original_metadata": {
+          "family": "tensor_merge",
+          "parameter": 8,
+          "pre_cap_max_task_ops": 17529,
+          "max_task_ops": 1024,
+          "task_count": 266,
+          "seed_partition_proxy": 2507733.4666666673,
+          "repair": {
+            "tensor_threshold": 4096,
+            "cheap_cycles": 64,
+            "heavy_links": 2208,
+            "cheap_links": 7098,
+            "initial_groups": 11339,
+            "tasks": 1398,
+            "scc_groups_eliminated": 9941
+          },
+          "scope": "graph-only complete candidate; proxy excludes merge/cap changes"
+        },
+        "scope": "assignment plus topological Task-ID/order encoding control; no partition change"
+      },
+      "fixed_task_lower_bound": {
+        "value": 2445160,
+        "critical_task_path": [
+          {
+            "task": 4,
+            "duration_bound": 304,
+            "incoming_wait": 0
+          },
+          {
+            "task": 10,
+            "duration_bound": 6288,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 19,
+            "duration_bound": 28,
+            "incoming_wait": 100
+          },
+          {
+            "task": 20,
+            "duration_bound": 6288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 22,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 56,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 59,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 44,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 31,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 64,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 35,
+            "duration_bound": 1400,
+            "incoming_wait": 100
+          },
+          {
+            "task": 55,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 75,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 88,
+            "duration_bound": 616,
+            "incoming_wait": 100
+          },
+          {
+            "task": 98,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 113,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 78,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 96,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 142,
+            "duration_bound": 2048,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 104,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 127,
+            "duration_bound": 528,
+            "incoming_wait": 100
+          },
+          {
+            "task": 160,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 145,
+            "duration_bound": 1608,
+            "incoming_wait": 100
+          },
+          {
+            "task": 150,
+            "duration_bound": 1960,
+            "incoming_wait": 100
+          },
+          {
+            "task": 121,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 170,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 159,
+            "duration_bound": 2680,
+            "incoming_wait": 100
+          },
+          {
+            "task": 181,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 193,
+            "duration_bound": 88,
+            "incoming_wait": 100
+          },
+          {
+            "task": 194,
+            "duration_bound": 440,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 196,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 199,
+            "duration_bound": 456,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 166,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 187,
+            "duration_bound": 608,
+            "incoming_wait": 100
+          },
+          {
+            "task": 84,
+            "duration_bound": 2948,
+            "incoming_wait": 100
+          },
+          {
+            "task": 210,
+            "duration_bound": 368,
+            "incoming_wait": 100
+          },
+          {
+            "task": 217,
+            "duration_bound": 560,
+            "incoming_wait": 100
+          },
+          {
+            "task": 236,
+            "duration_bound": 364,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 233,
+            "duration_bound": 344,
+            "incoming_wait": 100
+          },
+          {
+            "task": 225,
+            "duration_bound": 112,
+            "incoming_wait": 100
+          },
+          {
+            "task": 226,
+            "duration_bound": 84,
+            "incoming_wait": 100
+          },
+          {
+            "task": 248,
+            "duration_bound": 177376,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 249,
+            "duration_bound": 100112,
+            "incoming_wait": 100
+          },
+          {
+            "task": 250,
+            "duration_bound": 173208,
+            "incoming_wait": 100
+          },
+          {
+            "task": 251,
+            "duration_bound": 101872,
+            "incoming_wait": 100
+          },
+          {
+            "task": 252,
+            "duration_bound": 170376,
+            "incoming_wait": 100
+          },
+          {
+            "task": 253,
+            "duration_bound": 105240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 254,
+            "duration_bound": 167160,
+            "incoming_wait": 100
+          },
+          {
+            "task": 255,
+            "duration_bound": 108456,
+            "incoming_wait": 100
+          },
+          {
+            "task": 256,
+            "duration_bound": 167160,
+            "incoming_wait": 100
+          },
+          {
+            "task": 257,
+            "duration_bound": 107232,
+            "incoming_wait": 100
+          },
+          {
+            "task": 258,
+            "duration_bound": 168384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 259,
+            "duration_bound": 104016,
+            "incoming_wait": 100
+          },
+          {
+            "task": 260,
+            "duration_bound": 171448,
+            "incoming_wait": 100
+          },
+          {
+            "task": 261,
+            "duration_bound": 99728,
+            "incoming_wait": 100
+          },
+          {
+            "task": 262,
+            "duration_bound": 154488,
+            "incoming_wait": 100
+          },
+          {
+            "task": 263,
+            "duration_bound": 98304,
+            "incoming_wait": 100
+          },
+          {
+            "task": 264,
+            "duration_bound": 123616,
+            "incoming_wait": 100
+          },
+          {
+            "task": 265,
+            "duration_bound": 62576,
+            "incoming_wait": 100
+          }
+        ],
+        "task_duration_bounds": {
+          "5": 292,
+          "10": 6288,
+          "19": 28,
+          "20": 6288,
+          "22": 4288,
+          "56": 4288,
+          "59": 4288,
+          "44": 2240,
+          "31": 2240,
+          "64": 2240,
+          "35": 1400,
+          "52": 704,
+          "65": 704,
+          "74": 704,
+          "81": 152,
+          "68": 352,
+          "82": 176,
+          "80": 704,
+          "99": 704,
+          "100": 704,
+          "97": 704,
+          "135": 704,
+          "94": 352,
+          "111": 2240,
+          "149": 1280,
+          "119": 2240,
+          "138": 2240,
+          "147": 1280,
+          "106": 4288,
+          "140": 4288,
+          "163": 3752,
+          "157": 176,
+          "42": 352,
+          "77": 2948,
+          "199": 456,
+          "166": 704,
+          "187": 608,
+          "84": 2948,
+          "210": 368,
+          "217": 560,
+          "221": 440,
+          "204": 280,
+          "215": 280,
+          "247": 168,
+          "227": 84,
+          "239": 224,
+          "241": 224,
+          "245": 48,
+          "246": 48,
+          "4": 304,
+          "15": 6288,
+          "18": 4288,
+          "23": 4288,
+          "30": 4288,
+          "16": 1856,
+          "86": 1608,
+          "50": 2240,
+          "33": 2240,
+          "70": 2240,
+          "67": 1016,
+          "54": 704,
+          "71": 704,
+          "47": 704,
+          "46": 264,
+          "69": 176,
+          "79": 704,
+          "95": 704,
+          "114": 704,
+          "108": 704,
+          "142": 2048,
+          "104": 704,
+          "127": 528,
+          "160": 4288,
+          "145": 1608,
+          "150": 1960,
+          "121": 4288,
+          "170": 4288,
+          "159": 2680,
+          "151": 176,
+          "162": 264,
+          "186": 616,
+          "196": 704,
+          "197": 704,
+          "155": 704,
+          "169": 704,
+          "209": 248,
+          "212": 248,
+          "213": 1192,
+          "230": 1384,
+          "231": 840,
+          "236": 364,
+          "233": 344,
+          "225": 112,
+          "226": 84,
+          "218": 288,
+          "242": 192,
+          "8": 152,
+          "14": 6288,
+          "24": 6288,
+          "25": 3520,
+          "27": 4288,
+          "32": 4288,
+          "43": 2240,
+          "41": 1072,
+          "57": 2240,
+          "39": 1960,
+          "45": 440,
+          "51": 456,
+          "58": 704,
+          "76": 704,
+          "83": 440,
+          "85": 704,
+          "112": 704,
+          "90": 704,
+          "96": 704,
+          "109": 2240,
+          "101": 704,
+          "122": 704,
+          "158": 4288,
+          "143": 1680,
+          "134": 280,
+          "103": 4288,
+          "132": 4288,
+          "161": 3752,
+          "178": 704,
+          "181": 704,
+          "193": 88,
+          "177": 352,
+          "180": 616,
+          "188": 704,
+          "124": 704,
+          "153": 704,
+          "168": 704,
+          "202": 248,
+          "201": 88,
+          "189": 248,
+          "192": 248,
+          "190": 248,
+          "0": 704,
+          "2": 440,
+          "207": 248,
+          "234": 344,
+          "243": 384,
+          "232": 384,
+          "6": 332,
+          "12": 6288,
+          "36": 6288,
+          "40": 3520,
+          "29": 4288,
+          "66": 4288,
+          "26": 1856,
+          "28": 2240,
+          "60": 2240,
+          "73": 1680,
+          "34": 704,
+          "61": 704,
+          "89": 704,
+          "49": 264,
+          "48": 88,
+          "107": 704,
+          "91": 704,
+          "141": 704,
+          "93": 352,
+          "110": 704,
+          "136": 704,
+          "152": 1280,
+          "118": 704,
+          "92": 440,
+          "105": 2240,
+          "128": 2240,
+          "156": 4288,
+          "130": 4288,
+          "148": 1608,
+          "133": 1608,
+          "126": 704,
+          "175": 704,
+          "176": 704,
+          "172": 352,
+          "146": 88,
+          "174": 176,
+          "182": 704,
+          "183": 456,
+          "195": 704,
+          "139": 704,
+          "167": 704,
+          "185": 456,
+          "208": 264,
+          "216": 248,
+          "211": 248,
+          "223": 248,
+          "224": 616,
+          "235": 344,
+          "238": 224,
+          "240": 224,
+          "244": 96,
+          "220": 288,
+          "7": 332,
+          "13": 6288,
+          "3": 427,
+          "9": 88,
+          "11": 1272,
+          "17": 2752,
+          "21": 3520,
+          "62": 4288,
+          "38": 3752,
+          "72": 1608,
+          "37": 1072,
+          "53": 2240,
+          "87": 2240,
+          "63": 928,
+          "55": 704,
+          "75": 704,
+          "88": 616,
+          "98": 704,
+          "113": 704,
+          "78": 704,
+          "115": 704,
+          "116": 2240,
+          "144": 1280,
+          "137": 704,
+          "102": 2240,
+          "123": 2240,
+          "131": 1680,
+          "154": 1960,
+          "125": 4288,
+          "173": 4288,
+          "171": 704,
+          "164": 704,
+          "179": 704,
+          "194": 440,
+          "117": 704,
+          "120": 704,
+          "129": 704,
+          "165": 704,
+          "184": 176,
+          "200": 368,
+          "205": 456,
+          "198": 248,
+          "229": 248,
+          "206": 248,
+          "222": 248,
+          "1": 704,
+          "191": 248,
+          "203": 248,
+          "219": 288,
+          "214": 280,
+          "237": 264,
+          "228": 84,
+          "248": 177376,
+          "249": 100112,
+          "250": 173208,
+          "251": 101872,
+          "252": 170376,
+          "253": 105240,
+          "254": 167160,
+          "255": 108456,
+          "256": 167160,
+          "257": 107232,
+          "258": 168384,
+          "259": 104016,
+          "260": 171448,
+          "261": 99728,
+          "262": 154488,
+          "263": 98304,
+          "264": 123616,
+          "265": 62576
+        },
+        "scope": "P1 only; fixed plan; original compute and mandatory Task waits; IO omitted"
+      },
+      "old_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T115007-82d891ab13034c5b8bdb7c783d236718",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 3042113,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1689734,
+            "scheduled_copy_bytes": 10101822,
+            "added_copy_bytes": 8412088,
+            "partition_added_copy_bytes": 8412088,
+            "spill_added_copy_bytes": 0
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 16768,
+              "UB": 10240
+            },
+            "1": {
+              "L1": 16768,
+              "UB": 10240
+            },
+            "2": {
+              "L1": 16640,
+              "UB": 10240
+            },
+            "3": {
+              "L1": 105600,
+              "UB": 95108
+            },
+            "4": {
+              "L1": 16640,
+              "UB": 10240
+            }
+          },
+          "cross_task_traffic": 4711360,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 201359360
+        },
+        "elapsed_seconds": 8.851202492020093,
+        "evaluation_elapsed_seconds": 8.232978586020181,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718/plan.json",
+        "hashes": {
+          "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6",
+          "plan_sha256": "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 201359360,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115007-82d891ab13034c5b8bdb7c783d236718/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/case_085.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "3d46f3b638d5afe7487ba14cdfab576f12c1080bb4e41a04cb9f203f0d76e0e4",
+        "worker_elapsed_seconds": 8.730935493978905,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "4a4c8b0d3ff1d2e27adbefddd33cac03a6cb858ac4c12a46425dbb98666d8c6d"
+      },
+      "old_fixed_task_lower_bound": {
+        "value": 2452480,
+        "critical_task_path": [
+          {
+            "task": 178,
+            "duration_bound": 304,
+            "incoming_wait": 0
+          },
+          {
+            "task": 208,
+            "duration_bound": 6288,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 408,
+            "duration_bound": 6288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 285,
+            "duration_bound": 4288,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 431,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 565,
+            "duration_bound": 3752,
+            "incoming_wait": 100
+          },
+          {
+            "task": 319,
+            "duration_bound": 1856,
+            "incoming_wait": 100
+          },
+          {
+            "task": 987,
+            "duration_bound": 2948,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 354,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 494,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1039,
+            "duration_bound": 1016,
+            "incoming_wait": 100
+          },
+          {
+            "task": 260,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 406,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 544,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 629,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 821,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1089,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1352,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 612,
+            "duration_bound": 352,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1236,
+            "duration_bound": 1280,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 681,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 944,
+            "duration_bound": 2240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1189,
+            "duration_bound": 1960,
+            "incoming_wait": 100
+          },
+          {
+            "task": 634,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 874,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1142,
+            "duration_bound": 4288,
+            "incoming_wait": 100
+          },
+          {
+            "task": 811,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 1195,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 1253,
+            "duration_bound": 616,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 1301,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 1321,
+            "duration_bound": 704,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 807,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1075,
+            "duration_bound": 704,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1276,
+            "duration_bound": 248,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 718,
+            "duration_bound": 368,
+            "incoming_wait": 100
+          },
+          {
+            "task": 622,
+            "duration_bound": 1192,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 766,
+            "duration_bound": 1384,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 769,
+            "duration_bound": 840,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 5,
+            "duration_bound": 384,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 97,
+            "duration_bound": 48,
+            "incoming_wait": 100
+          },
+          {
+            "task": 116,
+            "duration_bound": 344,
+            "incoming_wait": 100
+          },
+          {
+            "task": 37,
+            "duration_bound": 224,
+            "incoming_wait": 100
+          },
+          {
+            "task": 147,
+            "duration_bound": 84,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1397,
+            "duration_bound": 177376,
+            "incoming_wait": 1000
+          },
+          {
+            "task": 1398,
+            "duration_bound": 100112,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1399,
+            "duration_bound": 173208,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1400,
+            "duration_bound": 101872,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1401,
+            "duration_bound": 170376,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1402,
+            "duration_bound": 105240,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1403,
+            "duration_bound": 167160,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1404,
+            "duration_bound": 108456,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1405,
+            "duration_bound": 167160,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1406,
+            "duration_bound": 107232,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1407,
+            "duration_bound": 168384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1408,
+            "duration_bound": 104016,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1409,
+            "duration_bound": 171448,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1410,
+            "duration_bound": 99728,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1411,
+            "duration_bound": 154488,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1412,
+            "duration_bound": 98304,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1413,
+            "duration_bound": 123616,
+            "incoming_wait": 100
+          },
+          {
+            "task": 1414,
+            "duration_bound": 62576,
+            "incoming_wait": 100
+          }
+        ],
+        "task_duration_bounds": {
+          "206": 292,
+          "208": 6288,
+          "408": 6288,
+          "409": 3520,
+          "356": 4288,
+          "496": 4288,
+          "1086": 1608,
+          "226": 352,
+          "987": 2948,
+          "354": 2240,
+          "494": 2240,
+          "1039": 1016,
+          "260": 704,
+          "406": 704,
+          "544": 704,
+          "219": 352,
+          "773": 704,
+          "1041": 704,
+          "1281": 704,
+          "607": 352,
+          "732": 704,
+          "1000": 704,
+          "1240": 1280,
+          "685": 2240,
+          "948": 2240,
+          "1193": 1960,
+          "638": 4288,
+          "878": 4288,
+          "1146": 4288,
+          "600": 176,
+          "687": 704,
+          "1195": 704,
+          "1205": 704,
+          "587": 704,
+          "815": 704,
+          "1083": 704,
+          "1323": 456,
+          "624": 248,
+          "864": 248,
+          "1132": 248,
+          "1395": 248,
+          "981": 368,
+          "817": 280,
+          "1085": 280,
+          "1325": 616,
+          "122": 288,
+          "72": 384,
+          "199": 264,
+          "106": 168,
+          "205": 152,
+          "224": 6288,
+          "484": 6288,
+          "485": 3520,
+          "364": 4288,
+          "502": 4288,
+          "1182": 1608,
+          "228": 2240,
+          "324": 2240,
+          "452": 2240,
+          "771": 1680,
+          "914": 152,
+          "234": 264,
+          "297": 704,
+          "439": 704,
+          "580": 704,
+          "391": 176,
+          "581": 704,
+          "869": 704,
+          "1137": 704,
+          "584": 704,
+          "785": 704,
+          "1053": 528,
+          "1236": 1280,
+          "681": 2240,
+          "944": 2240,
+          "1189": 1960,
+          "634": 4288,
+          "874": 4288,
+          "1142": 4288,
+          "591": 88,
+          "610": 176,
+          "715": 704,
+          "1223": 704,
+          "1272": 616,
+          "1273": 704,
+          "803": 704,
+          "1071": 704,
+          "1311": 456,
+          "768": 248,
+          "1036": 248,
+          "1276": 248,
+          "718": 368,
+          "769": 840,
+          "66": 440,
+          "55": 192,
+          "117": 344,
+          "38": 224,
+          "148": 84,
+          "178": 304,
+          "407": 28,
+          "252": 6288,
+          "572": 6288,
+          "573": 3520,
+          "367": 4288,
+          "507": 4288,
+          "1230": 1072,
+          "249": 2240,
+          "341": 2240,
+          "481": 1400,
+          "566": 1960,
+          "359": 440,
+          "328": 704,
+          "470": 704,
+          "924": 440,
+          "305": 176,
+          "677": 704,
+          "940": 704,
+          "1185": 704,
+          "593": 440,
+          "741": 704,
+          "1009": 704,
+          "1249": 1280,
+          "694": 2240,
+          "957": 2240,
+          "1202": 280,
+          "1237": 1608,
+          "682": 4288,
+          "945": 4288,
+          "1190": 3752,
+          "706": 704,
+          "1214": 88,
+          "1271": 264,
+          "745": 352,
+          "1253": 616,
+          "1321": 704,
+          "807": 704,
+          "1075": 704,
+          "1315": 608,
+          "816": 248,
+          "1084": 248,
+          "1324": 248,
+          "766": 1384,
+          "57": 704,
+          "5": 384,
+          "97": 48,
+          "116": 344,
+          "37": 224,
+          "147": 84,
+          "179": 332,
+          "292": 6288,
+          "176": 427,
+          "189": 1272,
+          "238": 2752,
+          "285": 4288,
+          "431": 4288,
+          "565": 3752,
+          "319": 1856,
+          "296": 2240,
+          "412": 2240,
+          "546": 2240,
+          "230": 456,
+          "325": 704,
+          "467": 704,
+          "921": 704,
+          "725": 704,
+          "993": 704,
+          "1233": 704,
+          "597": 704,
+          "837": 704,
+          "1105": 704,
+          "1368": 2048,
+          "790": 2240,
+          "1058": 1680,
+          "1241": 1608,
+          "686": 4288,
+          "949": 4288,
+          "1194": 3752,
+          "735": 704,
+          "1243": 704,
+          "1301": 704,
+          "615": 704,
+          "855": 704,
+          "1123": 704,
+          "1386": 456,
+          "720": 248,
+          "983": 248,
+          "1228": 248,
+          "670": 88,
+          "862": 264,
+          "721": 280,
+          "984": 560,
+          "56": 440,
+          "9": 288,
+          "95": 48,
+          "114": 364,
+          "36": 224,
+          "146": 112,
+          "1397": 177376,
+          "1398": 100112,
+          "1399": 173208,
+          "1400": 101872,
+          "1401": 170376,
+          "1402": 105240,
+          "1403": 167160,
+          "1404": 108456,
+          "1405": 167160,
+          "1406": 107232,
+          "1407": 168384,
+          "1408": 104016,
+          "1409": 171448,
+          "1410": 99728,
+          "1411": 154488,
+          "1412": 98304,
+          "1413": 123616,
+          "1414": 62576,
+          "180": 332,
+          "344": 6288,
+          "187": 88,
+          "190": 1856,
+          "227": 4288,
+          "370": 4288,
+          "510": 4288,
+          "1278": 1072,
+          "575": 2948,
+          "351": 2240,
+          "491": 2240,
+          "991": 928,
+          "265": 88,
+          "284": 264,
+          "339": 704,
+          "479": 704,
+          "933": 616,
+          "629": 704,
+          "821": 704,
+          "1089": 704,
+          "1352": 704,
+          "612": 352,
+          "737": 704,
+          "1005": 704,
+          "1245": 1280,
+          "690": 2240,
+          "953": 2240,
+          "1198": 1680,
+          "643": 4288,
+          "883": 4288,
+          "1151": 1608,
+          "1242": 2680,
+          "811": 704,
+          "1319": 176,
+          "716": 352,
+          "1224": 440,
+          "717": 176,
+          "1225": 704,
+          "794": 704,
+          "1062": 704,
+          "1302": 456,
+          "672": 248,
+          "912": 248,
+          "1180": 248,
+          "622": 1192,
+          "47": 704,
+          "133": 288,
+          "94": 96,
+          "118": 344,
+          "40": 224,
+          "150": 84
+        },
+        "scope": "P1 only; fixed plan; original compute and mandatory Task waits; IO omitted"
+      },
+      "partition_only_compute_path_bound": 2396228,
+      "partition_bound_scope": "fixed partition Task durations; original inter-Task dependence only; no core-order edges, no Task waiting penalties, no DDR; valid for any assignment of this partition"
+    },
+    {
+      "name": "recipe_tensor_work_fraction_16_final_eft",
+      "record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T120245-4b077ce9c1314e42b1510411aa3d6a23",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 3145140,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1689734,
+            "scheduled_copy_bytes": 5192186,
+            "added_copy_bytes": 3502452,
+            "partition_added_copy_bytes": 3419508,
+            "spill_added_copy_bytes": 82944
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 105728,
+              "UB": 129792
+            },
+            "1": {
+              "L1": 16640,
+              "UB": 258
+            },
+            "2": {
+              "L1": 8448,
+              "UB": 258
+            },
+            "3": {
+              "L1": 16640,
+              "UB": 258
+            },
+            "4": {
+              "L1": 16640,
+              "UB": 258
+            }
+          },
+          "cross_task_traffic": 1681552,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 187183104
+        },
+        "elapsed_seconds": 4.58786629899987,
+        "evaluation_elapsed_seconds": 4.232174581004074,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23/plan.json",
+        "hashes": {
+          "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6",
+          "plan_sha256": "8ae30f7c831822c253d1fa4340019d2b9397b0f4e73afcaf5f8aeda669e7629c",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 187183104,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1配方末端重分核诊断_v1/evaluations/attempts/20260926T120245-4b077ce9c1314e42b1510411aa3d6a23/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/case_085.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "8824857ca0c6cd865b001458b5f033734c7575a529fbdbb74df2e23a2330ad9a",
+        "worker_elapsed_seconds": 4.50814530000207,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "54204a7a24b7fbf166d62536ee8235c7eee3f29bca0d87658d4c05fa1cdf1b90"
+      },
+      "metadata": {
+        "partition_preserved": true,
+        "moved_ops": 112,
+        "task_count": 40,
+        "max_task_ops": 1024,
+        "proxy_end": 2643160.8333333335,
+        "generation_seconds": 0.2673933790065348,
+        "original_metadata": {
+          "family": "tensor_work_fraction",
+          "parameter": 16,
+          "pre_cap_max_task_ops": 17605,
+          "max_task_ops": 1024,
+          "task_count": 40,
+          "seed_partition_proxy": 2587546.066666667,
+          "repair": {
+            "initial_group_count": 205,
+            "final_task_count": 45,
+            "nontrivial_scc_count": 2,
+            "groups_eliminated": 160,
+            "group_collapse_fraction": 0.7804878048780488,
+            "largest_scc_group_count": 144,
+            "largest_scc_original_op_count": 17605,
+            "original_dependencies_verified": 30348,
+            "merged_group_members": [
+              [
+                1,
+                3,
+                5,
+                6,
+                7,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20,
+                21,
+                23,
+                25,
+                26,
+                27,
+                29
+              ],
+              [
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                22,
+                24,
+                30,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                57,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                81,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                102,
+                106,
+                107,
+                108,
+                109,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116,
+                117,
+                118,
+                119,
+                120,
+                123,
+                127,
+                128,
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                144,
+                148,
+                149,
+                150,
+                151,
+                152,
+                153,
+                154,
+                155,
+                156,
+                157,
+                158,
+                159,
+                160,
+                161,
+                162,
+                165,
+                168,
+                169,
+                170,
+                171,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                179,
+                180,
+                181,
+                182,
+                183,
+                186,
+                189,
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203,
+                204
+              ]
+            ],
+            "convexity_scope": "acyclic quotient of original COPY-contracted compute DAG; not memory feasibility"
+          },
+          "scope": "graph-only complete candidate; proxy excludes merge/cap changes"
+        },
+        "scope": "assignment plus topological Task-ID/order encoding control; no partition change"
+      },
+      "fixed_task_lower_bound": {
+        "value": 2563844,
+        "critical_task_path": [
+          {
+            "task": 18,
+            "duration_bound": 224,
+            "incoming_wait": 0
+          },
+          {
+            "task": 19,
+            "duration_bound": 98624,
+            "incoming_wait": 100
+          },
+          {
+            "task": 20,
+            "duration_bound": 95136,
+            "incoming_wait": 100
+          },
+          {
+            "task": 21,
+            "duration_bound": 4440,
+            "incoming_wait": 100
+          },
+          {
+            "task": 22,
+            "duration_bound": 175248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 23,
+            "duration_bound": 103480,
+            "incoming_wait": 100
+          },
+          {
+            "task": 24,
+            "duration_bound": 168320,
+            "incoming_wait": 100
+          },
+          {
+            "task": 25,
+            "duration_bound": 107384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 26,
+            "duration_bound": 167248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 27,
+            "duration_bound": 108456,
+            "incoming_wait": 100
+          },
+          {
+            "task": 28,
+            "duration_bound": 167248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 29,
+            "duration_bound": 104016,
+            "incoming_wait": 100
+          },
+          {
+            "task": 30,
+            "duration_bound": 169928,
+            "incoming_wait": 100
+          },
+          {
+            "task": 31,
+            "duration_bound": 101336,
+            "incoming_wait": 100
+          },
+          {
+            "task": 32,
+            "duration_bound": 168320,
+            "incoming_wait": 100
+          },
+          {
+            "task": 33,
+            "duration_bound": 107384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 34,
+            "duration_bound": 145784,
+            "incoming_wait": 100
+          },
+          {
+            "task": 35,
+            "duration_bound": 130008,
+            "incoming_wait": 100
+          },
+          {
+            "task": 36,
+            "duration_bound": 122920,
+            "incoming_wait": 100
+          },
+          {
+            "task": 37,
+            "duration_bound": 130048,
+            "incoming_wait": 100
+          },
+          {
+            "task": 38,
+            "duration_bound": 99576,
+            "incoming_wait": 100
+          },
+          {
+            "task": 39,
+            "duration_bound": 86616,
+            "incoming_wait": 100
+          }
+        ],
+        "task_duration_bounds": {
+          "18": 224,
+          "19": 98624,
+          "20": 95136,
+          "21": 4440,
+          "22": 175248,
+          "23": 103480,
+          "24": 168320,
+          "25": 107384,
+          "26": 167248,
+          "27": 108456,
+          "28": 167248,
+          "29": 104016,
+          "30": 169928,
+          "31": 101336,
+          "32": 168320,
+          "33": 107384,
+          "34": 145784,
+          "35": 130008,
+          "36": 122920,
+          "37": 130048,
+          "38": 99576,
+          "39": 86616,
+          "0": 440,
+          "2": 352,
+          "12": 224,
+          "6": 224,
+          "1": 352,
+          "8": 352,
+          "14": 224,
+          "11": 224,
+          "3": 224,
+          "4": 352,
+          "16": 224,
+          "15": 384,
+          "5": 352,
+          "10": 264,
+          "17": 384,
+          "7": 264,
+          "13": 224,
+          "9": 224
+        },
+        "scope": "P1 only; fixed plan; original compute and mandatory Task waits; IO omitted"
+      },
+      "old_record": {
+        "schema_version": 1,
+        "attempt_id": "20260926T115031-677e39d542fb4b3c986aa5117e09f381",
+        "problem": 1,
+        "status": "success",
+        "metrics": {
+          "makespan": 3145032,
+          "num_cores": 5,
+          "data_movement_bytes": {
+            "original_graph_copy_bytes": 1689734,
+            "scheduled_copy_bytes": 5192186,
+            "added_copy_bytes": 3502452,
+            "partition_added_copy_bytes": 3419508,
+            "spill_added_copy_bytes": 82944
+          },
+          "memory_peak_by_core": {
+            "0": {
+              "L1": 105728,
+              "UB": 129792
+            },
+            "1": {
+              "L1": 16640,
+              "UB": 258
+            },
+            "2": {
+              "L1": 16640,
+              "UB": 258
+            },
+            "3": {
+              "L1": 16640,
+              "UB": 258
+            },
+            "4": {
+              "L1": 16640,
+              "UB": 258
+            }
+          },
+          "cross_task_traffic": 1681552,
+          "capacity_bytes": {
+            "L1": 524288,
+            "UB": 131072
+          },
+          "bandwidth_bytes_per_cycle": 60,
+          "active_cores": 5,
+          "peak_memory_bytes": 187219968
+        },
+        "elapsed_seconds": 5.693141010997351,
+        "evaluation_elapsed_seconds": 5.232983017980587,
+        "cache_hit": false,
+        "result_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381/official_result.json.gz",
+        "plan_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381/plan.json",
+        "hashes": {
+          "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6",
+          "plan_sha256": "193282e838b23e553f925f9dd6799f367c3d5a5b47da3bbd499091b9ba8c7caf",
+          "problem": 1,
+          "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+          "official_py_sha256": {
+            "contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+            "evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+            "multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+            "multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+            "multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+            "schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+            "schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+            "schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+            "singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+            "stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892"
+          },
+          "wrapper_sha256": "098f60722193dfc63a8da9950831a0ea37a403c7544b4ce4bb7bcedc8d2d2349",
+          "worker_sha256": "4c71e699073bac29fcc032d49634674f779e84472f497bd94c8594ed490b6496",
+          "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+          "python_executable": "/usr/bin/python3.12",
+          "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+        },
+        "error": null,
+        "peak_memory_bytes": 187219968,
+        "returncode": 0,
+        "attempt_dir": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381",
+        "record_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381/record.json",
+        "stdout_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381/stdout.log",
+        "stderr_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/A题研究/直接迭代/运行结果/P1原图配方攻坚_v1/case_085/evaluations/attempts/20260926T115031-677e39d542fb4b3c986aa5117e09f381/stderr.log",
+        "graph_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/case_085.json",
+        "config_path": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/data/config.txt",
+        "official_code": "/home/konglingrui/.mathmodel/questionA/真机启发算法攻坚/选题分析/A题附件/code",
+        "timeout_seconds": 60.0,
+        "cache_key": "169de9a12c976790986dbfd7490c2b0c7fca628435043f57936259c7db9638b5",
+        "worker_elapsed_seconds": 5.5877060090133455,
+        "error_type": null,
+        "error_stage": null,
+        "rss_measurement": "worker_ru_maxrss",
+        "result_sha256": "710fe5dfbb7fd5a84d49a6274b8c792bc39ee6f422bb9ea120f5cc4a38b35126"
+      },
+      "old_fixed_task_lower_bound": {
+        "value": 2563844,
+        "critical_task_path": [
+          {
+            "task": 41,
+            "duration_bound": 224,
+            "incoming_wait": 0
+          },
+          {
+            "task": 42,
+            "duration_bound": 98624,
+            "incoming_wait": 100
+          },
+          {
+            "task": 45,
+            "duration_bound": 95136,
+            "incoming_wait": 100
+          },
+          {
+            "task": 43,
+            "duration_bound": 4440,
+            "incoming_wait": 100
+          },
+          {
+            "task": 44,
+            "duration_bound": 175248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 46,
+            "duration_bound": 103480,
+            "incoming_wait": 100
+          },
+          {
+            "task": 47,
+            "duration_bound": 168320,
+            "incoming_wait": 100
+          },
+          {
+            "task": 48,
+            "duration_bound": 107384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 49,
+            "duration_bound": 167248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 50,
+            "duration_bound": 108456,
+            "incoming_wait": 100
+          },
+          {
+            "task": 51,
+            "duration_bound": 167248,
+            "incoming_wait": 100
+          },
+          {
+            "task": 52,
+            "duration_bound": 104016,
+            "incoming_wait": 100
+          },
+          {
+            "task": 53,
+            "duration_bound": 169928,
+            "incoming_wait": 100
+          },
+          {
+            "task": 54,
+            "duration_bound": 101336,
+            "incoming_wait": 100
+          },
+          {
+            "task": 55,
+            "duration_bound": 168320,
+            "incoming_wait": 100
+          },
+          {
+            "task": 56,
+            "duration_bound": 107384,
+            "incoming_wait": 100
+          },
+          {
+            "task": 57,
+            "duration_bound": 145784,
+            "incoming_wait": 100
+          },
+          {
+            "task": 58,
+            "duration_bound": 130008,
+            "incoming_wait": 100
+          },
+          {
+            "task": 59,
+            "duration_bound": 122920,
+            "incoming_wait": 100
+          },
+          {
+            "task": 60,
+            "duration_bound": 130048,
+            "incoming_wait": 100
+          },
+          {
+            "task": 61,
+            "duration_bound": 99576,
+            "incoming_wait": 100
+          },
+          {
+            "task": 62,
+            "duration_bound": 86616,
+            "incoming_wait": 100
+          }
+        ],
+        "task_duration_bounds": {
+          "41": 224,
+          "42": 98624,
+          "45": 95136,
+          "43": 4440,
+          "44": 175248,
+          "46": 103480,
+          "47": 168320,
+          "48": 107384,
+          "49": 167248,
+          "50": 108456,
+          "51": 167248,
+          "52": 104016,
+          "53": 169928,
+          "54": 101336,
+          "55": 168320,
+          "56": 107384,
+          "57": 145784,
+          "58": 130008,
+          "59": 122920,
+          "60": 130048,
+          "61": 99576,
+          "62": 86616,
+          "36": 384,
+          "22": 224,
+          "8": 352,
+          "2": 352,
+          "40": 384,
+          "27": 224,
+          "13": 352,
+          "4": 352,
+          "3": 224,
+          "12": 224,
+          "32": 224,
+          "18": 440,
+          "16": 264,
+          "7": 224,
+          "17": 224,
+          "38": 224,
+          "23": 352,
+          "9": 264
+        },
+        "scope": "P1 only; fixed plan; original compute and mandatory Task waits; IO omitted"
+      },
+      "partition_only_compute_path_bound": 2561744,
+      "partition_bound_scope": "fixed partition Task durations; original inter-Task dependence only; no core-order edges, no Task waiting penalties, no DDR; valid for any assignment of this partition"
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 13.149075802008156,
+  "complete": true
+}
