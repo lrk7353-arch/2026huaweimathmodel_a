@@ -1,0 +1,26 @@
+{
+  "smoke_p1_043_n4": {
+    "calls": 10,
+    "failures": 0
+  },
+  "smoke_p3_009_n5": {
+    "calls": 16,
+    "failures": 0
+  },
+  "v2_smoke_p3_046": {
+    "calls": 14,
+    "failures": 0
+  },
+  "P1持续区域动作开发_v1": {
+    "calls": 4,
+    "failures": 0
+  },
+  "P1持续区域动作开发_merge_v1": {
+    "calls": 4,
+    "failures": 0
+  },
+  "P23持久动作开发": {
+    "calls": 4,
+    "failures": 0
+  }
+}

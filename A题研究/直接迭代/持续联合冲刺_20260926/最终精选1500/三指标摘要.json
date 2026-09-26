@@ -1,0 +1,27 @@
+{
+  "five_core": [
+    {
+      "problem": 1,
+      "old_mean_speedup": 3.9075240776844127,
+      "new_mean_speedup": 3.9228384379259973,
+      "old_copy": 1868295024,
+      "new_copy": 1880349984
+    },
+    {
+      "problem": 2,
+      "old_mean_speedup": 4.726023695868106,
+      "new_mean_speedup": 4.730723905435941,
+      "old_copy": 1135054178,
+      "new_copy": 1131783360
+    },
+    {
+      "problem": 3,
+      "old_mean_speedup": 4.869796170198467,
+      "new_mean_speedup": 4.872482166360644,
+      "old_copy": 1116467222,
+      "new_copy": 1122655982
+    }
+  ],
+  "p3_mean_hit_rate": 0.2771272941436717,
+  "p3_pooled_hit_rate": 0.3107933995845336
+}

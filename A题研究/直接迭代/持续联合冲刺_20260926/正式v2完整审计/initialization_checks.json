@@ -1,0 +1,3355 @@
+[
+  {
+    "config_id": "case_060_p2_n5",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p3_n4",
+    "case": "case_047",
+    "problem": 3,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "success_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "success_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_025_p3_n5",
+    "case": "case_025",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": false,
+    "legacy": {
+      "plan_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "success_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "success_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p3_n1",
+    "case": "case_047",
+    "problem": 3,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "success_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "calls": 3
+    },
+    "persistent": {
+      "plan_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "success_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "calls": 3
+    }
+  },
+  {
+    "config_id": "case_053_p3_n5",
+    "case": "case_053",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "success_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "success_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_095_p2_n5",
+    "case": "case_095",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "success_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "success_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p3_n3",
+    "case": "case_047",
+    "problem": 3,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "success_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "success_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_054_p1_n5",
+    "case": "case_054",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": false,
+    "successful_hashes_equal": false,
+    "legacy": {
+      "plan_hashes": [
+        "2b5311f862d7fdda628743aa50083631310894cb23e7954acc5fe9bcecd1bfdd",
+        "3a53b91231eec8164049a3ceae538b9d13100a7e6812eca667594c303fd03c72",
+        "a1e3f006a93fdde392866b4cdea82426d5f3cacdb884c688d7577f04af1b09b3",
+        "253819c40c27bd2499138a9732a7287e078ab524dc897418afc5c1eeb13ab9bf",
+        "7169f5325d0eeb6452d702d7ebd7d9515d1eebdc4a4e8f634fb124ed66652177"
+      ],
+      "success_hashes": [
+        "2b5311f862d7fdda628743aa50083631310894cb23e7954acc5fe9bcecd1bfdd",
+        "3a53b91231eec8164049a3ceae538b9d13100a7e6812eca667594c303fd03c72",
+        "a1e3f006a93fdde392866b4cdea82426d5f3cacdb884c688d7577f04af1b09b3",
+        "253819c40c27bd2499138a9732a7287e078ab524dc897418afc5c1eeb13ab9bf"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "2b5311f862d7fdda628743aa50083631310894cb23e7954acc5fe9bcecd1bfdd",
+        "3a53b91231eec8164049a3ceae538b9d13100a7e6812eca667594c303fd03c72",
+        "a1e3f006a93fdde392866b4cdea82426d5f3cacdb884c688d7577f04af1b09b3",
+        "253819c40c27bd2499138a9732a7287e078ab524dc897418afc5c1eeb13ab9bf",
+        "7169f5325d0eeb6452d702d7ebd7d9515d1eebdc4a4e8f634fb124ed66652177",
+        "9d05340d95e066f852f6ea428ac20355cd772ecce9037c473ceb81864e60f73d"
+      ],
+      "success_hashes": [
+        "2b5311f862d7fdda628743aa50083631310894cb23e7954acc5fe9bcecd1bfdd",
+        "3a53b91231eec8164049a3ceae538b9d13100a7e6812eca667594c303fd03c72",
+        "a1e3f006a93fdde392866b4cdea82426d5f3cacdb884c688d7577f04af1b09b3",
+        "253819c40c27bd2499138a9732a7287e078ab524dc897418afc5c1eeb13ab9bf",
+        "7169f5325d0eeb6452d702d7ebd7d9515d1eebdc4a4e8f634fb124ed66652177",
+        "9d05340d95e066f852f6ea428ac20355cd772ecce9037c473ceb81864e60f73d"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_085_p1_n5",
+    "case": "case_085",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+        "bd5807f0f38c3585696ede8652058aba7add32c1ef16e1e767dac27f5718ec91",
+        "a4221fd5ce49478672c68d41f6c25bc255743cc68b2b148841fc9be90f0074ab",
+        "9daa454da4ec62bf123d26d1ee17f119205e8be1389b0341676abced2e602f96",
+        "a3298cee22c58225e4c138527e9ba702cbc3dfaaa1ffedfa1d5759414c277c6d"
+      ],
+      "success_hashes": [
+        "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+        "bd5807f0f38c3585696ede8652058aba7add32c1ef16e1e767dac27f5718ec91",
+        "a4221fd5ce49478672c68d41f6c25bc255743cc68b2b148841fc9be90f0074ab",
+        "9daa454da4ec62bf123d26d1ee17f119205e8be1389b0341676abced2e602f96",
+        "a3298cee22c58225e4c138527e9ba702cbc3dfaaa1ffedfa1d5759414c277c6d"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+        "bd5807f0f38c3585696ede8652058aba7add32c1ef16e1e767dac27f5718ec91",
+        "a4221fd5ce49478672c68d41f6c25bc255743cc68b2b148841fc9be90f0074ab",
+        "9daa454da4ec62bf123d26d1ee17f119205e8be1389b0341676abced2e602f96",
+        "a3298cee22c58225e4c138527e9ba702cbc3dfaaa1ffedfa1d5759414c277c6d"
+      ],
+      "success_hashes": [
+        "15e76849d43c502bc7c71b70cfdf5d913da95a5a46177c8d1785c05997234592",
+        "bd5807f0f38c3585696ede8652058aba7add32c1ef16e1e767dac27f5718ec91",
+        "a4221fd5ce49478672c68d41f6c25bc255743cc68b2b148841fc9be90f0074ab",
+        "9daa454da4ec62bf123d26d1ee17f119205e8be1389b0341676abced2e602f96",
+        "a3298cee22c58225e4c138527e9ba702cbc3dfaaa1ffedfa1d5759414c277c6d"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_060_p2_n4",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "success_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "success_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_025_p2_n5",
+    "case": "case_025",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "success_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "success_hashes": [
+        "e48afe849dfcd61d22619e886a0e31c2903b11b87250ea3d3be4386f585119c7",
+        "c7b7c79a1105825d864864a1f45a3ee16960f02f7e4cc0821f4a283ede83cff8",
+        "3bf5bdde5d8fc42084943b227e8a20aab328c0486a48648d1a75fc4afbfcc7c4",
+        "a540d6bad85034b6283836fd9a8d0da5f5db9c6bc5f83136a11af63cf900e222",
+        "66925d48542579e0100a507be6ffefbf590f7447230714cd73e2f29f3258031e",
+        "eec1777ab3f99811e833e6237d8cb9c99c4a3a96a0854484065c7d5754f3b662"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p2_n1",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "success_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "success_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_060_p1_n2",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "a26e33dc542602d65a342c890eff664d7e991b7b4fc619ef8de63997928bc936",
+        "451f034fdbbcf48e03965ca734cd45fb7c0944e349f580c40af0e63c5889c507",
+        "f743df651cac14d9388ae8ea88c4716b826def6676893c19aacdde47d782a4a9",
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "a0cece475d5b19a4a1006f1a5f6b06eff2fd4e8eaf3cbc569a9c1d20f1947061",
+        "1057870d7e3af329656856a8842a6a64709e6e7813f5d1ba4dfa836575ab4c5f"
+      ],
+      "success_hashes": [
+        "a26e33dc542602d65a342c890eff664d7e991b7b4fc619ef8de63997928bc936",
+        "451f034fdbbcf48e03965ca734cd45fb7c0944e349f580c40af0e63c5889c507",
+        "f743df651cac14d9388ae8ea88c4716b826def6676893c19aacdde47d782a4a9",
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "a0cece475d5b19a4a1006f1a5f6b06eff2fd4e8eaf3cbc569a9c1d20f1947061",
+        "1057870d7e3af329656856a8842a6a64709e6e7813f5d1ba4dfa836575ab4c5f"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "a26e33dc542602d65a342c890eff664d7e991b7b4fc619ef8de63997928bc936",
+        "451f034fdbbcf48e03965ca734cd45fb7c0944e349f580c40af0e63c5889c507",
+        "f743df651cac14d9388ae8ea88c4716b826def6676893c19aacdde47d782a4a9",
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "a0cece475d5b19a4a1006f1a5f6b06eff2fd4e8eaf3cbc569a9c1d20f1947061",
+        "1057870d7e3af329656856a8842a6a64709e6e7813f5d1ba4dfa836575ab4c5f"
+      ],
+      "success_hashes": [
+        "a26e33dc542602d65a342c890eff664d7e991b7b4fc619ef8de63997928bc936",
+        "451f034fdbbcf48e03965ca734cd45fb7c0944e349f580c40af0e63c5889c507",
+        "f743df651cac14d9388ae8ea88c4716b826def6676893c19aacdde47d782a4a9",
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "a0cece475d5b19a4a1006f1a5f6b06eff2fd4e8eaf3cbc569a9c1d20f1947061",
+        "1057870d7e3af329656856a8842a6a64709e6e7813f5d1ba4dfa836575ab4c5f"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_003_p1_n5",
+    "case": "case_003",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "fde22a74e8f0ff96c1a301c7382e8e0685d788820df9aaaa34f3efe9c3b17804",
+        "0b6981ca537dea1cb836c8f2f0037fc132e750fd3d223d04c801e5ee20ea86e1",
+        "a58e7387e1a9c16b51a6ca92530952b014315bf7f044c7d48a2000ecf55b78ab",
+        "7e93ab47ec3be2032ad56430d7b039fb56879e356bf7e6508b3b1af3019fc2b7",
+        "cbf73c9c92dd2b3abd8a3f20c7eb1c937d5e267ecb8313829242a2f31e94f7cf",
+        "6bddcba8f465ae7118a37f86372fe88abe42a3fb30527d7c36a9202d21676824"
+      ],
+      "success_hashes": [
+        "fde22a74e8f0ff96c1a301c7382e8e0685d788820df9aaaa34f3efe9c3b17804",
+        "0b6981ca537dea1cb836c8f2f0037fc132e750fd3d223d04c801e5ee20ea86e1",
+        "a58e7387e1a9c16b51a6ca92530952b014315bf7f044c7d48a2000ecf55b78ab",
+        "7e93ab47ec3be2032ad56430d7b039fb56879e356bf7e6508b3b1af3019fc2b7",
+        "cbf73c9c92dd2b3abd8a3f20c7eb1c937d5e267ecb8313829242a2f31e94f7cf",
+        "6bddcba8f465ae7118a37f86372fe88abe42a3fb30527d7c36a9202d21676824"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "fde22a74e8f0ff96c1a301c7382e8e0685d788820df9aaaa34f3efe9c3b17804",
+        "0b6981ca537dea1cb836c8f2f0037fc132e750fd3d223d04c801e5ee20ea86e1",
+        "a58e7387e1a9c16b51a6ca92530952b014315bf7f044c7d48a2000ecf55b78ab",
+        "7e93ab47ec3be2032ad56430d7b039fb56879e356bf7e6508b3b1af3019fc2b7",
+        "cbf73c9c92dd2b3abd8a3f20c7eb1c937d5e267ecb8313829242a2f31e94f7cf",
+        "6bddcba8f465ae7118a37f86372fe88abe42a3fb30527d7c36a9202d21676824"
+      ],
+      "success_hashes": [
+        "fde22a74e8f0ff96c1a301c7382e8e0685d788820df9aaaa34f3efe9c3b17804",
+        "0b6981ca537dea1cb836c8f2f0037fc132e750fd3d223d04c801e5ee20ea86e1",
+        "a58e7387e1a9c16b51a6ca92530952b014315bf7f044c7d48a2000ecf55b78ab",
+        "7e93ab47ec3be2032ad56430d7b039fb56879e356bf7e6508b3b1af3019fc2b7",
+        "cbf73c9c92dd2b3abd8a3f20c7eb1c937d5e267ecb8313829242a2f31e94f7cf",
+        "6bddcba8f465ae7118a37f86372fe88abe42a3fb30527d7c36a9202d21676824"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p3_n2",
+    "case": "case_047",
+    "problem": 3,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "success_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "success_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_035_p2_n5",
+    "case": "case_035",
+    "problem": 2,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "success_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "success_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_037_p3_n5",
+    "case": "case_037",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "success_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "success_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_028_p3_n5",
+    "case": "case_028",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "success_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "success_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_049_p2_n5",
+    "case": "case_049",
+    "problem": 2,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "success_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "success_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p1_n1",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "04258ae312fcf8ed3b6ffe83d9e7da82aecc944195bd6481e202d0294ea8a4d9",
+        "efd26336d0aa9440beadb8104ef428fc862fa35fd5eaf393574d39fafd805a83",
+        "fa302d10636ca8cfe3825a8adf7ab3dee4ba9b41225317d38f1aefea242d1906",
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "3a73d78db5f8d251708c547ddf15966523fb6c946f5e3e0ef58071c6feeac98f"
+      ],
+      "success_hashes": [
+        "04258ae312fcf8ed3b6ffe83d9e7da82aecc944195bd6481e202d0294ea8a4d9",
+        "efd26336d0aa9440beadb8104ef428fc862fa35fd5eaf393574d39fafd805a83",
+        "fa302d10636ca8cfe3825a8adf7ab3dee4ba9b41225317d38f1aefea242d1906",
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "3a73d78db5f8d251708c547ddf15966523fb6c946f5e3e0ef58071c6feeac98f"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "04258ae312fcf8ed3b6ffe83d9e7da82aecc944195bd6481e202d0294ea8a4d9",
+        "efd26336d0aa9440beadb8104ef428fc862fa35fd5eaf393574d39fafd805a83",
+        "fa302d10636ca8cfe3825a8adf7ab3dee4ba9b41225317d38f1aefea242d1906",
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "3a73d78db5f8d251708c547ddf15966523fb6c946f5e3e0ef58071c6feeac98f"
+      ],
+      "success_hashes": [
+        "04258ae312fcf8ed3b6ffe83d9e7da82aecc944195bd6481e202d0294ea8a4d9",
+        "efd26336d0aa9440beadb8104ef428fc862fa35fd5eaf393574d39fafd805a83",
+        "fa302d10636ca8cfe3825a8adf7ab3dee4ba9b41225317d38f1aefea242d1906",
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "3a73d78db5f8d251708c547ddf15966523fb6c946f5e3e0ef58071c6feeac98f"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p1_n3",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "ceadf4aeb8df1bbc0f86c51619d9074d6dbeca87bb10d6321bca864e564b6ed6",
+        "ddf1bbb634cf268fdeca8e900aeffb0a3e067586140853c3fa1b4edee7b36179",
+        "b39c2c9a7862d1c7c1381ad4dd4d1ee867c6f2bc637fb3a3cc59df2fef7d0fae",
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "f89445a94e90969575ccfa5edb56110994ba4b0452c36d1500e7e70301a5c7b0"
+      ],
+      "success_hashes": [
+        "ceadf4aeb8df1bbc0f86c51619d9074d6dbeca87bb10d6321bca864e564b6ed6",
+        "ddf1bbb634cf268fdeca8e900aeffb0a3e067586140853c3fa1b4edee7b36179",
+        "b39c2c9a7862d1c7c1381ad4dd4d1ee867c6f2bc637fb3a3cc59df2fef7d0fae",
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "f89445a94e90969575ccfa5edb56110994ba4b0452c36d1500e7e70301a5c7b0"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "ceadf4aeb8df1bbc0f86c51619d9074d6dbeca87bb10d6321bca864e564b6ed6",
+        "ddf1bbb634cf268fdeca8e900aeffb0a3e067586140853c3fa1b4edee7b36179",
+        "b39c2c9a7862d1c7c1381ad4dd4d1ee867c6f2bc637fb3a3cc59df2fef7d0fae",
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "f89445a94e90969575ccfa5edb56110994ba4b0452c36d1500e7e70301a5c7b0"
+      ],
+      "success_hashes": [
+        "ceadf4aeb8df1bbc0f86c51619d9074d6dbeca87bb10d6321bca864e564b6ed6",
+        "ddf1bbb634cf268fdeca8e900aeffb0a3e067586140853c3fa1b4edee7b36179",
+        "b39c2c9a7862d1c7c1381ad4dd4d1ee867c6f2bc637fb3a3cc59df2fef7d0fae",
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "f89445a94e90969575ccfa5edb56110994ba4b0452c36d1500e7e70301a5c7b0"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_028_p2_n5",
+    "case": "case_028",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "success_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "success_hashes": [
+        "600809b4b54ba03a52c33da3b13632ad453077f1ce73a758101bc8f9b55331e6",
+        "990b61b2538b9b12a38c18b67d226174dd37f4113bcb4cb320159a5e1aef7b5c",
+        "c215348d563bf92fc06c9402c509bfd3ff863381ffe702430ab0e09b77b4e94f",
+        "205b4c5f2d4dc1235cff458f4ef119c8d28bf74b8214d0d6791e3f2cb84ee2f3",
+        "b25e427bf25534dee6a7ad1511f2dfae33a556d3cda06f35db7fc6845b0db203",
+        "2dba415c5ab48b1178e0e90b6b903c9d43e5cfaf5c1c3f96e2a5327c172e1816"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_016_p1_n5",
+    "case": "case_016",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "387aafb24488d34fdf17bf4f8678440bfec73621c0732ce8f022205948c50d9d",
+        "b0b931ddcf24061ec962e7ebecbf1c029c01cb544d1c3a6c1c444ccc80136775",
+        "6ceb7fbb24e28c48627227b009a62b2a7a9966102e27fe902f6923cf416d7e64",
+        "51014b19458705a100bf9de50614db9f14b5ea14fe10889e26b25190a2322c38",
+        "b50b7e704ffffb6a3f97540835b4840bbbef542128e04a35fc7e13554b23dae1"
+      ],
+      "success_hashes": [
+        "387aafb24488d34fdf17bf4f8678440bfec73621c0732ce8f022205948c50d9d",
+        "b0b931ddcf24061ec962e7ebecbf1c029c01cb544d1c3a6c1c444ccc80136775",
+        "6ceb7fbb24e28c48627227b009a62b2a7a9966102e27fe902f6923cf416d7e64",
+        "51014b19458705a100bf9de50614db9f14b5ea14fe10889e26b25190a2322c38",
+        "b50b7e704ffffb6a3f97540835b4840bbbef542128e04a35fc7e13554b23dae1"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "387aafb24488d34fdf17bf4f8678440bfec73621c0732ce8f022205948c50d9d",
+        "b0b931ddcf24061ec962e7ebecbf1c029c01cb544d1c3a6c1c444ccc80136775",
+        "6ceb7fbb24e28c48627227b009a62b2a7a9966102e27fe902f6923cf416d7e64",
+        "51014b19458705a100bf9de50614db9f14b5ea14fe10889e26b25190a2322c38",
+        "b50b7e704ffffb6a3f97540835b4840bbbef542128e04a35fc7e13554b23dae1"
+      ],
+      "success_hashes": [
+        "387aafb24488d34fdf17bf4f8678440bfec73621c0732ce8f022205948c50d9d",
+        "b0b931ddcf24061ec962e7ebecbf1c029c01cb544d1c3a6c1c444ccc80136775",
+        "6ceb7fbb24e28c48627227b009a62b2a7a9966102e27fe902f6923cf416d7e64",
+        "51014b19458705a100bf9de50614db9f14b5ea14fe10889e26b25190a2322c38",
+        "b50b7e704ffffb6a3f97540835b4840bbbef542128e04a35fc7e13554b23dae1"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_023_p3_n5",
+    "case": "case_023",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "success_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "success_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_095_p3_n5",
+    "case": "case_095",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "success_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "success_hashes": [
+        "4135806b80707120b0298977fe1bec78a6e9ebd84fb66339d3099a8e211945a4",
+        "51f798d4c5e9bdad79964b2049ab3a8fb50a166ef79fc04747291d0797b1d982",
+        "d84ddb6eecc9892ac1c2ec2b1037dab67188be87a8ba3eb50ff98680719084e1",
+        "b18a213b50e53cab9da680cff961ee6fed285e1a9442059b88f9789503bbb06d",
+        "a22d4b92be18e153329bd2a9cdda51bafd128337198b09ef0fce01eb59b5be7a",
+        "6ea7fe3f9913bcbb3781c722317703d344e780413798878b6092f5041c6ee710"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_058_p1_n5",
+    "case": "case_058",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": false,
+    "successful_hashes_equal": false,
+    "legacy": {
+      "plan_hashes": [
+        "3c83f5ad93be315a3211979e2451b7c887ce56259eda999b214cba8730e13b93",
+        "35a8238a32a351d08cc03803aa37f6bcc25cf88747fcfb4afe150dd88e3c9378",
+        "c6cbecaedce260825d2a6ae91c41fbfc8783106011ea7c9ea8ad6267099f82b7",
+        "d5f10484ecfd3c86387d881253134462a6e166e874c2da336fbb38cbf81eebe9",
+        "15536300f81a293277b69e03509e0a8688b16cc5d46d2a9d08d1feac4d70aa6c"
+      ],
+      "success_hashes": [
+        "3c83f5ad93be315a3211979e2451b7c887ce56259eda999b214cba8730e13b93",
+        "35a8238a32a351d08cc03803aa37f6bcc25cf88747fcfb4afe150dd88e3c9378",
+        "d5f10484ecfd3c86387d881253134462a6e166e874c2da336fbb38cbf81eebe9"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "3c83f5ad93be315a3211979e2451b7c887ce56259eda999b214cba8730e13b93",
+        "35a8238a32a351d08cc03803aa37f6bcc25cf88747fcfb4afe150dd88e3c9378",
+        "c6cbecaedce260825d2a6ae91c41fbfc8783106011ea7c9ea8ad6267099f82b7",
+        "d5f10484ecfd3c86387d881253134462a6e166e874c2da336fbb38cbf81eebe9"
+      ],
+      "success_hashes": [
+        "3c83f5ad93be315a3211979e2451b7c887ce56259eda999b214cba8730e13b93",
+        "35a8238a32a351d08cc03803aa37f6bcc25cf88747fcfb4afe150dd88e3c9378"
+      ],
+      "calls": 4
+    }
+  },
+  {
+    "config_id": "case_012_p1_n5",
+    "case": "case_012",
+    "problem": 1,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "0759f5181ae697ffcaf5e55a02c36cc6a007154c7673dc88033755921d875991",
+        "1fa90e27eeaf471e6ec7df7298e63f38159cedcde6e81abce45cf20a159dcc67",
+        "af1a73da0566074b0dd1edb7d89818a60e7d3900b0d5e959788dc52055eec39f",
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "b5a53e202498b9dbd2f84e669398882580d953b2e8f0c20794a86147973dcae3"
+      ],
+      "success_hashes": [
+        "0759f5181ae697ffcaf5e55a02c36cc6a007154c7673dc88033755921d875991",
+        "1fa90e27eeaf471e6ec7df7298e63f38159cedcde6e81abce45cf20a159dcc67",
+        "af1a73da0566074b0dd1edb7d89818a60e7d3900b0d5e959788dc52055eec39f",
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "b5a53e202498b9dbd2f84e669398882580d953b2e8f0c20794a86147973dcae3"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "0759f5181ae697ffcaf5e55a02c36cc6a007154c7673dc88033755921d875991",
+        "1fa90e27eeaf471e6ec7df7298e63f38159cedcde6e81abce45cf20a159dcc67",
+        "af1a73da0566074b0dd1edb7d89818a60e7d3900b0d5e959788dc52055eec39f",
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "b5a53e202498b9dbd2f84e669398882580d953b2e8f0c20794a86147973dcae3"
+      ],
+      "success_hashes": [
+        "0759f5181ae697ffcaf5e55a02c36cc6a007154c7673dc88033755921d875991",
+        "1fa90e27eeaf471e6ec7df7298e63f38159cedcde6e81abce45cf20a159dcc67",
+        "af1a73da0566074b0dd1edb7d89818a60e7d3900b0d5e959788dc52055eec39f",
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "b5a53e202498b9dbd2f84e669398882580d953b2e8f0c20794a86147973dcae3"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_071_p2_n5",
+    "case": "case_071",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "success_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "success_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_042_p3_n5",
+    "case": "case_042",
+    "problem": 3,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "success_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "success_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p1_n4",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "e73548b2ce96cd48529ec948a1e1ed6e16e7f86fecd8aa070178f817d3520f38",
+        "042a1a335c97eb1021d30c4fc0d02344c41f875091d08da5016a6ad8f3889f90",
+        "a9ab721561ea6056d2a6fbeda3827459670482ca596475a37b7f4ce133f43914",
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "32e565591d4281b23c2894220b6ad9e567443e1c958ce68adc7d1bfb3303de02"
+      ],
+      "success_hashes": [
+        "e73548b2ce96cd48529ec948a1e1ed6e16e7f86fecd8aa070178f817d3520f38",
+        "042a1a335c97eb1021d30c4fc0d02344c41f875091d08da5016a6ad8f3889f90",
+        "a9ab721561ea6056d2a6fbeda3827459670482ca596475a37b7f4ce133f43914",
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "32e565591d4281b23c2894220b6ad9e567443e1c958ce68adc7d1bfb3303de02"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "e73548b2ce96cd48529ec948a1e1ed6e16e7f86fecd8aa070178f817d3520f38",
+        "042a1a335c97eb1021d30c4fc0d02344c41f875091d08da5016a6ad8f3889f90",
+        "a9ab721561ea6056d2a6fbeda3827459670482ca596475a37b7f4ce133f43914",
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "32e565591d4281b23c2894220b6ad9e567443e1c958ce68adc7d1bfb3303de02"
+      ],
+      "success_hashes": [
+        "e73548b2ce96cd48529ec948a1e1ed6e16e7f86fecd8aa070178f817d3520f38",
+        "042a1a335c97eb1021d30c4fc0d02344c41f875091d08da5016a6ad8f3889f90",
+        "a9ab721561ea6056d2a6fbeda3827459670482ca596475a37b7f4ce133f43914",
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "32e565591d4281b23c2894220b6ad9e567443e1c958ce68adc7d1bfb3303de02"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_087_p1_n5",
+    "case": "case_087",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "46aa2eb7d1b4c2e8e1a9be12155ba683e3b6178d48061fb010ae2bc0310875a7",
+        "f26850afd2079ec22ad85d12e9db76f3f8d816e07344a400b1fa6168dca1d8f5",
+        "ca93f70a6d98ddca6d1c8a33e5a33cc97f9324c0d422ace2294541c97e190eab",
+        "7f9055fc79447e7046655f0e944330d76a002748bb19ee0557f35e78b2725e1b"
+      ],
+      "success_hashes": [
+        "46aa2eb7d1b4c2e8e1a9be12155ba683e3b6178d48061fb010ae2bc0310875a7",
+        "f26850afd2079ec22ad85d12e9db76f3f8d816e07344a400b1fa6168dca1d8f5"
+      ],
+      "calls": 4
+    },
+    "persistent": {
+      "plan_hashes": [
+        "46aa2eb7d1b4c2e8e1a9be12155ba683e3b6178d48061fb010ae2bc0310875a7",
+        "f26850afd2079ec22ad85d12e9db76f3f8d816e07344a400b1fa6168dca1d8f5",
+        "ca93f70a6d98ddca6d1c8a33e5a33cc97f9324c0d422ace2294541c97e190eab",
+        "7f9055fc79447e7046655f0e944330d76a002748bb19ee0557f35e78b2725e1b"
+      ],
+      "success_hashes": [
+        "46aa2eb7d1b4c2e8e1a9be12155ba683e3b6178d48061fb010ae2bc0310875a7",
+        "f26850afd2079ec22ad85d12e9db76f3f8d816e07344a400b1fa6168dca1d8f5"
+      ],
+      "calls": 4
+    }
+  },
+  {
+    "config_id": "case_037_p2_n5",
+    "case": "case_037",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "success_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "success_hashes": [
+        "835411a285f111e337d65cc86240498f8ed145c5267ae7ead080ca6454ebe3f9",
+        "3dd1e708367567682be54f1f2b115dde796e2266fbdc48e3297b4b2a17adbb15",
+        "9c7a1b1b067faf8acbfcc72341f43462b2b11dc340242fe5a6840806d0b6c4df",
+        "53caf8e3cc45bcfa824f623ea30af33ef12bcb6911396fa23f4cf3a5afc464cd",
+        "c7f247e73521afc8f2b68a949918f9b5d840e8babc3e6ac6a90b2265ec5564bb",
+        "aacc1b678735625b4c80b2ca2df3efa8f59829ae86d071baabc4403e11986161"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_012_p2_n5",
+    "case": "case_012",
+    "problem": 2,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "success_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "success_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_009_p2_n5",
+    "case": "case_009",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "success_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "success_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p1_n5",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "7706972e1169a506bccaf3b17d742d46b96e7afe9b98fa445991de87a1191d9e",
+        "202c5ec6acdfd230545b99ab7ed80183f9d0d8bb7d6b625c17d3060a488af53c",
+        "d50e36b6e6fd8ea46d74760ce9d8f3864a4985937943bfaed19ae0de107b5be5",
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "9dfdd90832fcf0705bf80b0f1c69af5c93b13a07a356e8d1988cbf75a7cbf614"
+      ],
+      "success_hashes": [
+        "7706972e1169a506bccaf3b17d742d46b96e7afe9b98fa445991de87a1191d9e",
+        "202c5ec6acdfd230545b99ab7ed80183f9d0d8bb7d6b625c17d3060a488af53c",
+        "d50e36b6e6fd8ea46d74760ce9d8f3864a4985937943bfaed19ae0de107b5be5",
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "9dfdd90832fcf0705bf80b0f1c69af5c93b13a07a356e8d1988cbf75a7cbf614"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "7706972e1169a506bccaf3b17d742d46b96e7afe9b98fa445991de87a1191d9e",
+        "202c5ec6acdfd230545b99ab7ed80183f9d0d8bb7d6b625c17d3060a488af53c",
+        "d50e36b6e6fd8ea46d74760ce9d8f3864a4985937943bfaed19ae0de107b5be5",
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "9dfdd90832fcf0705bf80b0f1c69af5c93b13a07a356e8d1988cbf75a7cbf614"
+      ],
+      "success_hashes": [
+        "7706972e1169a506bccaf3b17d742d46b96e7afe9b98fa445991de87a1191d9e",
+        "202c5ec6acdfd230545b99ab7ed80183f9d0d8bb7d6b625c17d3060a488af53c",
+        "d50e36b6e6fd8ea46d74760ce9d8f3864a4985937943bfaed19ae0de107b5be5",
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "9dfdd90832fcf0705bf80b0f1c69af5c93b13a07a356e8d1988cbf75a7cbf614"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_060_p2_n3",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "success_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "success_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_049_p3_n5",
+    "case": "case_049",
+    "problem": 3,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "success_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "success_hashes": [
+        "bf85a331d5f052deffd8f75f6b2a8b05b9ccf02999d958ab6b03de10fde57f77",
+        "2cea197f390b4db8277205cc4c8fdf53c915548cd9d9d6021a386a6a73478b82",
+        "9d6593e569ef81db396e22cf51a3f26f6cd1d52e14cee1bca22e380d5fa6a295",
+        "ed8a2c947528e2b313d9e33fe974a0e33e6267a08333a83f7f19297ec7312e68",
+        "0223d62433fb47a5308f280a82612403bfc5d6126fceb504b0dc3eff45fd3a65",
+        "524ef44116a82e3e209e2628519944d9b4b7e78b7b85ceff2bcf82c4333e1e4a"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_023_p2_n5",
+    "case": "case_023",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "success_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "success_hashes": [
+        "3f3867e6a8c05ca2a92e429bc59ea3a032d6e226632d1e051c14888417813edc",
+        "c0a821228e7c80c494248b909c34e3148ca0886c12ecfbe5e4673bef88bfab10",
+        "d04845b9d7c47d2f0b24525528adee3974ffdb3d687f70e499a6e8425dd00c32",
+        "3266c586821f9eff4c556db658ce47e72a216282290f34118b83e7fad691b743",
+        "6e0c2048a582b956f0f2de9f695fd4f8155bf1ba1560062c25c88b20179b4cb3",
+        "a36a5c45fe04a5ec96e30402c4cb5af75d68e09210cb24c69e3749278e0b93df"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p1_n4",
+    "case": "case_060",
+    "problem": 1,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "312faf36eb0fcd8db3df11d1c21a10e397fb1bf844018bb2900dac985ad7fc28",
+        "195ff2aeced9206135f1e12a45770c0a14481143a9904bb458b2bd14046998af",
+        "dcd68e1fefc5277caa63f8e52c56660284ae168f88d7ad0b559d85e45eb01ed2",
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "9c7a847521ce6141ec8ce5ac3a0b1a060a5c41d49e2b7fe3ea684a64cfe28bf9"
+      ],
+      "success_hashes": [
+        "312faf36eb0fcd8db3df11d1c21a10e397fb1bf844018bb2900dac985ad7fc28",
+        "195ff2aeced9206135f1e12a45770c0a14481143a9904bb458b2bd14046998af",
+        "dcd68e1fefc5277caa63f8e52c56660284ae168f88d7ad0b559d85e45eb01ed2",
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "9c7a847521ce6141ec8ce5ac3a0b1a060a5c41d49e2b7fe3ea684a64cfe28bf9"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "312faf36eb0fcd8db3df11d1c21a10e397fb1bf844018bb2900dac985ad7fc28",
+        "195ff2aeced9206135f1e12a45770c0a14481143a9904bb458b2bd14046998af",
+        "dcd68e1fefc5277caa63f8e52c56660284ae168f88d7ad0b559d85e45eb01ed2",
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "9c7a847521ce6141ec8ce5ac3a0b1a060a5c41d49e2b7fe3ea684a64cfe28bf9"
+      ],
+      "success_hashes": [
+        "312faf36eb0fcd8db3df11d1c21a10e397fb1bf844018bb2900dac985ad7fc28",
+        "195ff2aeced9206135f1e12a45770c0a14481143a9904bb458b2bd14046998af",
+        "dcd68e1fefc5277caa63f8e52c56660284ae168f88d7ad0b559d85e45eb01ed2",
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "9c7a847521ce6141ec8ce5ac3a0b1a060a5c41d49e2b7fe3ea684a64cfe28bf9"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_001_p3_n5",
+    "case": "case_001",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "success_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "success_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_019_p3_n5",
+    "case": "case_019",
+    "problem": 3,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "success_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "success_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p3_n5",
+    "case": "case_060",
+    "problem": 3,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "success_hashes": [
+        "b0cc5a75afecb617f88cd5ee64bcfc9cbf01e827627f6057d991cfa84826d1f0",
+        "c94610c6820f26b2b2dd11bc0d73edc1e5d8ceadc706087c198802b84200aece",
+        "7ce663102203d4cd03760e6d2c34394e4a9d5b8515f39a2794d9f82a82032c4c",
+        "bc79cbcc15b1653bfdbad2ac66514e0c1774128d8a6f09bd7bc6f897cd20da97",
+        "0040d84f7dca872f615fcbee717fac327bde59cd4505d100b8eaa7d39da32b63",
+        "461c10b513bddaf1701d9fa1f8b23c7954bec6c0ef213a6985858933ec3cf409"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p3_n1",
+    "case": "case_060",
+    "problem": 3,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "success_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "success_hashes": [
+        "505e024dffc2a24fc3ed58a8ab19e7501a505e34e7779c27b1ecac64276e1f8b",
+        "192309ebec0fda4c48e78d863331208d1b792e4d1696f895c348aacc112df8d1",
+        "4876652a3d0011c57f99a246109c15b911ee8f353900d06d6c91839bd5075afe",
+        "a0cbdff8807a45317ea9699f0fbfb54430e1dfbe19be885c7b00650a1f83b3dd",
+        "a1f5fddfdb9bdd4840d34e8ee7e04f77031e0768d3eb3a23b5c785ded7d938a6"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_047_p2_n2",
+    "case": "case_047",
+    "problem": 2,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "success_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "success_hashes": [
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "ff1dbdeeb9e2c9f93f1cab27a13a1f764b485aa0fc5564c7f1e516b19b740922",
+        "83279ff532ecd911746cc9806958ea0af8ccc2cc8985a44ac66dc223364e321b",
+        "a4ed8288c94806de0490c70a7c7265612b4efb407f7061938015c3570fccce11",
+        "57d759b309d7da7f903657e741e8f5e44a503fe8f5f2394166ca749e7de0e9af"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_066_p2_n5",
+    "case": "case_066",
+    "problem": 2,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "success_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "success_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_001_p2_n5",
+    "case": "case_001",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "success_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "success_hashes": [
+        "811c489eb7d6113f0afaa4b601c2327b28ff85d87c97f113bb17239be950b2e6",
+        "c2ce964844245097ce775c85d8defd5800600a829f6651b09098f49a7b971d8d",
+        "65ef0c0dea18cba25a6d965b4401ed527eecb45ae846b5f2b73e6f9e5b4bb3a6",
+        "48139d6062700a25a79865d78543b1df9d087da85303106eebe65c750fc850f9",
+        "d587e7ceffaed1a50ed263721266fe22ac4e02823f349bc513c1c7e74bbdf385"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_042_p2_n5",
+    "case": "case_042",
+    "problem": 2,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "success_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "success_hashes": [
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "5e71d58f5cda33c8f2a32d8889eee42ad2d4015f8903b045045038f6218d7d73",
+        "7af91aec04197f8278685402148525c15e870eadb7de0d5814711dd7015c6f76",
+        "bba8486d73f47df3d2977665053fccc65a9006e1d5da91ee697c8bb9776e22aa",
+        "194357b6a4b51b65fd9e3d8f6833ce1b79d5a5f35d1451a826330fc1734232d2",
+        "897ce859fb354e74548ef8afbba151ceaa2b02c1286ccb2f233d41fdd5baf4fb"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_042_p1_n5",
+    "case": "case_042",
+    "problem": 1,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "e1597b6f56bb6c393b6b302cae38f8c9e6a329e51a63f07b1d6a996c2bd93b25",
+        "5e506ee26dd63cbcc343ff5ae57fb33b2f6fc5253c5193ee1a1f262b746a77dc",
+        "7db80e391bd0dc05f7b30bdd0d4a51d31a4fd51f4204e8b5a0762fb31aac24e5",
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "1a90a9ed38d8297cbcc5b41b076f052a2e445230df59271b1dc8b946549165b3"
+      ],
+      "success_hashes": [
+        "e1597b6f56bb6c393b6b302cae38f8c9e6a329e51a63f07b1d6a996c2bd93b25",
+        "5e506ee26dd63cbcc343ff5ae57fb33b2f6fc5253c5193ee1a1f262b746a77dc",
+        "7db80e391bd0dc05f7b30bdd0d4a51d31a4fd51f4204e8b5a0762fb31aac24e5",
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "1a90a9ed38d8297cbcc5b41b076f052a2e445230df59271b1dc8b946549165b3"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "e1597b6f56bb6c393b6b302cae38f8c9e6a329e51a63f07b1d6a996c2bd93b25",
+        "5e506ee26dd63cbcc343ff5ae57fb33b2f6fc5253c5193ee1a1f262b746a77dc",
+        "7db80e391bd0dc05f7b30bdd0d4a51d31a4fd51f4204e8b5a0762fb31aac24e5",
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "1a90a9ed38d8297cbcc5b41b076f052a2e445230df59271b1dc8b946549165b3"
+      ],
+      "success_hashes": [
+        "e1597b6f56bb6c393b6b302cae38f8c9e6a329e51a63f07b1d6a996c2bd93b25",
+        "5e506ee26dd63cbcc343ff5ae57fb33b2f6fc5253c5193ee1a1f262b746a77dc",
+        "7db80e391bd0dc05f7b30bdd0d4a51d31a4fd51f4204e8b5a0762fb31aac24e5",
+        "03b970ae93c91860d906965e2cf3eb8ad8d937b465fb35a693886ad4a7d7b939",
+        "1a90a9ed38d8297cbcc5b41b076f052a2e445230df59271b1dc8b946549165b3"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_047_p3_n5",
+    "case": "case_047",
+    "problem": 3,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "success_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "success_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_009_p3_n5",
+    "case": "case_009",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "success_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "success_hashes": [
+        "f208b6080c65d223ddf901f7cdae796651e5e3031f06d6c7b9d0598e7c36ff45",
+        "310f0846d7e5006ae2382c0639ba554e076a0df03373b45b635c4b29a4f6851f",
+        "33285bbf9711000a69f4ee25557d2b815becad2ba8157947d7bbab5d75b66334",
+        "04355bc651c5540e2680b27d530885ebef0374b74d092558d8e0209b81984d2c",
+        "c1ce4bdd68e7527fde0284866bb1042197d1318de3e5e0dfd9d4679b0ec38e3f",
+        "1c0292bb2927b8a3f9de6476a0f27a68f53e391f8e891d7bce8d28e858066a94"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_062_p1_n5",
+    "case": "case_062",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "50fb79c14f14243f3055ed0d2ff7f0fa1e731611e2bced13ee02bced6eb4873b",
+        "3922c32c568413ed368a65292104810d384308dfa4460b48b13afca0caa35536",
+        "a24b2d62ef1c72b41b0a5b32f94245e5085e2f41ecc62e6eb38d56e7063cebaf"
+      ],
+      "success_hashes": [
+        "50fb79c14f14243f3055ed0d2ff7f0fa1e731611e2bced13ee02bced6eb4873b",
+        "3922c32c568413ed368a65292104810d384308dfa4460b48b13afca0caa35536"
+      ],
+      "calls": 3
+    },
+    "persistent": {
+      "plan_hashes": [
+        "50fb79c14f14243f3055ed0d2ff7f0fa1e731611e2bced13ee02bced6eb4873b",
+        "3922c32c568413ed368a65292104810d384308dfa4460b48b13afca0caa35536",
+        "a24b2d62ef1c72b41b0a5b32f94245e5085e2f41ecc62e6eb38d56e7063cebaf"
+      ],
+      "success_hashes": [
+        "50fb79c14f14243f3055ed0d2ff7f0fa1e731611e2bced13ee02bced6eb4873b",
+        "3922c32c568413ed368a65292104810d384308dfa4460b48b13afca0caa35536"
+      ],
+      "calls": 3
+    }
+  },
+  {
+    "config_id": "case_050_p3_n5",
+    "case": "case_050",
+    "problem": 3,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "success_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "success_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_050_p2_n5",
+    "case": "case_050",
+    "problem": 2,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "success_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "success_hashes": [
+        "f1121ad22d1ae8d7c0f8dc071fd9e6b9316fb5844907b7c3813517a28b82348b",
+        "93201c209c6a86bbbc666c9dd0ef379bb8acaa4d843f97ba120a74ee18e72a15",
+        "9e5dc94f3750eb2cbb50974dbfb4ff326595d68be429f670dc6091cf2e168947",
+        "06e6b53954d99e8350ed93d254371bfea7abd764a0c2f27617d16b26413ecfb1",
+        "90ac2fd20b6c0c71200f0bbe2ae40203c6a20aca3ec6957687288548c394569c",
+        "1853f4b20e547fd147c59265ddcace65845d894febe4f94227796cfe19458611"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_035_p3_n5",
+    "case": "case_035",
+    "problem": 3,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "success_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "success_hashes": [
+        "4252f11bea43d5d62abba3d2f076d240d7ae04172658648b9ed72e57cd00adad",
+        "a1a2770d444fcf9e5fdcf176a60e6114307a28829f5377780543fa08f25ff4a7",
+        "55bc47e59ec741f6b080755b5b1a24b8e208e6263dcba5212a9e03945106bbb3",
+        "a43af116e13546225c5ec72da060063a6305045656f8b7d8cabdd23099b49e7f",
+        "00a42463894648589a3e2949a5e0b85e05b328ad3af558a38c31b66d59dc0e0a",
+        "ad6cebe4ec5c2c41079d5d2e6068d82a4ed38024a3121ee4702421ed7fb02d8f"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_053_p2_n5",
+    "case": "case_053",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "success_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "success_hashes": [
+        "44dc64a53b6d15dd30427ab3f45328c710310ed2d06ae7751bbcbcc16a79cf27",
+        "649ea35d5d7a8ac431f5e57e19f95b64d7c1ffa3538e10fbcbc03d4babd34a4c",
+        "e656a1e1c2ad2f096d69c44fa5c2a186e9c0fc4e23a76c4ce9d2f41c3e718a48",
+        "907e6f2f5f64f0d0b1f5bdd94c6d1758cf7122a482f348f7863afd469cb102a0",
+        "1a221f824a6412dc74ff29a0e9d5e5f9b7068f4e60fe4f386a26e5db4741ff36",
+        "ea90a6bbf07deea08faea3ed919102d3d04e013f7459734ee41be473f3b04ed4"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_066_p3_n5",
+    "case": "case_066",
+    "problem": 3,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "success_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "success_hashes": [
+        "ba40883cf36a36ad1630f172ac0362ba8d06e81c37ec2728c8db219d47ab8f2d",
+        "bf18b51f294583cf1c06bf04dd61a0f36fd3f1382180053b25b7b7dc7239ef71",
+        "e8b4aa01cca13e9bda3fc6d134b4168435294178a26b3e2949f3e6b0b9198b59",
+        "9bb1f5ffcfb1ccf121f90cbd709ed44f5fc3ff99b140203d1eea584b5bca503b",
+        "929407bb7bffb1aaa3562570a8409bb36573b99030c8605ffc1caa5371450c67",
+        "640f56571509e16c3793edd99153e2cbf383f011aefdfbab8a020b0f907f5eef"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p2_n5",
+    "case": "case_047",
+    "problem": 2,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "success_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "success_hashes": [
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "3f9d2119ea160e251b4f625c830344a7c8edba3815ef107b740cfcf541311fb2",
+        "850456354608aac6fb11538c66d90280ba0ad567f73f115313424df7c8dd13a7",
+        "4332b953c56fedf74465287f6755d15afbbb6b9847f5057a9647b6a1576c7bec",
+        "f60dfd67cc28a5eddc32f8c2decfbb328d173c9c75ab980ab75d603ee0272ace"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_047_p2_n3",
+    "case": "case_047",
+    "problem": 2,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "success_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "success_hashes": [
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "06745f797004a8f36f5f823d46b100d2c03deb832d25ad8ec632bb91c623f560",
+        "0d9bde685a1807d744216b737f90a3ae7815ff5a6a1c4aeab035f5c1b30d33db",
+        "f55abb57a0dace50b82a6d3b8ae273fcbd287f214e14cfb5b30cca5a63b85f55",
+        "2816b62c1c4177912a14331f0f62caeca1d4fe4e6739501a3f00b5d650674a3d"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_047_p2_n4",
+    "case": "case_047",
+    "problem": 2,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "success_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "success_hashes": [
+        "3104b4bbced223a1aa4774d5ab86f4972bb60938b93136afb96a4097514e9e01",
+        "06522ad67f2bc6906005a87f93205b2f00e0aeec0fa414a6fdffc2d1bf7e676c",
+        "09a92c5c762878b7822c998be80cb9f417aae2e17cd5b3f8bde9e2f2119a7477",
+        "b67e79b9a6b75fd864216922e18c30663d086198ac53679d9a80bb66fb48c960",
+        "0d52b3beda9ed18c884bb205cf4f8b387982ec944e9bf9d503e245b4a23b09a0"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_060_p2_n2",
+    "case": "case_060",
+    "problem": 2,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "success_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "success_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_019_p2_n5",
+    "case": "case_019",
+    "problem": 2,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "success_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "success_hashes": [
+        "ffadd3410e0af9c7ac1d9bf1ed6b9dcc8b25758878f1336820469e90b956e26c",
+        "fa487b501a150c578588570750c7f70e657e89e144464f9c699acadff9e5d389",
+        "a05da5919e520d1987fbbc7ac81781f58e811e38cb52f5c4baae6e4e0a4a8b2f",
+        "06eb6a8df05991723c01f86f12b69347f400babdd4384a83faea2a95d24a42cc",
+        "f3e13e8c054d6e29835d4b3582a87e071122357d78953354378bf42c4d498821",
+        "435313e4097c06fc906bfa3a0dada7474b4b4f47511844a078d3d0fb145415e4"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p1_n5",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "63ec1bdcf305adfea2e0c8e52552841cc0a6663612b5c947d5bb47f7d6e2cd16",
+        "30e0526c0b9a40f2ea0d9ed7b5ce518b1c489937543763a69871167540e2f5e6",
+        "2b8f2949481da8ed3438ab30d83519327b86fb963db5e45ca3e04c669deab571",
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "b6e63c224ee0170010b0d7f372cd8806983282b23657a0ad1439f65732586ea1"
+      ],
+      "success_hashes": [
+        "63ec1bdcf305adfea2e0c8e52552841cc0a6663612b5c947d5bb47f7d6e2cd16",
+        "30e0526c0b9a40f2ea0d9ed7b5ce518b1c489937543763a69871167540e2f5e6",
+        "2b8f2949481da8ed3438ab30d83519327b86fb963db5e45ca3e04c669deab571",
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "b6e63c224ee0170010b0d7f372cd8806983282b23657a0ad1439f65732586ea1"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "63ec1bdcf305adfea2e0c8e52552841cc0a6663612b5c947d5bb47f7d6e2cd16",
+        "30e0526c0b9a40f2ea0d9ed7b5ce518b1c489937543763a69871167540e2f5e6",
+        "2b8f2949481da8ed3438ab30d83519327b86fb963db5e45ca3e04c669deab571",
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "b6e63c224ee0170010b0d7f372cd8806983282b23657a0ad1439f65732586ea1"
+      ],
+      "success_hashes": [
+        "63ec1bdcf305adfea2e0c8e52552841cc0a6663612b5c947d5bb47f7d6e2cd16",
+        "30e0526c0b9a40f2ea0d9ed7b5ce518b1c489937543763a69871167540e2f5e6",
+        "2b8f2949481da8ed3438ab30d83519327b86fb963db5e45ca3e04c669deab571",
+        "5d2c8074cc2c568277424c09f5a59b62c2059421f34f3e3fa6aec41c48e16775",
+        "b6e63c224ee0170010b0d7f372cd8806983282b23657a0ad1439f65732586ea1"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_043_p1_n5",
+    "case": "case_043",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "c050531fb3a91ce5aabad1e4789704e468e76de5f9503583d6db9f01b9764715",
+        "df8b1835705f7f9f72c3eb7f9c7c4c483f1370cdde2cc52631b145a02109e8a4",
+        "4a807a35d29826296621fb26d608585af0f14360a368411fd096f8d8f94bb761",
+        "e2e4bb705198b9bdae8ffab002c3326cc3122e6aac70b1521ffff2a5dee68f4a",
+        "ecf701ae9ef041872c652948b052b6f326a60141eed499b3dea3f2c906971338",
+        "b64b62f5e73811c6e30c792ff95ca6ef7e92913bbea8ba5e8b31c61f5a1b7c66"
+      ],
+      "success_hashes": [
+        "c050531fb3a91ce5aabad1e4789704e468e76de5f9503583d6db9f01b9764715",
+        "df8b1835705f7f9f72c3eb7f9c7c4c483f1370cdde2cc52631b145a02109e8a4",
+        "4a807a35d29826296621fb26d608585af0f14360a368411fd096f8d8f94bb761",
+        "e2e4bb705198b9bdae8ffab002c3326cc3122e6aac70b1521ffff2a5dee68f4a",
+        "ecf701ae9ef041872c652948b052b6f326a60141eed499b3dea3f2c906971338",
+        "b64b62f5e73811c6e30c792ff95ca6ef7e92913bbea8ba5e8b31c61f5a1b7c66"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "c050531fb3a91ce5aabad1e4789704e468e76de5f9503583d6db9f01b9764715",
+        "df8b1835705f7f9f72c3eb7f9c7c4c483f1370cdde2cc52631b145a02109e8a4",
+        "4a807a35d29826296621fb26d608585af0f14360a368411fd096f8d8f94bb761",
+        "e2e4bb705198b9bdae8ffab002c3326cc3122e6aac70b1521ffff2a5dee68f4a",
+        "ecf701ae9ef041872c652948b052b6f326a60141eed499b3dea3f2c906971338",
+        "b64b62f5e73811c6e30c792ff95ca6ef7e92913bbea8ba5e8b31c61f5a1b7c66"
+      ],
+      "success_hashes": [
+        "c050531fb3a91ce5aabad1e4789704e468e76de5f9503583d6db9f01b9764715",
+        "df8b1835705f7f9f72c3eb7f9c7c4c483f1370cdde2cc52631b145a02109e8a4",
+        "4a807a35d29826296621fb26d608585af0f14360a368411fd096f8d8f94bb761",
+        "e2e4bb705198b9bdae8ffab002c3326cc3122e6aac70b1521ffff2a5dee68f4a",
+        "ecf701ae9ef041872c652948b052b6f326a60141eed499b3dea3f2c906971338",
+        "b64b62f5e73811c6e30c792ff95ca6ef7e92913bbea8ba5e8b31c61f5a1b7c66"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p1_n2",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "764374fd1e93cc906940f248e91b3b6425f5d6181a6204a8a47f2a660756a3b8",
+        "67bb58c740a5c40a4ad3f517712c3eb80898f96f09db0437aab88b319186f270",
+        "760d7183aab90b5a7472c462ad4835d0a1a42362c499ab62997fc51f8d4037ce",
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "1bac6d627d43c1f2ee09166e1836bb48e2b8edaf18d3023fafcc06e3cde1e5a4"
+      ],
+      "success_hashes": [
+        "764374fd1e93cc906940f248e91b3b6425f5d6181a6204a8a47f2a660756a3b8",
+        "67bb58c740a5c40a4ad3f517712c3eb80898f96f09db0437aab88b319186f270",
+        "760d7183aab90b5a7472c462ad4835d0a1a42362c499ab62997fc51f8d4037ce",
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "1bac6d627d43c1f2ee09166e1836bb48e2b8edaf18d3023fafcc06e3cde1e5a4"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "764374fd1e93cc906940f248e91b3b6425f5d6181a6204a8a47f2a660756a3b8",
+        "67bb58c740a5c40a4ad3f517712c3eb80898f96f09db0437aab88b319186f270",
+        "760d7183aab90b5a7472c462ad4835d0a1a42362c499ab62997fc51f8d4037ce",
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "1bac6d627d43c1f2ee09166e1836bb48e2b8edaf18d3023fafcc06e3cde1e5a4"
+      ],
+      "success_hashes": [
+        "764374fd1e93cc906940f248e91b3b6425f5d6181a6204a8a47f2a660756a3b8",
+        "67bb58c740a5c40a4ad3f517712c3eb80898f96f09db0437aab88b319186f270",
+        "760d7183aab90b5a7472c462ad4835d0a1a42362c499ab62997fc51f8d4037ce",
+        "375ee9da904bf2f10aaf92dc5a3fbeddc58a841e1fbf9a87a7a32830be2d488d",
+        "1bac6d627d43c1f2ee09166e1836bb48e2b8edaf18d3023fafcc06e3cde1e5a4"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_071_p3_n5",
+    "case": "case_071",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "success_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "success_hashes": [
+        "f02791636dc7d2faafb72971a2e160b686dfe0fc4458205c80f69c9c14f46279",
+        "1aea7b299a85c58f52265087e4b60e0c4b04d68b8d3184f8cdff00d96eee0c2d",
+        "4df7ee64ab1deb5c8a5d5f34305494fdcc29861f382a8a0635e58fc6b185bc4a",
+        "7d07ed19b7455b14d7a72cce497f599a098701cbcb62a492183c61b9f7a65dff",
+        "ca980f657ff9e292c30c2404e03cead421bd01c476cba3fdc52322cc39ade106"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_075_p1_n5",
+    "case": "case_075",
+    "problem": 1,
+    "cores": 5,
+    "group": "development",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "13f99e5073295774ae44c2a5928cfd669677cc3bf63192950c75b81a910c5ff2",
+        "0ae0cf1d811e865c9302daf9aecbb5aff68f851e1f1e3ed26506dd6383edf4fd",
+        "129b40da141cb5de79f9850167664ec758099492a7f6997cd0404a83fac3f939",
+        "258acf8207c7d696f0e0ef74c1970352eefe81e70e4628d97f71b19556b061a3",
+        "a772783e86483f2e0702adc47913cf39f7ea9c9f8ba1e4a6912523dab5cc3689"
+      ],
+      "success_hashes": [
+        "13f99e5073295774ae44c2a5928cfd669677cc3bf63192950c75b81a910c5ff2",
+        "0ae0cf1d811e865c9302daf9aecbb5aff68f851e1f1e3ed26506dd6383edf4fd",
+        "129b40da141cb5de79f9850167664ec758099492a7f6997cd0404a83fac3f939",
+        "258acf8207c7d696f0e0ef74c1970352eefe81e70e4628d97f71b19556b061a3",
+        "a772783e86483f2e0702adc47913cf39f7ea9c9f8ba1e4a6912523dab5cc3689"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "13f99e5073295774ae44c2a5928cfd669677cc3bf63192950c75b81a910c5ff2",
+        "0ae0cf1d811e865c9302daf9aecbb5aff68f851e1f1e3ed26506dd6383edf4fd",
+        "129b40da141cb5de79f9850167664ec758099492a7f6997cd0404a83fac3f939",
+        "258acf8207c7d696f0e0ef74c1970352eefe81e70e4628d97f71b19556b061a3",
+        "a772783e86483f2e0702adc47913cf39f7ea9c9f8ba1e4a6912523dab5cc3689"
+      ],
+      "success_hashes": [
+        "13f99e5073295774ae44c2a5928cfd669677cc3bf63192950c75b81a910c5ff2",
+        "0ae0cf1d811e865c9302daf9aecbb5aff68f851e1f1e3ed26506dd6383edf4fd",
+        "129b40da141cb5de79f9850167664ec758099492a7f6997cd0404a83fac3f939",
+        "258acf8207c7d696f0e0ef74c1970352eefe81e70e4628d97f71b19556b061a3",
+        "a772783e86483f2e0702adc47913cf39f7ea9c9f8ba1e4a6912523dab5cc3689"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_060_p3_n4",
+    "case": "case_060",
+    "problem": 3,
+    "cores": 4,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "success_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "success_hashes": [
+        "42ee6533969f67f1dc7719396beb55a2db0a6bfa93cef0f413f13b28b786ce16",
+        "7d33d97673ea1e92f47c06f6f8a761c985d9e7586e06e57363abbf2fe7c57674",
+        "f4f999794c9f99226373350d14271584803d54ae6d2b652f9ab365ab6720e367",
+        "8b80a7de1e26faef75d10a915f7e17cc1a84d71fd3e90114ca732dc8c2f567da",
+        "3551291867143d7c6c7d3db17aff584a9c6c889e0a91523b1049a3c2c9a039b5",
+        "dbb1b4466b8c5f75a72b054d5b7d3ffea0e11884e06953da56f988cb6d946b6c"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p3_n3",
+    "case": "case_060",
+    "problem": 3,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "success_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "success_hashes": [
+        "710d3713223100081c021d0b3b480fb40eb0f4509a48dece19c44a5019b27254",
+        "1c46b8f9270335cb78b930b4d576c638702e9953f2fb821f6d962ddb84941d8a",
+        "5cd3816dfa4a4dfe849e65b84abbc9e6709864712f1503e209284a296829f6c5",
+        "624d7178c396fcd036695dcd7d3cf44ca33e8d2153eee17d860ae4a264e1bf88",
+        "0ae5d24ac87826f1ec3d44a7f152341edffb827ab83904a740f9ab085f804e65",
+        "9c70c244c977f7a0022f83b5a56af4595c1b186e79f059016f050e1fb62701cd"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_060_p3_n2",
+    "case": "case_060",
+    "problem": 3,
+    "cores": 2,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "success_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "success_hashes": [
+        "a0c5c76cc075e9f619bdf0445d731e735da3e8eebfdd8c3b5b8856a29d79937d",
+        "61e092b449f11d94fd17a5fbb449902f522aad984219bd4c45f2c15efb62eb73",
+        "8551277103db95e53fa3887b45ef562aa9b826a03afc10378d8d3608d78401ed",
+        "57d8cb8c4685abab9563be37f719dfbea57dd1d7ff0435a93328bad5a38c0708",
+        "09159710b9441b1db7c6c50ea2eb38bea2c609b33c39651c93126b3d650d5aaf",
+        "f4278a06f89eabf519ab02e23f885f88db3250bc4d71f6fdbca53adb71c4fecd"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p1_n3",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 3,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "6e3b98a2787a5ff89133cb705b90069c2dec863b40beb5f5ebccf1d40826bfdc",
+        "96735a2599e101b1d26666b5b03e9c54dedd8c54d7de3eba285493f090fb8607",
+        "64947ae54beda87b20eaa794dd24c5cf8ed77c5ef27bc2c6a5eac57d45bb6f7d",
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "a7c8d719b43bb65501b8cd2c3610d178a380a9b3fdf006845adfe3b02dffc29b"
+      ],
+      "success_hashes": [
+        "6e3b98a2787a5ff89133cb705b90069c2dec863b40beb5f5ebccf1d40826bfdc",
+        "96735a2599e101b1d26666b5b03e9c54dedd8c54d7de3eba285493f090fb8607",
+        "64947ae54beda87b20eaa794dd24c5cf8ed77c5ef27bc2c6a5eac57d45bb6f7d",
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "a7c8d719b43bb65501b8cd2c3610d178a380a9b3fdf006845adfe3b02dffc29b"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "6e3b98a2787a5ff89133cb705b90069c2dec863b40beb5f5ebccf1d40826bfdc",
+        "96735a2599e101b1d26666b5b03e9c54dedd8c54d7de3eba285493f090fb8607",
+        "64947ae54beda87b20eaa794dd24c5cf8ed77c5ef27bc2c6a5eac57d45bb6f7d",
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "a7c8d719b43bb65501b8cd2c3610d178a380a9b3fdf006845adfe3b02dffc29b"
+      ],
+      "success_hashes": [
+        "6e3b98a2787a5ff89133cb705b90069c2dec863b40beb5f5ebccf1d40826bfdc",
+        "96735a2599e101b1d26666b5b03e9c54dedd8c54d7de3eba285493f090fb8607",
+        "64947ae54beda87b20eaa794dd24c5cf8ed77c5ef27bc2c6a5eac57d45bb6f7d",
+        "59b10b4fe54f14571628653fc846ad61ede40d7c3e37bb16187914e11bc173c7",
+        "a7c8d719b43bb65501b8cd2c3610d178a380a9b3fdf006845adfe3b02dffc29b"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_047_p1_n1",
+    "case": "case_047",
+    "problem": 1,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "96649e6918be9b491a18051bf51f8b8277fafaab3ac51be311c9ce4bd5581a0a",
+        "ae87fcb3fcde4acef10273627d7d6a2ec2cf1df2297ea0e52e0c2e3671114a9f",
+        "48ef170aa2a97b296d28936b95ae0a50eef38be22903a52adfaea9c588857beb",
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "e11c6426aecf3ddd6f584a5b58602b4cb92655a30b2c098319818386aa742d47"
+      ],
+      "success_hashes": [
+        "96649e6918be9b491a18051bf51f8b8277fafaab3ac51be311c9ce4bd5581a0a",
+        "ae87fcb3fcde4acef10273627d7d6a2ec2cf1df2297ea0e52e0c2e3671114a9f",
+        "48ef170aa2a97b296d28936b95ae0a50eef38be22903a52adfaea9c588857beb",
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "e11c6426aecf3ddd6f584a5b58602b4cb92655a30b2c098319818386aa742d47"
+      ],
+      "calls": 5
+    },
+    "persistent": {
+      "plan_hashes": [
+        "96649e6918be9b491a18051bf51f8b8277fafaab3ac51be311c9ce4bd5581a0a",
+        "ae87fcb3fcde4acef10273627d7d6a2ec2cf1df2297ea0e52e0c2e3671114a9f",
+        "48ef170aa2a97b296d28936b95ae0a50eef38be22903a52adfaea9c588857beb",
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "e11c6426aecf3ddd6f584a5b58602b4cb92655a30b2c098319818386aa742d47"
+      ],
+      "success_hashes": [
+        "96649e6918be9b491a18051bf51f8b8277fafaab3ac51be311c9ce4bd5581a0a",
+        "ae87fcb3fcde4acef10273627d7d6a2ec2cf1df2297ea0e52e0c2e3671114a9f",
+        "48ef170aa2a97b296d28936b95ae0a50eef38be22903a52adfaea9c588857beb",
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "e11c6426aecf3ddd6f584a5b58602b4cb92655a30b2c098319818386aa742d47"
+      ],
+      "calls": 5
+    }
+  },
+  {
+    "config_id": "case_046_p3_n5",
+    "case": "case_046",
+    "problem": 3,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "success_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "success_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_047_p2_n1",
+    "case": "case_047",
+    "problem": 2,
+    "cores": 1,
+    "group": "core_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "success_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "calls": 3
+    },
+    "persistent": {
+      "plan_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "success_hashes": [
+        "2110aa78cff4d0187947ca1518560e0ef039842117d303e61c293ba9c1efbe03",
+        "207e06941911a759aa411b57ef660cc6d33d9365d78d2a925887d16bebd9bd66",
+        "400a057303f1a07af8b4726b5b91c234660c58109ea02ec870ca7e7934ab204d"
+      ],
+      "calls": 3
+    }
+  },
+  {
+    "config_id": "case_046_p2_n5",
+    "case": "case_046",
+    "problem": 2,
+    "cores": 5,
+    "group": "existing_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "success_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "success_hashes": [
+        "57d67aefce343c36ab03986bd1f83911b3f733bdb6080384104b28dc5ad5eeb0",
+        "ca6ffd33cdd926517581d3e02283c531d87d72c5978c526ae1833d36afc10278",
+        "396efb1f66fd9e36e246447812c38bcccf06aaef3a673ed640a01987fec84dc9",
+        "82e8863578728ad120dc7c4ece63a8cded0abaae75628cd5f3f4d5a86279f304",
+        "3395202c71a9691872668df240cdc4e1bea63bcb4c44090843e4411fe4ac3fae",
+        "7eb207e1a03f64445c5fd81730927f6c0ed7755d791f1ec721b5bf060d01eaaf"
+      ],
+      "calls": 6
+    }
+  },
+  {
+    "config_id": "case_012_p3_n5",
+    "case": "case_012",
+    "problem": 3,
+    "cores": 5,
+    "group": "frozen_regression",
+    "hashes_equal": true,
+    "successful_hashes_equal": true,
+    "legacy": {
+      "plan_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "success_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "calls": 6
+    },
+    "persistent": {
+      "plan_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "success_hashes": [
+        "2742b36c6a3fdb691476118349a21513d9e1d935581567cb3061f5402a64abeb",
+        "218b5d38a0b6293db615f831a45d66c26d7432513dfb47309f590bffc77e6e34",
+        "c378651e386c851cf961fa6c8af8917ec7403fb4cb0e2fe02063f359efd3fb55",
+        "6e0292819b6c88f5dbc25e5b517f24e9e462f3de5c368f4fd59a826d27f8628f",
+        "030a06a696bbdb1c216b0ad6035071baf1e6df7af0dfae55e05f2dae4adc6ced",
+        "23d7940d1b67f65c9bfccbfc0391ef27ef37e982fb46c4cd0ec2cfd8faeb0c69"
+      ],
+      "calls": 6
+    }
+  }
+]
