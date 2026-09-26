@@ -1,0 +1,84 @@
+{
+  "previous_goal_turn": "progress: committed algorithms, 816 independently replayed results, CPU matrix completion and remaining recovery execution",
+  "authoritative_requirements": {
+    "latest_teammate_base": {
+      "d260720": true,
+      "2b770fb": true
+    },
+    "official_graph_and_evaluator_unchanged": true,
+    "hardware_handoff": "A/B/C/D candidates implemented and evaluated; only demonstrated budget integration promoted; negative routes retained and stopped",
+    "cold_complete_configurations": 1500,
+    "cold_archive_restored": 1500,
+    "selected_archive_ordered_hashes": 1500,
+    "selected_no_regression": true,
+    "independent_delivery_batches": {
+      "第一批成果": {
+        "replays": 89,
+        "passed": true
+      },
+      "第二批成果": {
+        "replays": 43,
+        "passed": true
+      },
+      "第三批全量成果": {
+        "replays": 816,
+        "passed": true
+      },
+      "第四批收尾成果": {
+        "replays": 12,
+        "passed": true
+      }
+    },
+    "total_selected_replays": 960,
+    "total_unique_improved_vs_d260720": 938,
+    "cold_calls_including_failed_host_runs": 30144,
+    "cold_failed_calls_including_failed_host_runs": 592,
+    "extended_time_recoveries": 7,
+    "paired_p23_development_panel": {
+      "configurations": 80,
+      "wins": 53,
+      "ties": 27,
+      "losses": 0,
+      "scope": "developmental, not blind"
+    },
+    "p1_new_gate": {
+      "wins": 2,
+      "ties": 12,
+      "losses": 2,
+      "default_promoted": false
+    },
+    "legality_regressions": "6 targeted event-frontier tests passed; all1500 plans additionally checked against actual graph",
+    "charts": "cold_vs_selected.png visually inspected; PDF exported",
+    "separate_scores_and_tradeoffs": "cold and selected tables and compact archives; optional1%time COPY/cache operating points",
+    "hardware_use": "7 mechanism families completed previously; additional P1 official simulator CPU shard completed on provided host"
+  },
+  "source_sha256": {
+    "event_frontier.py": "31d0a4cac44645accbe8d673e5e97a2bf367f6daba4b123dc8737ff483bea2b9",
+    "frontier_solver.py": "e6816b305a3df08353d7c632e063bc7f7e83c9c77208f61d8251aa6c4c6d749b",
+    "solve_hardware_unified.py": "2db9ba2d32d9063cbc093b766b36463952e58ebc8171c64204929372530a6c71",
+    "barrier_bands.py": "2630f6b55d04f69e91850a44fdeb41cb17638608a427615e13969c4426185abe",
+    "critical_contract.py": "c11fa7360bc8245411f3de2ed8a6705ee452eaff6e5731cbc5600b66404af539",
+    "residency_frontier.py": "44345ef69a9a7e847786cd3650de65cdd51ca88cb1b243772feb5420984ee45f",
+    "cache_gap_link.py": "822d496b53ad607fa12f72ba7e05a576858b378deea137b73e4fda3018189f76",
+    "p1_stagnation_portfolio.py": "292ee7561e08f94b76dfde789d1847bb5f83fce7d4892a19a3a8ba89a211d479",
+    "p1_late_policy.py": "ae5f47bdf74862fd3815c0774c86505bec84c061e93704101287c0d423dafb46",
+    "bounded_task_fallback.py": "5491cdcc6ff36af1260f862bd3f5a485eb548ee5fb2b02aa9ed7b53043d67b98",
+    "recover_empty_cold.py": "0633c61dc46801678d24d6a8b138906137593bcd6f5fd5ed6651d32155df6eee",
+    "finish_p1_cold_shard.py": "4c9fd63a6ee016be2f465b4507c7b97ada8960bfc797d6b2a1aa03661cec991b",
+    "export_cold_runs.py": "7e2d78b39031fc152f17436aeb9df0320ea90e85578e32567106cc34ec0b1689",
+    "assemble_cold_matrix.py": "c1a6a66ce5f81b1fce45c80e32cbc88a6fb59dcd2bdbd927735b7cf28c26c6d4",
+    "export_selected_library.py": "534225e78a9c9925b8ab4f6edc1fb4eb8ac065b43383d58cfc983d4357fe17f1",
+    "deliver_frontier.py": "1afc7eeef639515aa3089151d2cf94f0184f7cbff4df9028cb3a0feb55b8deff",
+    "plot_hardware_release.py": "049dd6b556bfea56ae23c0046b00e1a786657a5347cfbeddfde7eeb5f0799751"
+  },
+  "remaining_before_final_completion": [
+    "commit final artifacts and push final branch/tag; verify clean tree and matching remote refs"
+  ],
+  "limitations": [
+    "47 failed host runs were retried with costs retained",
+    "7 P1 primary240s runs required logged empty-run recovery",
+    "no blind generalization claim",
+    "no organizer total score",
+    "no exact causal model for every waiting source"
+  ]
+}

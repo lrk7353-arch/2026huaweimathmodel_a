@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "plans": 1500,
+  "exact_ordered_hashes": 1500,
+  "regressions": 0,
+  "improved_configurations": 12,
+  "independent_replays": 12,
+  "five_core": {
+    "1": {
+      "before": 3.907244794831929,
+      "after": 3.9075240776844127,
+      "copy_before": 1867292952,
+      "copy_after": 1868295024
+    },
+    "2": {
+      "before": 4.726023695868106,
+      "after": 4.726023695868106,
+      "copy_before": 1135054178,
+      "copy_after": 1135054178
+    },
+    "3": {
+      "before": 4.869796170198467,
+      "after": 4.869796170198467,
+      "copy_before": 1116467222,
+      "copy_after": 1116467222
+    }
+  },
+  "p3_cache": {
+    "mean_graph_byte_hit_rate": 0.2789643939134009,
+    "weighted_byte_hit_rate": 0.313007098574289
+  },
+  "improvements": [
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        592320,
+        1314672
+      ],
+      "after": [
+        588859,
+        683810
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 2,
+      "before": [
+        538381,
+        98304
+      ],
+      "after": [
+        518040,
+        1839404
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        538381,
+        98304
+      ],
+      "after": [
+        504527,
+        1839404
+      ]
+    },
+    {
+      "case": "case_003",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        538381,
+        98304
+      ],
+      "after": [
+        322298,
+        6080450
+      ]
+    },
+    {
+      "case": "case_016",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        7731302,
+        7274944
+      ],
+      "after": [
+        7715523,
+        0
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        546106,
+        5882944
+      ],
+      "after": [
+        539487,
+        6496188
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        492232,
+        6360992
+      ],
+      "after": [
+        485540,
+        11672724
+      ]
+    },
+    {
+      "case": "case_053",
+      "problem": 1,
+      "cores": 5,
+      "before": [
+        470274,
+        15299978
+      ],
+      "after": [
+        466117,
+        16302050
+      ]
+    },
+    {
+      "case": "case_054",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        517960,
+        49152
+      ],
+      "after": [
+        492148,
+        2283422
+      ]
+    },
+    {
+      "case": "case_062",
+      "problem": 1,
+      "cores": 3,
+      "before": [
+        2784050,
+        43739136
+      ],
+      "after": [
+        1185271,
+        6746112
+      ]
+    },
+    {
+      "case": "case_062",
+      "problem": 1,
+      "cores": 4,
+      "before": [
+        2127630,
+        5597184
+      ],
+      "after": [
+        881326,
+        16896000
+      ]
+    },
+    {
+      "case": "case_085",
+      "problem": 1,
+      "cores": 1,
+      "before": [
+        3155166,
+        3497710
+      ],
+      "after": [
+        3138775,
+        5089534
+      ]
+    }
+  ],
+  "scope": "portable plan legality, unchanged denominator, selected replay evidence; not cold performance"
+}

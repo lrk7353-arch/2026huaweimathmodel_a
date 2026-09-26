@@ -1,0 +1,11 @@
+{
+  "calls": 11,
+  "failed_calls": 3,
+  "evaluation_elapsed_seconds": 525.9750840150227,
+  "reasons": {
+    "bounded_task_feasibility_pilot": 1,
+    "duplicate_recovery_during_coordinator_refresh": 7,
+    "long_timeout_recovery_pilot": 3
+  },
+  "scope": "additional research/execution overhead beyond the selected cold1500+remote failed188 ledger; repeated inherited prefix calls excluded; these are not free retries"
+}

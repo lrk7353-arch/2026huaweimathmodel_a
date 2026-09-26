@@ -227,6 +227,7 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(); p.add_argument('--exports', type=Path, nargs='+', required=True)
     p.add_argument('--reference', type=Path, required=True); p.add_argument('--out', type=Path, required=True)
     p.add_argument('--prior-failures', type=Path, nargs='*', default=[])
+    p.add_argument('--skip-plot', action='store_true', help='assemble data without optional matplotlib dependency')
     p.add_argument('--allow-partial', action='store_true'); a = p.parse_args()
     assemble(a.exports, a.reference, a.out, a.allow_partial, a.prior_failures)
-    if not a.allow_partial: plot(a.out)
+    if not a.allow_partial and not a.skip_plot: plot(a.out)

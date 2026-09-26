@@ -40,9 +40,18 @@ def main():
     ledger=args.ledger.resolve()
     rows=list(csv.DictReader(ledger.open(encoding='utf-8-sig')))
     baseline={(r['case'],int(r['problem']),int(r['cores'])):r for r in rows}
-    selected={};calls=[];summaries=[]
+    selected={};calls=[];summaries=[];seen_summaries=set()
     for directory in args.roots:
-        for file in sorted(Path(directory).rglob('summary.json')):
+        root=Path(directory)
+        if (root/'results.json').exists():
+            indexed=read_json(root/'results.json')
+            files=[Path(r['summary']) for r in indexed if isinstance(r,dict) and r.get('summary')]
+        else:files=[]
+        if not files:files=sorted(root.rglob('summary.json'))
+        for file in files:
+            file=file.resolve()
+            if file in seen_summaries:continue
+            seen_summaries.add(file)
             s=read_json(file)
             if not s.get('complete') or not all(k in s for k in ('case','problem','cores','calls','best_record')):continue
             if not args.include_cold and 'ledger_baseline' not in s:continue

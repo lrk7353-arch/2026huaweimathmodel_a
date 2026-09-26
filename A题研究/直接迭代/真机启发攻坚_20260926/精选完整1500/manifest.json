@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "configurations": 1500,
+  "original_ledger": "../第四批收尾成果/累计1500配置成绩.csv",
+  "original_ledger_sha256": "5944b657d53e6223e411af95f24b786a73b2ac3ed153f371d3226270a46ab885",
+  "archive_sha256": "dd4a9250b686b2bf2ec5f4b2405e9d50ddbe20f920a5ad24a974c9781e36e8f5",
+  "scope": "self-contained plan archive with unchanged verified scores and ordered hashes; cumulative library, not cold solves; extract archive beside CSV"
+}
