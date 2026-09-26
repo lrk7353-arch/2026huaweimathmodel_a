@@ -1,0 +1,13 @@
+{
+  "case": "case_087",
+  "cores": 5,
+  "original_calls": 4,
+  "long_timeout_added_calls": 3,
+  "long_timeout_added_seconds": 480.0804934859916,
+  "long_timeout_success": false,
+  "bounded_task_cap": 512,
+  "bounded_probe_seconds": 13.16730296498281,
+  "bounded_probe_makespan": 4014055,
+  "bounded_probe_copy": 14549170,
+  "scope": "developmental feasibility control, not a high-quality scheduling result; extended retries failed, bounded Task evaluation succeeded; separate pilot costs, not a free cold input"
+}
