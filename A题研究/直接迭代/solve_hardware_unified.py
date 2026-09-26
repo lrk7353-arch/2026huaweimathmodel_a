@@ -16,14 +16,23 @@ if __name__=='__main__':
     p.add_argument('--timeout',type=float,default=60);p.add_argument('--out',type=Path,required=True)
     p.add_argument('--operation-policy',choices=('legacy','paired_w200'),default='legacy',
         help='opt-in P2/P3 joint ownership/order seeds; legacy keeps released behavior')
+    p.add_argument('--search-policy',choices=('released','persistent','persistent_legacy'),default='released',
+        help='continuous structural search, or its same-initialization old-loop control; released keeps prior defaults')
     p.add_argument('--strict-time-limit',action='store_true',
         help='disable the documented empty-run recovery extension')
     a=p.parse_args()
     # Only P2/P3 have passed the paired 2--5 core integration panel. P1 uses
     # its mature integrated trajectory; improved library plans are separate.
-    s=run(f'case_{a.case:03d}',a.problem,a.cores,a.out,a.budget,a.seconds,a.timeout,
-          'mature' if a.problem==1 else 'frontier',a.operation_policy)
-    if not s['best_record'] and s['logical_calls']<s['budget'] and not a.strict_time_limit:
+    if a.search_policy!='released':
+        if a.operation_policy!='legacy':
+            p.error('continuous search has its own frozen initialization; do not combine operation-policy')
+        from persistent_search import run as continuous_run
+        s=continuous_run(f'case_{a.case:03d}',a.problem,a.cores,a.out,a.budget,a.seconds,a.timeout,
+            'legacy' if a.search_policy=='persistent_legacy' else 'persistent')
+    else:
+        s=run(f'case_{a.case:03d}',a.problem,a.cores,a.out,a.budget,a.seconds,a.timeout,
+              'mature' if a.problem==1 else 'frontier',a.operation_policy)
+    if a.search_policy=='released' and not s['best_record'] and s['logical_calls']<s['budget'] and not a.strict_time_limit:
         atomic_json(a.out/'primary_summary.json',s)
         s=recover(s,a.out/'recovery')
         s['time_protocol'].update(primary_seconds=a.seconds,primary_single_timeout=a.timeout)
