@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "source": "A题研究/直接迭代/运行结果/从头全量P23便携1000_v1",
+  "groups": [
+    {
+      "problem": 2,
+      "mode": "min_copy_within_1pct_time",
+      "graphs": 100,
+      "copy_saved_bytes": 35755528,
+      "configurations_saving_copy": 19,
+      "max_time_ratio": 1.0097817227452237,
+      "mean_graph_byte_hit_rate": null
+    },
+    {
+      "problem": 2,
+      "mode": "min_copy_within_3pct_time",
+      "graphs": 100,
+      "copy_saved_bytes": 50733580,
+      "configurations_saving_copy": 26,
+      "max_time_ratio": 1.0269598235107287,
+      "mean_graph_byte_hit_rate": null
+    },
+    {
+      "problem": 2,
+      "mode": "time_first",
+      "graphs": 100,
+      "copy_saved_bytes": 0,
+      "configurations_saving_copy": 0,
+      "max_time_ratio": 1.0,
+      "mean_graph_byte_hit_rate": null
+    },
+    {
+      "problem": 3,
+      "mode": "max_byte_hit_within_1pct_time_no_extra_copy",
+      "graphs": 100,
+      "copy_saved_bytes": 26813952,
+      "configurations_saving_copy": 7,
+      "max_time_ratio": 1.0095540534264718,
+      "mean_graph_byte_hit_rate": 0.26445886634663557
+    },
+    {
+      "problem": 3,
+      "mode": "min_copy_within_1pct_time",
+      "graphs": 100,
+      "copy_saved_bytes": 32381952,
+      "configurations_saving_copy": 13,
+      "max_time_ratio": 1.0095452097531987,
+      "mean_graph_byte_hit_rate": 0.2556397359516536
+    },
+    {
+      "problem": 3,
+      "mode": "min_copy_within_3pct_time",
+      "graphs": 100,
+      "copy_saved_bytes": 35069952,
+      "configurations_saving_copy": 18,
+      "max_time_ratio": 1.029824038174769,
+      "mean_graph_byte_hit_rate": 0.25947560874790565
+    },
+    {
+      "problem": 3,
+      "mode": "time_first",
+      "graphs": 100,
+      "copy_saved_bytes": 0,
+      "configurations_saving_copy": 0,
+      "max_time_ratio": 1.0,
+      "mean_graph_byte_hit_rate": 0.2528532357708029
+    }
+  ],
+  "scope": "post-hoc optional operating points from the same paid B24 pool; no new evaluations; not a cache causality claim or a changed default solver"
+}

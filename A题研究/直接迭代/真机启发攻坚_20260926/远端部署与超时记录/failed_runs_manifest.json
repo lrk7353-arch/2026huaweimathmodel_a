@@ -1,0 +1,1 @@
+{"configurations": 47, "logical_calls": 188, "failed_calls": 188, "reason": "No successful official evaluation within the frozen 240 s run / 60 s single-attempt limits; preserve all failed costs and rerun these explicit configurations from scratch on local CPU."}
